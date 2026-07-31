@@ -5,4 +5,6 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 export default withNextIntl({
   reactStrictMode: true,
   poweredByHeader: false,
+  // Sharp is a native Node module — must not run on Edge.
+  serverExternalPackages: ["sharp"],
 });

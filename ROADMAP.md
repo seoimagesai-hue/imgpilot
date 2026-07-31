@@ -10,8 +10,9 @@
 - [x] Zod environment validation foundation
 - [x] ESLint and Vitest testing foundation
 - [x] Dependencies installed; typecheck, lint, tests, and production build verified in this environment
-- [x] Database foundation (Drizzle schema + migration generated; apply blocked without DATABASE_URL)
-- [x] Authentication (Auth.js credentials + conditional Google; live DB flows blocked without DATABASE_URL)
+- [x] Database foundation (Drizzle schema + migration applied on Supabase)
+- [x] Authentication (Auth.js credentials verified live; Google OAuth not tested)
+
 
 ## Milestone 1: Public website
 - [ ] Homepage
@@ -21,18 +22,28 @@
 - [ ] Legal pages (privacy, terms, retention)
 
 ## Milestone 2: User dashboard and projects
-- [ ] Database schema (users, projects, settings)
-- [ ] Project CRUD
+- [x] Database schema (users + projects; settings deferred)
+- [x] Project CRUD (create, list, view, edit, soft archive/restore, ownership filters)
 - [ ] Account settings
-- [ ] Separate metadata output language setting
+- [x] Separate metadata output language on projects (interface locale remains independent)
 
 ## Milestone 3: Bulk image upload
-- [ ] Drag and drop
-- [ ] Multiple files
+- [x] Image upload domain foundation (schema, policy, storage abstraction, library/upload placeholders; no real persistence yet)
+- [x] Cloudflare R2 private bucket integration and direct upload (live operator upload verified on `seoimages-dev`)
+- [x] Trusted server-side image validation and metadata inspection (Sharp metadata + full decode; live R2 JPEG/PNG/WebP script passed)
+- [x] Project image library polish (thumbnails via private originals, filters, search, sort, pagination, grid/table, selection foundation)
+- [x] Image delete / replace (recoverable saga + private R2 cleanup; live R2 verified)
+- [x] Project upload limits / storage accounting / quota enforcement (dev defaults; not billing)
+- [ ] Drag and drop polish
+- [ ] Multipart upload
 - [ ] ZIP upload
-- [ ] Validation and progress
-- [ ] R2 storage with original vs optimized key prefixes
-- [ ] Upload batches
+- [ ] Validation and progress polish
+- [ ] R2 optimized key prefix (processing)
+- [ ] Upload batches polish
+- [ ] Billing credits (Stripe tiers deferred to Milestone 8)
+- [x] Ready-for-processing lifecycle
+
+**Milestone 3 status: Complete** (upload, validation, library, delete/replace, quota, ready-for-processing). Remaining unchecked items are polish deferred beyond core M3 closure.
 
 ## Milestone 4: Image processing
 - [ ] Processing queue and worker

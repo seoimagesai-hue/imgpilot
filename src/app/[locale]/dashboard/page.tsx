@@ -1,19 +1,22 @@
-import {FolderKanban, HardDriveDownload, Images, Plus} from "lucide-react";
+import {FolderKanban, HardDriveDownload, Images} from "lucide-react";
 import {getTranslations} from "next-intl/server";
+import {Link} from "@/i18n/navigation";
 import {LanguageSwitcher} from "@/components/dashboard/language-switcher";
 import {UserMenu} from "@/components/dashboard/user-menu";
 import {auth} from "@/auth";
+import {countProjectsForUser} from "@/server/projects/queries";
 
 export default async function DashboardPage() {
   const t = await getTranslations("dashboard");
   const authT = await getTranslations("authentication");
-  const projects = await getTranslations("projects");
+  const projectsT = await getTranslations("projects");
   const session = await auth();
+  const activeCount = session?.user?.id ? await countProjectsForUser(session.user.id, "active") : 0;
 
   const stats = [
     {label: t("imagesProcessed"), value: "0", icon: Images},
     {label: t("storageSaved"), value: "0 MB", icon: HardDriveDownload},
-    {label: t("activeProjects"), value: "0", icon: FolderKanban},
+    {label: t("activeProjects"), value: String(activeCount), icon: FolderKanban},
   ] as const;
 
   return (
@@ -57,25 +60,25 @@ export default async function DashboardPage() {
       >
         <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
           <div>
-            <h2 className="font-semibold">{projects("title")}</h2>
-            <p className="mt-1 text-sm text-[var(--muted)]">{projects("placeholder")}</p>
+            <h2 className="font-semibold">{projectsT("title")}</h2>
+            <p className="mt-1 text-sm text-[var(--muted)]">{projectsT("subtitle")}</p>
           </div>
-          <button
-            type="button"
-            disabled
-            className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white opacity-60"
+          <Link
+            href="/dashboard/projects/new"
+            className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white"
           >
-            <Plus className="size-4" aria-hidden="true" />
             {t("newProject")}
-          </button>
+          </Link>
         </div>
-        <div className="grid min-h-52 place-items-center rounded-xl border border-dashed border-[var(--border)] bg-gray-50 p-8 text-center">
+        <div className="grid min-h-40 place-items-center rounded-xl border border-dashed border-[var(--border)] bg-gray-50 p-8 text-center">
           <div>
-            <span className="mx-auto mb-4 grid size-12 place-items-center rounded-xl bg-white shadow-sm">
-              <FolderKanban className="size-5 text-[var(--accent)]" aria-hidden="true" />
-            </span>
-            <h3 className="font-medium">{t("emptyTitle")}</h3>
-            <p className="mt-2 text-sm text-[var(--muted)]">{t("emptyText")}</p>
+            <h3 className="font-medium">{activeCount ? projectsT("title") : t("emptyTitle")}</h3>
+            <p className="mt-2 text-sm text-[var(--muted)]">
+              {activeCount ? projectsT("subtitle") : t("emptyText")}
+            </p>
+            <Link href="/dashboard/projects" className="mt-4 inline-flex text-sm font-medium text-[var(--accent)]">
+              {t("goToProjects")}
+            </Link>
           </div>
         </div>
       </section>

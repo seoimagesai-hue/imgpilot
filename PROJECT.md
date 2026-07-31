@@ -90,7 +90,7 @@ Credit-based Free, Starter, Pro, and Agency plans. Exact prices and credit costs
 - Auth.js-ready authentication architecture
 - next-intl for internationalization
 - Zod for environment validation
-- Cloudflare R2 (future) for object storage
+- Cloudflare R2 private object storage (direct browser upload live-verified in dev)
 - Sharp/libvips in workers (future) for image processing
 - Durable job/queue system (future)
 - Provider-abstracted vision AI (future)

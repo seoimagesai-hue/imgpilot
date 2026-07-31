@@ -18,7 +18,12 @@ export function DashboardNav({onNavigate, className}: DashboardNavProps) {
   return (
     <nav className={cn("space-y-1", className)} aria-label={common("mainNavigation")}>
       {dashboardNavItems.map(({key, href, icon: Icon}) => {
-        const isActive = key === "dashboard" && pathname === "/dashboard";
+        const isActive =
+          key === "dashboard"
+            ? pathname === "/dashboard"
+            : key === "projects"
+              ? pathname === "/dashboard/projects" || pathname.startsWith("/dashboard/projects/")
+              : false;
         return (
           <Link
             key={key}
