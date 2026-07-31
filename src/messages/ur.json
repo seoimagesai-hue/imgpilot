@@ -1,0 +1,72 @@
+{
+  "common": {
+    "brand": "SEO Images",
+    "comingSoon": "جلد آ رہا ہے",
+    "openMenu": "نیویگیشن کھولیں",
+    "closeMenu": "نیویگیشن بند کریں",
+    "mainNavigation": "مرکزی نیویگیشن"
+  },
+  "navigation": {
+    "dashboard": "ڈیش بورڈ",
+    "projects": "پروجیکٹس",
+    "usage": "استعمال",
+    "billing": "بلنگ",
+    "settings": "اکاؤنٹ سیٹنگز"
+  },
+  "authentication": {
+    "loginTitle": "سائن اِن",
+    "loginSubtitle": "اپنے بلک امیج آپٹیمائزیشن ورک اسپیس تک رسائی حاصل کریں۔",
+    "registerTitle": "اکاؤنٹ بنائیں",
+    "registerSubtitle": "پروجیکٹس، سیٹنگز اور پروسیسنگ ہسٹری محفوظ کریں۔",
+    "name": "نام",
+    "email": "ای میل",
+    "password": "پاس ورڈ",
+    "confirmPassword": "پاس ورڈ کی تصدیق",
+    "signIn": "سائن اِن",
+    "signingIn": "سائن اِن ہو رہا ہے…",
+    "createAccount": "اکاؤنٹ بنائیں",
+    "creatingAccount": "اکاؤنٹ بنایا جا رہا ہے…",
+    "signOut": "سائن آؤٹ",
+    "continueWithGoogle": "گوگل کے ساتھ جاری رکھیں",
+    "googleUnavailable": "گوگل سائن اِن ترتیب نہیں دیا گیا",
+    "or": "یا",
+    "noAccount": "اکاؤنٹ نہیں ہے؟",
+    "haveAccount": "پہلے سے اکاؤنٹ ہے؟",
+    "invalidCredentials": "غلط ای میل یا پاس ورڈ۔",
+    "accountExists": "اس ای میل کے ساتھ اکاؤنٹ پہلے سے موجود ہے۔",
+    "passwordMismatch": "پاس ورڈ ایک جیسے نہیں ہیں۔",
+    "passwordTooShort": "پاس ورڈ کم از کم ۸ حروف کا ہونا چاہیے۔",
+    "passwordRequirements": "کم از کم ۸ حروف استعمال کریں۔",
+    "passwordRequired": "پاس ورڈ ضروری ہے۔",
+    "confirmPasswordRequired": "براہ کرم پاس ورڈ کی تصدیق کریں۔",
+    "nameRequired": "نام ضروری ہے۔",
+    "emailRequired": "ای میل ضروری ہے۔",
+    "emailInvalid": "درست ای میل درج کریں۔",
+    "registrationSuccess": "اکاؤنٹ کامیابی سے بن گیا۔",
+    "genericFailure": "تصدیق ناکام ہوئی۔ دوبارہ کوشش کریں۔",
+    "signedInAs": "سائن اِن بطور",
+    "secureAreaHint": "محفوظ علاقہ — جاری رکھنے کے لیے سائن اِن کریں۔"
+  },
+  "dashboard": {
+    "welcome": "SEO Images میں خوش آمدید",
+    "subtitle": "ایک صاف ورک اسپیس سے ویب سائٹ کی تصاویر کو بلک میں تیار کریں۔",
+    "newProject": "پروجیکٹ بنائیں",
+    "emptyTitle": "ابھی کوئی پروجیکٹ نہیں",
+    "emptyText": "آپ کے امیج آپٹیمائزیشن پروجیکٹس یہاں نظر آئیں گے۔",
+    "imagesProcessed": "پروسیس شدہ تصاویر",
+    "storageSaved": "بچائی گئی اسٹوریج",
+    "activeProjects": "فعال پروجیکٹس"
+  },
+  "projects": {
+    "title": "پروجیکٹس",
+    "placeholder": "پروجیکٹ مینجمنٹ بعد کے مرحلے میں دستیاب ہوگی۔"
+  },
+  "language": {
+    "label": "انٹرفیس کی زبان",
+    "english": "انگریزی",
+    "urdu": "اردو"
+  },
+  "errors": {
+    "generic": "کچھ غلط ہو گیا۔"
+  }
+}

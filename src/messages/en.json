@@ -1,0 +1,72 @@
+{
+  "common": {
+    "brand": "SEO Images",
+    "comingSoon": "Coming soon",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation",
+    "mainNavigation": "Main navigation"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "usage": "Usage",
+    "billing": "Billing",
+    "settings": "Account settings"
+  },
+  "authentication": {
+    "loginTitle": "Sign in",
+    "loginSubtitle": "Access your bulk image optimization workspace.",
+    "registerTitle": "Create account",
+    "registerSubtitle": "Save projects, settings, and processing history.",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "createAccount": "Create account",
+    "creatingAccount": "Creating account…",
+    "signOut": "Sign out",
+    "continueWithGoogle": "Continue with Google",
+    "googleUnavailable": "Google sign-in is not configured",
+    "or": "or",
+    "noAccount": "Do not have an account?",
+    "haveAccount": "Already have an account?",
+    "invalidCredentials": "Invalid email or password.",
+    "accountExists": "An account with this email already exists.",
+    "passwordMismatch": "Passwords do not match.",
+    "passwordTooShort": "Password must be at least 8 characters.",
+    "passwordRequirements": "Use at least 8 characters.",
+    "passwordRequired": "Password is required.",
+    "confirmPasswordRequired": "Please confirm your password.",
+    "nameRequired": "Name is required.",
+    "emailRequired": "Email is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "registrationSuccess": "Account created successfully.",
+    "genericFailure": "Authentication failed. Please try again.",
+    "signedInAs": "Signed in as",
+    "secureAreaHint": "Protected area — sign in to continue."
+  },
+  "dashboard": {
+    "welcome": "Welcome to SEO Images",
+    "subtitle": "Prepare website images in bulk from one clean workspace.",
+    "newProject": "Create project",
+    "emptyTitle": "No projects yet",
+    "emptyText": "Your image optimization projects will appear here.",
+    "imagesProcessed": "Images processed",
+    "storageSaved": "Storage saved",
+    "activeProjects": "Active projects"
+  },
+  "projects": {
+    "title": "Projects",
+    "placeholder": "Project management will be available in a later milestone."
+  },
+  "language": {
+    "label": "Interface language",
+    "english": "English",
+    "urdu": "Urdu"
+  },
+  "errors": {
+    "generic": "Something went wrong."
+  }
+}
