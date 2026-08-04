@@ -32,42 +32,98 @@ export async function overviewCounts(): Promise<OverviewCounts> {
   const todayStart = new Date();
   todayStart.setHours(0, 0, 0, 0);
 
+  async function safeCount(label: string, run: () => Promise<number>): Promise<number> {
+    try {
+      return await run();
+    } catch (err) {
+      console.error(`[admin] overview count failed: ${label}`, err instanceof Error ? err.message : err);
+      return 0;
+    }
+  }
+
   const [
     usersTotal,
     usersActive,
     usersSuspended,
     guestSessionsCount,
     subscriptionsCount,
-    usageToday,
-    failedJobs,
-    cleanupPending,
+    usageLedgerToday,
+    failedProcessingJobs,
+    guestCleanupPending,
   ] = await Promise.all([
-    db.select({count: count()}).from(users),
-    db.select({count: count()}).from(users).where(eq(users.accountStatus, "active")),
-    db.select({count: count()}).from(users).where(eq(users.accountStatus, "suspended")),
-    db.select({count: count()}).from(guestSessions),
-    db.select({count: count()}).from(billingSubscriptions),
-    db
-      .select({count: count()})
-      .from(billingUsageLedger)
-      .where(gte(billingUsageLedger.recordedAt, todayStart)),
-    db.select({count: count()}).from(processingJobs).where(eq(processingJobs.status, "failed")),
-    db
-      .select({count: count()})
-      .from(guestCleanupQueue)
-      .where(eq(guestCleanupQueue.status, "pending")),
+    safeCount("usersTotal", async () => {
+      const [row] = await db.select({count: count()}).from(users);
+      return row?.count ?? 0;
+    }),
+    safeCount("usersActive", async () => {
+      const [row] = await db
+        .select({count: count()})
+        .from(users)
+        .where(eq(users.accountStatus, "active"));
+      return row?.count ?? 0;
+    }),
+    safeCount("usersSuspended", async () => {
+      const [row] = await db
+        .select({count: count()})
+        .from(users)
+        .where(eq(users.accountStatus, "suspended"));
+      return row?.count ?? 0;
+    }),
+    safeCount("guestSessions", async () => {
+      const [row] = await db.select({count: count()}).from(guestSessions);
+      return row?.count ?? 0;
+    }),
+    safeCount("subscriptions", async () => {
+      const [row] = await db.select({count: count()}).from(billingSubscriptions);
+      return row?.count ?? 0;
+    }),
+    safeCount("usageToday", async () => {
+      const [row] = await db
+        .select({count: count()})
+        .from(billingUsageLedger)
+        .where(gte(billingUsageLedger.recordedAt, todayStart));
+      return row?.count ?? 0;
+    }),
+    safeCount("failedJobs", async () => {
+      const [row] = await db
+        .select({count: count()})
+        .from(processingJobs)
+        .where(eq(processingJobs.status, "failed"));
+      return row?.count ?? 0;
+    }),
+    safeCount("cleanupPending", async () => {
+      const [row] = await db
+        .select({count: count()})
+        .from(guestCleanupQueue)
+        .where(eq(guestCleanupQueue.status, "pending"));
+      return row?.count ?? 0;
+    }),
   ]);
 
+  let cleanupHeartbeat: ReturnType<typeof readCleanupSchedulerHeartbeat> = {
+    lastSuccessAt: null,
+    lastAttemptAt: null,
+    lastStatus: "skipped",
+  };
+  try {
+    cleanupHeartbeat = readCleanupSchedulerHeartbeat();
+  } catch (err) {
+    console.error(
+      "[admin] cleanup heartbeat read failed",
+      err instanceof Error ? err.message : err,
+    );
+  }
+
   return {
-    usersTotal: usersTotal[0]?.count ?? 0,
-    usersActive: usersActive[0]?.count ?? 0,
-    usersSuspended: usersSuspended[0]?.count ?? 0,
-    guestSessionsCount: guestSessionsCount[0]?.count ?? 0,
-    subscriptionsCount: subscriptionsCount[0]?.count ?? 0,
-    usageLedgerToday: usageToday[0]?.count ?? 0,
-    failedProcessingJobs: failedJobs[0]?.count ?? 0,
-    guestCleanupPending: cleanupPending[0]?.count ?? 0,
-    cleanupHeartbeat: readCleanupSchedulerHeartbeat(),
+    usersTotal,
+    usersActive,
+    usersSuspended,
+    guestSessionsCount,
+    subscriptionsCount,
+    usageLedgerToday,
+    failedProcessingJobs,
+    guestCleanupPending,
+    cleanupHeartbeat,
   };
 }
 

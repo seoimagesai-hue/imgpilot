@@ -27,8 +27,17 @@ export async function requireUser(locale: string, callbackPath = "/account") {
  */
 export async function requireSuperAdmin(locale: string, callbackPath = "/admin") {
   noStore();
-  const session = await auth();
   const safeLocale = isAppLocale(locale) ? locale : "en";
+
+  let session: Awaited<ReturnType<typeof auth>>;
+  try {
+    session = await auth();
+  } catch (err) {
+    console.error("[auth] requireSuperAdmin auth() failed", err instanceof Error ? err.message : err);
+    const path = callbackPath.startsWith("/") ? callbackPath : `/${callbackPath}`;
+    const callbackUrl = encodeURIComponent(`/${safeLocale}${path}`);
+    redirect(`/${safeLocale}/login?callbackUrl=${callbackUrl}`);
+  }
 
   if (!session?.user?.id) {
     const path = callbackPath.startsWith("/") ? callbackPath : `/${callbackPath}`;

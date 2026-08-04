@@ -29,7 +29,29 @@ export default async function AdminOverviewPage({params}: PageProps) {
   const locale = isAppLocale(rawLocale) ? rawLocale : "en";
   setRequestLocale(locale);
 
-  const counts = await overviewCounts();
+  let counts: Awaited<ReturnType<typeof overviewCounts>>;
+  let loadError: string | null = null;
+  try {
+    counts = await overviewCounts();
+  } catch (err) {
+    console.error("[admin] overviewCounts threw", err instanceof Error ? err.message : err);
+    loadError = "Some admin metrics are temporarily unavailable.";
+    counts = {
+      usersTotal: 0,
+      usersActive: 0,
+      usersSuspended: 0,
+      guestSessionsCount: 0,
+      subscriptionsCount: 0,
+      usageLedgerToday: 0,
+      failedProcessingJobs: 0,
+      guestCleanupPending: 0,
+      cleanupHeartbeat: {
+        lastSuccessAt: null,
+        lastAttemptAt: null,
+        lastStatus: "skipped",
+      },
+    };
+  }
 
   return (
     <main className="p-4 sm:p-6 lg:p-8">
@@ -37,6 +59,12 @@ export default async function AdminOverviewPage({params}: PageProps) {
         <h1 className="text-2xl font-semibold tracking-tight">Overview</h1>
         <p className="mt-2 text-[var(--muted)]">Platform operations snapshot.</p>
       </header>
+
+      {loadError ? (
+        <p className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950" role="status">
+          {loadError}
+        </p>
+      ) : null}
 
       <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <StatCard label="Users (total)" value={counts.usersTotal} href="/admin/users" />

@@ -11,7 +11,23 @@ export default async function AdminSystemPage({params}: PageProps) {
   const locale = isAppLocale(rawLocale) ? rawLocale : "en";
   setRequestLocale(locale);
 
-  const health = await buildFullHealth();
+  let health: Awaited<ReturnType<typeof buildFullHealth>>;
+  try {
+    health = await buildFullHealth();
+  } catch (err) {
+    console.error("[admin] buildFullHealth failed", err instanceof Error ? err.message : err);
+    health = {
+      status: "fail",
+      checkedAt: new Date().toISOString(),
+      probes: {
+        error: {
+          status: "fail",
+          latencyMs: 0,
+          detail: "Health probes unavailable",
+        },
+      },
+    };
+  }
 
   return (
     <main className="p-4 sm:p-6 lg:p-8">
