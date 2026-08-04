@@ -1,0 +1,133 @@
+/**
+ * Prompt 29 — Cloudinary integration error taxonomy.
+ * Codes are safe to surface to the UI; never leak Cloudinary response bodies,
+ * cloud_name/api_key/api_secret values, or internal stack traces.
+ */
+export type CloudinaryErrorCode =
+  | "UNAUTHORIZED"
+  | "FORBIDDEN"
+  | "INVALID_REQUEST"
+  | "PROJECT_NOT_FOUND"
+  | "IMAGE_NOT_FOUND"
+  | "IMAGE_NOT_ELIGIBLE"
+  | "DERIVATIVE_NOT_FOUND"
+  | "DERIVATIVE_NOT_ACTIVE"
+  | "APPROVED_METADATA_NOT_FOUND"
+  | "APPROVED_METADATA_STALE"
+  | "CONNECTION_NOT_FOUND"
+  | "CONNECTION_LIMIT_REACHED"
+  | "CONNECTION_NOT_ACTIVE"
+  | "CONNECTION_DISABLED"
+  | "CONNECTION_DISCONNECTED"
+  | "MAPPING_NOT_FOUND"
+  | "CLOUDINARY_NOT_ENABLED"
+  | "CLOUDINARY_PUBLISH_LIMIT_REACHED"
+  | "CLOUDINARY_BULK_SIZE_EXCEEDED"
+  | "CLOUDINARY_TRANSFORMATION_INVALID"
+  | "CLOUDINARY_PUBLIC_ID_INVALID"
+  | "CLOUDINARY_DELIVERY_NOT_ACKNOWLEDGED"
+  | "CLOUDINARY_AUTHENTICATION_FAILED"
+  | "CLOUDINARY_PERMISSION_DENIED"
+  | "RATE_LIMITED"
+  | "ASSET_UPLOAD_FAILED"
+  | "ASSET_VERIFY_FAILED"
+  | "ASSET_TOO_LARGE"
+  | "ASSET_UNSUPPORTED_FORMAT"
+  | "METADATA_UPDATE_FAILED"
+  | "METADATA_VERIFY_FAILED"
+  | "CLOUDINARY_API_UNAVAILABLE"
+  | "CLOUDINARY_RESPONSE_TOO_LARGE"
+  | "CLOUDINARY_RESPONSE_UNPARSEABLE"
+  | "CLOUDINARY_TIMEOUT"
+  | "CLOUDINARY_NETWORK_ERROR"
+  | "SUBSCRIPTION_RESTRICTED"
+  | "JOB_NOT_FOUND"
+  | "JOB_CONFLICT"
+  | "STORAGE_NOT_CONFIGURED"
+  | "STORAGE_OBJECT_UNAVAILABLE"
+  | "INTERNAL_ERROR";
+
+export class CloudinaryError extends Error {
+  readonly code: CloudinaryErrorCode;
+  readonly details?: Record<string, unknown>;
+
+  constructor(code: CloudinaryErrorCode, message?: string, details?: Record<string, unknown>) {
+    super(message ?? code);
+    this.name = "CloudinaryError";
+    this.code = code;
+    this.details = details;
+  }
+}
+
+/** Failure codes that should never be retried automatically. */
+export const NON_RETRYABLE_CLOUDINARY_FAILURE_CODES = new Set<CloudinaryErrorCode>([
+  "INVALID_REQUEST",
+  "IMAGE_NOT_ELIGIBLE",
+  "DERIVATIVE_NOT_FOUND",
+  "DERIVATIVE_NOT_ACTIVE",
+  "APPROVED_METADATA_NOT_FOUND",
+  "APPROVED_METADATA_STALE",
+  "CONNECTION_NOT_FOUND",
+  "CONNECTION_DISABLED",
+  "CONNECTION_DISCONNECTED",
+  "MAPPING_NOT_FOUND",
+  "CLOUDINARY_NOT_ENABLED",
+  "CLOUDINARY_PUBLISH_LIMIT_REACHED",
+  "CLOUDINARY_TRANSFORMATION_INVALID",
+  "CLOUDINARY_PUBLIC_ID_INVALID",
+  "CLOUDINARY_DELIVERY_NOT_ACKNOWLEDGED",
+  "CLOUDINARY_AUTHENTICATION_FAILED",
+  "CLOUDINARY_PERMISSION_DENIED",
+  "CLOUDINARY_RESPONSE_TOO_LARGE",
+  "ASSET_TOO_LARGE",
+  "ASSET_UNSUPPORTED_FORMAT",
+  "SUBSCRIPTION_RESTRICTED",
+  "STORAGE_NOT_CONFIGURED",
+  "STORAGE_OBJECT_UNAVAILABLE",
+]);
+
+export function isRetryableCloudinaryFailure(code: string): boolean {
+  return !NON_RETRYABLE_CLOUDINARY_FAILURE_CODES.has(code as CloudinaryErrorCode);
+}
+
+export function httpStatusForCloudinaryError(code: CloudinaryErrorCode): number {
+  switch (code) {
+    case "UNAUTHORIZED":
+      return 401;
+    case "FORBIDDEN":
+    case "CLOUDINARY_NOT_ENABLED":
+    case "SUBSCRIPTION_RESTRICTED":
+      return 403;
+    case "PROJECT_NOT_FOUND":
+    case "IMAGE_NOT_FOUND":
+    case "DERIVATIVE_NOT_FOUND":
+    case "APPROVED_METADATA_NOT_FOUND":
+    case "CONNECTION_NOT_FOUND":
+    case "MAPPING_NOT_FOUND":
+    case "JOB_NOT_FOUND":
+      return 404;
+    case "JOB_CONFLICT":
+      return 409;
+    case "INVALID_REQUEST":
+    case "IMAGE_NOT_ELIGIBLE":
+    case "DERIVATIVE_NOT_ACTIVE":
+    case "APPROVED_METADATA_STALE":
+    case "CONNECTION_LIMIT_REACHED":
+    case "CONNECTION_NOT_ACTIVE":
+    case "CONNECTION_DISABLED":
+    case "CONNECTION_DISCONNECTED":
+    case "CLOUDINARY_PUBLISH_LIMIT_REACHED":
+    case "CLOUDINARY_BULK_SIZE_EXCEEDED":
+    case "CLOUDINARY_TRANSFORMATION_INVALID":
+    case "CLOUDINARY_PUBLIC_ID_INVALID":
+    case "CLOUDINARY_DELIVERY_NOT_ACKNOWLEDGED":
+    case "ASSET_TOO_LARGE":
+    case "ASSET_UNSUPPORTED_FORMAT":
+      return 422;
+    case "RATE_LIMITED":
+      return 429;
+    case "INTERNAL_ERROR":
+    default:
+      return 500;
+  }
+}

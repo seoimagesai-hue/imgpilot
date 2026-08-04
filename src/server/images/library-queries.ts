@@ -325,6 +325,36 @@ export async function filterOwnedImageIds(
   return rows.map((r) => r.id);
 }
 
+/**
+ * IDs for Select All (filtered results) — ready_for_processing only, capped for bulk.
+ * Never includes uploading / failed / deleted / replacing / non-ready.
+ */
+export async function listFilteredReadyImageIds(
+  userId: string,
+  projectId: string,
+  query: Pick<LibraryQuery, "q" | "status" | "sort">,
+  limit = 100,
+): Promise<string[]> {
+  const db = getDb();
+  const conditions = [
+    baseOwnerConditions(userId, projectId, query.status),
+    statusCondition(query.status),
+    eq(images.status, READY_STATUS),
+  ];
+  const search = searchCondition(query.q);
+  if (search) conditions.push(search);
+
+  const rows = await db
+    .select({id: images.id})
+    .from(images)
+    .innerJoin(projects, eq(images.projectId, projects.id))
+    .where(and(...conditions))
+    .orderBy(...orderBySort(query.sort))
+    .limit(Math.min(limit, 100));
+
+  return rows.map((r) => r.id);
+}
+
 export type LibraryImageDetail = LibraryImageListItem & {
   colourSpace: string | null;
   hasAlpha: boolean | null;

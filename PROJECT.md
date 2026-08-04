@@ -1,10 +1,12 @@
 # SEO Images — Product
 
 ## Product vision
-SEO Images is a multilingual, bulk-first SaaS that helps website owners and agencies prepare large sets of website images for performance and SEO. Users create projects, upload many images at once, optimize them safely, review AI-assisted metadata, and download optimized copies plus CSV metadata—without ever destroying originals.
+SEO Images is a **consumer-first**, multilingual image SEO platform. Public visitors use free guest tools (compress, resize, crop, convert, geotag, metadata, AI alt text, metadata editor) without login. Signed-in accounts unlock projects, long-term libraries, bulk processing, billing, API, and integrations.
+
+The authenticated product remains a bulk-capable SaaS for website owners and agencies: create projects, upload many images, optimize safely, review AI-assisted metadata, and export — without destroying originals.
 
 ## Core product promise
-Upload website images and make them smaller, faster, and SEO-ready in minutes—at bulk scale, with projects you can return to.
+Start free on the public tools — or upload website images in projects and make them smaller, faster, and SEO-ready at scale.
 
 ## Target users
 - Website owners and local service businesses
@@ -12,8 +14,20 @@ Upload website images and make them smaller, faster, and SEO-ready in minutes—
 - Agencies managing many client sites
 - Ecommerce stores and bloggers
 - Photographers and real-estate teams with large image libraries
+- Casual visitors who need a single-image tool without creating an account
 
-## Main user workflow
+## Main user workflows
+
+### Consumer (guest) workflow
+1. Open the homepage and pick a tool (no login).
+2. Upload a temporary image to private R2 (server-generated keys).
+3. Process within free guest limits (size + rolling operations).
+4. Download short-lived signed results.
+5. Guest files expire one hour after session creation (downloads do not extend expiry).
+
+**Consumer Redesign v2 + SEO Prompt 14 + Premium Homepage:** Guest tools + SEO landings + new premium homepage/header/footer shipped (`BUILD_ID` `42NLUMF48ocHKHqYg_zO0`). Stripe checkout remains Blocked until Price IDs. Target-KB / social programmatic SEO deferred (Prompt 15). Live OpenAI guest generation Blocked until keyed success.
+
+### Authenticated workflow
 1. Sign in and create a website project.
 2. Upload many images (and later ZIPs) in bulk.
 3. Configure compression, resize, WebP conversion, and filename rules.
@@ -23,14 +37,14 @@ Upload website images and make them smaller, faster, and SEO-ready in minutes—
 7. Download optimized images as ZIP and metadata as CSV.
 8. Keep projects, settings, history, and usage for later sessions.
 
-## Bulk-first product rule
-Every primary workflow must assume dozens to thousands of images. Single-image convenience is secondary. Lists, batch progress, filters, and bulk actions are the default UX.
+## Bulk-first rule (authenticated)
+Signed-in project workflows still assume dozens to thousands of images. Consumer tools are single-image convenience; accounts unlock history and bulk.
 
 ## Original image safety rule
 Original uploaded images must **never** be overwritten. All processing creates separate optimized copies under distinct storage keys/paths. Users must always be able to retrieve or discard originals independently of optimized outputs.
 
 ## Saved-project requirement
-Signed-in users must be able to save projects, settings, processing history, metadata edits, and usage. Work is not throwaway session state.
+Signed-in users must be able to save projects, settings, processing history, metadata edits, and usage. Guest work is temporary session state only.
 
 ## Multilingual requirement
 The product interface must be translation-ready from day one. English and Urdu ship in the foundation. Additional languages must be addable via message files without rewriting components.

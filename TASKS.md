@@ -1,23 +1,22 @@
 # Current Task
 
 ## Milestone
-Milestone 3: Image upload and storage system — **COMPLETE**
+Premium Homepage Redesign
 
 ## Task
-Prompt 11 — Ready for processing state and Milestone 3 closure.
+Rebuild public homepage + chrome with approved content
 
 ## Current status
-**Prompt 11 closed. Milestone 3 complete.**  
-`ready_for_processing` is an explicit lifecycle state after trusted validation. Auto-promoted when eligible. No processing queues, compression, AI, ZIP, or billing.
+**Passed — awaiting approval.** Preview `http://127.0.0.1:3016/en` · Build `42NLUMF48ocHKHqYg_zO0`. Do not start Prompt 15 / Stripe until approved.
 
-## Completed (Prompt 11)
-- [x] Migration `0010_ready_for_processing`
-- [x] Ready eligibility + auto-promote after validation
-- [x] Demote Ready on replacement start; re-evaluate after promotion
-- [x] Ready reconciliation CLI (`--dry-run`)
-- [x] Ready summary API + library UI (badge, filter, summary)
-- [x] EN/UR strings; LTR/RTL; mobile
-- [x] Live + browser verification scripts
+## Completed
+- [x] Design tokens + 6 SVG illustrations
+- [x] Header/footer redesign
+- [x] Homepage sections 1–16 (exact EN; UR translations)
+- [x] Upload → Compress handoff
+- [x] Typecheck / lint / Vitest 351 / build
+- [x] Playwright homepage 40/40 + consumer 101/101
 
-## Next recommended task
-**Milestone 4 — Image Processing Pipeline** (do not start until product asks)
+## Next (after approval only)
+1. Prompt 15 — programmatic SEO expansion
+2. Stripe test-mode / Price IDs

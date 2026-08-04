@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Prompt 8 interactive browser verification (Playwright).
  * Does not add product features. Never prints full signed URLs.
  *

@@ -71,7 +71,7 @@ export async function validateOwnedImage(params: {
     return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
   }
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.upload");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const acquired = await acquireImageValidation(params.userId, project.id, params.imageId);

@@ -15,6 +15,7 @@ const initial: ProjectActionState = {ok: false};
 type ProjectFormProps = {
   mode: "create" | "edit";
   projectId?: string;
+  organizationId?: string;
   defaults?: {
     name: string;
     websiteUrl: string;
@@ -23,7 +24,7 @@ type ProjectFormProps = {
   };
 };
 
-export function ProjectForm({mode, projectId, defaults}: ProjectFormProps) {
+export function ProjectForm({mode, projectId, organizationId, defaults}: ProjectFormProps) {
   const t = useTranslations("projects");
   const locale = useLocale();
   const action = mode === "create" ? createProjectAction : updateProjectAction;
@@ -42,6 +43,9 @@ export function ProjectForm({mode, projectId, defaults}: ProjectFormProps) {
     <form action={formAction} className="mx-auto max-w-2xl space-y-4 rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm" noValidate>
       <input type="hidden" name="locale" value={locale} />
       {projectId ? <input type="hidden" name="projectId" value={projectId} /> : null}
+      {organizationId && mode === "create" ? (
+        <input type="hidden" name="organizationId" value={organizationId} />
+      ) : null}
 
       {state.error && !state.fieldErrors ? (
         <div role="alert" className="rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">

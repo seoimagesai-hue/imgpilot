@@ -85,6 +85,9 @@ export default async function ProjectImagesPage({params, searchParams}: Props) {
 
   const t = await getTranslations("images");
   const tp = await getTranslations("projects");
+  const tWp = await getTranslations("wordpress");
+  const tShopify = await getTranslations("shopify");
+  const tWebflow = await getTranslations("webflow");
 
   return (
     <main className="p-4 sm:p-6 lg:p-8">
@@ -112,6 +115,24 @@ export default async function ProjectImagesPage({params, searchParams}: Props) {
             {t("backToProject")}
           </Link>
           <Link
+            href={`/dashboard/projects/${project.id}/wordpress`}
+            className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm font-medium hover:bg-gray-50"
+          >
+            {tWp("projectLink")}
+          </Link>
+          <Link
+            href={`/dashboard/projects/${project.id}/shopify`}
+            className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm font-medium hover:bg-gray-50"
+          >
+            {tShopify("projectLink")}
+          </Link>
+          <Link
+            href={`/dashboard/projects/${project.id}/webflow`}
+            className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm font-medium hover:bg-gray-50"
+          >
+            {tWebflow("projectLink")}
+          </Link>
+          <Link
             href={`/dashboard/projects/${project.id}/images/upload`}
             className="rounded-xl bg-[var(--accent)] px-3 py-2 text-sm font-medium text-white"
           >
@@ -134,6 +155,7 @@ export default async function ProjectImagesPage({params, searchParams}: Props) {
 
       <ImageLibraryShell
         projectId={project.id}
+        metadataLanguage={project.metadataLanguage}
         query={{...query, page: pageResult.page}}
         items={clientItems}
         totalCount={pageResult.totalCount}

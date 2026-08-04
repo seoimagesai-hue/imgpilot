@@ -1,11 +1,16 @@
 import {notFound} from "next/navigation";
 import {getFormatter, getTranslations, setRequestLocale} from "next-intl/server";
 import {Link} from "@/i18n/navigation";
+import {MoveProjectToOrgForm} from "@/components/projects/move-project-to-org-form";
 import {ProjectStatusActions} from "@/components/projects/project-status-actions";
 import {isR2Configured} from "@/lib/env";
 import {isAppLocale} from "@/server/auth/validation";
 import {requireUser} from "@/server/auth/session";
+import {getProjectMetadataSummary} from "@/server/images/ai-metadata-service";
 import {countImagesForOwnedProject} from "@/server/images/queries";
+import {resolveActiveMembership} from "@/server/organizations/access";
+import {hasOrgPermission} from "@/server/organizations/permissions";
+import {listWorkspacesForUser} from "@/server/organizations/workspace";
 import {getOwnedProject} from "@/server/projects/queries";
 import {projectIdSchema} from "@/server/projects/validation";
 
@@ -28,11 +33,39 @@ export default async function ProjectDetailPage({params}: Props) {
   const project = await getOwnedProject(userId, idParsed.data);
   if (!project) notFound();
 
+  const isPersonal = project.workspaceType === "personal" || !project.organizationId;
+
+  let canEdit = true;
+  if (!isPersonal && project.organizationId) {
+    const membership = await resolveActiveMembership(userId, project.organizationId);
+    if (!membership) notFound();
+    canEdit = hasOrgPermission(membership.role, "projects.edit");
+  }
+
+  const transferableOrgs = isPersonal
+    ? (await listWorkspacesForUser(userId, session.user.name ?? ""))
+        .filter(
+          (ws) =>
+            ws.type === "organization" && (ws.role === "owner" || ws.role === "admin"),
+        )
+        .map((ws) => ({
+          id: ws.id,
+          slug: ws.slug,
+          displayName: ws.displayName,
+        }))
+    : [];
+
   const imageCount = await countImagesForOwnedProject(userId, project.id, {status: "uploaded"});
   const storageConfigured = isR2Configured();
+  const metadataSummary = await getProjectMetadataSummary({
+    userId,
+    projectId: project.id,
+  });
 
   const t = await getTranslations("projects");
   const ti = await getTranslations("images");
+  const ta = await getTranslations("analytics");
+  const tc = await getTranslations("collaboration");
   const format = await getFormatter();
 
   return (
@@ -49,15 +82,17 @@ export default async function ProjectDetailPage({params}: Props) {
             {project.status === "active" ? t("statusActive") : t("statusArchived")}
           </p>
         </div>
-        <div className="flex flex-wrap gap-2">
-          <Link
-            href={`/dashboard/projects/${project.id}/edit`}
-            className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
-          >
-            {t("edit")}
-          </Link>
-          <ProjectStatusActions projectId={project.id} status={project.status} />
-        </div>
+        {canEdit ? (
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href={`/dashboard/projects/${project.id}/edit`}
+              className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
+            >
+              {t("edit")}
+            </Link>
+            <ProjectStatusActions projectId={project.id} status={project.status} />
+          </div>
+        ) : null}
       </header>
 
       <section className="space-y-4 rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
@@ -75,6 +110,31 @@ export default async function ProjectDetailPage({params}: Props) {
             {project.metadataLanguage === "en" ? t("langEnglish") : t("langUrdu")}
           </p>
         </div>
+        {metadataSummary ? (
+          <div>
+            <h2 className="text-sm font-medium text-[var(--muted)]">{t("metadataSummary")}</h2>
+            <ul className="mt-2 grid gap-1 text-sm sm:grid-cols-3">
+              <li>
+                {t("metadataEligible")}: {metadataSummary.eligible}
+              </li>
+              <li>
+                {t("metadataDrafts")}: {metadataSummary.drafts}
+              </li>
+              <li>
+                {t("metadataReviewed")}: {metadataSummary.reviewed}
+              </li>
+              <li>
+                {t("metadataApproved")}: {metadataSummary.approved}
+              </li>
+              <li>
+                {t("metadataFailed")}: {metadataSummary.failed}
+              </li>
+              <li>
+                {t("metadataStale")}: {metadataSummary.stale}
+              </li>
+            </ul>
+          </div>
+        ) : null}
         <div className="grid gap-4 sm:grid-cols-2">
           <div>
             <h2 className="text-sm font-medium text-[var(--muted)]">{t("created")}</h2>
@@ -90,6 +150,10 @@ export default async function ProjectDetailPage({params}: Props) {
           </div>
         </div>
       </section>
+
+      {isPersonal ? (
+        <MoveProjectToOrgForm projectId={project.id} organizations={transferableOrgs} />
+      ) : null}
 
       <section className="mt-6 rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
@@ -110,11 +174,43 @@ export default async function ProjectDetailPage({params}: Props) {
               {ti("viewImages")}
             </Link>
             <Link
-              href={`/dashboard/projects/${project.id}/images/upload`}
-              className="rounded-xl bg-[var(--accent)] px-3 py-2 text-sm font-medium text-white"
+              href={`/dashboard/projects/${project.id}/analytics`}
+              className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
             >
-              {ti("uploadImages")}
+              {ta("projectTitle")}
             </Link>
+            <Link
+              href={`/dashboard/projects/${project.id}/activity`}
+              className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
+            >
+              {tc("activityLink")}
+            </Link>
+            <Link
+              href={`/dashboard/projects/${project.id}/activity`}
+              className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
+            >
+              {tc("activityLink")}
+            </Link>
+            <Link
+              href={`/dashboard/projects/${project.id}/metadata`}
+              className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
+            >
+              {ti("metadataReview.openReview")}
+            </Link>
+            <Link
+              href={`/dashboard/projects/${project.id}/ai-batches`}
+              className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
+            >
+              {ti("aiBatchesLink")}
+            </Link>
+            {canEdit ? (
+              <Link
+                href={`/dashboard/projects/${project.id}/images/upload`}
+                className="rounded-xl bg-[var(--accent)] px-3 py-2 text-sm font-medium text-white"
+              >
+                {ti("uploadImages")}
+              </Link>
+            ) : null}
           </div>
         </div>
         <p className="mt-4 text-xs text-[var(--muted)]">{ti("processingDeferred")}</p>

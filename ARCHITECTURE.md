@@ -2,6 +2,41 @@
 
 Status legend: **Implemented** | **Planned (not implemented)**
 
+## Consumer guest foundation (Redesign v2 Prompt 1–10) — Implemented
+
+Public visitors use guest tools without login. Shared modules live under `src/server/guest/` and `src/app/api/guest/`.
+
+| Piece | Detail |
+| --- | --- |
+| Session | `guest_sessions` + HttpOnly `seoimages_guest` cookie; raw token never stored (HMAC-SHA256) |
+| Isolation | Per-session `publicId` + `tokenHash`; A/B `cohort` |
+| Limits | Policy-driven (default 10 MiB, 5 ops / 24h, 1 active job, 1h immutable TTL); Metadata Editor draft save/import is op-free; bulk counts **1 op per processed file** |
+| Storage | Private R2 keys `guest/{sessionPublicId}/originals|outputs|bulk/…`; server-generated only |
+| Upload | `POST /api/guest/upload/authorize` + `confirm` (HeadObject + Sharp full decode) |
+| Jobs | compress/resize/crop/convert/geotag/metadata.inspect/`ai.generate_alt_text`/`metadata.edit` + guest bulk parent/child |
+| Bulk | `/bulk-image-tools` + `guest_bulk_*`; Compress/Resize/Convert; sequential child jobs; ZIP via JSZip |
+| Download | Signed GET; Viewer/AI hide image download; Editor renamed download; bulk ZIP archive |
+| Cleanup | exact-key R2 queue; geotag/metadata/AI/editor/bulk archives scrubbed on expiry |
+| UI | Pluggable `GuestToolWorkspace` + `BulkToolWorkspace` |
+| AI | OpenAI Chat Completions via guest adapter; authenticated `bulkAi: true` (Prompt 31); guest bulk AI off |
+| Editor | Draft APIs under `/api/guest/metadata-editor/*`; schema `image-seo-metadata-v2` |
+| Migration | `0026_guest_foundation`, `0027_guest_job_options`, `0028_guest_bulk` — **applied on cutover DB** (legacy guest tables archived as `*_pre_v2_archive`) |
+| Health | Minimal `/api/health/*` restored in source for ready/DB/R2/worker probes |
+
+Live Stripe Checkout remains **Blocked** until Price IDs + test-mode verification (Prompt 12 plumbing is wired). Rollback build may remain at `.next-pre-v2-cutover` until operator deletes it. Authenticated cleanup: `POST /api/internal/cron/cleanup` + scheduler heartbeat.
+
+### Guest AI notes
+- No Responses API in repo; Completions only; no automatic fallback path.
+- Live generation **Blocked** until a real keyed OpenAI request succeeds.
+- Purpose allow-list + language allow-list; no browser freeform prompts / model selection.
+- Filename sanitized to Latin ASCII slug; Urdu content fields supported.
+- Metadata Editor may import completed AI results for the same session+upload only (no new provider call).
+
+### Guest Metadata Editor notes
+- Alt text framed as website/CMS field; not claimed as universal binary metadata.
+- Embedded SEO write deferred; sidecar exports + renamed-copy download only.
+- Validation is a checklist (recommendation/warning/blocking) — no ranking score %.
+
 ## Frontend — Implemented
 - Next.js App Router under `src/app`
 - React Server Components by default; Client Components only for interactivity
@@ -49,10 +84,53 @@ Status legend: **Implemented** | **Planned (not implemented)**
 Indexes: `project_id`; `(project_id, status)`; `(project_id, created_at)`; unique `storage_key`.
 
 ### Ownership inheritance
-- Image authorization always goes through the parent project owner (`images ⋈ projects` with `projects.user_id = session.user.id`).
+- **Personal projects:** `workspace_type=personal`, `organization_id` null; access via personal owner (`projects.user_id`).
+- **Organization projects:** `workspace_type=organization` + `organization_id`; `projects.user_id` is creator (audit); access via active membership + permission (`getAccessibleProject`).
+- Image/export/AI/processing paths call `getOwnedProject(userId, projectId, permission)` with write permissions on mutations.
+- Org entitlements resolve through `organizations.billing_owner_user_id` (interim Option B).
 - Missing and unauthorized share not-found behaviour.
 - Soft-deleted images (`deleted_at` set / `status=deleted`) are excluded by default.
 - Project soft-archive does not cascade to image rows.
+
+### Organizations (Prompt 24) — Implemented
+- Tables: `organizations`, `organization_members`, `organization_invitations`, `organization_audit_logs`
+- Virtual personal workspace + cookie hint `seoimages_workspace` (validated server-side)
+- Roles: `owner|admin|editor|viewer`; invites never create owners; tokens stored as SHA-256 only
+- UI: `/[locale]/dashboard/orgs/*`, `/dashboard/invitations/[token]`, workspace switcher
+- Reconcile: `scripts/reconcile-organizations.ts`
+
+### Public API & outbound webhooks (Prompt 25) — Implemented
+- `/api/v1/*` Bearer API keys (`si_live_|si_test_`); SHA-256 hashed; fixed scopes; workspace-bound
+- DB rate-limit buckets + `Idempotency-Key` records; consistent `{ok,data|error,requestId}` envelope
+- Webhooks: encrypted secrets, HTTPS SSRF checks, HMAC `v1=` signatures, delivery worker in `processing-worker`
+- At-least-once delivery with bounded exponential backoff; consumers dedupe by event ID
+- Developer UI: `/dashboard/settings/developer`; OpenAPI `/api/v1/openapi`; docs `/docs/api`, `/docs/webhooks`
+- Separate from Stripe ingress webhook (`/api/billing/webhook`)
+- No OAuth apps, GraphQL, or direct CMS publishing
+
+### WordPress direct publishing (Prompt 26) — Implemented
+- Connections: encrypted Application Passwords; HTTPS SSRF-safe site URLs; REST discovery + capability checks
+- Publish jobs (DB lease saga): private R2 read → `wp/v2/media` upload → metadata update → remote verify → mapping
+- Partial success preserves `remoteMediaId`; retries do not duplicate uploads
+- Roles: `integrations.manage` for credentials; `wordpress.publish` for editors; no auto remote delete
+- UI: `/dashboard/settings/integrations/wordpress`; project publish page; docs `/docs/wordpress`
+- Self-hosted WordPress only; no posts/pages, plugin, or Webflow
+
+### Shopify product-media publishing (Prompt 27) — Implemented
+- Connections: encrypted Custom App Admin API tokens; shop host locked to `*.myshopify.com`; shop.json verification
+- Publish jobs (DB lease saga): private R2 read → product images REST upload → preserve remote image ID → alt update → verify → mapping
+- Product search/list server-side only; browser never calls Shopify; existing products only
+- Roles: `integrations.manage` for tokens; `shopify.publish` for editors; no auto remote delete
+- UI: `/dashboard/settings/integrations/shopify`; project publish page; docs `/docs/shopify`
+- No OAuth, orders, inventory, product CRUD, or theme editing
+
+### Webflow CMS asset publishing (Prompt 28) — Implemented
+- Connections: encrypted site access tokens; fixed `api.webflow.com/v2`; site/collection/field discovery
+- Field mappings: versioned image + optional text fields; revalidated before publish
+- Publish jobs (DB lease saga): private R2 → create asset + MD5 → S3 upload (allowlisted) → verify asset → patch CMS item → verify → mapping
+- Existing CMS items only; no automatic whole-site publish; no Designer automation
+- Roles: `integrations.manage` for tokens/mappings; `webflow.publish` for editors; no auto remote delete
+- UI: `/dashboard/settings/integrations/webflow`; project publish page; docs `/docs/webflow`
 
 ### Record integrity / finalization boundary
 - Storage confirmation (`HeadObject`) yields `uploaded` — not binary proof.
@@ -118,7 +196,155 @@ Indexes: `project_id`; `(project_id, status)`; `(project_id, created_at)`; uniqu
 - Library default filter: Ready; badges + summary; no Process/Queue buttons
 - API: `GET /api/projects/[projectId]/ready` (owner-scoped)
 - Reconcile: `npx tsx scripts/reconcile-ready-for-processing.ts [--dry-run] [--projectId=…]`
-- Ready ≠ processing started; Milestone 4 owns queues/workers
+- Ready ≠ processing started automatically; owner starts an explicit processing job
+
+### Single-image processing (Prompt 12)
+- **Execution model:** synchronous — client creates job, then calls execute; no queue/worker yet
+- **Statuses:** `queued` → `processing` → `uploading_output` → `verifying_output` → `completed` | `failed` | `cancelled` | `cleanup_pending` | `cleanup_failed` | `stale`
+- **Immutable source:** trusted original key from DB; never overwritten, never deleted by processing; never promoted from derivative
+- **Source revision snapshot:** job stores `sourceStorageKey` + size/format/dimensions; completion re-checks active key
+- **First operation:** `optimize_same_format` — same MIME family, same width/height, controlled quality (JPEG q82 mozjpeg; PNG compression; WebP/AVIF quality)
+- **Metadata policy:** no Sharp `.rotate()`; no `.withMetadata()` → EXIF/GPS stripped; ICC not retained
+- **Derivative keys:** `users/{userId}/projects/{projectId}/derivatives/{imageId}/{jobId}/a{attempt}-…` (unique per attempt)
+- **Saga:** generate → PUT → HeadObject → DB derivative + job complete; failure cleans exact derivative key; cleanup_failed recoverable
+- **Generated-output quota:** separate `generatedOutputBytes` + `reservedGeneratedBytes` (default 5 GiB); not counted as original-upload bytes
+- **Preview:** short-lived signed GET for completed, owned, active derivative only
+- **Delete:** stale active jobs; derivatives → cleanup_pending → exact-key delete
+- **Replace:** stale jobs + mark derivatives stale (old revision); new Ready source may get a new job
+- **Reconcile:** `npx tsx scripts/reconcile-processing-jobs.ts [--dry-run] [--projectId=…]` (bounded; exact keys; never deletes originals)
+- APIs: `POST …/processing/jobs`, `GET|POST …/jobs/[jobId]?action=execute|retry|cancel`, `POST …/preview`
+- Out of scope here: bulk, workers, resize, conversion, AI, ZIP, CSV, billing
+
+### Resize presets (Prompt 13)
+- Operation: `resize` with fixed presets `px_256` | `px_512` | `px_1024` | `px_2048` (longest edge)
+- Always reads immutable original; never another derivative
+- Sharp `fit: inside` + `withoutEnlargement: true` + lanczos3; same-format encode
+- No upscale: if source longest edge ≤ preset, output keeps source width/height
+- Aspect ratio preserved; no crop/stretch/pad/rotate
+- Derivative kind `resized`; unique key includes preset variant folder
+- Duplicate create for same image+preset returns existing completed job when source revision matches
+- UI: `ImageResizePanel` with per-preset generate/retry/preview
+- Project summary: optimized + resize derivative counts + generated storage bytes
+- Still out of scope: format conversion, queues, bulk, AI, ZIP, CSV, billing
+
+### Format conversion (Prompt 14)
+- Operation: `convert_format` with target stored as preset `to_{jpeg|png|webp|avif}`
+- Matrix-enforced: JPEG→JPEG/WebP/AVIF; PNG→PNG/WebP/AVIF; WebP→WebP/AVIF; AVIF→AVIF
+- PNG→JPEG rejected in policy and Sharp safety layer; alpha kept for PNG→WebP/AVIF
+- Always from immutable original; same dimensions; no derivative chaining
+- Derivative kind `converted`; unique key variant `to_webp` etc.
+- UI: `ImageConvertPanel`; summary: converted derivative count
+- Still out of scope: queues, AI, ZIP, CSV, billing (bulk is Prompt 15)
+
+### Bulk processing orchestration (Prompt 15)
+- Tables: `bulk_jobs` + `bulk_job_items` — orchestration only; each image still uses `processing_jobs`
+- Reuses `createProcessingJob` / `executeProcessingJob`; never duplicates Sharp optimize/resize/convert
+- One operation per bulk run; ready-only selection; invalid images skipped with reason
+- Bounded concurrency (`BULK_MAX_CONCURRENCY = 3`); max 100 images; real DB counters (no fake timers)
+- Partial completion; cancel pending only; retry failed only
+- Delete cancels pending bulk items; replacement stales pending bulk items
+- UI: `ImageBulkToolbar` on library selection; APIs `/processing/bulk`
+- Reconcile CLI: `scripts/reconcile-bulk-jobs.ts`
+- Still out of scope: queues, workers, AI, ZIP, CSV, billing
+
+### Background queue & worker (Prompt 16)
+- Queue: `processing_jobs` rows in `queued`; workers claim via `FOR UPDATE SKIP LOCKED`
+- Lease: `lease_owner`, `lease_expires_at`, `heartbeat_at`; expired leases requeue safely
+- Worker: `scripts/processing-worker.ts` — poll, claim, heartbeat, execute existing engine, graceful shutdown
+- Metrics: `worker_heartbeats` table (not exposed to browser)
+- Browser: create + poll only; execute API blocked
+- Bulk: enqueues children; worker syncs item terminals via `onProcessingJobTerminalForBulk`
+- Still out of scope: ZIP, CSV, billing, Redis/BullMQ (AI is Prompt 17)
+
+### AI metadata generation (Prompt 17)
+- Operation: `generate_metadata` on the same `processing_jobs` queue (no second queue)
+- Provider abstraction: `ImageMetadataProvider` in `ai-provider.ts` — OpenAI only; no SDK in routes/UI
+- Analysis input: private original from R2 → in-memory JPEG ≤1280 longest edge (no upscale, not persisted, not a derivative)
+- Output language: project `metadata_language` (`en`|`ur`), never inferred from interface locale
+- Prompt: centralized `buildMetadataPrompt` + version `metadata-v1`; grounding + sensitive-inference bans
+- Structured Zod validation before draft persist; filename suggestions Latin ASCII only (Urdu fields stay Urdu)
+- Lifecycle: `queued` → `generating` → `validating_output` → `draft` → `reviewed` → `approved` (or `rejected`/`failed`/`stale`/`cancelled`)
+- Human approval required — AI never auto-approves, renames, or publishes
+- `metadata_generations` = immutable history; `image_metadata_approved` = current per image+language
+- Regeneration creates a new draft; current approved snapshot stays until a new draft is approved
+- Source replace/delete stales or cancels active/draft generations
+- Usage: input/output tokens + provider/model stored; daily generation caps (abuse control, not billing)
+- Browser never calls the provider; never receives API keys, raw payloads, or storage keys
+- Reconcile: `scripts/reconcile-ai-metadata.ts` (dry-run, bounded)
+- Out of scope: bulk AI, ZIP/CSV, billing, WordPress/Shopify publish, auto-rename
+
+### Metadata management & approval (Prompt 18)
+- Review UI: `/[locale]/dashboard/projects/[projectId]/metadata`
+- Deterministic quality score 0–100 (alt/title/description/filename/caption rules; no AI scoring)
+- Within-project duplicate warnings for alt/title/filename suggestion (never auto-fix)
+- Missing approved metadata vs eligible images
+- Filters + search across alt/title/filename
+- Bulk approve / reject / mark_reviewed / regenerate (≤50; regenerate uses existing `generate_metadata` queue jobs)
+- Version comparison: approved snapshot vs draft (word-level added/removed)
+- Export foundation: `ExportReadyPackage` from approved rows only; `filesGenerated: false`
+- Still out of scope: ZIP/CSV/JSON file download, CMS packages, billing
+
+### Export packages (Prompt 19)
+- Table: `export_jobs` claimed by the same processing worker (SKIP LOCKED lease)
+- Builders: CSV, JSON, sidecar TXT/JSON, HTML report, README; CMS folders without live APIs
+- Output: private R2 `users/{user}/projects/{project}/exports/{jobId}/…`
+- Download: short-lived signed URL; owner-only; no storage keys to browser except via signed GET
+- Default filter: approved metadata; optional draft/reviewed; optional include images
+- Quota: reserved/generated bytes for package size
+- Still out of scope: WordPress/Shopify API publishing, billing, permanent public links
+
+### Analytics (Prompt 20)
+- Routes: `/[locale]/dashboard/analytics`, `/[locale]/dashboard/projects/[projectId]/analytics`
+- APIs: `/api/analytics/overview`, `/api/projects/[projectId]/analytics`
+- Owner-scoped only; browser never supplies trusted counts
+- Current-state metrics: images / derivatives / jobs / metadata / exports / `project_quota_state`
+- Trends: real timestamps bucketed by UTC day; zero-filled; all-time charts bounded to 90 days
+- Append-only `analytics_events` for activity timeline (safe metadata; idempotent keys)
+- Attention panel: validation/upload/processing/metadata/export failures, quota near limit, cleanup pending
+- Queue/worker: pending/active/recent failures + summarized health (`available|busy|delayed|unavailable`); no worker IDs/leases
+- Charts: CSS/SVG + text summaries; no external analytics SDK; no R2 listing; no processing triggers
+- Freshness: request-time for counters/trends; worker health is a heartbeat snapshot with timestamp
+- Still out of scope: billing, super-admin, revenue analytics, scheduled/PDF/email reports
+
+### Billing (Prompt 21)
+- Owner model: one Stripe customer + subscription per user; projects inherit entitlements
+- Plan catalog server-controlled (`free` + paid placeholders); checkout disabled without Price IDs
+- Stripe Checkout + Customer Portal (hosted); webhook `/api/billing/webhook` signature-verified
+- Event ledger idempotent; stale/out-of-order events ignored safely
+- Entitlement snapshot drives quota/processing/AI/export limits without calling Stripe on every request
+- Monthly usage ledger for processing (on complete), AI (before provider call), exports (on complete)
+- Storage counters are current-state and do not reset monthly
+- Downgrade/past_due: preserve data; restrict new over-limit writes; 3-day grace; cancel-at-period-end stays enabled until period end
+- Billing UI: `/[locale]/dashboard/settings/billing` — success page is not payment proof
+- Reconcile: `npx tsx scripts/reconcile-billing.ts` (dry-run default)
+- Still out of scope: inventing prices, super-admin billing, revenue analytics, card forms
+
+### Public marketing website (Prompt 23)
+- Route group: `src/app/[locale]/(marketing)/**` with dedicated layout (PublicHeader / PublicFooter / skip link)
+- Dashboard (`(dashboard)`) and admin (`/admin`) layouts remain separate and protected; public pages do not require auth
+- Locale prefixes always-on (`en` / `ur`); root `/` redirects to default locale; locale switch preserves nearest path
+- Marketing copy: `src/messages/marketing/{en,ur}.json` merged in i18n request config
+- Pricing view: `src/server/marketing/pricing-view.ts` reads `listActivePlans()` — shows limits; never invents `$` amounts; Checkout entry only when Price IDs exist (otherwise “pricing being configured”)
+- Checkout remains existing `/api/billing/checkout` (server Price resolution); browsers cannot submit arbitrary Price IDs
+- Docs: source-controlled TSX pages via `src/server/marketing/docs-content.tsx` — no marketing CMS
+- SEO: `buildPublicMetadata`, `src/app/sitemap.ts`, `src/app/robots.ts`; structured data Organization / WebSite / SoftwareApplication / BreadcrumbList only when accurate
+- Public assets stay in app/static public paths — never user R2 objects or signed URLs
+- Contact: validated form only (no ticket platform); support email from env when set
+- Cache boundary: marketing pages must not embed user-specific project/admin data
+- Claims policy: only verified product behaviour; CMS packages are export kits, not live publishing
+
+### Super-admin operations (Prompt 22)
+- Role model: `users.role` = `user` | `super_admin` (default `user`); never client-controlled
+- Account suspension: `account_status` = `active` | `suspended` (+ reason/by/at); preserves data; does not auto-cancel Stripe
+- Provisioning: CLI `scripts/provision-super-admin.ts` only (no email-domain grant; no UI role editor in P22)
+- Route gate: `requireSuperAdmin` → login if signed out; `notFound` if non-admin
+- API gate: `assertSuperAdmin` re-reads role from DB on every call
+- Audit: append-only `admin_audit_logs` (reason required on writes; no secrets/keys/payloads)
+- Support notes: append-only `admin_support_notes` (admin-only)
+- Admin surfaces: `/[locale]/admin/*` — overview, users, projects, storage, jobs, queue, workers, AI, exports, billing support, audit, alerts
+- Actions reuse domain services (retry/cancel/reconcile/resync); no force-complete; no manual Stripe activation; no SQL console; no R2 bucket browser; no impersonation
+- Redaction: `src/server/admin/redaction.ts`
+- Stripe remains authoritative; admin may resync / reprocess failed events only
 
 ### Project image library (Prompt 8)
 - Route: `/[locale]/dashboard/projects/[projectId]/images`

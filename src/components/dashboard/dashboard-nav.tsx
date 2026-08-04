@@ -22,8 +22,20 @@ export function DashboardNav({onNavigate, className}: DashboardNavProps) {
           key === "dashboard"
             ? pathname === "/dashboard"
             : key === "projects"
-              ? pathname === "/dashboard/projects" || pathname.startsWith("/dashboard/projects/")
-              : false;
+              ? pathname === "/dashboard/projects" ||
+                (pathname.startsWith("/dashboard/projects/") &&
+                  !pathname.includes("/analytics"))
+              : key === "usage"
+                ? pathname === "/dashboard/analytics" || pathname.endsWith("/analytics")
+                : key === "billing"
+                  ? pathname.includes("/settings/billing")
+                  : key === "developer"
+                    ? pathname.includes("/settings/developer")
+                    : key === "integrations"
+                      ? pathname.includes("/settings/integrations")
+                      : key === "automation"
+                        ? pathname.includes("/settings/automation")
+                        : false;
         return (
           <Link
             key={key}

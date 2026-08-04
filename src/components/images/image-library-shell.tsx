@@ -10,6 +10,11 @@ import type {LibraryStatusCounts} from "@/server/images/library-queries";
 import {RetryValidationButton} from "@/components/images/retry-validation-button";
 import {ImageDeleteDialog} from "@/components/images/image-delete-dialog";
 import {ImageReplacePanel} from "@/components/images/image-replace-panel";
+import {ImageOptimizePanel} from "@/components/images/image-optimize-panel";
+import {ImageResizePanel} from "@/components/images/image-resize-panel";
+import {ImageConvertPanel} from "@/components/images/image-convert-panel";
+import {ImageBulkToolbar} from "@/components/images/image-bulk-toolbar";
+import {ImageMetadataPanel} from "@/components/images/image-metadata-panel";
 
 export type ClientLibraryImage = {
   id: string;
@@ -39,6 +44,7 @@ export type ClientLibraryImage = {
 
 type Props = {
   projectId: string;
+  metadataLanguage: string;
   query: LibraryQuery;
   items: ClientLibraryImage[];
   totalCount: number;
@@ -102,6 +108,7 @@ function PreviewThumb({
 
 export function ImageLibraryShell({
   projectId,
+  metadataLanguage,
   query,
   items,
   totalCount,
@@ -347,12 +354,15 @@ export function ImageLibraryShell({
       </nav>
 
       {selected.size > 0 ? (
-        <div className="flex flex-wrap items-center gap-3 rounded-xl border border-[var(--border)] bg-[var(--accent-soft)]/50 px-3 py-2 text-sm">
-          <span>{t("selectedImages", {count: selected.size})}</span>
-          <button type="button" className="underline" onClick={clearSelection}>
-            {t("clearSelection")}
-          </button>
-        </div>
+        <ImageBulkToolbar
+          projectId={projectId}
+          selectedIds={[...selected]}
+          filterQ={query.q}
+          filterStatus={query.status}
+          filterSort={query.sort}
+          onClearSelection={clearSelection}
+          onSelectAllFiltered={(ids) => setSelected(new Set(ids))}
+        />
       ) : null}
 
       {totalCount === 0 ? (
@@ -678,6 +688,50 @@ export function ImageLibraryShell({
                   {t("delete.button")}
                 </button>
               </div>
+            ) : null}
+            {detail ? (
+              <ImageOptimizePanel
+                projectId={projectId}
+                imageId={detail.id}
+                imageStatus={detail.status}
+                originalFilename={detail.originalFilename}
+                sizeBytes={detail.sizeBytes}
+                width={detail.width}
+                height={detail.height}
+                detectedFormat={detail.detectedFormat}
+              />
+            ) : null}
+            {detail ? (
+              <ImageResizePanel
+                projectId={projectId}
+                imageId={detail.id}
+                imageStatus={detail.status}
+                originalFilename={detail.originalFilename}
+                sizeBytes={detail.sizeBytes}
+                width={detail.width}
+                height={detail.height}
+                detectedFormat={detail.detectedFormat}
+              />
+            ) : null}
+            {detail ? (
+              <ImageConvertPanel
+                projectId={projectId}
+                imageId={detail.id}
+                imageStatus={detail.status}
+                originalFilename={detail.originalFilename}
+                sizeBytes={detail.sizeBytes}
+                width={detail.width}
+                height={detail.height}
+                detectedFormat={detail.detectedFormat}
+              />
+            ) : null}
+            {detail ? (
+              <ImageMetadataPanel
+                projectId={projectId}
+                imageId={detail.id}
+                imageStatus={detail.status}
+                metadataLanguage={metadataLanguage}
+              />
             ) : null}
             {detail && REPLACEABLE_STATUSES.has(detail.status) ? (
               <ImageReplacePanel

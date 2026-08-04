@@ -2,9 +2,9 @@
  * Ready-for-processing service — evaluate, promote, demote, reconcile, summary.
  * Does not start processing queues or workers.
  */
-import {and, eq, sql} from "drizzle-orm";
+import {and, eq, sql, inArray} from "drizzle-orm";
 import {getDb} from "@/db";
-import {images, projects} from "@/db/schema";
+import {imageDerivatives, images, processingJobs, projects, projectQuotaState} from "@/db/schema";
 import {getOwnedProject} from "@/server/projects/queries";
 import {
   evaluateReadyEligibility,
@@ -21,6 +21,7 @@ import {
   markImageReadyForProcessing,
 } from "@/server/images/ready-queries";
 import {getOwnedProjectQuotaUsage} from "@/server/images/quota-service";
+import {ACTIVE_JOB_STATUSES} from "@/server/images/processing-queries";
 
 const RECONCILE_BATCH_LIMIT = 200;
 
@@ -31,15 +32,20 @@ export type ReadySummaryDto = {
   deletedCount: number;
   uploadingCount: number;
   validationFailedCount: number;
-  /** Reserved for Milestone 4 — always 0. */
+  /** Active processing jobs (queued/processing/uploading/verifying). */
   processingCount: number;
-  /** Reserved for Milestone 4 — always 0. */
-  completedCount: number;
-  /** Reserved for Milestone 4 — always 0. */
+  /** Active optimized derivatives. */
+  optimizedDerivativeCount: number;
+  /** Active resized derivatives. */
+  resizeDerivativeCount: number;
+  /** Active converted-format derivatives. */
+  convertedDerivativeCount: number;
+  /** Failed processing jobs. */
   failedCount: number;
   storageEffectiveBytes: number | null;
   reservedUploadBytes: number | null;
   cleanupPendingBytes: number | null;
+  generatedOutputBytes: number | null;
 };
 
 export type EvaluateReadyResult =
@@ -56,7 +62,7 @@ export async function evaluateAndPromoteReady(params: {
   projectId: string;
   imageId: string;
 }): Promise<EvaluateReadyResult> {
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "projects.view");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const image = await getOwnedImageForReady(params.userId, project.id, params.imageId);
@@ -132,7 +138,7 @@ export async function getOwnedProjectReadySummary(
   userId: string,
   projectId: string,
 ): Promise<ReadySummaryDto | null> {
-  const project = await getOwnedProject(userId, projectId);
+  const project = await getOwnedProject(userId, projectId, "projects.view");
   if (!project) return null;
 
   const db = getDb();
@@ -186,6 +192,57 @@ export async function getOwnedProjectReadySummary(
 
   const quota = await getOwnedProjectQuotaUsage(userId, project.id);
 
+  const [activeJobs] = await db
+    .select({count: sql<number>`count(*)::int`})
+    .from(processingJobs)
+    .where(
+      and(
+        eq(processingJobs.projectId, project.id),
+        inArray(processingJobs.status, [...ACTIVE_JOB_STATUSES]),
+      ),
+    );
+  const [failedJobs] = await db
+    .select({count: sql<number>`count(*)::int`})
+    .from(processingJobs)
+    .where(
+      and(eq(processingJobs.projectId, project.id), eq(processingJobs.status, "failed")),
+    );
+  const [optimized] = await db
+    .select({count: sql<number>`count(*)::int`})
+    .from(imageDerivatives)
+    .where(
+      and(
+        eq(imageDerivatives.projectId, project.id),
+        eq(imageDerivatives.status, "active"),
+        eq(imageDerivatives.kind, "optimized_same_format"),
+      ),
+    );
+  const [resized] = await db
+    .select({count: sql<number>`count(*)::int`})
+    .from(imageDerivatives)
+    .where(
+      and(
+        eq(imageDerivatives.projectId, project.id),
+        eq(imageDerivatives.status, "active"),
+        eq(imageDerivatives.kind, "resized"),
+      ),
+    );
+  const [converted] = await db
+    .select({count: sql<number>`count(*)::int`})
+    .from(imageDerivatives)
+    .where(
+      and(
+        eq(imageDerivatives.projectId, project.id),
+        eq(imageDerivatives.status, "active"),
+        eq(imageDerivatives.kind, "converted"),
+      ),
+    );
+  const [genQuota] = await db
+    .select({bytes: projectQuotaState.generatedOutputBytes})
+    .from(projectQuotaState)
+    .where(eq(projectQuotaState.projectId, project.id))
+    .limit(1);
+
   return {
     readyImageCount,
     validatedImageCount,
@@ -193,12 +250,15 @@ export async function getOwnedProjectReadySummary(
     deletedCount,
     uploadingCount,
     validationFailedCount,
-    processingCount: 0,
-    completedCount: 0,
-    failedCount: 0,
+    processingCount: Number(activeJobs?.count ?? 0),
+    optimizedDerivativeCount: Number(optimized?.count ?? 0),
+    resizeDerivativeCount: Number(resized?.count ?? 0),
+    convertedDerivativeCount: Number(converted?.count ?? 0),
+    failedCount: Number(failedJobs?.count ?? 0),
     storageEffectiveBytes: quota?.effectiveUsageBytes ?? null,
     reservedUploadBytes: quota?.reservedUploadBytes ?? null,
     cleanupPendingBytes: quota?.cleanupPendingBytes ?? null,
+    generatedOutputBytes: genQuota?.bytes ?? 0,
   };
 }
 
@@ -228,7 +288,7 @@ export async function reconcileProjectReady(params: {
     if (!proj) return {ok: false, error: "PROJECT_NOT_FOUND"};
     ownerId = proj.userId;
   } else {
-    const owned = await getOwnedProject(ownerId, params.projectId);
+    const owned = await getOwnedProject(ownerId, params.projectId, "projects.view");
     if (!owned) return {ok: false, error: "PROJECT_NOT_FOUND"};
   }
 

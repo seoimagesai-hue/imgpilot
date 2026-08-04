@@ -6,6 +6,10 @@ import {requireUser} from "@/server/auth/session";
 
 export const dynamic = "force-dynamic";
 
+export const metadata = {
+  robots: {index: false, follow: false},
+};
+
 type DashboardLayoutProps = Readonly<{
   children: React.ReactNode;
   params: Promise<{locale: string}>;

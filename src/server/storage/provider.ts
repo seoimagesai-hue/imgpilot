@@ -64,8 +64,19 @@ export interface ObjectStorageProvider {
   readObjectMetadata(storageKey: string): Promise<ObjectMetadata | null>;
   /** Server-only GetObject with hard maxBytes cap. Never accept browser keys. */
   getObjectBuffer(storageKey: string, maxBytes: number): Promise<ObjectBytesResult>;
+  /** Server-only PutObject for private derivatives. Never accept browser keys. */
+  putObjectBuffer(params: {
+    storageKey: string;
+    body: Buffer;
+    contentType: string;
+    maxBytes: number;
+  }): Promise<ObjectMetadata>;
   deleteObject(storageKey: string): Promise<void>;
-  createSignedReadUrl(storageKey: string, ttlSeconds: number): Promise<SignedReadUrlResult>;
+  createSignedReadUrl(
+    storageKey: string,
+    ttlSeconds: number,
+    options?: {downloadFilename?: string},
+  ): Promise<SignedReadUrlResult>;
 }
 
 export class DisabledObjectStorageProvider implements ObjectStorageProvider {
@@ -97,14 +108,29 @@ export class DisabledObjectStorageProvider implements ObjectStorageProvider {
     throw new StorageNotConfiguredError();
   }
 
+  async putObjectBuffer(params: {
+    storageKey: string;
+    body: Buffer;
+    contentType: string;
+    maxBytes: number;
+  }): Promise<ObjectMetadata> {
+    void params;
+    throw new StorageNotConfiguredError();
+  }
+
   async deleteObject(storageKey: string): Promise<void> {
     void storageKey;
     throw new StorageNotConfiguredError();
   }
 
-  async createSignedReadUrl(storageKey: string, ttlSeconds: number): Promise<SignedReadUrlResult> {
+  async createSignedReadUrl(
+    storageKey: string,
+    ttlSeconds: number,
+    _options?: {downloadFilename?: string},
+  ): Promise<SignedReadUrlResult> {
     void storageKey;
     void ttlSeconds;
+    void _options;
     throw new StorageNotConfiguredError();
   }
 }

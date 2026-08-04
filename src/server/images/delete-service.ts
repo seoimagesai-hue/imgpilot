@@ -15,6 +15,8 @@ import {
   onImageDeletionAcquired,
   trustedImageBytes,
 } from "@/server/images/quota-service";
+import {onImageDeletionInvalidateProcessing} from "@/server/images/processing-service";
+import {onImageInvalidateBulkItems} from "@/server/images/bulk-service";
 import {getOwnedProject} from "@/server/projects/queries";
 import {StorageDomainError} from "@/server/storage/errors";
 import {
@@ -119,7 +121,7 @@ export async function deleteOwnedImage(params: {
     return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
   }
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.delete");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const openReplacement = await hasOpenReplacementForImage(project.id, params.imageId);
@@ -159,6 +161,27 @@ export async function deleteOwnedImage(params: {
   if (acquired.kind === "acquired") {
     const wasPendingUpload =
       acquired.image.confirmedAt == null && acquired.image.storageSizeBytes == null;
+    await onImageDeletionInvalidateProcessing({
+      projectId: project.id,
+      imageId: params.imageId,
+    }).catch(() => {
+      console.error("[processing] invalidate on delete failed");
+    });
+    await onImageInvalidateBulkItems({
+      projectId: project.id,
+      imageId: params.imageId,
+      reason: "IMAGE_NOT_FOUND",
+    }).catch(() => {
+      console.error("[bulk] invalidate on delete failed");
+    });
+    const {onImageInvalidateMetadata} = await import("@/server/images/ai-metadata-service");
+    await onImageInvalidateMetadata({
+      projectId: project.id,
+      imageId: params.imageId,
+      reason: "IMAGE_NOT_FOUND",
+    }).catch(() => {
+      console.error("[metadata] invalidate on delete failed");
+    });
     await onImageDeletionAcquired({
       projectId: project.id,
       imageId: params.imageId,
@@ -189,7 +212,7 @@ export async function retryDeletionCleanup(params: {
     return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
   }
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.delete");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const image = await getOwnedImageForLifecycle(params.userId, project.id, params.imageId);

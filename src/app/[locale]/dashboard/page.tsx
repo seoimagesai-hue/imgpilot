@@ -4,18 +4,35 @@ import {Link} from "@/i18n/navigation";
 import {LanguageSwitcher} from "@/components/dashboard/language-switcher";
 import {UserMenu} from "@/components/dashboard/user-menu";
 import {auth} from "@/auth";
+import {formatByteSize} from "@/lib/format-bytes";
+import {getUserOverviewAnalytics} from "@/server/analytics/analytics-service";
 import {countProjectsForUser} from "@/server/projects/queries";
 
 export default async function DashboardPage() {
   const t = await getTranslations("dashboard");
   const authT = await getTranslations("authentication");
   const projectsT = await getTranslations("projects");
+  const analyticsT = await getTranslations("analytics");
   const session = await auth();
   const activeCount = session?.user?.id ? await countProjectsForUser(session.user.id, "active") : 0;
+  const overview =
+    session?.user?.id != null
+      ? await getUserOverviewAnalytics(session.user.id, "30d").catch(() => null)
+      : null;
 
   const stats = [
-    {label: t("imagesProcessed"), value: "0", icon: Images},
-    {label: t("storageSaved"), value: "0 MB", icon: HardDriveDownload},
+    {
+      label: analyticsT("metrics.activeImages"),
+      value: overview ? String(overview.images.active) : "—",
+      icon: Images,
+    },
+    {
+      label: analyticsT("metrics.generatedStorage"),
+      value: overview
+        ? formatByteSize(overview.storage.totalGeneratedBytes, "en")
+        : "—",
+      icon: HardDriveDownload,
+    },
     {label: t("activeProjects"), value: String(activeCount), icon: FolderKanban},
   ] as const;
 
@@ -54,6 +71,12 @@ export default async function DashboardPage() {
         ))}
       </section>
 
+      <p className="mt-4 text-sm">
+        <Link href="/dashboard/analytics" className="font-medium text-[var(--accent)]">
+          {analyticsT("overviewTitle")} →
+        </Link>
+      </p>
+
       <section
         id="projects"
         className="mt-6 rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm"
@@ -83,7 +106,6 @@ export default async function DashboardPage() {
         </div>
       </section>
 
-      <section id="usage" className="sr-only" aria-hidden="true" />
       <section id="billing" className="sr-only" aria-hidden="true" />
       <section id="settings" className="sr-only" aria-hidden="true" />
     </main>

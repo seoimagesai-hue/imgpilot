@@ -29,8 +29,45 @@ const serverSchema = z
     AI_PROVIDER: z.enum(["gemini", "openai", ""]).optional().default(""),
     GEMINI_API_KEY: z.string().optional().default(""),
     OPENAI_API_KEY: z.string().optional().default(""),
+    AI_MODEL: z.string().optional().default(""),
+    AI_REQUEST_TIMEOUT_SECONDS: z.string().optional().default(""),
+    AI_METADATA_PROMPT_VERSION: z.string().optional().default(""),
     STRIPE_SECRET_KEY: z.string().optional().default(""),
     STRIPE_WEBHOOK_SECRET: z.string().optional().default(""),
+    STRIPE_PRICE_STARTER_MONTHLY: z.string().optional().default(""),
+    STRIPE_PRICE_STARTER_ANNUAL: z.string().optional().default(""),
+    STRIPE_PRICE_PRO_MONTHLY: z.string().optional().default(""),
+    STRIPE_PRICE_PRO_ANNUAL: z.string().optional().default(""),
+    STRIPE_PRICE_AGENCY_MONTHLY: z.string().optional().default(""),
+    STRIPE_PRICE_AGENCY_ANNUAL: z.string().optional().default(""),
+    STRIPE_CUSTOMER_PORTAL_CONFIGURATION_ID: z.string().optional().default(""),
+    CRON_SECRET: z.string().optional().default(""),
+    CLEANUP_CRON_SECRET: z.string().optional().default(""),
+    /** Prompt 26 — WordPress publish integration (self-hosted, Application Passwords). */
+    WORDPRESS_REQUEST_TIMEOUT_SECONDS: z.string().optional().default(""),
+    WORDPRESS_MAX_RESPONSE_BYTES: z.string().optional().default(""),
+    WORDPRESS_MAX_CONCURRENT_PUBLISHES: z.string().optional().default(""),
+    WORDPRESS_PUBLISH_RETRY_LIMIT: z.string().optional().default(""),
+    /** Prompt 27 — Shopify publish integration (Custom App Admin API access token). */
+    SHOPIFY_REQUEST_TIMEOUT_SECONDS: z.string().optional().default(""),
+    SHOPIFY_MAX_RESPONSE_BYTES: z.string().optional().default(""),
+    SHOPIFY_MAX_CONCURRENT_PUBLISHES: z.string().optional().default(""),
+    SHOPIFY_PUBLISH_RETRY_LIMIT: z.string().optional().default(""),
+    /** Prompt 28 — Webflow CMS publish integration (Site access token). */
+    WEBFLOW_REQUEST_TIMEOUT_SECONDS: z.string().optional().default(""),
+    WEBFLOW_MAX_RESPONSE_BYTES: z.string().optional().default(""),
+    WEBFLOW_MAX_CONCURRENT_PUBLISHES: z.string().optional().default(""),
+    WEBFLOW_PUBLISH_RETRY_LIMIT: z.string().optional().default(""),
+    /** Prompt 29 — Cloudinary publish integration. */
+    CLOUDINARY_REQUEST_TIMEOUT_SECONDS: z.string().optional().default(""),
+    CLOUDINARY_MAX_RESPONSE_BYTES: z.string().optional().default(""),
+    /** Optional dedicated key for integration secrets; falls back to AUTH_SECRET-derived key. */
+    INTEGRATION_ENCRYPTION_KEY: z.string().optional().default(""),
+    /** Consumer guest foundation (Phase 1) — optional overrides; defaults applied in guest-policy. */
+    GUEST_COOKIE_NAME: z.string().optional().default(""),
+    GUEST_MAX_FILE_BYTES: z.string().optional().default(""),
+    GUEST_MAX_OPS_PER_DAY: z.string().optional().default(""),
+    GUEST_ASSET_TTL_HOURS: z.string().optional().default(""),
   })
   .superRefine((value, ctx) => {
     const hasGoogleId = Boolean(value.AUTH_GOOGLE_ID);
@@ -41,6 +78,56 @@ const serverSchema = z
         message:
           "AUTH_GOOGLE_ID and AUTH_GOOGLE_SECRET must both be set, or both left empty.",
         path: hasGoogleId ? ["AUTH_GOOGLE_SECRET"] : ["AUTH_GOOGLE_ID"],
+      });
+    }
+
+    const stripeSecret = Boolean(value.STRIPE_SECRET_KEY);
+    const stripeWebhook = Boolean(value.STRIPE_WEBHOOK_SECRET);
+    if (stripeSecret !== stripeWebhook) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message:
+          "STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET must both be set, or both left empty.",
+        path: stripeSecret ? ["STRIPE_WEBHOOK_SECRET"] : ["STRIPE_SECRET_KEY"],
+      });
+    }
+    for (const key of [
+      "STRIPE_PRICE_STARTER_MONTHLY",
+      "STRIPE_PRICE_STARTER_ANNUAL",
+      "STRIPE_PRICE_PRO_MONTHLY",
+      "STRIPE_PRICE_PRO_ANNUAL",
+      "STRIPE_PRICE_AGENCY_MONTHLY",
+      "STRIPE_PRICE_AGENCY_ANNUAL",
+    ] as const) {
+      const price = value[key];
+      if (price && !/^price_[A-Za-z0-9]+$/.test(price)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: `${key} must be a Stripe Price ID (price_…) or empty`,
+          path: [key],
+        });
+      }
+    }
+
+    if (value.AI_PROVIDER === "openai" && !value.OPENAI_API_KEY) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "OPENAI_API_KEY is required when AI_PROVIDER=openai",
+        path: ["OPENAI_API_KEY"],
+      });
+    }
+    if (value.AI_PROVIDER === "gemini" && !value.GEMINI_API_KEY) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "GEMINI_API_KEY is required when AI_PROVIDER=gemini",
+        path: ["GEMINI_API_KEY"],
+      });
+    }
+    if (!value.AI_PROVIDER && (value.OPENAI_API_KEY || value.GEMINI_API_KEY)) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "AI_PROVIDER must be set when an AI API key is provided",
+        path: ["AI_PROVIDER"],
       });
     }
 
@@ -73,6 +160,48 @@ const serverSchema = z
           code: z.ZodIssueCode.custom,
           message: `R2_SIGNED_URL_TTL_SECONDS must be between 60 and 900 (default ${R2_TTL_DEFAULT_SECONDS})`,
           path: ["R2_SIGNED_URL_TTL_SECONDS"],
+        });
+      }
+    }
+
+    for (const key of [
+      "WORDPRESS_REQUEST_TIMEOUT_SECONDS",
+      "WORDPRESS_MAX_RESPONSE_BYTES",
+      "WORDPRESS_MAX_CONCURRENT_PUBLISHES",
+      "WORDPRESS_PUBLISH_RETRY_LIMIT",
+      "SHOPIFY_REQUEST_TIMEOUT_SECONDS",
+      "SHOPIFY_MAX_RESPONSE_BYTES",
+      "SHOPIFY_MAX_CONCURRENT_PUBLISHES",
+      "SHOPIFY_PUBLISH_RETRY_LIMIT",
+      "WEBFLOW_REQUEST_TIMEOUT_SECONDS",
+      "WEBFLOW_MAX_RESPONSE_BYTES",
+      "WEBFLOW_MAX_CONCURRENT_PUBLISHES",
+      "WEBFLOW_PUBLISH_RETRY_LIMIT",
+      "CLOUDINARY_REQUEST_TIMEOUT_SECONDS",
+      "CLOUDINARY_MAX_RESPONSE_BYTES",
+    ] as const) {
+      const raw = value[key];
+      if (raw && (!/^\d+$/.test(raw) || Number(raw) <= 0)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: `${key} must be a positive integer or empty`,
+          path: [key],
+        });
+      }
+    }
+
+    if (value.INTEGRATION_ENCRYPTION_KEY) {
+      let byteLength = 0;
+      try {
+        byteLength = Buffer.from(value.INTEGRATION_ENCRYPTION_KEY, "base64").length;
+      } catch {
+        byteLength = 0;
+      }
+      if (byteLength < 32) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: "INTEGRATION_ENCRYPTION_KEY must decode (base64) to at least 32 bytes, or be left empty",
+          path: ["INTEGRATION_ENCRYPTION_KEY"],
         });
       }
     }
@@ -140,6 +269,129 @@ export function requireAuthSecret(env = getServerEnv()): string {
     );
   }
   return env.AUTH_SECRET;
+}
+
+const WORDPRESS_REQUEST_TIMEOUT_SECONDS_DEFAULT = 30;
+const WORDPRESS_MAX_RESPONSE_BYTES_DEFAULT = 5 * 1024 * 1024; // 5 MiB
+const WORDPRESS_MAX_CONCURRENT_PUBLISHES_DEFAULT = 2;
+const WORDPRESS_PUBLISH_RETRY_LIMIT_DEFAULT = 5;
+
+function parsePositiveIntEnv(raw: string | undefined, fallback: number): number {
+  if (!raw) return fallback;
+  const value = Number(raw);
+  return Number.isFinite(value) && value > 0 ? Math.floor(value) : fallback;
+}
+
+export function getWordpressRequestTimeoutSeconds(env = getServerEnv()): number {
+  return parsePositiveIntEnv(
+    env.WORDPRESS_REQUEST_TIMEOUT_SECONDS,
+    WORDPRESS_REQUEST_TIMEOUT_SECONDS_DEFAULT,
+  );
+}
+
+export function getWordpressMaxResponseBytes(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.WORDPRESS_MAX_RESPONSE_BYTES, WORDPRESS_MAX_RESPONSE_BYTES_DEFAULT);
+}
+
+export function getWordpressMaxConcurrentPublishes(env = getServerEnv()): number {
+  return Math.min(
+    2,
+    parsePositiveIntEnv(
+      env.WORDPRESS_MAX_CONCURRENT_PUBLISHES,
+      WORDPRESS_MAX_CONCURRENT_PUBLISHES_DEFAULT,
+    ),
+  );
+}
+
+export function getWordpressPublishRetryLimit(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.WORDPRESS_PUBLISH_RETRY_LIMIT, WORDPRESS_PUBLISH_RETRY_LIMIT_DEFAULT);
+}
+
+const SHOPIFY_REQUEST_TIMEOUT_SECONDS_DEFAULT = 30;
+const SHOPIFY_MAX_RESPONSE_BYTES_DEFAULT = 5 * 1024 * 1024; // 5 MiB
+const SHOPIFY_MAX_CONCURRENT_PUBLISHES_DEFAULT = 2;
+const SHOPIFY_PUBLISH_RETRY_LIMIT_DEFAULT = 5;
+
+export function getShopifyRequestTimeoutSeconds(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.SHOPIFY_REQUEST_TIMEOUT_SECONDS, SHOPIFY_REQUEST_TIMEOUT_SECONDS_DEFAULT);
+}
+
+export function getShopifyMaxResponseBytes(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.SHOPIFY_MAX_RESPONSE_BYTES, SHOPIFY_MAX_RESPONSE_BYTES_DEFAULT);
+}
+
+export function getShopifyMaxConcurrentPublishes(env = getServerEnv()): number {
+  return Math.min(
+    2,
+    parsePositiveIntEnv(env.SHOPIFY_MAX_CONCURRENT_PUBLISHES, SHOPIFY_MAX_CONCURRENT_PUBLISHES_DEFAULT),
+  );
+}
+
+export function getShopifyPublishRetryLimit(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.SHOPIFY_PUBLISH_RETRY_LIMIT, SHOPIFY_PUBLISH_RETRY_LIMIT_DEFAULT);
+}
+
+const WEBFLOW_REQUEST_TIMEOUT_SECONDS_DEFAULT = 30;
+const WEBFLOW_MAX_RESPONSE_BYTES_DEFAULT = 5 * 1024 * 1024; // 5 MiB
+const WEBFLOW_MAX_CONCURRENT_PUBLISHES_DEFAULT = 2;
+const WEBFLOW_PUBLISH_RETRY_LIMIT_DEFAULT = 5;
+
+export function getWebflowRequestTimeoutSeconds(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.WEBFLOW_REQUEST_TIMEOUT_SECONDS, WEBFLOW_REQUEST_TIMEOUT_SECONDS_DEFAULT);
+}
+
+export function getWebflowMaxResponseBytes(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.WEBFLOW_MAX_RESPONSE_BYTES, WEBFLOW_MAX_RESPONSE_BYTES_DEFAULT);
+}
+
+export function getWebflowMaxConcurrentPublishes(env = getServerEnv()): number {
+  return Math.min(
+    2,
+    parsePositiveIntEnv(env.WEBFLOW_MAX_CONCURRENT_PUBLISHES, WEBFLOW_MAX_CONCURRENT_PUBLISHES_DEFAULT),
+  );
+}
+
+export function getWebflowPublishRetryLimit(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.WEBFLOW_PUBLISH_RETRY_LIMIT, WEBFLOW_PUBLISH_RETRY_LIMIT_DEFAULT);
+}
+
+const CLOUDINARY_REQUEST_TIMEOUT_SECONDS_DEFAULT = 30;
+const CLOUDINARY_MAX_RESPONSE_BYTES_DEFAULT = 5 * 1024 * 1024; // 5 MiB
+
+export function getCloudinaryRequestTimeoutSeconds(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.CLOUDINARY_REQUEST_TIMEOUT_SECONDS, CLOUDINARY_REQUEST_TIMEOUT_SECONDS_DEFAULT);
+}
+
+export function getCloudinaryMaxResponseBytes(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.CLOUDINARY_MAX_RESPONSE_BYTES, CLOUDINARY_MAX_RESPONSE_BYTES_DEFAULT);
+}
+
+/**
+ * Encryption key material for integration secrets (WordPress credentials, etc).
+ * Prefers a dedicated `INTEGRATION_ENCRYPTION_KEY` (base64, 32+ bytes); falls back
+ * to the same AUTH_SECRET-derived key used by outbound webhook secrets.
+ */
+export function getIntegrationEncryptionKeyMaterial(env = getServerEnv()): {
+  source: "integration_key" | "auth_secret";
+  value: string;
+} {
+  if (env.INTEGRATION_ENCRYPTION_KEY) {
+    return {source: "integration_key", value: env.INTEGRATION_ENCRYPTION_KEY};
+  }
+  return {source: "auth_secret", value: requireAuthSecret(env)};
+}
+
+export function getGuestMaxFileBytes(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.GUEST_MAX_FILE_BYTES, 10 * 1024 * 1024);
+}
+
+export function getGuestMaxOpsPerDay(env = getServerEnv()): number {
+  return parsePositiveIntEnv(env.GUEST_MAX_OPS_PER_DAY, 5);
+}
+
+export function getGuestAssetTtlMs(env = getServerEnv()): number {
+  const hours = parsePositiveIntEnv(env.GUEST_ASSET_TTL_HOURS, 1);
+  return hours * 60 * 60 * 1000;
 }
 
 export const clientEnv = getClientEnv();

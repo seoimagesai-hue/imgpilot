@@ -41,6 +41,8 @@ import {
   onReplacementPromotedEvaluateReady,
   onReplacementStartedDemoteReady,
 } from "@/server/images/ready-service";
+import {onReplacementInvalidateProcessing} from "@/server/images/processing-service";
+import {onImageInvalidateBulkItems} from "@/server/images/bulk-service";
 import {getReservationByReplacementId} from "@/server/images/quota-queries";
 import {StorageDomainError} from "@/server/storage/errors";
 import {buildReplacementStorageKey} from "@/server/storage/keys";
@@ -71,7 +73,7 @@ export async function beginOwnedImageReplacement(params: {
 }): Promise<BeginReplacementResult> {
   if (!isR2Configured()) return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.replace");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const image = await getOwnedImageRow(params.userId, project.id, params.imageId);
@@ -161,6 +163,30 @@ export async function beginOwnedImageReplacement(params: {
     console.error("[ready] demote on replacement start failed");
   });
 
+  await onReplacementInvalidateProcessing({
+    projectId: project.id,
+    imageId: image.id,
+  }).catch(() => {
+    console.error("[processing] invalidate on replacement start failed");
+  });
+
+  await onImageInvalidateBulkItems({
+    projectId: project.id,
+    imageId: image.id,
+    reason: "SOURCE_REVISION_CHANGED",
+  }).catch(() => {
+    console.error("[bulk] invalidate on replacement start failed");
+  });
+
+  const {onImageInvalidateMetadata} = await import("@/server/images/ai-metadata-service");
+  await onImageInvalidateMetadata({
+    projectId: project.id,
+    imageId: image.id,
+    reason: "IMAGE_SOURCE_CHANGED",
+  }).catch(() => {
+    console.error("[metadata] invalidate on replacement start failed");
+  });
+
   await markReplacementUploading(replacementId, project.id);
 
   try {
@@ -211,7 +237,7 @@ export async function confirmOwnedReplacementUpload(params: {
 }): Promise<ConfirmReplacementResult> {
   if (!isR2Configured()) return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.replace");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const replacement = await getOwnedReplacement(params.userId, project.id, params.replacementId);
@@ -317,7 +343,7 @@ export async function validateOwnedReplacement(params: {
 }): Promise<ValidateReplacementResult> {
   if (!isR2Configured()) return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.replace");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const image = await getOwnedImageRow(params.userId, project.id, params.imageId);
@@ -464,7 +490,7 @@ export async function promoteOwnedReplacement(params: {
 }): Promise<PromoteReplacementResult> {
   if (!isR2Configured()) return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.replace");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const promoted = await promoteReplacementInTransaction({
@@ -523,7 +549,7 @@ export async function retryOldStorageCleanup(params: {
 }): Promise<PromoteReplacementResult> {
   if (!isR2Configured()) return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.replace");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const replacement = await getOwnedReplacement(params.userId, project.id, params.replacementId);
@@ -577,7 +603,7 @@ export async function cancelOwnedReplacement(params: {
 }): Promise<CancelReplacementResult> {
   if (!isR2Configured()) return {ok: false, error: "STORAGE_NOT_CONFIGURED"};
 
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.replace");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   const acquired = await acquireReplacementCancellation(

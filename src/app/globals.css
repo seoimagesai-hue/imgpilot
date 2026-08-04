@@ -1,13 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f4f6f8;
-  --foreground: #111827;
+  --background: #f8fafc;
+  --foreground: #0f172a;
   --card: #ffffff;
-  --muted: #6b7280;
-  --border: #e5e7eb;
-  --accent: #0f766e;
-  --accent-soft: #ecfdf5;
+  --muted: #e2e8f0;
+  --muted-foreground: #64748b;
+  --body: #475569;
+  --border: #e2e8f0;
+  --accent: #2563eb;
+  --accent-bright: #3b82f6;
+  --accent-soft: #eff6ff;
+  --accent-foreground: #ffffff;
+  --violet: #7c3aed;
+  --violet-soft: #f5f3ff;
+  --cyan: #06b6d4;
+  --danger: #dc2626;
+  --success: #16a34a;
+  --warning: #d97706;
+  --hero-deep: #0f172a;
+  --hero-mid: #2563eb;
+  --hero-glow: #3b82f6;
+  --footer: #0b1220;
+  --gradient-brand: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  --radius-card: 1rem;
+  --radius-control: 0.75rem;
+  --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.06);
+  --shadow-lift: 0 16px 40px rgba(15, 23, 42, 0.1);
+  --container-marketing: 75rem; /* 1200px */
+  --container-tool: 82.5rem; /* 1320px */
+  --container-prose: 50rem; /* 800px */
 }
 
 * {
@@ -23,7 +45,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Segoe UI", "Noto Nastaliq Urdu", "Noto Sans Arabic", Tahoma, sans-serif;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 a {
@@ -33,11 +55,183 @@ a {
 
 button,
 input,
-select {
+select,
+textarea {
   font: inherit;
 }
 
 :focus-visible {
-  outline: 3px solid color-mix(in srgb, var(--accent), transparent 55%);
+  outline: 3px solid color-mix(in srgb, var(--accent), transparent 45%);
   outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.marketing-container {
+  width: 100%;
+  max-width: var(--container-marketing);
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.tool-container {
+  width: 100%;
+  max-width: var(--container-tool);
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.prose-container {
+  width: 100%;
+  max-width: var(--container-prose);
+  margin-inline: auto;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border-radius: var(--radius-control);
+  background: var(--gradient-brand);
+  color: var(--accent-foreground);
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.05);
+}
+
+.card-surface {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-soft);
+}
+
+.section-space {
+  padding-block: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-space {
+    padding-block: 6rem;
+  }
+}
+
+.eyebrow {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.section-title {
+  font-size: clamp(1.75rem, 2.5vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: var(--foreground);
+}
+
+.section-lead {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--body);
+}
+
+.home-hero-bg {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 60% 50% at 20% 10%, rgba(37, 99, 235, 0.12), transparent 55%),
+    radial-gradient(ellipse 50% 45% at 85% 20%, rgba(124, 58, 237, 0.1), transparent 50%),
+    linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.home-hero-bg::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(15, 23, 42, 0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent 85%);
+}
+
+.home-float {
+  animation: home-float 5.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-float {
+    animation: none;
+  }
+}
+
+@keyframes home-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.tool-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lift);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.gradient-border-card {
+  position: relative;
+  background: var(--card);
+  border-radius: var(--radius-card);
+  border: 1px solid transparent;
+  background-image:
+    linear-gradient(var(--card), var(--card)),
+    linear-gradient(135deg, rgba(37, 99, 235, 0.35), rgba(124, 58, 237, 0.35));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
 }

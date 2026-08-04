@@ -1,6 +1,6 @@
-import {DrizzleAdapter} from "@auth/drizzle-adapter";
 import {eq} from "drizzle-orm";
 import NextAuth from "next-auth";
+import {DrizzleAdapter} from "@auth/drizzle-adapter";
 import type {Provider} from "next-auth/providers";
 import Credentials from "next-auth/providers/credentials";
 import Google from "next-auth/providers/google";
@@ -37,6 +37,10 @@ function buildProviders(): Provider[] {
           return null;
         }
 
+        if (user.accountStatus === "suspended") {
+          return null;
+        }
+
         const valid = await verifyPassword(parsed.data.password, user.passwordHash);
         if (!valid) {
           return null;
@@ -47,6 +51,8 @@ function buildProviders(): Provider[] {
           name: user.name,
           email: user.email,
           image: user.image,
+          role: user.role,
+          accountStatus: user.accountStatus,
         };
       },
     }),
@@ -96,15 +102,57 @@ export const {handlers, auth, signIn, signOut} = NextAuth(() => {
     },
     providers: buildProviders(),
     callbacks: {
+      async signIn({user}) {
+        if (!user?.id) return true;
+        try {
+          const db = getDb();
+          const [row] = await db
+            .select({accountStatus: users.accountStatus})
+            .from(users)
+            .where(eq(users.id, user.id))
+            .limit(1);
+          if (row?.accountStatus === "suspended") {
+            return false;
+          }
+        } catch {
+          // DB unavailable — fail closed for OAuth/credentials continuity checks later in session
+        }
+        return true;
+      },
       async jwt({token, user}) {
         if (user?.id) {
           token.sub = user.id;
+        }
+        if (token.sub && env.DATABASE_URL) {
+          try {
+            const db = getDb();
+            const [row] = await db
+              .select({
+                role: users.role,
+                accountStatus: users.accountStatus,
+              })
+              .from(users)
+              .where(eq(users.id, token.sub))
+              .limit(1);
+            if (row) {
+              token.role = row.role;
+              token.accountStatus = row.accountStatus;
+            }
+          } catch {
+            // keep prior token claims if transient DB error
+          }
+        } else if (user) {
+          token.role = user.role ?? "user";
+          token.accountStatus = user.accountStatus ?? "active";
         }
         return token;
       },
       async session({session, token}) {
         if (session.user && token.sub) {
           session.user.id = token.sub;
+          session.user.role = (token.role as "user" | "super_admin" | undefined) ?? "user";
+          session.user.accountStatus =
+            (token.accountStatus as "active" | "suspended" | undefined) ?? "active";
         }
         return session;
       },

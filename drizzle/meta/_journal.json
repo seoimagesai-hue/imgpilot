@@ -78,6 +78,132 @@
       "when": 1785474000000,
       "tag": "0010_ready_for_processing",
       "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1785475000000,
+      "tag": "0011_processing_jobs",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1785476000000,
+      "tag": "0012_resize_presets",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1785477000000,
+      "tag": "0013_format_conversion",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1785478000000,
+      "tag": "0014_bulk_processing",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1785479000000,
+      "tag": "0015_processing_queue",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1785480000000,
+      "tag": "0016_ai_metadata",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1785481000000,
+      "tag": "0017_export_packages",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1785482000000,
+      "tag": "0018_analytics_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1785483000000,
+      "tag": "0019_billing",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1785484000000,
+      "tag": "0020_admin",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1785485000000,
+      "tag": "0021_organizations",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1785486000000,
+      "tag": "0022_api_webhooks",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1785487000000,
+      "tag": "0023_wordpress",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1785488000000,
+      "tag": "0024_shopify",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1785489000000,
+      "tag": "0025_webflow",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1785490000000,
+      "tag": "0026_guest_foundation",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1785491000000,
+      "tag": "0027_guest_job_options",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1785492000000,
+      "tag": "0028_guest_bulk",
+      "breakpoints": true
     }
   ]
 }

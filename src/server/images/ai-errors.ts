@@ -1,0 +1,35 @@
+export type SafeAiErrorCode =
+  | "UNAUTHORIZED"
+  | "INVALID_REQUEST"
+  | "PROJECT_NOT_FOUND"
+  | "IMAGE_NOT_FOUND"
+  | "IMAGE_NOT_ELIGIBLE"
+  | "IMAGE_SOURCE_CHANGED"
+  | "AI_NOT_CONFIGURED"
+  | "AI_PROVIDER_UNAVAILABLE"
+  | "AI_RATE_LIMITED"
+  | "AI_REQUEST_TIMEOUT"
+  | "AI_RESPONSE_INVALID"
+  | "AI_OUTPUT_POLICY_FAILED"
+  | "AI_GENERATION_CONFLICT"
+  | "AI_GENERATION_NOT_FOUND"
+  | "AI_GENERATION_STALE"
+  | "AI_RETRY_LIMIT_REACHED"
+  | "METADATA_LANGUAGE_UNSUPPORTED"
+  | "METADATA_VALIDATION_FAILED"
+  | "METADATA_NOT_APPROVABLE"
+  | "METADATA_ALREADY_APPROVED"
+  | "STORAGE_NOT_CONFIGURED"
+  | "STORAGE_UNAVAILABLE"
+  | "SUBSCRIPTION_RESTRICTED"
+  | "AI_LIMIT_REACHED"
+  | "FEATURE_NOT_INCLUDED";
+
+export class AiDomainError extends Error {
+  readonly code: SafeAiErrorCode;
+  constructor(code: SafeAiErrorCode, message?: string) {
+    super(message ?? code);
+    this.name = "AiDomainError";
+    this.code = code;
+  }
+}

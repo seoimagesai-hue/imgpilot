@@ -203,6 +203,8 @@ export async function bumpQuotaState(
     reservedUploadBytes?: number;
     replacementCandidateBytes?: number;
     cleanupPendingBytes?: number;
+    generatedOutputBytes?: number;
+    reservedGeneratedBytes?: number;
   },
   db: DbOrTx = getDb(),
 ): Promise<ProjectQuotaState | null> {
@@ -229,6 +231,12 @@ export async function bumpQuotaState(
   }
   if (delta.cleanupPendingBytes != null) {
     set.cleanupPendingBytes = sql`GREATEST(0, ${projectQuotaState.cleanupPendingBytes} + ${delta.cleanupPendingBytes})`;
+  }
+  if (delta.generatedOutputBytes != null) {
+    set.generatedOutputBytes = sql`GREATEST(0, ${projectQuotaState.generatedOutputBytes} + ${delta.generatedOutputBytes})`;
+  }
+  if (delta.reservedGeneratedBytes != null) {
+    set.reservedGeneratedBytes = sql`GREATEST(0, ${projectQuotaState.reservedGeneratedBytes} + ${delta.reservedGeneratedBytes})`;
   }
 
   const [row] = await db

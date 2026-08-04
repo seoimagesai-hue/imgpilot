@@ -1,52 +1,91 @@
 # Known Issues
 
 ## Current blockers
-- None. Milestone 3 complete (Prompt 11 Ready-for-processing closed).
+- **Paid launch Blocked:** Configure test-mode Stripe after Prompt 14; frontend Prompt 13 Phase A is live.
+- **Target-KB SEO pages deferred:** No target-byte compress backend — routes not shipped.
+- **Social SEO resize pages deferred:** Need dated central presets (Prompt 13b).
+- **Guest AI live generation Blocked:** No verified OpenAI keyed success in this environment.
+- **Guest Exact Size resize locked:** UI disabled + server `OPERATION_NOT_SUPPORTED` until a later prompt.
+- **Guest public bulk AI unavailable:** Authenticated `bulkAi: true` (Prompt 31 batches). Guest bulk AI explicitly off.
+- **Embedded guest SEO metadata write deferred:** Metadata Editor exports sidecars + renamed download only.
+- **Production cron secret on :3000:** Set `CRON_SECRET` and restart app + external 10–15m scheduler (HTTP cron verified on side server).
+- **Playwright full suite:** Passed in Prompt 12 (`scripts/verify-consumer-launch-browser.ts`, 101/101). Re-run after further UI changes.
+- **Cutover rollback build retained:** `.next-pre-v2-cutover` must not be deleted until operator approval. Legacy `guest_*_pre_v2_archive` tables retained.
 
 ## Deferred / not tested
-- Owner UI for `deletion_failed` cleanup retry (API + recovery CLI exist; library hides deleting images)
-- Owner UI for old-object cleanup failure after promotion (API retry exists)
-- Exact signed-preview TTL expiry timing after deletion
-- Automatic scheduled recovery (CLI/service ready; no scheduler)
-- Automatic scheduled quota / Ready reconciliation (CLIs ready; no scheduler)
-- Bulk delete / bulk replace / bulk process
-- Permanent restore after storage deletion
-- Generated thumbnail derivatives
-- Cursor pagination for very large libraries
+- Live OpenAI guest generation / timeout / fallback (fallback N/A — Completions only)
+- Guest Exact Size resize unlock — later prompt
+- Guest multi-file / Download All on single-image tools — bulk route covers multi-file
+- Playwright EN/UR/mobile/keyboard against installed Chromium (script: `scripts/verify-consumer-launch-browser.ts`)
+- Live paid Stripe Checkout
+- Live Stripe test-mode Checkout payment with real Price IDs
+- Stripe CLI webhook forwarding in CI
+- Organization / seat billing (orgs use interim billing-owner entitlements; no seat prices)
+- Transactional invite email delivery (copy-link only until mail provider exists)
+- Org → personal project transfer (deferred)
+- SSO / SAML for organizations
+- OAuth applications / third-party app marketplace
+- GraphQL / WebSockets / public SDKs
+- Webflow OAuth / Designer automation / CMS item creation / whole-site publish (CMS asset attach implemented; Prompt 28)
+- Zapier / Make apps
+- Live external webhook delivery requires a safe public HTTPS receiver (mocked/local verified; live marked Blocked when absent)
+- API keys cannot be recovered after creation; rotate if lost
+- Webhook delivery is at-least-once — consumers must deduplicate by event ID
+- API rate limits are DB-backed (interim; not Redis)
+- OpenAPI covers stable `/api/v1` routes only
+- User impersonation (explicitly out of Prompt 22)
+- Manual refunds / invoice creation / card capture
+- Revenue / MRR analytics
+- Public status page / external paging / SMS alerts
+- Blog / changelog CMS on marketing site
+- Customer testimonials / logos (none approved)
+- Non-essential public analytics / cookie consent banner (no trackers added)
+- Affiliate / referral system
+- Webflow OAuth, Designer automation, CMS item/collection creation, automatic whole-site publish, remote asset deletion
+- WordPress.com and multisite not supported unless separately verified
+- WordPress Application Password + REST API required; security plugins may block REST
+- WordPress upload size / MIME / AVIF support vary by site; filenames may be rewritten
+- SaaS deletion / disconnect does not delete WordPress, Shopify, or Webflow media (no remote delete in P26–P28)
+- Live WordPress media publish requires a safe self-hosted HTTPS test site (otherwise Blocked)
+- Shopify Custom App Admin API token required (OAuth install flow deferred); Admin API host is `*.myshopify.com` only
+- Shopify product/variant/order/inventory/theme APIs are out of scope
+- Live Shopify product-media publish requires a safe development store (otherwise Blocked)
+- Webflow site access token required (OAuth deferred); images capped at 4 MiB by Webflow; CMS update does not equal whole-site publish
+- Live Webflow asset/CMS publish requires a safe test site/token (otherwise Blocked)
+- Workspace-level connection activation is audited; `analytics_events` still requires a project FK so connection-activated analytics are not written without a project
+- Professional legal review of Privacy/Terms/Cookies/AUP (placeholders remain)
+- Formal Urdu legal translation review
+- Remote worker shell commands
+- Arbitrary SQL console / R2 bucket browser
+- Manual entitlement overrides
+- Metered overage invoices
+- Custom card form (intentionally out of scope)
+- PayPal / bank transfer / manual invoices
+- Coupon admin UI
+- Billing emails beyond Stripe-managed
+- Owner UI for `deletion_failed` cleanup retry
+- Automatic scheduled recovery / export TTL / quota reconciliation cron
+- Bulk delete / bulk replace
+- Bulk AI generate-all
+- WordPress posts/pages/featured-image/WooCommerce; Shopify OAuth/product CRUD; Webflow OAuth/Designer/item creation
 - Multipart / resumable uploads
-- Processing / AI / ZIP / CSV / billing
-- Drag-drop / ZIP upload polish (listed on roadmap as deferred polish)
+- Redis / BullMQ
+- Provider fallback (Gemini)
+- Custom date-range picker (analytics allow-listed presets only)
 
 ## Temporary product limitations
-- Ready means eligible for future processing — processing has **not** started
-- Processing/completed/failed counters are placeholders (always 0)
-- Replacement temporarily stores old + new originals until old cleanup succeeds
-- Cleanup-pending bytes count toward quota until R2 absence is confirmed
-- Quota limits are development defaults (10k images / 10 GiB), not paid billing tiers
-- Already-issued signed URLs are not instantly revoked unless the object is deleted
-- Without R2 credentials, upload/validation/delete/replace show storage-unavailable
-- Library default filter shows Ready images
-- No AI metadata, ZIP/CSV export, or billing
-- `validated` ≠ Ready; `ready_for_processing` ≠ processing started
-
-## Environment notes
-- R2 must be configured as a complete group or left fully empty (partial config rejected)
-- Endpoint: `https://<ACCOUNT_ID>.r2.cloudflarestorage.com`
-- Keep bucket private; never enable public `r2.dev` access for originals
-- Apply CORS from `docs/r2-cors.example.json`
-- TTL: `R2_SIGNED_URL_TTL_SECONDS` between 60 and 900 (default 300)
-- Sharp requires Node.js runtime (not Edge); `serverExternalPackages: ["sharp"]`
-
-## Resolved
-- Image domain foundation without local/DB byte persistence
-- Private R2 direct-upload code path + operator live upload
-- Trusted validation with metadata + full decode (live R2 script)
-- Library polish interactive browser verification
-- Image delete + replace with private R2 cleanup (live R2 service verification)
-- Project quota accounting + enforcement (migrations `0008`/`0009`, reservations, UI, live + browser)
-- Ready-for-processing lifecycle + Milestone 3 closure (migration `0010`)
-
-## Technical debt
-- Auth.js is on `next-auth@5.0.0-beta.32`
-- ESLint FlatCompat for Next 15.5
-- Drizzle snapshots for hand-authored migrations may need reconciliation on next generate
+- Super-admin role assignment is CLI/operator-controlled (not self-serve UI)
+- Admin panel does not download customer exports or show signed URLs by default
+- Admin cannot force job completion or manually activate Stripe subscriptions
+- Paid plan dollar amounts are not shown on the public pricing page until Stripe Price IDs are configured (catalog limits still display; Checkout CTAs disabled)
+- Free plan uses prior development defaults as operational fallback
+- One subscription per user (no teams)
+- Worker re-checks monthly allowances at job create time; running jobs may finish
+- Grace period for `past_due` is 3 days
+- Tax configuration remains in Stripe
+- Analytics “all time” trend charts bounded to 90 UTC days; totals remain all-time from source tables
+- Activity timeline depends on `analytics_events` from deployment forward
+- Export ZIP always a ZIP container; CMS packages remain import kits; WordPress live media publish is separate (Prompt 26)
+- Export max 100 items; worker required; signed downloads expire
+- Filename suggestions never applied to R2 originals
+- Without R2, uploads/exports unavailable; without AI credentials, generate unavailable

@@ -6,6 +6,10 @@ import {redirectIfAuthenticated} from "@/server/auth/session";
 
 export const dynamic = "force-dynamic";
 
+export const metadata = {
+  robots: {index: false, follow: false},
+};
+
 type RegisterPageProps = {
   params: Promise<{locale: string}>;
   searchParams: Promise<{callbackUrl?: string}>;

@@ -139,6 +139,43 @@ export class R2ObjectStorageProvider implements ObjectStorageProvider {
     }
   }
 
+  async putObjectBuffer(params: {
+    storageKey: string;
+    body: Buffer;
+    contentType: string;
+    maxBytes: number;
+  }): Promise<ObjectMetadata> {
+    if (!Number.isFinite(params.maxBytes) || params.maxBytes <= 0) {
+      throw new StorageDomainError("OBJECT_TOO_LARGE");
+    }
+    if (params.body.byteLength <= 0 || params.body.byteLength > params.maxBytes) {
+      throw new StorageDomainError("OBJECT_TOO_LARGE");
+    }
+
+    const config = getR2ClientConfig();
+    const client = getR2Client(config);
+    try {
+      await client.send(
+        new PutObjectCommand({
+          Bucket: config.bucketName,
+          Key: params.storageKey,
+          Body: params.body,
+          ContentType: params.contentType,
+          ContentLength: params.body.byteLength,
+        }),
+      );
+    } catch (error) {
+      throw mapR2SdkError(error);
+    }
+
+    const meta = await this.readObjectMetadata(params.storageKey);
+    if (!meta) throw new StorageDomainError("OBJECT_NOT_FOUND");
+    if (meta.sizeBytes !== params.body.byteLength) {
+      throw new StorageDomainError("OBJECT_SIZE_MISMATCH");
+    }
+    return meta;
+  }
+
   async deleteObject(storageKey: string): Promise<void> {
     const config = getR2ClientConfig();
     const client = getR2Client(config);
@@ -154,15 +191,25 @@ export class R2ObjectStorageProvider implements ObjectStorageProvider {
     }
   }
 
-  async createSignedReadUrl(storageKey: string, ttlSeconds: number): Promise<SignedReadUrlResult> {
+  async createSignedReadUrl(
+    storageKey: string,
+    ttlSeconds: number,
+    options?: {downloadFilename?: string},
+  ): Promise<SignedReadUrlResult> {
     const config = getR2ClientConfig();
     const client = getR2Client(config);
     try {
+      const filename = options?.downloadFilename?.replace(/[\r\n"]/g, "").slice(0, 180);
       const url = await getSignedUrl(
         client,
         new GetObjectCommand({
           Bucket: config.bucketName,
           Key: storageKey,
+          ...(filename
+            ? {
+                ResponseContentDisposition: `attachment; filename="${filename}"; filename*=UTF-8''${encodeURIComponent(filename)}`,
+              }
+            : {}),
         }),
         {expiresIn: ttlSeconds},
       );

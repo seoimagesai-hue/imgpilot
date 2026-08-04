@@ -24,6 +24,11 @@ export type QuotaPolicySummary = {
   nearLimitRatio: number;
 };
 
+export type ProjectQuotaLimits = {
+  maxImagesPerProject: number;
+  maxProjectStorageBytes: number;
+};
+
 export type QuotaUsageSnapshot = {
   activeImageCount: number;
   reservedImageSlots: number;
@@ -72,30 +77,34 @@ export function computeEffectiveUsageBytes(usage: QuotaUsageSnapshot): number {
   return assertSafeInt(total, "effectiveUsageBytes");
 }
 
-export function availableImageSlots(usage: QuotaUsageSnapshot): number {
+export function availableImageSlots(usage: QuotaUsageSnapshot, limits?: ProjectQuotaLimits): number {
   const used = countLogicalImageSlots(usage);
-  return Math.max(0, MAX_IMAGES_PER_PROJECT - used);
+  const max = limits?.maxImagesPerProject ?? MAX_IMAGES_PER_PROJECT;
+  return Math.max(0, max - used);
 }
 
-export function availableStorageBytes(usage: QuotaUsageSnapshot): number {
+export function availableStorageBytes(usage: QuotaUsageSnapshot, limits?: ProjectQuotaLimits): number {
   const used = computeEffectiveUsageBytes(usage);
-  return Math.max(0, MAX_PROJECT_STORAGE_BYTES - used);
+  const max = limits?.maxProjectStorageBytes ?? MAX_PROJECT_STORAGE_BYTES;
+  return Math.max(0, max - used);
 }
 
 export function canReserveNewUploadSlots(
   usage: QuotaUsageSnapshot,
   slotCount: number,
+  limits?: ProjectQuotaLimits,
 ): boolean {
   assertSafeInt(slotCount, "slotCount");
-  return slotCount <= availableImageSlots(usage);
+  return slotCount <= availableImageSlots(usage, limits);
 }
 
 export function canReserveStorageBytes(
   usage: QuotaUsageSnapshot,
   bytes: number,
+  limits?: ProjectQuotaLimits,
 ): boolean {
   assertSafeInt(bytes, "bytes");
-  return bytes <= availableStorageBytes(usage);
+  return bytes <= availableStorageBytes(usage, limits);
 }
 
 export function isProjectStorageFull(usage: QuotaUsageSnapshot): boolean {

@@ -3,7 +3,13 @@ import {Link} from "@/i18n/navigation";
 import {ProjectList} from "@/components/projects/project-list";
 import {isAppLocale} from "@/server/auth/validation";
 import {requireUser} from "@/server/auth/session";
-import {listProjectsForUser} from "@/server/projects/queries";
+import {resolveActiveMembership} from "@/server/organizations/access";
+import {hasOrgPermission} from "@/server/organizations/permissions";
+import {resolveActiveWorkspace} from "@/server/organizations/workspace";
+import {
+  listOrganizationProjects,
+  listPersonalProjectsForUser,
+} from "@/server/projects/queries";
 import {projectFilterSchema} from "@/server/projects/validation";
 
 export const dynamic = "force-dynamic";
@@ -22,8 +28,25 @@ export default async function ProjectsPage({params, searchParams}: Props) {
 
   const sp = await searchParams;
   const filter = projectFilterSchema.parse(sp.status ?? "active");
-  const projects = await listProjectsForUser(userId, filter);
+  const workspace = await resolveActiveWorkspace(userId);
+
+  let projects;
+  let canCreate = true;
+
+  if (workspace.type === "organization") {
+    const membership = await resolveActiveMembership(userId, workspace.id);
+    if (!membership) {
+      projects = await listPersonalProjectsForUser(userId, filter);
+    } else {
+      projects = await listOrganizationProjects(workspace.id, filter);
+      canCreate = hasOrgPermission(membership.role, "projects.create");
+    }
+  } else {
+    projects = await listPersonalProjectsForUser(userId, filter);
+  }
+
   const t = await getTranslations("projects");
+  const to = await getTranslations("organizations");
 
   const filters = [
     {key: "active", label: t("filterActive")},
@@ -36,14 +59,24 @@ export default async function ProjectsPage({params, searchParams}: Props) {
       <header className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">{t("title")}</h1>
-          <p className="mt-2 text-sm text-[var(--muted)]">{t("subtitle")}</p>
+          <p className="mt-2 text-sm text-[var(--muted)]">
+            {workspace.type === "organization"
+              ? to("orgProjectsSubtitle", {name: workspace.displayName})
+              : t("subtitle")}
+          </p>
         </div>
-        <Link
-          href="/dashboard/projects/new"
-          className="inline-flex items-center justify-center rounded-xl bg-[var(--accent)] px-4 py-2.5 text-sm font-medium text-white"
-        >
-          {t("createProject")}
-        </Link>
+        {canCreate ? (
+          <Link
+            href={
+              workspace.type === "organization"
+                ? `/dashboard/projects/new?organizationId=${encodeURIComponent(workspace.id)}`
+                : "/dashboard/projects/new"
+            }
+            className="inline-flex items-center justify-center rounded-xl bg-[var(--accent)] px-4 py-2.5 text-sm font-medium text-white"
+          >
+            {t("createProject")}
+          </Link>
+        ) : null}
       </header>
 
       <div className="mb-4 flex flex-wrap gap-2" role="tablist" aria-label={t("filters")}>

@@ -1,5 +1,7 @@
 node_modules
 .next
+.next-*
+.data
 out
 coverage
 .env
@@ -7,6 +9,8 @@ coverage
 .env.*.local
 .DS_Store
 *.log
+.verify-tmp/
+build-p*.txt
 
 tsconfig.tsbuildinfo
 

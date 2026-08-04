@@ -63,13 +63,18 @@ export async function createProjectAction(
   });
   if (!parsed.success) return firstIssueMessage(parsed.error.issues);
 
+  const organizationIdRaw = String(formData.get("organizationId") ?? "").trim();
+  const organizationId = organizationIdRaw || undefined;
+
   try {
-    const created = await createOwnedProject(userId, parsed.data);
+    const created = await createOwnedProject(userId, parsed.data, {organizationId});
     revalidateProjectPaths(locale, created.id);
     redirect(`/${locale}/dashboard/projects/${created.id}`);
   } catch (error) {
     if (error && typeof error === "object" && "digest" in error) throw error;
     console.error("[projects] create failed");
+    const message = error instanceof Error ? error.message : "genericFailure";
+    if (message === "projectLimitReached") return {ok: false, error: "projectLimitReached"};
     return {ok: false, error: "genericFailure"};
   }
 }

@@ -1,0 +1,322 @@
+"use client";
+
+import {useLocale, useTranslations} from "next-intl";
+import {useId, useState} from "react";
+import {formatByteSize} from "@/lib/format-bytes";
+import {RESIZE_PRESET_IDS, type ResizePresetId} from "@/lib/resize-presets";
+import {pollProcessingJob} from "@/components/images/poll-processing-job";
+
+type JobDto = {
+  id: string;
+  status: string;
+  operation: string;
+  preset: string | null;
+  sourceByteSize: number;
+  outputByteSize: number | null;
+  sourceWidth: number | null;
+  sourceHeight: number | null;
+  outputWidth: number | null;
+  outputHeight: number | null;
+  byteDifference: number | null;
+  percentDifference: number | null;
+  lastErrorCode: string | null;
+  attemptCount: number;
+  maxAttempts: number;
+};
+
+type Props = {
+  projectId: string;
+  imageId: string;
+  imageStatus: string;
+  originalFilename: string;
+  sizeBytes: number;
+  width: number | null;
+  height: number | null;
+  detectedFormat: string | null;
+};
+
+export function ImageResizePanel({
+  projectId,
+  imageId,
+  imageStatus,
+  originalFilename,
+  sizeBytes,
+  width,
+  height,
+  detectedFormat,
+}: Props) {
+  const t = useTranslations("images.resize");
+  const locale = useLocale();
+  const titleId = useId();
+  const [busyPreset, setBusyPreset] = useState<string | null>(null);
+  const [confirmPreset, setConfirmPreset] = useState<ResizePresetId | null>(null);
+  const [jobsByPreset, setJobsByPreset] = useState<Partial<Record<ResizePresetId, JobDto>>>({});
+  const [error, setError] = useState<string | null>(null);
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [previewPreset, setPreviewPreset] = useState<string | null>(null);
+
+  const eligible = imageStatus === "ready_for_processing";
+
+  if (!eligible && Object.keys(jobsByPreset).length === 0) {
+    return <p className="text-sm text-[var(--muted)]">{t("notEligible")}</p>;
+  }
+
+  const runPreset = async (preset: ResizePresetId) => {
+    setBusyPreset(preset);
+    setError(null);
+    setPreviewUrl(null);
+    try {
+      const createRes = await fetch(`/api/projects/${projectId}/processing/jobs`, {
+        method: "POST",
+        headers: {"content-type": "application/json"},
+        body: JSON.stringify({
+          imageId,
+          operation: "resize",
+          preset,
+          idempotencyKey: `resize:${imageId}:${preset}:${Date.now()}`,
+        }),
+      });
+      const createJson = (await createRes.json()) as {
+        ok?: boolean;
+        error?: string;
+        job?: JobDto;
+      };
+      if (!createJson.ok || !createJson.job) {
+        setError(createJson.error ?? "PROCESSING_FAILED");
+        return;
+      }
+      setJobsByPreset((prev) => ({...prev, [preset]: createJson.job!}));
+
+      const polled = await pollProcessingJob<JobDto>({
+        projectId,
+        jobId: createJson.job.id,
+        onUpdate: (next) => setJobsByPreset((prev) => ({...prev, [preset]: next})),
+      });
+      if (polled) {
+        setJobsByPreset((prev) => ({...prev, [preset]: polled}));
+        if (polled.status !== "completed") {
+          setError(polled.lastErrorCode ?? "PROCESSING_FAILED");
+        }
+      } else {
+        setError("PROCESSING_FAILED");
+      }
+    } catch {
+      setError("PROCESSING_FAILED");
+    } finally {
+      setBusyPreset(null);
+      setConfirmPreset(null);
+    }
+  };
+
+  const retry = async (preset: ResizePresetId) => {
+    const job = jobsByPreset[preset];
+    if (!job) return;
+    setBusyPreset(preset);
+    setError(null);
+    try {
+      const res = await fetch(
+        `/api/projects/${projectId}/processing/jobs/${job.id}?action=retry`,
+        {method: "POST"},
+      );
+      const json = (await res.json()) as {ok?: boolean; error?: string; job?: JobDto};
+      if (!json.ok || !json.job) {
+        setError(json.error ?? "PROCESSING_FAILED");
+        return;
+      }
+      setJobsByPreset((prev) => ({...prev, [preset]: json.job!}));
+      const polled = await pollProcessingJob<JobDto>({
+        projectId,
+        jobId: json.job.id,
+        onUpdate: (next) => setJobsByPreset((prev) => ({...prev, [preset]: next})),
+      });
+      if (polled) {
+        setJobsByPreset((prev) => ({...prev, [preset]: polled}));
+        if (polled.status !== "completed") {
+          setError(polled.lastErrorCode ?? "PROCESSING_FAILED");
+        }
+      }
+    } catch {
+      setError("PROCESSING_FAILED");
+    } finally {
+      setBusyPreset(null);
+    }
+  };
+
+  const preview = async (preset: ResizePresetId) => {
+    const job = jobsByPreset[preset];
+    if (!job || job.status !== "completed") return;
+    setBusyPreset(preset);
+    try {
+      const res = await fetch(
+        `/api/projects/${projectId}/processing/jobs/${job.id}/preview`,
+        {method: "POST"},
+      );
+      const json = (await res.json()) as {ok?: boolean; url?: string; error?: string};
+      if (json.ok && json.url) {
+        setPreviewUrl(json.url);
+        setPreviewPreset(preset);
+      } else setError(json.error ?? "PROCESSING_FAILED");
+    } catch {
+      setError("PROCESSING_FAILED");
+    } finally {
+      setBusyPreset(null);
+    }
+  };
+
+  return (
+    <div className="space-y-3 border-t border-[var(--border)] pt-3">
+      <h3 className="text-sm font-semibold">{t("title")}</h3>
+      <p className="text-sm text-[var(--muted)]">{t("fromOriginal")}</p>
+      <p className="text-xs text-[var(--muted)]">{t("noUpscale")}</p>
+      <p className="text-xs text-[var(--muted)]">{t("aspectRatio")}</p>
+      <p className="text-xs text-[var(--muted)]">
+        {t("originalDims")}: {width ?? "—"}×{height ?? "—"} · {formatByteSize(sizeBytes, locale)} ·{" "}
+        {detectedFormat ?? "—"}
+      </p>
+
+      <ul className="space-y-2">
+        {RESIZE_PRESET_IDS.map((preset) => {
+          const job = jobsByPreset[preset];
+          const busy = busyPreset === preset;
+          return (
+            <li
+              key={preset}
+              className="rounded-xl border border-[var(--border)] bg-white p-3 text-sm"
+            >
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <span className="font-medium">{t(`presets.${preset}`)}</span>
+                {job?.status === "completed" ? (
+                  <span className="text-xs text-green-800">{t("badgeCompleted")}</span>
+                ) : null}
+                {job?.status === "failed" || job?.status === "cleanup_failed" ? (
+                  <span className="text-xs text-red-800">{t("badgeFailed")}</span>
+                ) : null}
+              </div>
+
+              {job?.status === "completed" ? (
+                <div className="mt-2 space-y-1 text-[var(--muted)]">
+                  <p>
+                    {t("outputDims")}: {job.outputWidth}×{job.outputHeight}
+                  </p>
+                  <p>
+                    {t("outputSize")}:{" "}
+                    {job.outputByteSize != null
+                      ? formatByteSize(job.outputByteSize, locale)
+                      : "—"}
+                  </p>
+                  {job.byteDifference != null ? (
+                    <p>
+                      {job.byteDifference > 0
+                        ? t("outputLarger")
+                        : job.byteDifference < 0
+                          ? t("sizeDifference")
+                          : t("noSizeReduction")}
+                      : {formatByteSize(Math.abs(job.byteDifference), locale)}
+                    </p>
+                  ) : null}
+                  <button
+                    type="button"
+                    className="underline"
+                    disabled={busy}
+                    onClick={() => void preview(preset)}
+                  >
+                    {t("preview")}
+                  </button>
+                </div>
+              ) : null}
+
+              {(job?.status === "failed" || job?.status === "cleanup_failed") &&
+              job.attemptCount < job.maxAttempts ? (
+                <button
+                  type="button"
+                  className="mt-2 underline"
+                  disabled={busy}
+                  onClick={() => void retry(preset)}
+                >
+                  {t("retry")}
+                </button>
+              ) : null}
+
+              {eligible && (!job || job.status === "cancelled" || job.status === "stale") ? (
+                <button
+                  type="button"
+                  className="mt-2 rounded-lg bg-[var(--accent)] px-3 py-1.5 text-white disabled:opacity-60"
+                  disabled={busy || Boolean(busyPreset)}
+                  onClick={() => setConfirmPreset(preset)}
+                >
+                  {t("generate")}
+                </button>
+              ) : null}
+
+              {job &&
+              ["queued", "processing", "uploading_output", "verifying_output"].includes(
+                job.status,
+              ) ? (
+                <p className="mt-2 text-[var(--muted)]" aria-live="polite">
+                  {t(`status.${job.status}` as "status.processing")}
+                </p>
+              ) : null}
+            </li>
+          );
+        })}
+      </ul>
+
+      {confirmPreset ? (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={titleId}
+          className="max-h-[70vh] overflow-y-auto rounded-xl border border-[var(--border)] bg-[var(--accent-soft)]/40 p-3 text-sm"
+        >
+          <h4 id={titleId} className="font-medium">
+            {t("confirmTitle", {preset: t(`presets.${confirmPreset}`)})}
+          </h4>
+          <p className="mt-1 text-[var(--muted)]">
+            {t("confirmBody", {name: originalFilename})}
+          </p>
+          <ul className="mt-2 list-disc ps-5 text-[var(--muted)]">
+            <li>{t("fromOriginal")}</li>
+            <li>{t("noUpscale")}</li>
+            <li>{t("aspectRatio")}</li>
+            <li>{t("sameFormat")}</li>
+          </ul>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              type="button"
+              className="rounded-lg bg-[var(--accent)] px-3 py-1.5 text-white disabled:opacity-60"
+              disabled={Boolean(busyPreset)}
+              onClick={() => void runPreset(confirmPreset)}
+            >
+              {busyPreset === confirmPreset ? t("processing") : t("confirmStart")}
+            </button>
+            <button
+              type="button"
+              className="rounded-lg border border-[var(--border)] bg-white px-3 py-1.5"
+              disabled={Boolean(busyPreset)}
+              onClick={() => setConfirmPreset(null)}
+            >
+              {t("cancel")}
+            </button>
+          </div>
+        </div>
+      ) : null}
+
+      {previewUrl && previewPreset ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={previewUrl}
+          alt={t("previewAlt", {preset: t(`presets.${previewPreset}` as "presets.px_256")})}
+          className="max-h-48 rounded-lg border border-[var(--border)] object-contain"
+        />
+      ) : null}
+
+      {error ? (
+        <p className="text-sm text-red-700" role="alert">
+          {t.has(`errors.${error}` as "errors.PROCESSING_FAILED")
+            ? t(`errors.${error}` as "errors.PROCESSING_FAILED")
+            : t("errors.PROCESSING_FAILED")}
+        </p>
+      ) : null}
+    </div>
+  );
+}

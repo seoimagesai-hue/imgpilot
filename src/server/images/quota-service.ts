@@ -28,6 +28,9 @@ import {
   updateReservationStatus,
 } from "@/server/images/quota-queries";
 import {getOwnedProject} from "@/server/projects/queries";
+import {resolveEntitlementUserIdForProject} from "@/server/organizations/access";
+import {getProjectQuotaLimitsForUser} from "@/server/billing/entitlements";
+import type {ProjectQuotaLimits} from "@/server/images/quota-policy";
 
 export type ProjectQuotaUsageDto = {
   activeImageCount: number;
@@ -51,15 +54,34 @@ export async function getOwnedProjectQuotaUsage(
   userId: string,
   projectId: string,
 ): Promise<ProjectQuotaUsageDto | null> {
-  const project = await getOwnedProject(userId, projectId);
+  const project = await getOwnedProject(userId, projectId, "projects.view");
   if (!project) return null;
 
   const state = await ensureProjectQuotaState(projectId);
   const usage = stateToSnapshot(state);
-  return toPublicDto(usage, state.inconsistencyFlag);
+  const entitlementUserId = await resolveEntitlementUserIdForProject(project);
+  const limits = await getProjectQuotaLimitsForUser(entitlementUserId);
+  if (!limits.writesAllowed) {
+    return {
+      ...toPublicDto(usage, state.inconsistencyFlag, {
+        maxImagesPerProject: limits.maxImagesPerProject,
+        maxProjectStorageBytes: limits.maxProjectStorageBytes,
+      }),
+      availableImageSlots: 0,
+      availableStorageBytes: 0,
+    };
+  }
+  return toPublicDto(usage, state.inconsistencyFlag, {
+    maxImagesPerProject: limits.maxImagesPerProject,
+    maxProjectStorageBytes: limits.maxProjectStorageBytes,
+  });
 }
 
-function toPublicDto(usage: QuotaUsageSnapshot, inconsistencyFlag: boolean): ProjectQuotaUsageDto {
+function toPublicDto(
+  usage: QuotaUsageSnapshot,
+  inconsistencyFlag: boolean,
+  limits?: ProjectQuotaLimits,
+): ProjectQuotaUsageDto {
   return {
     activeImageCount: usage.activeImageCount,
     reservedImageSlots: usage.reservedImageSlots,
@@ -69,8 +91,8 @@ function toPublicDto(usage: QuotaUsageSnapshot, inconsistencyFlag: boolean): Pro
     replacementCandidateBytes: usage.replacementCandidateBytes,
     cleanupPendingBytes: usage.cleanupPendingBytes,
     effectiveUsageBytes: computeEffectiveUsageBytes(usage),
-    availableImageSlots: availableImageSlots(usage),
-    availableStorageBytes: availableStorageBytes(usage),
+    availableImageSlots: availableImageSlots(usage, limits),
+    availableStorageBytes: availableStorageBytes(usage, limits),
     inconsistencyFlag,
   };
 }
@@ -94,8 +116,18 @@ export async function reserveNewUploads(
   projectId: string,
   items: ReserveNewUploadItem[],
 ): Promise<ReserveNewUploadsResult> {
-  const project = await getOwnedProject(userId, projectId);
+  const project = await getOwnedProject(userId, projectId, "images.upload");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
+
+  const entitlementUserId = await resolveEntitlementUserIdForProject(project);
+  const planLimits = await getProjectQuotaLimitsForUser(entitlementUserId);
+  if (!planLimits.writesAllowed) {
+    return {ok: false, error: "PROJECT_IMAGE_LIMIT_REACHED"};
+  }
+  const limits: ProjectQuotaLimits = {
+    maxImagesPerProject: planLimits.maxImagesPerProject,
+    maxProjectStorageBytes: planLimits.maxProjectStorageBytes,
+  };
 
   if (!isBatchSizeWithinLimit(items.length)) {
     return {ok: false, error: "UPLOAD_BATCH_LIMIT_EXCEEDED"};
@@ -117,10 +149,10 @@ export async function reserveNewUploads(
       const usage = stateToSnapshot(state);
       const totalBytes = sumDeclaredBytes(items);
 
-      if (!canReserveNewUploadSlots(usage, items.length)) {
+      if (!canReserveNewUploadSlots(usage, items.length, limits)) {
         return {ok: false as const, error: "PROJECT_IMAGE_LIMIT_REACHED" as const};
       }
-      if (!canReserveStorageBytes(usage, totalBytes)) {
+      if (!canReserveStorageBytes(usage, totalBytes, limits)) {
         return {ok: false as const, error: "PROJECT_STORAGE_LIMIT_REACHED" as const};
       }
 
@@ -177,8 +209,18 @@ export async function reserveReplacementUpload(params: {
   declaredBytes: number;
   expiresAt: Date;
 }): Promise<ReserveReplacementResult> {
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "images.replace");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
+
+  const entitlementUserId = await resolveEntitlementUserIdForProject(project);
+  const planLimits = await getProjectQuotaLimitsForUser(entitlementUserId);
+  if (!planLimits.writesAllowed) {
+    return {ok: false, error: "INSUFFICIENT_STORAGE_FOR_REPLACEMENT"};
+  }
+  const limits: ProjectQuotaLimits = {
+    maxImagesPerProject: planLimits.maxImagesPerProject,
+    maxProjectStorageBytes: planLimits.maxProjectStorageBytes,
+  };
 
   if (!isFileSizeWithinLimit(params.declaredBytes)) {
     return {ok: false, error: "FILE_SIZE_LIMIT_EXCEEDED"};
@@ -192,7 +234,7 @@ export async function reserveReplacementUpload(params: {
       if (!state) return {ok: false as const, error: "QUOTA_ACCOUNTING_CONFLICT" as const};
 
       const usage = stateToSnapshot(state);
-      if (!canReserveStorageBytes(usage, params.declaredBytes)) {
+      if (!canReserveStorageBytes(usage, params.declaredBytes, limits)) {
         return {ok: false as const, error: "INSUFFICIENT_STORAGE_FOR_REPLACEMENT" as const};
       }
 
@@ -649,7 +691,7 @@ export async function reconcileProjectQuota(params: {
   projectId: string;
   dryRun?: boolean;
 }): Promise<ReconcileReport | {ok: false; error: "PROJECT_NOT_FOUND"}> {
-  const project = await getOwnedProject(params.userId, params.projectId);
+  const project = await getOwnedProject(params.userId, params.projectId, "projects.view");
   if (!project) return {ok: false, error: "PROJECT_NOT_FOUND"};
 
   await ensureProjectQuotaState(params.projectId);

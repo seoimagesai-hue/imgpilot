@@ -1,0 +1,296 @@
+"use client";
+
+import {useActionState, useEffect, useRef, useState} from "react";
+import {useFormatter, useLocale, useTranslations} from "next-intl";
+import {Link} from "@/i18n/navigation";
+import {
+  disableWordpressConnectionAction,
+  disconnectWordpressConnectionAction,
+  enableWordpressConnectionAction,
+  updateWordpressCredentialsAction,
+  verifyWordpressConnectionAction,
+  type WordpressActionState,
+} from "@/server/wordpress/actions";
+import type {WordpressConnectionSafeDto} from "@/server/wordpress/connections";
+import {PublishStatus, type PublishStatusJob} from "@/components/wordpress/publish-status";
+
+const initial: WordpressActionState = {ok: false};
+
+const STATUS_STYLES: Record<string, string> = {
+  pending: "bg-gray-100 text-gray-700",
+  verifying: "bg-blue-100 text-blue-800",
+  active: "bg-emerald-100 text-emerald-800",
+  degraded: "bg-amber-100 text-amber-800",
+  authentication_failed: "bg-red-100 text-red-800",
+  permission_failed: "bg-red-100 text-red-800",
+  unreachable: "bg-red-100 text-red-800",
+  disabled: "bg-gray-100 text-gray-700",
+  disconnected: "bg-gray-100 text-gray-700",
+};
+
+type ConnectionDetailProps = {
+  connection: WordpressConnectionSafeDto;
+  jobs: PublishStatusJob[];
+  workspaceType: "personal" | "organization";
+  workspaceId: string;
+  canManage: boolean;
+};
+
+export function ConnectionDetail({connection, jobs, workspaceType, workspaceId, canManage}: ConnectionDetailProps) {
+  const t = useTranslations("wordpress");
+  const tErr = useTranslations("wordpress.errors");
+  const format = useFormatter();
+  const locale = useLocale();
+
+  const [verifyState, verifyAction, verifyPending] = useActionState(verifyWordpressConnectionAction, initial);
+  const [disableState, disableAction, disablePending] = useActionState(disableWordpressConnectionAction, initial);
+  const [enableState, enableAction, enablePending] = useActionState(enableWordpressConnectionAction, initial);
+  const [disconnectState, disconnectAction, disconnectPending] = useActionState(
+    disconnectWordpressConnectionAction,
+    initial,
+  );
+  const [credentialsState, credentialsAction, credentialsPending] = useActionState(
+    updateWordpressCredentialsAction,
+    initial,
+  );
+
+  const [display, setDisplay] = useState(connection);
+  const credentialsFormRef = useRef<HTMLFormElement>(null);
+  const lastCredentialUpdate = useRef<string | undefined>(undefined);
+
+  useEffect(() => {
+    if (verifyState.connection) setDisplay(verifyState.connection);
+  }, [verifyState.connection]);
+  useEffect(() => {
+    if (disableState.connection) setDisplay(disableState.connection);
+  }, [disableState.connection]);
+  useEffect(() => {
+    if (enableState.connection) setDisplay(enableState.connection);
+  }, [enableState.connection]);
+  useEffect(() => {
+    if (disconnectState.connection) setDisplay(disconnectState.connection);
+  }, [disconnectState.connection]);
+  useEffect(() => {
+    if (credentialsState.connection) {
+      setDisplay(credentialsState.connection);
+      const key = String(credentialsState.connection.updatedAt);
+      if (key !== lastCredentialUpdate.current) {
+        lastCredentialUpdate.current = key;
+        credentialsFormRef.current?.reset();
+      }
+    }
+  }, [credentialsState.connection]);
+
+  function msg(code?: string) {
+    if (!code) return null;
+    try {
+      return tErr(code as "INTERNAL_ERROR");
+    } catch {
+      return tErr("INTERNAL_ERROR");
+    }
+  }
+
+  const hiddenFields = (
+    <>
+      <input type="hidden" name="locale" value={locale} />
+      <input type="hidden" name="workspaceType" value={workspaceType} />
+      <input type="hidden" name="workspaceId" value={workspaceId} />
+      <input type="hidden" name="connectionId" value={connection.id} />
+    </>
+  );
+
+  const isDisconnected = display.status === "disconnected";
+
+  return (
+    <div className="space-y-6">
+      <Link href="/dashboard/settings/integrations/wordpress" className="text-sm text-[var(--accent)]">
+        ← {t("backToConnections")}
+      </Link>
+
+      <section className="rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <h1 className="text-xl font-semibold">{display.name}</h1>
+            <p className="mt-1 break-all text-sm text-[var(--muted)]">{display.siteUrlNormalized}</p>
+          </div>
+          <span
+            className={`rounded-full px-2.5 py-1 text-xs font-medium ${
+              STATUS_STYLES[display.status] ?? "bg-gray-100 text-gray-700"
+            }`}
+          >
+            {t(`statusValues.${display.status}` as "statusValues.pending")}
+          </span>
+        </div>
+
+        <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
+          <div>
+            <dt className="text-[var(--muted)]">{t("siteTitle")}</dt>
+            <dd className="mt-1">{display.siteTitle ?? "—"}</dd>
+          </div>
+          <div>
+            <dt className="text-[var(--muted)]">{t("wordpressUser")}</dt>
+            <dd className="mt-1">{display.wordpressUserDisplayNameSafe ?? "—"}</dd>
+          </div>
+          <div>
+            <dt className="text-[var(--muted)]">{t("lastVerifiedAt")}</dt>
+            <dd className="mt-1">
+              {display.lastVerifiedAt
+                ? format.dateTime(new Date(display.lastVerifiedAt), {
+                    dateStyle: "medium",
+                    timeStyle: "short",
+                    timeZone: "UTC",
+                  })
+                : t("neverVerified")}
+            </dd>
+          </div>
+          <div>
+            <dt className="text-[var(--muted)]">{t("consecutiveFailures")}</dt>
+            <dd className="mt-1 tabular-nums">{display.consecutiveFailureCount}</dd>
+          </div>
+        </dl>
+
+        {verifyState.ok && verifyState.connection?.status === "active" ? (
+          <p className="mt-4 rounded-lg bg-emerald-50 px-3 py-2 text-sm text-emerald-800" role="status">
+            {t("verifySuccess")}
+          </p>
+        ) : null}
+        {verifyState.error ? (
+          <p className="mt-4 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-800" role="alert">
+            {msg(verifyState.error)}
+          </p>
+        ) : null}
+
+        {canManage && !isDisconnected ? (
+          <div className="mt-5 flex flex-wrap gap-2">
+            <form action={verifyAction}>
+              {hiddenFields}
+              <button
+                type="submit"
+                disabled={verifyPending}
+                className="rounded-xl bg-[var(--accent)] px-3 py-2 text-sm font-medium text-white disabled:opacity-60"
+              >
+                {verifyPending ? t("verifying") : t("verify")}
+              </button>
+            </form>
+
+            {display.status === "disabled" ? (
+              <form action={enableAction}>
+                {hiddenFields}
+                <button
+                  type="submit"
+                  disabled={enablePending}
+                  className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm font-medium hover:bg-gray-50 disabled:opacity-60"
+                >
+                  {enablePending ? t("enabling") : t("enable")}
+                </button>
+              </form>
+            ) : (
+              <form action={disableAction}>
+                {hiddenFields}
+                <button
+                  type="submit"
+                  disabled={disablePending}
+                  onClick={(e) => {
+                    if (!window.confirm(t("confirmDisable"))) e.preventDefault();
+                  }}
+                  className="rounded-xl border border-[var(--border)] px-3 py-2 text-sm font-medium hover:bg-gray-50 disabled:opacity-60"
+                >
+                  {disablePending ? t("disabling") : t("disable")}
+                </button>
+              </form>
+            )}
+
+            <form action={disconnectAction}>
+              {hiddenFields}
+              <button
+                type="submit"
+                disabled={disconnectPending}
+                onClick={(e) => {
+                  if (!window.confirm(t("confirmDisconnect"))) e.preventDefault();
+                }}
+                className="rounded-xl border border-red-200 px-3 py-2 text-sm font-medium text-red-700 hover:bg-red-50 disabled:opacity-60"
+              >
+                {disconnectPending ? t("disconnecting") : t("disconnect")}
+              </button>
+            </form>
+          </div>
+        ) : null}
+
+        {disableState.error ? <p className="mt-3 text-sm text-red-700">{msg(disableState.error)}</p> : null}
+        {enableState.error ? <p className="mt-3 text-sm text-red-700">{msg(enableState.error)}</p> : null}
+        {disconnectState.error ? <p className="mt-3 text-sm text-red-700">{msg(disconnectState.error)}</p> : null}
+      </section>
+
+      {canManage && !isDisconnected ? (
+        <section className="rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
+          <h2 className="text-lg font-semibold">{t("updateCredentialsTitle")}</h2>
+          <p className="mt-1 text-sm text-[var(--muted)]">{t("updateCredentialsHint")}</p>
+          <p className="mt-1 text-xs text-[var(--muted)]">{t("applicationPasswordNeverShown")}</p>
+          <form ref={credentialsFormRef} action={credentialsAction} className="mt-4 space-y-4" noValidate>
+            {hiddenFields}
+            {credentialsState.error && !credentialsState.fieldErrors ? (
+              <div role="alert" className="rounded-xl border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
+                {msg(credentialsState.error)}
+              </div>
+            ) : null}
+            {credentialsState.ok ? (
+              <div role="status" className="rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
+                {t("updateCredentialsSuccess")}
+              </div>
+            ) : null}
+            <div>
+              <label htmlFor="wp-username" className="mb-1.5 block text-sm font-medium">
+                {t("username")}
+              </label>
+              <input
+                id="wp-username"
+                name="username"
+                required
+                maxLength={200}
+                disabled={credentialsPending}
+                placeholder={t("usernamePlaceholder")}
+                className="w-full rounded-xl border border-[var(--border)] px-3 py-2.5"
+              />
+              {credentialsState.fieldErrors?.username ? (
+                <p className="mt-1 text-sm text-red-700">{msg(credentialsState.fieldErrors.username)}</p>
+              ) : null}
+            </div>
+            <div>
+              <label htmlFor="wp-app-password" className="mb-1.5 block text-sm font-medium">
+                {t("applicationPassword")}
+              </label>
+              <input
+                id="wp-app-password"
+                name="applicationPassword"
+                type="password"
+                required
+                maxLength={500}
+                autoComplete="new-password"
+                disabled={credentialsPending}
+                placeholder={t("applicationPasswordPlaceholder")}
+                className="w-full rounded-xl border border-[var(--border)] px-3 py-2.5"
+              />
+              {credentialsState.fieldErrors?.applicationPassword ? (
+                <p className="mt-1 text-sm text-red-700">{msg(credentialsState.fieldErrors.applicationPassword)}</p>
+              ) : null}
+            </div>
+            <button
+              type="submit"
+              disabled={credentialsPending}
+              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm font-medium hover:bg-gray-50 disabled:opacity-60"
+            >
+              {credentialsPending ? t("updatingCredentials") : t("updateCredentials")}
+            </button>
+          </form>
+        </section>
+      ) : null}
+
+      <section className="rounded-2xl border border-[var(--border)] bg-white p-6 shadow-sm">
+        <h2 className="text-lg font-semibold">{t("recentPublishes")}</h2>
+        <div className="mt-3">
+          <PublishStatus jobs={jobs} showRetry={false} />
+        </div>
+      </section>
+    </div>
+  );
+}

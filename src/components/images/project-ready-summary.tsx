@@ -20,7 +20,7 @@ export function ProjectReadySummary({summary, locale}: ProjectReadySummaryProps)
       <h2 id="project-ready-summary-heading" className="text-base font-semibold">
         {t("summaryTitle")}
       </h2>
-      <p className="mt-1 text-[var(--muted)]">{t("noProcessYet")}</p>
+      <p className="mt-1 text-[var(--muted)]">{t("summaryHint")}</p>
 
       <dl className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <div>
@@ -28,18 +28,44 @@ export function ProjectReadySummary({summary, locale}: ProjectReadySummaryProps)
           <dd className="font-medium">{summary.readyImageCount.toLocaleString(locale)}</dd>
         </div>
         <div>
-          <dt className="text-[var(--muted)]">{t("validatedCount")}</dt>
-          <dd className="font-medium">{summary.validatedImageCount.toLocaleString(locale)}</dd>
-        </div>
-        <div>
           <dt className="text-[var(--muted)]">{t("activeCount")}</dt>
           <dd className="font-medium">{summary.activeImageCount.toLocaleString(locale)}</dd>
+        </div>
+        <div>
+          <dt className="text-[var(--muted)]">{t("processingJobs")}</dt>
+          <dd className="font-medium">{summary.processingCount.toLocaleString(locale)}</dd>
+        </div>
+        <div>
+          <dt className="text-[var(--muted)]">{t("optimizedDerivatives")}</dt>
+          <dd className="font-medium">
+            {summary.optimizedDerivativeCount.toLocaleString(locale)}
+          </dd>
+        </div>
+        <div>
+          <dt className="text-[var(--muted)]">{t("resizeDerivatives")}</dt>
+          <dd className="font-medium">
+            {summary.resizeDerivativeCount.toLocaleString(locale)}
+          </dd>
+        </div>
+        <div>
+          <dt className="text-[var(--muted)]">{t("convertedDerivatives")}</dt>
+          <dd className="font-medium">
+            {summary.convertedDerivativeCount.toLocaleString(locale)}
+          </dd>
         </div>
         {summary.storageEffectiveBytes != null ? (
           <div>
             <dt className="text-[var(--muted)]">{t("storage")}</dt>
             <dd className="font-medium">
               {formatByteSize(summary.storageEffectiveBytes, locale)}
+            </dd>
+          </div>
+        ) : null}
+        {summary.generatedOutputBytes != null ? (
+          <div>
+            <dt className="text-[var(--muted)]">{t("generatedStorage")}</dt>
+            <dd className="font-medium">
+              {formatByteSize(summary.generatedOutputBytes, locale)}
             </dd>
           </div>
         ) : null}
