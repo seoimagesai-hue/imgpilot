@@ -41,6 +41,10 @@ export function generateStaticParams() {
     "png-to-jpg",
     "png-to-webp",
     "webp-to-png",
+    "jpg-to-png",
+    "jpg-to-avif",
+    "png-to-avif",
+    "webp-to-avif",
   ]);
   const renderable = listRenderableToolLandingSlugs()
     .filter((slug) => !dedicated.has(slug))
@@ -92,7 +96,11 @@ export default async function ToolLandingSlugPage({params}: PageProps) {
     slug === "webp-to-jpg" ||
     slug === "png-to-jpg" ||
     slug === "png-to-webp" ||
-    slug === "webp-to-png"
+    slug === "webp-to-png" ||
+    slug === "jpg-to-png" ||
+    slug === "jpg-to-avif" ||
+    slug === "png-to-avif" ||
+    slug === "webp-to-avif"
   ) {
     notFound();
   }
