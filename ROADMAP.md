@@ -16,6 +16,7 @@
 - [x] Prompt 13 Phase A — Public UI redesign, mega menu, SEO format/convert/crop landings (Stripe paused; target-KB/social deferred)
 - [x] Prompt 14 — Consumer Frontend SEO content layer (unique content registry, FAQ/Breadcrumb JSON-LD; Stripe still deferred)
 - [x] Premium homepage redesign — approved content, centered upload hero, expanded sections/footer (awaiting operator approval)
+- [x] User account experience + separate admin panel (`/account/*`, `/admin/*`, auth callbacks)
 - [ ] Prompt 15 — Programmatic SEO expansion from landing registry (more format/social long-tails; keep unique copy rules)
 - [ ] Stripe — Final pricing decisions and Stripe test-mode setup (paid launch; was previously labeled “Prompt 14”)
 

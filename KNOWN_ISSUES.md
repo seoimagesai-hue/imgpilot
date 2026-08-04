@@ -2,6 +2,7 @@
 
 ## Current blockers
 - **Paid launch Blocked:** Configure test-mode Stripe after Prompt 14; frontend Prompt 13 Phase A is live.
+- **Admin bootstrap:** No seeded super_admin — set `users.role = 'super_admin'` for the intended ops email before using `/admin`.
 - **Target-KB SEO pages deferred:** No target-byte compress backend — routes not shipped.
 - **Social SEO resize pages deferred:** Need dated central presets (Prompt 13b).
 - **Guest AI live generation Blocked:** No verified OpenAI keyed success in this environment.

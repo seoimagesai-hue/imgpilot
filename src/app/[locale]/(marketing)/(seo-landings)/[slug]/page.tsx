@@ -25,6 +25,9 @@ import type {Metadata} from "next";
 
 type PageProps = {params: Promise<{locale: string; slug: string}>};
 
+/** Only registry/redirect slugs — do not intercept reserved app routes like /account. */
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   const dedicated = new Set([
     "resize-jpg",

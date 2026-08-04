@@ -1,5 +1,9 @@
 # Decisions
 
+## 2026-08-04: Consumer stays on public tools; admin is separate (`/admin`)
+**Decision:** Authenticated normal users remain on the public homepage and guest tool routes after login/register. Default auth callback falls back to homepage; already-authenticated visits to login/register redirect to `/account`. Public header gains a session-aware account panel (usage, billing, history, settings, sign out). `/dashboard` index redirects to `/account`; nested project/org/integration routes stay for data safety but are not linked from consumer nav. Saved files are omitted until a real consumer library exists. Guest files are not claimed into accounts on login. Super-admin platform ops live only under `/[locale]/admin/*` with `requireSuperAdmin`, ops chrome (no Compress/Resize tools), and audited mutations via `admin_audit_logs`. Plan/limit admin v1 is read-only against the code catalog + guest policy.
+**Why:** Image tools are the product; a project dashboard after every login fights the consumer model. Mixing tools into admin leaks the wrong control surface.
+
 ## 2026-08-03: Consumer Frontend Redesign Phase A (Prompt 13)
 **Decision:** Pause Stripe. Ship chrome + homepage + registry-driven format/convert/crop SEO landings that reuse `GuestToolWorkspace`. JPG routes are canonical; JPEG aliases redirect. Defer target-KB pages (no target-byte backend). Defer Instagram/Facebook/YouTube SEO pages until dated presets. Add minimal Privacy/Terms stubs. Cobalt primary (`#1d4ed8`) for consumer CTAs. Zero new UI packages for mega menu.
 **Why:** Backend is ready; public UX and SEO IA were utility-thin. Honest product gates avoid fake KB pages and duplicate jpg/jpeg content.

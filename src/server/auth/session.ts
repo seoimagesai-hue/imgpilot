@@ -3,7 +3,7 @@ import {notFound, redirect} from "next/navigation";
 import {auth} from "@/auth";
 import {isAppLocale} from "@/server/auth/validation";
 
-export async function requireUser(locale: string, callbackPath = "/dashboard") {
+export async function requireUser(locale: string, callbackPath = "/account") {
   noStore();
   const session = await auth();
   const safeLocale = isAppLocale(locale) ? locale : "en";
@@ -56,6 +56,6 @@ export async function redirectIfAuthenticated(locale: string) {
     if (session.user.accountStatus === "suspended") {
       return;
     }
-    redirect(`/${safeLocale}/dashboard`);
+    redirect(`/${safeLocale}/account`);
   }
 }

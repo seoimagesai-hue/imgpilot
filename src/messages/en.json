@@ -2549,6 +2549,76 @@
       "UNAUTHORIZED": "Please sign in.",
       "INVALID_REQUEST": "Invalid request."
     }
+  },
+  "account": {
+    "header": {
+      "signIn": "Sign in",
+      "createAccount": "Create free account",
+      "usageChip": "{used} of {limit} operations used",
+      "openMenu": "Open account menu",
+      "menuTitle": "Account menu",
+      "account": "Account",
+      "managePlan": "Manage plan",
+      "ops": "Operations",
+      "ai": "AI operations",
+      "viewUsage": "View usage and limits",
+      "settings": "Account settings",
+      "usageLimits": "Usage & limits",
+      "billing": "Billing",
+      "history": "Processing history",
+      "help": "Help",
+      "signOut": "Sign out"
+    },
+    "banner": {
+      "signedIn": "You are signed in. Your account limits are now active.",
+      "reselect": "Files from before login were not transferred — please select them again.",
+      "dismiss": "Dismiss"
+    },
+    "overview": {
+      "title": "Your account",
+      "subtitle": "Plan, usage, and recent activity for your consumer tools.",
+      "profile": "Profile",
+      "plan": "Plan",
+      "manageBilling": "Manage billing",
+      "usageTitle": "Usage this period",
+      "opsLine": "Operations: {used} of {limit}",
+      "aiLine": "AI operations: {used} of {limit}",
+      "viewUsage": "View usage and limits",
+      "recentTitle": "Recent activity",
+      "allHistory": "Full history",
+      "emptyHistory": "No recorded usage yet. Run a tool while signed in to see history here."
+    },
+    "usage": {
+      "title": "Usage & limits",
+      "subtitle": "Limits for your {plan} plan.",
+      "periodEnd": "Period ends {date}",
+      "metric": "Metric",
+      "used": "Used",
+      "limit": "Limit",
+      "standardOps": "Standard operations",
+      "aiOps": "AI operations",
+      "bulkFiles": "Bulk files per batch",
+      "maxFile": "Max file size",
+      "retention": "Result retention"
+    },
+    "history": {
+      "title": "Processing history",
+      "subtitle": "Usage recorded against your account. Guest-session files are temporary and are not listed here.",
+      "empty": "No history yet. Process images while signed in to build this list."
+    },
+    "settings": {
+      "title": "Account settings",
+      "subtitle": "Profile and preferences for your account.",
+      "profileTitle": "Profile",
+      "name": "Name",
+      "email": "Email",
+      "languageTitle": "Language",
+      "languageHelp": "Prefer English or Urdu. Choice is stored in your locale preference.",
+      "passwordTitle": "Password",
+      "passwordUnavailable": "Password change is not available in this self-serve UI yet. Use Google sign-in if you registered with Google, or contact support.",
+      "deleteTitle": "Delete account",
+      "deleteRequest": "To request account deletion, contact support. Self-serve deletion is not available yet.",
+      "contactSupport": "Contact support"
+    }
   }
 }
-

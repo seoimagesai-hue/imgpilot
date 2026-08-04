@@ -4,7 +4,41 @@ import {useEffect, useId, useRef, useState} from "react";
 import {useLocale, useTranslations} from "next-intl";
 import {Link} from "@/i18n/navigation";
 import {LanguageSwitcher} from "@/components/dashboard/language-switcher";
+import {AccountHeaderControls} from "@/components/account/account-header-controls";
 import {listIndexableToolLandings} from "@/lib/marketing/tool-landing-registry";
+import type {UserAccessContext} from "@/server/account/access-context";
+
+const FALLBACK_GUEST_ACCESS: UserAccessContext = {
+  state: "guest",
+  signedIn: false,
+  planName: "Guest",
+  planCode: "guest",
+  entitlementState: null,
+  displayName: null,
+  email: null,
+  limits: {
+    maxFileBytes: 10 * 1024 * 1024,
+    maxBulkFiles: 5,
+    maxBatchBytes: 25 * 1024 * 1024,
+    standardOperationsLimit: 5,
+    standardOperationsUsed: 0,
+    aiOperationsLimit: 5,
+    aiOperationsUsed: 0,
+    storageBytesLimit: 0,
+    storageBytesUsed: 0,
+    retentionHours: 1,
+    periodEnd: null,
+  },
+  capabilities: {
+    bulkCompress: true,
+    bulkResize: true,
+    bulkConvert: true,
+    bulkAi: false,
+    zipDownload: true,
+    savedHistory: false,
+    savedFiles: false,
+  },
+};
 
 type MenuId = "image" | "resize" | "compress" | "convert" | "seo" | "bulk" | null;
 
@@ -55,7 +89,8 @@ function BrandMark() {
   );
 }
 
-export function PublicHeader() {
+export function PublicHeader({access}: {access?: UserAccessContext} = {}) {
+  const resolvedAccess = access ?? FALLBACK_GUEST_ACCESS;
   const t = useTranslations("guest.nav");
   const locale = useLocale();
   const [open, setOpen] = useState<MenuId>(null);
@@ -147,12 +182,7 @@ export function PublicHeader() {
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
-          <Link href="/login" className="rounded-lg px-3 py-2 text-sm font-medium text-[var(--body)]">
-            {t("signIn")}
-          </Link>
-          <Link href="/register" className="btn-primary px-4 text-sm">
-            Create free account
-          </Link>
+          <AccountHeaderControls access={resolvedAccess} />
         </div>
 
         <button
@@ -310,17 +340,8 @@ export function PublicHeader() {
             <Link href="/pricing" className="block py-2" onClick={() => setMobileOpen(false)}>
               {t("pricing")}
             </Link>
-            <div className="flex flex-wrap gap-2 pt-2">
-              <Link
-                href="/login"
-                className="rounded-lg border border-[var(--border)] px-3 py-2 text-sm"
-                onClick={() => setMobileOpen(false)}
-              >
-                {t("signIn")}
-              </Link>
-              <Link href="/register" className="btn-primary text-sm" onClick={() => setMobileOpen(false)}>
-                Create free account
-              </Link>
+            <div className="pt-2" onClick={() => setMobileOpen(false)}>
+              <AccountHeaderControls access={resolvedAccess} />
             </div>
           </div>
         </div>
@@ -346,7 +367,7 @@ function FooterCol({title, links}: {title: string; links: {href: string; label: 
   );
 }
 
-export function PublicFooter() {
+export function PublicFooter({signedIn = false}: {signedIn?: boolean} = {}) {
   const year = new Date().getFullYear();
   return (
     <footer className="mt-auto bg-[var(--footer)] text-slate-300">
@@ -406,7 +427,10 @@ export function PublicFooter() {
             {href: "/search", label: "Search Tools"},
             {href: "/#supported-formats", label: "Supported Formats"},
             {href: "/#faq", label: "Frequently Asked Questions"},
-            {href: "/login", label: "Account Login"},
+            {
+              href: signedIn ? "/account" : "/login",
+              label: signedIn ? "Account" : "Account Login",
+            },
           ]}
         />
       </div>

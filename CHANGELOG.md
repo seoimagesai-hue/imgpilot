@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-04 — User account experience + separate admin panel
+
+- Auth callbacks: safe tool return; default homepage; already-authed login → `/account`.
+- Session-aware public header (usage chip + account panel); EN/UR strings; post-login banner.
+- Consumer `/account/*` pages (overview, usage, billing, history, settings) with public chrome.
+- `/dashboard` index → `/account`; nested dashboard routes unlinked from consumer UI.
+- Ops admin at `/[locale]/admin/*` with `requireSuperAdmin`, read-only plans/limits, audited actions.
+- Docs: inspection, account experience, admin architecture, completion; Vitest coverage for callbacks/access/admin helpers.
+
 ## 2026-08-03 — Homepage PNG illustrations
 
 - Replaced placeholder SVGs with polished soft-3D PNG illustrations (10 assets).

@@ -1,22 +1,16 @@
 # Current Task
 
 ## Milestone
-Premium Homepage Redesign
+Account + Admin Closure Check
 
-## Task
-Rebuild public homepage + chrome with approved content
+## Status
+**Passed** — bootstrap + live consumer/admin verification + quality gates.
 
-## Current status
-**Passed — awaiting approval.** Preview `http://127.0.0.1:3016/en` · Build `42NLUMF48ocHKHqYg_zO0`. Do not start Prompt 15 / Stripe until approved.
+## Key facts
+- Admin email: `seoimagesai@gmail.com` (`super_admin`)
+- Build: `jzhD99cQi0zcUcps_MWn3`
+- Closure Playwright: 75/75
+- Vitest: 361
 
-## Completed
-- [x] Design tokens + 6 SVG illustrations
-- [x] Header/footer redesign
-- [x] Homepage sections 1–16 (exact EN; UR translations)
-- [x] Upload → Compress handoff
-- [x] Typecheck / lint / Vitest 351 / build
-- [x] Playwright homepage 40/40 + consumer 101/101
-
-## Next (after approval only)
-1. Prompt 15 — programmatic SEO expansion
-2. Stripe test-mode / Price IDs
+## Next
+Stripe / Prompt 15 only when operator requests new product work.

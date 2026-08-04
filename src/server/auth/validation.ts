@@ -44,7 +44,7 @@ export type LoginInput = z.infer<typeof loginSchema>;
 
 /**
  * Allow only internal relative paths to prevent open redirects.
- * Prefer locale-prefixed app paths; fall back to the current locale dashboard.
+ * Prefer locale-prefixed app paths; fall back to the current locale homepage.
  */
 export function getSafeCallbackUrl(
   callbackUrl: string | null | undefined,
@@ -53,7 +53,7 @@ export function getSafeCallbackUrl(
   const fallbackLocale = routing.locales.includes(locale as AppLocale)
     ? locale
     : routing.defaultLocale;
-  const fallback = `/${fallbackLocale}/dashboard`;
+  const fallback = `/${fallbackLocale}`;
 
   if (!callbackUrl) return fallback;
 
@@ -86,6 +86,11 @@ export function getSafeCallbackUrl(
   const localeMatch = pathname.match(/^\/(en|ur)(\/|$)/);
   if (!localeMatch) {
     return fallback;
+  }
+
+  // Never bounce consumers into legacy dashboard via callback.
+  if (/^\/(en|ur)\/dashboard(\/|$)/.test(pathname)) {
+    return `/${localeMatch[1]}/account`;
   }
 
   return pathname;

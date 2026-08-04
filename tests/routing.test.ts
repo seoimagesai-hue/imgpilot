@@ -97,18 +97,23 @@ describe("login schema", () => {
 
 describe("safe callback URLs", () => {
   it("accepts locale-prefixed internal paths", () => {
-    expect(getSafeCallbackUrl("/en/dashboard", "en")).toBe("/en/dashboard");
-    expect(getSafeCallbackUrl("/ur/dashboard", "ur")).toBe("/ur/dashboard");
+    expect(getSafeCallbackUrl("/en/compress-image", "en")).toBe("/en/compress-image");
+    expect(getSafeCallbackUrl("/ur/account", "ur")).toBe("/ur/account");
+  });
+
+  it("maps legacy dashboard callbacks to account", () => {
+    expect(getSafeCallbackUrl("/en/dashboard", "en")).toBe("/en/account");
+    expect(getSafeCallbackUrl("/ur/dashboard/projects", "ur")).toBe("/ur/account");
   });
 
   it("rejects open redirects", () => {
-    expect(getSafeCallbackUrl("https://evil.example/phish", "en")).toBe("/en/dashboard");
-    expect(getSafeCallbackUrl("//evil.example", "en")).toBe("/en/dashboard");
-    expect(getSafeCallbackUrl("/en/../admin", "en")).toBe("/en/dashboard");
+    expect(getSafeCallbackUrl("https://evil.example/phish", "en")).toBe("/en");
+    expect(getSafeCallbackUrl("//evil.example", "en")).toBe("/en");
+    expect(getSafeCallbackUrl("/en/../admin", "en")).toBe("/en");
   });
 
   it("falls back when callback is missing", () => {
-    expect(getSafeCallbackUrl(undefined, "ur")).toBe("/ur/dashboard");
+    expect(getSafeCallbackUrl(undefined, "ur")).toBe("/ur");
   });
 });
 

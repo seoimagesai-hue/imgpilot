@@ -48,7 +48,9 @@ Open:
 - http://localhost:3000/en/pricing — plan limits (Checkout when Price IDs configured)
 - http://localhost:3000/en/docs — public documentation
 - http://localhost:3000/en/login — sign in
-- http://localhost:3000/en/dashboard — requires sign-in
+- http://localhost:3000/en/account — account overview (requires sign-in)
+- http://localhost:3000/en/admin — platform ops (super_admin only)
+- http://localhost:3000/en/dashboard — redirects to `/account` (legacy nested project routes remain)
 
 ### Public marketing website (Prompt 23)
 
@@ -284,7 +286,7 @@ npx tsx scripts/verify-projects-live.ts http://localhost:<port>
 
 ### Billing (Prompt 21 + Consumer Redesign v2 Prompt 12)
 - Public pricing: `/[locale]/pricing` (Guest / Free / Pro from server catalog — no invented $)
-- Page: `/[locale]/dashboard/settings/billing` (+ `/success` confirming-payment UX)
+- Page: `/[locale]/account/billing` (legacy `/dashboard/settings/billing` still present)
 - APIs: `GET /api/billing/summary`, `POST /api/billing/checkout`, `POST /api/billing/portal`, `POST /api/billing/webhook`
 - Cleanup cron: `POST /api/internal/cron/cleanup` with `x-cron-secret` (`CRON_SECRET`)
 - Env: see `.env.example` — Stripe secret + webhook together; Pro Price IDs unlock checkout

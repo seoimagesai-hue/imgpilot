@@ -38,6 +38,18 @@ Live Stripe Checkout remains **Blocked** until Price IDs + test-mode verificatio
 - Validation is a checklist (recommendation/warning/blocking) — no ranking score %.
 
 ## Frontend — Implemented
+
+### Consumer account + admin (2026-08-04) — Implemented
+
+| Piece | Detail |
+| --- | --- |
+| Callbacks | Tool return when safe; fallback homepage; authed login → `/account` |
+| Header | Session-aware account panel; no Saved files / Admin in consumer menu |
+| Account | `/[locale]/account/*` under marketing chrome (`noindex`) |
+| Dashboard | Index redirects to `/account`; nested projects legacy/unlinked |
+| Admin | `/[locale]/admin/*` + `requireSuperAdmin`; audited mutations |
+
+## Frontend (prior) — Implemented
 - Next.js App Router under `src/app`
 - React Server Components by default; Client Components only for interactivity
 - Tailwind CSS v4

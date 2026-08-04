@@ -47,8 +47,8 @@ export async function createCheckoutSession(params: {
       mode: "subscription",
       customer: stripeCustomerId,
       line_items: [{price: priceId, quantity: 1}],
-      success_url: `${base}/${locale}/dashboard/settings/billing/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${base}/${locale}/dashboard/settings/billing?checkout=cancelled`,
+      success_url: `${base}/${locale}/account/billing?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${base}/${locale}/account/billing?checkout=cancelled`,
       client_reference_id: params.userId,
       metadata: {userId: params.userId, planCode: "pro", interval: params.interval},
       subscription_data: {
@@ -77,7 +77,7 @@ export async function createBillingPortalSession(params: {
     const configuration = (env.STRIPE_CUSTOMER_PORTAL_CONFIGURATION_ID || "").trim() || undefined;
     const session = await stripe.billingPortal.sessions.create({
       customer: stripeCustomerId,
-      return_url: `${base}/${locale}/dashboard/settings/billing`,
+      return_url: `${base}/${locale}/account/billing`,
       ...(configuration ? {configuration} : {}),
     });
     return {url: session.url};

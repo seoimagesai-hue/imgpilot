@@ -27,7 +27,13 @@ Start free on the public tools — or upload website images in projects and make
 
 **Consumer Redesign v2 + SEO Prompt 14 + Premium Homepage:** Guest tools + SEO landings + new premium homepage/header/footer shipped (`BUILD_ID` `42NLUMF48ocHKHqYg_zO0`). Stripe checkout remains Blocked until Price IDs. Target-KB / social programmatic SEO deferred (Prompt 15). Live OpenAI guest generation Blocked until keyed success.
 
-### Authenticated workflow
+### Authenticated consumer workflow
+1. Sign in from a tool (callback returns to the same tool) or from homepage.
+2. Higher account limits apply; temporary guest files are **not** claimed — re-select uploads.
+3. Manage plan/usage/history under `/account/*` (public chrome).
+4. Platform operators use `/{locale}/admin/*` (`super_admin` only). Legacy `/dashboard` index redirects to `/account`.
+
+### Authenticated project workflow (legacy / power users)
 1. Sign in and create a website project.
 2. Upload many images (and later ZIPs) in bulk.
 3. Configure compression, resize, WebP conversion, and filename rules.

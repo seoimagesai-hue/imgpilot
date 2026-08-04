@@ -47,7 +47,7 @@ export function PricingCheckoutActions(props: {
     return (
       <div className="space-y-2 text-sm">
         <p>Upgrade unavailable until Stripe Price IDs are configured.</p>
-        <Link href="/dashboard/settings/billing" className="underline">
+        <Link href="/account/billing" className="underline">
           Account billing
         </Link>
       </div>
