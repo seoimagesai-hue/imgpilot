@@ -6,7 +6,7 @@ import Credentials from "next-auth/providers/credentials";
 import Google from "next-auth/providers/google";
 import {getDb} from "@/db";
 import {accounts, authenticators, sessions, users, verificationTokens} from "@/db/schema";
-import {getServerEnv, isGoogleAuthConfigured, requireAuthSecret} from "@/lib/env";
+import {getServerEnv, isGoogleAuthConfigured} from "@/lib/env";
 import {verifyPassword} from "@/server/auth/password";
 import {loginSchema} from "@/server/auth/validation";
 
@@ -73,11 +73,19 @@ function buildProviders(): Provider[] {
 
 export const {handlers, auth, signIn, signOut} = NextAuth(() => {
   const env = getServerEnv();
-  requireAuthSecret(env);
+  /**
+   * Do not throw during config when AUTH_SECRET is missing — guest marketing pages
+   * import `auth()` via chrome. Missing secret must degrade auth, not 500 the site.
+   * Sign-in/register still require a real AUTH_SECRET configured in the host env.
+   */
+  const secret =
+    env.AUTH_SECRET && env.AUTH_SECRET.length >= 32
+      ? env.AUTH_SECRET
+      : "seoimages-missing-auth-secret-configure-in-host-env";
 
   return {
     trustHost: env.AUTH_TRUST_HOST !== "false",
-    secret: env.AUTH_SECRET,
+    secret,
     ...(env.DATABASE_URL
       ? {
           adapter: DrizzleAdapter(getDb(), {

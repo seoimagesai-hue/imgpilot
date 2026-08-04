@@ -23,8 +23,13 @@ export default async function ConsumerHomePage({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
   const copy = getHomepageCopy(locale as AppLocale);
-  const maxBytes = getGuestMaxFileBytes();
-  const maxMb = Math.round(maxBytes / (1024 * 1024));
+  let maxMb = 10;
+  try {
+    const maxBytes = getGuestMaxFileBytes();
+    maxMb = Math.round(maxBytes / (1024 * 1024)) || 10;
+  } catch {
+    maxMb = 10;
+  }
   const maxFileSizeLabel = `${maxMb} MB`;
 
   return (
