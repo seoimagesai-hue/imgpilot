@@ -1,18 +1,20 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {GeotagImageLandingView} from "@/components/marketing/geotag-image-landing-view";
-import {getGeotagImageCopy} from "@/lib/marketing/geotag-image-landing-content";
+import {geotagToolConfig} from "@/components/guest/tools/geotag-tool";
+import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
+import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
 import {buildPublicMetadata} from "@/server/marketing/seo";
 
 type PageProps = {params: Promise<{locale: string}>};
+const PATH = "/geotag-image";
 
 export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   const {locale} = await params;
-  const copy = getGeotagImageCopy(locale);
+  const copy = getToolLandingCopyForLocale(PATH, locale);
   return buildPublicMetadata({
     locale: locale as AppLocale,
-    path: "/geotag-image",
+    path: PATH,
     title: copy.metaTitle,
     description: copy.metaDescription,
     index: true,
@@ -22,5 +24,5 @@ export async function generateMetadata({params}: PageProps): Promise<Metadata> {
 export default async function GeotagImagePage({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  return <GeotagImageLandingView locale={locale} />;
+  return <ToolLandingShell locale={locale} copy={getToolLandingCopyForLocale(PATH, locale)} toolConfig={geotagToolConfig} />;
 }

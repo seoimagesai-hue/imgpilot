@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "mengubah ukuran",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Dimensi gambar yang tepat dengan ukuran platform populer",
+        "Kunci rasio aspek untuk mencegah distorsi",
+        "Penyimpanan tamu sementara pribadi"
+      ],
+      "faqs": [
+        {
+          "q": "File JPG manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan JPG. Format lain mungkin ditolak di sini — gunakan alat Ubah Ukuran umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "ubah ukuran-jpg",
+      "title": "Ubah ukuran JPG Gambar Online Gratis | Img Pilot",
+      "description": "Ubah ukuran gambar JPG secara online dengan memilih dimensi khusus atau preset populer. Sesuaikan lebar, tinggi, dan kualitas, lalu unduh JPG Anda yang telah diubah ukurannya dengan aman.",
+      "h1": "Ubah ukuran JPG Gambar Daring",
+      "intro": "Ubah ukuran gambar JPG ke dimensi yang Anda perlukan tanpa menginstal perangkat lunak apa pun. Unggah foto, pilih preset atau masukkan lebar dan tinggi khusus, lalu unduh JPG yang telah diubah ukurannya dalam hitungan detik.",
+      "related": [
+        "kompres-jpg",
+        "jpg-ke-webp",
+        "potong-jpg",
+        "ubah ukuran-png",
+        "png-ke-jpg",
+        "alat gambar massal"
+      ],
+      "howTo": [
+        "Unggah JPG",
+        "Pilih metode atau preset",
+        "Proses",
+        "Unduh JPG yang telah diubah ukurannya"
+      ]
+    },
+    "resize-png": {
+      "operation": "mengubah ukuran",
+      "sourceFormat": "png",
+      "howTo": [
+        "Unggah PNG",
+        "Atur dimensi atau preset",
+        "Proses",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "File PNG manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan PNG. Format lain mungkin ditolak di sini — gunakan alat Ubah Ukuran umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "ubah ukuran-png",
+      "title": "Ubah ukuran PNG Gambar Online Gratis | Img Pilot",
+      "description": "Ubah ukuran gambar PNG secara online sambil menjaga transparansi. Ubah dimensi gambar dengan aman dan unduh PNG Anda yang telah diubah ukurannya dalam hitungan detik.",
+      "h1": "Ubah ukuran PNG Gambar Daring",
+      "intro": "Ubah ukuran gambar PNG tanpa kehilangan transparansi untuk logo, grafik UI, ikon, dan tangkapan layar.",
+      "related": [
+        "kompres-png",
+        "png-ke-jpg",
+        "png-ke-webp",
+        "potong-png",
+        "ubah ukuran-jpg",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Ubah ukuran PNG yang menjaga transparansi",
+        "Desain preset untuk logo, ikon, dan favicon",
+        "Pemrosesan tamu sementara pribadi"
+      ]
+    },
+    "resize-webp": {
+      "operation": "mengubah ukuran",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Unggah WebP",
+        "Pilih opsi ukuran",
+        "Proses",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "File WebP manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan WebP. Format lain mungkin ditolak di sini — gunakan alat Ubah Ukuran umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "ubah ukuran-webp",
+      "title": "Ubah ukuran WebP Gambar Online Gratis | Img Pilot",
+      "description": "Ubah ukuran gambar WebP secara online untuk situs web, blog, dan perangkat seluler yang responsif. Ubah dimensi dengan aman dan unduh gambar WebP yang telah diubah ukurannya secara instan.",
+      "h1": "Ubah ukuran WebP Gambar Daring",
+      "intro": "Ubah ukuran gambar WebP untuk tata letak responsif, perangkat seluler, dan situs web modern sambil menjaga efisiensi WebP.",
+      "related": [
+        "kompres-webp",
+        "webp-ke-jpg",
+        "webp-ke-png",
+        "ubah ukuran-jpg",
+        "ubah ukuran-png",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Kontrol dimensi WebP yang responsif",
+        "Pipa Ubah Ukuran tamu bersama",
+        "Penyimpanan sementara pribadi dengan pembersihan otomatis"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "kompres",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Unggah JPG",
+        "Pilih preset yang berkualitas",
+        "Kompres",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "File JPG manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan JPG. Format lain mungkin ditolak di sini — gunakan alat Kompres umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "kompres-jpg",
+      "title": "Kompres JPG Gambar Online Gratis | Img Pilot",
+      "description": "Kompres gambar JPG secara online dan kurangi ukuran file dengan kontrol kualitas yang dapat disesuaikan. Pratinjau hasilnya dan unduh JPG yang lebih kecil dan dioptimalkan dengan aman.",
+      "h1": "Kompres JPG Gambar Daring",
+      "intro": "Kurangi ukuran file gambar JPG langsung di browser Anda tanpa menginstal perangkat lunak yang rumit.",
+      "related": [
+        "ubah ukuran-jpg",
+        "jpg-ke-webp",
+        "potong-jpg",
+        "jpg-ke-png",
+        "webp-ke-jpg",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Preset kualitas JPG yang dapat disesuaikan",
+        "Pemrosesan tamu sementara pribadi",
+        "Gambar asli tetap tidak berubah"
+      ]
+    },
+    "compress-png": {
+      "operation": "kompres",
+      "sourceFormat": "png",
+      "howTo": [
+        "Unggah PNG",
+        "Pilih kualitas",
+        "Kompres",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "File PNG manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan PNG. Format lain mungkin ditolak di sini — gunakan alat Kompres umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "kompres-png",
+      "title": "Kompres PNG Gambar Online Gratis | Img Pilot",
+      "description": "Kompres gambar PNG secara online sambil menjaga transparansi. Kurangi ukuran file PNG dengan aman dan unduh gambar yang dioptimalkan dalam hitungan detik.",
+      "h1": "Kompres PNG Gambar Daring",
+      "intro": "Kurangi ukuran file gambar PNG tanpa mengorbankan transparansi atau kejelasan gambar.",
+      "related": [
+        "kompres-jpg",
+        "ubah ukuran-png",
+        "png-ke-jpg",
+        "png-ke-webp",
+        "potong-png",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Kompresi PNG yang menjaga transparansi",
+        "Dibuat untuk logo, grafik UI, dan tangkapan layar",
+        "Pemrosesan tamu sementara pribadi"
+      ]
+    },
+    "compress-webp": {
+      "operation": "kompres",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Unggah WebP",
+        "Pilih kualitas",
+        "Kompres",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "File WebP manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan WebP. Format lain mungkin ditolak di sini — gunakan alat Kompres umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "kompres-webp",
+      "title": "Kompres WebP Gambar Online Gratis | Img Pilot",
+      "description": "Kompres gambar WebP secara online untuk mengurangi ukuran file dengan tetap menjaga kualitas. Tingkatkan kecepatan situs web dengan pengoptimalan WebP berbasis browser yang aman.",
+      "h1": "Kompres WebP Gambar Daring",
+      "intro": "Kurangi ukuran file WebP yang sudah diekspor sambil menjaga kualitas visual yang jelas untuk situs web, halaman arahan, dan aplikasi seluler.",
+      "related": [
+        "ubah ukuran-webp",
+        "webp-ke-jpg",
+        "webp-ke-png",
+        "kompres-jpg",
+        "kompres-png",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Optimalkan lebih lanjut ekspor WebP modern",
+        "Tamu bersama Kompres preset kualitas",
+        "Penyimpanan sementara pribadi dengan pembersihan otomatis"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "tanaman",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "File JPG manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan JPG. Format lain mungkin ditolak di sini — gunakan alat Pangkas umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "potong-jpg",
+      "title": "Pangkas JPG Gambar Online Gratis | Img Pilot",
+      "description": "Pangkas gambar JPG secara online menggunakan kontrol pangkas yang tepat dan rasio aspek populer. Unduh gambar Anda yang dipotong dengan aman dalam hitungan detik.",
+      "h1": "Pangkas JPG Gambar Daring",
+      "intro": "Hapus area yang tidak diinginkan, kunci rasio aspek umum dan unduh JPG baru tanpa mengubah yang asli.",
+      "related": [
+        "ubah ukuran-jpg",
+        "kompres-jpg",
+        "jpg-ke-webp",
+        "ubah ukuran-png",
+        "potong-png",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Gagang pangkas yang presisi",
+        "Rasio aspek populer",
+        "Pembingkaian yang siap sosial",
+        "Penyimpanan sementara pribadi",
+        "Gambar asli tetap aman"
+      ],
+      "howTo": [
+        "Unggah JPG",
+        "Pilih area pemotongan",
+        "Pratinjau komposisi",
+        "Unduh JPG yang dipotong"
+      ]
+    },
+    "crop-png": {
+      "operation": "tanaman",
+      "sourceFormat": "png",
+      "howTo": [
+        "Unggah PNG",
+        "Tetapkan wilayah pemangkasan",
+        "Proses",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "File PNG manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan PNG. Format lain mungkin ditolak di sini — gunakan alat Pangkas umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "potong-png",
+      "title": "Pangkas PNG Gambar Online Gratis | Img Pilot",
+      "description": "Pangkas gambar PNG secara online sambil mempertahankan latar belakang transparan. Hapus area yang tidak diinginkan dan unduh PNG yang dipotong dengan aman.",
+      "h1": "Pangkas PNG Gambar Daring",
+      "intro": "Pangkas logo, ikon, dan grafik UI PNG transparan sambil menjaga alfa tetap utuh.",
+      "related": [
+        "ubah ukuran-png",
+        "kompres-png",
+        "png-ke-webp",
+        "png-ke-jpg",
+        "potong-jpg",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Tanaman PNG yang menjaga transparansi",
+        "Mesin dan rasio Pangkas tamu bersama",
+        "Penyimpanan sementara pribadi dengan pembersihan otomatis"
+      ]
+    },
+    "crop-webp": {
+      "operation": "tanaman",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Unggah WebP",
+        "Pilih area pemotongan",
+        "Proses",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "File WebP manakah yang diterima?",
+          "a": "Halaman ini memprioritaskan WebP. Format lain mungkin ditolak di sini — gunakan alat Pangkas umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "potong-webp",
+      "title": "Pangkas WebP Gambar Online Gratis | Img Pilot",
+      "description": "Pangkas gambar WebP secara online menggunakan kontrol pangkas yang tepat dan rasio aspek populer. Buat gambar siap web dan unduh dengan aman dalam hitungan detik.",
+      "h1": "Pangkas WebP Gambar Daring",
+      "intro": "Pangkas gambar WebP modern untuk situs web responsif, laman landas, dan e-niaga sambil mempertahankan format yang dioptimalkan untuk web.",
+      "related": [
+        "ubah ukuran-webp",
+        "kompres-webp",
+        "webp-ke-jpg",
+        "webp-ke-png",
+        "potong-jpg",
+        "potong-png"
+      ],
+      "benefits": [
+        "WebP-panen pertama untuk pengiriman modern",
+        "Mesin Pangkas tamu bersama dan rasio jujur",
+        "Penyimpanan sementara pribadi dengan pembersihan otomatis"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "tanaman",
+      "howTo": [
+        "Unggah gambar",
+        "Sesuaikan potongan persegi",
+        "Proses",
+        "Unduh"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah ukuran platform yang tepat untuk Instagram disertakan?",
+          "a": "Tidak di halaman ini. Halaman ukuran sosial khusus ditangguhkan hingga preset tanggal disetujui."
+        },
+        {
+          "q": "File gambar Anda yang mana yang diterima?",
+          "a": "Halaman ini memprioritaskan gambar Anda. Format lain mungkin ditolak di sini — gunakan alat Pangkas umum untuk format campuran."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Alat tamu berfungsi tanpa login dalam batas harian gratis."
+        },
+        {
+          "q": "Apakah pemrosesan bersifat pribadi?",
+          "a": "Unggahan masuk ke penyimpanan pribadi dan file tamu sementara akan kedaluwarsa setelah sekitar satu jam."
+        }
+      ],
+      "slug": "potong-gambar-persegi",
+      "cropAspect": "1:1",
+      "title": "Pangkas Gambar menjadi Kotak — Alat Pangkas 1:1 Gratis",
+      "description": "Pangkas gambar menjadi persegi dengan rasio aspek 1:1 dengan mesin pangkas bersama.",
+      "h1": "Pangkas gambar menjadi persegi",
+      "intro": "Dimulai dengan kunci aspek 1:1. Anda masih dapat mengubah rasio di editor jika diperlukan.",
+      "related": [
+        "potong-jpg",
+        "potong-png",
+        "mengubah ukuran gambar",
+        "kompres-gambar"
+      ],
+      "benefits": [
+        "Defaultnya adalah 1:1",
+        "Bekerja dengan JPEG, PNG, dan WebP",
+        "Model privasi yang sama dengan alat tamu lainnya"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "mengubah",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "jpg-ke-png",
+      "title": "Konverter JPG ke PNG — Online Gratis",
+      "description": "Ubah JPG menjadi PNG. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah JPG menjadi PNG",
+      "intro": "Buat PNG dari JPG menggunakan mesin Konversi bersama.",
+      "related": [
+        "png-ke-jpg",
+        "jpg-ke-webp",
+        "kompres-png",
+        "ubah ukuran-png"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi JPEG ke PNG mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "mengubah",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "jpg-ke-webp",
+      "title": "Konversikan JPG ke WebP Daring Gratis | Img Pilot",
+      "description": "Ubah JPG menjadi WebP Daring. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah JPG menjadi WebP Daring",
+      "intro": "Konversikan foto JPG menjadi WebP untuk situs web yang lebih cepat, file pengiriman lebih kecil, dan Data Web Inti yang lebih kuat ketika browser mendukung format modern.",
+      "related": [
+        "webp-ke-jpg",
+        "kompres-jpg",
+        "ubah ukuran-jpg",
+        "potong-jpg",
+        "png-ke-webp",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi JPEG ke WEBP mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "mengubah",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "jpg-ke-avif",
+      "title": "Konverter JPG ke AVIF — Online Gratis",
+      "description": "Ubah JPG menjadi AVIF. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah JPG menjadi AVIF",
+      "intro": "AVIF pengkodean ditawarkan hanya jika encoder server ini mendukungnya. Kalau tidak, kontrolnya tetap diblokir dengan jujur.",
+      "related": [
+        "jpg-ke-webp",
+        "png-ke-avif",
+        "kompres-jpg",
+        "konversi-gambar"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi JPEG ke AVIF mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "mengubah",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "png-ke-jpg",
+      "title": "Konversikan PNG ke JPG Daring Gratis | Img Pilot",
+      "description": "Ubah PNG menjadi JPG Daring. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah PNG menjadi JPG Daring",
+      "intro": "Ratakan PNG transparan menjadi file JPG yang kompatibel secara universal ketika alfa tidak lagi diperlukan.",
+      "related": [
+        "png-ke-webp",
+        "ubah ukuran-png",
+        "kompres-png",
+        "jpg-ke-webp",
+        "webp-ke-jpg",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi PNG ke JPEG mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "mengubah",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "png-ke-webp",
+      "title": "Konversikan PNG ke WebP Daring Gratis | Img Pilot",
+      "description": "Ubah PNG menjadi WebP Daring. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah PNG menjadi WebP Daring",
+      "intro": "Konversikan gambar PNG menjadi WebP secara online dengan tetap menjaga transparansi. Buat gambar siap web yang lebih kecil untuk situs web yang lebih cepat dengan konversi berbasis browser yang aman.",
+      "related": [
+        "webp-ke-png",
+        "png-ke-jpg",
+        "kompres-png",
+        "ubah ukuran-png",
+        "jpg-ke-webp",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi PNG ke WEBP mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "mengubah",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "png-ke-avif",
+      "title": "Konverter PNG ke AVIF — Online Gratis",
+      "description": "Ubah PNG menjadi AVIF. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah PNG menjadi AVIF",
+      "intro": "Konversikan PNG menjadi AVIF ketika dukungan encoder tersedia pada penerapan ini.",
+      "related": [
+        "png-ke-webp",
+        "jpg-ke-avif",
+        "kompres-png",
+        "konversi-gambar"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi PNG ke AVIF mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "mengubah",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "webp-ke-jpg",
+      "title": "Konversikan WebP ke JPG Daring Gratis | Img Pilot",
+      "description": "Ubah WebP menjadi JPG Daring. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah WebP menjadi JPG Daring",
+      "intro": "Konversikan gambar WebP menjadi JPG untuk kompatibilitas maksimal dengan email, dokumen, unggahan CMS, dan perangkat lunak lama.",
+      "related": [
+        "jpg-ke-webp",
+        "png-ke-jpg",
+        "kompres-jpg",
+        "ubah ukuran-jpg",
+        "potong-jpg",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi WEBP ke JPEG mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "mengubah",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "webp-ke-png",
+      "title": "Konversikan WebP ke PNG Daring Gratis | Img Pilot",
+      "description": "Ubah WebP menjadi PNG Daring. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah WebP menjadi PNG Daring",
+      "intro": "Konversikan gambar WebP menjadi PNG secara online sambil menjaga transparansi dan kualitas gambar untuk alur kerja desain dan pengeditan.",
+      "related": [
+        "png-ke-webp",
+        "png-ke-jpg",
+        "webp-ke-jpg",
+        "ubah ukuran-png",
+        "kompres-png",
+        "alat gambar massal"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi WEBP ke PNG mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "mengubah",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Unggah gambar sumber",
+        "Konfirmasikan format target",
+        "Mengubah",
+        "Unduh"
+      ],
+      "slug": "webp-ke-avif",
+      "title": "Konverter WebP ke AVIF — Online Gratis",
+      "description": "Ubah WebP menjadi AVIF. Konversi tamu pribadi dengan retensi sementara satu jam.",
+      "h1": "Ubah WebP menjadi AVIF",
+      "intro": "Konversikan WebP ke AVIF hanya jika enkode AVIF didukung di sini.",
+      "related": [
+        "webp-ke-jpg",
+        "png-ke-avif",
+        "kompres-webp",
+        "konversi-gambar"
+      ],
+      "benefits": [
+        "Hanya menggunakan matriks konversi yang didukung",
+        "Sesi tamu dan aturan pembersihan yang sama seperti Konversi Gambar",
+        "Tidak ada pasangan yang tidak didukung yang ditemukan"
+      ],
+      "faqs": [
+        {
+          "q": "Apakah mengonversi WEBP ke AVIF mengubah file asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap bersifat pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Berapa lama file yang dikonversi disimpan?",
+          "a": "File tamu dihapus sekitar satu jam setelah sesi tamu dimulai. Pengunduhan tidak memperpanjang masa berlakunya."
+        },
+        {
+          "q": "Bisakah saya mengonversi banyak gambar?",
+          "a": "Gunakan Alat Gambar Massal untuk beberapa file dalam batas massal tamu atau jumlah login."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/kompres-jpg",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Ukuran Lebih Kecil, Kualitas Hebat Sama",
+      "features": [
+        {
+          "title": "Kompresi Cerdas",
+          "tone": "biru",
+          "body": "Kompresi cerdas disetel untuk gambar JPG."
+        },
+        {
+          "title": "Hingga 80% Lebih Kecil",
+          "body": "Mengurangi ukuran file secara drastis untuk unggahan dan pemuatan halaman yang lebih cepat.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Sempurna untuk Web",
+          "body": "Optimalkan gambar untuk situs web, blog, dan halaman produk.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Kualitas yang Dapat Anda Percayai",
+          "body": "Pratinjau sebelum mengunduh sehingga kualitas tetap di bawah kendali Anda.",
+          "tone": "oranye"
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "pribadi",
+          "body": "Gambar Anda diproses secara pribadi untuk kompresi dan dihapus secara otomatis dalam waktu satu jam."
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bagaimana cara kerja kompresi JPG?",
+          "a": "Alat ini mengkodekan ulang JPG Anda dengan pengaturan yang mengurangi ukuran file sekaligus menjaga hasilnya dapat digunakan secara visual."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung JPG hingga 10 MB."
+        },
+        {
+          "q": "Apakah kompresi akan menurunkan kualitas gambar?",
+          "a": "Preset yang lebih kuat dapat memperhalus detail halus. Pilih preset yang lebih ringan saat penampilan paling penting, dan selalu pratinjau."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Kompresi tamu berfungsi tanpa masuk."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan dihapus secara otomatis dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Kompres JPG Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Kompres gambar JPG secara online tanpa kehilangan kualitas. Kurangi ukuran file JPG dengan pemrosesan tamu pribadi.",
+      "breadcrumbCurrent": "Kompres JPG Daring",
+      "h1": "Kompres JPG Daring",
+      "subtitle": "Kurangi ukuran file JPG tanpa kehilangan kualitas",
+      "paragraph": "Kompres gambar JPG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: JPG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/compress-png": {
+      "path": "/kompres-png",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Ukuran Lebih Kecil, Kualitas Hebat Sama",
+      "features": [
+        {
+          "title": "Kompresi Cerdas",
+          "tone": "biru",
+          "body": "Kompresi cerdas disetel untuk gambar PNG."
+        },
+        {
+          "title": "Hingga 80% Lebih Kecil",
+          "body": "Mengurangi ukuran file secara drastis untuk unggahan dan pemuatan halaman yang lebih cepat.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Sempurna untuk Web",
+          "body": "Optimalkan gambar untuk situs web, blog, dan halaman produk.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Kualitas yang Dapat Anda Percayai",
+          "body": "Pratinjau sebelum mengunduh sehingga kualitas tetap di bawah kendali Anda.",
+          "tone": "oranye"
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "pribadi",
+          "body": "Gambar Anda diproses secara pribadi untuk kompresi dan dihapus secara otomatis dalam waktu satu jam."
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bagaimana cara kerja kompresi PNG?",
+          "a": "Alat ini mengkodekan ulang PNG Anda dengan pengaturan yang mengurangi ukuran file sekaligus menjaga hasilnya dapat digunakan secara visual."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung PNG hingga 10 MB."
+        },
+        {
+          "q": "Apakah kompresi akan menurunkan kualitas gambar?",
+          "a": "Preset yang lebih kuat dapat memperhalus detail halus. Pilih preset yang lebih ringan saat penampilan paling penting, dan selalu pratinjau."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Kompresi tamu berfungsi tanpa masuk."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan dihapus secara otomatis dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Kompres PNG Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Kompres gambar PNG secara online tanpa kehilangan kualitas. Kurangi ukuran file PNG dengan pemrosesan tamu pribadi.",
+      "breadcrumbCurrent": "Kompres PNG Daring",
+      "h1": "Kompres PNG Daring",
+      "subtitle": "Kurangi ukuran file PNG tanpa kehilangan kualitas",
+      "paragraph": "Kompres gambar PNG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: PNG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/compress-webp": {
+      "path": "/kompres-webp",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Ukuran Lebih Kecil, Kualitas Hebat Sama",
+      "features": [
+        {
+          "title": "Kompresi Cerdas",
+          "tone": "biru",
+          "body": "Kompresi cerdas disetel untuk gambar WebP."
+        },
+        {
+          "title": "Hingga 80% Lebih Kecil",
+          "body": "Mengurangi ukuran file secara drastis untuk unggahan dan pemuatan halaman yang lebih cepat.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Sempurna untuk Web",
+          "body": "Optimalkan gambar untuk situs web, blog, dan halaman produk.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Kualitas yang Dapat Anda Percayai",
+          "body": "Pratinjau sebelum mengunduh sehingga kualitas tetap di bawah kendali Anda.",
+          "tone": "oranye"
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "pribadi",
+          "body": "Gambar Anda diproses secara pribadi untuk kompresi dan dihapus secara otomatis dalam waktu satu jam."
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bagaimana cara kerja kompresi WebP?",
+          "a": "Alat ini mengkodekan ulang WebP Anda dengan pengaturan yang mengurangi ukuran file sekaligus menjaga hasilnya dapat digunakan secara visual."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung WebP hingga 10 MB."
+        },
+        {
+          "q": "Apakah kompresi akan menurunkan kualitas gambar?",
+          "a": "Preset yang lebih kuat dapat memperhalus detail halus. Pilih preset yang lebih ringan saat penampilan paling penting, dan selalu pratinjau."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Kompresi tamu berfungsi tanpa masuk."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan dihapus secara otomatis dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Kompres WebP Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Kompres gambar WebP secara online tanpa kehilangan kualitas. Kurangi ukuran file WebP dengan pemrosesan tamu pribadi.",
+      "breadcrumbCurrent": "Kompres WebP Daring",
+      "h1": "Kompres WebP Daring",
+      "subtitle": "Kurangi ukuran file WebP tanpa kehilangan kualitas",
+      "paragraph": "Kompres gambar WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/resize-jpg": {
+      "path": "/ubah ukuran-jpg",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Kontrol Tepat, Hasil Bersih",
+      "features": [
+        {
+          "title": "Dimensi Tepat",
+          "body": "Masukkan lebar dan tinggi yang sesuai dengan kebutuhan tata letak Anda.",
+          "tone": "biru"
+        },
+        {
+          "title": "Cocok Di Dalam",
+          "body": "Skalakan gambar ke dalam kotak sambil mempertahankan rasio aspek.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Tidak Ada Kelas Atas yang Tidak Diinginkan",
+          "body": "Pagar pembatas membantu menghindari peregangan sumber-sumber kecil.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Siap Web",
+          "tone": "oranye",
+          "body": "Siapkan ukuran JPG yang konsisten untuk halaman dan kisi."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Ubah ukuran"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk diubah ukurannya dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bisakah saya mempertahankan rasio aspek?",
+          "a": "Ya. Gunakan dimensi yang pas di dalam atau tertaut sehingga gambar dapat diskalakan dengan rapi."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung JPG hingga 10 MB."
+        },
+        {
+          "q": "Apakah mengubah ukuran akan memperbesar gambar saya?",
+          "a": "Secara default, alur kerja menghindari pembesaran yang tidak diinginkan."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Ubah ukuran sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Ubah ukuran JPG Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Ubah ukuran gambar JPG secara online berdasarkan lebar, tinggi, atau pas di dalam. Alat tamu pribadi tanpa memerlukan akun.",
+      "breadcrumbCurrent": "Ubah ukuran JPG Daring",
+      "h1": "Ubah ukuran JPG Daring",
+      "subtitle": "Ubah dimensi JPG untuk web dan sosial",
+      "paragraph": "Ubah ukuran gambar JPG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: JPG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/resize-png": {
+      "path": "/ubah ukuran-png",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Kontrol Tepat, Hasil Bersih",
+      "features": [
+        {
+          "title": "Dimensi Tepat",
+          "body": "Masukkan lebar dan tinggi yang sesuai dengan kebutuhan tata letak Anda.",
+          "tone": "biru"
+        },
+        {
+          "title": "Cocok Di Dalam",
+          "body": "Skalakan gambar ke dalam kotak sambil mempertahankan rasio aspek.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Tidak Ada Kelas Atas yang Tidak Diinginkan",
+          "body": "Pagar pembatas membantu menghindari peregangan sumber-sumber kecil.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Siap Web",
+          "tone": "oranye",
+          "body": "Siapkan ukuran PNG yang konsisten untuk halaman dan kisi."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Ubah ukuran"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk diubah ukurannya dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bisakah saya mempertahankan rasio aspek?",
+          "a": "Ya. Gunakan dimensi yang pas di dalam atau tertaut sehingga gambar dapat diskalakan dengan rapi."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung PNG hingga 10 MB."
+        },
+        {
+          "q": "Apakah mengubah ukuran akan memperbesar gambar saya?",
+          "a": "Secara default, alur kerja menghindari pembesaran yang tidak diinginkan."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Ubah ukuran sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Ubah ukuran PNG Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Ubah ukuran gambar PNG secara online berdasarkan lebar, tinggi, atau pas di dalam. Alat tamu pribadi tanpa memerlukan akun.",
+      "breadcrumbCurrent": "Ubah ukuran PNG Daring",
+      "h1": "Ubah ukuran PNG Daring",
+      "subtitle": "Ubah dimensi PNG untuk web dan sosial",
+      "paragraph": "Ubah ukuran gambar PNG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: PNG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/resize-webp": {
+      "path": "/ubah ukuran-webp",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Kontrol Tepat, Hasil Bersih",
+      "features": [
+        {
+          "title": "Dimensi Tepat",
+          "body": "Masukkan lebar dan tinggi yang sesuai dengan kebutuhan tata letak Anda.",
+          "tone": "biru"
+        },
+        {
+          "title": "Cocok Di Dalam",
+          "body": "Skalakan gambar ke dalam kotak sambil mempertahankan rasio aspek.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Tidak Ada Kelas Atas yang Tidak Diinginkan",
+          "body": "Pagar pembatas membantu menghindari peregangan sumber-sumber kecil.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Siap Web",
+          "tone": "oranye",
+          "body": "Siapkan ukuran WebP yang konsisten untuk halaman dan kisi."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Ubah ukuran"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk diubah ukurannya dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bisakah saya mempertahankan rasio aspek?",
+          "a": "Ya. Gunakan dimensi yang pas di dalam atau tertaut sehingga gambar dapat diskalakan dengan rapi."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung WebP hingga 10 MB."
+        },
+        {
+          "q": "Apakah mengubah ukuran akan memperbesar gambar saya?",
+          "a": "Secara default, alur kerja menghindari pembesaran yang tidak diinginkan."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Ubah ukuran sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Ubah ukuran WebP Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Ubah ukuran gambar WebP secara online berdasarkan lebar, tinggi, atau pas di dalam. Alat tamu pribadi tanpa memerlukan akun.",
+      "breadcrumbCurrent": "Ubah ukuran WebP Daring",
+      "h1": "Ubah ukuran WebP Daring",
+      "subtitle": "Ubah dimensi WebP untuk web dan sosial",
+      "paragraph": "Ubah ukuran gambar WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Pangkas Dengan Percaya Diri",
+      "features": [
+        {
+          "title": "Pangkas Gratis",
+          "body": "Pilih area mana pun pada gambar dan pertahankan wilayah tersebut.",
+          "tone": "biru"
+        },
+        {
+          "title": "Rasio Tetap",
+          "body": "Gunakan rasio aspek umum untuk tata letak yang konsisten.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Orientasi Aman",
+          "body": "Pangkas matematika dengan memperhatikan dimensi berorientasi setelah diunggah.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Format Keluar yang Sama",
+          "tone": "oranye",
+          "body": "Unduh hasil JPG yang dipotong."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Tanaman"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk dipotong dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bisakah saya memotong menjadi persegi?",
+          "a": "Ya. Pilih rasio 1:1 atau gambar potongan gratis."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung JPG hingga 10 MB."
+        },
+        {
+          "q": "Apakah yang asli ditimpa?",
+          "a": "Tidak. Pemrosesan akan menghasilkan hasil pemotongan baru."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Pangkas sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/pangkas-jpg",
+      "metaTitle": "Pangkas JPG Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Pangkas gambar JPG secara online dengan kontrol rasio gratis atau tetap. Pemrosesan tamu pribadi, tidak diperlukan akun.",
+      "breadcrumbCurrent": "Pangkas JPG Daring",
+      "h1": "Pangkas JPG Daring",
+      "subtitle": "Simpan hanya bagian JPG Anda yang penting",
+      "paragraph": "Pangkas gambar JPG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: JPG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/crop-png": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Pangkas Dengan Percaya Diri",
+      "features": [
+        {
+          "title": "Pangkas Gratis",
+          "body": "Pilih area mana pun pada gambar dan pertahankan wilayah tersebut.",
+          "tone": "biru"
+        },
+        {
+          "title": "Rasio Tetap",
+          "body": "Gunakan rasio aspek umum untuk tata letak yang konsisten.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Orientasi Aman",
+          "body": "Pangkas matematika dengan memperhatikan dimensi berorientasi setelah diunggah.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Format Keluar yang Sama",
+          "tone": "oranye",
+          "body": "Unduh hasil PNG yang dipotong."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Tanaman"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk dipotong dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bisakah saya memotong menjadi persegi?",
+          "a": "Ya. Pilih rasio 1:1 atau gambar potongan gratis."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung PNG hingga 10 MB."
+        },
+        {
+          "q": "Apakah yang asli ditimpa?",
+          "a": "Tidak. Pemrosesan akan menghasilkan hasil pemotongan baru."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Pangkas sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/pangkas-png",
+      "metaTitle": "Pangkas PNG Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Pangkas gambar PNG secara online dengan kontrol rasio gratis atau tetap. Pemrosesan tamu pribadi, tidak diperlukan akun.",
+      "breadcrumbCurrent": "Pangkas PNG Daring",
+      "h1": "Pangkas PNG Daring",
+      "subtitle": "Simpan hanya bagian PNG Anda yang penting",
+      "paragraph": "Pangkas gambar PNG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: PNG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Pangkas Dengan Percaya Diri",
+      "features": [
+        {
+          "title": "Pangkas Gratis",
+          "body": "Pilih area mana pun pada gambar dan pertahankan wilayah tersebut.",
+          "tone": "biru"
+        },
+        {
+          "title": "Rasio Tetap",
+          "body": "Gunakan rasio aspek umum untuk tata letak yang konsisten.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Orientasi Aman",
+          "body": "Pangkas matematika dengan memperhatikan dimensi berorientasi setelah diunggah.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Format Keluar yang Sama",
+          "tone": "oranye",
+          "body": "Unduh hasil WebP yang dipotong."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Tanaman"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk dipotong dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Bisakah saya memotong menjadi persegi?",
+          "a": "Ya. Pilih rasio 1:1 atau gambar potongan gratis."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung WebP hingga 10 MB."
+        },
+        {
+          "q": "Apakah yang asli ditimpa?",
+          "a": "Tidak. Pemrosesan akan menghasilkan hasil pemotongan baru."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Pangkas sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/pangkas-webp",
+      "metaTitle": "Pangkas WebP Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Pangkas gambar WebP secara online dengan kontrol rasio gratis atau tetap. Pemrosesan tamu pribadi, tidak diperlukan akun.",
+      "breadcrumbCurrent": "Pangkas WebP Daring",
+      "h1": "Pangkas WebP Daring",
+      "subtitle": "Simpan hanya bagian WebP Anda yang penting",
+      "paragraph": "Pangkas gambar WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Format yang didukung: WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-ke-webp",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai WebP dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi JPG ke WebP mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung JPG hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah konversi tidak merugikan?",
+          "a": "Itu tergantung pada format sumber dan target. Format lossy dapat menurunkan kualitas untuk ukuran yang lebih kecil."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Konversikan JPG ke WebP Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar JPG menjadi WebP online untuk situs web yang lebih cepat. Konversi tamu pribadi dengan keluaran terverifikasi.",
+      "breadcrumbCurrent": "Konverter JPG ke WebP",
+      "h1": "Ubah JPG menjadi WebP Daring",
+      "subtitle": "Beralih dari JPG ke WebP tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar JPG menjadi WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: JPG → WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-ke-png",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai PNG dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi JPG ke PNG mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung JPG hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah konversi tidak merugikan?",
+          "a": "Itu tergantung pada format sumber dan target. Format lossy dapat menurunkan kualitas untuk ukuran yang lebih kecil."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Konversikan JPG ke PNG Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar JPG menjadi PNG secara online. Konversi tamu pribadi dengan keluaran terverifikasi.",
+      "breadcrumbCurrent": "Konverter JPG ke PNG",
+      "h1": "Ubah JPG menjadi PNG Daring",
+      "subtitle": "Beralih dari JPG ke PNG tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar JPG menjadi PNG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: JPG → PNG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-ke-avif",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai AVIF dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi JPG ke AVIF mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung JPG hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah AVIF selalu tersedia?",
+          "a": "AVIF pengkodean ditawarkan hanya ketika server dapat menyandikan dan memverifikasi hasilnya."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Konversikan JPG ke AVIF Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar JPG menjadi AVIF secara online saat pengkodean tersedia. Konversi tamu pribadi.",
+      "breadcrumbCurrent": "Konverter JPG ke AVIF",
+      "h1": "Ubah JPG menjadi AVIF Daring",
+      "subtitle": "Beralih dari JPG ke AVIF tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar JPG menjadi AVIF dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: JPG → AVIF • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/png-to-jpg": {
+      "path": "/png-ke-jpg",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai JPG dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi PNG ke JPG mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung PNG hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah konversi tidak merugikan?",
+          "a": "Itu tergantung pada format sumber dan target. Format lossy dapat menurunkan kualitas untuk ukuran yang lebih kecil."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Konversikan PNG ke JPG Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar PNG menjadi JPG online. Konversi tamu pribadi dengan keluaran terverifikasi.",
+      "breadcrumbCurrent": "Konverter PNG ke JPG",
+      "h1": "Ubah PNG menjadi JPG Daring",
+      "subtitle": "Beralih dari PNG ke JPG tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar PNG menjadi JPG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: PNG → JPG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/png-to-webp": {
+      "path": "/png-ke-webp",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai WebP dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi PNG ke WebP mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung PNG hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah konversi tidak merugikan?",
+          "a": "Itu tergantung pada format sumber dan target. Format lossy dapat menurunkan kualitas untuk ukuran yang lebih kecil."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Konversikan PNG ke WebP Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar PNG menjadi WebP online untuk pengiriman web yang lebih kecil. Konversi tamu pribadi.",
+      "breadcrumbCurrent": "Konverter PNG ke WebP",
+      "h1": "Ubah PNG menjadi WebP Daring",
+      "subtitle": "Beralih dari PNG ke WebP tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar PNG menjadi WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: PNG → WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai AVIF dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi PNG ke AVIF mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung PNG hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah AVIF selalu tersedia?",
+          "a": "AVIF pengkodean ditawarkan hanya ketika server dapat menyandikan dan memverifikasi hasilnya."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/png-ke-avif",
+      "metaTitle": "Konversikan PNG ke AVIF Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar PNG menjadi AVIF secara online saat pengkodean tersedia. Konversi tamu pribadi.",
+      "breadcrumbCurrent": "Konverter PNG ke AVIF",
+      "h1": "Ubah PNG menjadi AVIF Daring",
+      "subtitle": "Beralih dari PNG ke AVIF tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar PNG menjadi AVIF dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: PNG → AVIF • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-ke-jpg",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai JPG dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi WebP ke JPG mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung WebP hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah konversi tidak merugikan?",
+          "a": "Itu tergantung pada format sumber dan target. Format lossy dapat menurunkan kualitas untuk ukuran yang lebih kecil."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Konversikan WebP ke JPG Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar WebP menjadi JPG secara online. Konversi tamu pribadi dengan keluaran terverifikasi.",
+      "breadcrumbCurrent": "Konverter WebP ke JPG",
+      "h1": "Ubah WebP menjadi JPG Daring",
+      "subtitle": "Beralih dari WebP ke JPG tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar WebP menjadi JPG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: WebP → JPG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/webp-to-png": {
+      "path": "/webp-ke-png",
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai PNG dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi WebP ke PNG mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung WebP hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah konversi tidak merugikan?",
+          "a": "Itu tergantung pada format sumber dan target. Format lossy dapat menurunkan kualitas untuk ukuran yang lebih kecil."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "metaTitle": "Konversikan WebP ke PNG Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar WebP menjadi PNG secara online. Konversi tamu pribadi dengan keluaran terverifikasi.",
+      "breadcrumbCurrent": "Konverter WebP ke PNG",
+      "h1": "Ubah WebP menjadi PNG Daring",
+      "subtitle": "Beralih dari WebP ke PNG tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar WebP menjadi PNG dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: WebP → PNG • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Menjadi Sederhana",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Hapus Sasaran",
+          "body": "Output disimpan sebagai AVIF dengan hasil yang diverifikasi."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tamu Cepat",
+          "body": "Unggah, konversi, dan unduh dalam satu sesi pribadi."
+        },
+        {
+          "title": "Ramah Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan situs atau alur kerja Anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oranye",
+          "body": "Ketahui jenis dan ukuran yang dihasilkan sebelum mengunduh."
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Gambar Anda"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "Hasil Pratinjau"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+          "kind": "pribadi"
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Apakah mengonversi WebP ke AVIF mengubah dokumen asli saya?",
+          "a": "Tidak. Pemrosesan tamu menulis keluaran terpisah. Unggahan Anda tetap pribadi dan berakhir seiring sesi berlangsung."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Unggahan tamu mendukung WebP hingga 10 MB."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Tidak. Berkonversi sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Apakah AVIF selalu tersedia?",
+          "a": "AVIF pengkodean ditawarkan hanya ketika server dapat menyandikan dan memverifikasi hasilnya."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/webp-ke-avif",
+      "metaTitle": "Konversikan WebP ke AVIF Daring Gratis | Img Pilot",
+      "metaDescription": "Konversikan gambar WebP menjadi AVIF secara online saat pengkodean tersedia. Konversi tamu pribadi.",
+      "breadcrumbCurrent": "Konverter WebP ke AVIF",
+      "h1": "Ubah WebP menjadi AVIF Daring",
+      "subtitle": "Beralih dari WebP ke AVIF tanpa perangkat lunak desktop",
+      "paragraph": "Ubah gambar WebP menjadi AVIF dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+      "workspaceNote": "Didukung: WebP → AVIF • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Kecepatan Batch Dengan Batas Yang Jelas",
+      "features": [
+        {
+          "title": "Pengaturan Bersama",
+          "tone": "biru",
+          "body": "Terapkan satu pilihan kompres di seluruh batch."
+        },
+        {
+          "title": "Status per file",
+          "body": "Lihat gambar mana yang berhasil dan mana yang perlu diperhatikan.",
+          "tone": "hijau"
+        },
+        {
+          "title": "ZIP Unduh",
+          "body": "Kumpulkan keluaran yang berhasil saat batch sudah siap.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Topi Tamu",
+          "body": "Ukuran batch dan total byte mengikuti kebijakan tamu gratis.",
+          "tone": "oranye"
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Batch"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "File Proses"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "pribadi",
+          "body": "Gambar Anda diproses secara pribadi untuk kompres massal dan dihapus secara otomatis dalam waktu satu jam."
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Berapa banyak file yang dapat saya unggah?",
+          "a": "Pekerjaan massal tamu menerapkan jumlah file maksimum dan ukuran batch total."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Setiap file mengikuti ukuran maksimal tamu, dan batch memiliki batas byte total."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Para tamu dapat menjalankan pekerjaan massal yang terbatas. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Bagaimana jika satu file gagal?",
+          "a": "Hasil yang berhasil tetap dapat diunduh; item yang gagal menunjukkan status kesalahan."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/kompres massal",
+      "metaTitle": "Kompres Gambar Massal Online Gratis | Img Pilot",
+      "metaDescription": "Kompres beberapa gambar secara online dan unduh hasil yang sukses secara bersamaan. Batas jumlah tamu berlaku.",
+      "breadcrumbCurrent": "Gambar Kompres Massal",
+      "h1": "Kompres Gambar Secara Massal Secara Online",
+      "subtitle": "Kompres dalam waktu singkat tanpa mengulangi setiap langkah",
+      "paragraph": "Kompres beberapa file JPG, PNG atau WebP dalam satu batch. Batasan tamu gratis berlaku.",
+      "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Batas batch tamu berlaku. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Kecepatan Batch Dengan Batas Yang Jelas",
+      "features": [
+        {
+          "title": "Pengaturan Bersama",
+          "tone": "biru",
+          "body": "Terapkan satu pilihan pengubahan ukuran di seluruh batch."
+        },
+        {
+          "title": "Status per file",
+          "body": "Lihat gambar mana yang berhasil dan mana yang perlu diperhatikan.",
+          "tone": "hijau"
+        },
+        {
+          "title": "ZIP Unduh",
+          "body": "Kumpulkan keluaran yang berhasil saat batch sudah siap.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Topi Tamu",
+          "body": "Ukuran batch dan total byte mengikuti kebijakan tamu gratis.",
+          "tone": "oranye"
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Batch"
+        },
+        {
+          "title": "Ubah ukuran"
+        },
+        {
+          "title": "File Proses"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "pribadi",
+          "body": "Gambar Anda diproses secara pribadi untuk diubah ukurannya secara massal dan dihapus secara otomatis dalam waktu satu jam."
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Berapa banyak file yang dapat saya unggah?",
+          "a": "Pekerjaan massal tamu menerapkan jumlah file maksimum dan ukuran batch total."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Setiap file mengikuti ukuran maksimal tamu, dan batch memiliki batas byte total."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Para tamu dapat menjalankan pekerjaan massal yang terbatas. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Bagaimana jika satu file gagal?",
+          "a": "Hasil yang berhasil tetap dapat diunduh; item yang gagal menunjukkan status kesalahan."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/mengubah ukuran secara massal",
+      "metaTitle": "Ubah Ukuran Gambar Secara Massal Online Gratis | Img Pilot",
+      "metaDescription": "Ubah ukuran beberapa gambar secara online dan unduh hasil yang sukses secara bersamaan. Batas jumlah tamu berlaku.",
+      "breadcrumbCurrent": "Ubah Ukuran Gambar Secara Massal",
+      "h1": "Ubah Ukuran Gambar Secara Massal Secara Online",
+      "subtitle": "Ubah ukuran batch singkat tanpa mengulangi setiap langkah",
+      "paragraph": "Ubah ukuran beberapa file JPG, PNG atau WebP dalam satu batch. Batasan tamu gratis berlaku.",
+      "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Batas batch tamu berlaku. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Tidak diperlukan akun",
+        "Pemrosesan pribadi & aman",
+        "Hapus otomatis dalam 1 jam"
+      ],
+      "featuresHeading": "Kecepatan Batch Dengan Batas Yang Jelas",
+      "features": [
+        {
+          "title": "Pengaturan Bersama",
+          "tone": "biru",
+          "body": "Terapkan satu pilihan konversi di seluruh batch."
+        },
+        {
+          "title": "Status per file",
+          "body": "Lihat gambar mana yang berhasil dan mana yang perlu diperhatikan.",
+          "tone": "hijau"
+        },
+        {
+          "title": "ZIP Unduh",
+          "body": "Kumpulkan keluaran yang berhasil saat batch sudah siap.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Topi Tamu",
+          "body": "Ukuran batch dan total byte mengikuti kebijakan tamu gratis.",
+          "tone": "oranye"
+        }
+      ],
+      "howHeading": "Cara Kerjanya",
+      "howSteps": [
+        {
+          "title": "Unggah Batch"
+        },
+        {
+          "title": "Mengubah"
+        },
+        {
+          "title": "File Proses"
+        },
+        {
+          "title": "Unduh"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "pribadi",
+          "body": "Gambar Anda diproses secara pribadi untuk konversi massal dan dihapus secara otomatis dalam waktu satu jam."
+        },
+        {
+          "title": "Cepat & Efisien",
+          "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+          "kind": "kecepatan"
+        }
+      ],
+      "faqHeading": "Pertanyaan yang Sering Diajukan",
+      "faqs": [
+        {
+          "q": "Berapa banyak file yang dapat saya unggah?",
+          "a": "Pekerjaan massal tamu menerapkan jumlah file maksimum dan ukuran batch total."
+        },
+        {
+          "q": "Apakah ada batasan ukuran file?",
+          "a": "Setiap file mengikuti ukuran maksimal tamu, dan batch memiliki batas byte total."
+        },
+        {
+          "q": "Apakah saya memerlukan akun?",
+          "a": "Para tamu dapat menjalankan pekerjaan massal yang terbatas. File kedaluwarsa dalam waktu satu jam."
+        },
+        {
+          "q": "Bagaimana jika satu file gagal?",
+          "a": "Hasil yang berhasil tetap dapat diunduh; item yang gagal menunjukkan status kesalahan."
+        },
+        {
+          "q": "Apakah gambar saya disimpan secara permanen?",
+          "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+        }
+      ],
+      "path": "/konversi massal",
+      "metaTitle": "Konversi Massal Gambar Online Gratis | Img Pilot",
+      "metaDescription": "Konversikan beberapa gambar secara online dan unduh hasil yang sukses secara bersamaan. Batas jumlah tamu berlaku.",
+      "breadcrumbCurrent": "Konversi Gambar Secara Massal",
+      "h1": "Konversi Gambar Secara Massal Secara Online",
+      "subtitle": "Konversikan batch singkat tanpa mengulangi setiap langkah",
+      "paragraph": "Konversikan beberapa file JPG, PNG atau WebP dalam satu batch. Batasan tamu gratis berlaku.",
+      "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Batas batch tamu berlaku. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam."
+    }
+  }
+}

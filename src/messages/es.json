@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Próximamente",
+    "openMenu": "Abrir navegación",
+    "closeMenu": "Cerrar navegación",
+    "mainNavigation": "Navegación principal"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "projects": "Proyectos",
+    "usage": "Analíticas",
+    "billing": "Facturación",
+    "developer": "Desarrollador",
+    "integrations": "Integraciones",
+    "automation": "Automatización",
+    "settings": "Ajustes de la cuenta",
+    "organizations": "Organizaciones"
+  },
+  "language": {
+    "label": "Idioma de la interfaz",
+    "english": "Inglés",
+    "urdu": "urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Herramientas de imagen",
+    "compress": "Comprimir",
+    "resize": "Redimensionar",
+    "convert": "Convertir",
+    "seoTools": "Herramientas SEO",
+    "bulkTools": "Herramientas por lotes",
+    "openAppGrid": "Abrir menú de herramientas",
+    "appGridTitle": "Herramientas y recursos",
+    "languageHint": "Preferencia de idioma",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "footerBlurb": "Herramientas privadas en línea para comprimir, redimensionar, convertir y preparar imágenes para la web.",
+    "popularFormats": "Formatos populares",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "rights": "Todos los derechos reservados."
+  },
+  "errors": {
+    "generic": "Algo salió mal."
+  }
+}

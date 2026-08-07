@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/compress-image",
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Kompresse"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Wie funktioniert die Bildkomprimierung?",
+        "a": "Das Tool kodiert Ihr Bild mit Einstellungen neu, die die Dateigröße reduzieren und gleichzeitig dafür sorgen, dass das Ergebnis visuell nutzbar bleibt. Wählen Sie vor der Verarbeitung eine leichtere oder stärkere Voreinstellung."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB. Für größere Arbeitsabläufe ist möglicherweise ein Konto erforderlich."
+      },
+      {
+        "q": "Reduziert die Komprimierung die Bildqualität?",
+        "a": "Stärkere Voreinstellungen können feine Details weicher machen. Verwenden Sie „Maximale Qualität“ oder „Ausgewogen“, wenn das Aussehen am wichtigsten ist, und zeigen Sie vor dem Herunterladen immer eine Vorschau an."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Die Gastkomprimierung funktioniert ohne Anmeldung. Dateien bleiben privat und verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse sind vorübergehend und werden automatisch innerhalb einer Stunde gelöscht."
+      }
+    ],
+    "metaTitle": "Bilder online komprimieren – JPG, PNG und WebP Größe reduzieren",
+    "metaDescription": "Komprimieren Sie Bilder online, ohne an Qualität zu verlieren. Reduzieren Sie die Dateigröße JPG, PNG und WebP mit privater Gastverarbeitung und automatischer Löschung innerhalb einer Stunde.",
+    "breadcrumbCurrent": "Bilder online komprimieren",
+    "h1": "Bilder online komprimieren",
+    "subtitle": "Reduzieren Sie die Größe der Bilddatei, ohne an Qualität zu verlieren",
+    "paragraph": "Komprimieren Sie JPG-, PNG- und WebP-Bilder in Sekunden. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Kleinere Größe, gleiche tolle Qualität",
+    "features": [
+      {
+        "title": "Intelligente Komprimierung",
+        "body": "Intelligente Komprimierung sorgt dafür, dass Ihre Bilder scharf aussehen.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Bis zu 80 % kleiner",
+        "body": "Reduzieren Sie die Dateigröße drastisch, um Uploads und Seitenladevorgänge zu beschleunigen.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Perfekt für das Web",
+        "body": "Optimieren Sie Bilder für Websites, Blogs und Produktseiten.",
+        "tone": "lila"
+      },
+      {
+        "title": "Qualität, der Sie vertrauen können",
+        "body": "Vorschau vor dem Download, damit Sie die Qualität immer unter Kontrolle haben.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden vertraulich verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die Cloud-gestützte Komprimierung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/resize-image": {
+    "path": "/resize-image",
+    "features": [
+      {
+        "title": "Genaue Abmessungen",
+        "body": "Geben Sie Breite und Höhe ein, die Ihren Layoutanforderungen entsprechen.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Passt hinein",
+        "body": "Skalieren Sie Bilder unter Beibehaltung des Seitenverhältnisses in eine Box.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Kein unerwünschtes Upscale",
+        "body": "Leitplanken helfen dabei, die Überdehnung kleiner Quellen zu vermeiden.",
+        "tone": "lila"
+      },
+      {
+        "title": "Webbereit",
+        "body": "Bereiten Sie einheitliche Größen für Seiten und Produktraster vor.",
+        "tone": "orange"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Größe ändern"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kann ich das Seitenverhältnis beibehalten?",
+        "a": "Ja. Verwenden Sie angepasste oder verknüpfte Abmessungen, damit Bilder sauber und ohne Verzerrung skaliert werden."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Vergrößert die Größenänderung mein Bild?",
+        "a": "Standardmäßig vermeiden Arbeitsabläufe unerwünschte Vergrößerungen. Wählen Sie Abmessungen, die zu Ihrer Quelle passen."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Beginnen Sie mit der Größenänderung als Gast. Temporäre Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse werden automatisch innerhalb einer Stunde gelöscht."
+      }
+    ],
+    "metaTitle": "Größe von Bildern online ändern – Abmessungen für Web und soziale Netzwerke ändern",
+    "metaDescription": "Ändern Sie die Größe der Bilder JPG, PNG und WebP online nach Breite, Höhe oder Einpassung. Privates Gasttool ohne Konto erforderlich.",
+    "breadcrumbCurrent": "Ändern Sie die Größe von Bildern online",
+    "h1": "Ändern Sie die Größe von Bildern online",
+    "subtitle": "Ändern Sie die Dimensionen für Web, Social und Layout",
+    "paragraph": "Ändern Sie die Größe der Bilder JPG, PNG und WebP in Sekunden. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Präzise Kontrolle, saubere Ergebnisse",
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden zur Größenänderung privat verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/crop-image": {
+    "path": "/Bild zuschneiden",
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Ernte"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kann ich auf ein Quadrat zuschneiden?",
+        "a": "Ja. Wählen Sie ein Verhältnis von 1:1 oder zeichnen Sie einen freien Ausschnitt, der Ihren Anforderungen entspricht."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Wird das Original überschrieben?",
+        "a": "Nein. Durch die Verarbeitung wird ein neues zugeschnittenes Ergebnis erstellt."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Als Gast zuschneiden. Dateien werden innerhalb einer Stunde automatisch gelöscht."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "metaTitle": "Bilder online zuschneiden – kostenloser und fester Zuschnitt",
+    "metaDescription": "Schneiden Sie JPG-, PNG- und WebP-Bilder online mit kostenlosen oder festen Seitenverhältnissteuerungen zu. Private Gastbearbeitung, kein Konto erforderlich.",
+    "breadcrumbCurrent": "Bilder online zuschneiden",
+    "h1": "Bilder online zuschneiden",
+    "subtitle": "Behalten Sie nur den Teil des Bildes, der wichtig ist",
+    "paragraph": "Schneiden Sie JPG-, PNG- und WebP-Bilder in Sekunden zu. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Mit Zuversicht ernten",
+    "features": [
+      {
+        "title": "Kostenloses Zuschneiden",
+        "body": "Wählen Sie einen beliebigen Bereich des Bildes aus und behalten Sie genau diesen Bereich bei.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Feste Verhältnisse",
+        "body": "Verwenden Sie gemeinsame Seitenverhältnisse für konsistente Layouts.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Orientierungssicher",
+        "body": "Die Zuschnittsberechnung berücksichtigt nach dem Hochladen die orientierten Abmessungen.",
+        "tone": "lila"
+      },
+      {
+        "title": "Gleiches Format",
+        "body": "Laden Sie ein zugeschnittenes Ergebnis in Ihrem Quellformat herunter, sofern dies unterstützt wird.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat zum Zuschneiden verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/convert-image": {
+    "path": "/convert-image",
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Konvertieren"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Welche Konvertierungen werden unterstützt?",
+        "a": "Die Kerngastkonvertierung umfasst JPG, PNG und WebP. AVIF wird angeboten, wenn die Laufzeit es kodieren und überprüfen kann."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Bleibt die Transparenz erhalten?",
+        "a": "Bei der Konvertierung in Formate, die Alpha unterstützen, kann die Transparenz je nach Werkzeugoptionen erhalten bleiben."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Konvertieren Sie als Gast. Temporäre Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse werden automatisch innerhalb einer Stunde gelöscht."
+      }
+    ],
+    "metaTitle": "Bilder online konvertieren – JPG, PNG, WebP und AVIF",
+    "metaDescription": "Konvertieren Sie online zwischen den Formaten JPG, PNG, WebP und unterstützten AVIF. Private Gastkonvertierung mit verifizierten Ausgaben.",
+    "breadcrumbCurrent": "Konvertieren Sie Bilder online",
+    "h1": "Konvertieren Sie Bilder online",
+    "subtitle": "Wechseln Sie Formate für das Web ohne Desktop-Software",
+    "paragraph": "Konvertieren Sie JPG-, PNG- und WebP-Bilder in Sekunden. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Formatänderungen leicht gemacht",
+    "features": [
+      {
+        "title": "Beliebte Formate",
+        "body": "Wechseln Sie mit klaren Optionen zwischen JPG, PNG und WebP.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Transparenzbewusst",
+        "body": "PNG und WebP Alpha werden von der Richtlinie sorgfältig behandelt.",
+        "tone": "Grün"
+      },
+      {
+        "title": "AVIF Wenn bereit",
+        "body": "Codieren Sie nur dann in AVIF, wenn der Server dies überprüfen kann.",
+        "tone": "lila"
+      },
+      {
+        "title": "Ehrliche Ausgabe",
+        "body": "Informieren Sie sich vor dem Download über den resultierenden MIME-Typ und die resultierende MIME-Größe.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden zur Konvertierung privat verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Drehen"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Welche Winkel werden unterstützt?",
+        "a": "Die Gastdrehung unterstützt 90°, 180° und 270° sowie optionale Drehungen."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Als Gast rotieren. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Wird die Ausrichtung EXIF angewendet?",
+        "a": "Die Quellen werden vor der Transformation orientierungsnormalisiert, sodass die Ergebnisse Ihren Erwartungen entsprechen."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "path": "/rotate-image",
+    "metaTitle": "Bild online drehen – JPG, PNG und WebP umdrehen",
+    "metaDescription": "Drehen Sie Bilder um 90°, 180° oder 270° und spiegeln Sie sie horizontal oder vertikal. Kostenloses Gasttool mit privatem Zwischenspeicher.",
+    "breadcrumbCurrent": "Bilder online drehen",
+    "h1": "Bilder online drehen",
+    "subtitle": "Drehen oder spiegeln Sie Bilder für Layout und Design",
+    "paragraph": "Drehen oder spiegeln Sie die Bilder JPG, PNG und WebP in Sekunden. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Schnelle Orientierungskorrekturen",
+    "features": [
+      {
+        "title": "90°-Stufen",
+        "body": "In einem Durchgang um 90°, 180° oder 270° drehen.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Flip-Steuerelemente",
+        "body": "Bei Bedarf horizontal oder vertikal spiegeln.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Gleiches Format",
+        "body": "Die Ausgabe bleibt in Ihrem hochgeladenen Format.",
+        "tone": "lila"
+      },
+      {
+        "title": "Private Gastjobs",
+        "body": "Kurzfristige Verarbeitung mit automatischer Bereinigung.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat zur Rotation verarbeitet und automatisch innerhalb einer Stunde gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Wasserzeichen"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kann ich ein Logo-Wasserzeichen hochladen?",
+        "a": "Dieses Gasttool stempelt Text. Verwenden Sie vorerst einen kurzen Markentext."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Wasserzeichen als Gast. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Deckt das Wasserzeichen mein Motiv ab?",
+        "a": "Wählen Sie Eckpositionen und verringern Sie die Deckkraft, um die Motive sichtbar zu halten."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "path": "/watermark-image",
+    "metaTitle": "Wasserzeichenbilder online – Fügen Sie Textwasserzeichen hinzu",
+    "metaDescription": "Stempeln Sie kurze Textwasserzeichen auf JPG, PNG und WebP mit Positions- und Deckkraftsteuerung. Privates Gasttool.",
+    "breadcrumbCurrent": "Wasserzeichenbilder online",
+    "h1": "Wasserzeichenbilder online",
+    "subtitle": "Stempeln Sie kurzen Text, ohne das gesamte Bild zu verdecken",
+    "paragraph": "Fügen Sie in Sekundenschnelle ein Textwasserzeichen zu den Bildern JPG, PNG oder WebP hinzu. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Schützen Sie visuelle Elemente mit leichtem Branding",
+    "features": [
+      {
+        "title": "Kurze Textstempel",
+        "body": "Fügen Sie ein prägnantes Wasserzeichen hinzu, das lesbar bleibt.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Positionskontrolle",
+        "body": "Platzieren Sie Wasserzeichen in den Ecken oder in der Mitte.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Schieberegler für die Deckkraft",
+        "body": "Gleichen Sie Sichtbarkeit und Bildinhalt ab.",
+        "tone": "lila"
+      },
+      {
+        "title": "Gleiches Format",
+        "body": "Laden Sie eine mit Wasserzeichen versehene Datei in Ihrem Quellformat herunter.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat zum Versehen mit Wasserzeichen verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Verwischen"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Werden Gesichter automatisch erkannt?",
+        "a": "Nein. Sie wählen den Bereich manuell als Prozentsatz des Bildes aus."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Blur als Gast. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Kann ich mehrere Regionen verwischen?",
+        "a": "Dieses Gasttool wendet eine Region pro Lauf an. Wiederholen Sie den Vorgang, um einen anderen Bereich unkenntlich zu machen."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "path": "/blur-region",
+    "metaTitle": "Bildbereich online verwischen – Gesichter und Details ausblenden",
+    "metaDescription": "Verwischen Sie manuell einen Bereich von JPG-, PNG- oder WebP-Bildern, um Gesichter, Schilder oder andere Details auszublenden. Privates Gasttool.",
+    "breadcrumbCurrent": "Region online verwischen",
+    "h1": "Region online verwischen",
+    "subtitle": "Verbergen Sie sensible Details mit einem manuellen Unschärfefeld",
+    "paragraph": "Verwischen Sie einen ausgewählten Bereich auf JPG-, PNG- oder WebP-Bildern in Sekundenschnelle. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Verwischen Sie, was Privatsphäre braucht",
+    "features": [
+      {
+        "title": "Manuelle Region",
+        "body": "Sie wählen genau aus, wo die Unschärfe angewendet werden soll.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Stärkestufen",
+        "body": "Leichte, mittlere oder starke Unschärfe für unterschiedliche Bedürfnisse.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Datenschutzfreundlich",
+        "body": "Blenden Sie Details aus, bevor Sie Assets veröffentlichen oder versenden.",
+        "tone": "lila"
+      },
+      {
+        "title": "Gästesafe",
+        "body": "Private vorübergehende Verarbeitung mit automatischer Löschung.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat zur Bereichsunschärfe verarbeitet und automatisch innerhalb einer Stunde gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Untertitel"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Benötige ich sowohl oberen als auch unteren Text?",
+        "a": "Nein. Geben Sie mindestens eine Beschriftungszeile an."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Als Gast generieren. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Kann ich die Schriftart ändern?",
+        "a": "Gastmemes verwenden zur besseren Lesbarkeit einen klassischen Impact-Stack."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "path": "/meme-generator",
+    "metaTitle": "Meme Generator Online – Fügen Sie Ober- und Untertitel hinzu",
+    "metaDescription": "Fügen Sie klassische Meme-Beschriftungen oben und unten zu den Bildern JPG, PNG oder WebP hinzu. Kostenloser Gast-Meme-Generator.",
+    "breadcrumbCurrent": "Meme-Generator online",
+    "h1": "Meme-Generator online",
+    "subtitle": "Fügen Sie in Sekundenschnelle klassische Untertitel hinzu",
+    "paragraph": "Fügen Sie in Sekundenschnelle Ober- und Untertitel zu den Bildern JPG, PNG oder WebP hinzu. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Untertitel, die sich wie klassische Memes lesen",
+    "features": [
+      {
+        "title": "Text oben und unten",
+        "body": "Verwenden Sie für klassische Layouts eine der beiden Linien oder beide.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Automatische Verpackung",
+        "body": "Lange Beschriftungen werden in kurze, lesbare Zeilen umgebrochen.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Typ mit hohem Kontrast",
+        "body": "Weiße Füllung mit dunklem Strich für mehr Klarheit.",
+        "tone": "lila"
+      },
+      {
+        "title": "Instant Guest Tool",
+        "body": "Ohne Anmeldung erstellen und herunterladen.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat für Meme-Untertitel verarbeitet und automatisch innerhalb einer Stunde gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/geotag-image": {
+    "path": "/geotag-image",
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Geotag"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Welche Formate unterstützen Geotagging?",
+        "a": "Der Gast-Geotag konzentriert sich auf kompatible JPEG-Bilder."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen kompatibles JPEG innerhalb der 10-MB-Grenze."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Geotag als Gast. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Werden die Koordinaten überprüft?",
+        "a": "Schreibvorgänge folgen den Validierungsregeln, sodass die Werte vor dem Einbetten wohlgeformt sind."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "metaTitle": "Bilder online mit Geotags versehen – GPS zu JPEG hinzufügen",
+    "metaDescription": "Lesen oder schreiben Sie verifizierte GPS-Koordinaten auf kompatiblen JPEG-Bildern. Privates Gast-Geotag-Tool.",
+    "breadcrumbCurrent": "Geotag-Bilder online",
+    "h1": "Geotag-Bilder online",
+    "subtitle": "Fügen Sie JPEG GPS Standortdaten hinzu oder überprüfen Sie sie",
+    "paragraph": "Fügen Sie GPS-Koordinaten auf kompatiblen JPEG-Bildern hinzu oder überprüfen Sie sie. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Standortdaten, die Sie überprüfen können",
+    "features": [
+      {
+        "title": "JPEG Konzentriert",
+        "body": "Geotag-Workflows zielen auf kompatible JPEG-Quellen ab.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Zuerst prüfen",
+        "body": "Prüfen Sie, ob lesbares GPS bereits vorhanden ist.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Koordinaten schreiben",
+        "body": "Das Einbetten von Breiten- und Längengraden ist beim Ersetzen zulässig.",
+        "tone": "lila"
+      },
+      {
+        "title": "Privatsphäre der Gäste",
+        "body": "Temporäre Verarbeitung mit automatischer Bereinigung.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat für das Geotagging verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/image-metadata": {
+    "path": "/image-Metadaten",
+    "breadcrumbCurrent": "Bildmetadaten-Viewer",
+    "h1": "Bildmetadaten-Viewer",
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Überprüfen"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Werden alle EXIF-Tags angezeigt?",
+        "a": "Nein. Der Viewer zeigt zur Sicherheit und Übersichtlichkeit Felder auf der Zulassungsliste an."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Nein. Schauen Sie als Gast vorbei. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Kann ich hier Metadaten bearbeiten?",
+        "a": "Verwenden Sie den Bild-SEO-Metadaten-Editor, um SEO-Felder zu entwerfen und zu exportieren."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "metaTitle": "Bild-Metadaten-Viewer online – EXIF sicher prüfen",
+    "metaDescription": "Überprüfen Sie die Abmessungen, Farbinformationen und sicheren Metadaten auf der Zulassungsliste für JPG, PNG und WebP. Privater Gastzuschauer.",
+    "subtitle": "Überprüfen Sie vor der Veröffentlichung sichere Bildeigenschaften",
+    "paragraph": "Überprüfen Sie die Eigenschaften JPG, PNG und WebP in Sekundenschnelle. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Sicher sehen, worauf es ankommt",
+    "features": [
+      {
+        "title": "Kerneigenschaften",
+        "body": "Abmessungen, Typ und praktische Dateidetails.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Felder auf der Zulassungsliste",
+        "body": "Es werden nur sichere, kuratierte Metadatenoberflächen angezeigt.",
+        "tone": "Grün"
+      },
+      {
+        "title": "Webfreundlich",
+        "body": "Nützliche Prüfungen vor dem Hochladen von CMS oder der Überprüfung von SEO.",
+        "tone": "lila"
+      },
+      {
+        "title": "Privatsphäre der Gäste",
+        "body": "Temporäre Prüfaufträge mit automatischer Löschung.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat zur Metadatenprüfung verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/image-metadata-editor": {
+    "path": "/image-Metadaten-editor",
+    "breadcrumbCurrent": "Bild SEO Metadaten-Editor",
+    "h1": "Bild SEO Metadaten-Editor",
+    "howSteps": [
+      {
+        "title": "Laden Sie Ihr Bild hoch"
+      },
+      {
+        "title": "Bearbeiten"
+      },
+      {
+        "title": "Vorschau des Ergebnisses"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Schreibt dies EXIF in jedem Format neu?",
+        "a": "Der Editor konzentriert sich auf die Vorbereitung von SEO-Feldern und Exporten."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Gast-Uploads unterstützen JPG, PNG und WebP bis zu 10 MB."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Gastbearbeitung ist mit Einschränkungen möglich. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Was kann ich exportieren?",
+        "a": "Verwenden Sie Sidecar-freundliche Exporte für CMS und Inhaltsworkflows."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "metaTitle": "Bild SEO Metadaten-Editor online",
+    "metaDescription": "Schreiben, überprüfen und exportieren Sie Bild-SEO-Felder für Websites und CMS-Workflows. Privater Gast-Metadaten-Editor.",
+    "subtitle": "Bereiten Sie Bild-SEO-Felder vor der Veröffentlichung vor",
+    "paragraph": "Entwerfen Sie Bild-SEO-Felder und exportieren Sie Sidecars in Sekundenschnelle. Kostenloses Online-Tool – kein Konto erforderlich.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Redaktionelle Kontrolle für Bild SEO",
+    "features": [
+      {
+        "title": "Bearbeitbare Felder",
+        "body": "Aktualisieren Sie den SEO-Text, den Sie tatsächlich versenden.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Exportfreundlich",
+        "body": "Laden Sie Sidecars für CMS und Content-Workflows herunter.",
+        "tone": "Grün"
+      },
+      {
+        "title": "CMS Fertig",
+        "body": "Bereiten Sie vor der Veröffentlichung Titel, Beschreibungen und Schlüsselwörter vor.",
+        "tone": "lila"
+      },
+      {
+        "title": "Gastsitzungen",
+        "body": "Temporäre Entwürfe mit automatischer Bereinigung.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat zur Metadatenbearbeitung verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  },
+  "/bulk-image-tools": {
+    "path": "/bulk-image-tools",
+    "breadcrumbCurrent": "Massenbild-Tools",
+    "h1": "Massenbild-Tools",
+    "howSteps": [
+      {
+        "title": "Laden Sie einen Stapel hoch"
+      },
+      {
+        "title": "Wählen Sie Operation"
+      },
+      {
+        "title": "Dateien verarbeiten"
+      },
+      {
+        "title": "Herunterladen"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Wie viele Dateien kann ich hochladen?",
+        "a": "Gast-Massenjobs erzwingen eine maximale Dateianzahl und Gesamtstapelgröße."
+      },
+      {
+        "q": "Gibt es eine Dateigrößenbeschränkung?",
+        "a": "Jede Datei folgt der maximalen Gastgröße und der Stapel hat eine Gesamtbyte-Obergrenze."
+      },
+      {
+        "q": "Brauche ich ein Konto?",
+        "a": "Gäste können begrenzte Massenaufträge ausführen. Dateien verfallen innerhalb einer Stunde."
+      },
+      {
+        "q": "Was passiert, wenn eine Datei fehlschlägt?",
+        "a": "Erfolgreiche Ausgaben bleiben weiterhin herunterladbar; Fehlgeschlagene Elemente zeigen einen Fehlerstatus an."
+      },
+      {
+        "q": "Werden meine Bilder dauerhaft gespeichert?",
+        "a": "Nein. Gast-Uploads und Ergebnisse verfallen innerhalb einer Stunde."
+      }
+    ],
+    "metaTitle": "Massenbild-Tools online – Komprimieren, Größe ändern, Konvertieren",
+    "metaDescription": "Komprimieren, skalieren oder konvertieren Sie mehrere Bilder und laden Sie erfolgreiche Ergebnisse zusammen herunter. Es gelten Beschränkungen für die Anzahl der Gäste.",
+    "subtitle": "Verarbeiten Sie eine kurze Charge, ohne jeden Schritt zu wiederholen",
+    "paragraph": "Komprimieren, skalieren oder konvertieren Sie mehrere JPG-, PNG- oder WebP-Dateien in einem Stapel. Es gelten Limits für kostenlose Gäste.",
+    "trust": [
+      "Kein Konto erforderlich",
+      "Private und sichere Verarbeitung",
+      "Automatisches Löschen innerhalb von 1 Stunde"
+    ],
+    "workspaceNote": "Unterstützte Formate: JPG, PNG, WebP • Maximale Dateigröße: 10 MB. Ihre Dateien sind privat und werden innerhalb einer Stunde automatisch gelöscht.",
+    "featuresHeading": "Batch-Geschwindigkeit mit klaren Grenzen",
+    "features": [
+      {
+        "title": "Gemeinsame Einstellungen",
+        "body": "Wenden Sie eine Komprimierungs-, Größenänderungs- oder Konvertierungsauswahl auf den gesamten Stapel an.",
+        "tone": "Blau"
+      },
+      {
+        "title": "Status pro Datei",
+        "body": "Sehen Sie, welche Bilder gelungen sind und welche Aufmerksamkeit erfordern.",
+        "tone": "Grün"
+      },
+      {
+        "title": "ZIP Herunterladen",
+        "body": "Sammeln Sie erfolgreiche Ausgaben, wenn der Stapel fertig ist.",
+        "tone": "lila"
+      },
+      {
+        "title": "Gastmützen",
+        "body": "Batchgröße und Gesamtbytes folgen der Richtlinie für kostenlose Gastnutzung.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Wie es funktioniert",
+    "benefitCards": [
+      {
+        "title": "Ihre Privatsphäre ist wichtig",
+        "body": "Ihre Bilder werden privat zur Massenverarbeitung verarbeitet und innerhalb einer Stunde automatisch gelöscht.",
+        "kind": "Privatsphäre"
+      },
+      {
+        "title": "Schnell und effizient",
+        "body": "Die cloudgestützte Gastverarbeitung liefert Ergebnisse in Sekundenschnelle, ohne dass Software installiert werden muss.",
+        "kind": "Geschwindigkeit"
+      }
+    ],
+    "faqHeading": "Häufig gestellte Fragen"
+  }
+}

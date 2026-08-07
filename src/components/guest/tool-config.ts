@@ -20,6 +20,8 @@ export type GuestToolPresentation = {
   supportLabel?: string;
   browseLabel?: string;
   formatsHint?: string;
+  /** Landing pages: clean hero upload chrome matching marketing mockups. */
+  landingChrome?: "marketing";
   uploadFeatures?: readonly {title: string; body: string}[];
   showPopularSizes?: boolean;
   /** Override popular resize chips (defaults to social/web presets). */
@@ -66,13 +68,29 @@ export type GuestToolConfig<TOptions> = {
   /** Optional marketing presentation overrides (no processing changes). */
   presentation?: GuestToolPresentation;
   /** i18n key under guest.tools.* */
-  titleKey: "compress" | "resize" | "crop" | "convert" | "geotag" | "metadata" | "aiAlt" | "metadataEditor";
+  titleKey:
+    | "compress"
+    | "resize"
+    | "crop"
+    | "convert"
+    | "rotate"
+    | "watermark"
+    | "blur"
+    | "meme"
+    | "geotag"
+    | "metadata"
+    | "aiAlt"
+    | "metadataEditor";
   /** Nested message namespace e.g. compress / resize / crop / convert / geotag / metadata */
   messageNamespace:
     | "compress"
     | "resize"
     | "crop"
     | "convert"
+    | "rotate"
+    | "watermark"
+    | "blur"
+    | "meme"
     | "geotag"
     | "metadata"
     | "aiAlt"

@@ -74,7 +74,7 @@ async function main() {
         record(`en_section_${marker.slice(0, 28)}`, html.includes(marker));
       }
       record("en_upload_tool", html.includes("Choose an Image") && html.includes("hero-upload"));
-      record("en_faq_count", (html.match(/Do I need an account to use SEO Images\?/g) || []).length >= 1 && html.includes("Does image optimization guarantee"));
+      record("en_faq_count", (html.match(/Do I need an account to use Img Pilot\?/g) || []).length >= 1 && html.includes("Does image optimization guarantee"));
       record("en_jsonld_faq", html.includes("FAQPage"));
       record("en_illustration_hero_removed", !html.includes("/illustrations/hero-image-optimization.png"));
       record("en_no_svg_placeholders", !html.includes("/illustrations/") || !/\.svg/i.test(html.match(/\/illustrations\/[^"'\s]+/g)?.join(" ") || ""));

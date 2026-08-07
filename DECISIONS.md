@@ -526,12 +526,22 @@ Optional analytics sections fail independently. Charts are CSS/SVG with text sum
 **Alternatives considered:** Pages Router; Remix; separate Vite SPA + API.  
 **Consequences:** Routes live under `src/app`; server/client component boundaries must be respected.
 
+## 2026-08-07: Global multilingual architecture (25 languages)
+**Decision:** English is unprefixed (`localePrefix: "as-needed"`). Twenty-four other locales use `/{locale}/...`. Legacy `/en` and `/en/*` permanently redirect (301) to unprefixed English. RTL applies to `ar` and `ur`. Incomplete locale message packs deep-merge over English.
+
+**Update (Phase 3 Prompt 1):** Marketing body and Layer 1 UI are catalogued per locale. Indexability (sitemap/hreflang/robots) requires translation-quality status — do not index English-duplicate localized thin pages. Machine translations are labelled `machine_translated` until reviewed. URL slugs remain English in this phase. Technical dimensions keep Western digits; format codes are do-not-translate.
+**Date:** 2026-08-07  
+**Reason:** Match large SaaS i18n URL conventions, preserve English as canonical/`x-default`, and scale locale packs without blocking on full marketing translation.  
+**Alternatives considered:** Keep always-on `/en`; cookie-only locale; runtime machine translation.  
+**Consequences:** Canonical/hreflang/sitemap must use `localePath`/`absoluteUrl`; auth callbacks and return URLs accept unprefixed English.
+
 ## 2026-07-31: next-intl with locale-prefixed routing
 **Decision:** Use `next-intl` with always-on `/en` and `/ur` prefixes.  
 **Date:** 2026-07-31  
 **Reason:** Explicit URLs are predictable, shareable, and easier to QA for LTR/RTL.  
 **Alternatives considered:** Cookie-only locale; `next-i18next`; custom dictionary loader.  
-**Consequences:** Every user-facing route is locale-prefixed; middleware negotiates locale.
+**Consequences:** Every user-facing route is locale-prefixed; middleware negotiates locale.  
+**Superseded by:** 2026-08-07 Global multilingual architecture (25 languages).
 
 ## 2026-07-31: RTL at the document level
 **Decision:** Set `dir` and `lang` on `<html>` from the active locale in the locale layout.  

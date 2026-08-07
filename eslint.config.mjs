@@ -23,6 +23,10 @@ const eslintConfig = [
       "out/**",
       "drizzle/**",
       "next-env.d.ts",
+      "scripts/i18n/*.js",
+      "reports/**",
+      "src/content/locales/**",
+      "src/i18n/translation-memory.json",
     ],
   },
 ];

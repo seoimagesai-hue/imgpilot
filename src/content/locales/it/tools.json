@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/comprimere-immagine",
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Comprimere"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Come funziona la compressione delle immagini?",
+        "a": "Lo strumento ricodifica l'immagine con impostazioni che riducono le dimensioni del file mantenendo il risultato visivamente utilizzabile. Scegli un preset più leggero o più forte prima di elaborare."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB. Flussi di lavoro più ampi potrebbero richiedere un account."
+      },
+      {
+        "q": "La compressione ridurrà la qualità dell'immagine?",
+        "a": "Preset più forti possono ammorbidire i dettagli più fini. Utilizza la qualità massima o equilibrata quando l'aspetto conta di più e visualizza sempre l'anteprima prima del download."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. La compressione ospite funziona senza effettuare l'accesso. I file rimangono privati ​​e scadono entro un'ora."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti sono temporanei e vengono eliminati automaticamente entro un'ora."
+      }
+    ],
+    "metaTitle": "Comprimi immagini online: riduci le dimensioni JPG, PNG e WebP",
+    "metaDescription": "Comprimi le immagini online senza perdere la qualità. Riduci le dimensioni dei file JPG, PNG e WebP con l'elaborazione ospite privata e l'eliminazione automatica entro un'ora.",
+    "breadcrumbCurrent": "Comprimi immagini online",
+    "h1": "Comprimi immagini online",
+    "subtitle": "Riduci le dimensioni del file immagine senza perdere la qualità",
+    "paragraph": "Comprimi le immagini JPG, PNG e WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Dimensioni più piccole, stessa ottima qualità",
+    "features": [
+      {
+        "title": "Compressione intelligente",
+        "body": "Compressione intelligente che mantiene le tue immagini nitide.",
+        "tone": "blu"
+      },
+      {
+        "title": "Fino all'80% più piccolo",
+        "body": "Riduci drasticamente le dimensioni del file per caricamenti e caricamenti delle pagine più rapidi.",
+        "tone": "verde"
+      },
+      {
+        "title": "Perfetto per il Web",
+        "body": "Ottimizza le immagini per siti Web, blog e pagine di prodotti.",
+        "tone": "viola"
+      },
+      {
+        "title": "Qualità di cui ti puoi fidare",
+        "body": "Anteprima prima del download, così la qualità rimane sotto il tuo controllo.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate in privato e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "La compressione supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/resize-image": {
+    "path": "/ridimensiona-immagine",
+    "features": [
+      {
+        "title": "Dimensioni esatte",
+        "body": "Inserisci la larghezza e l'altezza che corrispondono alle tue esigenze di layout.",
+        "tone": "blu"
+      },
+      {
+        "title": "Adatta all'interno",
+        "body": "Ridimensiona le immagini in una casella preservando le proporzioni.",
+        "tone": "verde"
+      },
+      {
+        "title": "Nessun lusso indesiderato",
+        "body": "I guardrail aiutano a evitare di allungare piccole fonti.",
+        "tone": "viola"
+      },
+      {
+        "title": "Pronto per il Web",
+        "body": "Prepara dimensioni coerenti per le pagine e le griglie dei prodotti.",
+        "tone": "arancia"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Ridimensionare"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Posso mantenere le proporzioni?",
+        "a": "SÌ. Utilizza dimensioni adattate o collegate in modo che le immagini si ridimensionino in modo pulito senza distorsioni."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Il ridimensionamento ingrandirà la mia immagine?",
+        "a": "Per impostazione predefinita, i flussi di lavoro evitano l'ingrandimento indesiderato. Scegli le dimensioni adatte alla tua fonte."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Inizia a ridimensionare come ospite. I file temporanei scadono entro un'ora."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti vengono eliminati automaticamente entro un'ora."
+      }
+    ],
+    "metaTitle": "Ridimensiona le immagini online: modifica le dimensioni per Web e social",
+    "metaDescription": "Ridimensiona le immagini JPG, PNG e WebP online in base alla larghezza, all'altezza o all'interno. Strumento per ospiti privati ​​senza account richiesto.",
+    "breadcrumbCurrent": "Ridimensionare le immagini in linea",
+    "h1": "Ridimensionare le immagini in linea",
+    "subtitle": "Modifica le dimensioni per web, social e layout",
+    "paragraph": "Ridimensiona le immagini JPG, PNG e WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Controllo preciso, risultati puliti",
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per il ridimensionamento e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/crop-image": {
+    "path": "/ritaglia-immagine",
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Raccolto"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Posso ritagliare in un quadrato?",
+        "a": "SÌ. Scegli un rapporto 1:1 o disegna un ritaglio gratuito che soddisfi le tue esigenze."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "L'originale è sovrascritto?",
+        "a": "No. L'elaborazione crea un nuovo risultato ritagliato."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Crop as a guest. I file vengono eliminati automaticamente entro un'ora."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "metaTitle": "Ritaglia immagini online: ritaglio gratuito e con rapporto fisso",
+    "metaDescription": "Ritaglia le immagini JPG, PNG e WebP online con controlli gratuiti o con rapporto fisso. Elaborazione ospite privato, nessun account richiesto.",
+    "breadcrumbCurrent": "Ritaglia immagini online",
+    "h1": "Ritaglia immagini online",
+    "subtitle": "Mantieni solo la parte dell'immagine che conta",
+    "paragraph": "Ritaglia le immagini JPG, PNG e WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Ritaglia con sicurezza",
+    "features": [
+      {
+        "title": "Ritaglio gratuito",
+        "body": "Seleziona un'area qualsiasi dell'immagine e mantieni esattamente quella regione.",
+        "tone": "blu"
+      },
+      {
+        "title": "Rapporti fissi",
+        "body": "Utilizza proporzioni comuni per layout coerenti.",
+        "tone": "verde"
+      },
+      {
+        "title": "Orientamento sicuro",
+        "body": "La matematica del ritaglio rispetta le dimensioni orientate dopo il caricamento.",
+        "tone": "viola"
+      },
+      {
+        "title": "Stesso formato uscito",
+        "body": "Scarica un risultato ritagliato nel formato sorgente, se supportato.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per il ritaglio e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/convert-image": {
+    "path": "/convertire-immagine",
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Convertire"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quali conversioni sono supportate?",
+        "a": "La conversione ospite principale copre JPG, PNG e WebP. AVIF viene offerto quando il runtime può codificarlo e verificarlo."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Verrà mantenuta la trasparenza?",
+        "a": "Durante la conversione in formati che supportano l'alfa, la trasparenza può essere preservata in base alle opzioni dello strumento."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Converti come ospite. I file temporanei scadono entro un'ora."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti vengono eliminati automaticamente entro un'ora."
+      }
+    ],
+    "metaTitle": "Converti immagini online — JPG, PNG, WebP e AVIF",
+    "metaDescription": "Converti online tra i formati JPG, PNG, WebP e i formati AVIF supportati. Conversione di ospiti privati ​​con output verificati.",
+    "breadcrumbCurrent": "Converti immagini online",
+    "h1": "Converti immagini online",
+    "subtitle": "Cambia formato per il Web senza software desktop",
+    "paragraph": "Converti immagini JPG, PNG e WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Le modifiche al formato sono diventate semplici",
+    "features": [
+      {
+        "title": "Formati popolari",
+        "body": "Spostati tra JPG, PNG e WebP con opzioni chiare.",
+        "tone": "blu"
+      },
+      {
+        "title": "Consapevole della trasparenza",
+        "body": "PNG e WebP alfa vengono gestiti attentamente dalla policy.",
+        "tone": "verde"
+      },
+      {
+        "title": "AVIF Quando pronto",
+        "body": "Codifica in AVIF solo quando il server può verificarlo.",
+        "tone": "viola"
+      },
+      {
+        "title": "Risultati onesti",
+        "body": "Conoscere il tipo e la dimensione MIME risultanti prima del download.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per la conversione e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Ruotare"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quali angoli sono supportati?",
+        "a": "La rotazione dell'ospite supporta 90°, 180° e 270° oltre a ribaltamenti opzionali."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Ruota come ospite. I file scadono entro un'ora."
+      },
+      {
+        "q": "Viene applicato l'orientamento EXIF?",
+        "a": "Le origini vengono normalizzate per l'orientamento prima della trasformazione in modo che i risultati corrispondano a quanto previsto."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "path": "/ruota-immagine",
+    "metaTitle": "Ruota immagine online: capovolgi JPG, PNG e WebP",
+    "metaDescription": "Ruota le immagini di 90°, 180° o 270° e capovolgi orizzontalmente o verticalmente. Strumento ospite gratuito con archiviazione temporanea privata.",
+    "breadcrumbCurrent": "Ruota le immagini online",
+    "h1": "Ruota le immagini online",
+    "subtitle": "Ruota o capovolgi le immagini per il layout e il design",
+    "paragraph": "Ruota o capovolgi le immagini JPG, PNG e WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Correzioni rapide di orientamento",
+    "features": [
+      {
+        "title": "Gradini di 90°",
+        "body": "Ruota di 90°, 180° o 270° in una sola passata.",
+        "tone": "blu"
+      },
+      {
+        "title": "Inverti i controlli",
+        "body": "Specchia orizzontalmente o verticalmente quando necessario.",
+        "tone": "verde"
+      },
+      {
+        "title": "Stesso formato",
+        "body": "L'output rimane nel formato caricato.",
+        "tone": "viola"
+      },
+      {
+        "title": "Lavori per ospiti privati",
+        "body": "Elaborazione di breve durata con pulizia automatica.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per la rotazione e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Filigrana"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Posso caricare una filigrana del logo?",
+        "a": "Questo strumento ospite stampa il testo. Per il momento utilizza un breve testo del brand."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Filigrana come ospite. I file scadono entro un'ora."
+      },
+      {
+        "q": "La filigrana coprirà il mio argomento?",
+        "a": "Scegli le posizioni degli angoli e abbassa l'opacità per mantenere visibili i soggetti."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "path": "/immagine-filigrana",
+    "metaTitle": "Filigrana immagini online: aggiungi filigrane di testo",
+    "metaDescription": "Timbra filigrane di testo breve su JPG, PNG e WebP con controlli di posizione e opacità. Strumento per gli ospiti privati.",
+    "breadcrumbCurrent": "Filigrana immagini online",
+    "h1": "Filigrana immagini online",
+    "subtitle": "Timbra un breve testo senza coprire l'intera immagine",
+    "paragraph": "Aggiungi una filigrana di testo alle immagini JPG, PNG o WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Proteggi le immagini con il branding leggero",
+    "features": [
+      {
+        "title": "Timbri con testo breve",
+        "body": "Aggiungi una filigrana concisa che rimanga leggibile.",
+        "tone": "blu"
+      },
+      {
+        "title": "Controllo della posizione",
+        "body": "Posiziona le filigrane negli angoli o al centro.",
+        "tone": "verde"
+      },
+      {
+        "title": "Dispositivo di scorrimento dell'opacità",
+        "body": "Bilancia la visibilità con il contenuto dell'immagine.",
+        "tone": "viola"
+      },
+      {
+        "title": "Stesso formato uscito",
+        "body": "Scarica un file con filigrana nel formato sorgente.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per la filigrana e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Sfocatura"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Rileva automaticamente i volti?",
+        "a": "No. La regione viene selezionata manualmente come percentuale dell'immagine."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Blur come ospite. I file scadono entro un'ora."
+      },
+      {
+        "q": "Posso sfocare più regioni?",
+        "a": "Questo strumento ospite applica una regione per corsa. Riesegui per sfocare un'altra area."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "path": "/regione-sfocatura",
+    "metaTitle": "Sfoca regione immagine online: nascondi volti e dettagli",
+    "metaDescription": "Sfoca manualmente una regione di immagini JPG, PNG o WebP per nascondere volti, piatti o altri dettagli. Strumento per gli ospiti privati.",
+    "breadcrumbCurrent": "Regione sfocata online",
+    "h1": "Regione sfocata online",
+    "subtitle": "Nascondi i dettagli sensibili con una casella di sfocatura manuale",
+    "paragraph": "Sfoca una regione selezionata sulle immagini JPG, PNG o WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Sfoca ciò che necessita di privacy",
+    "features": [
+      {
+        "title": "Regione manuale",
+        "body": "Scegli esattamente dove viene applicata la sfocatura.",
+        "tone": "blu"
+      },
+      {
+        "title": "Livelli di forza",
+        "body": "Sfocatura leggera, media o forte per esigenze diverse.",
+        "tone": "verde"
+      },
+      {
+        "title": "Rispettoso della privacy",
+        "body": "Nascondi i dettagli prima di pubblicare o spedire risorse.",
+        "tone": "viola"
+      },
+      {
+        "title": "Cassaforte per gli ospiti",
+        "body": "Elaborazione temporanea privata con cancellazione automatica.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per la sfocatura della regione e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Didascalia"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ho bisogno del testo sia in alto che in basso?",
+        "a": "No. Fornisci almeno una riga di didascalia."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Genera come ospite. I file scadono entro un'ora."
+      },
+      {
+        "q": "Posso cambiare il carattere?",
+        "a": "I meme degli ospiti utilizzano uno stack classico in stile Impact per la leggibilità."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "path": "/meme-generatore",
+    "metaTitle": "Generatore di meme online: aggiungi didascalie superiori e inferiori",
+    "metaDescription": "Aggiungi le classiche didascalie meme in alto e in basso alle immagini JPG, PNG o WebP. Generatore di meme per gli ospiti gratuito.",
+    "breadcrumbCurrent": "Generatore di meme online",
+    "h1": "Generatore di meme online",
+    "subtitle": "Aggiungi sottotitoli classici in pochi secondi",
+    "paragraph": "Aggiungi didascalie superiori e inferiori alle immagini JPG, PNG o WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Didascalie che si leggono come meme classici",
+    "features": [
+      {
+        "title": "Testo superiore e inferiore",
+        "body": "Utilizza una delle linee o entrambe per i layout classici.",
+        "tone": "blu"
+      },
+      {
+        "title": "Avvolgimento automatico",
+        "body": "Le didascalie lunghe si avvolgono in righe brevi e leggibili.",
+        "tone": "verde"
+      },
+      {
+        "title": "Tipo a contrasto elevato",
+        "body": "Riempimento bianco con tratto scuro per chiarezza.",
+        "tone": "viola"
+      },
+      {
+        "title": "Strumento ospite istantaneo",
+        "body": "Crea e scarica senza accedere.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per le didascalie dei meme e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/geotag-image": {
+    "path": "/immagine-geotag",
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Geotag"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quali formati supportano il geotagging?",
+        "a": "Il geotag ospite si concentra sulle immagini JPEG compatibili."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano la compatibilità JPEG entro il limite di 10 MB."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Geotag come ospite. I file scadono entro un'ora."
+      },
+      {
+        "q": "Le coordinate sono verificate?",
+        "a": "Le scritture seguono le regole di convalida in modo che i valori siano ben formati prima dell'incorporamento."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "metaTitle": "Geotag immagini online: aggiungi GPS a JPEG",
+    "metaDescription": "Leggi o scrivi coordinate GPS verificate su immagini JPEG compatibili. Strumento di geotag per gli ospiti privati.",
+    "breadcrumbCurrent": "Geotag immagini online",
+    "h1": "Geotag immagini online",
+    "subtitle": "Aggiungi o esamina i dati sulla posizione JPEG GPS",
+    "paragraph": "Aggiungi o controlla le coordinate GPS su immagini JPEG compatibili. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Dati sulla posizione che puoi verificare",
+    "features": [
+      {
+        "title": "JPEG Concentrato",
+        "body": "I flussi di lavoro geotag hanno come target origini JPEG compatibili.",
+        "tone": "blu"
+      },
+      {
+        "title": "Ispezionare prima",
+        "body": "Verifica se è già presente GPS leggibile.",
+        "tone": "verde"
+      },
+      {
+        "title": "Scrivi le coordinate",
+        "body": "Incorpora latitudine e longitudine quando è consentita la sostituzione.",
+        "tone": "viola"
+      },
+      {
+        "title": "Privacy degli ospiti",
+        "body": "Elaborazione temporanea con pulizia automatica.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per il geotagging e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/image-metadata": {
+    "path": "/metadati-immagine",
+    "breadcrumbCurrent": "Visualizzatore metadati immagine",
+    "h1": "Visualizzatore metadati immagine",
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Ispezionare"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Mostri tutti i tag EXIF?",
+        "a": "No. Il visualizzatore mostra i campi consentiti per motivi di sicurezza e chiarezza."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "No. Ispeziona come ospite. I file scadono entro un'ora."
+      },
+      {
+        "q": "Posso modificare i metadati qui?",
+        "a": "Utilizza l'editor di metadati immagine SEO per creare ed esportare campi SEO."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "metaTitle": "Visualizzatore metadati immagine online: esamina EXIF in modo sicuro",
+    "metaDescription": "Esamina dimensioni, informazioni sul colore e metadati consentiti sicuri per JPG, PNG e WebP. Visualizzatore ospite privato.",
+    "subtitle": "Controlla le proprietà sicure dell'immagine prima di pubblicarla",
+    "paragraph": "Ispeziona le proprietà JPG, PNG e WebP in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Scopri ciò che conta, in tutta sicurezza",
+    "features": [
+      {
+        "title": "Proprietà principali",
+        "body": "Dimensioni, tipologia e dettagli pratici del file.",
+        "tone": "blu"
+      },
+      {
+        "title": "Campi consentiti",
+        "body": "Vengono mostrate solo superfici di metadati sicure e curate.",
+        "tone": "verde"
+      },
+      {
+        "title": "Web amichevole",
+        "body": "Controlli utili prima del caricamento CMS o della revisione SEO.",
+        "tone": "viola"
+      },
+      {
+        "title": "Privacy degli ospiti",
+        "body": "Lavori di ispezione temporanea con eliminazione automatica.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per l'ispezione dei metadati e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/image-metadata-editor": {
+    "path": "/editor-metadati-immagine",
+    "breadcrumbCurrent": "Immagine SEO Editor di metadati",
+    "h1": "Immagine SEO Editor di metadati",
+    "howSteps": [
+      {
+        "title": "Carica la tua immagine"
+      },
+      {
+        "title": "Modificare"
+      },
+      {
+        "title": "Anteprima del risultato"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Questo riscrive EXIF all'interno di ogni formato?",
+        "a": "L'editor si concentra sulla preparazione dei campi SEO e sulle esportazioni."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "I caricamenti degli ospiti supportano JPG, PNG e WebP fino a 10 MB."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "La modifica ospite è disponibile con limiti. I file scadono entro un'ora."
+      },
+      {
+        "q": "Cosa posso esportare?",
+        "a": "Utilizza esportazioni sidecar per CMS e flussi di lavoro dei contenuti."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "metaTitle": "Immagine SEO Editor di metadati online",
+    "metaDescription": "Scrivi, rivedi ed esporta campi immagine SEO per siti Web e flussi di lavoro CMS. Editor di metadati per gli ospiti privati.",
+    "subtitle": "Prepara i campi dell'immagine SEO prima della pubblicazione",
+    "paragraph": "Bozza di campi immagine SEO ed esporta sidecar in pochi secondi. Strumento online gratuito: non è richiesto alcun account.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Controllo editoriale per l'immagine SEO",
+    "features": [
+      {
+        "title": "Campi modificabili",
+        "body": "Aggiorna il testo SEO che spedisci effettivamente.",
+        "tone": "blu"
+      },
+      {
+        "title": "Facile da esportare",
+        "body": "Scarica sidecar per CMS e flussi di lavoro dei contenuti.",
+        "tone": "verde"
+      },
+      {
+        "title": "CMS Pronto",
+        "body": "Preparare titoli, descrizioni e parole chiave prima della pubblicazione.",
+        "tone": "viola"
+      },
+      {
+        "title": "Sessioni degli ospiti",
+        "body": "Bozze temporanee con pulizia automatica.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per la modifica dei metadati e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  },
+  "/bulk-image-tools": {
+    "path": "/strumenti-immagine-bulk",
+    "breadcrumbCurrent": "Strumenti per immagini in blocco",
+    "h1": "Strumenti per immagini in blocco",
+    "howSteps": [
+      {
+        "title": "Carica un batch"
+      },
+      {
+        "title": "Scegli Operazione"
+      },
+      {
+        "title": "Elaborare file"
+      },
+      {
+        "title": "Scaricamento"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quanti file posso caricare?",
+        "a": "I processi in blocco guest impongono un numero massimo di file e una dimensione batch totale."
+      },
+      {
+        "q": "Esiste un limite alla dimensione del file?",
+        "a": "Ogni file segue la dimensione massima del guest e il batch ha un limite totale di byte."
+      },
+      {
+        "q": "Ho bisogno di un account?",
+        "a": "Gli ospiti possono eseguire lavori in blocco limitati. I file scadono entro un'ora."
+      },
+      {
+        "q": "Cosa succede se un file fallisce?",
+        "a": "Gli output riusciti rimangono scaricabili; gli elementi non riusciti mostrano uno stato di errore."
+      },
+      {
+        "q": "Le mie immagini vengono archiviate in modo permanente?",
+        "a": "No. I caricamenti e i risultati degli ospiti scadono entro un'ora."
+      }
+    ],
+    "metaTitle": "Strumenti online per immagini in blocco: comprimi, ridimensiona, converti",
+    "metaDescription": "Comprimi, ridimensiona o converti diverse immagini e scarica insieme i risultati positivi. Si applicano limiti di massa per gli ospiti.",
+    "subtitle": "Elabora un batch breve senza ripetere ogni passaggio",
+    "paragraph": "Comprimi, ridimensiona o converti più file JPG, PNG o WebP in un unico batch. Si applicano limiti per gli ospiti gratuiti.",
+    "trust": [
+      "Nessun account richiesto",
+      "Elaborazione privata e sicura",
+      "Eliminazione automatica entro 1 ora"
+    ],
+    "workspaceNote": "Formati supportati: JPG, PNG, WebP • Dimensione massima del file: 10 MB. I tuoi file sono privati ​​e vengono eliminati automaticamente entro un'ora.",
+    "featuresHeading": "Velocità batch con limiti chiari",
+    "features": [
+      {
+        "title": "Impostazioni condivise",
+        "body": "Applica una scelta di compressione, ridimensionamento o conversione nel batch.",
+        "tone": "blu"
+      },
+      {
+        "title": "Stato per file",
+        "body": "Scopri quali immagini hanno avuto successo e quali richiedono attenzione.",
+        "tone": "verde"
+      },
+      {
+        "title": "ZIP Scarica",
+        "body": "Raccogli gli output riusciti quando il batch è pronto.",
+        "tone": "viola"
+      },
+      {
+        "title": "Cappellini per gli ospiti",
+        "body": "Le dimensioni del batch e i byte totali seguono la politica degli ospiti gratuiti.",
+        "tone": "arancia"
+      }
+    ],
+    "howHeading": "Come funziona",
+    "benefitCards": [
+      {
+        "title": "La tua privacy è importante",
+        "body": "Le tue immagini vengono elaborate privatamente per l'elaborazione in blocco e cancellate automaticamente entro un'ora.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Veloce ed efficiente",
+        "body": "L'elaborazione guest supportata dal cloud fornisce risultati in pochi secondi senza installare software.",
+        "kind": "velocità"
+      }
+    ],
+    "faqHeading": "Domande frequenti"
+  }
+}

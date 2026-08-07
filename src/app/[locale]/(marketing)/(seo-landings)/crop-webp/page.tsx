@@ -1,30 +1,28 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {notFound} from "next/navigation";
-import {CropWebpLandingView} from "@/components/marketing/crop-webp-landing-view";
-import {getCropWebpCopy} from "@/lib/marketing/crop-webp-landing-content";
-import {getToolLanding} from "@/lib/marketing/tool-landing-registry";
+import {SeoFormatToolLanding} from "@/components/marketing/seo-tool-landing";
+import {getSeoToolLandingCopy} from "@/lib/marketing/seo-tool-landing-copy";
 import type {AppLocale} from "@/i18n/routing";
 import {buildPublicMetadata} from "@/server/marketing/seo";
 
 type PageProps = {params: Promise<{locale: string}>};
+const PATH = "/crop-webp";
+const SLUG = "crop-webp";
 
 export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   const {locale} = await params;
-  const copy = getCropWebpCopy(locale);
+  const copy = getSeoToolLandingCopy(PATH, locale);
   return buildPublicMetadata({
     locale: locale as AppLocale,
-    path: "/crop-webp",
+    path: PATH,
     title: copy.metaTitle,
     description: copy.metaDescription,
     index: true,
   });
 }
 
-export default async function CropWebpLandingPage({params}: PageProps) {
+export default async function Page({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  const landing = getToolLanding("crop-webp");
-  if (!landing || landing.redirectTo) notFound();
-  return <CropWebpLandingView landing={landing} locale={locale} />;
+  return <SeoFormatToolLanding slug={SLUG} locale={locale} />;
 }

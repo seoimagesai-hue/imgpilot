@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Image Converter master hub — pillar page for "image converter" keywords.
  * Distinct from single-pair convert landings and Bulk Convert.
@@ -102,7 +103,7 @@ export type ConvertImageCopy = {
 };
 
 const en: ConvertImageCopy = {
-  metaTitle: "Image Converter Online Free | SEO Images",
+  metaTitle: "Image Converter Online Free | Img Pilot",
   metaDescription:
     "Convert JPG, PNG and WebP images online using a secure browser-based image converter. Fast, free and easy image format conversion.",
   h1: "Convert Images Online",
@@ -199,11 +200,11 @@ const en: ConvertImageCopy = {
       "Editing and design introduce different needs. Designers routinely export transparent PNG marks from Figma or similar tools. Photographers deliver JPG galleries because the format is universal. Product teams may switch libraries into WebP for production while keeping PNG masters for editing. A browser converter lets you move between those stages without installing a desktop suite on every machine involved in the process.",
       "Sharing and collaboration reward formats people can open without a lecture. A client who cannot preview WebP still needs a JPG. A developer implementing a dark-mode logo still needs alpha. Screenshots with UI text often stay sharper on PNG, while lifestyle photography belongs on JPG or WebP. Converting the file at hand is frequently clearer than asking every stakeholder to install converters of their own.",
       "Modern formats such as WebP sit beside older ones rather than erasing them. Many teams run a mixed library for years: JPG for archival photos, PNG for brand kits and WebP for public pages. That mix only works if conversion stays predictable — same dimensions, transparent handling you can explain, and temporary private storage so campaign assets are not left behind in a public folder.",
-      "Photography, illustrations and screenshots each benefit from a deliberate choice. Photos tolerate lossy compression when skin tones and skies still look natural. Flat illustrations and icons often need clean edges that survive better in PNG or WebP with alpha. Screenshots sit in between — sometimes photographic UI, sometimes crisp type — so teams convert after they know whether the destination is a blog, a ticket tracker or a design critique. SEO Images keeps that decision in the browser: upload once, choose the output format and download a new file while the original stays untouched on your device.",
+      "Photography, illustrations and screenshots each benefit from a deliberate choice. Photos tolerate lossy compression when skin tones and skies still look natural. Flat illustrations and icons often need clean edges that survive better in PNG or WebP with alpha. Screenshots sit in between — sometimes photographic UI, sometimes crisp type — so teams convert after they know whether the destination is a blog, a ticket tracker or a design critique. Img Pilot keeps that decision in the browser: upload once, choose the output format and download a new file while the original stays untouched on your device.",
     ],
   },
   why: {
-    eyebrow: "WHY USE SEO IMAGES",
+    eyebrow: "WHY USE IMG PILOT",
     title: "A Converter Built Like a Modern SaaS Tool",
     cards: [
       {
@@ -406,7 +407,7 @@ const en: ConvertImageCopy = {
       a: "Choosing a more efficient format often reduces bytes, which helps pages load faster. Pair conversion with Resize Images or Compress Images when dimensions or quality settings still need tuning.",
     },
     {
-      q: "Which formats does the SEO Images converter support?",
+      q: "Which formats does the Img Pilot converter support?",
       a: "Guest convert accepts JPG, PNG and WebP still images and can target those containers according to the convert matrix. Dedicated pair landings cover the most common paths.",
     },
     {
@@ -456,7 +457,7 @@ const en: ConvertImageCopy = {
 };
 
 const ur: ConvertImageCopy = {
-  metaTitle: "آن لائن امیج کنورٹر مفت | SEO Images",
+  metaTitle: "آن لائن امیج کنورٹر مفت | Img Pilot",
   metaDescription:
     "محفوظ براؤزر پر مبنی امیج کنورٹر سے JPG، PNG اور WebP امیجز آن لائن کنورٹ کریں۔ تیز، مفت اور آسان فارمیٹ کنورژن۔",
   h1: "آن لائن امیجز کنورٹ کریں",
@@ -553,11 +554,11 @@ const ur: ConvertImageCopy = {
       "ایڈیٹنگ اور ڈیزائن مختلف ضروریات لاتے ہیں۔ ڈیزائنرز Figma یا اس جیسے ٹولز سے شفاف PNG marks برآمد کرتے ہیں۔ فوٹوگرافرز JPG galleries دیتے ہیں کیونکہ فارمیٹ عالمی ہے۔ پروڈکٹ ٹیمیں production کے لیے WebP لائبریریز میں بدل سکتی ہیں جبکہ editing کے لیے PNG masters رکھتی ہیں۔ براؤزر کنورٹر ہر مشین پر ڈیسک ٹاپ suite انسٹال کیے بغیر ان مراحل کے درمیان منتقل ہونے دیتا ہے۔",
       "شیئرنگ اور collaboration ایسے فارمیٹس کا انعام دیتے ہیں جو بغیر طویل وضاحت کھل جائیں۔ WebP preview نہ کر سکنے والے کلائنٹ کو JPG چاہیے۔ dark-mode logo implement کرنے والے developer کو alpha چاہیے۔ UI text والے اسکرین شاٹس اکثر PNG پر تیز رہتے ہیں، جبکہ lifestyle photography JPG یا WebP کی ہے۔ ہاتھ میں موجود فائل کنورٹ کرنا اکثر واضح ہوتا ہے کہ ہر stakeholder سے اپنے converter انسٹال کروانا۔",
       "WebP جیسے جدید فارمیٹس پرانے فارمیٹس کے ساتھ رہتے ہیں، انہیں مٹاتے نہیں۔ بہت سی ٹیمیں سالوں مخلوط لائبریری چلاتی ہیں: archival فوٹوز JPG، brand kits PNG، public pages WebP۔ یہ mix تب کام کرتا ہے جب کنورژن predictable رہے — یکساں ابعاد، واضح transparent handling، اور عارضی نجی storage تاکہ مہم اثاثے public folder میں نہ رہ جائیں۔",
-      "فوٹوگرافی، علامتی تصاویر اور اسکرین شاٹس ہر ایک deliberate انتخاب سے فائدہ اٹھاتے ہیں۔ فوٹوز lossy compression برداشت کر سکتے ہیں جب skin tones اور skies قدرتی لگیں۔ ہموار علامتی تصاویر اور icons اکثر PNG یا alpha والی WebP میں تیز کنارے رکھتے ہیں۔ اسکرین شاٹس درمیان میں ہیں — کبھی photographic UI، کبھی crisp type — اس لیے ٹیمیں convert کرتی ہیں جب منزل blog، ticket tracker یا design critique معلوم ہو۔ SEO Images یہ فیصلہ براؤزر میں رکھتا ہے: ایک بار اپ لوڈ، آؤٹ پٹ فارمیٹ چنیں، اور نئی فائل ڈاؤن لوڈ کریں جبکہ اصل آپ کے ڈیوائس پر جوں کی توں رہے۔",
+      "فوٹوگرافی، علامتی تصاویر اور اسکرین شاٹس ہر ایک deliberate انتخاب سے فائدہ اٹھاتے ہیں۔ فوٹوز lossy compression برداشت کر سکتے ہیں جب skin tones اور skies قدرتی لگیں۔ ہموار علامتی تصاویر اور icons اکثر PNG یا alpha والی WebP میں تیز کنارے رکھتے ہیں۔ اسکرین شاٹس درمیان میں ہیں — کبھی photographic UI، کبھی crisp type — اس لیے ٹیمیں convert کرتی ہیں جب منزل blog، ticket tracker یا design critique معلوم ہو۔ Img Pilot یہ فیصلہ براؤزر میں رکھتا ہے: ایک بار اپ لوڈ، آؤٹ پٹ فارمیٹ چنیں، اور نئی فائل ڈاؤن لوڈ کریں جبکہ اصل آپ کے ڈیوائس پر جوں کی توں رہے۔",
     ],
   },
   why: {
-    eyebrow: "SEO IMAGES کیوں استعمال کریں",
+    eyebrow: "IMG PILOT کیوں استعمال کریں",
     title: "جدید SaaS ٹول کی طرح بنایا گیا کنورٹر",
     cards: [
       {
@@ -760,7 +761,7 @@ const ur: ConvertImageCopy = {
       a: "زیادہ efficient فارمیٹ چننا اکثر bytes کم کرتا ہے، جس سے صفحے تیز لوڈ ہوتے ہیں۔ dimensions یا quality settings اب بھی tune درکار ہوں تو Resize Images یا Compress Images کے ساتھ جوڑیں۔",
     },
     {
-      q: "SEO Images converter کون سے فارمیٹس سپورٹ کرتا ہے؟",
+      q: "Img Pilot converter کون سے فارمیٹس سپورٹ کرتا ہے؟",
       a: "مہمان convert JPG، PNG اور WebP still images قبول کرتا ہے اور convert matrix کے مطابق ان containers کو target کر سکتا ہے۔ dedicated pair landings common paths cover کرتے ہیں۔",
     },
     {
@@ -810,7 +811,7 @@ const ur: ConvertImageCopy = {
 };
 
 export function getConvertImageCopy(locale: string): ConvertImageCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export type ConvertImageLocale = AppLocale;

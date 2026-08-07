@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/kompres-gambar",
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Kompres"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bagaimana cara kerja kompresi gambar?",
+        "a": "Alat ini mengkodekan ulang gambar Anda dengan pengaturan yang mengurangi ukuran file sekaligus menjaga hasilnya dapat digunakan secara visual. Pilih preset yang lebih ringan atau lebih kuat sebelum Anda memproses."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB. Alur kerja yang lebih besar mungkin memerlukan akun."
+      },
+      {
+        "q": "Apakah kompresi akan menurunkan kualitas gambar?",
+        "a": "Preset yang lebih kuat dapat memperhalus detail halus. Gunakan Kualitas Maksimum atau Seimbang ketika tampilan paling penting, dan selalu pratinjau sebelum mengunduh."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Kompresi tamu berfungsi tanpa login. File tetap bersifat pribadi dan kedaluwarsa dalam satu jam."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload dan hasil tamu bersifat sementara dan otomatis dihapus dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Kompres Gambar Secara Online — Kurangi Ukuran JPG, PNG & WebP",
+    "metaDescription": "Kompres gambar secara online tanpa kehilangan kualitas. Kurangi ukuran file JPG, PNG dan WebP dengan pemrosesan tamu pribadi dan penghapusan otomatis dalam satu jam.",
+    "breadcrumbCurrent": "Kompres Gambar Secara Online",
+    "h1": "Kompres Gambar Secara Online",
+    "subtitle": "Kurangi ukuran file gambar tanpa kehilangan kualitas",
+    "paragraph": "Kompres gambar JPG, PNG dan WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Ukuran Lebih Kecil, Kualitas Hebat Sama",
+    "features": [
+      {
+        "title": "Kompresi Cerdas",
+        "body": "Kompresi cerdas yang membuat gambar Anda terlihat tajam.",
+        "tone": "biru"
+      },
+      {
+        "title": "Hingga 80% Lebih Kecil",
+        "body": "Mengurangi ukuran file secara drastis untuk unggahan dan pemuatan halaman yang lebih cepat.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Sempurna untuk Web",
+        "body": "Optimalkan gambar untuk situs web, blog, dan halaman produk.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Kualitas yang Dapat Anda Percayai",
+        "body": "Pratinjau sebelum mengunduh sehingga kualitas tetap di bawah kendali Anda.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Kompresi yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/resize-image": {
+    "path": "/ubah ukuran-gambar",
+    "features": [
+      {
+        "title": "Dimensi Tepat",
+        "body": "Masukkan lebar dan tinggi yang sesuai dengan kebutuhan tata letak Anda.",
+        "tone": "biru"
+      },
+      {
+        "title": "Cocok Di Dalam",
+        "body": "Skalakan gambar ke dalam kotak sambil mempertahankan rasio aspek.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Tidak Ada Kelas Atas yang Tidak Diinginkan",
+        "body": "Pagar pembatas membantu menghindari peregangan sumber-sumber kecil.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Siap Web",
+        "body": "Siapkan ukuran yang konsisten untuk halaman dan kisi produk.",
+        "tone": "oranye"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Ubah ukuran"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bisakah saya mempertahankan rasio aspek?",
+        "a": "Ya. Gunakan dimensi yang pas di dalam atau terhubung sehingga gambar dapat diskalakan dengan rapi tanpa distorsi."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah mengubah ukuran akan memperbesar gambar saya?",
+        "a": "Secara default, alur kerja menghindari pembesaran yang tidak diinginkan. Pilih dimensi yang sesuai dengan sumber Anda."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Mulai mengubah ukuran sebagai tamu. File sementara akan kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan dihapus secara otomatis dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Ubah Ukuran Gambar Online — Ubah Dimensi untuk Web & Sosial",
+    "metaDescription": "Ubah ukuran gambar JPG, PNG dan WebP secara online berdasarkan lebar, tinggi, atau pas di dalam. Alat tamu pribadi tanpa memerlukan akun.",
+    "breadcrumbCurrent": "Ubah Ukuran Gambar Secara Online",
+    "h1": "Ubah Ukuran Gambar Secara Online",
+    "subtitle": "Ubah dimensi untuk web, sosial, dan tata letak",
+    "paragraph": "Ubah ukuran gambar JPG, PNG dan WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Kontrol Tepat, Hasil Bersih",
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk diubah ukurannya dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/crop-image": {
+    "path": "/ potong-gambar",
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Tanaman"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bisakah saya memotong menjadi persegi?",
+        "a": "Ya. Pilih rasio 1:1 atau gambar tanaman gratis yang sesuai dengan kebutuhan Anda."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah yang asli ditimpa?",
+        "a": "Tidak. Pemrosesan akan menghasilkan hasil pemotongan baru."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Pangkas sebagai tamu. File dihapus secara otomatis dalam waktu satu jam."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Pangkas Gambar Secara Online — Pangkas Rasio Gratis & Tetap",
+    "metaDescription": "Pangkas gambar JPG, PNG dan WebP secara online dengan kontrol rasio gratis atau tetap. Pemrosesan tamu pribadi, tidak diperlukan akun.",
+    "breadcrumbCurrent": "Pangkas Gambar Secara Online",
+    "h1": "Pangkas Gambar Secara Online",
+    "subtitle": "Simpan hanya bagian gambar yang penting saja",
+    "paragraph": "Pangkas gambar JPG, PNG dan WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Pangkas Dengan Percaya Diri",
+    "features": [
+      {
+        "title": "Pangkas Gratis",
+        "body": "Pilih area mana pun pada gambar dan pertahankan wilayah tersebut.",
+        "tone": "biru"
+      },
+      {
+        "title": "Rasio Tetap",
+        "body": "Gunakan rasio aspek umum untuk tata letak yang konsisten.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Orientasi Aman",
+        "body": "Pangkas matematika dengan memperhatikan dimensi berorientasi setelah diunggah.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Format Keluar yang Sama",
+        "body": "Unduh hasil pemotongan dalam format sumber Anda jika didukung.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk dipotong dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/convert-image": {
+    "path": "/convert-image",
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Mengubah"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Konversi mana yang didukung?",
+        "a": "Konversi tamu inti mencakup JPG, PNG dan WebP. AVIF ditawarkan ketika runtime dapat menyandikan dan memverifikasinya."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah transparansi akan tetap terjaga?",
+        "a": "Saat mengonversi ke format yang mendukung alfa, transparansi dapat dipertahankan sesuai dengan opsi alat."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Berkonversi sebagai tamu. File sementara akan kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan dihapus secara otomatis dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Konversi Gambar Online — JPG, PNG, WebP & AVIF",
+    "metaDescription": "Konversi antara format JPG, PNG, WebP dan AVIF yang didukung secara online. Konversi tamu pribadi dengan keluaran terverifikasi.",
+    "breadcrumbCurrent": "Konversi Gambar Secara Online",
+    "h1": "Konversi Gambar Secara Online",
+    "subtitle": "Beralih format untuk web tanpa perangkat lunak desktop",
+    "paragraph": "Konversi gambar JPG, PNG dan WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Perubahan Format Menjadi Sederhana",
+    "features": [
+      {
+        "title": "Format Populer",
+        "body": "Berpindah antara JPG, PNG dan WebP dengan opsi yang jelas.",
+        "tone": "biru"
+      },
+      {
+        "title": "Sadar Transparansi",
+        "body": "PNG dan WebP alpha ditangani dengan hati-hati oleh kebijakan.",
+        "tone": "hijau"
+      },
+      {
+        "title": "AVIF Saat Siap",
+        "body": "Enkode ke AVIF hanya jika server dapat memverifikasinya.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Keluaran Jujur",
+        "body": "Ketahui jenis dan ukuran MIME yang dihasilkan sebelum mengunduh.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk konversi dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Memutar"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Sudut manakah yang didukung?",
+        "a": "Rotasi tamu mendukung 90°, 180°, dan 270° ditambah pembalikan opsional."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Putar sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Apakah orientasi EXIF diterapkan?",
+        "a": "Sumber dinormalisasi orientasinya sebelum transformasi sehingga hasilnya sesuai dengan yang Anda harapkan."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "path": "/putar-gambar",
+    "metaTitle": "Putar Gambar Online — Balik JPG, PNG dan WebP",
+    "metaDescription": "Putar gambar sebesar 90°, 180°, atau 270° dan balik secara horizontal atau vertikal. Alat tamu gratis dengan penyimpanan sementara pribadi.",
+    "breadcrumbCurrent": "Putar Gambar Secara Online",
+    "h1": "Putar Gambar Secara Online",
+    "subtitle": "Putar atau balikkan gambar untuk tata letak dan desain",
+    "paragraph": "Putar atau balik gambar JPG, PNG dan WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Perbaikan Orientasi Cepat",
+    "features": [
+      {
+        "title": "Langkah 90°",
+        "body": "Putar 90°, 180°, atau 270° dalam satu gerakan.",
+        "tone": "biru"
+      },
+      {
+        "title": "Kontrol Balik",
+        "body": "Cermin secara horizontal atau vertikal bila diperlukan.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Formatnya Sama",
+        "body": "Output tetap dalam format yang Anda unggah.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Pekerjaan Tamu Pribadi",
+        "body": "Pemrosesan berumur pendek dengan pembersihan otomatis.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk diputar dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Tanda air"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bisakah saya mengunggah tanda air logo?",
+        "a": "Alat tamu ini memberi cap pada teks. Gunakan teks merek singkat untuk saat ini."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Tanda air sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Akankah tanda air menutupi subjek saya?",
+        "a": "Pilih posisi sudut dan turunkan opasitas agar subjek tetap terlihat."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "path": "/tanda air-gambar",
+    "metaTitle": "Gambar Tanda Air Online — Tambahkan Tanda Air Teks",
+    "metaDescription": "Stempel tanda air teks pendek pada JPG, PNG dan WebP dengan kontrol posisi dan opacity. Alat tamu pribadi.",
+    "breadcrumbCurrent": "Gambar Tanda Air Daring",
+    "h1": "Gambar Tanda Air Daring",
+    "subtitle": "Stempel teks pendek tanpa menutupi keseluruhan gambar",
+    "paragraph": "Tambahkan tanda air teks ke gambar JPG, PNG atau WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Lindungi Visual Dengan Branding Ringan",
+    "features": [
+      {
+        "title": "Stempel Teks Pendek",
+        "body": "Tambahkan tanda air ringkas yang tetap dapat dibaca.",
+        "tone": "biru"
+      },
+      {
+        "title": "Kontrol Posisi",
+        "body": "Tempatkan tanda air di sudut atau tengah.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Penggeser Opasitas",
+        "body": "Seimbangkan visibilitas dengan konten gambar.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Format Keluar yang Sama",
+        "body": "Unduh file yang diberi watermark dalam format sumber Anda.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk diberi tanda air dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Mengaburkan"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Apakah ini mendeteksi wajah secara otomatis?",
+        "a": "Tidak. Anda memilih wilayah secara manual sebagai persentase gambar."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Blur sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Bisakah saya memburamkan beberapa wilayah?",
+        "a": "Alat tamu ini menerapkan satu wilayah per proses. Jalankan kembali untuk mengaburkan area lain."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "path": "/blur-wilayah",
+    "metaTitle": "Buramkan Wilayah Gambar Online — Sembunyikan Wajah & Detail",
+    "metaDescription": "Memburamkan area gambar JPG, PNG, atau WebP secara manual untuk menyembunyikan wajah, pelat, atau detail lainnya. Alat tamu pribadi.",
+    "breadcrumbCurrent": "Buramkan Wilayah Online",
+    "h1": "Buramkan Wilayah Online",
+    "subtitle": "Sembunyikan detail sensitif dengan kotak blur manual",
+    "paragraph": "Mengaburkan wilayah yang dipilih pada gambar JPG, PNG atau WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Mengaburkan Apa yang Membutuhkan Privasi",
+    "features": [
+      {
+        "title": "Wilayah Manual",
+        "body": "Anda memilih dengan tepat di mana blur diterapkan.",
+        "tone": "biru"
+      },
+      {
+        "title": "Tingkat Kekuatan",
+        "body": "Blur ringan, sedang, atau kuat untuk kebutuhan berbeda.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Ramah Privasi",
+        "body": "Sembunyikan detail sebelum memposting atau mengirimkan aset.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Aman untuk Tamu",
+        "body": "Pemrosesan sementara pribadi dengan penghapusan otomatis.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk keburaman wilayah dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Keterangan"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Apakah saya memerlukan teks atas dan bawah?",
+        "a": "Tidak. Sediakan setidaknya satu baris keterangan."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Hasilkan sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Bisakah saya mengubah fontnya?",
+        "a": "Meme tamu menggunakan tumpukan gaya Impact klasik agar mudah dibaca."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "path": "/pembuat meme",
+    "metaTitle": "Meme Generator Online — Tambahkan Teks Atas & Bawah",
+    "metaDescription": "Tambahkan keterangan meme klasik atas dan bawah ke gambar JPG, PNG, atau WebP. Generator meme tamu gratis.",
+    "breadcrumbCurrent": "Pembuat Meme Daring",
+    "h1": "Pembuat Meme Daring",
+    "subtitle": "Tambahkan teks klasik dalam hitungan detik",
+    "paragraph": "Tambahkan keterangan atas dan bawah ke gambar JPG, PNG atau WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Teks yang Dibaca Seperti Meme Klasik",
+    "features": [
+      {
+        "title": "Teks Atas & Bawah",
+        "body": "Gunakan salah satu garis atau keduanya untuk tata letak klasik.",
+        "tone": "biru"
+      },
+      {
+        "title": "Pembungkus Otomatis",
+        "body": "Teks panjang dibungkus menjadi baris pendek yang mudah dibaca.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Tipe Kontras Tinggi",
+        "body": "Isi putih dengan guratan gelap untuk kejelasan.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Alat Tamu Instan",
+        "body": "Buat dan unduh tanpa masuk.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk teks meme dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/geotag-image": {
+    "path": "/geotag-gambar",
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "tag geografis"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Format apa yang mendukung penandaan geografis?",
+        "a": "Geotag tamu berfokus pada gambar JPEG yang kompatibel."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPEG yang kompatibel dalam batas 10 MB."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Geotag sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Apakah koordinatnya diverifikasi?",
+        "a": "Penulisan mengikuti aturan validasi sehingga nilai terbentuk dengan baik sebelum disematkan."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Memberi Geotag pada Gambar Online — Tambahkan GPS ke JPEG",
+    "metaDescription": "Membaca atau menulis koordinat GPS terverifikasi pada gambar JPEG yang kompatibel. Alat geotag tamu pribadi.",
+    "breadcrumbCurrent": "Memberi Geotag pada Gambar Daring",
+    "h1": "Memberi Geotag pada Gambar Daring",
+    "subtitle": "Tambahkan atau periksa data lokasi JPEG GPS",
+    "paragraph": "Tambahkan atau periksa koordinat GPS pada gambar JPEG yang kompatibel. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Data Lokasi yang Dapat Anda Verifikasi",
+    "features": [
+      {
+        "title": "JPEG Fokus",
+        "body": "Alur kerja geotag menargetkan sumber JPEG yang kompatibel.",
+        "tone": "biru"
+      },
+      {
+        "title": "Periksa Dulu",
+        "body": "Lihat apakah GPS yang dapat dibaca sudah ada.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Tulis Koordinat",
+        "body": "Menanam garis lintang dan bujur saat penggantian diperbolehkan.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Privasi Tamu",
+        "body": "Pemrosesan sementara dengan pembersihan otomatis.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk diberi geotagging dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/image-metadata": {
+    "path": "/gambar-metadata",
+    "breadcrumbCurrent": "Penampil Metadata Gambar",
+    "h1": "Penampil Metadata Gambar",
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Memeriksa"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Apakah Anda menampilkan semua tag EXIF?",
+        "a": "Tidak. Penampil menampilkan kolom yang diizinkan demi keamanan dan kejelasan."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Tidak. Periksa sebagai tamu. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Bisakah saya mengedit metadata di sini?",
+        "a": "Gunakan Editor Metadata Gambar SEO untuk membuat draf dan mengekspor bidang SEO."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Penampil Metadata Gambar Online — Periksa EXIF dengan Aman",
+    "metaDescription": "Periksa dimensi, info warna, dan metadata aman yang diizinkan untuk JPG, PNG, dan WebP. Penampil tamu pribadi.",
+    "subtitle": "Periksa properti gambar yang aman sebelum Anda mempublikasikannya",
+    "paragraph": "Periksa properti JPG, PNG dan WebP dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Lihat Yang Penting dengan Aman",
+    "features": [
+      {
+        "title": "Properti Inti",
+        "body": "Dimensi, jenis dan detail file praktis.",
+        "tone": "biru"
+      },
+      {
+        "title": "Bidang yang Diizinkan",
+        "body": "Hanya permukaan metadata yang aman dan terkurasi yang ditampilkan.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Ramah Web",
+        "body": "Pemeriksaan yang berguna sebelum CMS diunggah atau SEO ditinjau.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Privasi Tamu",
+        "body": "Pemeriksaan sementara pekerjaan dengan penghapusan otomatis.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk pemeriksaan metadata dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/image-metadata-editor": {
+    "path": "/gambar-metadata-editor",
+    "breadcrumbCurrent": "Gambar SEO Editor Metadata",
+    "h1": "Gambar SEO Editor Metadata",
+    "howSteps": [
+      {
+        "title": "Unggah Gambar Anda"
+      },
+      {
+        "title": "Sunting"
+      },
+      {
+        "title": "Hasil Pratinjau"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Apakah ini menulis ulang EXIF di dalam setiap format?",
+        "a": "Editor fokus pada persiapan ladang SEO dan ekspor."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Unggahan tamu mendukung JPG, PNG dan WebP hingga 10 MB."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Pengeditan tamu tersedia dengan batasan. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Apa yang bisa saya ekspor?",
+        "a": "Gunakan ekspor ramah sespan untuk CMS dan alur kerja konten."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Gambar SEO Editor Metadata Daring",
+    "metaDescription": "Tulis, tinjau, dan ekspor bidang gambar SEO untuk situs web dan alur kerja CMS. Editor metadata tamu pribadi.",
+    "subtitle": "Siapkan kolom gambar SEO sebelum dipublikasikan",
+    "paragraph": "Draf bidang gambar SEO dan ekspor sidecar dalam hitungan detik. Alat online gratis — tidak perlu akun.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Kontrol Editorial untuk Gambar SEO",
+    "features": [
+      {
+        "title": "Bidang yang Dapat Diedit",
+        "body": "Perbarui teks SEO yang sebenarnya Anda kirimkan.",
+        "tone": "biru"
+      },
+      {
+        "title": "Ramah Ekspor",
+        "body": "Unduh sidecar untuk CMS dan alur kerja konten.",
+        "tone": "hijau"
+      },
+      {
+        "title": "CMS Siap",
+        "body": "Siapkan judul, deskripsi dan kata kunci sebelum dipublikasikan.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Sesi Tamu",
+        "body": "Draf sementara dengan pembersihan otomatis.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk pengeditan metadata dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  },
+  "/bulk-image-tools": {
+    "path": "/bulk-image-tools",
+    "breadcrumbCurrent": "Alat Gambar Massal",
+    "h1": "Alat Gambar Massal",
+    "howSteps": [
+      {
+        "title": "Unggah Batch"
+      },
+      {
+        "title": "Pilih Operasi"
+      },
+      {
+        "title": "File Proses"
+      },
+      {
+        "title": "Unduh"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Berapa banyak file yang dapat saya unggah?",
+        "a": "Pekerjaan massal tamu menerapkan jumlah file maksimum dan ukuran batch total."
+      },
+      {
+        "q": "Apakah ada batasan ukuran file?",
+        "a": "Setiap file mengikuti ukuran maksimal tamu, dan batch memiliki batas byte total."
+      },
+      {
+        "q": "Apakah saya memerlukan akun?",
+        "a": "Para tamu dapat menjalankan pekerjaan massal yang terbatas. File kedaluwarsa dalam waktu satu jam."
+      },
+      {
+        "q": "Bagaimana jika satu file gagal?",
+        "a": "Hasil yang berhasil tetap dapat diunduh; item yang gagal menunjukkan status kesalahan."
+      },
+      {
+        "q": "Apakah gambar saya disimpan secara permanen?",
+        "a": "Tidak. Upload tamu dan hasilnya akan habis masa berlakunya dalam waktu satu jam."
+      }
+    ],
+    "metaTitle": "Alat Gambar Massal Online — Kompres, Ubah Ukuran, Konversi",
+    "metaDescription": "Kompres, ubah ukuran, atau konversi beberapa gambar dan unduh hasil yang sukses secara bersamaan. Batas jumlah tamu berlaku.",
+    "subtitle": "Proses dalam batch singkat tanpa mengulangi setiap langkah",
+    "paragraph": "Kompres, ubah ukuran, atau konversi beberapa file JPG, PNG atau WebP dalam satu batch. Batasan tamu gratis berlaku.",
+    "trust": [
+      "Tidak diperlukan akun",
+      "Pemrosesan pribadi & aman",
+      "Hapus otomatis dalam 1 jam"
+    ],
+    "workspaceNote": "Format yang didukung: JPG, PNG, WebP • Ukuran file maksimum: 10 MB. File Anda bersifat pribadi dan otomatis dihapus dalam waktu satu jam.",
+    "featuresHeading": "Kecepatan Batch Dengan Batas Yang Jelas",
+    "features": [
+      {
+        "title": "Pengaturan Bersama",
+        "body": "Terapkan satu kompres, ubah ukuran, atau ubah pilihan di seluruh batch.",
+        "tone": "biru"
+      },
+      {
+        "title": "Status per file",
+        "body": "Lihat gambar mana yang berhasil dan mana yang perlu diperhatikan.",
+        "tone": "hijau"
+      },
+      {
+        "title": "ZIP Unduh",
+        "body": "Kumpulkan keluaran yang berhasil saat batch sudah siap.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Topi Tamu",
+        "body": "Ukuran batch dan total byte mengikuti kebijakan tamu gratis.",
+        "tone": "oranye"
+      }
+    ],
+    "howHeading": "Cara Kerjanya",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Gambar Anda diproses secara pribadi untuk pemrosesan massal dan dihapus secara otomatis dalam waktu satu jam.",
+        "kind": "pribadi"
+      },
+      {
+        "title": "Cepat & Efisien",
+        "body": "Pemrosesan tamu yang didukung cloud memberikan hasil dalam hitungan detik tanpa menginstal perangkat lunak.",
+        "kind": "kecepatan"
+      }
+    ],
+    "faqHeading": "Pertanyaan yang Sering Diajukan"
+  }
+}

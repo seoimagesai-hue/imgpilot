@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/nén-hình ảnh",
+      "title": "Nén hình ảnh",
+      "body": "Giảm kích thước tệp JPG, PNG và WebP trong khi vẫn giữ được kết quả rõ ràng và có thể sử dụng được.",
+      "icon": "nén"
+    },
+    {
+      "href": "/thay đổi kích thước hình ảnh",
+      "title": "Thay đổi kích thước hình ảnh",
+      "body": "Thay đổi kích thước hình ảnh theo cài đặt chiều rộng, chiều cao hoặc kích thước vừa vặn mà không bị phóng to không mong muốn.",
+      "icon": "thay đổi kích thước"
+    },
+    {
+      "title": "Cắt ảnh",
+      "href": "/crop-image",
+      "body": "Chọn khu vực chính xác mà bạn muốn giữ bằng các điều khiển cắt theo tỷ lệ cố định và miễn phí.",
+      "icon": "mùa vụ"
+    },
+    {
+      "title": "Chuyển đổi hình ảnh",
+      "href": "/chuyển đổi hình ảnh",
+      "body": "Chuyển đổi giữa JPG, PNG, WebP và các định dạng AVIF được hỗ trợ với xác minh đầu ra an toàn.",
+      "icon": "chuyển thành"
+    },
+    {
+      "title": "Gắn thẻ địa lý cho hình ảnh",
+      "href": "/thẻ địa lý-hình ảnh",
+      "body": "Thêm tọa độ GPS đã được xác minh vào hình ảnh JPEG tương thích mà không thay đổi ảnh gốc.",
+      "icon": "gắn thẻ địa lý"
+    },
+    {
+      "title": "Trình xem siêu dữ liệu hình ảnh",
+      "href": "/ siêu dữ liệu hình ảnh",
+      "body": "Kiểm tra kích thước, thông tin màu sắc và siêu dữ liệu hình ảnh an toàn được liệt kê cho phép.",
+      "icon": "siêu dữ liệu"
+    },
+    {
+      "title": "Trình chỉnh sửa siêu dữ liệu hình ảnh SEO",
+      "href": "/hình ảnh-siêu dữ liệu-biên tập",
+      "body": "Viết, đánh giá và xuất các trường hình ảnh SEO cho trang web hoặc hệ thống quản lý nội dung của bạn.",
+      "icon": "biên tập viên"
+    },
+    {
+      "title": "Công cụ hình ảnh hàng loạt",
+      "href": "/công cụ hình ảnh số lượng lớn",
+      "body": "Nén, thay đổi kích thước hoặc chuyển đổi một số hình ảnh và tải xuống các kết quả thành công cùng nhau.",
+      "icon": "số lượng lớn"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Nén JPG",
+      "badge": "JPG",
+      "href": "/nén-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/nén-png",
+      "label": "Nén PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/nén-webp",
+      "label": "Nén WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/thay đổi kích thước-jpg",
+      "label": "Thay đổi kích thước JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/thay đổi kích thước-png",
+      "label": "Thay đổi kích thước PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/thay đổi kích thước-webp",
+      "label": "Thay đổi kích thước WebP"
+    },
+    {
+      "href": "/jpg-đến-png",
+      "label": "JPG đến PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-đến-webp",
+      "label": "JPG đến WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-đến-jpg",
+      "label": "PNG đến JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-đến-webp",
+      "label": "PNG đến WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-đến-jpg",
+      "label": "WebP đến JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-đến-png",
+      "label": "WebP đến PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Một định dạng thực tế cho ảnh, nội dung web và các tệp hình ảnh bị mất nhỏ hơn.",
+      "href": "/nén-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Một định dạng lossless thường được sử dụng cho đồ họa và hình ảnh yêu cầu độ trong suốt.",
+      "href": "/nén-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Một định dạng web hiện đại có thể cung cấp khả năng nén hiệu quả với độ trong suốt tùy chọn.",
+      "href": "/nén-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Có sẵn cho các quy trình chuyển đổi được hỗ trợ khi thời gian chạy của máy chủ có thể mã hóa và xác minh nó.",
+      "href": "/jpg-đến-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Nén, thay đổi kích thước, chuyển đổi và tối ưu hóa hình ảnh trực tuyến",
+  "metaDescription": "Nén, thay đổi kích thước, cắt, chuyển đổi và tối ưu hóa hình ảnh JPG, PNG và WebP trực tuyến. Sử dụng các công cụ dành cho khách riêng tư mà không cần tài khoản, tự động xóa trong vòng một giờ.",
+  "heroBadge": "Công cụ hình ảnh trực tuyến miễn phí giúp trang web nhanh hơn, sạch hơn",
+  "h1": "Tối ưu hóa mọi hình ảnh trong một không gian làm việc đơn giản",
+  "heroParagraph": "Nén, thay đổi kích thước, cắt, chuyển đổi và tối ưu hóa hình ảnh của bạn mà không cần cài đặt phần mềm. Bắt đầu miễn phí mà không cần có tài khoản, giữ toàn quyền kiểm soát các tệp của bạn và tải xuống các kết quả rõ ràng, đã được xác minh chỉ sau vài cú nhấp chuột.",
+  "uploadHeading": "Thả một hình ảnh ở đây để bắt đầu",
+  "uploadSupport": "Tải lên hình ảnh JPG, PNG hoặc WebP hoặc dán hình ảnh trực tiếp từ khay nhớ tạm của bạn.",
+  "chooseImage": "Chọn một hình ảnh",
+  "pasteHint": "Bạn cũng có thể dán hình ảnh bằng Ctrl + V hoặc ⌘ + V",
+  "formatLimitLine": "JPG, PNG và WebP • Lên đến {maxFileSize} • Không cần tài khoản",
+  "privacyLine": "Các tệp khách của bạn được giữ ở chế độ riêng tư và tự động bị xóa trong vòng một giờ.",
+  "defaultActionLabel": "Bắt đầu với nén hình ảnh",
+  "trust": [
+    {
+      "title": "Không cần tài khoản",
+      "body": "Sử dụng các công cụ hình ảnh cần thiết ngay lập tức với tư cách là khách."
+    },
+    {
+      "title": "Xử lý riêng tư",
+      "body": "Các tập tin vẫn được lưu trữ tạm thời được bảo vệ."
+    },
+    {
+      "title": "Tự động xóa",
+      "body": "Các tập tin khách sẽ hết hạn trong vòng một giờ."
+    },
+    {
+      "title": "Kết quả đã được xác minh",
+      "body": "Đầu ra được máy chủ kiểm tra trước khi tải xuống."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Hơn 10 triệu hình ảnh được xử lý",
+      "body": "Quy trình công việc đáng tin cậy để tối ưu hóa hàng ngày."
+    },
+    {
+      "title": "100% riêng tư và an toàn",
+      "body": "Lưu trữ tạm thời với quyền truy cập ngắn hạn."
+    },
+    {
+      "title": "Xóa tự động trong 1 giờ",
+      "body": "Tệp khách hết hạn theo lịch trình cố định."
+    },
+    {
+      "title": "Không có hình mờ tải xuống sạch",
+      "body": "Tải xuống kết quả đã được xác minh mà không có nhãn hiệu."
+    }
+  ],
+  "toolsEyebrow": "Mọi thứ bạn cần",
+  "toolsHeading": "Công cụ hình ảnh mạnh mẽ, sẵn sàng khi bạn cần",
+  "toolsDescription": "Xử lý các tác vụ hình ảnh hàng ngày từ một không gian làm việc sạch sẽ. Mỗi công cụ được thiết kế đơn giản cho người mới bắt đầu trong khi vẫn cung cấp cho các chuyên gia những điều khiển mà họ cần.",
+  "openTool": "Mở công cụ",
+  "exploreAllTools": "Khám phá tất cả các công cụ",
+  "formatEyebrow": "Nhiệm vụ hình ảnh phổ biến",
+  "formatHeading": "Đi thẳng đến định dạng bạn cần",
+  "formatDescription": "Chọn một công cụ chuyên dụng cho định dạng hoặc chuyển đổi hình ảnh của bạn. Cài đặt nguồn và đầu ra ưa thích của bạn sẽ được chọn.",
+  "platformEyebrow": "Một không gian làm việc hình ảnh riêng tư",
+  "platformHeading": "Từ Tải lên đến Tải xuống mà không có sự phức tạp thông thường",
+  "platformP1": "Img Pilot mang quy trình hình ảnh hữu ích nhất vào một trải nghiệm nhất quán. Bạn không cần phải học một giao diện khác nhau cho mỗi tác vụ. Tải hình ảnh của bạn lên, chọn cài đặt quan trọng, xử lý nó một cách an toàn và tải xuống kết quả đã được xác minh.",
+  "platformP2": "Quy trình làm việc tương tự hỗ trợ các tác vụ một hình ảnh nhanh chóng, các trang đích có định dạng cụ thể và các thao tác hàng loạt được chọn. Công cụ khách không yêu cầu tài khoản, trong khi người dùng đã đăng nhập có thể truy cập các dự án và tính năng không gian làm việc dài hạn hơn.",
+  "platformFeatures": [
+    "Một không gian làm việc công cụ nhất quán",
+    "Xóa thông tin trước sau",
+    "Nơi lưu trữ khách tạm thời riêng tư",
+    "Quy trình làm việc hàng loạt riêng lẻ và được chọn",
+    "Giao diện tiếng Anh và tiếng Urdu",
+    "Đầu ra được xác minh bởi máy chủ"
+  ],
+  "whyEyebrow": "Được xây dựng xung quanh sự rõ ràng và kiểm soát",
+  "whyHeading": "Công cụ hình ảnh tôn trọng thời gian và tập tin của bạn",
+  "whyIntro": "Mọi quy trình làm việc đều được thiết kế để loại bỏ các bước không cần thiết trong khi vẫn hiển thị các điều khiển quan trọng. Bạn luôn biết điều gì sẽ xảy ra với hình ảnh của mình, kết quả chứa đựng những gì và khi nào các tệp tạm thời sẽ bị xóa.",
+  "benefits": [
+    {
+      "title": "Bắt đầu ngay lập tức",
+      "body": "Sử dụng các công cụ khách cốt lõi mà không cần đăng ký, cài đặt phần mềm hoặc quá trình thiết lập dự án."
+    },
+    {
+      "title": "Giữ bản gốc an toàn",
+      "body": "Quá trình xử lý sẽ tạo ra kết quả mới trong khi bản gốc được tải lên vẫn không thay đổi."
+    },
+    {
+      "title": "Biết những gì đã thay đổi",
+      "body": "So sánh kích thước, định dạng và kích thước tệp trước khi tải xuống kết quả cuối cùng."
+    },
+    {
+      "title": "Làm việc trên nhiều định dạng",
+      "body": "Sử dụng quy trình công việc dành riêng cho JPG, PNG và WebP với khả năng xử lý trung thực theo định dạng cụ thể."
+    },
+    {
+      "title": "Bảo vệ tập tin tạm thời",
+      "body": "Hình ảnh của khách và kết quả được tạo sẽ tự động bị xóa trong cửa sổ lưu giữ."
+    },
+    {
+      "title": "Chuẩn bị hình ảnh để tìm kiếm",
+      "body": "Xem lại siêu dữ liệu, cải thiện tên tệp và sắp xếp văn bản thay thế cho trang web và mục đích sử dụng CMS."
+    }
+  ],
+  "howEyebrow": "Đơn giản từ đầu đến cuối",
+  "howHeading": "Hoàn thành nhiệm vụ hình ảnh của bạn trong bốn bước rõ ràng",
+  "steps": [
+    {
+      "title": "Tải hình ảnh của bạn lên",
+      "body": "Chọn một hình ảnh được hỗ trợ, kéo nó vào không gian làm việc hoặc dán nó từ khay nhớ tạm của bạn."
+    },
+    {
+      "title": "Chọn cài đặt của bạn",
+      "body": "Chọn các tùy chọn định dạng, kích thước, chất lượng, vùng cắt hoặc siêu dữ liệu cần thiết cho tác vụ của bạn."
+    },
+    {
+      "title": "Xử lý an toàn",
+      "body": "Máy chủ thực hiện và xác minh hoạt động đồng thời hiển thị tiến trình và trạng thái lỗi rõ ràng."
+    },
+    {
+      "title": "Tải xuống kết quả",
+      "body": "Xem lại chi tiết cuối cùng, tải xuống tệp của bạn và xử lý hình ảnh khác bất cứ khi nào cần."
+    }
+  ],
+  "beforeEyebrow": "Xem sự khác biệt",
+  "beforeHeading": "Xem sự khác biệt trước khi bạn tải xuống",
+  "beforeParagraph": "Tóm tắt kết quả rõ ràng giúp bạn hiểu những gì đã thay đổi. So sánh hình ảnh gốc với phiên bản đã xử lý, xem lại kích thước hoặc kích thước tệp và chỉ tải xuống khi đầu ra phù hợp với nhu cầu của bạn.",
+  "beforeBullets": [
+    "Bản gốc vẫn an toàn trong khi kết quả mới được tạo",
+    "Đầu ra đã được xác minh với các chi tiết về kích thước và kích thước trung thực"
+  ],
+  "beforeCaption": "Minh họa sản phẩm - chỉ là ví dụ. Mức tiết kiệm thực tế khác nhau tùy theo hình ảnh.",
+  "useEyebrow": "Được thiết kế cho công việc thực tế",
+  "useHeading": "Chuẩn bị hình ảnh cho trang web, nội dung và chia sẻ hàng ngày",
+  "useCases": [
+    {
+      "title": "Trang web",
+      "body": "Giảm trọng lượng hình ảnh không cần thiết và chuẩn bị kích thước nhất quán cho các trang nhanh hơn, sạch hơn."
+    },
+    {
+      "title": "Cửa hàng trực tuyến",
+      "body": "Sắp xếp các định dạng hình ảnh, tên tệp, kích thước và siêu dữ liệu của sản phẩm trước khi xuất bản."
+    },
+    {
+      "title": "Nội dung xã hội",
+      "body": "Thay đổi kích thước và cắt hình ảnh thành tỷ lệ khung hình thực tế cho bài đăng, hình thu nhỏ và chiến dịch."
+    },
+    {
+      "title": "Blog và nhà xuất bản",
+      "body": "Tạo hình ảnh bài viết nhẹ hơn và chuẩn bị văn bản hình ảnh mô tả, dễ tiếp cận."
+    },
+    {
+      "title": "Email và tài liệu",
+      "body": "Giảm các tệp lớn để hình ảnh dễ đính kèm, chia sẻ và đưa vào bài thuyết trình hơn."
+    },
+    {
+      "title": "Địa phương SEO",
+      "body": "Kiểm tra siêu dữ liệu, thêm tọa độ JPEG đã được xác minh và sắp xếp thông tin hình ảnh SEO cho quy trình làm việc nội dung cục bộ."
+    }
+  ],
+  "seoEyebrow": "Hơn cả chỉnh sửa cơ bản",
+  "seoHeading": "Biến hình ảnh thông thường thành tài sản trang web tốt hơn",
+  "seoP1": "Tối ưu hóa hình ảnh không chỉ là giảm kích thước tệp. Tên tệp rõ ràng, văn bản thay thế chính xác, kích thước phù hợp và siêu dữ liệu hữu ích có thể giúp quản lý thư viện hình ảnh dễ dàng hơn và nội dung trang web dễ truy cập hơn.",
+  "seoP2": "Img Pilot bao gồm các công cụ để kiểm tra siêu dữ liệu, soạn thảo các trường hình ảnh SEO và xuất thông tin để sử dụng trong trang web hoặc CMS.",
+  "seoLinks": [
+    {
+      "href": "/ siêu dữ liệu hình ảnh",
+      "label": "Xem siêu dữ liệu hình ảnh"
+    },
+    {
+      "href": "/hình ảnh-siêu dữ liệu-biên tập",
+      "label": "Chỉnh sửa hình ảnh SEO Siêu dữ liệu"
+    },
+    {
+      "href": "/thẻ địa lý-hình ảnh",
+      "label": "Gắn thẻ địa lý cho JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO và các công cụ trợ năng cung cấp hỗ trợ và đề xuất. Họ không đảm bảo thứ hạng tìm kiếm hoặc tuân thủ tự động.",
+  "bulkEyebrow": "Làm việc với nhiều hình ảnh?",
+  "bulkHeading": "Xử lý một lô nhỏ mà không cần lặp lại từng bước",
+  "bulkParagraph": "Sử dụng Công cụ hình ảnh hàng loạt để nén, thay đổi kích thước hoặc chuyển đổi một số hình ảnh được hỗ trợ bằng một bộ tùy chọn được chia sẻ. Xem lại từng tệp riêng biệt, tải xuống từng kết quả riêng lẻ hoặc thu thập các kết quả đầu ra thành công trong kho lưu trữ ZIP.",
+  "bulkBullets": [
+    "Nén số lượng lớn",
+    "Thay đổi kích thước hàng loạt",
+    "Chuyển đổi hàng loạt",
+    "Trạng thái xử lý trên mỗi tệp",
+    "Tải xuống riêng lẻ",
+    "ZIP lưu trữ để có kết quả thành công"
+  ],
+  "bulkCta": "Mở công cụ hình ảnh hàng loạt",
+  "bulkNotice": "Áp dụng giới hạn số lượng khách. Quy trình công việc lớn hơn có thể yêu cầu một tài khoản.",
+  "privacyEyebrow": "Quyền riêng tư theo thiết kế",
+  "privacyHeading": "Tệp tạm thời nên ở tạm thời",
+  "privacyP1": "Nội dung tải lên của khách được lưu trữ riêng tư trong khi công cụ bạn đã chọn đang hoạt động. Hình ảnh, kết quả đầu ra được tạo và dữ liệu kết quả tạm thời của bạn sẽ hết hạn trong vòng một giờ. Việc tải xuống, làm mới hoặc xử lý lại không kéo dài thời hạn đó.",
+  "privacyP2": "Phiên khách không tạo thư viện hình ảnh cố định. Chỉ đăng nhập khi bạn cần các dự án hoặc tính năng tài khoản dài hạn.",
+  "privacyFacts": [
+    "Lưu trữ đối tượng tạm thời riêng tư",
+    "Xem trước và tải xuống trong thời gian ngắn",
+    "Không có URL hình ảnh công khai của khách",
+    "Tự động dọn dẹp",
+    "Không có lịch sử khách thường trực",
+    "File gốc không thay đổi trong quá trình xử lý"
+  ],
+  "privacyCta": "Đọc Chính sách quyền riêng tư của chúng tôi",
+  "formatsHeading": "Làm việc với các định dạng hình ảnh bạn sử dụng nhiều nhất",
+  "formatsParagraph": "Các công cụ khách cốt lõi hỗ trợ hình ảnh JPG, PNG và WebP. Các định dạng đầu ra và tính năng siêu dữ liệu có sẵn tùy thuộc vào thao tác đã chọn và khả năng của từng định dạng hình ảnh.",
+  "faqHeading": "Câu hỏi thường gặp",
+  "faqs": [
+    {
+      "q": "Tôi có cần tài khoản để sử dụng Img Pilot không?",
+      "a": "Không. Bạn có thể sử dụng các công cụ khách cốt lõi mà không cần tạo tài khoản. Áp dụng giới hạn khách và các tính năng tài khoản khả dụng khi bạn cần các dự án đã lưu hoặc giới hạn quy trình làm việc cao hơn."
+    },
+    {
+      "q": "Hình ảnh của khách được lưu trữ trong bao lâu?",
+      "a": "Hình ảnh của khách và kết quả tạm thời hết hạn trong vòng một giờ. Việc tải xuống, làm mới hoặc xử lý lại không kéo dài thời hạn đó."
+    },
+    {
+      "q": "Việc xử lý có ghi đè lên hình ảnh gốc của tôi không?",
+      "a": "Không. Việc xử lý sẽ tạo ra một kết quả riêng biệt. Bản gốc đã tải lên không thay đổi trong phiên khách đang hoạt động."
+    },
+    {
+      "q": "Những định dạng hình ảnh nào được hỗ trợ?",
+      "a": "Hỗ trợ các công cụ cốt lõi JPG, PNG và WebP. Một số quy trình chuyển đổi cũng có thể hỗ trợ AVIF khi máy chủ có thể mã hóa và xác minh kết quả."
+    },
+    {
+      "q": "Tôi có thể xử lý nhiều hình ảnh cùng nhau không?",
+      "a": "Đúng. Công cụ hình ảnh hàng loạt hỗ trợ các quy trình nén, thay đổi kích thước và chuyển đổi đã chọn. Áp dụng giới hạn đợt khách."
+    },
+    {
+      "q": "Việc nén hình ảnh có luôn làm cho nó nhỏ hơn không?",
+      "a": "Không phải lúc nào cũng vậy. Kích thước cuối cùng phụ thuộc vào hình ảnh gốc, định dạng của nó và cài đặt đã chọn. Img Pilot báo cáo kết quả thực tế một cách trung thực, kể cả khi đầu ra lớn hơn."
+    },
+    {
+      "q": "Văn bản thay thế có được nhúng bên trong hình ảnh không?",
+      "a": "Văn bản thay thế thường được thêm vào trang web hoặc bản ghi CMS thay vì được nhúng phổ biến vào tệp hình ảnh. Trình chỉnh sửa siêu dữ liệu giúp bạn chuẩn bị và xuất siêu dữ liệu để sử dụng trên trang web của mình."
+    },
+    {
+      "q": "Tối ưu hóa hình ảnh có đảm bảo thứ hạng tìm kiếm tốt hơn không?",
+      "a": "Không. Tối ưu hóa hình ảnh có thể hỗ trợ hiệu suất, tổ chức và khả năng truy cập nhưng không có công cụ hình ảnh riêng lẻ nào có thể đảm bảo thứ hạng tìm kiếm."
+    }
+  ],
+  "finalHeading": "Hình ảnh tiếp theo của bạn đã sẵn sàng để được tối ưu hóa",
+  "finalParagraph": "Tải lên hình ảnh JPG, PNG hoặc WebP và hoàn thành nhiệm vụ của bạn mà không cần cài đặt phần mềm hoặc tạo tài khoản.",
+  "finalPrimary": "Chọn một hình ảnh",
+  "finalSecondary": "Khám phá tất cả công cụ",
+  "finalTrust": "Xử lý khách riêng · Xóa tự động trong một giờ · Không có hình mờ",
+  "footerBrand": "Các công cụ trực tuyến riêng tư để nén, thay đổi kích thước, chuyển đổi và chuẩn bị hình ảnh cho web.",
+  "footerRights": "© {year} Img Pilot. Mọi quyền được bảo lưu."
+}

@@ -9,7 +9,7 @@ import {
   RESIZE_JPG_META,
 } from "@/lib/marketing/resize-jpg-landing-content";
 import type {ToolLandingDefinition} from "@/lib/marketing/tool-landing-registry";
-import {getPublicAppOrigin} from "@/server/marketing/seo";
+import {absoluteUrl, getPublicAppOrigin} from "@/server/marketing/seo";
 
 function Eyebrow({children}: {children: string}) {
   return (
@@ -125,7 +125,7 @@ export function ResizeJpgLandingView({
   const copy = RESIZE_JPG_LANDING;
   const origin = getPublicAppOrigin();
   const path = "/resize-jpg";
-  const pageUrl = `${origin}/${locale}${path}`;
+  const pageUrl = absoluteUrl(locale, path);
 
   const crumbs = [
     {href: "/", label: "Home"},
@@ -159,7 +159,7 @@ export function ResizeJpgLandingView({
         "@type": "ListItem",
         position: index + 1,
         name: crumb.name,
-        item: `${origin}/${locale}${crumb.path === "/" ? "" : crumb.path}`,
+        item: absoluteUrl(locale, crumb.path),
       })),
     },
     {

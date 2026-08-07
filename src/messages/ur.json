@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": "SEO Images",
+    "brand": "Img Pilot",
     "comingSoon": "جلد آ رہا ہے",
     "openMenu": "نیویگیشن کھولیں",
     "closeMenu": "نیویگیشن بند کریں",
@@ -52,7 +52,7 @@
     "secureAreaHint": "محفوظ علاقہ — جاری رکھنے کے لیے سائن اِن کریں۔"
   },
   "dashboard": {
-    "welcome": "SEO Images میں خوش آمدید",
+    "welcome": "Img Pilot میں خوش آمدید",
     "subtitle": "ایک صاف ورک اسپیس سے ویب سائٹ کی تصاویر کو بلک میں تیار کریں۔",
     "newProject": "پروجیکٹ بنائیں",
     "emptyTitle": "ابھی کوئی پروجیکٹ نہیں",
@@ -748,7 +748,34 @@
   "language": {
     "label": "انٹرفیس کی زبان",
     "english": "انگریزی",
-    "urdu": "اردو"
+    "urdu": "اردو",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
   },
   "analytics": {
     "overviewTitle": "تجزیات",
@@ -976,7 +1003,7 @@
     "docsLink": "API دستاویزات پڑھیں",
     "keys": {
       "title": "API کیز",
-      "subtitle": "اس ورک اسپیس کی جانب سے SEO Images API کالز کے لیے محدود دائرہ کار والی کیز بنائیں۔",
+      "subtitle": "اس ورک اسپیس کی جانب سے Img Pilot API کالز کے لیے محدود دائرہ کار والی کیز بنائیں۔",
       "createTitle": "نئی API کی بنائیں",
       "name": "نام",
       "namePlaceholder": "مثلاً CI پائپ لائن",
@@ -1108,7 +1135,7 @@
   "wordpress": {
     "hub": {
       "title": "انٹیگریشنز",
-      "subtitle": "SEO Images کو بیرونی پبلشنگ منزلوں سے مربوط کریں۔",
+      "subtitle": "Img Pilot کو بیرونی پبلشنگ منزلوں سے مربوط کریں۔",
       "wordpressCard": "WordPress",
       "wordpressCardDescription": "بہتر بنائی گئی تصاویر کو منظور شدہ میٹا ڈیٹا کے ساتھ براہِ راست سیلف ہوسٹڈ WordPress میڈیا لائبریری میں شائع کریں۔",
       "manage": "WordPress کا نظم کریں",
@@ -1123,7 +1150,7 @@
       "manageCloudinary": "Cloudinary کا نظم کریں",
       "comingSoon": "جلد آ رہا ہے",
       "comingSoonNotice": "Webflow سپورٹ جلد آ رہی ہے۔",
-      "webflowScopeNote": "Webflow اشاعت صرف موجودہ CMS کلیکشن آئٹمز کو اپ ڈیٹ کرتی ہے۔ Webflow ڈیزائنر آٹومیشن (لے آؤٹ، اسٹائلنگ) اور آپ کی پوری Webflow سائٹ شائع کرنا دائرہ کار سے باہر ہیں اور SEO Images کبھی انہیں شروع نہیں کرتا۔",
+      "webflowScopeNote": "Webflow اشاعت صرف موجودہ CMS کلیکشن آئٹمز کو اپ ڈیٹ کرتی ہے۔ Webflow ڈیزائنر آٹومیشن (لے آؤٹ، اسٹائلنگ) اور آپ کی پوری Webflow سائٹ شائع کرنا دائرہ کار سے باہر ہیں اور Img Pilot کبھی انہیں شروع نہیں کرتا۔",
       "cloudinaryScopeNote": "R2 ہمیشہ آپ کی تصاویر کے لیے نجی حتمی ماخذ رہتا ہے۔ Cloudinary ایک اختیاری، اضافی اشاعتی منزل ہے — آپ کے منتخب کردہ ڈیلیوری قسم کے لحاظ سے، وہاں شائع کی گئی تصاویر عوامی طور پر قابلِ رسائی ہو سکتی ہیں، اور Cloudinary پر شائع شدہ کچھ بھی کنکشن منقطع کرنے یا آپ کا SaaS پروجیکٹ حذف کرنے سے کبھی ریموٹ طور پر حذف نہیں ہوتا۔"
     },
     "title": "WordPress کنکشنز",
@@ -1147,7 +1174,7 @@
     "siteUrlPlaceholder": "https://example.com",
     "siteUrlHint": "سائٹ کا پبلک HTTPS URL، مثلاً https://example.com۔ WordPress کا سیلف ہوسٹڈ اور قابلِ رسائی ہونا ضروری ہے۔",
     "username": "WordPress صارف نام",
-    "usernamePlaceholder": "مثلاً seoimages-publisher",
+    "usernamePlaceholder": "مثلاً img-pilot-publisher",
     "applicationPassword": "ایپلیکیشن پاس ورڈ",
     "applicationPasswordPlaceholder": "xxxx xxxx xxxx xxxx xxxx xxxx",
     "applicationPasswordHint": "WordPress میں Users → Profile → Application Passwords کے تحت ایک مخصوص ایپلیکیشن پاس ورڈ بنائیں۔ کبھی بھی اپنا مرکزی اکاؤنٹ پاس ورڈ استعمال نہ کریں۔",
@@ -1381,7 +1408,7 @@
       "search": "تلاش کریں",
       "searching": "تلاش ہو رہی ہے…",
       "productSearchEmpty": "کوئی مماثل پروڈکٹ نہیں ملی۔ اشاعت صرف ان پروڈکٹس کے ساتھ کام کرتی ہے جو Shopify میں پہلے سے موجود ہیں۔",
-      "productSearchHint": "کوئی موجودہ Shopify پروڈکٹ تلاش کریں اور منتخب کریں۔ SEO Images کبھی پروڈکٹس نہیں بناتا۔",
+      "productSearchHint": "کوئی موجودہ Shopify پروڈکٹ تلاش کریں اور منتخب کریں۔ Img Pilot کبھی پروڈکٹس نہیں بناتا۔",
       "productSearchChange": "پروڈکٹ تبدیل کریں",
       "productSelected": "منتخب پروڈکٹ",
       "noProductSelected": "ابھی تک کوئی پروڈکٹ منتخب نہیں کیا گیا۔",
@@ -1575,7 +1602,7 @@
       "search": "تلاش کریں",
       "searching": "تلاش ہو رہی ہے…",
       "empty": "کوئی مماثل CMS آئٹم نہیں ملا۔ اشاعت صرف ان آئٹمز کے ساتھ کام کرتی ہے جو اس Webflow کلیکشن میں پہلے سے موجود ہیں۔",
-      "hint": "میپ شدہ کلیکشن میں ایک موجودہ CMS آئٹم تلاش کریں اور منتخب کریں۔ آئٹمز کبھی SEO Images کے ذریعے نہیں بنائے جاتے۔",
+      "hint": "میپ شدہ کلیکشن میں ایک موجودہ CMS آئٹم تلاش کریں اور منتخب کریں۔ آئٹمز کبھی Img Pilot کے ذریعے نہیں بنائے جاتے۔",
       "change": "آئٹم تبدیل کریں",
       "selected": "منتخب آئٹم",
       "selectCollectionFirst": "اس کے CMS آئٹمز تلاش کرنے کے لیے اوپر ایک کلیکشن میپنگ منتخب کریں۔",
@@ -1875,7 +1902,7 @@
     "backToAutomation": "آٹومیشن پر واپس",
     "backToWorkflow": "ورک فلو پر واپس",
     "docsLink": "آٹومیشن دستاویزات پڑھیں",
-    "orchestrationNote": "ورک فلو صرف موجودہ SEO Images فیچرز کو منظم کرتے ہیں۔ R2 ہمیشہ اصل اور مشتق فائلوں کا نجی ماخذ رہتا ہے۔",
+    "orchestrationNote": "ورک فلو صرف موجودہ Img Pilot فیچرز کو منظم کرتے ہیں۔ R2 ہمیشہ اصل اور مشتق فائلوں کا نجی ماخذ رہتا ہے۔",
     "r2SourceOfTruthNote": "آٹومیشن R2 میں فائلیں کبھی حذف، منتقل یا تبدیل نہیں کرتی۔ پبلش اور ایکسپورٹ اختیاری بعد کے مراحل ہیں۔",
     "createTitle": "ورک فلو بنائیں",
     "editTitle": "ورک فلو میں ترمیم",
@@ -1990,22 +2017,22 @@
       "disabled": "غیر فعال"
     },
     "triggerValues": {
-      "image.uploaded": "تصویر اپ لوڈ",
-      "image.validated": "تصویر تصدیق شدہ",
-      "metadata.approved": "میٹا ڈیٹا منظور",
-      "processing.completed": "پروسیسنگ مکمل",
-      "bulk.processing.completed": "بلک پروسیسنگ مکمل",
-      "image.published": "تصویر شائع",
+      "image_uploaded": "تصویر اپ لوڈ",
+      "image_validated": "تصویر تصدیق شدہ",
+      "metadata_approved": "میٹا ڈیٹا منظور",
+      "processing_completed": "پروسیسنگ مکمل",
+      "bulk_processing_completed": "بلک پروسیسنگ مکمل",
+      "image_published": "تصویر شائع",
       "manual": "دستی",
       "scheduled": "شیڈول شدہ"
     },
     "triggerHints": {
-      "image.uploaded": "R2 میں نئی تصویر کی تصدیق کے بعد چلتا ہے۔",
-      "image.validated": "سرور سائیڈ تصدیق کامیاب ہونے کے بعد چلتا ہے۔",
-      "metadata.approved": "انسان میٹا ڈیٹا منظور کرنے پر چلتا ہے۔",
-      "processing.completed": "آپٹimize، ری سائز یا کنورٹ مکمل ہونے پر چلتا ہے۔",
-      "bulk.processing.completed": "بلک پروسیسنگ بیچ مکمل ہونے پر چلتا ہے۔",
-      "image.published": "انٹیگریشن پبلش (Cloudinary، WordPress وغیرہ) مکمل ہونے پر چلتا ہے۔",
+      "image_uploaded": "R2 میں نئی تصویر کی تصدیق کے بعد چلتا ہے۔",
+      "image_validated": "سرور سائیڈ تصدیق کامیاب ہونے کے بعد چلتا ہے۔",
+      "metadata_approved": "انسان میٹا ڈیٹا منظور کرنے پر چلتا ہے۔",
+      "processing_completed": "آپٹimize، ری سائز یا کنورٹ مکمل ہونے پر چلتا ہے۔",
+      "bulk_processing_completed": "بلک پروسیسنگ بیچ مکمل ہونے پر چلتا ہے۔",
+      "image_published": "انٹیگریشن پبلش (Cloudinary، WordPress وغیرہ) مکمل ہونے پر چلتا ہے۔",
       "manual": "صرف ڈیش بورڈ یا API سے شروع ہوتا ہے۔",
       "scheduled": "گھنٹے، روزانہ یا ہفتہ وار شیڈول پر چلتا ہے۔"
     },
@@ -2528,11 +2555,11 @@
       "viewOnly": "آپ تبصرے دیکھ سکتے ہیں مگر لکھ نہیں سکتے۔"
     },
     "verbs": {
-      "metadata.approved": "میٹا ڈیٹا منظور",
-      "ai_batch.created": "AI بیچ شروع",
-      "ai_batch.completed": "AI بیچ مکمل",
-      "comment.created": "تبصرہ شامل",
-      "thread.resolved": "تبصرہ تھریڈ حل شدہ"
+      "metadata_approved": "میٹا ڈیٹا منظور",
+      "ai_batch_created": "AI بیچ شروع",
+      "ai_batch_completed": "AI بیچ مکمل",
+      "comment_created": "تبصرہ شامل",
+      "thread_resolved": "تبصرہ تھریڈ حل شدہ"
     },
     "errors": {
       "COLLABORATION_PERMISSION_DENIED": "اس عمل کی اجازت نہیں۔",
@@ -2565,7 +2592,8 @@
       "billing": "بلنگ",
       "history": "پروسیسنگ ہسٹری",
       "help": "مدد",
-      "signOut": "سائن آؤٹ"
+      "signOut": "سائن آؤٹ",
+      "usageLeft": "{left} آپریشنز باقی"
     },
     "banner": {
       "signedIn": "آپ سائن اِن ہیں۔ آپ کے اکاؤنٹ کی حدود اب فعال ہیں۔",
@@ -2618,5 +2646,23 @@
       "deleteRequest": "اکاؤنٹ حذف کی درخواست کے لیے سپورٹ سے رابطہ کریں۔ سیلف سرور حذف ابھی نہیں۔",
       "contactSupport": "سپورٹ سے رابطہ"
     }
+  },
+  "chrome": {
+    "imageTools": "امیج ٹولز",
+    "compress": "کمپریس",
+    "resize": "ریسائز",
+    "convert": "کنورٹ",
+    "seoTools": "SEO ٹولز",
+    "bulkTools": "بلک ٹولز",
+    "openAppGrid": "ٹولز مینو کھولیں",
+    "appGridTitle": "ٹولز اور وسائل",
+    "languageHint": "زبان کی ترجیح",
+    "menu": "مینو",
+    "close": "بند کریں",
+    "footerBlurb": "تصاویر کمپریس، ریسائز، کنورٹ اور ویب کے لیے تیار کرنے کے نجی آن لائن ٹولز۔",
+    "popularFormats": "مقبول فارمیٹس",
+    "company": "کمپنی",
+    "resources": "وسائل",
+    "rights": "جملہ حقوق محفوظ ہیں۔"
   }
 }

@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "जल्द आ रहा है",
+    "openMenu": "नेविगेशन खोलें",
+    "closeMenu": "नेविगेशन बंद करें",
+    "mainNavigation": "मुख्य नेविगेशन"
+  },
+  "navigation": {
+    "dashboard": "डैशबोर्ड",
+    "projects": "प्रोजेक्ट",
+    "usage": "विश्लेषिकी",
+    "billing": "बिलिंग",
+    "developer": "डेवलपर",
+    "integrations": "एकीकरण",
+    "automation": "स्वचालन",
+    "settings": "खाता सेटिंग्स",
+    "organizations": "संगठन"
+  },
+  "language": {
+    "label": "इंटरफ़ेस भाषा",
+    "english": "अंग्रेज़ी",
+    "urdu": "उर्दू",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "इमेज टूल्स",
+    "compress": "कंप्रेस",
+    "resize": "रिसाइज़",
+    "convert": "कन्वर्ट",
+    "seoTools": "SEO टूल्स",
+    "bulkTools": "बल्क टूल्स",
+    "openAppGrid": "टूल्स मेनू खोलें",
+    "appGridTitle": "टूल्स और संसाधन",
+    "languageHint": "भाषा वरीयता",
+    "menu": "मेनू",
+    "close": "बंद करें",
+    "footerBlurb": "इमेज कंप्रेस, रिसाइज़, कन्वर्ट करने और वेब के लिए तैयार करने हेतु निजी ऑनलाइन टूल्स।",
+    "popularFormats": "लोकप्रिय फ़ॉर्मैट",
+    "company": "कंपनी",
+    "resources": "संसाधन",
+    "rights": "सर्वाधिकार सुरक्षित।"
+  },
+  "errors": {
+    "generic": "कुछ गलत हो गया।"
+  }
+}

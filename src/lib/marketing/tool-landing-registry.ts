@@ -80,7 +80,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "resize",
     sourceFormat: "jpeg",
     indexable: true,
-    title: "Resize JPG Images Online Free | SEO Images",
+    title: "Resize JPG Images Online Free | Img Pilot",
     description:
       "Resize JPG images online by choosing custom dimensions or popular presets. Adjust width, height and quality, then download your resized JPG securely.",
     h1: "Resize JPG Images Online",
@@ -115,7 +115,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "resize",
     sourceFormat: "png",
     indexable: true,
-    title: "Resize PNG Images Online Free | SEO Images",
+    title: "Resize PNG Images Online Free | Img Pilot",
     description:
       "Resize PNG images online while preserving transparency. Change image dimensions securely and download your resized PNG in seconds.",
     h1: "Resize PNG Images Online",
@@ -135,7 +135,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "resize",
     sourceFormat: "webp",
     indexable: true,
-    title: "Resize WebP Images Online Free | SEO Images",
+    title: "Resize WebP Images Online Free | Img Pilot",
     description:
       "Resize WebP images online for responsive websites, blogs and mobile devices. Change dimensions securely and download resized WebP images instantly.",
     h1: "Resize WebP Images Online",
@@ -164,7 +164,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "compress",
     sourceFormat: "jpeg",
     indexable: true,
-    title: "Compress JPG Images Online Free | SEO Images",
+    title: "Compress JPG Images Online Free | Img Pilot",
     description:
       "Compress JPG images online and reduce file size with adjustable quality controls. Preview the result and download a smaller optimized JPG securely.",
     h1: "Compress JPG Images Online",
@@ -199,7 +199,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "compress",
     sourceFormat: "png",
     indexable: true,
-    title: "Compress PNG Images Online Free | SEO Images",
+    title: "Compress PNG Images Online Free | Img Pilot",
     description:
       "Compress PNG images online while preserving transparency. Reduce PNG file size securely and download an optimized image in seconds.",
     h1: "Compress PNG Images Online",
@@ -219,7 +219,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "compress",
     sourceFormat: "webp",
     indexable: true,
-    title: "Compress WebP Images Online Free | SEO Images",
+    title: "Compress WebP Images Online Free | Img Pilot",
     description:
       "Compress WebP images online to reduce file size while maintaining quality. Improve website speed with secure browser-based WebP optimization.",
     h1: "Compress WebP Images Online",
@@ -248,7 +248,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "crop",
     sourceFormat: "jpeg",
     indexable: true,
-    title: "Crop JPG Images Online Free | SEO Images",
+    title: "Crop JPG Images Online Free | Img Pilot",
     description:
       "Crop JPG images online using precise crop controls and popular aspect ratios. Download your cropped image securely in seconds.",
     h1: "Crop JPG Images Online",
@@ -269,7 +269,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "crop",
     sourceFormat: "png",
     indexable: true,
-    title: "Crop PNG Images Online Free | SEO Images",
+    title: "Crop PNG Images Online Free | Img Pilot",
     description:
       "Crop PNG images online while preserving transparent backgrounds. Remove unwanted areas and download a precisely cropped PNG securely.",
     h1: "Crop PNG Images Online",
@@ -296,7 +296,7 @@ export const TOOL_LANDING_REGISTRY: ToolLandingDefinition[] = [
     operation: "crop",
     sourceFormat: "webp",
     indexable: true,
-    title: "Crop WebP Images Online Free | SEO Images",
+    title: "Crop WebP Images Online Free | Img Pilot",
     description:
       "Crop WebP images online using precise crop controls and popular aspect ratios. Create web-ready images and download them securely in seconds.",
     h1: "Crop WebP Images Online",
@@ -377,7 +377,7 @@ function createConvertLandings(): ToolLandingDefinition[] {
       slug: "jpg-to-webp",
       source: "jpeg",
       target: "webp",
-      title: "Convert JPG to WebP Online Free | SEO Images",
+      title: "Convert JPG to WebP Online Free | Img Pilot",
       h1: "Convert JPG to WebP Online",
       intro:
         "Convert JPG photos to WebP for faster websites, smaller delivery files and stronger Core Web Vitals when browsers support modern formats.",
@@ -416,7 +416,7 @@ function createConvertLandings(): ToolLandingDefinition[] {
       slug: "png-to-jpg",
       source: "png",
       target: "jpeg",
-      title: "Convert PNG to JPG Online Free | SEO Images",
+      title: "Convert PNG to JPG Online Free | Img Pilot",
       h1: "Convert PNG to JPG Online",
       intro:
         "Flatten transparent PNGs into universally compatible JPG files when alpha is no longer required.",
@@ -426,7 +426,7 @@ function createConvertLandings(): ToolLandingDefinition[] {
       slug: "png-to-webp",
       source: "png",
       target: "webp",
-      title: "Convert PNG to WebP Online Free | SEO Images",
+      title: "Convert PNG to WebP Online Free | Img Pilot",
       h1: "Convert PNG to WebP Online",
       intro:
         "Convert PNG images to WebP online while preserving transparency. Create smaller web-ready images for faster websites with secure browser-based conversion.",
@@ -452,7 +452,7 @@ function createConvertLandings(): ToolLandingDefinition[] {
       slug: "webp-to-jpg",
       source: "webp",
       target: "jpeg",
-      title: "Convert WebP to JPG Online Free | SEO Images",
+      title: "Convert WebP to JPG Online Free | Img Pilot",
       h1: "Convert WebP to JPG Online",
       intro:
         "Convert WebP images to JPG for maximum compatibility with email, documents, CMS uploads and older software.",
@@ -462,7 +462,7 @@ function createConvertLandings(): ToolLandingDefinition[] {
       slug: "webp-to-png",
       source: "webp",
       target: "png",
-      title: "Convert WebP to PNG Online Free | SEO Images",
+      title: "Convert WebP to PNG Online Free | Img Pilot",
       h1: "Convert WebP to PNG Online",
       intro:
         "Convert WebP images to PNG online while preserving transparency and image quality for design and editing workflows.",
@@ -536,9 +536,12 @@ export const GENERIC_PUBLIC_TOOL_PATHS = [
   "/resize-image",
   "/crop-image",
   "/convert-image",
+  "/rotate-image",
+  "/watermark-image",
+  "/blur-region",
+  "/meme-generator",
   "/geotag-image",
   "/image-metadata",
-  "/ai-alt-text",
   "/image-metadata-editor",
   "/bulk-image-tools",
   "/bulk-resize",

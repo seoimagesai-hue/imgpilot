@@ -3,22 +3,16 @@
 import {useTranslations} from "next-intl";
 import {Link, usePathname} from "@/i18n/navigation";
 
+/** Only routes that have `app/.../docs/<slug>/page.tsx` implementations. */
 export const DOCS_NAV = [
   {href: "/docs", key: "hub"},
-  {href: "/docs/getting-started", key: "gettingStarted"},
-  {href: "/docs/uploads", key: "uploads"},
-  {href: "/docs/validation", key: "validation"},
-  {href: "/docs/processing", key: "processing"},
-  {href: "/docs/ai-metadata", key: "aiMetadata"},
-  {href: "/docs/ai-batches", key: "aiBatches"},
-  {href: "/docs/exports", key: "exports"},
-  {href: "/docs/billing", key: "billing"},
   {href: "/docs/api", key: "api"},
   {href: "/docs/webhooks", key: "webhooks"},
   {href: "/docs/wordpress", key: "wordpress"},
   {href: "/docs/shopify", key: "shopify"},
   {href: "/docs/webflow", key: "webflow"},
   {href: "/docs/cloudinary", key: "cloudinary"},
+  {href: "/docs/ai-batches", key: "aiBatches"},
   {href: "/docs/automation", key: "automation"},
   {href: "/docs/collaboration", key: "collaboration"},
 ] as const;

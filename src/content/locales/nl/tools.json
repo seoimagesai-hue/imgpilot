@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/compressie-afbeelding",
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Comprimeren"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hoe werkt beeldcompressie?",
+        "a": "De tool codeert uw afbeelding opnieuw met instellingen die de bestandsgrootte verkleinen terwijl het resultaat visueel bruikbaar blijft. Kies een lichtere of sterkere preset voordat u gaat verwerken."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB. Voor grotere workflows is mogelijk een account vereist."
+      },
+      {
+        "q": "Zal compressie de beeldkwaliteit verminderen?",
+        "a": "Sterkere presets kunnen fijne details verzachten. Gebruik Maximale kwaliteit of Uitgebalanceerd wanneer uiterlijk het belangrijkst is, en bekijk altijd een voorbeeld voordat u downloadt."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Gastcompressie werkt zonder dat u zich hoeft aan te melden. Bestanden blijven privé en verlopen binnen een uur."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten zijn tijdelijk en worden automatisch binnen een uur verwijderd."
+      }
+    ],
+    "metaTitle": "Afbeeldingen online comprimeren — Verklein de grootte van JPG, PNG en WebP",
+    "metaDescription": "Comprimeer afbeeldingen online zonder kwaliteitsverlies. Verklein de bestandsgrootte JPG, PNG en WebP met privégastverwerking en automatische verwijdering binnen een uur.",
+    "breadcrumbCurrent": "Comprimeer afbeeldingen online",
+    "h1": "Comprimeer afbeeldingen online",
+    "subtitle": "Verklein de bestandsgrootte van afbeeldingen zonder kwaliteitsverlies",
+    "paragraph": "Comprimeer afbeeldingen JPG, PNG en WebP in enkele seconden. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Kleiner formaat, dezelfde geweldige kwaliteit",
+    "features": [
+      {
+        "title": "Slimme compressie",
+        "body": "Intelligente compressie waardoor uw afbeeldingen er scherp uitzien.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Tot 80% kleiner",
+        "body": "Verklein de bestandsgrootte drastisch voor snellere uploads en paginaladingen.",
+        "tone": "groente"
+      },
+      {
+        "title": "Perfect voor internet",
+        "body": "Optimaliseer afbeeldingen voor websites, blogs en productpagina's.",
+        "tone": "paars"
+      },
+      {
+        "title": "Kwaliteit waarop u kunt vertrouwen",
+        "body": "Bekijk een voorbeeld vóór het downloaden, zodat de kwaliteit onder uw controle blijft.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt en binnen een uur automatisch verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde compressie levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/resize-image": {
+    "path": "/formaat-afbeelding wijzigen",
+    "features": [
+      {
+        "title": "Exacte afmetingen",
+        "body": "Voer de breedte en hoogte in die overeenkomen met uw lay-outbehoeften.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Binnen passen",
+        "body": "Schaal afbeeldingen in een kader met behoud van de beeldverhouding.",
+        "tone": "groente"
+      },
+      {
+        "title": "Geen ongewenste luxe",
+        "body": "Vangrails helpen voorkomen dat kleine bronnen worden uitgerekt.",
+        "tone": "paars"
+      },
+      {
+        "title": "Webklaar",
+        "body": "Zorg voor consistente formaten voor pagina's en productrasters.",
+        "tone": "oranje"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Formaat wijzigen"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik de beeldverhouding behouden?",
+        "a": "Ja. Gebruik fit-inside of gekoppelde afmetingen, zodat afbeeldingen netjes worden geschaald zonder vervorming."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Zal het wijzigen van het formaat mijn afbeelding vergroten?",
+        "a": "Standaard vermijden workflows ongewenste vergroting. Kies afmetingen die bij uw bron passen."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Begin als gast met het wijzigen van het formaat. Tijdelijke bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten worden automatisch binnen een uur verwijderd."
+      }
+    ],
+    "metaTitle": "Het formaat van afbeeldingen online wijzigen — Wijzig de afmetingen voor internet en sociaal",
+    "metaDescription": "Wijzig het formaat van afbeeldingen JPG, PNG en WebP online op breedte, hoogte of binnenmaat. Privégasttool zonder account vereist.",
+    "breadcrumbCurrent": "Formaat van afbeeldingen online wijzigen",
+    "h1": "Formaat van afbeeldingen online wijzigen",
+    "subtitle": "Wijzig de afmetingen voor web, social en lay-out",
+    "paragraph": "Wijzig het formaat van afbeeldingen JPG, PNG en WebP in enkele seconden. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Nauwkeurige controle, zuivere resultaten",
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor het wijzigen van het formaat en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/crop-image": {
+    "path": "/bijsnijdafbeelding",
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Gewas"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik bijsnijden tot een vierkant?",
+        "a": "Ja. Kies een verhouding van 1:1 of teken een vrije uitsnede die bij uw wensen past."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Wordt het origineel overschreven?",
+        "a": "Nee. Bij het verwerken ontstaat een nieuw bijgesneden resultaat."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Crop als gast. Bestanden worden automatisch binnen een uur verwijderd."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "metaTitle": "Afbeeldingen online bijsnijden - Gratis bijsnijden met vaste verhoudingen",
+    "metaDescription": "Snijd afbeeldingen JPG, PNG en WebP online bij met gratis besturingselementen of besturingselementen met een vaste verhouding. Privégastverwerking, geen account vereist.",
+    "breadcrumbCurrent": "Afbeeldingen online bijsnijden",
+    "h1": "Afbeeldingen online bijsnijden",
+    "subtitle": "Bewaar alleen het deel van de afbeelding dat er toe doet",
+    "paragraph": "Snijd afbeeldingen JPG, PNG en WebP binnen enkele seconden bij. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Gewas met vertrouwen",
+    "features": [
+      {
+        "title": "Gratis gewas",
+        "body": "Selecteer een willekeurig gebied van de afbeelding en behoud precies dat gebied.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Vaste verhoudingen",
+        "body": "Gebruik algemene beeldverhoudingen voor consistente lay-outs.",
+        "tone": "groente"
+      },
+      {
+        "title": "Oriëntatie Veilig",
+        "body": "Snij wiskunde bij met respect voor georiënteerde dimensies na het uploaden.",
+        "tone": "paars"
+      },
+      {
+        "title": "Hetzelfde formaat uit",
+        "body": "Download een bijgesneden resultaat in uw bronindeling, indien ondersteund.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor bijsnijden en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/convert-image": {
+    "path": "/convert-afbeelding",
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Overzetten"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Welke conversies worden ondersteund?",
+        "a": "De kerngastconversie omvat JPG, PNG en WebP. AVIF wordt aangeboden wanneer de runtime deze kan coderen en verifiëren."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Blijft de transparantie behouden?",
+        "a": "Bij het converteren naar formaten die alfa ondersteunen, kan de transparantie behouden blijven volgens de toolopties."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Converteer als gast. Tijdelijke bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten worden automatisch binnen een uur verwijderd."
+      }
+    ],
+    "metaTitle": "Afbeeldingen online converteren — JPG, PNG, WebP & AVIF",
+    "metaDescription": "Converteer online tussen JPG, PNG, WebP en ondersteunde AVIF-formaten. Privégastconversie met geverifieerde outputs.",
+    "breadcrumbCurrent": "Afbeeldingen online converteren",
+    "h1": "Afbeeldingen online converteren",
+    "subtitle": "Schakel tussen formaten voor internet zonder desktopsoftware",
+    "paragraph": "Converteer JPG, PNG en WebP afbeeldingen in seconden. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+    "features": [
+      {
+        "title": "Populaire formaten",
+        "body": "Wissel tussen JPG, PNG en WebP met duidelijke opties.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Transparantie bewust",
+        "body": "PNG en WebP alpha worden zorgvuldig behandeld door het beleid.",
+        "tone": "groente"
+      },
+      {
+        "title": "AVIF Wanneer gereed",
+        "body": "Codeer alleen naar AVIF als de server dit kan verifiëren.",
+        "tone": "paars"
+      },
+      {
+        "title": "Eerlijke uitvoer",
+        "body": "Ken het resulterende MIME-type en de grootte voordat u het downloadt.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Draaien"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Welke hoeken worden ondersteund?",
+        "a": "Gastrotatie ondersteunt 90°, 180° en 270° plus optionele flips."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Roteer als gast. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Wordt de EXIF-oriëntatie toegepast?",
+        "a": "Bronnen worden vóór de transformatie genormaliseerd, zodat de resultaten overeenkomen met wat u verwacht."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "path": "/roteer-afbeelding",
+    "metaTitle": "Afbeelding online roteren — Draai JPG, PNG en WebP",
+    "metaDescription": "Roteer afbeeldingen 90°, 180° of 270° en draai ze horizontaal of verticaal. Gratis gasttool met tijdelijke privéopslag.",
+    "breadcrumbCurrent": "Afbeeldingen online roteren",
+    "h1": "Afbeeldingen online roteren",
+    "subtitle": "Draai of spiegel afbeeldingen voor lay-out en ontwerp",
+    "paragraph": "Roteer of spiegel JPG, PNG en WebP afbeeldingen in seconden. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Snelle oriëntatieoplossingen",
+    "features": [
+      {
+        "title": "90° stappen",
+        "body": "Roteer in één keer 90°, 180° of 270°.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Bedieningselementen omdraaien",
+        "body": "Spiegel horizontaal of verticaal wanneer dat nodig is.",
+        "tone": "groente"
+      },
+      {
+        "title": "Hetzelfde formaat",
+        "body": "De uitvoer blijft in het geüploade formaat.",
+        "tone": "paars"
+      },
+      {
+        "title": "Particuliere gastbanen",
+        "body": "Kortstondige verwerking met automatische opschoning.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor rotatie en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Watermerk"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kan ik een logowatermerk uploaden?",
+        "a": "Met dit gastgereedschap wordt tekst gestempeld. Gebruik voorlopig een korte merktekst."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Watermerk als gast. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Zal het watermerk mijn onderwerp bedekken?",
+        "a": "Kies hoekposities en verlaag de dekking om onderwerpen zichtbaar te houden."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "path": "/watermerk-afbeelding",
+    "metaTitle": "Watermerkafbeeldingen online - Voeg tekstwatermerken toe",
+    "metaDescription": "Stempel korte tekstwatermerken op JPG, PNG en WebP met positie- en dekkingsregelaars. Privé gasttool.",
+    "breadcrumbCurrent": "Watermerkafbeeldingen online",
+    "h1": "Watermerkafbeeldingen online",
+    "subtitle": "Stempel korte tekst zonder de hele afbeelding te bedekken",
+    "paragraph": "Voeg binnen enkele seconden een tekstwatermerk toe aan JPG, PNG of WebP afbeeldingen. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Bescherm visuals met lichte branding",
+    "features": [
+      {
+        "title": "Korte tekststempels",
+        "body": "Voeg een beknopt watermerk toe dat leesbaar blijft.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Positiecontrole",
+        "body": "Plaats watermerken in de hoeken of in het midden.",
+        "tone": "groente"
+      },
+      {
+        "title": "Dekkingsschuifregelaar",
+        "body": "Breng de zichtbaarheid in evenwicht met de beeldinhoud.",
+        "tone": "paars"
+      },
+      {
+        "title": "Hetzelfde formaat uit",
+        "body": "Download een bestand met een watermerk in uw bronformaat.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor watermerken en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Vervagen"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Detecteert dit automatisch gezichten?",
+        "a": "Nee. U selecteert de regio handmatig als percentages van de afbeelding."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Blur als gast. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Kan ik meerdere regio's vervagen?",
+        "a": "Deze gasttool past één regio per run toe. Voer opnieuw uit om een ​​ander gebied te vervagen."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "path": "/vervagingsgebied",
+    "metaTitle": "Afbeeldingsregio online vervagen - Gezichten en details verbergen",
+    "metaDescription": "Vervaag handmatig een gebied van JPG, PNG of WebP afbeeldingen om gezichten, platen of andere details te verbergen. Privé gasttool.",
+    "breadcrumbCurrent": "Regio online vervagen",
+    "h1": "Regio online vervagen",
+    "subtitle": "Verberg gevoelige details met een handmatig vervagingsvak",
+    "paragraph": "Vervaag een geselecteerd gebied op JPG, PNG of WebP afbeeldingen in enkele seconden. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Vervaag wat privacy nodig heeft",
+    "features": [
+      {
+        "title": "Handmatige regio",
+        "body": "Je kiest precies waar de vervaging wordt toegepast.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Sterkteniveaus",
+        "body": "Lichte, gemiddelde of sterke vervaging voor verschillende behoeften.",
+        "tone": "groente"
+      },
+      {
+        "title": "Privacyvriendelijk",
+        "body": "Verberg details voordat u activa post of verzendt.",
+        "tone": "paars"
+      },
+      {
+        "title": "Gast veilig",
+        "body": "Privé tijdelijke verwerking met automatische verwijdering.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor regiovervaging en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Ondertiteling"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Heb ik zowel boven- als ondertekst nodig?",
+        "a": "Nee. Geef ten minste één ondertitelregel op."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Genereer als gast. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Kan ik het lettertype wijzigen?",
+        "a": "Gastmemes gebruiken een klassieke Impact-stijlstapel voor leesbaarheid."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "path": "/meme-generator",
+    "metaTitle": "Meme Generator Online - Voeg boven- en onderbijschriften toe",
+    "metaDescription": "Voeg klassieke meme-bijschriften bovenaan en onderaan toe aan JPG, PNG of WebP afbeeldingen. Gratis gastmemegenerator.",
+    "breadcrumbCurrent": "Memegenerator online",
+    "h1": "Memegenerator online",
+    "subtitle": "Voeg binnen enkele seconden klassieke ondertitels toe",
+    "paragraph": "Voeg binnen enkele seconden boven- en onderbijschriften toe aan JPG, PNG of WebP afbeeldingen. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Bijschriften die lezen als klassieke memes",
+    "features": [
+      {
+        "title": "Boven- en onderkant tekst",
+        "body": "Gebruik een lijn of beide voor klassieke lay-outs.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Automatisch inpakken",
+        "body": "Lange bijschriften worden omgezet in korte leesbare regels.",
+        "tone": "groente"
+      },
+      {
+        "title": "Hoog contrasttype",
+        "body": "Witte vulling met donkere lijn voor duidelijkheid.",
+        "tone": "paars"
+      },
+      {
+        "title": "Instant Gasttool",
+        "body": "Maken en downloaden zonder in te loggen.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor meme-onderschriften en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/geotag-image": {
+    "path": "/geotag-afbeelding",
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Geotag"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Welke formaten ondersteunen geotagging?",
+        "a": "Gastgeotag richt zich op compatibele JPEG-afbeeldingen."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen compatibele JPEG binnen de limiet van 10 MB."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Geotag als gast. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Worden coördinaten geverifieerd?",
+        "a": "Schrijfbewerkingen volgen validatieregels, zodat waarden goed zijn gevormd voordat ze worden ingesloten."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "metaTitle": "Geotag afbeeldingen online — Voeg GPS toe aan JPEG",
+    "metaDescription": "Lees of schrijf geverifieerde GPS-coördinaten op compatibele JPEG-afbeeldingen. Geotaggingtool voor privégasten.",
+    "breadcrumbCurrent": "Geotag afbeeldingen online",
+    "h1": "Geotag afbeeldingen online",
+    "subtitle": "Voeg JPEG GPS locatiegegevens toe of inspecteer deze",
+    "paragraph": "Voeg GPS-coördinaten toe of inspecteer compatibele JPEG-afbeeldingen. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Locatiegegevens die u kunt verifiëren",
+    "features": [
+      {
+        "title": "JPEG Gefocust",
+        "body": "Geotag-workflows zijn gericht op compatibele JPEG-bronnen.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Inspecteer eerst",
+        "body": "Kijk of de leesbare GPS al aanwezig is.",
+        "tone": "groente"
+      },
+      {
+        "title": "Schrijf coördinaten",
+        "body": "Breedte- en lengtegraad insluiten wanneer vervangen is toegestaan.",
+        "tone": "paars"
+      },
+      {
+        "title": "Privacy van gasten",
+        "body": "Tijdelijke verwerking met automatische opschoning.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor geotagging en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/image-metadata": {
+    "path": "/afbeelding-metagegevens",
+    "breadcrumbCurrent": "Metagegevensviewer voor afbeeldingen",
+    "h1": "Metagegevensviewer voor afbeeldingen",
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Inspecteren"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Toont u alle EXIF-tags?",
+        "a": "Nee. De kijker toont velden op de toegestane lijst voor de veiligheid en duidelijkheid."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Nee. Inspecteren als gast. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Kan ik hier metadata bewerken?",
+        "a": "Gebruik de afbeeldings-SEO Metagegevenseditor om SEO-velden op te stellen en te exporteren."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "metaTitle": "Viewer metagegevens van afbeeldingen online — Inspecteer EXIF veilig",
+    "metaDescription": "Inspecteer afmetingen, kleurinformatie en veilige metagegevens op de toelatingslijst voor JPG, PNG en WebP. Privé gastkijker.",
+    "subtitle": "Inspecteer veilige afbeeldingseigenschappen voordat u publiceert",
+    "paragraph": "Inspecteer de eigenschappen JPG, PNG en WebP in enkele seconden. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Zie veilig wat belangrijk is",
+    "features": [
+      {
+        "title": "Kerneigenschappen",
+        "body": "Afmetingen, type en praktische dossiergegevens.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Velden die op de toegestane lijst staan",
+        "body": "Alleen veilige, beheerde metadata-oppervlakken worden getoond.",
+        "tone": "groente"
+      },
+      {
+        "title": "Webvriendelijk",
+        "body": "Nuttige controles vóór CMS uploaden of SEO beoordelen.",
+        "tone": "paars"
+      },
+      {
+        "title": "Privacy van gasten",
+        "body": "Tijdelijke inspectietaken met automatische verwijdering.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor metadata-inspectie en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/image-metadata-editor": {
+    "path": "/image-metadata-editor",
+    "breadcrumbCurrent": "Afbeelding SEO Metagegevenseditor",
+    "h1": "Afbeelding SEO Metagegevenseditor",
+    "howSteps": [
+      {
+        "title": "Upload uw afbeelding"
+      },
+      {
+        "title": "Bewerking"
+      },
+      {
+        "title": "Voorbeeld van resultaat"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Herschrijft dit EXIF binnen elk formaat?",
+        "a": "De editor richt zich op het voorbereiden van SEO-velden en exporten."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Gastuploads ondersteunen JPG, PNG en WebP tot 10 MB."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Gastbewerking is beperkt beschikbaar. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Wat kan ik exporteren?",
+        "a": "Gebruik zijspanvriendelijke exporten voor CMS en contentworkflows."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "metaTitle": "Afbeelding SEO Metagegevenseditor online",
+    "metaDescription": "Schrijf, bekijk en exporteer afbeeldings-SEO-velden voor websites en CMS-workflows. Privé-editor voor gastmetadata.",
+    "subtitle": "Bereid de afbeeldingsvelden SEO voor voordat u deze publiceert",
+    "paragraph": "Ontwerp afbeeldingsvelden SEO en exporteer zijspannen in enkele seconden. Gratis online tool – geen account vereist.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Redactionele controle voor afbeelding SEO",
+    "features": [
+      {
+        "title": "Bewerkbare velden",
+        "body": "Update de SEO-tekst die u daadwerkelijk verzendt.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Exportvriendelijk",
+        "body": "Download zijspannen voor CMS en contentworkflows.",
+        "tone": "groente"
+      },
+      {
+        "title": "CMS Klaar",
+        "body": "Bereid titels, beschrijvingen en trefwoorden voor voordat u deze publiceert.",
+        "tone": "paars"
+      },
+      {
+        "title": "Gastsessies",
+        "body": "Tijdelijke concepten met automatische opschoning.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor het bewerken van metadata en automatisch binnen een uur verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  },
+  "/bulk-image-tools": {
+    "path": "/bulk-image-tools",
+    "breadcrumbCurrent": "Hulpmiddelen voor bulkafbeeldingen",
+    "h1": "Hulpmiddelen voor bulkafbeeldingen",
+    "howSteps": [
+      {
+        "title": "Upload een batch"
+      },
+      {
+        "title": "Kies Bediening"
+      },
+      {
+        "title": "Bestanden verwerken"
+      },
+      {
+        "title": "Downloaden"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hoeveel bestanden kan ik uploaden?",
+        "a": "Gastbulktaken dwingen een maximaal aantal bestanden en een totale batchgrootte af."
+      },
+      {
+        "q": "Is er een limiet voor de bestandsgrootte?",
+        "a": "Elk bestand volgt de maximale grootte van de gast en de batch heeft een maximum aantal bytes."
+      },
+      {
+        "q": "Heb ik een account nodig?",
+        "a": "Gasten kunnen beperkte bulktaken uitvoeren. Bestanden verlopen binnen een uur."
+      },
+      {
+        "q": "Wat als één bestand mislukt?",
+        "a": "Succesvolle resultaten blijven downloadbaar; mislukte items geven een foutstatus weer."
+      },
+      {
+        "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+        "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+      }
+    ],
+    "metaTitle": "Online tools voor bulkafbeeldingen: comprimeren, vergroten/verkleinen, converteren",
+    "metaDescription": "Comprimeer, wijzig het formaat of converteer meerdere afbeeldingen en download samen succesvolle resultaten. Er zijn limieten voor het aantal gasten van toepassing.",
+    "subtitle": "Verwerk een korte batch zonder elke stap te herhalen",
+    "paragraph": "Comprimeer, wijzig het formaat of converteer meerdere JPG, PNG of WebP bestanden in één batch. Er zijn gratis gastenlimieten van toepassing.",
+    "trust": [
+      "Geen account vereist",
+      "Privé en veilige verwerking",
+      "Automatische verwijdering binnen 1 uur"
+    ],
+    "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd.",
+    "featuresHeading": "Batchsnelheid met duidelijke grenzen",
+    "features": [
+      {
+        "title": "Gedeelde instellingen",
+        "body": "Pas één keuze voor comprimeren, vergroten of verkleinen of converteren toe voor de hele batch.",
+        "tone": "blauw"
+      },
+      {
+        "title": "Status per bestand",
+        "body": "Bekijk welke afbeeldingen zijn gelukt en welke aandacht behoeven.",
+        "tone": "groente"
+      },
+      {
+        "title": "ZIP Downloaden",
+        "body": "Verzamel succesvolle outputs wanneer de batch gereed is.",
+        "tone": "paars"
+      },
+      {
+        "title": "Gastkappen",
+        "body": "Batchgrootte en totaal aantal bytes volgen het gratis gastenbeleid.",
+        "tone": "oranje"
+      }
+    ],
+    "howHeading": "Hoe het werkt",
+    "benefitCards": [
+      {
+        "title": "Uw privacy is belangrijk",
+        "body": "Uw afbeeldingen worden privé verwerkt voor bulkverwerking en binnen een uur automatisch verwijderd.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Snel en efficiënt",
+        "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+        "kind": "snelheid"
+      }
+    ],
+    "faqHeading": "Veelgestelde vragen"
+  }
+}

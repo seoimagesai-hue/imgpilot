@@ -1,21 +1,23 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {BulkImageToolsLandingView} from "@/components/marketing/bulk-image-tools-landing-view";
-import {getBulkImageToolsCopy} from "@/lib/marketing/bulk-image-tools-landing-content";
+import {BulkToolLandingWorkspace} from "@/components/guest/bulk-tool-landing-workspace";
+import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
+import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
 import {buildPublicMetadata} from "@/server/marketing/seo";
 
 type PageProps = {
   params: Promise<{locale: string}>;
   searchParams: Promise<{tool?: string}>;
 };
+const PATH = "/bulk-image-tools";
 
 export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   const {locale} = await params;
-  const copy = getBulkImageToolsCopy(locale);
+  const copy = getToolLandingCopyForLocale(PATH, locale);
   return buildPublicMetadata({
     locale: locale as AppLocale,
-    path: "/bulk-image-tools",
+    path: PATH,
     title: copy.metaTitle,
     description: copy.metaDescription,
     index: true,
@@ -26,5 +28,11 @@ export default async function BulkImageToolsPage({params, searchParams}: PagePro
   const {locale} = await params;
   const query = await searchParams;
   setRequestLocale(locale);
-  return <BulkImageToolsLandingView locale={locale} initialTool={query.tool} />;
+  return (
+    <ToolLandingShell
+      locale={locale}
+      copy={getToolLandingCopyForLocale(PATH, locale)}
+      workspace={<BulkToolLandingWorkspace initialTool={query.tool} />}
+    />
+  );
 }

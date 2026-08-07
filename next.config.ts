@@ -12,11 +12,22 @@ export default withNextIntl({
   async headers() {
     return [
       {
+        // Prefixed locales: /es/geotag-image, /ar/geotag-image, …
         source: "/:locale/geotag-image",
         headers: [
           {
             key: "Permissions-Policy",
             // Geolocation only after explicit click; IP geolocation is never used.
+            value: "geolocation=(self)",
+          },
+        ],
+      },
+      {
+        // English unprefixed: /geotag-image
+        source: "/geotag-image",
+        headers: [
+          {
+            key: "Permissions-Policy",
             value: "geolocation=(self)",
           },
         ],

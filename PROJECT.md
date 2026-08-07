@@ -1,7 +1,7 @@
-# SEO Images — Product
+# Img Pilot — Product
 
 ## Product vision
-SEO Images is a **consumer-first**, multilingual image SEO platform. Public visitors use free guest tools (compress, resize, crop, convert, geotag, metadata, AI alt text, metadata editor) without login. Signed-in accounts unlock projects, long-term libraries, bulk processing, billing, API, and integrations.
+Img Pilot is a **consumer-first**, multilingual image SEO platform. Public visitors use free guest tools (compress, resize, crop, convert, geotag, metadata, AI alt text, metadata editor) without login. Signed-in accounts unlock projects, long-term libraries, bulk processing, billing, API, and integrations.
 
 The authenticated product remains a bulk-capable SaaS for website owners and agencies: create projects, upload many images, optimize safely, review AI-assisted metadata, and export — without destroying originals.
 
@@ -53,7 +53,7 @@ Original uploaded images must **never** be overwritten. All processing creates s
 Signed-in users must be able to save projects, settings, processing history, metadata edits, and usage. Guest work is temporary session state only.
 
 ## Multilingual requirement
-The product interface must be translation-ready from day one. English and Urdu ship in the foundation. Additional languages must be addable via message files without rewriting components.
+The product interface must be translation-ready from day one. English is the canonical default at the site root. Twenty-four additional locales ship behind `/{locale}/...` prefixes. Layered content (UI, tools, homepage, SEO landings) is managed via catalogs + CLI (`i18n:extract|audit|translate`). Incomplete localized pages stay noindex until the translation-quality gate passes.
 
 ## Separate interface and metadata output languages
 - **Interface language:** controls UI chrome (labels, navigation, errors). Persisted via locale routing / next-intl.
@@ -61,7 +61,7 @@ The product interface must be translation-ready from day one. English and Urdu s
 These must remain independent settings. Changing the UI language must not silently change metadata output language.
 
 ## RTL requirement
-Locales such as Urdu must render with `dir="rtl"`. English uses `dir="ltr"`. Layouts prefer logical CSS (`start`/`end`, `ms`/`me`, `ps`/`pe`, `border-e`) so the dashboard remains usable in both directions.
+Locales such as Arabic and Urdu must render with `dir="rtl"`. English and other LTR locales use `dir="ltr"`. Layouts prefer logical CSS (`start`/`end`, `ms`/`me`, `ps`/`pe`, `border-e`) so the dashboard remains usable in both directions.
 
 ## Privacy and file-retention direction
 - Explain retention clearly in product and legal copy (later milestone).
@@ -80,7 +80,7 @@ Locales such as Urdu must render with `dir="rtl"`. English uses `dir="ltr"`. Lay
 - ZIP download of optimized images
 - CSV metadata export
 - Usage limits and subscriptions
-- English UI + translation-ready architecture (Urdu foundation included)
+- English UI at unprefixed `/` + 24 locale prefixes; translation-ready architecture (chrome packs + EN fallback)
 
 ## Features excluded from the first MVP
 - WordPress / Shopify / WooCommerce plugins
@@ -92,7 +92,7 @@ Locales such as Urdu must render with `dir="rtl"`. English uses `dir="ltr"`. Lay
 - Background removal, enhancement, and upscaling
 
 ## Product boundaries
-SEO Images is **not**:
+Img Pilot is **not**:
 - A complete SEO suite
 - A CRM or project manager
 - A website builder

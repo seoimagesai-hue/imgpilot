@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/komprimera-bild",
+      "title": "Komprimera bild",
+      "body": "Minska filstorlekarna JPG, PNG och WebP samtidigt som du håller resultatet tydligt och användbart.",
+      "icon": "komprimera"
+    },
+    {
+      "href": "/ändra storlek på bild",
+      "title": "Ändra storlek på bild",
+      "body": "Ändra bilddimensioner efter bredd, höjd eller passformsinställningar utan oönskad förstoring.",
+      "icon": "ändra storlek"
+    },
+    {
+      "title": "Beskär bild",
+      "href": "/beskär-bild",
+      "body": "Välj det exakta området du vill behålla med fria och fasta beskärningskontroller.",
+      "icon": "beskära"
+    },
+    {
+      "title": "Konvertera bild",
+      "href": "/konvertera-bild",
+      "body": "Konvertera mellan JPG, PNG, WebP och stödda AVIF-format med säker utdataverifiering.",
+      "icon": "konvertera"
+    },
+    {
+      "title": "Geotagga bild",
+      "href": "/geotag-bild",
+      "body": "Lägg till verifierade GPS-koordinater till kompatibla JPEG-bilder utan att ändra originalet.",
+      "icon": "geotagga"
+    },
+    {
+      "title": "Bild Metadata Viewer",
+      "href": "/bild-metadata",
+      "body": "Inspektera dimensioner, färginformation och säkra tillståndslistade bildmetadata.",
+      "icon": "metadata"
+    },
+    {
+      "title": "Bild SEO Metadataredigerare",
+      "href": "/image-metadata-editor",
+      "body": "Skriv, granska och exportera bild SEO fält för din webbplats eller ditt innehållshanteringssystem.",
+      "icon": "redaktör"
+    },
+    {
+      "title": "Bulk bildverktyg",
+      "href": "/bulk-image-verktyg",
+      "body": "Komprimera, ändra storlek på eller konvertera flera bilder och ladda ner framgångsrika resultat tillsammans.",
+      "icon": "bulk"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Komprimera JPG",
+      "badge": "JPG",
+      "href": "/compress-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/compress-png",
+      "label": "Komprimera PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/compress-webp",
+      "label": "Komprimera WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/ändra storlek-jpg",
+      "label": "Ändra storlek JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/ändra storlek-png",
+      "label": "Ändra storlek PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/ändra storlek-webp",
+      "label": "Ändra storlek WebP"
+    },
+    {
+      "href": "/jpg-till-png",
+      "label": "JPG till PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-till-webp",
+      "label": "JPG till WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-till-jpg",
+      "label": "PNG till JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-till-webp",
+      "label": "PNG till WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-till-jpg",
+      "label": "WebP till JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-till-png",
+      "label": "WebP till PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Ett praktiskt format för fotografier, webbinnehåll och mindre bildfiler med förlust.",
+      "href": "/compress-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Ett förlustfritt format som vanligtvis används för grafik och bilder som kräver insyn.",
+      "href": "/compress-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Ett modernt webbformat som kan ge effektiv komprimering med valfri transparens.",
+      "href": "/compress-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Tillgängligt för stödda konverteringsarbetsflöden när serverns körtid kan koda och verifiera den.",
+      "href": "/jpg-till-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Komprimera, ändra storlek, konvertera och optimera bilder online",
+  "metaDescription": "Komprimera, ändra storlek, beskära, konvertera och optimera JPG, PNG och WebP bilder online. Använd privata gästverktyg utan konto, med automatisk radering inom en timme.",
+  "heroBadge": "Gratis bildverktyg online för snabbare, renare webbplatser",
+  "h1": "Optimera varje bild i en enkel arbetsyta",
+  "heroParagraph": "Komprimera, ändra storlek, beskära, konvertera och optimera dina bilder utan att installera programvara. Börja gratis utan konto, ha full kontroll över dina filer och ladda ner rena, verifierade resultat med bara några klick.",
+  "uploadHeading": "Släpp en bild här för att komma igång",
+  "uploadSupport": "Ladda upp en JPG, PNG eller WebP bild, eller klistra in en direkt från ditt urklipp.",
+  "chooseImage": "Välj en bild",
+  "pasteHint": "Du kan också klistra in en bild med Ctrl + V eller ⌘ + V",
+  "formatLimitLine": "JPG, PNG och WebP • Upp till {maxFileSize} • Inget konto krävs",
+  "privacyLine": "Dina gästfiler förblir privata och raderas automatiskt inom en timme.",
+  "defaultActionLabel": "Börja med bildkomprimering",
+  "trust": [
+    {
+      "title": "Inget konto krävs",
+      "body": "Använd viktiga bildverktyg direkt som gäst."
+    },
+    {
+      "title": "Privat bearbetning",
+      "body": "Filer finns kvar i skyddad tillfällig lagring."
+    },
+    {
+      "title": "Automatisk radering",
+      "body": "Gästfiler löper ut inom en timme."
+    },
+    {
+      "title": "Verifierade resultat",
+      "body": "Utgångar kontrolleras av servern före nedladdning."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Över 10 miljoner bilder bearbetade",
+      "body": "Pålitliga arbetsflöden för daglig optimering."
+    },
+    {
+      "title": "100 % privat och säkert",
+      "body": "Tillfälligt förråd med kortvarigt tillträde."
+    },
+    {
+      "title": "1 timmes automatisk radering",
+      "body": "Gästfiler löper ut enligt ett fast schema."
+    },
+    {
+      "title": "Ingen vattenstämpel ren nedladdning",
+      "body": "Ladda ner verifierade resultat utan varumärke."
+    }
+  ],
+  "toolsEyebrow": "Allt du behöver",
+  "toolsHeading": "Kraftfulla bildverktyg, redo när du är",
+  "toolsDescription": "Hantera vardagliga bilduppgifter från en ren arbetsyta. Varje verktyg är designat för att vara enkelt för nybörjare och samtidigt ge proffs de kontroller de behöver.",
+  "openTool": "Öppna verktyget",
+  "exploreAllTools": "Utforska alla verktyg",
+  "formatEyebrow": "Populära bilduppgifter",
+  "formatHeading": "Gå direkt till det format du behöver",
+  "formatDescription": "Välj ett dedikerat verktyg för ditt bildformat eller konvertering. Dina föredragna inställningar för källa och utgång är redan valda.",
+  "platformEyebrow": "En privat bildarbetsyta",
+  "platformHeading": "Från uppladdning till nedladdning utan den vanliga komplexiteten",
+  "platformP1": "Img Pilot ger de mest användbara bildarbetsflödena till en konsekvent upplevelse. Du behöver inte lära dig ett annat gränssnitt för varje uppgift. Ladda upp din bild, välj de inställningar som är viktiga, bearbeta den säkert och ladda ner det verifierade resultatet.",
+  "platformP2": "Samma arbetsflöde stöder snabba enbildsjobb, formatspecifika målsidor och utvalda massoperationer. Gästverktyg kräver inget konto, medan inloggade användare kan komma åt projekt och mer långsiktiga arbetsytor.",
+  "platformFeatures": [
+    "En konsekvent verktygsarbetsyta",
+    "Tydlig före- och efterinformation",
+    "Privat tillfällig gästförråd",
+    "Individuella och utvalda bulk-arbetsflöden",
+    "Engelska och urdu-gränssnitt",
+    "Serververifierade utgångar"
+  ],
+  "whyEyebrow": "Byggd kring tydlighet och kontroll",
+  "whyHeading": "Bildverktyg som respekterar din tid och dina filer",
+  "whyIntro": "Varje arbetsflöde är utformat för att ta bort onödiga steg samtidigt som de viktiga kontrollerna hålls synliga. Du vet alltid vad som kommer att hända med din bild, vad resultatet innehåller och när temporära filer kommer att tas bort.",
+  "benefits": [
+    {
+      "title": "Starta omedelbart",
+      "body": "Använd centrala gästverktyg utan registrering, programvaruinstallation eller projektinstallationsprocess."
+    },
+    {
+      "title": "Spara originalet",
+      "body": "Bearbetning skapar ett nytt resultat medan det uppladdade originalet förblir oförändrat."
+    },
+    {
+      "title": "Vet vad som förändrades",
+      "body": "Jämför dimensioner, format och filstorlekar innan du laddar ner det slutliga resultatet."
+    },
+    {
+      "title": "Arbeta över format",
+      "body": "Använd dedikerade arbetsflöden för JPG, PNG och WebP med ärlig formatspecifik hantering."
+    },
+    {
+      "title": "Skydda tillfälliga filer",
+      "body": "Gästbilder och genererade resultat tas bort automatiskt inom lagringsfönstret."
+    },
+    {
+      "title": "Förbered bilder för sökning",
+      "body": "Granska metadata, förbättra filnamn och organisera alt-text för webbplats och CMS användning."
+    }
+  ],
+  "howEyebrow": "Enkelt från början till slut",
+  "howHeading": "Avsluta din bilduppgift i fyra tydliga steg",
+  "steps": [
+    {
+      "title": "Ladda upp din bild",
+      "body": "Välj en bild som stöds, dra den till arbetsytan eller klistra in den från ditt urklipp."
+    },
+    {
+      "title": "Välj Dina inställningar",
+      "body": "Välj format, dimensioner, kvalitet, beskärningsyta eller metadataalternativ som krävs för din uppgift."
+    },
+    {
+      "title": "Bearbeta säkert",
+      "body": "Servern utför och verifierar operationen samtidigt som den visar tydliga framsteg och feltillstånd."
+    },
+    {
+      "title": "Ladda ner resultatet",
+      "body": "Granska de sista detaljerna, ladda ner din fil och bearbeta ytterligare en bild när det behövs."
+    }
+  ],
+  "beforeEyebrow": "Se skillnaden",
+  "beforeHeading": "Se skillnaden innan du laddar ner",
+  "beforeParagraph": "Tydliga resultatsammanfattningar hjälper dig att förstå vad som har förändrats. Jämför originalbilden med den bearbetade versionen, granska filstorlek eller dimensioner och ladda ner endast när resultatet matchar dina behov.",
+  "beforeBullets": [
+    "Originalet förblir säkert medan ett nytt resultat skapas",
+    "Verifierad utgång med ärlig storlek och dimensionsdetaljer"
+  ],
+  "beforeCaption": "Produktillustration — endast exempel. Faktiska besparingar varierar beroende på bild.",
+  "useEyebrow": "Designad för riktigt arbete",
+  "useHeading": "Förbered bilder för webbplatser, innehåll och vardaglig delning",
+  "useCases": [
+    {
+      "title": "Webbplatser",
+      "body": "Minska onödig bildvikt och förbered konsekventa mått för snabbare och renare sidor."
+    },
+    {
+      "title": "Nätbutiker",
+      "body": "Organisera produktbildformat, filnamn, dimensioner och metadata innan du publicerar."
+    },
+    {
+      "title": "Socialt innehåll",
+      "body": "Ändra storlek och beskära bilder till praktiska bildförhållanden för inlägg, miniatyrer och kampanjer."
+    },
+    {
+      "title": "Bloggar och förlag",
+      "body": "Skapa lättare artikelbilder och förbered tillgänglig, beskrivande bildtext."
+    },
+    {
+      "title": "E-post och dokument",
+      "body": "Minska stora filer så att bilder är lättare att bifoga, dela och inkludera i presentationer."
+    },
+    {
+      "title": "Lokal SEO",
+      "body": "Inspektera metadata, lägg till verifierade JPEG-koordinater och organisera bild SEO-information för lokala innehållsarbetsflöden."
+    }
+  ],
+  "seoEyebrow": "Mer än grundläggande redigering",
+  "seoHeading": "Förvandla vanliga bilder till bättre webbplatstillgångar",
+  "seoP1": "Bildoptimering handlar inte bara om att minska filstorleken. Tydliga filnamn, korrekt alternativ text, lämpliga dimensioner och användbar metadata kan göra bildbibliotek lättare att hantera och webbplatsinnehåll mer tillgängligt.",
+  "seoP2": "Img Pilot innehåller verktyg för att inspektera metadata, rita bild SEO fält och exportera information för användning på en webbplats eller CMS.",
+  "seoLinks": [
+    {
+      "href": "/bild-metadata",
+      "label": "Visa bildmetadata"
+    },
+    {
+      "href": "/image-metadata-editor",
+      "label": "Redigera bild SEO Metadata"
+    },
+    {
+      "href": "/geotag-bild",
+      "label": "Geotagga en JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO och tillgänglighetsverktyg ger hjälp och rekommendationer. De garanterar inte sökrankningar eller automatisk efterlevnad.",
+  "bulkEyebrow": "Arbetar du med mer än en bild?",
+  "bulkHeading": "Bearbeta en liten sats utan att upprepa varje steg",
+  "bulkParagraph": "Använd Bulk Image Tools för att komprimera, ändra storlek på eller konvertera flera bilder som stöds med en delad uppsättning alternativ. Granska varje fil separat, ladda ner individuella resultat eller samla framgångsrika utdata i ett ZIP-arkiv.",
+  "bulkBullets": [
+    "Bulk komprimera",
+    "Ändra storlek i bulk",
+    "Bulkkonvertering",
+    "Bearbetningsstatus per fil",
+    "Individuella nedladdningar",
+    "ZIP arkiv för framgångsrika resultat"
+  ],
+  "bulkCta": "Öppna Bulk Image Tools",
+  "bulkNotice": "Massgränser för gäster gäller. Större arbetsflöden kan kräva ett konto.",
+  "privacyEyebrow": "Integritet genom design",
+  "privacyHeading": "Tillfälliga filer bör förbli tillfälliga",
+  "privacyP1": "Gästuppladdningar lagras privat medan ditt valda verktyg fungerar. Din bild, genererade utdata och tillfälliga resultatdata förfaller inom en timme. Nedladdning, uppdatering eller bearbetning förlänger inte denna tidsfrist.",
+  "privacyP2": "Gästsessioner skapar inte ett permanent bildbibliotek. Logga bara in när du behöver projekt eller längre kontofunktioner.",
+  "privacyFacts": [
+    "Privat tillfällig objektförvaring",
+    "Kortlivade förhandsvisningar och nedladdningar",
+    "Ingen webbadress för offentlig gästbild",
+    "Automatisk rengöring",
+    "Ingen permanent gästhistorik",
+    "Originalfilerna förblir oförändrade under bearbetningen"
+  ],
+  "privacyCta": "Läs vår integritetspolicy",
+  "formatsHeading": "Arbeta med de bildformat du använder mest",
+  "formatsParagraph": "Kärna gästverktyg stödjer JPG, PNG och WebP bilder. Tillgängliga utdataformat och metadatafunktioner beror på vald operation och kapaciteten för varje bildformat.",
+  "faqHeading": "Vanliga frågor",
+  "faqs": [
+    {
+      "q": "Behöver jag ett konto för att använda Img Pilot?",
+      "a": "Nej. Grundläggande gästverktyg kan användas utan att skapa ett konto. Gästgränser gäller, och kontofunktioner är tillgängliga när du behöver sparade projekt eller högre arbetsflödesgränser."
+    },
+    {
+      "q": "Hur länge lagras gästbilder?",
+      "a": "Gästbilder och tillfälliga resultat löper ut inom en timme. Nedladdning, uppdatering eller bearbetning förlänger inte denna tidsfrist."
+    },
+    {
+      "q": "Kommer bearbetningen att skriva över min originalbild?",
+      "a": "Nej. Bearbetning skapar ett separat resultat. Det uppladdade originalet förblir oförändrat under den aktiva gästsessionen."
+    },
+    {
+      "q": "Vilka bildformat stöds?",
+      "a": "Kärnverktyg stöder JPG, PNG och WebP. Vissa konverteringsarbetsflöden kan också stödja AVIF när servern kan koda och verifiera resultatet."
+    },
+    {
+      "q": "Kan jag bearbeta flera bilder tillsammans?",
+      "a": "Ja. Bulk Image Tools stöder utvalda komprimera, ändra storlek och konvertera arbetsflöden. Begränsningar för gästpartier gäller."
+    },
+    {
+      "q": "Gör komprimering av en bild den alltid mindre?",
+      "a": "Inte alltid. Den slutliga storleken beror på originalbilden, dess format och de valda inställningarna. Img Pilot rapporterar det faktiska resultatet ärligt, inklusive när en utdata är större."
+    },
+    {
+      "q": "Är alt-text inbäddad i bilden?",
+      "a": "Alt-text läggs normalt till på en webbplats eller CMS-post snarare än universellt inbäddad i bildfilen. Metadataredigeraren hjälper dig att förbereda och exportera den för användning på din webbplats."
+    },
+    {
+      "q": "Garanterar bildoptimering bättre sökrankning?",
+      "a": "Nej. Bildoptimering kan stödja prestanda, organisation och tillgänglighet, men inget individuellt bildverktyg kan garantera sökrankning."
+    }
+  ],
+  "finalHeading": "Din nästa bild är redo att optimeras",
+  "finalParagraph": "Ladda upp en JPG, PNG eller WebP-bild och slutför din uppgift utan att installera programvara eller skapa ett konto.",
+  "finalPrimary": "Välj en bild",
+  "finalSecondary": "Utforska alla verktyg",
+  "finalTrust": "Privat gästbearbetning · Automatisk radering på en timme · Ingen vattenstämpel",
+  "footerBrand": "Privata onlineverktyg för att komprimera, ändra storlek, konvertera och förbereda bilder för webben.",
+  "footerRights": "© {year} Img Pilot. Alla rättigheter reserverade."
+}

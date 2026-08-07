@@ -1,4 +1,4 @@
-# SEO Images
+# Img Pilot
 
 Consumer-first multilingual image SEO platform — free public guest tools plus an authenticated bulk SaaS.
 
@@ -34,33 +34,36 @@ npx tsx scripts/verify-guest-cutover-live.ts
 Rollback build may exist at `.next-pre-v2-cutover` — do not delete until approved.
 
 Open:
-- http://localhost:3000/en — consumer homepage (guest tools)
-- http://localhost:3000/en/compress-image — Compress (guest, no login)
-- http://localhost:3000/en/resize-image — Resize (same GuestToolWorkspace)
-- http://localhost:3000/en/crop-image — Crop (same GuestToolWorkspace + custom editor)
-- http://localhost:3000/en/convert-image — Convert (same GuestToolWorkspace)
-- http://localhost:3000/en/geotag-image — Geotag (JPEG GPS; same GuestToolWorkspace)
-- http://localhost:3000/en/image-metadata — Metadata Viewer (same GuestToolWorkspace; no image derivative)
-- http://localhost:3000/en/ai-alt-text — AI Alt Text (server-side OpenAI when configured)
-- http://localhost:3000/en/image-metadata-editor — Metadata Editor (same workspace; sidecar exports + renamed download)
-- http://localhost:3000/en/bulk-image-tools — Bulk Compress/Resize/Convert + ZIP (guest limits)
+- http://localhost:3000/ — consumer homepage (English, unprefixed)
+- http://localhost:3000/compress-image — Compress (guest, no login)
+- http://localhost:3000/resize-image — Resize (same GuestToolWorkspace)
+- http://localhost:3000/crop-image — Crop (same GuestToolWorkspace + custom editor)
+- http://localhost:3000/convert-image — Convert (same GuestToolWorkspace)
+- http://localhost:3000/geotag-image — Geotag (JPEG GPS; same GuestToolWorkspace)
+- http://localhost:3000/image-metadata — Metadata Viewer (same GuestToolWorkspace; no image derivative)
+- http://localhost:3000/image-metadata-editor — Metadata Editor (same workspace; sidecar exports + renamed download)
+- http://localhost:3000/bulk-image-tools — Bulk Compress/Resize/Convert + ZIP (guest limits)
 - http://localhost:3000/ur — Urdu (RTL) consumer homepage
-- http://localhost:3000/en/pricing — plan limits (Checkout when Price IDs configured)
-- http://localhost:3000/en/docs — public documentation
-- http://localhost:3000/en/login — sign in
-- http://localhost:3000/en/account — account overview (requires sign-in)
-- http://localhost:3000/en/admin — platform ops (super_admin only)
-- http://localhost:3000/en/dashboard — redirects to `/account` (legacy nested project routes remain)
+- http://localhost:3000/es/compress-image — example locale-prefixed tool page
+- http://localhost:3000/ar/compress-image — Arabic (RTL) example
+- http://localhost:3000/pricing — plan limits (Checkout when Price IDs configured)
+- http://localhost:3000/docs — public documentation
+- http://localhost:3000/login — sign in
+- http://localhost:3000/account — account overview (requires sign-in)
+- http://localhost:3000/admin — platform ops (super_admin only)
+- http://localhost:3000/dashboard — redirects to `/account` (legacy nested project routes remain)
 
 ### Public marketing website (Prompt 23)
 
-- Localized public routes under `/[locale]/…` (always-on `en` / `ur`). Root `/` redirects to the default locale.
+- Localized public routes: English unprefixed; other locales under `/[locale]/…` (`localePrefix: "as-needed"`). Legacy `/en/*` permanently redirects to unprefixed English.
 - Marketing layout is separate from dashboard and admin shells (`src/app/[locale]/(marketing)/`).
-- Copy lives in `src/messages/marketing/{en,ur}.json` (source-controlled; no marketing CMS).
+- Layer 1 UI: `src/messages/{locale}.json` + `src/messages/guest/{locale}.json`. Marketing catalogs: `src/content/locales/{locale}/` (homepage, tools, seo-landings) with `_status` for indexability.
+- Translation CLI: `npm run i18n:extract|audit|translate|populate-curated` (see `docs/phase-3-translation-architecture.md`). Incomplete locales stay noindex.
 - Pricing reads the server plan catalog (`getPublicPricingView`) — shows Free + paid **limits**; does **not** invent dollar prices. Paid Checkout CTAs appear only when approved Stripe Price IDs are configured.
-- SEO: `src/server/marketing/seo.ts`, `/sitemap.xml`, `/robots.txt`. Private dashboard/admin routes are noindex and excluded from the sitemap.
+- SEO: `src/server/marketing/seo.ts`, `/sitemap.xml`, `/robots.txt`. Private dashboard/admin routes are noindex and excluded from the sitemap. Hreflang/sitemap honor the translation-quality gate.
+- LLM crawler indexes: `/llms.txt` and `/llms-full.txt` (generated into `public/` from the marketing route registry via `npm run llms:generate`, also on `prebuild`). Omits `/api`, `/dashboard`, `/account`, and `/admin`.
 - Format/convert/crop SEO landings: route registry `src/lib/marketing/tool-landing-registry.ts` + unique body copy `src/lib/marketing/tool-landing-content.ts` (Prompt 14). Sitemap paths come from the registry.
-- Premium homepage copy/layout: `src/lib/marketing/homepage-content.ts` + `src/components/marketing/homepage-view.tsx` (centered upload → Compress).
+- Premium homepage copy/layout: `src/lib/marketing/homepage-content.ts` + `src/components/marketing/homepage-view.tsx` (centered upload → Compress); locale catalogs override when present.
 - Legal pages include accurate product behaviour plus visible “legal review required” placeholders where company/jurisdiction data is missing.
 - Optional `SUPPORT_EMAIL` in `.env.local` for the contact page.
 - Verify: `npx vitest run tests/marketing.test.ts`

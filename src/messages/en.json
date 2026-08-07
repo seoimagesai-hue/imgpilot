@@ -1,6 +1,6 @@
 {
   "common": {
-    "brand": "SEO Images",
+    "brand": "Img Pilot",
     "comingSoon": "Coming soon",
     "openMenu": "Open navigation",
     "closeMenu": "Close navigation",
@@ -52,7 +52,7 @@
     "secureAreaHint": "Protected area — sign in to continue."
   },
   "dashboard": {
-    "welcome": "Welcome to SEO Images",
+    "welcome": "Welcome to Img Pilot",
     "subtitle": "Prepare website images in bulk from one clean workspace.",
     "newProject": "Create project",
     "emptyTitle": "No projects yet",
@@ -750,7 +750,34 @@
   "language": {
     "label": "Interface language",
     "english": "English",
-    "urdu": "Urdu"
+    "urdu": "Urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
   },
   "analytics": {
     "overviewTitle": "Analytics",
@@ -978,7 +1005,7 @@
     "docsLink": "Read the API documentation",
     "keys": {
       "title": "API keys",
-      "subtitle": "Create scoped keys to call the SEO Images API on behalf of this workspace.",
+      "subtitle": "Create scoped keys to call the Img Pilot API on behalf of this workspace.",
       "createTitle": "Create a new API key",
       "name": "Name",
       "namePlaceholder": "e.g. CI pipeline",
@@ -1110,7 +1137,7 @@
   "wordpress": {
     "hub": {
       "title": "Integrations",
-      "subtitle": "Connect SEO Images to external publishing destinations.",
+      "subtitle": "Connect Img Pilot to external publishing destinations.",
       "wordpressCard": "WordPress",
       "wordpressCardDescription": "Publish optimized images with approved metadata directly to a self-hosted WordPress media library.",
       "manage": "Manage WordPress",
@@ -1125,7 +1152,7 @@
       "manageCloudinary": "Manage Cloudinary",
       "comingSoon": "Coming soon",
       "comingSoonNotice": "Webflow support is coming soon.",
-      "webflowScopeNote": "Webflow publishing updates existing CMS collection items only. Webflow Designer automation (layout, styling) and publishing your whole Webflow site are out of scope and are never triggered by SEO Images.",
+      "webflowScopeNote": "Webflow publishing updates existing CMS collection items only. Webflow Designer automation (layout, styling) and publishing your whole Webflow site are out of scope and are never triggered by Img Pilot.",
       "cloudinaryScopeNote": "R2 always remains the private source of truth for your images. Cloudinary is an optional, additional publish destination — depending on the delivery type you choose, images published there may be publicly accessible, and nothing published to Cloudinary is ever deleted remotely by disconnecting a connection or deleting your SaaS project."
     },
     "title": "WordPress connections",
@@ -1149,7 +1176,7 @@
     "siteUrlPlaceholder": "https://example.com",
     "siteUrlHint": "The site's public HTTPS URL, e.g. https://example.com. WordPress must be self-hosted and reachable.",
     "username": "WordPress username",
-    "usernamePlaceholder": "e.g. seoimages-publisher",
+    "usernamePlaceholder": "e.g. img-pilot-publisher",
     "applicationPassword": "Application Password",
     "applicationPasswordPlaceholder": "xxxx xxxx xxxx xxxx xxxx xxxx",
     "applicationPasswordHint": "Create a dedicated Application Password in WordPress under Users → Profile → Application Passwords. Never use your main account password.",
@@ -1383,7 +1410,7 @@
       "search": "Search",
       "searching": "Searching…",
       "productSearchEmpty": "No matching products found. Publishing only works with products that already exist in Shopify.",
-      "productSearchHint": "Search and select an existing Shopify product. Products are never created by SEO Images.",
+      "productSearchHint": "Search and select an existing Shopify product. Products are never created by Img Pilot.",
       "productSearchChange": "Change product",
       "productSelected": "Selected product",
       "noProductSelected": "No product selected yet.",
@@ -1577,7 +1604,7 @@
       "search": "Search",
       "searching": "Searching…",
       "empty": "No matching CMS items found. Publishing only works with items that already exist in this Webflow collection.",
-      "hint": "Search and select an existing CMS item in the mapped collection. Items are never created by SEO Images.",
+      "hint": "Search and select an existing CMS item in the mapped collection. Items are never created by Img Pilot.",
       "change": "Change item",
       "selected": "Selected item",
       "selectCollectionFirst": "Choose a collection mapping above to search its CMS items.",
@@ -1877,7 +1904,7 @@
     "backToAutomation": "Back to automation",
     "backToWorkflow": "Back to workflow",
     "docsLink": "Read the automation documentation",
-    "orchestrationNote": "Workflows only orchestrate existing SEO Images features. R2 always remains the private source of truth for originals and derivatives.",
+    "orchestrationNote": "Workflows only orchestrate existing Img Pilot features. R2 always remains the private source of truth for originals and derivatives.",
     "r2SourceOfTruthNote": "Automation never deletes, moves, or replaces files in R2. Publishing and exports remain optional downstream steps.",
     "createTitle": "Create workflow",
     "editTitle": "Edit workflow",
@@ -1992,22 +2019,22 @@
       "disabled": "Disabled"
     },
     "triggerValues": {
-      "image.uploaded": "Image uploaded",
-      "image.validated": "Image validated",
-      "metadata.approved": "Metadata approved",
-      "processing.completed": "Processing completed",
-      "bulk.processing.completed": "Bulk processing completed",
-      "image.published": "Image published",
+      "image_uploaded": "Image uploaded",
+      "image_validated": "Image validated",
+      "metadata_approved": "Metadata approved",
+      "processing_completed": "Processing completed",
+      "bulk_processing_completed": "Bulk processing completed",
+      "image_published": "Image published",
       "manual": "Manual",
       "scheduled": "Scheduled"
     },
     "triggerHints": {
-      "image.uploaded": "Fires after a new image is confirmed in R2.",
-      "image.validated": "Fires after trusted server-side validation succeeds.",
-      "metadata.approved": "Fires when a human approves metadata for an image.",
-      "processing.completed": "Fires when an optimize, resize, or convert job finishes.",
-      "bulk.processing.completed": "Fires when a bulk processing batch completes.",
-      "image.published": "Fires when an integration publish completes (Cloudinary, WordPress, etc.).",
+      "image_uploaded": "Fires after a new image is confirmed in R2.",
+      "image_validated": "Fires after trusted server-side validation succeeds.",
+      "metadata_approved": "Fires when a human approves metadata for an image.",
+      "processing_completed": "Fires when an optimize, resize, or convert job finishes.",
+      "bulk_processing_completed": "Fires when a bulk processing batch completes.",
+      "image_published": "Fires when an integration publish completes (Cloudinary, WordPress, etc.).",
       "manual": "Run only when started from the dashboard or API.",
       "scheduled": "Runs on a fixed hourly, daily, or weekly schedule."
     },
@@ -2530,11 +2557,11 @@
       "viewOnly": "You can view comments but not post."
     },
     "verbs": {
-      "metadata.approved": "Metadata approved",
-      "ai_batch.created": "AI batch started",
-      "ai_batch.completed": "AI batch finished",
-      "comment.created": "Comment added",
-      "thread.resolved": "Comment thread resolved"
+      "metadata_approved": "Metadata approved",
+      "ai_batch_created": "AI batch started",
+      "ai_batch_completed": "AI batch finished",
+      "comment_created": "Comment added",
+      "thread_resolved": "Comment thread resolved"
     },
     "errors": {
       "COLLABORATION_PERMISSION_DENIED": "You do not have permission for this action.",
@@ -2567,7 +2594,8 @@
       "billing": "Billing",
       "history": "Processing history",
       "help": "Help",
-      "signOut": "Sign out"
+      "signOut": "Sign out",
+      "usageLeft": "{left} operations left"
     },
     "banner": {
       "signedIn": "You are signed in. Your account limits are now active.",
@@ -2619,6 +2647,44 @@
       "deleteTitle": "Delete account",
       "deleteRequest": "To request account deletion, contact support. Self-serve deletion is not available yet.",
       "contactSupport": "Contact support"
+    }
+  },
+  "chrome": {
+    "imageTools": "Image Tools",
+    "compress": "Compress",
+    "resize": "Resize",
+    "convert": "Convert",
+    "seoTools": "SEO Tools",
+    "bulkTools": "Bulk Tools",
+    "openAppGrid": "Open tools menu",
+    "appGridTitle": "Tools and resources",
+    "languageHint": "Language preference",
+    "menu": "Menu",
+    "close": "Close",
+    "footerBlurb": "Private online tools for compressing, resizing, converting and preparing images for the web.",
+    "popularFormats": "Popular Formats",
+    "company": "Company",
+    "resources": "Resources",
+    "rights": "All rights reserved."
+  },
+  "marketing": {
+    "docs": {
+      "navLabel": "Documentation",
+      "hubTitle": "Documentation",
+      "hubIntro": "Guides for the Img Pilot API, webhooks, integrations, AI batches, automation and collaboration.",
+      "hubSeoTitle": "Documentation — Img Pilot API, Integrations & Workflows",
+      "hubSeoDescription": "Read Img Pilot docs for the public API, webhooks, WordPress, Shopify, Webflow, Cloudinary, AI metadata batches, automation and collaboration.",
+      "api": "API",
+      "webhooks": "Webhooks",
+      "wordpress": "WordPress",
+      "shopify": "Shopify",
+      "webflow": "Webflow",
+      "cloudinary": "Cloudinary",
+      "aiBatches": "AI batches",
+      "automation": "Automation",
+      "collaboration": "Collaboration",
+      "prev": "Previous",
+      "next": "Next"
     }
   }
 }

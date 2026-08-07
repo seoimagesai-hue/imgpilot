@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * PNG → JPG landing — transparency flatten / universal compatibility focus
  * (distinct from WebP↔JPG and PNG→WebP preserve-alpha stories).
@@ -95,7 +96,7 @@ export type PngToJpgCopy = {
 };
 
 const en: PngToJpgCopy = {
-  metaTitle: "Convert PNG to JPG Online Free | SEO Images",
+  metaTitle: "Convert PNG to JPG Online Free | Img Pilot",
   metaDescription:
     "Convert PNG images to JPG online for smaller file sizes and universal compatibility. Secure browser-based conversion with instant download.",
   h1: "Convert PNG to JPG Online",
@@ -318,7 +319,7 @@ const en: PngToJpgCopy = {
 };
 
 const ur: PngToJpgCopy = {
-  metaTitle: "آن لائن PNG کو JPG میں تبدیل کریں مفت | SEO Images",
+  metaTitle: "آن لائن PNG کو JPG میں تبدیل کریں مفت | Img Pilot",
   metaDescription:
     "چھوٹی فائل سائز اور عالمگیر مطابقت کے لیے PNG تصاویر آن لائن JPG میں تبدیل کریں۔ محفوظ براؤزر پر مبنی کنورژن اور فوری ڈاؤن لوڈ۔",
   h1: "آن لائن PNG کو JPG میں تبدیل کریں",
@@ -541,7 +542,7 @@ const ur: PngToJpgCopy = {
 };
 
 export function getPngToJpgCopy(locale: string): PngToJpgCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function pngToJpgSeoCompat() {

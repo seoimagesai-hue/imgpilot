@@ -1,3 +1,4 @@
+import {isRtlLocale} from "@/i18n/routing";
 import Image from "next/image";
 import {Link} from "@/i18n/navigation";
 import {GuestToolWorkspace} from "@/components/guest/guest-tool-workspace";
@@ -10,7 +11,7 @@ import {
 import {Breadcrumbs} from "@/components/marketing/landing-sections";
 import {JsonLd} from "@/components/marketing/json-ld";
 import {getCropImageCopy} from "@/lib/marketing/crop-image-landing-content";
-import {getPublicAppOrigin} from "@/server/marketing/seo";
+import {absoluteUrl, getPublicAppOrigin} from "@/server/marketing/seo";
 
 function Eyebrow({children}: {children: string}) {
   return (
@@ -143,8 +144,8 @@ export function CropImageLandingView({locale}: {locale: string}) {
   const copy = getCropImageCopy(locale);
   const origin = getPublicAppOrigin();
   const path = "/crop-image";
-  const pageUrl = `${origin}/${locale}${path}`;
-  const isRtl = locale === "ur";
+  const pageUrl = absoluteUrl(locale, path);
+  const isRtl = isRtlLocale(locale);
 
   const crumbs = [
     {href: "/", label: isRtl ? "ہوم" : "Home"},
@@ -172,7 +173,7 @@ export function CropImageLandingView({locale}: {locale: string}) {
         "@type": "ListItem",
         position: index + 1,
         name: crumb.name,
-        item: `${origin}/${locale}${crumb.path === "/" ? "" : crumb.path}`,
+        item: absoluteUrl(locale, crumb.path),
       })),
     },
     {
@@ -187,7 +188,7 @@ export function CropImageLandingView({locale}: {locale: string}) {
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "SEO Images",
+      name: "Img Pilot",
       url: origin,
     },
   ];

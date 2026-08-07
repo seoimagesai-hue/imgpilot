@@ -1,0 +1,48 @@
+# Img Pilot
+> Compress, resize, crop, convert and optimize JPG, PNG and WebP images online. Use private guest tools without an account, with automatic deletion within one hour.
+Img Pilot provides guest-friendly image tools with private temporary storage and automatic cleanup. Dashboard, admin, account and API endpoints are intentionally omitted from this file.
+For the complete public URL list, see [llms-full.txt](http://localhost:3000/llms-full.txt).
+## Home
+
+- [Homepage](http://localhost:3000/): Compress, resize, crop, convert and optimize JPG, PNG and WebP images online. Use private guest tools without an account, with automatic deletion within one hour.
+
+## Image tools
+
+- [Blur Region Online](http://localhost:3000/blur-region): Manually blur a region of JPG, PNG or WebP images to hide faces, plates or other details. Private guest tool.
+- [Bulk Compress Images Online](http://localhost:3000/bulk-compress): Compress multiple images online and download successful results together. Guest bulk limits apply.
+- [Bulk Convert Images Online](http://localhost:3000/bulk-convert): Convert multiple images online and download successful results together. Guest bulk limits apply.
+- [Bulk Image Tools](http://localhost:3000/bulk-image-tools): Compress, resize or convert several images and download successful results together. Guest bulk limits apply.
+- [Bulk Resize Images Online](http://localhost:3000/bulk-resize): Resize multiple images online and download successful results together. Guest bulk limits apply.
+- [Compress Images Online](http://localhost:3000/compress-image): Compress images online without losing quality. Reduce JPG, PNG and WebP file size with private guest processing and automatic deletion within one hour.
+- [Convert Images Online](http://localhost:3000/convert-image): Convert between JPG, PNG, WebP and supported AVIF formats online. Private guest conversion with verified outputs.
+- [Crop Images Online](http://localhost:3000/crop-image): Crop JPG, PNG and WebP images online with free or fixed-ratio controls. Private guest processing, no account required.
+- [Geotag Images Online](http://localhost:3000/geotag-image): Read or write verified GPS coordinates on compatible JPEG images. Private guest geotag tool.
+- [Image Metadata Viewer](http://localhost:3000/image-metadata): Inspect dimensions, color info and safe allow-listed metadata for JPG, PNG and WebP. Private guest viewer.
+- [Image SEO Metadata Editor](http://localhost:3000/image-metadata-editor): Write, review and export image SEO fields for websites and CMS workflows. Private guest metadata editor.
+- [Meme Generator Online](http://localhost:3000/meme-generator): Add classic top and bottom meme captions to JPG, PNG or WebP images. Free guest meme generator.
+- [Resize Images Online](http://localhost:3000/resize-image): Resize JPG, PNG and WebP images online by width, height or fit-inside. Private guest tool with no account required.
+- [Rotate Images Online](http://localhost:3000/rotate-image): Rotate images by 90°, 180° or 270° and flip horizontally or vertically. Free guest tool with private temporary storage.
+- [Watermark Images Online](http://localhost:3000/watermark-image): Stamp short text watermarks on JPG, PNG and WebP with position and opacity controls. Private guest tool.
+
+## Highlighted SEO landings
+
+- [Compress JPG Online](http://localhost:3000/compress-jpg): Compress JPG images online without losing quality. Reduce JPG file size with private guest processing.
+- [Compress PNG Online](http://localhost:3000/compress-png): Compress PNG images online without losing quality. Reduce PNG file size with private guest processing.
+- [Compress WebP Online](http://localhost:3000/compress-webp): Compress WebP images online without losing quality. Reduce WebP file size with private guest processing.
+- [Crop an image to square](http://localhost:3000/crop-image-square): Crop images to a square 1:1 aspect ratio with the shared crop engine.
+- [Crop JPG Online](http://localhost:3000/crop-jpg): Crop JPG images online with free or fixed-ratio controls. Private guest processing, no account required.
+- [Crop PNG Online](http://localhost:3000/crop-png): Crop PNG images online with free or fixed-ratio controls. Private guest processing, no account required.
+- [Crop WebP Online](http://localhost:3000/crop-webp): Crop WebP images online with free or fixed-ratio controls. Private guest processing, no account required.
+- [Convert JPG to AVIF Online](http://localhost:3000/jpg-to-avif): Convert JPG images to AVIF online when encoding is available. Private guest conversion.
+- [Convert JPG to PNG Online](http://localhost:3000/jpg-to-png): Convert JPG images to PNG online. Private guest conversion with verified outputs.
+- [Convert JPG to WebP Online](http://localhost:3000/jpg-to-webp): Convert JPG images to WebP online for faster websites. Private guest conversion with verified outputs.
+- [Convert PNG to AVIF Online](http://localhost:3000/png-to-avif): Convert PNG images to AVIF online when encoding is available. Private guest conversion.
+- [Convert PNG to JPG Online](http://localhost:3000/png-to-jpg): Convert PNG images to JPG online. Private guest conversion with verified outputs.
+
+## Docs & company
+
+- [Contact](http://localhost:3000/contact): Need help with Img Pilot? Contact our support team for questions about image optimization, accounts and browser-based tools.
+- [Documentation](http://localhost:3000/docs): Guides for the Img Pilot API, webhooks, CMS integrations, AI batches, automation and collaboration.
+- [Pricing](http://localhost:3000/pricing): Compare Img Pilot Guest, Free and Pro plans, processing limits, bulk capacity and paid checkout availability.
+- [Privacy Policy](http://localhost:3000/privacy): Learn how Img Pilot collects, uses, stores and protects your information when you use our browser-based image tools.
+- [Terms & Conditions](http://localhost:3000/terms): Terms of use for Img Pilot guest tools and accounts.

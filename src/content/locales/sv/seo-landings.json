@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "ändra storlek",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Exakta bildmått med populära plattformsstorlekar",
+        "Lås för bildförhållande för att förhindra distorsion",
+        "Privat tillfällig gästförråd"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka JPG-filer accepteras?",
+          "a": "Den här sidan prioriterar JPG. Andra format kan avvisas här - använd det generiska verktyget Ändra storlek för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "ändra storlek-jpg",
+      "title": "Ändra storlek JPG Bilder online gratis | Img Pilot",
+      "description": "Ändra storlek på JPG bilder online genom att välja anpassade mått eller populära förinställningar. Justera bredd, höjd och kvalitet och ladda sedan ner din ändrade storlek JPG säkert.",
+      "h1": "Ändra storlek JPG Bilder online",
+      "intro": "Ändra storlek på JPG bilder till de exakta mått du behöver utan att installera någon programvara. Ladda upp ett foto, välj en förinställning eller ange en anpassad bredd och höjd och ladda sedan ner din storleksändring JPG på några sekunder.",
+      "related": [
+        "komprimera-jpg",
+        "jpg-till-webp",
+        "beskära-jpg",
+        "ändra storlek-png",
+        "png-till-jpg",
+        "bulk-bild-verktyg"
+      ],
+      "howTo": [
+        "Ladda upp en JPG",
+        "Välj metod eller förinställning",
+        "Behandla",
+        "Ladda ner den ändrade storleken JPG"
+      ]
+    },
+    "resize-png": {
+      "operation": "ändra storlek",
+      "sourceFormat": "png",
+      "howTo": [
+        "Ladda upp en PNG",
+        "Ställ in mått eller förinställ",
+        "Behandla",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka PNG-filer accepteras?",
+          "a": "Den här sidan prioriterar PNG. Andra format kan avvisas här - använd det generiska verktyget Ändra storlek för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "ändra storlek-png",
+      "title": "Ändra storlek PNG Bilder online gratis | Img Pilot",
+      "description": "Ändra storlek på PNG bilder online samtidigt som transparensen bevaras. Ändra bilddimensioner säkert och ladda ner din ändrade storlek PNG på några sekunder.",
+      "h1": "Ändra storlek PNG Bilder online",
+      "intro": "Ändra storlek på PNG bilder utan att förlora transparens för logotyper, UI-grafik, ikoner och skärmdumpar.",
+      "related": [
+        "komprimera-png",
+        "png-till-jpg",
+        "png-till-webp",
+        "beskära-png",
+        "ändra storlek-jpg",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Transparensbevarande PNG ändra storlek",
+        "Designförinställningar för logotyper, ikoner och favoritikoner",
+        "Privat tillfällig gästbearbetning"
+      ]
+    },
+    "resize-webp": {
+      "operation": "ändra storlek",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Ladda upp en WebP",
+        "Välj storleksalternativ",
+        "Behandla",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka WebP-filer accepteras?",
+          "a": "Den här sidan prioriterar WebP. Andra format kan avvisas här - använd det generiska verktyget Ändra storlek för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "ändra storlek-webp",
+      "title": "Ändra storlek WebP Bilder online gratis | Img Pilot",
+      "description": "Ändra storlek på WebP bilder online för responsiva webbplatser, bloggar och mobila enheter. Ändra dimensioner på ett säkert sätt och ladda ner bilder med ändrad storlek WebP direkt.",
+      "h1": "Ändra storlek WebP Bilder online",
+      "intro": "Ändra storlek på WebP bilder för responsiva layouter, mobila enheter och moderna webbplatser samtidigt som WebP effektivitet.",
+      "related": [
+        "komprimera-webp",
+        "webp-till-jpg",
+        "webp-till-png",
+        "ändra storlek-jpg",
+        "ändra storlek-png",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Responsiv WebP dimensionskontroll",
+        "Delad gäst Ändra storlek på pipeline",
+        "Privat tillfällig förvaring med automatisk städning"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "komprimera",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Ladda upp en JPG",
+        "Välj en kvalitetsförinställning",
+        "Komprimera",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka JPG-filer accepteras?",
+          "a": "Den här sidan prioriterar JPG. Andra format kan avvisas här - använd det generiska komprimeringsverktyget för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "komprimera-jpg",
+      "title": "Komprimera JPG bilder online gratis | Img Pilot",
+      "description": "Komprimera JPG bilder online och minska filstorleken med justerbara kvalitetskontroller. Förhandsgranska resultatet och ladda ner en mindre optimerad JPG säkert.",
+      "h1": "Komprimera JPG bilder online",
+      "intro": "Minska filstorleken på JPG-bilder direkt i din webbläsare utan att installera komplicerad programvara.",
+      "related": [
+        "ändra storlek-jpg",
+        "jpg-till-webp",
+        "beskära-jpg",
+        "jpg-till-png",
+        "webp-till-jpg",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Justerbara JPG kvalitetsförinställningar",
+        "Privat tillfällig gästbearbetning",
+        "Originalbilden förblir oförändrad"
+      ]
+    },
+    "compress-png": {
+      "operation": "komprimera",
+      "sourceFormat": "png",
+      "howTo": [
+        "Ladda upp en PNG",
+        "Välj kvalitet",
+        "Komprimera",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka PNG-filer accepteras?",
+          "a": "Den här sidan prioriterar PNG. Andra format kan avvisas här - använd det generiska komprimeringsverktyget för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "komprimera-png",
+      "title": "Komprimera PNG bilder online gratis | Img Pilot",
+      "description": "Komprimera PNG bilder online samtidigt som transparensen bevaras. Minska filstorleken PNG säkert och ladda ner en optimerad bild på några sekunder.",
+      "h1": "Komprimera PNG bilder online",
+      "intro": "Minska PNG bildfilstorleken utan att offra transparens eller bildskärpa.",
+      "related": [
+        "komprimera-jpg",
+        "ändra storlek-png",
+        "png-till-jpg",
+        "png-till-webp",
+        "beskära-png",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Transparensbevarande PNG-komprimering",
+        "Byggd för logotyper, UI-grafik och skärmdumpar",
+        "Privat tillfällig gästbearbetning"
+      ]
+    },
+    "compress-webp": {
+      "operation": "komprimera",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Ladda upp en WebP",
+        "Välj kvalitet",
+        "Komprimera",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka WebP-filer accepteras?",
+          "a": "Den här sidan prioriterar WebP. Andra format kan avvisas här - använd det generiska komprimeringsverktyget för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "komprimera-webp",
+      "title": "Komprimera WebP bilder online gratis | Img Pilot",
+      "description": "Komprimera WebP bilder online för att minska filstorleken samtidigt som kvaliteten bibehålls. Förbättra webbplatsens hastighet med säker webbläsarbaserad WebP-optimering.",
+      "h1": "Komprimera WebP bilder online",
+      "intro": "Minska redan exporterade WebP filstorlek samtidigt som du behåller tydlig visuell kvalitet för webbplatser, målsidor och mobilappar.",
+      "related": [
+        "ändra storlek-webp",
+        "webp-till-jpg",
+        "webp-till-png",
+        "komprimera-jpg",
+        "komprimera-png",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Optimera modern WebP export ytterligare",
+        "Delad gäst Komprimera kvalitetsförinställningar",
+        "Privat tillfällig förvaring med automatisk städning"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "beskära",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Vilka JPG-filer accepteras?",
+          "a": "Den här sidan prioriterar JPG. Andra format kan avvisas här - använd det generiska beskärningsverktyget för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "beskära-jpg",
+      "title": "Beskär JPG bilder online gratis | Img Pilot",
+      "description": "Beskär JPG bilder online med exakta beskärningskontroller och populära bildförhållanden. Ladda ner din beskurna bild säkert på några sekunder.",
+      "h1": "Beskär JPG bilder online",
+      "intro": "Ta bort oönskade områden, lås vanliga bildförhållanden och ladda ner en ny JPG utan att ändra originalet.",
+      "related": [
+        "ändra storlek-jpg",
+        "komprimera-jpg",
+        "jpg-till-webp",
+        "ändra storlek-png",
+        "beskära-png",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Exakta beskärningshandtag",
+        "Populära bildförhållanden",
+        "Socialt redo inramning",
+        "Privat tillfällig förvaring",
+        "Originalbilden förblir säker"
+      ],
+      "howTo": [
+        "Ladda upp en JPG",
+        "Välj beskärningsområdet",
+        "Förhandsgranska komposition",
+        "Ladda ner den beskurna JPG"
+      ]
+    },
+    "crop-png": {
+      "operation": "beskära",
+      "sourceFormat": "png",
+      "howTo": [
+        "Ladda upp en PNG",
+        "Ställ in odlingsregionen",
+        "Behandla",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka PNG-filer accepteras?",
+          "a": "Den här sidan prioriterar PNG. Andra format kan avvisas här - använd det generiska beskärningsverktyget för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "beskära-png",
+      "title": "Beskär PNG bilder online gratis | Img Pilot",
+      "description": "Beskär PNG bilder online samtidigt som du behåller genomskinliga bakgrunder. Ta bort oönskade områden och ladda ner en exakt beskuren PNG säkert.",
+      "h1": "Beskär PNG bilder online",
+      "intro": "Beskär genomskinliga PNG-logotyper, ikoner och UI-grafik samtidigt som du behåller alfa intakt.",
+      "related": [
+        "ändra storlek-png",
+        "komprimera-png",
+        "png-till-webp",
+        "png-till-jpg",
+        "beskära-jpg",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Transparensbevarande PNG beskärning",
+        "Delad gästCrop-motor och förhållanden",
+        "Privat tillfällig förvaring med automatisk städning"
+      ]
+    },
+    "crop-webp": {
+      "operation": "beskära",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Ladda upp en WebP",
+        "Välj beskärningsområdet",
+        "Behandla",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Vilka WebP-filer accepteras?",
+          "a": "Den här sidan prioriterar WebP. Andra format kan avvisas här - använd det generiska beskärningsverktyget för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "beskära-webp",
+      "title": "Beskär WebP bilder online gratis | Img Pilot",
+      "description": "Beskär WebP bilder online med exakta beskärningskontroller och populära bildförhållanden. Skapa webbförberedda bilder och ladda ner dem säkert på några sekunder.",
+      "h1": "Beskär WebP bilder online",
+      "intro": "Beskär moderna WebP-bilder för responsiva webbplatser, målsidor och e-handel samtidigt som du behåller ett webboptimerat format.",
+      "related": [
+        "ändra storlek-webp",
+        "komprimera-webp",
+        "webp-till-jpg",
+        "webp-till-png",
+        "beskära-jpg",
+        "beskära-png"
+      ],
+      "benefits": [
+        "WebP-första skörden för modern leverans",
+        "Delad gästskördmotor och ärliga förhållanden",
+        "Privat tillfällig förvaring med automatisk städning"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "beskära",
+      "howTo": [
+        "Ladda upp en bild",
+        "Justera den kvadratiska beskärningen",
+        "Behandla",
+        "Ladda ner"
+      ],
+      "faqs": [
+        {
+          "q": "Ingår Exakt plattformsstorlek för Instagram?",
+          "a": "Inte på den här sidan. Dedikerade sidor i social storlek skjuts upp tills daterade förinställningar godkänns."
+        },
+        {
+          "q": "Vilka dina bildfiler accepteras?",
+          "a": "Den här sidan prioriterar din bild. Andra format kan avvisas här - använd det generiska beskärningsverktyget för blandade format."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästverktyg fungerar utan inloggning inom gratis dagliga gränser."
+        },
+        {
+          "q": "Är behandlingen privat?",
+          "a": "Uppladdningar går till privat lagring och tillfälliga gästfiler upphör att gälla efter ungefär en timme."
+        }
+      ],
+      "slug": "beskär-bild-kvadrat",
+      "cropAspect": "1:1",
+      "title": "Beskär bild till kvadrat — Gratis 1:1 beskärningsverktyg",
+      "description": "Beskär bilder till ett fyrkantigt bildförhållande på 1:1 med den delade beskärningsmotorn.",
+      "h1": "Beskär en bild till kvadrat",
+      "intro": "Börjar med ett 1:1 aspektlås. Du kan fortfarande ändra förhållandet i editorn om det behövs.",
+      "related": [
+        "beskära-jpg",
+        "beskära-png",
+        "ändra storlek på bilden",
+        "komprimera-bild"
+      ],
+      "benefits": [
+        "Standard är 1:1",
+        "Fungerar med JPEG, PNG och WebP",
+        "Samma sekretessmodell som andra gästverktyg"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "konvertera",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "jpg-till-png",
+      "title": "JPG till PNG Converter — Gratis online",
+      "description": "Konvertera JPG till PNG. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera JPG till PNG",
+      "intro": "Skapa en PNG från en JPG med den delade konverteringsmotorn.",
+      "related": [
+        "png-till-jpg",
+        "jpg-till-webp",
+        "komprimera-png",
+        "ändra storlek-png"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av JPEG till PNG min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "konvertera",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "jpg-till-webp",
+      "title": "Konvertera JPG till WebP Online gratis | Img Pilot",
+      "description": "Konvertera JPG till WebP Online. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera JPG till WebP Online",
+      "intro": "Konvertera JPG-foton till WebP för snabbare webbplatser, mindre leveransfiler och starkare Core Web Vitals när webbläsare stöder moderna format.",
+      "related": [
+        "webp-till-jpg",
+        "komprimera-jpg",
+        "ändra storlek-jpg",
+        "beskära-jpg",
+        "png-till-webp",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av JPEG till WEBP min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "konvertera",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "jpg-till-avif",
+      "title": "JPG till AVIF Converter — Gratis online",
+      "description": "Konvertera JPG till AVIF. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera JPG till AVIF",
+      "intro": "AVIF-kodning erbjuds endast när denna servers kodare stöder det. Annars förblir kontrollen blockerad ärligt talat.",
+      "related": [
+        "jpg-till-webp",
+        "png-till-avif",
+        "komprimera-jpg",
+        "konvertera-bild"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av JPEG till AVIF min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "konvertera",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "png-till-jpg",
+      "title": "Konvertera PNG till JPG Online gratis | Img Pilot",
+      "description": "Konvertera PNG till JPG Online. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera PNG till JPG Online",
+      "intro": "Platta till genomskinliga PNGs till universellt kompatibla JPG-filer när alfa inte längre behövs.",
+      "related": [
+        "png-till-webp",
+        "ändra storlek-png",
+        "komprimera-png",
+        "jpg-till-webp",
+        "webp-till-jpg",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av PNG till JPEG min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "konvertera",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "png-till-webp",
+      "title": "Konvertera PNG till WebP Online gratis | Img Pilot",
+      "description": "Konvertera PNG till WebP Online. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera PNG till WebP Online",
+      "intro": "Konvertera PNG-bilder till WebP online samtidigt som transparensen bevaras. Skapa mindre webbförberedda bilder för snabbare webbplatser med säker webbläsarbaserad konvertering.",
+      "related": [
+        "webp-till-png",
+        "png-till-jpg",
+        "komprimera-png",
+        "ändra storlek-png",
+        "jpg-till-webp",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av PNG till WEBP min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "konvertera",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "png-till-avif",
+      "title": "PNG till AVIF Converter — Gratis online",
+      "description": "Konvertera PNG till AVIF. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera PNG till AVIF",
+      "intro": "Konvertera PNG till AVIF när kodarstöd är tillgängligt för denna distribution.",
+      "related": [
+        "png-till-webp",
+        "jpg-till-avif",
+        "komprimera-png",
+        "konvertera-bild"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av PNG till AVIF min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "konvertera",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "webp-till-jpg",
+      "title": "Konvertera WebP till JPG Online gratis | Img Pilot",
+      "description": "Konvertera WebP till JPG Online. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera WebP till JPG Online",
+      "intro": "Konvertera WebP bilder till JPG för maximal kompatibilitet med e-post, dokument, CMS uppladdningar och äldre programvara.",
+      "related": [
+        "jpg-till-webp",
+        "png-till-jpg",
+        "komprimera-jpg",
+        "ändra storlek-jpg",
+        "beskära-jpg",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av WEBP till JPEG min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "konvertera",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "webp-till-png",
+      "title": "Konvertera WebP till PNG Online gratis | Img Pilot",
+      "description": "Konvertera WebP till PNG Online. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera WebP till PNG Online",
+      "intro": "Konvertera WebP-bilder till PNG online samtidigt som transparens och bildkvalitet bevaras för design och redigering av arbetsflöden.",
+      "related": [
+        "png-till-webp",
+        "png-till-jpg",
+        "webp-till-jpg",
+        "ändra storlek-png",
+        "komprimera-png",
+        "bulk-bild-verktyg"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av WEBP till PNG min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "konvertera",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Ladda upp källbilden",
+        "Bekräfta målformatet",
+        "Konvertera",
+        "Ladda ner"
+      ],
+      "slug": "webp-till-avif",
+      "title": "WebP till AVIF Converter — Gratis online",
+      "description": "Konvertera WebP till AVIF. Privat gästkonvertering med en timmes tillfällig retention.",
+      "h1": "Konvertera WebP till AVIF",
+      "intro": "Konvertera WebP till AVIF endast när AVIF-kodning stöds här.",
+      "related": [
+        "webp-till-jpg",
+        "png-till-avif",
+        "komprimera-webp",
+        "konvertera-bild"
+      ],
+      "benefits": [
+        "Använder endast den stödda konverteringsmatrisen",
+        "Samma gästsession och rensningsregler som Konvertera bild",
+        "Inga uppfunna ostödda par"
+      ],
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av WEBP till AVIF min originalfil?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Hur länge lagras den konverterade filen?",
+          "a": "Gästfiler raderas ungefär en timme efter att gästsessionen startar. Nedladdningar förlänger inte utgången."
+        },
+        {
+          "q": "Kan jag konvertera flera bilder?",
+          "a": "Använd Bulk Image Tools för flera filer inom bulkgränser för gäst eller inloggad."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/compress-jpg",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Mindre storlek, samma bra kvalitet",
+      "features": [
+        {
+          "title": "Smart kompression",
+          "tone": "blå",
+          "body": "Intelligent komprimering inställd för JPG-bilder."
+        },
+        {
+          "title": "Upp till 80 % mindre",
+          "body": "Minska filstorleken dramatiskt för snabbare uppladdningar och sidladdningar.",
+          "tone": "grön"
+        },
+        {
+          "title": "Perfekt för webben",
+          "body": "Optimera bilder för webbplatser, bloggar och produktsidor.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Kvalitet du kan lita på",
+          "body": "Förhandsgranska före nedladdning så att kvaliteten förblir under din kontroll.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Komprimera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "kind": "privatliv",
+          "body": "Dina bilder bearbetas privat för komprimering och raderas automatiskt inom en timme."
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Hur fungerar JPG-komprimering?",
+          "a": "Verktyget kodar om din JPG med inställningar som minskar filstorleken samtidigt som resultatet blir visuellt användbart."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder JPG upp till 10 MB."
+        },
+        {
+          "q": "Kommer komprimering att minska bildkvaliteten?",
+          "a": "Starkare förinställningar kan mjuka upp fina detaljer. Välj en ljusare förinställning när utseendet är viktigast, och förhandsgranska alltid."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästkomprimering fungerar utan att logga in."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat raderas automatiskt inom en timme."
+        }
+      ],
+      "metaTitle": "Komprimera JPG bilder online gratis | Img Pilot",
+      "metaDescription": "Komprimera JPG bilder online utan att förlora kvalitet. Minska filstorleken JPG med privat gästbearbetning.",
+      "breadcrumbCurrent": "Komprimera JPG Online",
+      "h1": "Komprimera JPG Online",
+      "subtitle": "Minska filstorleken JPG utan att förlora kvalitet",
+      "paragraph": "Komprimera JPG bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: JPG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/compress-png": {
+      "path": "/compress-png",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Mindre storlek, samma bra kvalitet",
+      "features": [
+        {
+          "title": "Smart kompression",
+          "tone": "blå",
+          "body": "Intelligent komprimering inställd för PNG-bilder."
+        },
+        {
+          "title": "Upp till 80 % mindre",
+          "body": "Minska filstorleken dramatiskt för snabbare uppladdningar och sidladdningar.",
+          "tone": "grön"
+        },
+        {
+          "title": "Perfekt för webben",
+          "body": "Optimera bilder för webbplatser, bloggar och produktsidor.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Kvalitet du kan lita på",
+          "body": "Förhandsgranska före nedladdning så att kvaliteten förblir under din kontroll.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Komprimera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "kind": "privatliv",
+          "body": "Dina bilder bearbetas privat för komprimering och raderas automatiskt inom en timme."
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Hur fungerar PNG-komprimering?",
+          "a": "Verktyget kodar om din PNG med inställningar som minskar filstorleken samtidigt som resultatet blir visuellt användbart."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder PNG upp till 10 MB."
+        },
+        {
+          "q": "Kommer komprimering att minska bildkvaliteten?",
+          "a": "Starkare förinställningar kan mjuka upp fina detaljer. Välj en ljusare förinställning när utseendet är viktigast, och förhandsgranska alltid."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästkomprimering fungerar utan att logga in."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat raderas automatiskt inom en timme."
+        }
+      ],
+      "metaTitle": "Komprimera PNG bilder online gratis | Img Pilot",
+      "metaDescription": "Komprimera PNG bilder online utan att förlora kvalitet. Minska filstorleken PNG med privat gästbearbetning.",
+      "breadcrumbCurrent": "Komprimera PNG Online",
+      "h1": "Komprimera PNG Online",
+      "subtitle": "Minska filstorleken PNG utan att förlora kvalitet",
+      "paragraph": "Komprimera PNG bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: PNG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/compress-webp": {
+      "path": "/compress-webp",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Mindre storlek, samma bra kvalitet",
+      "features": [
+        {
+          "title": "Smart kompression",
+          "tone": "blå",
+          "body": "Intelligent komprimering inställd för WebP-bilder."
+        },
+        {
+          "title": "Upp till 80 % mindre",
+          "body": "Minska filstorleken dramatiskt för snabbare uppladdningar och sidladdningar.",
+          "tone": "grön"
+        },
+        {
+          "title": "Perfekt för webben",
+          "body": "Optimera bilder för webbplatser, bloggar och produktsidor.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Kvalitet du kan lita på",
+          "body": "Förhandsgranska före nedladdning så att kvaliteten förblir under din kontroll.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Komprimera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "kind": "privatliv",
+          "body": "Dina bilder bearbetas privat för komprimering och raderas automatiskt inom en timme."
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Hur fungerar WebP-komprimering?",
+          "a": "Verktyget kodar om din WebP med inställningar som minskar filstorleken samtidigt som resultatet blir visuellt användbart."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder WebP upp till 10 MB."
+        },
+        {
+          "q": "Kommer komprimering att minska bildkvaliteten?",
+          "a": "Starkare förinställningar kan mjuka upp fina detaljer. Välj en ljusare förinställning när utseendet är viktigast, och förhandsgranska alltid."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Gästkomprimering fungerar utan att logga in."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat raderas automatiskt inom en timme."
+        }
+      ],
+      "metaTitle": "Komprimera WebP bilder online gratis | Img Pilot",
+      "metaDescription": "Komprimera WebP bilder online utan att förlora kvalitet. Minska filstorleken WebP med privat gästbearbetning.",
+      "breadcrumbCurrent": "Komprimera WebP Online",
+      "h1": "Komprimera WebP Online",
+      "subtitle": "Minska filstorleken WebP utan att förlora kvalitet",
+      "paragraph": "Komprimera WebP bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/resize-jpg": {
+      "path": "/ändra storlek-jpg",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Exakt kontroll, rena resultat",
+      "features": [
+        {
+          "title": "Exakta mått",
+          "body": "Ange bredd och höjd som matchar dina layoutbehov.",
+          "tone": "blå"
+        },
+        {
+          "title": "Passa inuti",
+          "body": "Skala bilder till en ruta med bibehållen bildförhållande.",
+          "tone": "grön"
+        },
+        {
+          "title": "Ingen oönskad uppskalning",
+          "body": "Skyddsräcken hjälper till att undvika att sträcka ut små källor.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Webben redo",
+          "tone": "orange",
+          "body": "Förbered konsekventa JPG storlekar för sidor och rutnät."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Ändra storlek"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder bearbetas privat för storleksändring och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Kan jag behålla bildförhållandet?",
+          "a": "Ja. Använd inpassade eller länkade dimensioner så att bilder skalas rent."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder JPG upp till 10 MB."
+        },
+        {
+          "q": "Kommer storleksändring förstora min bild?",
+          "a": "Som standard undviker arbetsflöden oönskad förstoring."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Ändra storlek som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Ändra storlek JPG Bilder online gratis | Img Pilot",
+      "metaDescription": "Ändra storlek på JPG bilder online efter bredd, höjd eller passform. Privat gästverktyg utan konto krävs.",
+      "breadcrumbCurrent": "Ändra storlek JPG Online",
+      "h1": "Ändra storlek JPG Online",
+      "subtitle": "Ändra JPG dimensioner för webb och sociala medier",
+      "paragraph": "Ändra storlek på JPG bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: JPG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/resize-png": {
+      "path": "/ändra storlek-png",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Exakt kontroll, rena resultat",
+      "features": [
+        {
+          "title": "Exakta mått",
+          "body": "Ange bredd och höjd som matchar dina layoutbehov.",
+          "tone": "blå"
+        },
+        {
+          "title": "Passa inuti",
+          "body": "Skala bilder till en ruta med bibehållen bildförhållande.",
+          "tone": "grön"
+        },
+        {
+          "title": "Ingen oönskad uppskalning",
+          "body": "Skyddsräcken hjälper till att undvika att sträcka ut små källor.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Webben redo",
+          "tone": "orange",
+          "body": "Förbered konsekventa PNG storlekar för sidor och rutnät."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Ändra storlek"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder bearbetas privat för storleksändring och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Kan jag behålla bildförhållandet?",
+          "a": "Ja. Använd inpassade eller länkade dimensioner så att bilder skalas rent."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder PNG upp till 10 MB."
+        },
+        {
+          "q": "Kommer storleksändring förstora min bild?",
+          "a": "Som standard undviker arbetsflöden oönskad förstoring."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Ändra storlek som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Ändra storlek PNG Bilder online gratis | Img Pilot",
+      "metaDescription": "Ändra storlek på PNG bilder online efter bredd, höjd eller passform. Privat gästverktyg utan konto krävs.",
+      "breadcrumbCurrent": "Ändra storlek PNG Online",
+      "h1": "Ändra storlek PNG Online",
+      "subtitle": "Ändra PNG dimensioner för webb och sociala medier",
+      "paragraph": "Ändra storlek på PNG bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: PNG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/resize-webp": {
+      "path": "/ändra storlek-webp",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Exakt kontroll, rena resultat",
+      "features": [
+        {
+          "title": "Exakta mått",
+          "body": "Ange bredd och höjd som matchar dina layoutbehov.",
+          "tone": "blå"
+        },
+        {
+          "title": "Passa inuti",
+          "body": "Skala bilder till en ruta med bibehållen bildförhållande.",
+          "tone": "grön"
+        },
+        {
+          "title": "Ingen oönskad uppskalning",
+          "body": "Skyddsräcken hjälper till att undvika att sträcka ut små källor.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Webben redo",
+          "tone": "orange",
+          "body": "Förbered konsekventa WebP storlekar för sidor och rutnät."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Ändra storlek"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder bearbetas privat för storleksändring och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Kan jag behålla bildförhållandet?",
+          "a": "Ja. Använd inpassade eller länkade dimensioner så att bilder skalas rent."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder WebP upp till 10 MB."
+        },
+        {
+          "q": "Kommer storleksändring förstora min bild?",
+          "a": "Som standard undviker arbetsflöden oönskad förstoring."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Ändra storlek som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Ändra storlek WebP Bilder online gratis | Img Pilot",
+      "metaDescription": "Ändra storlek på WebP bilder online efter bredd, höjd eller passform. Privat gästverktyg utan konto krävs.",
+      "breadcrumbCurrent": "Ändra storlek WebP Online",
+      "h1": "Ändra storlek WebP Online",
+      "subtitle": "Ändra WebP dimensioner för webb och sociala medier",
+      "paragraph": "Ändra storlek på WebP bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Beskär med självförtroende",
+      "features": [
+        {
+          "title": "Gratis gröda",
+          "body": "Välj valfritt område i bilden och behåll exakt det området.",
+          "tone": "blå"
+        },
+        {
+          "title": "Fasta förhållanden",
+          "body": "Använd vanliga bildförhållanden för konsekventa layouter.",
+          "tone": "grön"
+        },
+        {
+          "title": "Orienteringssäker",
+          "body": "Beskärningsmatematiken respekterar orienterade dimensioner efter uppladdning.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Samma format ut",
+          "tone": "orange",
+          "body": "Ladda ner ett beskuret JPG-resultat."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Beskära"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder bearbetas privat för beskärning och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Kan jag beskära till en kvadrat?",
+          "a": "Ja. Välj ett förhållande på 1:1 eller rita en fri gröda."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder JPG upp till 10 MB."
+        },
+        {
+          "q": "Är originalet överskrivet?",
+          "a": "Nej. Bearbetning skapar ett nytt beskuret resultat."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Beskär som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/crop-jpg",
+      "metaTitle": "Beskär JPG bilder online gratis | Img Pilot",
+      "metaDescription": "Beskär JPG bilder online med gratis kontroller eller kontroller med fast proportion. Privat gästbehandling, inget konto krävs.",
+      "breadcrumbCurrent": "Beskär JPG Online",
+      "h1": "Beskär JPG Online",
+      "subtitle": "Behåll bara den del av din JPG som betyder något",
+      "paragraph": "Beskär JPG bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: JPG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/crop-png": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Beskär med självförtroende",
+      "features": [
+        {
+          "title": "Gratis gröda",
+          "body": "Välj valfritt område i bilden och behåll exakt det området.",
+          "tone": "blå"
+        },
+        {
+          "title": "Fasta förhållanden",
+          "body": "Använd vanliga bildförhållanden för konsekventa layouter.",
+          "tone": "grön"
+        },
+        {
+          "title": "Orienteringssäker",
+          "body": "Beskärningsmatematiken respekterar orienterade dimensioner efter uppladdning.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Samma format ut",
+          "tone": "orange",
+          "body": "Ladda ner ett beskuret PNG-resultat."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Beskära"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder bearbetas privat för beskärning och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Kan jag beskära till en kvadrat?",
+          "a": "Ja. Välj ett förhållande på 1:1 eller rita en fri gröda."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder PNG upp till 10 MB."
+        },
+        {
+          "q": "Är originalet överskrivet?",
+          "a": "Nej. Bearbetning skapar ett nytt beskuret resultat."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Beskär som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/crop-png",
+      "metaTitle": "Beskär PNG bilder online gratis | Img Pilot",
+      "metaDescription": "Beskär PNG bilder online med gratis kontroller eller kontroller med fast proportion. Privat gästbehandling, inget konto krävs.",
+      "breadcrumbCurrent": "Beskär PNG Online",
+      "h1": "Beskär PNG Online",
+      "subtitle": "Behåll bara den del av din PNG som betyder något",
+      "paragraph": "Beskär PNG bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: PNG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Beskär med självförtroende",
+      "features": [
+        {
+          "title": "Gratis gröda",
+          "body": "Välj valfritt område i bilden och behåll exakt det området.",
+          "tone": "blå"
+        },
+        {
+          "title": "Fasta förhållanden",
+          "body": "Använd vanliga bildförhållanden för konsekventa layouter.",
+          "tone": "grön"
+        },
+        {
+          "title": "Orienteringssäker",
+          "body": "Beskärningsmatematiken respekterar orienterade dimensioner efter uppladdning.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Samma format ut",
+          "tone": "orange",
+          "body": "Ladda ner ett beskuret WebP-resultat."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Beskära"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder bearbetas privat för beskärning och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Kan jag beskära till en kvadrat?",
+          "a": "Ja. Välj ett förhållande på 1:1 eller rita en fri gröda."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder WebP upp till 10 MB."
+        },
+        {
+          "q": "Är originalet överskrivet?",
+          "a": "Nej. Bearbetning skapar ett nytt beskuret resultat."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Beskär som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/crop-webp",
+      "metaTitle": "Beskär WebP bilder online gratis | Img Pilot",
+      "metaDescription": "Beskär WebP bilder online med gratis kontroller eller kontroller med fast proportion. Privat gästbehandling, inget konto krävs.",
+      "breadcrumbCurrent": "Beskär WebP Online",
+      "h1": "Beskär WebP Online",
+      "subtitle": "Behåll bara den del av din WebP som betyder något",
+      "paragraph": "Beskär WebP bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Format som stöds: WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-till-webp",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som WebP med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av JPG till WebP mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder JPG upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är konvertering förlustfri?",
+          "a": "Det beror på källan och målformaten. Förlustformat kan minska kvaliteten för mindre storlek."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Konvertera JPG till WebP Online gratis | Img Pilot",
+      "metaDescription": "Konvertera JPG-bilder till WebP online för snabbare webbplatser. Privat gästkonvertering med verifierade utgångar.",
+      "breadcrumbCurrent": "JPG till WebP Omvandlare",
+      "h1": "Konvertera JPG till WebP Online",
+      "subtitle": "Växla från JPG till WebP utan datorprogramvara",
+      "paragraph": "Konvertera JPG-bilder till WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: JPG → WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-till-png",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som PNG med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av JPG till PNG mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder JPG upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är konvertering förlustfri?",
+          "a": "Det beror på källan och målformaten. Förlustformat kan minska kvaliteten för mindre storlek."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Konvertera JPG till PNG Online gratis | Img Pilot",
+      "metaDescription": "Konvertera JPG-bilder till PNG online. Privat gästkonvertering med verifierade utgångar.",
+      "breadcrumbCurrent": "JPG till PNG Omvandlare",
+      "h1": "Konvertera JPG till PNG Online",
+      "subtitle": "Växla från JPG till PNG utan skrivbordsprogramvara",
+      "paragraph": "Konvertera JPG-bilder till PNG på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: JPG → PNG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-till-avif",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som AVIF med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av JPG till AVIF mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder JPG upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är AVIF alltid tillgänglig?",
+          "a": "AVIF-kodning erbjuds endast när servern kan koda och verifiera resultatet."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Konvertera JPG till AVIF Online gratis | Img Pilot",
+      "metaDescription": "Konvertera JPG-bilder till AVIF online när kodning är tillgänglig. Privat gästkonvertering.",
+      "breadcrumbCurrent": "JPG till AVIF Omvandlare",
+      "h1": "Konvertera JPG till AVIF Online",
+      "subtitle": "Växla från JPG till AVIF utan datorprogramvara",
+      "paragraph": "Konvertera JPG-bilder till AVIF på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: JPG → AVIF • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/png-to-jpg": {
+      "path": "/png-till-jpg",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som JPG med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av PNG till JPG mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder PNG upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är konvertering förlustfri?",
+          "a": "Det beror på källan och målformaten. Förlustformat kan minska kvaliteten för mindre storlek."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Konvertera PNG till JPG Online gratis | Img Pilot",
+      "metaDescription": "Konvertera PNG bilder till JPG online. Privat gästkonvertering med verifierade utgångar.",
+      "breadcrumbCurrent": "PNG till JPG Omvandlare",
+      "h1": "Konvertera PNG till JPG Online",
+      "subtitle": "Växla från PNG till JPG utan datorprogramvara",
+      "paragraph": "Konvertera PNG-bilder till JPG på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: PNG → JPG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/png-to-webp": {
+      "path": "/png-till-webp",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som WebP med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av PNG till WebP mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder PNG upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är konvertering förlustfri?",
+          "a": "Det beror på källan och målformaten. Förlustformat kan minska kvaliteten för mindre storlek."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Konvertera PNG till WebP Online gratis | Img Pilot",
+      "metaDescription": "Konvertera PNG-bilder till WebP online för mindre webbleverans. Privat gästkonvertering.",
+      "breadcrumbCurrent": "PNG till WebP Omvandlare",
+      "h1": "Konvertera PNG till WebP Online",
+      "subtitle": "Växla från PNG till WebP utan datorprogramvara",
+      "paragraph": "Konvertera PNG-bilder till WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: PNG → WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som AVIF med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av PNG till AVIF mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder PNG upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är AVIF alltid tillgänglig?",
+          "a": "AVIF-kodning erbjuds endast när servern kan koda och verifiera resultatet."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/png-till-avif",
+      "metaTitle": "Konvertera PNG till AVIF Online gratis | Img Pilot",
+      "metaDescription": "Konvertera PNG-bilder till AVIF online när kodning är tillgänglig. Privat gästkonvertering.",
+      "breadcrumbCurrent": "PNG till AVIF Omvandlare",
+      "h1": "Konvertera PNG till AVIF Online",
+      "subtitle": "Växla från PNG till AVIF utan datorprogramvara",
+      "paragraph": "Konvertera PNG-bilder till AVIF på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: PNG → AVIF • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-till-jpg",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som JPG med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av WebP till JPG mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder WebP upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är konvertering förlustfri?",
+          "a": "Det beror på källan och målformaten. Förlustformat kan minska kvaliteten för mindre storlek."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Konvertera WebP till JPG Online gratis | Img Pilot",
+      "metaDescription": "Konvertera WebP-bilder till JPG online. Privat gästkonvertering med verifierade utgångar.",
+      "breadcrumbCurrent": "WebP till JPG Omvandlare",
+      "h1": "Konvertera WebP till JPG Online",
+      "subtitle": "Växla från WebP till JPG utan skrivbordsprogramvara",
+      "paragraph": "Konvertera WebP-bilder till JPG på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: WebP → JPG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/webp-to-png": {
+      "path": "/webp-till-png",
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som PNG med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av WebP till PNG mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder WebP upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är konvertering förlustfri?",
+          "a": "Det beror på källan och målformaten. Förlustformat kan minska kvaliteten för mindre storlek."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "metaTitle": "Konvertera WebP till PNG Online gratis | Img Pilot",
+      "metaDescription": "Konvertera WebP-bilder till PNG online. Privat gästkonvertering med verifierade utgångar.",
+      "breadcrumbCurrent": "WebP till PNG Omvandlare",
+      "h1": "Konvertera WebP till PNG Online",
+      "subtitle": "Växla från WebP till PNG utan skrivbordsprogramvara",
+      "paragraph": "Konvertera WebP-bilder till PNG på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: WebP → PNG • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Formatändringar på ett enkelt sätt",
+      "features": [
+        {
+          "tone": "blå",
+          "title": "Rensa mål",
+          "body": "Utdata sparas som AVIF med verifierade resultat."
+        },
+        {
+          "tone": "grön",
+          "title": "Snabbt gästverktyg",
+          "body": "Ladda upp, konvertera och ladda ner i en privat session."
+        },
+        {
+          "title": "Webbvänlig",
+          "tone": "purpur",
+          "body": "Använd det format som passar din webbplats eller ditt arbetsflöde."
+        },
+        {
+          "title": "Ärlig utgång",
+          "tone": "orange",
+          "body": "Känna till den resulterande typen och storleken innan nedladdning."
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp din bild"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Förhandsgranska resultat"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+          "kind": "privatliv"
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Ändrar konvertering av WebP till AVIF mitt original?",
+          "a": "Nej. Gästbearbetning skriver en separat utdata. Din uppladdning förblir privat och upphör med sessionen."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Gästuppladdningar stöder WebP upp till 10 MB."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Nej. Konvertera som gäst. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Är AVIF alltid tillgänglig?",
+          "a": "AVIF-kodning erbjuds endast när servern kan koda och verifiera resultatet."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/webp-till-avif",
+      "metaTitle": "Konvertera WebP till AVIF Online gratis | Img Pilot",
+      "metaDescription": "Konvertera WebP-bilder till AVIF online när kodning är tillgänglig. Privat gästkonvertering.",
+      "breadcrumbCurrent": "WebP till AVIF Omvandlare",
+      "h1": "Konvertera WebP till AVIF Online",
+      "subtitle": "Växla från WebP till AVIF utan skrivbordsprogramvara",
+      "paragraph": "Konvertera WebP-bilder till AVIF på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+      "workspaceNote": "Stöds: WebP → AVIF • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Batchhastighet med tydliga gränser",
+      "features": [
+        {
+          "title": "Delade inställningar",
+          "tone": "blå",
+          "body": "Applicera ett komprimeringsval över hela partiet."
+        },
+        {
+          "title": "Status per fil",
+          "body": "Se vilka bilder som lyckades och vilka som behöver uppmärksamhet.",
+          "tone": "grön"
+        },
+        {
+          "title": "ZIP Ladda ner",
+          "body": "Samla framgångsrika utgångar när batchen är klar.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Gästmössor",
+          "body": "Batchstorlek och totala byte följer gratis gästpolicy.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp en batch"
+        },
+        {
+          "title": "Komprimera"
+        },
+        {
+          "title": "Bearbeta filer"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "kind": "privatliv",
+          "body": "Dina bilder bearbetas privat för masskomprimering och raderas automatiskt inom en timme."
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Hur många filer kan jag ladda upp?",
+          "a": "Stora gästjobb tvingar fram ett maximalt antal filer och total batchstorlek."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Varje fil följer gästens maxstorlek, och batchen har ett totalt bytetak."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Gäster kan köra begränsade bulkjobb. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Vad händer om en fil misslyckas?",
+          "a": "Framgångsrika utgångar förblir nedladdningsbara; misslyckade objekt visar en felstatus."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/bulk-komprimera",
+      "metaTitle": "Masskomprimera bilder online gratis | Img Pilot",
+      "metaDescription": "Komprimera flera bilder online och ladda ner framgångsrika resultat tillsammans. Massgränser för gäster gäller.",
+      "breadcrumbCurrent": "Masskomprimera bilder",
+      "h1": "Masskomprimera bilder online",
+      "subtitle": "Komprimera en kort sats utan att upprepa varje steg",
+      "paragraph": "Komprimera flera JPG, PNG eller WebP filer i en batch. Gratis gästgränser gäller.",
+      "workspaceNote": "Format som stöds: JPG, PNG, WebP • Gruppgränser för gäster gäller. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Batchhastighet med tydliga gränser",
+      "features": [
+        {
+          "title": "Delade inställningar",
+          "tone": "blå",
+          "body": "Använd ett val av storleksändring över hela partiet."
+        },
+        {
+          "title": "Status per fil",
+          "body": "Se vilka bilder som lyckades och vilka som behöver uppmärksamhet.",
+          "tone": "grön"
+        },
+        {
+          "title": "ZIP Ladda ner",
+          "body": "Samla framgångsrika utgångar när batchen är klar.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Gästmössor",
+          "body": "Batchstorlek och totala byte följer gratis gästpolicy.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp en batch"
+        },
+        {
+          "title": "Ändra storlek"
+        },
+        {
+          "title": "Bearbeta filer"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "kind": "privatliv",
+          "body": "Dina bilder bearbetas privat för bulkstorlek och raderas automatiskt inom en timme."
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Hur många filer kan jag ladda upp?",
+          "a": "Stora gästjobb tvingar fram ett maximalt antal filer och total batchstorlek."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Varje fil följer gästens maxstorlek, och batchen har ett totalt bytetak."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Gäster kan köra begränsade bulkjobb. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Vad händer om en fil misslyckas?",
+          "a": "Framgångsrika utgångar förblir nedladdningsbara; misslyckade objekt visar en felstatus."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/bulk-ändra storlek",
+      "metaTitle": "Bulk Ändra storlek på bilder online gratis | Img Pilot",
+      "metaDescription": "Ändra storlek på flera bilder online och ladda ner framgångsrika resultat tillsammans. Massgränser för gäster gäller.",
+      "breadcrumbCurrent": "Ändra storlek på bilder i bulk",
+      "h1": "Ändra storlek på bilder i bulk online",
+      "subtitle": "Ändra storlek på en kort sats utan att upprepa varje steg",
+      "paragraph": "Ändra storlek på flera JPG, PNG eller WebP filer i en batch. Gratis gästgränser gäller.",
+      "workspaceNote": "Format som stöds: JPG, PNG, WebP • Gruppgränser för gäster gäller. Dina filer är privata och raderas automatiskt inom en timme."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Inget konto krävs",
+        "Privat & säker bearbetning",
+        "Radera automatiskt inom 1 timme"
+      ],
+      "featuresHeading": "Batchhastighet med tydliga gränser",
+      "features": [
+        {
+          "title": "Delade inställningar",
+          "tone": "blå",
+          "body": "Tillämpa ett konverteringsval över hela partiet."
+        },
+        {
+          "title": "Status per fil",
+          "body": "Se vilka bilder som lyckades och vilka som behöver uppmärksamhet.",
+          "tone": "grön"
+        },
+        {
+          "title": "ZIP Ladda ner",
+          "body": "Samla framgångsrika utgångar när batchen är klar.",
+          "tone": "purpur"
+        },
+        {
+          "title": "Gästmössor",
+          "body": "Batchstorlek och totala byte följer gratis gästpolicy.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Hur det fungerar",
+      "howSteps": [
+        {
+          "title": "Ladda upp en batch"
+        },
+        {
+          "title": "Konvertera"
+        },
+        {
+          "title": "Bearbeta filer"
+        },
+        {
+          "title": "Ladda ner"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Din integritet är viktig",
+          "kind": "privatliv",
+          "body": "Dina bilder bearbetas privat för masskonvertering och raderas automatiskt inom en timme."
+        },
+        {
+          "title": "Snabb & Effektiv",
+          "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+          "kind": "hastighet"
+        }
+      ],
+      "faqHeading": "Vanliga frågor",
+      "faqs": [
+        {
+          "q": "Hur många filer kan jag ladda upp?",
+          "a": "Stora gästjobb tvingar fram ett maximalt antal filer och total batchstorlek."
+        },
+        {
+          "q": "Finns det en filstorleksgräns?",
+          "a": "Varje fil följer gästens maxstorlek, och batchen har ett totalt bytetak."
+        },
+        {
+          "q": "Behöver jag ett konto?",
+          "a": "Gäster kan köra begränsade bulkjobb. Filer upphör att gälla inom en timme."
+        },
+        {
+          "q": "Vad händer om en fil misslyckas?",
+          "a": "Framgångsrika utgångar förblir nedladdningsbara; misslyckade objekt visar en felstatus."
+        },
+        {
+          "q": "Lagras mina bilder permanent?",
+          "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+        }
+      ],
+      "path": "/bulk-konvertera",
+      "metaTitle": "Bulkkonvertera bilder online gratis | Img Pilot",
+      "metaDescription": "Konvertera flera bilder online och ladda ner framgångsrika resultat tillsammans. Massgränser för gäster gäller.",
+      "breadcrumbCurrent": "Bulkkonvertera bilder",
+      "h1": "Bulkkonvertera bilder online",
+      "subtitle": "Konvertera en kort sats utan att upprepa varje steg",
+      "paragraph": "Konvertera flera JPG, PNG eller WebP filer i en batch. Gratis gästgränser gäller.",
+      "workspaceNote": "Format som stöds: JPG, PNG, WebP • Gruppgränser för gäster gäller. Dina filer är privata och raderas automatiskt inom en timme."
+    }
+  }
+}

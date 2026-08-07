@@ -6,7 +6,7 @@
 export type ResizeJpgFaq = {q: string; a: string};
 
 export const RESIZE_JPG_META = {
-  title: "Resize JPG Images Online Free | SEO Images",
+  title: "Resize JPG Images Online Free | Img Pilot",
   description:
     "Resize JPG images online by choosing custom dimensions or popular presets. Adjust width, height and quality, then download your resized JPG securely.",
   h1: "Resize JPG Images Online",

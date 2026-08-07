@@ -13,6 +13,12 @@ import {
   type BillingInterval,
 } from "@/server/billing/plan-catalog";
 import {getStripeClient, isStripeBillingConfigured} from "@/server/billing/stripe-client";
+import {isAppLocale, localePath, routing} from "@/i18n/routing";
+
+function billingReturnPath(locale: string, query: string): string {
+  const safe = isAppLocale(locale) ? locale : routing.defaultLocale;
+  return `${appBaseUrl()}${localePath(safe, "/account/billing")}${query}`;
+}
 
 export async function createCheckoutSession(params: {
   userId: string;
@@ -41,14 +47,15 @@ export async function createCheckoutSession(params: {
   try {
     const {stripeCustomerId} = await ensureStripeCustomerForUser(params.userId);
     const stripe = getStripeClient();
-    const base = appBaseUrl();
-    const locale = params.locale === "ur" ? "ur" : "en";
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
       customer: stripeCustomerId,
       line_items: [{price: priceId, quantity: 1}],
-      success_url: `${base}/${locale}/account/billing?checkout=success&session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${base}/${locale}/account/billing?checkout=cancelled`,
+      success_url: billingReturnPath(
+        params.locale,
+        "?checkout=success&session_id={CHECKOUT_SESSION_ID}",
+      ),
+      cancel_url: billingReturnPath(params.locale, "?checkout=cancelled"),
       client_reference_id: params.userId,
       metadata: {userId: params.userId, planCode: "pro", interval: params.interval},
       subscription_data: {
@@ -72,12 +79,10 @@ export async function createBillingPortalSession(params: {
     const {stripeCustomerId} = await ensureStripeCustomerForUser(params.userId);
     const stripe = getStripeClient();
     const env = getServerEnv();
-    const base = appBaseUrl();
-    const locale = params.locale === "ur" ? "ur" : "en";
     const configuration = (env.STRIPE_CUSTOMER_PORTAL_CONFIGURATION_ID || "").trim() || undefined;
     const session = await stripe.billingPortal.sessions.create({
       customer: stripeCustomerId,
-      return_url: `${base}/${locale}/account/billing`,
+      return_url: billingReturnPath(params.locale, ""),
       ...(configuration ? {configuration} : {}),
     });
     return {url: session.url};

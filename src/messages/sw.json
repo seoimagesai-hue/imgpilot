@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Inakuja hivi karibuni",
+    "openMenu": "Fungua urambazaji",
+    "closeMenu": "Funga urambazaji",
+    "mainNavigation": "Urambazaji mkuu"
+  },
+  "navigation": {
+    "dashboard": "Dashibodi",
+    "projects": "Miradi",
+    "usage": "Uchambuzi",
+    "billing": "Malipo",
+    "developer": "Msanidi",
+    "integrations": "Uunganishaji",
+    "automation": "Otomatiki",
+    "settings": "Mipangilio ya akaunti",
+    "organizations": "Mashirika"
+  },
+  "language": {
+    "label": "Lugha ya kiolesura",
+    "english": "Kiingereza",
+    "urdu": "Kiurdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Zana za picha",
+    "compress": "Bana",
+    "resize": "Badilisha ukubwa",
+    "convert": "Badilisha umbizo",
+    "seoTools": "Zana za SEO",
+    "bulkTools": "Zana za wingi",
+    "openAppGrid": "Fungua menyu ya zana",
+    "appGridTitle": "Zana na rasilimali",
+    "languageHint": "Mapendeleo ya lugha",
+    "menu": "Menyu",
+    "close": "Funga",
+    "footerBlurb": "Zana za mtandaoni za faragha za kubana, kubadilisha ukubwa, kubadilisha umbizo na kuandaa picha kwa wavuti.",
+    "popularFormats": "Umbizo maarufu",
+    "company": "Kampuni",
+    "resources": "Rasilimali",
+    "rights": "Haki zote zimehifadhiwa."
+  },
+  "errors": {
+    "generic": "Hitilafu fulani imetokea."
+  }
+}

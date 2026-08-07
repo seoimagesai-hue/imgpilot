@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "ubah saiz",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Dimensi imej tepat dengan saiz platform yang popular",
+        "Kunci nisbah aspek untuk mengelakkan herotan",
+        "Simpanan tetamu sementara peribadi"
+      ],
+      "faqs": [
+        {
+          "q": "Fail JPG manakah yang diterima?",
+          "a": "Halaman ini mengutamakan JPG. Format lain mungkin ditolak di sini — gunakan alat Ubah Saiz generik untuk format bercampur."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "ubah saiz-jpg",
+      "title": "Ubah saiz JPG Imej Percuma Dalam Talian | Img Pilot",
+      "description": "Ubah saiz imej JPG dalam talian dengan memilih dimensi tersuai atau pratetap popular. Laraskan lebar, tinggi dan kualiti, kemudian muat turun saiz semula JPG anda dengan selamat.",
+      "h1": "Ubah saiz JPG Imej Dalam Talian",
+      "intro": "Ubah saiz imej JPG kepada dimensi tepat yang anda perlukan tanpa memasang sebarang perisian. Muat naik foto, pilih pratetap atau masukkan lebar dan ketinggian tersuai, kemudian muat turun saiz semula anda JPG dalam beberapa saat.",
+      "related": [
+        "mampat-jpg",
+        "jpg-ke-webp",
+        "tanaman-jpg",
+        "ubah saiz-png",
+        "png-ke-jpg",
+        "alat-imej pukal"
+      ],
+      "howTo": [
+        "Muat naik JPG",
+        "Pilih kaedah atau pratetap",
+        "Proses",
+        "Muat turun saiz semula JPG"
+      ]
+    },
+    "resize-png": {
+      "operation": "ubah saiz",
+      "sourceFormat": "png",
+      "howTo": [
+        "Muat naik PNG",
+        "Tetapkan dimensi atau pratetap",
+        "Proses",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Fail PNG manakah yang diterima?",
+          "a": "Halaman ini mengutamakan PNG. Format lain mungkin ditolak di sini — gunakan alat Ubah Saiz generik untuk format bercampur."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "ubah saiz-png",
+      "title": "Ubah saiz PNG Imej Percuma Dalam Talian | Img Pilot",
+      "description": "Ubah saiz imej PNG dalam talian sambil mengekalkan ketelusan. Tukar dimensi imej dengan selamat dan muat turun saiz semula anda PNG dalam beberapa saat.",
+      "h1": "Ubah saiz PNG Imej Dalam Talian",
+      "intro": "Ubah saiz imej PNG tanpa kehilangan ketelusan untuk logo, grafik UI, ikon dan tangkapan skrin.",
+      "related": [
+        "mampat-png",
+        "png-ke-jpg",
+        "png-ke-webp",
+        "tanaman-png",
+        "ubah saiz-jpg",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Ubah saiz PNG yang memelihara ketelusan",
+        "Reka bentuk pratetap untuk logo, ikon dan favicon",
+        "Pemprosesan tetamu sementara peribadi"
+      ]
+    },
+    "resize-webp": {
+      "operation": "ubah saiz",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Muat naik WebP",
+        "Pilih pilihan saiz",
+        "Proses",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Fail WebP manakah yang diterima?",
+          "a": "Halaman ini mengutamakan WebP. Format lain mungkin ditolak di sini — gunakan alat Ubah Saiz generik untuk format bercampur."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "ubah saiz-webp",
+      "title": "Ubah saiz WebP Imej Percuma Dalam Talian | Img Pilot",
+      "description": "Ubah saiz WebP imej dalam talian untuk tapak web responsif, blog dan peranti mudah alih. Tukar dimensi dengan selamat dan muat turun imej bersaiz WebP serta-merta.",
+      "h1": "Ubah saiz WebP Imej Dalam Talian",
+      "intro": "Ubah saiz imej WebP untuk reka letak responsif, peranti mudah alih dan tapak web moden sambil mengekalkan kecekapan WebP.",
+      "related": [
+        "mampat-webp",
+        "webp-ke-jpg",
+        "webp-ke-png",
+        "ubah saiz-jpg",
+        "ubah saiz-png",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Kawalan dimensi WebP responsif",
+        "Tetamu kongsi Ubah saiz saluran paip",
+        "Storan sementara peribadi dengan pembersihan automatik"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "memampatkan",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Muat naik JPG",
+        "Pilih pratetap berkualiti",
+        "Memampatkan",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Fail JPG manakah yang diterima?",
+          "a": "Halaman ini mengutamakan JPG. Format lain mungkin ditolak di sini — gunakan alat Compress generik untuk format campuran."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "mampat-jpg",
+      "title": "Mampat JPG Imej Dalam Talian Percuma | Img Pilot",
+      "description": "Mampatkan imej JPG dalam talian dan kecilkan saiz fail dengan kawalan kualiti boleh laras. Pratonton keputusan dan muat turun JPG dioptimumkan yang lebih kecil dengan selamat.",
+      "h1": "Mampatkan JPG Imej Dalam Talian",
+      "intro": "Kurangkan saiz fail JPG imej terus dalam penyemak imbas anda tanpa memasang perisian yang rumit.",
+      "related": [
+        "ubah saiz-jpg",
+        "jpg-ke-webp",
+        "tanaman-jpg",
+        "jpg-ke-png",
+        "webp-ke-jpg",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Pratetap kualiti JPG boleh laras",
+        "Pemprosesan tetamu sementara peribadi",
+        "Imej asal kekal tidak berubah"
+      ]
+    },
+    "compress-png": {
+      "operation": "memampatkan",
+      "sourceFormat": "png",
+      "howTo": [
+        "Muat naik PNG",
+        "Pilih kualiti",
+        "Memampatkan",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Fail PNG manakah yang diterima?",
+          "a": "Halaman ini mengutamakan PNG. Format lain mungkin ditolak di sini — gunakan alat Compress generik untuk format campuran."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "mampat-png",
+      "title": "Mampat PNG Imej Dalam Talian Percuma | Img Pilot",
+      "description": "Mampatkan imej PNG dalam talian sambil mengekalkan ketelusan. Kurangkan saiz fail PNG dengan selamat dan muat turun imej yang dioptimumkan dalam beberapa saat.",
+      "h1": "Mampatkan PNG Imej Dalam Talian",
+      "intro": "Kurangkan saiz fail imej PNG tanpa mengorbankan ketelusan atau kejelasan imej.",
+      "related": [
+        "mampat-jpg",
+        "ubah saiz-png",
+        "png-ke-jpg",
+        "png-ke-webp",
+        "tanaman-png",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Mampatan PNG memelihara ketelusan",
+        "Dibina untuk logo, grafik UI dan tangkapan skrin",
+        "Pemprosesan tetamu sementara peribadi"
+      ]
+    },
+    "compress-webp": {
+      "operation": "memampatkan",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Muat naik WebP",
+        "Pilih kualiti",
+        "Memampatkan",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Fail WebP manakah yang diterima?",
+          "a": "Halaman ini mengutamakan WebP. Format lain mungkin ditolak di sini — gunakan alat Compress generik untuk format campuran."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "mampat-webp",
+      "title": "Mampat WebP Imej Dalam Talian Percuma | Img Pilot",
+      "description": "Mampatkan WebP imej dalam talian untuk mengurangkan saiz fail sambil mengekalkan kualiti. Tingkatkan kelajuan tapak web dengan pengoptimuman berasaskan pelayar selamat WebP.",
+      "h1": "Mampatkan WebP Imej Dalam Talian",
+      "intro": "Kurangkan saiz fail WebP yang telah dieksport sambil mengekalkan kualiti visual yang jelas untuk tapak web, halaman pendaratan dan apl mudah alih.",
+      "related": [
+        "ubah saiz-webp",
+        "webp-ke-jpg",
+        "webp-ke-png",
+        "mampat-jpg",
+        "mampat-png",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Optimumkan lagi eksport WebP moden",
+        "Pratetap kualiti Compress tetamu kongsi",
+        "Storan sementara peribadi dengan pembersihan automatik"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "tanaman",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Fail JPG manakah yang diterima?",
+          "a": "Halaman ini mengutamakan JPG. Format lain mungkin ditolak di sini — gunakan alat Tanaman generik untuk format bercampur."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "tanaman-jpg",
+      "title": "Pangkas JPG Imej Dalam Talian Percuma | Img Pilot",
+      "description": "Pangkas imej JPG dalam talian menggunakan kawalan pemangkasan yang tepat dan nisbah aspek popular. Muat turun imej yang dipangkas anda dengan selamat dalam beberapa saat.",
+      "h1": "Pangkas JPG Imej Dalam Talian",
+      "intro": "Alih keluar kawasan yang tidak diingini, kunci nisbah bidang biasa dan muat turun JPG baharu tanpa menukar yang asal.",
+      "related": [
+        "ubah saiz-jpg",
+        "mampat-jpg",
+        "jpg-ke-webp",
+        "ubah saiz-png",
+        "tanaman-png",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Pemegang tanaman yang tepat",
+        "Nisbah aspek popular",
+        "Pembingkaian sedia sosial",
+        "Storan sementara peribadi",
+        "Imej asal kekal selamat"
+      ],
+      "howTo": [
+        "Muat naik JPG",
+        "Pilih kawasan tanaman",
+        "Pratonton gubahan",
+        "Muat turun JPG yang dipangkas"
+      ]
+    },
+    "crop-png": {
+      "operation": "tanaman",
+      "sourceFormat": "png",
+      "howTo": [
+        "Muat naik PNG",
+        "Tetapkan kawasan tanaman",
+        "Proses",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Fail PNG manakah yang diterima?",
+          "a": "Halaman ini mengutamakan PNG. Format lain mungkin ditolak di sini — gunakan alat Tanaman generik untuk format bercampur."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "tanaman-png",
+      "title": "Pangkas PNG Imej Dalam Talian Percuma | Img Pilot",
+      "description": "Pangkas imej PNG dalam talian sambil mengekalkan latar belakang lutsinar. Alih keluar kawasan yang tidak diingini dan muat turun PNG yang dipangkas tepat dengan selamat.",
+      "h1": "Pangkas PNG Imej Dalam Talian",
+      "intro": "Pangkas logo PNG telus, ikon dan grafik UI sambil memastikan alfa kekal utuh.",
+      "related": [
+        "ubah saiz-png",
+        "mampat-png",
+        "png-ke-webp",
+        "png-ke-jpg",
+        "tanaman-jpg",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Tanaman PNG yang memelihara ketelusan",
+        "Enjin tanaman dan nisbah tanaman tetamu dikongsi",
+        "Storan sementara peribadi dengan pembersihan automatik"
+      ]
+    },
+    "crop-webp": {
+      "operation": "tanaman",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Muat naik WebP",
+        "Pilih kawasan tanaman",
+        "Proses",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Fail WebP manakah yang diterima?",
+          "a": "Halaman ini mengutamakan WebP. Format lain mungkin ditolak di sini — gunakan alat Tanaman generik untuk format bercampur."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "tanaman-webp",
+      "title": "Pangkas WebP Imej Dalam Talian Percuma | Img Pilot",
+      "description": "Pangkas imej WebP dalam talian menggunakan kawalan pemangkasan yang tepat dan nisbah aspek popular. Cipta imej sedia web dan muat turunnya dengan selamat dalam beberapa saat.",
+      "h1": "Pangkas WebP Imej Dalam Talian",
+      "intro": "Pangkas imej WebP moden untuk tapak web responsif, halaman pendaratan dan e-dagang sambil mengekalkan format yang dioptimumkan web.",
+      "related": [
+        "ubah saiz-webp",
+        "mampat-webp",
+        "webp-ke-jpg",
+        "webp-ke-png",
+        "tanaman-jpg",
+        "tanaman-png"
+      ],
+      "benefits": [
+        "WebP-tanaman pertama untuk penghantaran moden",
+        "Enjin tanaman tetamu dikongsi dan nisbah jujur",
+        "Storan sementara peribadi dengan pembersihan automatik"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "tanaman",
+      "howTo": [
+        "Muat naik imej",
+        "Laraskan pangkas segi empat sama",
+        "Proses",
+        "Muat turun"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah saiz platform tepat untuk Instagram disertakan?",
+          "a": "Tidak di halaman ini. Halaman saiz sosial khusus ditangguhkan sehingga pratetap bertarikh diluluskan."
+        },
+        {
+          "q": "Fail imej anda yang manakah diterima?",
+          "a": "Halaman ini mengutamakan imej anda. Format lain mungkin ditolak di sini — gunakan alat Tanaman generik untuk format bercampur."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Alat tetamu berfungsi tanpa log masuk dalam had harian percuma."
+        },
+        {
+          "q": "Adakah pemprosesan peribadi?",
+          "a": "Muat naik pergi ke storan peribadi dan fail tetamu sementara tamat tempoh selepas kira-kira satu jam."
+        }
+      ],
+      "slug": "crop-image-square",
+      "cropAspect": "1:1",
+      "title": "Pangkas Imej ke Petak — Alat Pangkas 1:1 Percuma",
+      "description": "Pangkas imej kepada nisbah bidang 1:1 segi empat sama dengan enjin pangkas yang dikongsi.",
+      "h1": "Pangkas imej ke segi empat sama",
+      "intro": "Bermula dengan kunci aspek 1:1. Anda masih boleh menukar nisbah dalam editor jika perlu.",
+      "related": [
+        "tanaman-jpg",
+        "tanaman-png",
+        "ubah saiz-imej",
+        "imej-mampat"
+      ],
+      "benefits": [
+        "Lalai kepada 1:1",
+        "Berfungsi dengan JPEG, PNG dan WebP",
+        "Model privasi yang sama seperti alat tetamu lain"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "menukar",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "jpg-ke-png",
+      "title": "JPG ke PNG Penukar — Dalam Talian Percuma",
+      "description": "Tukar JPG kepada PNG. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar JPG kepada PNG",
+      "intro": "Cipta PNG daripada JPG menggunakan enjin Convert yang dikongsi.",
+      "related": [
+        "png-ke-jpg",
+        "jpg-ke-webp",
+        "mampat-png",
+        "ubah saiz-png"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar JPEG kepada PNG menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "menukar",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "jpg-ke-webp",
+      "title": "Tukar JPG kepada WebP Percuma Dalam Talian | Img Pilot",
+      "description": "Tukar JPG kepada WebP Dalam talian. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar JPG kepada WebP Dalam talian",
+      "intro": "Tukar JPG foto kepada WebP untuk tapak web yang lebih pantas, fail penghantaran yang lebih kecil dan Core Web Vitals yang lebih kukuh apabila pelayar menyokong format moden.",
+      "related": [
+        "webp-ke-jpg",
+        "mampat-jpg",
+        "ubah saiz-jpg",
+        "tanaman-jpg",
+        "png-ke-webp",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar JPEG kepada WEBP menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "menukar",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "jpg-ke-avif",
+      "title": "Penukar JPG kepada AVIF — Dalam Talian Percuma",
+      "description": "Tukar JPG kepada AVIF. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar JPG kepada AVIF",
+      "intro": "Pengekodan AVIF ditawarkan hanya apabila pengekod pelayan ini menyokongnya. Jika tidak kawalan tetap disekat secara jujur.",
+      "related": [
+        "jpg-ke-webp",
+        "png-ke-avif",
+        "mampat-jpg",
+        "menukar-imej"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar JPEG kepada AVIF menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "menukar",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "png-ke-jpg",
+      "title": "Tukar PNG kepada JPG Percuma Dalam Talian | Img Pilot",
+      "description": "Tukar PNG kepada JPG Dalam talian. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar PNG kepada JPG Dalam talian",
+      "intro": "Ratakan PNGs lutsinar ke dalam fail JPG yang serasi secara universal apabila alfa tidak lagi diperlukan.",
+      "related": [
+        "png-ke-webp",
+        "ubah saiz-png",
+        "mampat-png",
+        "jpg-ke-webp",
+        "webp-ke-jpg",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar PNG kepada JPEG menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "menukar",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "png-ke-webp",
+      "title": "Tukar PNG kepada WebP Percuma Dalam Talian | Img Pilot",
+      "description": "Tukar PNG kepada WebP Dalam talian. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar PNG kepada WebP Dalam talian",
+      "intro": "Tukar imej PNG kepada WebP dalam talian sambil mengekalkan ketelusan. Cipta imej sedia web yang lebih kecil untuk tapak web yang lebih pantas dengan penukaran berasaskan penyemak imbas yang selamat.",
+      "related": [
+        "webp-ke-png",
+        "png-ke-jpg",
+        "mampat-png",
+        "ubah saiz-png",
+        "jpg-ke-webp",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar PNG kepada WEBP menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "menukar",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "png-ke-avif",
+      "title": "Penukar PNG kepada AVIF — Dalam Talian Percuma",
+      "description": "Tukar PNG kepada AVIF. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar PNG kepada AVIF",
+      "intro": "Tukar PNG kepada AVIF apabila sokongan pengekod tersedia pada penggunaan ini.",
+      "related": [
+        "png-ke-webp",
+        "jpg-ke-avif",
+        "mampat-png",
+        "menukar-imej"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar PNG kepada AVIF menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "menukar",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "webp-ke-jpg",
+      "title": "Tukar WebP kepada JPG Percuma Dalam Talian | Img Pilot",
+      "description": "Tukar WebP kepada JPG Dalam talian. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar WebP kepada JPG Dalam talian",
+      "intro": "Tukar imej WebP kepada JPG untuk keserasian maksimum dengan e-mel, dokumen, muat naik CMS dan perisian lama.",
+      "related": [
+        "jpg-ke-webp",
+        "png-ke-jpg",
+        "mampat-jpg",
+        "ubah saiz-jpg",
+        "tanaman-jpg",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar WEBP kepada JPEG menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "menukar",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "webp-ke-png",
+      "title": "Tukar WebP kepada PNG Percuma Dalam Talian | Img Pilot",
+      "description": "Tukar WebP kepada PNG Dalam talian. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar WebP kepada PNG Dalam talian",
+      "intro": "Tukar imej WebP kepada PNG dalam talian sambil mengekalkan ketelusan dan kualiti imej untuk reka bentuk dan aliran kerja penyuntingan.",
+      "related": [
+        "png-ke-webp",
+        "png-ke-jpg",
+        "webp-ke-jpg",
+        "ubah saiz-png",
+        "mampat-png",
+        "alat-imej pukal"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar WEBP kepada PNG menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "menukar",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Muat naik imej sumber",
+        "Sahkan format sasaran",
+        "Tukar",
+        "Muat turun"
+      ],
+      "slug": "webp-ke-avif",
+      "title": "WebP ke AVIF Penukar — Dalam Talian Percuma",
+      "description": "Tukar WebP kepada AVIF. Penukaran tetamu persendirian dengan pengekalan sementara selama satu jam.",
+      "h1": "Tukar WebP kepada AVIF",
+      "intro": "Tukar WebP kepada AVIF hanya apabila pengekodan AVIF disokong di sini.",
+      "related": [
+        "webp-ke-jpg",
+        "png-ke-avif",
+        "mampat-webp",
+        "menukar-imej"
+      ],
+      "benefits": [
+        "Menggunakan matriks tukar yang disokong sahaja",
+        "Sesi tetamu dan peraturan pembersihan yang sama seperti Tukar Imej",
+        "Tiada pasangan tidak disokong yang dicipta"
+      ],
+      "faqs": [
+        {
+          "q": "Adakah menukar WEBP kepada AVIF menukar fail asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Berapa lama fail yang ditukar disimpan?",
+          "a": "Fail tetamu dipadamkan kira-kira satu jam selepas sesi tetamu bermula. Muat turun tidak memanjangkan tamat tempoh."
+        },
+        {
+          "q": "Bolehkah saya menukar berbilang imej?",
+          "a": "Gunakan Alat Imej Pukal untuk berbilang fail dalam had pukal tetamu atau log masuk."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/mampat-jpg",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Saiz Lebih Kecil, Kualiti Hebat Sama",
+      "features": [
+        {
+          "title": "Mampatan Pintar",
+          "tone": "biru",
+          "body": "Mampatan pintar ditala untuk imej JPG."
+        },
+        {
+          "title": "Sehingga 80% Lebih Kecil",
+          "body": "Kurangkan saiz fail secara mendadak untuk muat naik dan pemuatan halaman yang lebih pantas.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Sempurna untuk Web",
+          "body": "Optimumkan imej untuk tapak web, blog dan halaman produk.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Kualiti Yang Boleh Anda Percayai",
+          "body": "Pratonton sebelum muat turun supaya kualiti kekal di bawah kawalan anda.",
+          "tone": "oren"
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Memampatkan"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "privasi",
+          "body": "Imej anda diproses secara peribadi untuk dimampatkan dan dipadamkan secara automatik dalam masa satu jam."
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bagaimanakah mampatan JPG berfungsi?",
+          "a": "Alat ini mengekod semula JPG anda dengan tetapan yang mengurangkan saiz fail sambil memastikan hasilnya boleh digunakan secara visual."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong JPG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah pemampatan akan mengurangkan kualiti imej?",
+          "a": "Pratetap yang lebih kukuh boleh melembutkan butiran halus. Pilih pratetap yang lebih ringan apabila penampilan paling penting dan sentiasa pratonton."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Pemampatan tetamu berfungsi tanpa log masuk."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan hasil carian dipadamkan secara automatik dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Mampat JPG Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Mampatkan JPG imej dalam talian tanpa kehilangan kualiti. Kurangkan saiz fail JPG dengan pemprosesan tetamu peribadi.",
+      "breadcrumbCurrent": "Mampat JPG Dalam talian",
+      "h1": "Mampat JPG Dalam talian",
+      "subtitle": "Kurangkan saiz fail JPG tanpa kehilangan kualiti",
+      "paragraph": "Mampatkan imej JPG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: JPG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/compress-png": {
+      "path": "/mampat-png",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Saiz Lebih Kecil, Kualiti Hebat Sama",
+      "features": [
+        {
+          "title": "Mampatan Pintar",
+          "tone": "biru",
+          "body": "Mampatan pintar ditala untuk imej PNG."
+        },
+        {
+          "title": "Sehingga 80% Lebih Kecil",
+          "body": "Kurangkan saiz fail secara mendadak untuk muat naik dan pemuatan halaman yang lebih pantas.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Sempurna untuk Web",
+          "body": "Optimumkan imej untuk tapak web, blog dan halaman produk.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Kualiti Yang Boleh Anda Percayai",
+          "body": "Pratonton sebelum muat turun supaya kualiti kekal di bawah kawalan anda.",
+          "tone": "oren"
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Memampatkan"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "privasi",
+          "body": "Imej anda diproses secara peribadi untuk dimampatkan dan dipadamkan secara automatik dalam masa satu jam."
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bagaimanakah mampatan PNG berfungsi?",
+          "a": "Alat ini mengekod semula PNG anda dengan tetapan yang mengurangkan saiz fail sambil memastikan hasilnya boleh digunakan secara visual."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong PNG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah pemampatan akan mengurangkan kualiti imej?",
+          "a": "Pratetap yang lebih kukuh boleh melembutkan butiran halus. Pilih pratetap yang lebih ringan apabila penampilan paling penting dan sentiasa pratonton."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Pemampatan tetamu berfungsi tanpa log masuk."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan hasil carian dipadamkan secara automatik dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Mampat PNG Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Mampatkan PNG imej dalam talian tanpa kehilangan kualiti. Kurangkan saiz fail PNG dengan pemprosesan tetamu peribadi.",
+      "breadcrumbCurrent": "Mampat PNG Dalam talian",
+      "h1": "Mampat PNG Dalam talian",
+      "subtitle": "Kurangkan saiz fail PNG tanpa kehilangan kualiti",
+      "paragraph": "Mampatkan imej PNG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: PNG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/compress-webp": {
+      "path": "/mampat-webp",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Saiz Lebih Kecil, Kualiti Hebat Sama",
+      "features": [
+        {
+          "title": "Mampatan Pintar",
+          "tone": "biru",
+          "body": "Mampatan pintar ditala untuk imej WebP."
+        },
+        {
+          "title": "Sehingga 80% Lebih Kecil",
+          "body": "Kurangkan saiz fail secara mendadak untuk muat naik dan pemuatan halaman yang lebih pantas.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Sempurna untuk Web",
+          "body": "Optimumkan imej untuk tapak web, blog dan halaman produk.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Kualiti Yang Boleh Anda Percayai",
+          "body": "Pratonton sebelum muat turun supaya kualiti kekal di bawah kawalan anda.",
+          "tone": "oren"
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Memampatkan"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "privasi",
+          "body": "Imej anda diproses secara peribadi untuk dimampatkan dan dipadamkan secara automatik dalam masa satu jam."
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bagaimanakah mampatan WebP berfungsi?",
+          "a": "Alat ini mengekod semula WebP anda dengan tetapan yang mengurangkan saiz fail sambil memastikan hasilnya boleh digunakan secara visual."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong WebP sehingga 10 MB."
+        },
+        {
+          "q": "Adakah pemampatan akan mengurangkan kualiti imej?",
+          "a": "Pratetap yang lebih kukuh boleh melembutkan butiran halus. Pilih pratetap yang lebih ringan apabila penampilan paling penting dan sentiasa pratonton."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Pemampatan tetamu berfungsi tanpa log masuk."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan hasil carian dipadamkan secara automatik dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Mampat WebP Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Mampatkan WebP imej dalam talian tanpa kehilangan kualiti. Kurangkan saiz fail WebP dengan pemprosesan tetamu peribadi.",
+      "breadcrumbCurrent": "Mampat WebP Dalam talian",
+      "h1": "Mampat WebP Dalam talian",
+      "subtitle": "Kurangkan saiz fail WebP tanpa kehilangan kualiti",
+      "paragraph": "Mampatkan imej WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/resize-jpg": {
+      "path": "/ubah saiz-jpg",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Kawalan Tepat, Hasil Bersih",
+      "features": [
+        {
+          "title": "Dimensi Tepat",
+          "body": "Masukkan lebar dan tinggi yang sepadan dengan keperluan susun atur anda.",
+          "tone": "biru"
+        },
+        {
+          "title": "Muat Di Dalam",
+          "body": "Skalakan imej ke dalam kotak sambil mengekalkan nisbah bidang.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Tiada Kelas Atas yang Tidak Diingini",
+          "body": "Pengawal membantu mengelakkan regangan sumber kecil.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Sedia Web",
+          "tone": "oren",
+          "body": "Sediakan saiz JPG yang konsisten untuk halaman dan grid."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Ubah saiz"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk mengubah saiz dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bolehkah saya mengekalkan nisbah bidang?",
+          "a": "ya. Gunakan dimensi fit-inside atau dipautkan supaya imej berskala dengan bersih."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong JPG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saiz semula akan membesarkan imej saya?",
+          "a": "Secara lalai, aliran kerja mengelakkan pembesaran yang tidak diingini."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Ubah saiz sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Ubah saiz JPG Imej Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Ubah saiz JPG imej dalam talian mengikut lebar, tinggi atau muat dalam. Alat tetamu peribadi tanpa akaun diperlukan.",
+      "breadcrumbCurrent": "Ubah saiz JPG Dalam talian",
+      "h1": "Ubah saiz JPG Dalam talian",
+      "subtitle": "Tukar dimensi JPG untuk web dan sosial",
+      "paragraph": "Ubah saiz imej JPG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: JPG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/resize-png": {
+      "path": "/ubah saiz-png",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Kawalan Tepat, Hasil Bersih",
+      "features": [
+        {
+          "title": "Dimensi Tepat",
+          "body": "Masukkan lebar dan tinggi yang sepadan dengan keperluan susun atur anda.",
+          "tone": "biru"
+        },
+        {
+          "title": "Muat Di Dalam",
+          "body": "Skalakan imej ke dalam kotak sambil mengekalkan nisbah bidang.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Tiada Kelas Atas yang Tidak Diingini",
+          "body": "Pengawal membantu mengelakkan regangan sumber kecil.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Sedia Web",
+          "tone": "oren",
+          "body": "Sediakan saiz PNG yang konsisten untuk halaman dan grid."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Ubah saiz"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk mengubah saiz dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bolehkah saya mengekalkan nisbah bidang?",
+          "a": "ya. Gunakan dimensi fit-inside atau dipautkan supaya imej berskala dengan bersih."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong PNG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saiz semula akan membesarkan imej saya?",
+          "a": "Secara lalai, aliran kerja mengelakkan pembesaran yang tidak diingini."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Ubah saiz sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Ubah saiz PNG Imej Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Ubah saiz PNG imej dalam talian mengikut lebar, tinggi atau muat dalam. Alat tetamu peribadi tanpa akaun diperlukan.",
+      "breadcrumbCurrent": "Ubah saiz PNG Dalam talian",
+      "h1": "Ubah saiz PNG Dalam talian",
+      "subtitle": "Tukar dimensi PNG untuk web dan sosial",
+      "paragraph": "Ubah saiz imej PNG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: PNG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/resize-webp": {
+      "path": "/ubah saiz-webp",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Kawalan Tepat, Hasil Bersih",
+      "features": [
+        {
+          "title": "Dimensi Tepat",
+          "body": "Masukkan lebar dan tinggi yang sepadan dengan keperluan susun atur anda.",
+          "tone": "biru"
+        },
+        {
+          "title": "Muat Di Dalam",
+          "body": "Skalakan imej ke dalam kotak sambil mengekalkan nisbah bidang.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Tiada Kelas Atas yang Tidak Diingini",
+          "body": "Pengawal membantu mengelakkan regangan sumber kecil.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Sedia Web",
+          "tone": "oren",
+          "body": "Sediakan saiz WebP yang konsisten untuk halaman dan grid."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Ubah saiz"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk mengubah saiz dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bolehkah saya mengekalkan nisbah bidang?",
+          "a": "ya. Gunakan dimensi fit-inside atau dipautkan supaya imej berskala dengan bersih."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong WebP sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saiz semula akan membesarkan imej saya?",
+          "a": "Secara lalai, aliran kerja mengelakkan pembesaran yang tidak diingini."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Ubah saiz sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Ubah saiz WebP Imej Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Ubah saiz WebP imej dalam talian mengikut lebar, tinggi atau muat dalam. Alat tetamu peribadi tanpa akaun diperlukan.",
+      "breadcrumbCurrent": "Ubah saiz WebP Dalam talian",
+      "h1": "Ubah saiz WebP Dalam talian",
+      "subtitle": "Tukar dimensi WebP untuk web dan sosial",
+      "paragraph": "Ubah saiz imej WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Pangkas Dengan Yakin",
+      "features": [
+        {
+          "title": "Tanaman Percuma",
+          "body": "Pilih mana-mana kawasan imej dan simpan dengan tepat kawasan itu.",
+          "tone": "biru"
+        },
+        {
+          "title": "Nisbah Tetap",
+          "body": "Gunakan nisbah aspek biasa untuk reka letak yang konsisten.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Orientasi Selamat",
+          "body": "Pangkasan matematik menghormati dimensi berorientasikan selepas muat naik.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Keluar Format Sama",
+          "tone": "oren",
+          "body": "Muat turun hasil JPG yang dipangkas."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "tanaman"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk dipangkas dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bolehkah saya memotong ke segi empat sama?",
+          "a": "ya. Pilih nisbah 1:1 atau lukiskan tanaman percuma."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong JPG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah yang asal ditimpa?",
+          "a": "Tidak. Pemprosesan mencipta hasil pangkas baharu."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Pangkas sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/crop-jpg",
+      "metaTitle": "Pangkas JPG Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Pangkas imej JPG dalam talian dengan kawalan nisbah percuma atau tetap. Pemprosesan tetamu persendirian, tiada akaun diperlukan.",
+      "breadcrumbCurrent": "Pangkas JPG Dalam talian",
+      "h1": "Pangkas JPG Dalam talian",
+      "subtitle": "Simpan hanya bahagian JPG anda yang penting",
+      "paragraph": "Pangkas JPG imej dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: JPG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/crop-png": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Pangkas Dengan Yakin",
+      "features": [
+        {
+          "title": "Tanaman Percuma",
+          "body": "Pilih mana-mana kawasan imej dan simpan dengan tepat kawasan itu.",
+          "tone": "biru"
+        },
+        {
+          "title": "Nisbah Tetap",
+          "body": "Gunakan nisbah aspek biasa untuk reka letak yang konsisten.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Orientasi Selamat",
+          "body": "Pangkasan matematik menghormati dimensi berorientasikan selepas muat naik.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Keluar Format Sama",
+          "tone": "oren",
+          "body": "Muat turun hasil PNG yang dipangkas."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "tanaman"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk dipangkas dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bolehkah saya memotong ke segi empat sama?",
+          "a": "ya. Pilih nisbah 1:1 atau lukiskan tanaman percuma."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong PNG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah yang asal ditimpa?",
+          "a": "Tidak. Pemprosesan mencipta hasil pangkas baharu."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Pangkas sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/crop-png",
+      "metaTitle": "Pangkas PNG Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Pangkas imej PNG dalam talian dengan kawalan nisbah percuma atau tetap. Pemprosesan tetamu persendirian, tiada akaun diperlukan.",
+      "breadcrumbCurrent": "Pangkas PNG Dalam talian",
+      "h1": "Pangkas PNG Dalam talian",
+      "subtitle": "Simpan hanya bahagian PNG anda yang penting",
+      "paragraph": "Pangkas PNG imej dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: PNG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Pangkas Dengan Yakin",
+      "features": [
+        {
+          "title": "Tanaman Percuma",
+          "body": "Pilih mana-mana kawasan imej dan simpan dengan tepat kawasan itu.",
+          "tone": "biru"
+        },
+        {
+          "title": "Nisbah Tetap",
+          "body": "Gunakan nisbah aspek biasa untuk reka letak yang konsisten.",
+          "tone": "hijau"
+        },
+        {
+          "title": "Orientasi Selamat",
+          "body": "Pangkasan matematik menghormati dimensi berorientasikan selepas muat naik.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Keluar Format Sama",
+          "tone": "oren",
+          "body": "Muat turun hasil WebP yang dipangkas."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "tanaman"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk dipangkas dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Bolehkah saya memotong ke segi empat sama?",
+          "a": "ya. Pilih nisbah 1:1 atau lukiskan tanaman percuma."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong WebP sehingga 10 MB."
+        },
+        {
+          "q": "Adakah yang asal ditimpa?",
+          "a": "Tidak. Pemprosesan mencipta hasil pangkas baharu."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Pangkas sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/crop-webp",
+      "metaTitle": "Pangkas WebP Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Pangkas imej WebP dalam talian dengan kawalan nisbah percuma atau tetap. Pemprosesan tetamu persendirian, tiada akaun diperlukan.",
+      "breadcrumbCurrent": "Pangkas WebP Dalam talian",
+      "h1": "Pangkas WebP Dalam talian",
+      "subtitle": "Simpan hanya bahagian WebP anda yang penting",
+      "paragraph": "Pangkas WebP imej dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Format yang disokong: WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-ke-webp",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai WebP dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar JPG kepada WebP menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong JPG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah penukaran tanpa kerugian?",
+          "a": "Ia bergantung kepada format sumber dan sasaran. Format lossy boleh mengurangkan kualiti untuk saiz yang lebih kecil."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Tukar JPG kepada WebP Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej JPG kepada WebP dalam talian untuk tapak web yang lebih pantas. Penukaran tetamu peribadi dengan output yang disahkan.",
+      "breadcrumbCurrent": "JPG ke WebP Penukar",
+      "h1": "Tukar JPG kepada WebP Dalam talian",
+      "subtitle": "Tukar daripada JPG kepada WebP tanpa perisian desktop",
+      "paragraph": "Tukar imej JPG kepada WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: JPG → WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-ke-png",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai PNG dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar JPG kepada PNG menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong JPG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah penukaran tanpa kerugian?",
+          "a": "Ia bergantung kepada format sumber dan sasaran. Format lossy boleh mengurangkan kualiti untuk saiz yang lebih kecil."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Tukar JPG kepada PNG Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej JPG kepada PNG dalam talian. Penukaran tetamu peribadi dengan output yang disahkan.",
+      "breadcrumbCurrent": "JPG ke PNG Penukar",
+      "h1": "Tukar JPG kepada PNG Dalam talian",
+      "subtitle": "Tukar daripada JPG kepada PNG tanpa perisian desktop",
+      "paragraph": "Tukar imej JPG kepada PNG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: JPG → PNG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-ke-avif",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai AVIF dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar JPG kepada AVIF menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong JPG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah AVIF sentiasa tersedia?",
+          "a": "Pengekodan AVIF ditawarkan hanya apabila pelayan boleh mengekod dan mengesahkan hasilnya."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Tukar JPG kepada AVIF Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej JPG kepada AVIF dalam talian apabila pengekodan tersedia. Penukaran tetamu persendirian.",
+      "breadcrumbCurrent": "JPG ke AVIF Penukar",
+      "h1": "Tukar JPG kepada AVIF Dalam talian",
+      "subtitle": "Tukar daripada JPG kepada AVIF tanpa perisian desktop",
+      "paragraph": "Tukar imej JPG kepada AVIF dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: JPG → AVIF • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/png-to-jpg": {
+      "path": "/png-ke-jpg",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai JPG dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar PNG kepada JPG menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong PNG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah penukaran tanpa kerugian?",
+          "a": "Ia bergantung kepada format sumber dan sasaran. Format lossy boleh mengurangkan kualiti untuk saiz yang lebih kecil."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Tukar PNG kepada JPG Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej PNG kepada JPG dalam talian. Penukaran tetamu peribadi dengan output yang disahkan.",
+      "breadcrumbCurrent": "PNG ke JPG Penukar",
+      "h1": "Tukar PNG kepada JPG Dalam talian",
+      "subtitle": "Tukar daripada PNG kepada JPG tanpa perisian desktop",
+      "paragraph": "Tukar imej PNG kepada JPG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: PNG → JPG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/png-to-webp": {
+      "path": "/png-ke-webp",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai WebP dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar PNG kepada WebP menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong PNG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah penukaran tanpa kerugian?",
+          "a": "Ia bergantung kepada format sumber dan sasaran. Format lossy boleh mengurangkan kualiti untuk saiz yang lebih kecil."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Tukar PNG kepada WebP Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej PNG kepada WebP dalam talian untuk penghantaran web yang lebih kecil. Penukaran tetamu persendirian.",
+      "breadcrumbCurrent": "PNG ke WebP Penukar",
+      "h1": "Tukar PNG kepada WebP Dalam talian",
+      "subtitle": "Tukar daripada PNG kepada WebP tanpa perisian desktop",
+      "paragraph": "Tukar imej PNG kepada WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: PNG → WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai AVIF dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar PNG kepada AVIF menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong PNG sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah AVIF sentiasa tersedia?",
+          "a": "Pengekodan AVIF ditawarkan hanya apabila pelayan boleh mengekod dan mengesahkan hasilnya."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/png-ke-avif",
+      "metaTitle": "Tukar PNG kepada AVIF Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej PNG kepada AVIF dalam talian apabila pengekodan tersedia. Penukaran tetamu persendirian.",
+      "breadcrumbCurrent": "PNG ke AVIF Penukar",
+      "h1": "Tukar PNG kepada AVIF Dalam talian",
+      "subtitle": "Tukar daripada PNG kepada AVIF tanpa perisian desktop",
+      "paragraph": "Tukar imej PNG kepada AVIF dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: PNG → AVIF • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-ke-jpg",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai JPG dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar WebP kepada JPG menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong WebP sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah penukaran tanpa kerugian?",
+          "a": "Ia bergantung kepada format sumber dan sasaran. Format lossy boleh mengurangkan kualiti untuk saiz yang lebih kecil."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Tukar WebP kepada JPG Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej WebP kepada JPG dalam talian. Penukaran tetamu peribadi dengan output yang disahkan.",
+      "breadcrumbCurrent": "WebP ke JPG Penukar",
+      "h1": "Tukar WebP kepada JPG Dalam talian",
+      "subtitle": "Tukar daripada WebP kepada JPG tanpa perisian desktop",
+      "paragraph": "Tukar imej WebP kepada JPG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: WebP → JPG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/webp-to-png": {
+      "path": "/webp-ke-png",
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai PNG dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar WebP kepada PNG menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong WebP sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah penukaran tanpa kerugian?",
+          "a": "Ia bergantung kepada format sumber dan sasaran. Format lossy boleh mengurangkan kualiti untuk saiz yang lebih kecil."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "metaTitle": "Tukar WebP kepada PNG Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej WebP kepada PNG dalam talian. Penukaran tetamu peribadi dengan output yang disahkan.",
+      "breadcrumbCurrent": "WebP ke PNG Penukar",
+      "h1": "Tukar WebP kepada PNG Dalam talian",
+      "subtitle": "Tukar daripada WebP kepada PNG tanpa perisian desktop",
+      "paragraph": "Tukar imej WebP kepada PNG dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: WebP → PNG • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Perubahan Format Dipermudahkan",
+      "features": [
+        {
+          "tone": "biru",
+          "title": "Kosongkan Sasaran",
+          "body": "Output disimpan sebagai AVIF dengan hasil yang disahkan."
+        },
+        {
+          "tone": "hijau",
+          "title": "Alat Tetamu Pantas",
+          "body": "Muat naik, tukar dan muat turun dalam satu sesi peribadi."
+        },
+        {
+          "title": "Mesra Web",
+          "tone": "ungu",
+          "body": "Gunakan format yang sesuai dengan tapak atau aliran kerja anda."
+        },
+        {
+          "title": "Keluaran Jujur",
+          "tone": "oren",
+          "body": "Ketahui jenis dan saiz yang terhasil sebelum muat turun."
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat Naik Imej Anda"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Pratonton Keputusan"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+          "kind": "privasi"
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Adakah menukar WebP kepada AVIF menukar asal saya?",
+          "a": "Tidak. Pemprosesan tetamu menulis output yang berasingan. Muat naik anda kekal peribadi dan tamat tempoh dengan sesi."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Muat naik tetamu menyokong WebP sehingga 10 MB."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tidak. Tukar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Adakah AVIF sentiasa tersedia?",
+          "a": "Pengekodan AVIF ditawarkan hanya apabila pelayan boleh mengekod dan mengesahkan hasilnya."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/webp-ke-avif",
+      "metaTitle": "Tukar WebP kepada AVIF Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Tukar imej WebP kepada AVIF dalam talian apabila pengekodan tersedia. Penukaran tetamu persendirian.",
+      "breadcrumbCurrent": "WebP ke AVIF Penukar",
+      "h1": "Tukar WebP kepada AVIF Dalam talian",
+      "subtitle": "Tukar daripada WebP kepada AVIF tanpa perisian desktop",
+      "paragraph": "Tukar imej WebP kepada AVIF dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+      "workspaceNote": "Disokong: WebP → AVIF • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Kelajuan Kelompok Dengan Had Jelas",
+      "features": [
+        {
+          "title": "Tetapan Dikongsi",
+          "tone": "biru",
+          "body": "Sapukan satu pilihan mampat di seluruh kumpulan."
+        },
+        {
+          "title": "Status setiap fail",
+          "body": "Lihat imej mana yang berjaya dan mana yang memerlukan perhatian.",
+          "tone": "hijau"
+        },
+        {
+          "title": "ZIP Muat turun",
+          "body": "Kumpul output yang berjaya apabila kumpulan sudah sedia.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Topi Tetamu",
+          "body": "Saiz kelompok dan jumlah bait mengikut dasar tetamu percuma.",
+          "tone": "oren"
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat naik Kumpulan"
+        },
+        {
+          "title": "Memampatkan"
+        },
+        {
+          "title": "Proses Fail"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "privasi",
+          "body": "Imej anda diproses secara tertutup untuk pemampatan pukal dan dipadamkan secara automatik dalam masa satu jam."
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Berapa banyak fail yang boleh saya muat naik?",
+          "a": "Kerja pukal tetamu menguatkuasakan kiraan fail maksimum dan jumlah saiz kelompok."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Setiap fail mengikut saiz maksimum tetamu dan kumpulan mempunyai had jumlah bait."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tetamu boleh menjalankan kerja pukal terhad. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Bagaimana jika satu fail gagal?",
+          "a": "Output yang berjaya kekal boleh dimuat turun; item yang gagal menunjukkan status ralat."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/mampat-pukal",
+      "metaTitle": "Imej Mampat Pukal Percuma Dalam Talian | Img Pilot",
+      "metaDescription": "Mampatkan berbilang imej dalam talian dan muat turun hasil yang berjaya bersama-sama. Had pukal tetamu dikenakan.",
+      "breadcrumbCurrent": "Imej Mampat Pukal",
+      "h1": "Imej Mampat Pukal Dalam Talian",
+      "subtitle": "Mampatkan kumpulan pendek tanpa mengulangi setiap langkah",
+      "paragraph": "Mampatkan berbilang fail JPG, PNG atau WebP dalam satu kelompok. Had tetamu percuma dikenakan.",
+      "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Had kumpulan tetamu dikenakan. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Kelajuan Kelompok Dengan Had Jelas",
+      "features": [
+        {
+          "title": "Tetapan Dikongsi",
+          "tone": "biru",
+          "body": "Gunakan satu pilihan ubah saiz di seluruh kumpulan."
+        },
+        {
+          "title": "Status setiap fail",
+          "body": "Lihat imej mana yang berjaya dan mana yang memerlukan perhatian.",
+          "tone": "hijau"
+        },
+        {
+          "title": "ZIP Muat turun",
+          "body": "Kumpul output yang berjaya apabila kumpulan sudah sedia.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Topi Tetamu",
+          "body": "Saiz kelompok dan jumlah bait mengikut dasar tetamu percuma.",
+          "tone": "oren"
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat naik Kumpulan"
+        },
+        {
+          "title": "Ubah saiz"
+        },
+        {
+          "title": "Proses Fail"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "privasi",
+          "body": "Imej anda diproses secara tertutup untuk saiz semula pukal dan dipadamkan secara automatik dalam masa satu jam."
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Berapa banyak fail yang boleh saya muat naik?",
+          "a": "Kerja pukal tetamu menguatkuasakan kiraan fail maksimum dan jumlah saiz kelompok."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Setiap fail mengikut saiz maksimum tetamu dan kumpulan mempunyai had jumlah bait."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tetamu boleh menjalankan kerja pukal terhad. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Bagaimana jika satu fail gagal?",
+          "a": "Output yang berjaya kekal boleh dimuat turun; item yang gagal menunjukkan status ralat."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/saiz pukal",
+      "metaTitle": "Saiz Pukal Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Ubah saiz berbilang imej dalam talian dan muat turun hasil yang berjaya bersama-sama. Had pukal tetamu dikenakan.",
+      "breadcrumbCurrent": "Ubah Saiz Imej Pukal",
+      "h1": "Saiz Pukal Imej Dalam Talian",
+      "subtitle": "Ubah saiz kumpulan pendek tanpa mengulangi setiap langkah",
+      "paragraph": "Ubah saiz berbilang fail JPG, PNG atau WebP dalam satu kelompok. Had tetamu percuma dikenakan.",
+      "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Had kumpulan tetamu dikenakan. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Tiada akaun diperlukan",
+        "Pemprosesan peribadi & selamat",
+        "Auto padam dalam masa 1 jam"
+      ],
+      "featuresHeading": "Kelajuan Kelompok Dengan Had Jelas",
+      "features": [
+        {
+          "title": "Tetapan Dikongsi",
+          "tone": "biru",
+          "body": "Gunakan satu pilihan tukar merentas kumpulan."
+        },
+        {
+          "title": "Status setiap fail",
+          "body": "Lihat imej mana yang berjaya dan mana yang memerlukan perhatian.",
+          "tone": "hijau"
+        },
+        {
+          "title": "ZIP Muat turun",
+          "body": "Kumpul output yang berjaya apabila kumpulan sudah sedia.",
+          "tone": "ungu"
+        },
+        {
+          "title": "Topi Tetamu",
+          "body": "Saiz kelompok dan jumlah bait mengikut dasar tetamu percuma.",
+          "tone": "oren"
+        }
+      ],
+      "howHeading": "Bagaimana Ia Berfungsi",
+      "howSteps": [
+        {
+          "title": "Muat naik Kumpulan"
+        },
+        {
+          "title": "Tukar"
+        },
+        {
+          "title": "Proses Fail"
+        },
+        {
+          "title": "Muat turun"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Privasi Anda Penting",
+          "kind": "privasi",
+          "body": "Imej anda diproses secara tertutup untuk penukaran pukal dan dipadamkan secara automatik dalam masa satu jam."
+        },
+        {
+          "title": "Cepat & Cekap",
+          "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+          "kind": "kelajuan"
+        }
+      ],
+      "faqHeading": "Soalan Lazim",
+      "faqs": [
+        {
+          "q": "Berapa banyak fail yang boleh saya muat naik?",
+          "a": "Kerja pukal tetamu menguatkuasakan kiraan fail maksimum dan jumlah saiz kelompok."
+        },
+        {
+          "q": "Adakah terdapat had saiz fail?",
+          "a": "Setiap fail mengikut saiz maksimum tetamu dan kumpulan mempunyai had jumlah bait."
+        },
+        {
+          "q": "Adakah saya memerlukan akaun?",
+          "a": "Tetamu boleh menjalankan kerja pukal terhad. Fail tamat tempoh dalam masa satu jam."
+        },
+        {
+          "q": "Bagaimana jika satu fail gagal?",
+          "a": "Output yang berjaya kekal boleh dimuat turun; item yang gagal menunjukkan status ralat."
+        },
+        {
+          "q": "Adakah imej saya disimpan secara kekal?",
+          "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+        }
+      ],
+      "path": "/pukal-tukar",
+      "metaTitle": "Pukal Tukar Imej Dalam Talian Percuma | Img Pilot",
+      "metaDescription": "Tukar berbilang imej dalam talian dan muat turun hasil yang berjaya bersama-sama. Had pukal tetamu dikenakan.",
+      "breadcrumbCurrent": "Pukal Tukar Imej",
+      "h1": "Pukal Tukar Imej Dalam Talian",
+      "subtitle": "Tukar kumpulan pendek tanpa mengulangi setiap langkah",
+      "paragraph": "Tukar berbilang fail JPG, PNG atau WebP dalam satu kelompok. Had tetamu percuma dikenakan.",
+      "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Had kumpulan tetamu dikenakan. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam."
+    }
+  }
+}

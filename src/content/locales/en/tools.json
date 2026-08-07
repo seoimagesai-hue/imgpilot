@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/compress-image",
+    "metaTitle": "Compress Images Online — Reduce JPG, PNG & WebP Size",
+    "metaDescription": "Compress images online without losing quality. Reduce JPG, PNG and WebP file size with private guest processing and automatic deletion within one hour.",
+    "breadcrumbCurrent": "Compress Images Online",
+    "h1": "Compress Images Online",
+    "subtitle": "Reduce image file size without losing quality",
+    "paragraph": "Compress JPG, PNG and WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Smaller Size, Same Great Quality",
+    "features": [
+      {
+        "title": "Smart Compression",
+        "body": "Intelligent compression that keeps your images looking sharp.",
+        "tone": "blue"
+      },
+      {
+        "title": "Up to 80% Smaller",
+        "body": "Dramatically reduce file size for faster uploads and page loads.",
+        "tone": "green"
+      },
+      {
+        "title": "Perfect for Web",
+        "body": "Optimize images for websites, blogs, and product pages.",
+        "tone": "purple"
+      },
+      {
+        "title": "Quality You Can Trust",
+        "body": "Preview before download so quality stays under your control.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Compress"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed compression delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "How does image compression work?",
+        "a": "The tool re-encodes your image with settings that reduce file size while keeping the result visually usable. Choose a lighter or stronger preset before you process."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB. Larger workflows may require an account."
+      },
+      {
+        "q": "Will compressing reduce image quality?",
+        "a": "Stronger presets can soften fine detail. Use Maximum Quality or Balanced when looks matter most, and always preview before download."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Guest compression works without signing in. Files stay private and expire within one hour."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results are temporary and automatically deleted within one hour."
+      }
+    ]
+  },
+  "/resize-image": {
+    "path": "/resize-image",
+    "metaTitle": "Resize Images Online — Change Dimensions for Web & Social",
+    "metaDescription": "Resize JPG, PNG and WebP images online by width, height or fit-inside. Private guest tool with no account required.",
+    "breadcrumbCurrent": "Resize Images Online",
+    "h1": "Resize Images Online",
+    "subtitle": "Change dimensions for web, social and layout",
+    "paragraph": "Resize JPG, PNG and WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Precise Control, Clean Results",
+    "features": [
+      {
+        "title": "Exact Dimensions",
+        "body": "Enter width and height that match your layout needs.",
+        "tone": "blue"
+      },
+      {
+        "title": "Fit Inside",
+        "body": "Scale images into a box while preserving aspect ratio.",
+        "tone": "green"
+      },
+      {
+        "title": "No Unwanted Upscale",
+        "body": "Guardrails help avoid stretching small sources.",
+        "tone": "purple"
+      },
+      {
+        "title": "Web Ready",
+        "body": "Prepare consistent sizes for pages and product grids.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Resize"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for resizing and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Can I keep the aspect ratio?",
+        "a": "Yes. Use fit-inside or linked dimensions so images scale cleanly without distortion."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Will resizing enlarge my image?",
+        "a": "By default, workflows avoid unwanted enlargement. Choose dimensions that fit your source."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Start resizing as a guest. Temporary files expire within one hour."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results are deleted automatically within one hour."
+      }
+    ]
+  },
+  "/crop-image": {
+    "path": "/crop-image",
+    "metaTitle": "Crop Images Online — Free & Fixed Ratio Crop",
+    "metaDescription": "Crop JPG, PNG and WebP images online with free or fixed-ratio controls. Private guest processing, no account required.",
+    "breadcrumbCurrent": "Crop Images Online",
+    "h1": "Crop Images Online",
+    "subtitle": "Keep only the part of the image that matters",
+    "paragraph": "Crop JPG, PNG and WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Crop With Confidence",
+    "features": [
+      {
+        "title": "Free Crop",
+        "body": "Select any area of the image and keep exactly that region.",
+        "tone": "blue"
+      },
+      {
+        "title": "Fixed Ratios",
+        "body": "Use common aspect ratios for consistent layouts.",
+        "tone": "green"
+      },
+      {
+        "title": "Orientation Safe",
+        "body": "Crop math respects oriented dimensions after upload.",
+        "tone": "purple"
+      },
+      {
+        "title": "Same Format Out",
+        "body": "Download a cropped result in your source format when supported.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Crop"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for cropping and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Can I crop to a square?",
+        "a": "Yes. Choose a 1:1 ratio or draw a free crop that matches your needs."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Is the original overwritten?",
+        "a": "No. Processing creates a new cropped result."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Crop as a guest. Files are deleted automatically within one hour."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/convert-image": {
+    "path": "/convert-image",
+    "metaTitle": "Convert Images Online — JPG, PNG, WebP & AVIF",
+    "metaDescription": "Convert between JPG, PNG, WebP and supported AVIF formats online. Private guest conversion with verified outputs.",
+    "breadcrumbCurrent": "Convert Images Online",
+    "h1": "Convert Images Online",
+    "subtitle": "Switch formats for the web without desktop software",
+    "paragraph": "Convert JPG, PNG and WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Format Changes Made Simple",
+    "features": [
+      {
+        "title": "Popular Formats",
+        "body": "Move between JPG, PNG and WebP with clear options.",
+        "tone": "blue"
+      },
+      {
+        "title": "Transparency Aware",
+        "body": "PNG and WebP alpha is handled carefully by policy.",
+        "tone": "green"
+      },
+      {
+        "title": "AVIF When Ready",
+        "body": "Encode to AVIF only when the server can verify it.",
+        "tone": "purple"
+      },
+      {
+        "title": "Honest Output",
+        "body": "Know the resulting MIME type and size before download.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Convert"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Which conversions are supported?",
+        "a": "Core guest conversion covers JPG, PNG and WebP. AVIF is offered when the runtime can encode and verify it."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Will transparency be kept?",
+        "a": "When converting to formats that support alpha, transparency can be preserved according to tool options."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Convert as a guest. Temporary files expire within one hour."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results are deleted automatically within one hour."
+      }
+    ]
+  },
+  "/rotate-image": {
+    "path": "/rotate-image",
+    "metaTitle": "Rotate Image Online — Flip JPG, PNG and WebP",
+    "metaDescription": "Rotate images by 90°, 180° or 270° and flip horizontally or vertically. Free guest tool with private temporary storage.",
+    "breadcrumbCurrent": "Rotate Images Online",
+    "h1": "Rotate Images Online",
+    "subtitle": "Turn or flip images for layout and design",
+    "paragraph": "Rotate or flip JPG, PNG and WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Quick Orientation Fixes",
+    "features": [
+      {
+        "title": "90° Steps",
+        "body": "Rotate by 90°, 180° or 270° in one pass.",
+        "tone": "blue"
+      },
+      {
+        "title": "Flip Controls",
+        "body": "Mirror horizontally or vertically when needed.",
+        "tone": "green"
+      },
+      {
+        "title": "Same Format",
+        "body": "Output stays in your uploaded format.",
+        "tone": "purple"
+      },
+      {
+        "title": "Private Guest Jobs",
+        "body": "Short-lived processing with automatic cleanup.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Rotate"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for rotation and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Which angles are supported?",
+        "a": "Guest rotate supports 90°, 180° and 270° plus optional flips."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Rotate as a guest. Files expire within one hour."
+      },
+      {
+        "q": "Is EXIF orientation applied?",
+        "a": "Sources are orientation-normalized before transform so results match what you expect."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/watermark-image": {
+    "path": "/watermark-image",
+    "metaTitle": "Watermark Images Online — Add Text Watermarks",
+    "metaDescription": "Stamp short text watermarks on JPG, PNG and WebP with position and opacity controls. Private guest tool.",
+    "breadcrumbCurrent": "Watermark Images Online",
+    "h1": "Watermark Images Online",
+    "subtitle": "Stamp short text without covering the whole image",
+    "paragraph": "Add a text watermark to JPG, PNG or WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Protect Visuals With Light Branding",
+    "features": [
+      {
+        "title": "Short Text Stamps",
+        "body": "Add a concise watermark that stays readable.",
+        "tone": "blue"
+      },
+      {
+        "title": "Position Control",
+        "body": "Place watermarks in corners or the center.",
+        "tone": "green"
+      },
+      {
+        "title": "Opacity Slider",
+        "body": "Balance visibility against image content.",
+        "tone": "purple"
+      },
+      {
+        "title": "Same Format Out",
+        "body": "Download a watermarked file in your source format.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Watermark"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for watermarking and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Can I upload a logo watermark?",
+        "a": "This guest tool stamps text. Use short brand text for now."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Watermark as a guest. Files expire within one hour."
+      },
+      {
+        "q": "Will the watermark cover my subject?",
+        "a": "Choose corner positions and lower opacity to keep subjects visible."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/blur-region": {
+    "path": "/blur-region",
+    "metaTitle": "Blur Image Region Online — Hide Faces & Details",
+    "metaDescription": "Manually blur a region of JPG, PNG or WebP images to hide faces, plates or other details. Private guest tool.",
+    "breadcrumbCurrent": "Blur Region Online",
+    "h1": "Blur Region Online",
+    "subtitle": "Hide sensitive details with a manual blur box",
+    "paragraph": "Blur a selected region on JPG, PNG or WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Blur What Needs Privacy",
+    "features": [
+      {
+        "title": "Manual Region",
+        "body": "You choose exactly where the blur is applied.",
+        "tone": "blue"
+      },
+      {
+        "title": "Strength Levels",
+        "body": "Light, medium or strong blur for different needs.",
+        "tone": "green"
+      },
+      {
+        "title": "Privacy Friendly",
+        "body": "Hide details before posting or shipping assets.",
+        "tone": "purple"
+      },
+      {
+        "title": "Guest Safe",
+        "body": "Private temporary processing with automatic deletion.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Blur"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for region blur and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Does this detect faces automatically?",
+        "a": "No. You select the region manually as percentages of the image."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Blur as a guest. Files expire within one hour."
+      },
+      {
+        "q": "Can I blur multiple regions?",
+        "a": "This guest tool applies one region per run. Re-run to blur another area."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/meme-generator": {
+    "path": "/meme-generator",
+    "metaTitle": "Meme Generator Online — Add Top & Bottom Captions",
+    "metaDescription": "Add classic top and bottom meme captions to JPG, PNG or WebP images. Free guest meme generator.",
+    "breadcrumbCurrent": "Meme Generator Online",
+    "h1": "Meme Generator Online",
+    "subtitle": "Add classic captions in seconds",
+    "paragraph": "Add top and bottom captions to JPG, PNG or WebP images in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Captions That Read Like Classic Memes",
+    "features": [
+      {
+        "title": "Top & Bottom Text",
+        "body": "Use either line or both for classic layouts.",
+        "tone": "blue"
+      },
+      {
+        "title": "Auto Wrapping",
+        "body": "Long captions wrap into short readable lines.",
+        "tone": "green"
+      },
+      {
+        "title": "High Contrast Type",
+        "body": "White fill with dark stroke for clarity.",
+        "tone": "purple"
+      },
+      {
+        "title": "Instant Guest Tool",
+        "body": "Create and download without signing in.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Caption"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for meme captions and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Do I need both top and bottom text?",
+        "a": "No. Provide at least one caption line."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Generate as a guest. Files expire within one hour."
+      },
+      {
+        "q": "Can I change the font?",
+        "a": "Guest memes use a classic Impact-style stack for readability."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/geotag-image": {
+    "path": "/geotag-image",
+    "metaTitle": "Geotag Images Online — Add GPS to JPEG",
+    "metaDescription": "Read or write verified GPS coordinates on compatible JPEG images. Private guest geotag tool.",
+    "breadcrumbCurrent": "Geotag Images Online",
+    "h1": "Geotag Images Online",
+    "subtitle": "Add or inspect JPEG GPS location data",
+    "paragraph": "Add or inspect GPS coordinates on compatible JPEG images. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Location Data You Can Verify",
+    "features": [
+      {
+        "title": "JPEG Focused",
+        "body": "Geotag workflows target compatible JPEG sources.",
+        "tone": "blue"
+      },
+      {
+        "title": "Inspect First",
+        "body": "See whether readable GPS is already present.",
+        "tone": "green"
+      },
+      {
+        "title": "Write Coordinates",
+        "body": "Embed latitude and longitude when replacing is allowed.",
+        "tone": "purple"
+      },
+      {
+        "title": "Guest Privacy",
+        "body": "Temporary processing with automatic cleanup.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Geotag"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for geotagging and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Which formats support geotagging?",
+        "a": "Guest geotag focuses on compatible JPEG images."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support compatible JPEG within the 10 MB limit."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Geotag as a guest. Files expire within one hour."
+      },
+      {
+        "q": "Are coordinates verified?",
+        "a": "Writes follow validation rules so values are well-formed before embed."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/image-metadata": {
+    "path": "/image-metadata",
+    "metaTitle": "Image Metadata Viewer Online — Inspect EXIF Safely",
+    "metaDescription": "Inspect dimensions, color info and safe allow-listed metadata for JPG, PNG and WebP. Private guest viewer.",
+    "breadcrumbCurrent": "Image Metadata Viewer",
+    "h1": "Image Metadata Viewer",
+    "subtitle": "Inspect safe image properties before you publish",
+    "paragraph": "Inspect JPG, PNG and WebP properties in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "See What Matters, Safely",
+    "features": [
+      {
+        "title": "Core Properties",
+        "body": "Dimensions, type and practical file details.",
+        "tone": "blue"
+      },
+      {
+        "title": "Allow-listed Fields",
+        "body": "Only safe, curated metadata surfaces are shown.",
+        "tone": "green"
+      },
+      {
+        "title": "Web Friendly",
+        "body": "Useful checks before CMS upload or SEO review.",
+        "tone": "purple"
+      },
+      {
+        "title": "Guest Privacy",
+        "body": "Temporary inspect jobs with automatic deletion.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Inspect"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for metadata inspection and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Do you show all EXIF tags?",
+        "a": "No. The viewer shows allow-listed fields for safety and clarity."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. Inspect as a guest. Files expire within one hour."
+      },
+      {
+        "q": "Can I edit metadata here?",
+        "a": "Use the Image SEO Metadata Editor to draft and export SEO fields."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/image-metadata-editor": {
+    "path": "/image-metadata-editor",
+    "metaTitle": "Image SEO Metadata Editor Online",
+    "metaDescription": "Write, review and export image SEO fields for websites and CMS workflows. Private guest metadata editor.",
+    "breadcrumbCurrent": "Image SEO Metadata Editor",
+    "h1": "Image SEO Metadata Editor",
+    "subtitle": "Prepare image SEO fields before publishing",
+    "paragraph": "Draft image SEO fields and export sidecars in seconds. Free online tool — no account required.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Editorial Control for Image SEO",
+    "features": [
+      {
+        "title": "Editable Fields",
+        "body": "Update the SEO text you actually ship.",
+        "tone": "blue"
+      },
+      {
+        "title": "Export Friendly",
+        "body": "Download sidecars for CMS and content workflows.",
+        "tone": "green"
+      },
+      {
+        "title": "CMS Ready",
+        "body": "Prepare titles, descriptions and keywords before publish.",
+        "tone": "purple"
+      },
+      {
+        "title": "Guest Sessions",
+        "body": "Temporary drafts with automatic cleanup.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload Your Image"
+      },
+      {
+        "title": "Edit"
+      },
+      {
+        "title": "Preview Result"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for metadata editing and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "Does this rewrite EXIF inside every format?",
+        "a": "The editor focuses on preparing SEO fields and exports."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Guest uploads support JPG, PNG and WebP up to 10 MB."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "Guest editing is available with limits. Files expire within one hour."
+      },
+      {
+        "q": "What can I export?",
+        "a": "Use sidecar-friendly exports for CMS and content workflows."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  },
+  "/bulk-image-tools": {
+    "path": "/bulk-image-tools",
+    "metaTitle": "Bulk Image Tools Online — Compress, Resize, Convert",
+    "metaDescription": "Compress, resize or convert several images and download successful results together. Guest bulk limits apply.",
+    "breadcrumbCurrent": "Bulk Image Tools",
+    "h1": "Bulk Image Tools",
+    "subtitle": "Process a short batch without repeating every step",
+    "paragraph": "Compress, resize or convert multiple JPG, PNG or WebP files in one batch. Free guest limits apply.",
+    "trust": [
+      "No account required",
+      "Private & secure processing",
+      "Auto delete within 1 hour"
+    ],
+    "workspaceNote": "Supported formats: JPG, PNG, WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+    "featuresHeading": "Batch Speed With Clear Limits",
+    "features": [
+      {
+        "title": "Shared Settings",
+        "body": "Apply one compress, resize or convert choice across the batch.",
+        "tone": "blue"
+      },
+      {
+        "title": "Per-file Status",
+        "body": "See which images succeeded and which need attention.",
+        "tone": "green"
+      },
+      {
+        "title": "ZIP Download",
+        "body": "Collect successful outputs when the batch is ready.",
+        "tone": "purple"
+      },
+      {
+        "title": "Guest Caps",
+        "body": "Batch size and total bytes follow free guest policy.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "How It Works",
+    "howSteps": [
+      {
+        "title": "Upload a Batch"
+      },
+      {
+        "title": "Choose Operation"
+      },
+      {
+        "title": "Process Files"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "benefitCards": [
+      {
+        "title": "Your Privacy Matters",
+        "body": "Your images are processed privately for bulk processing and deleted automatically within one hour.",
+        "kind": "privacy"
+      },
+      {
+        "title": "Fast & Efficient",
+        "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+        "kind": "speed"
+      }
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "How many files can I upload?",
+        "a": "Guest bulk jobs enforce a maximum file count and total batch size."
+      },
+      {
+        "q": "Is there a file size limit?",
+        "a": "Each file follows the guest max size, and the batch has a total bytes cap."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "Guests can run limited bulk jobs. Files expire within one hour."
+      },
+      {
+        "q": "What if one file fails?",
+        "a": "Successful outputs remain downloadable; failed items show an error status."
+      },
+      {
+        "q": "Are my images stored permanently?",
+        "a": "No. Guest uploads and results expire within one hour."
+      }
+    ]
+  }
+}

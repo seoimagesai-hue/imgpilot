@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Незабаром",
+    "openMenu": "Відкрити навігацію",
+    "closeMenu": "Закрити навігацію",
+    "mainNavigation": "Головна навігація"
+  },
+  "navigation": {
+    "dashboard": "Панель",
+    "projects": "Проєкти",
+    "usage": "Аналітика",
+    "billing": "Оплата",
+    "developer": "Розробник",
+    "integrations": "Інтеграції",
+    "automation": "Автоматизація",
+    "settings": "Налаштування облікового запису",
+    "organizations": "Організації"
+  },
+  "language": {
+    "label": "Мова інтерфейсу",
+    "english": "англійська",
+    "urdu": "урду",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Інструменти зображень",
+    "compress": "Стиснути",
+    "resize": "Змінити розмір",
+    "convert": "Конвертувати",
+    "seoTools": "SEO-інструменти",
+    "bulkTools": "Пакетні інструменти",
+    "openAppGrid": "Відкрити меню інструментів",
+    "appGridTitle": "Інструменти та ресурси",
+    "languageHint": "Мова інтерфейсу",
+    "menu": "Меню",
+    "close": "Закрити",
+    "footerBlurb": "Приватні онлайн-інструменти для стиснення, зміни розміру, конвертації та підготовки зображень для вебу.",
+    "popularFormats": "Популярні формати",
+    "company": "Компанія",
+    "resources": "Ресурси",
+    "rights": "Усі права захищено."
+  },
+  "errors": {
+    "generic": "Щось пішло не так."
+  }
+}

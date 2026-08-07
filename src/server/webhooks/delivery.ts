@@ -207,7 +207,7 @@ export async function executeDelivery(
           "x-webhook-timestamp": String(timestamp),
           "x-webhook-event-type": event.eventType,
           "x-webhook-delivery-id": delivery.id,
-          "user-agent": "SeoImages-Webhooks/1.0",
+          "user-agent": "ImgPilot-Webhooks/1.0",
         },
         body: rawBody,
         redirect: "manual",

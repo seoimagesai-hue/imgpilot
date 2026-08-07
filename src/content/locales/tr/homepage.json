@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/görüntü sıkıştır",
+      "title": "Görüntüyü Sıkıştır",
+      "body": "Sonucu net ve kullanışlı tutarken JPG, PNG ve WebP dosya boyutlarını azaltın.",
+      "icon": "kompres"
+    },
+    {
+      "href": "/resmi yeniden boyutlandır",
+      "title": "Resmi Yeniden Boyutlandır",
+      "body": "İstenmeyen büyütme olmadan görüntü boyutlarını genişlik, yükseklik veya içe sığdırma ayarlarına göre değiştirin.",
+      "icon": "yeniden boyutlandır"
+    },
+    {
+      "title": "Resmi Kırp",
+      "href": "/kırpılmış resim",
+      "body": "Serbest ve sabit oranlı kırpma kontrolleriyle korumak istediğiniz alanı tam olarak seçin.",
+      "icon": "mahsul"
+    },
+    {
+      "title": "Resmi Dönüştür",
+      "href": "/resmi dönüştür",
+      "body": "Güvenli çıktı doğrulamayla JPG, PNG, WebP ve desteklenen AVIF formatları arasında dönüştürme yapın.",
+      "icon": "dönüştürmek"
+    },
+    {
+      "title": "Coğrafi Etiket Resmi",
+      "href": "/coğrafi etiket resmi",
+      "body": "Orijinali değiştirmeden uyumlu JPEG görüntülere doğrulanmış GPS koordinatlarını ekleyin.",
+      "icon": "coğrafi etiket"
+    },
+    {
+      "title": "Resim Meta Veri Görüntüleyicisi",
+      "href": "/resim-meta verisi",
+      "body": "Boyutları, renk bilgilerini ve izin verilenler listesindeki güvenli görüntü meta verilerini inceleyin.",
+      "icon": "meta veri"
+    },
+    {
+      "title": "Resim SEO Meta Veri Düzenleyici",
+      "href": "/resim-metaveri-düzenleyicisi",
+      "body": "Web siteniz veya içerik yönetim sisteminiz için resim SEO alanlarını yazın, inceleyin ve dışa aktarın.",
+      "icon": "editör"
+    },
+    {
+      "title": "Toplu Resim Araçları",
+      "href": "/toplu-görüntü-araçları",
+      "body": "Birkaç görüntüyü sıkıştırın, yeniden boyutlandırın veya dönüştürün ve başarılı sonuçları birlikte indirin.",
+      "icon": "toplu"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Sıkıştır JPG",
+      "badge": "JPG",
+      "href": "/sıkıştır-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/sıkıştır-png",
+      "label": "Sıkıştır PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/sıkıştır-webp",
+      "label": "Sıkıştır WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/yeniden boyutlandır-jpg",
+      "label": "Yeniden boyutlandır JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/yeniden boyutlandır-png",
+      "label": "Yeniden boyutlandır PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/yeniden boyutlandır-webp",
+      "label": "Yeniden boyutlandır WebP"
+    },
+    {
+      "href": "/jpg-to-png",
+      "label": "JPG ila PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-to-webp",
+      "label": "JPG ila WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-to-jpg",
+      "label": "PNG ila JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-to-webp",
+      "label": "PNG ila WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-to-jpg",
+      "label": "WebP ila JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-to-png",
+      "label": "WebP ila PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Fotoğraflar, web içeriği ve daha küçük kayıplı görüntü dosyaları için pratik bir format.",
+      "href": "/sıkıştır-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Şeffaflık gerektiren grafikler ve görüntüler için yaygın olarak kullanılan kayıpsız bir format.",
+      "href": "/sıkıştır-png"
+    },
+    {
+      "title": "WebP",
+      "body": "İsteğe bağlı şeffaflıkla verimli sıkıştırma sağlayabilen modern bir web formatı.",
+      "href": "/sıkıştır-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Sunucu çalışma zamanının bunu kodlayabildiği ve doğrulayabildiği durumlarda, desteklenen dönüştürme iş akışları için kullanılabilir.",
+      "href": "/jpg-to-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Görüntüleri Çevrimiçi Olarak Sıkıştırın, Yeniden Boyutlandırın, Dönüştürün ve Optimize Edin",
+  "metaDescription": "JPG, PNG ve WebP görsellerini çevrimiçi sıkıştırın, yeniden boyutlandırın, kırpın, dönüştürün ve optimize edin. Bir saat içinde otomatik olarak silinen özel misafir araçlarını hesap olmadan kullanın.",
+  "heroBadge": "Daha hızlı, daha temiz web siteleri için ücretsiz çevrimiçi görsel araçları",
+  "h1": "Her Görüntüyü Tek Bir Basit Çalışma Alanında Optimize Edin",
+  "heroParagraph": "Yazılım yüklemeden görsellerinizi sıkıştırın, yeniden boyutlandırın, kırpın, dönüştürün ve optimize edin. Hesap olmadan ücretsiz başlayın, dosyalarınızın tam kontrolünü elinizde tutun ve yalnızca birkaç tıklamayla temiz, doğrulanmış sonuçları indirin.",
+  "uploadHeading": "Başlamak için buraya bir resim bırakın",
+  "uploadSupport": "Bir JPG, PNG veya WebP görseli yükleyin veya doğrudan panonuzdan yapıştırın.",
+  "chooseImage": "Bir Resim Seçin",
+  "pasteHint": "Ayrıca bir resmi Ctrl + V veya ⌘ + V tuşlarına basarak da yapıştırabilirsiniz.",
+  "formatLimitLine": "JPG, PNG ve WebP • {maxFileSize}'e kadar • Hesap gerekmez",
+  "privacyLine": "Konuk dosyalarınız gizli kalır ve bir saat içinde otomatik olarak silinir.",
+  "defaultActionLabel": "Görüntü Sıkıştırmayla Başlayın",
+  "trust": [
+    {
+      "title": "Hesap Gerekmiyor",
+      "body": "Konuk olarak temel görüntü araçlarını anında kullanın."
+    },
+    {
+      "title": "Özel İşleme",
+      "body": "Dosyalar korumalı geçici depolama alanında kalır."
+    },
+    {
+      "title": "Otomatik Silme",
+      "body": "Konuk dosyalarının süresi bir saat içinde dolar."
+    },
+    {
+      "title": "Doğrulanmış Sonuçlar",
+      "body": "Çıkışlar indirmeden önce sunucu tarafından kontrol edilir."
+    }
+  ],
+  "stats": [
+    {
+      "title": "10 Milyondan Fazla Görüntü İşlendi",
+      "body": "Günlük optimizasyon için güvenilir iş akışları."
+    },
+    {
+      "title": "%100 Özel ve Güvenli",
+      "body": "Kısa süreli erişime sahip geçici depolama."
+    },
+    {
+      "title": "1 Saat Otomatik Silme",
+      "body": "Konuk dosyalarının süresi sabit bir zamanlamayla sona erer."
+    },
+    {
+      "title": "Filigran Temizleme Yok İndirme",
+      "body": "Doğrulanmış sonuçları markalama olmadan indirin."
+    }
+  ],
+  "toolsEyebrow": "İhtiyacınız olan her şey",
+  "toolsHeading": "Güçlü Görüntü Araçları, Siz Hazır Olduğunuzda Hazır",
+  "toolsDescription": "Günlük görüntü görevlerini tek bir temiz çalışma alanından gerçekleştirin. Her araç, yeni başlayanlar için basit olacak ve profesyonellere ihtiyaç duydukları kontrolleri sağlayacak şekilde tasarlanmıştır.",
+  "openTool": "Aracı aç",
+  "exploreAllTools": "Tüm araçları keşfedin",
+  "formatEyebrow": "Popüler görüntü görevleri",
+  "formatHeading": "Doğrudan İhtiyacınız Olan Formata Gidin",
+  "formatDescription": "Resim formatınız veya dönüşümünüz için özel bir araç seçin. Tercih ettiğiniz kaynak ve çıkış ayarları zaten seçilmiş olacaktır.",
+  "platformEyebrow": "Tek bir özel görsel çalışma alanı",
+  "platformHeading": "Her Zamanki Karmaşıklık Olmadan Yüklemeden İndirmeye",
+  "platformP1": "Img Pilot en kullanışlı görüntü iş akışlarını tek bir tutarlı deneyimde birleştirir. Her görev için farklı bir arayüz öğrenmenize gerek yok. Resminizi yükleyin, önemli olan ayarları seçin, güvenli bir şekilde işleyin ve doğrulanan sonucu indirin.",
+  "platformP2": "Aynı iş akışı, hızlı tek görüntülü işleri, formata özel açılış sayfalarını ve seçilen toplu işlemleri destekler. Konuk araçları hesap gerektirmez; oturum açmış kullanıcılar ise projelere ve uzun vadeli çalışma alanı özelliklerine erişebilir.",
+  "platformFeatures": [
+    "Tek bir tutarlı araç çalışma alanı",
+    "Öncesi ve sonrası bilgilerini temizle",
+    "Özel geçici misafir depolama alanı",
+    "Bireysel ve seçilmiş toplu iş akışları",
+    "İngilizce ve Urduca arayüzler",
+    "Sunucu tarafından doğrulanmış çıktılar"
+  ],
+  "whyEyebrow": "Netlik ve kontrol üzerine inşa edilmiştir",
+  "whyHeading": "Zamanınıza ve Dosyalarınıza Saygı Gösteren Görüntü Araçları",
+  "whyIntro": "Her iş akışı, önemli kontrolleri görünür tutarken gereksiz adımları ortadan kaldıracak şekilde tasarlanmıştır. Resminize ne olacağını, sonucun neleri içereceğini ve geçici dosyaların ne zaman kaldırılacağını her zaman bilirsiniz.",
+  "benefits": [
+    {
+      "title": "Hemen Başlayın",
+      "body": "Temel konuk araçlarını kayıt olmadan, yazılım yüklemeden veya proje kurulum işlemi olmadan kullanın."
+    },
+    {
+      "title": "Orijinali Güvende Tutun",
+      "body": "İşleme, yüklenen orijinal değişmeden kalırken yeni bir sonuç oluşturur."
+    },
+    {
+      "title": "Neyin Değiştiğini Bilin",
+      "body": "Nihai sonucu indirmeden önce boyutları, formatları ve dosya boyutlarını karşılaştırın."
+    },
+    {
+      "title": "Farklı Formatlarda Çalışma",
+      "body": "JPG, PNG ve WebP için formata özel dürüst işlemeyle özel iş akışlarını kullanın."
+    },
+    {
+      "title": "Geçici Dosyaları Koruyun",
+      "body": "Konuk görselleri ve oluşturulan sonuçlar, saklama süresi içerisinde otomatik olarak kaldırılır."
+    },
+    {
+      "title": "Arama için Görseller Hazırlayın",
+      "body": "Meta verileri inceleyin, dosya adlarını iyileştirin ve web sitesi ve CMS kullanımı için alternatif metni düzenleyin."
+    }
+  ],
+  "howEyebrow": "Baştan sona basit",
+  "howHeading": "Görüntü Görevinizi Dört Net Adımda Bitirin",
+  "steps": [
+    {
+      "title": "Resminizi Yükleyin",
+      "body": "Desteklenen bir görseli seçin, çalışma alanına sürükleyin veya panonuzdan yapıştırın."
+    },
+    {
+      "title": "Ayarlarınızı Seçin",
+      "body": "Göreviniz için gereken formatı, boyutları, kaliteyi, kırpma alanını veya meta veri seçeneklerini seçin."
+    },
+    {
+      "title": "Güvenli Bir Şekilde İşleyin",
+      "body": "Sunucu, net ilerleme ve hata durumlarını göstererek işlemi gerçekleştirir ve doğrular."
+    },
+    {
+      "title": "Sonucu İndir",
+      "body": "Son ayrıntıları inceleyin, dosyanızı indirin ve gerektiğinde başka bir görüntüyü işleyin."
+    }
+  ],
+  "beforeEyebrow": "Farkı görün",
+  "beforeHeading": "İndirmeden Önce Farkı Görün",
+  "beforeParagraph": "Net sonuç özetleri nelerin değiştiğini anlamanıza yardımcı olur. Orijinal görüntüyü işlenen sürümle karşılaştırın, dosya boyutunu veya boyutlarını inceleyin ve yalnızca çıktı ihtiyaçlarınızı karşıladığında indirin.",
+  "beforeBullets": [
+    "Yeni bir sonuç oluşturulurken orijinal güvende kalır",
+    "Dürüst boyut ve boyut ayrıntılarıyla doğrulanmış çıktı"
+  ],
+  "beforeCaption": "Ürün resmi — yalnızca örnektir. Gerçek tasarruflar görsele göre değişir.",
+  "useEyebrow": "Gerçek iş için tasarlandı",
+  "useHeading": "Web Siteleri, İçerik ve Günlük Paylaşım için Görseller Hazırlama",
+  "useCases": [
+    {
+      "title": "Web siteleri",
+      "body": "Gereksiz görüntü ağırlığını azaltın ve daha hızlı, daha temiz sayfalar için tutarlı boyutlar hazırlayın."
+    },
+    {
+      "title": "Çevrimiçi mağazalar",
+      "body": "Yayınlamadan önce ürün görsel formatlarını, dosya adlarını, boyutları ve meta verileri düzenleyin."
+    },
+    {
+      "title": "Sosyal içerik",
+      "body": "Gönderiler, küçük resimler ve kampanyalar için görselleri yeniden boyutlandırın ve pratik en boy oranlarına göre kırpın."
+    },
+    {
+      "title": "Bloglar ve yayıncılar",
+      "body": "Daha hafif makale görselleri oluşturun ve erişilebilir, açıklayıcı görsel metinler hazırlayın."
+    },
+    {
+      "title": "E-posta ve belgeler",
+      "body": "Büyük dosyaları küçültün; böylece görüntülerin eklenmesi, paylaşılması ve sunumlara dahil edilmesi daha kolay olur."
+    },
+    {
+      "title": "Yerel SEO",
+      "body": "Yerel içerik iş akışları için meta verileri inceleyin, doğrulanmış JPEG koordinatlarını ekleyin ve görüntü SEO bilgilerini düzenleyin."
+    }
+  ],
+  "seoEyebrow": "Temel düzenlemeden daha fazlası",
+  "seoHeading": "Sıradan Görselleri Daha İyi Web Sitesi Varlıklarına Dönüştürün",
+  "seoP1": "Görüntü optimizasyonu yalnızca dosya boyutunu küçültmekle ilgili değildir. Net dosya adları, doğru alternatif metin, uygun boyutlar ve kullanışlı meta veriler, resim kitaplıklarının yönetilmesini ve web sitesi içeriğinin daha erişilebilir olmasını sağlayabilir.",
+  "seoP2": "Img Pilot meta verileri incelemek, görüntü SEO alanlarının taslağını hazırlamak ve bir web sitesinde veya CMS'de kullanılmak üzere bilgileri dışa aktarmak için araçlar içerir.",
+  "seoLinks": [
+    {
+      "href": "/resim-meta verisi",
+      "label": "Resim Meta Verilerini Görüntüle"
+    },
+    {
+      "href": "/resim-metaveri-düzenleyicisi",
+      "label": "Resmi Düzenle SEO Meta Veri"
+    },
+    {
+      "href": "/coğrafi etiket resmi",
+      "label": "JPEG'a coğrafi etiketleme"
+    }
+  ],
+  "seoDisclaimer": "SEO ve erişilebilirlik araçları yardım ve öneriler sağlar. Arama sıralamalarını veya otomatik uyumluluğu garanti etmezler.",
+  "bulkEyebrow": "Birden fazla görselle mi çalışıyorsunuz?",
+  "bulkHeading": "Her Adımı Tekrarlamadan Küçük Bir Partiyi İşleyin",
+  "bulkParagraph": "Desteklenen birkaç resmi tek bir paylaşılan seçenek kümesiyle sıkıştırmak, yeniden boyutlandırmak veya dönüştürmek için Toplu Resim Araçlarını kullanın. Her dosyayı ayrı ayrı inceleyin, sonuçları tek tek indirin veya başarılı çıktıları ZIP arşivinde toplayın.",
+  "bulkBullets": [
+    "Toplu Sıkıştırma",
+    "Toplu Yeniden Boyutlandırma",
+    "Toplu Dönüştürme",
+    "Dosya başına işleme durumu",
+    "Bireysel indirmeler",
+    "Başarılı sonuçlar için ZIP arşivi"
+  ],
+  "bulkCta": "Toplu Resim Araçlarını Aç",
+  "bulkNotice": "Misafir toplu limitleri geçerlidir. Daha büyük iş akışları bir hesap gerektirebilir.",
+  "privacyEyebrow": "Tasarım gereği gizlilik",
+  "privacyHeading": "Geçici Dosyalar Geçici Kalmalı",
+  "privacyP1": "Seçtiğiniz araç çalışırken konuk yüklemeleri özel olarak saklanır. Resminizin, oluşturulan çıktılarınızın ve geçici sonuç verilerinizin süresi bir saat içinde dolar. İndirme, yenileme veya yeniden işleme bu süreyi uzatmaz.",
+  "privacyP2": "Konuk oturumları kalıcı bir görüntü kitaplığı oluşturmaz. Yalnızca projelere veya uzun vadeli hesap özelliklerine ihtiyacınız olduğunda oturum açın.",
+  "privacyFacts": [
+    "Özel geçici nesne depolama",
+    "Kısa ömürlü önizlemeler ve indirmeler",
+    "Herkese açık misafir resmi URL'si yok",
+    "Otomatik temizleme",
+    "Kalıcı misafir geçmişi yok",
+    "Orijinal dosyalar işleme sırasında değişmeden kalır"
+  ],
+  "privacyCta": "Gizlilik Politikamızı Okuyun",
+  "formatsHeading": "En Çok Kullandığınız Görüntü Formatlarıyla Çalışın",
+  "formatsParagraph": "Temel konuk araçları JPG, PNG ve WebP görsellerini destekler. Kullanılabilir çıktı formatları ve meta veri özellikleri, seçilen işleme ve her görüntü formatının yeteneklerine bağlıdır.",
+  "faqHeading": "Sık sorulan sorular",
+  "faqs": [
+    {
+      "q": "Img Pilot'ı kullanmak için bir hesaba ihtiyacım var mı?",
+      "a": "Hayır. Temel konuk araçları hesap oluşturulmadan kullanılabilir. Konuk sınırları geçerlidir ve kayıtlı projelere veya daha yüksek iş akışı sınırlarına ihtiyaç duyduğunuzda hesap özellikleri kullanılabilir."
+    },
+    {
+      "q": "Konuk görselleri ne kadar süreyle saklanır?",
+      "a": "Konuk görüntüleri ve geçici sonuçların geçerliliği bir saat içinde sona erer. İndirme, yenileme veya yeniden işleme bu süreyi uzatmaz."
+    },
+    {
+      "q": "İşleme işlemi orijinal resmimin üzerine yazacak mı?",
+      "a": "Hayır. İşleme ayrı bir sonuç oluşturur. Yüklenen orijinal, aktif misafir oturumu sırasında değişmeden kalır."
+    },
+    {
+      "q": "Hangi resim formatları destekleniyor?",
+      "a": "Temel araçlar JPG, PNG ve WebP'yi destekler. Bazı dönüştürme iş akışları, sunucunun sonucu kodlayıp doğrulayabildiği durumlarda AVIF'yi de destekleyebilir."
+    },
+    {
+      "q": "Birkaç görüntüyü birlikte işleyebilir miyim?",
+      "a": "Evet. Toplu Görüntü Araçları, seçilen sıkıştırma, yeniden boyutlandırma ve dönüştürme iş akışlarını destekler. Konuk grubu sınırları geçerlidir."
+    },
+    {
+      "q": "Bir görüntüyü sıkıştırmak onu her zaman küçültür mü?",
+      "a": "Her zaman değil. Nihai boyut orijinal görüntüye, biçimine ve seçilen ayarlara bağlıdır. Img Pilot çıktının daha büyük olduğu durumlar da dahil olmak üzere gerçek sonucu dürüstçe bildirir."
+    },
+    {
+      "q": "Alternatif metin görselin içine gömülü mü?",
+      "a": "Alternatif metin normalde görüntü dosyasına evrensel olarak gömülmek yerine bir web sitesine veya CMS kaydına eklenir. Meta Veri Düzenleyicisi, onu web sitenizde kullanmak üzere hazırlamanıza ve dışa aktarmanıza yardımcı olur."
+    },
+    {
+      "q": "Görsel optimizasyonu daha iyi arama sıralamalarını garanti ediyor mu?",
+      "a": "Hayır. Görsel optimizasyonu performansı, organizasyonu ve erişilebilirliği destekleyebilir, ancak hiçbir görsel aracı arama sıralamasını garanti edemez."
+    }
+  ],
+  "finalHeading": "Sonraki Görseliniz Optimize Edilmeye Hazır",
+  "finalParagraph": "Bir JPG, PNG veya WebP görseli yükleyin ve görevinizi yazılım yüklemeden veya hesap oluşturmadan tamamlayın.",
+  "finalPrimary": "Bir Resim Seçin",
+  "finalSecondary": "Tüm Araçları Keşfedin",
+  "finalTrust": "Özel misafir işleme · Bir saatlik otomatik silme · Filigran yok",
+  "footerBrand": "Web için görüntüleri sıkıştırmak, yeniden boyutlandırmak, dönüştürmek ve hazırlamak için özel çevrimiçi araçlar.",
+  "footerRights": "© {year} Img Pilot. Her hakkı saklıdır."
+}

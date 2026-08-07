@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/kompresuj obraz",
+      "title": "Kompresuj obraz",
+      "body": "Zmniejsz rozmiary plików JPG, PNG i WebP, zachowując jednocześnie przejrzystość i użyteczność wyniku.",
+      "icon": "kompres"
+    },
+    {
+      "href": "/zmiana rozmiaru obrazu",
+      "title": "Zmień rozmiar obrazu",
+      "body": "Zmień wymiary obrazu według szerokości, wysokości lub ustawień dopasowania bez niepożądanego powiększenia.",
+      "icon": "zmienić rozmiar"
+    },
+    {
+      "title": "Przytnij obraz",
+      "href": "/przytnij obraz",
+      "body": "Wybierz dokładny obszar, który chcesz zachować, korzystając z opcji przycinania swobodnego i o stałych proporcjach.",
+      "icon": "przyciąć"
+    },
+    {
+      "title": "Konwertuj obraz",
+      "href": "/convert-image",
+      "body": "Konwertuj pomiędzy JPG, PNG, WebP i obsługiwanymi formatami AVIF z bezpieczną weryfikacją danych wyjściowych.",
+      "icon": "konwertować"
+    },
+    {
+      "title": "Obraz geotagu",
+      "href": "/geotag-obraz",
+      "body": "Dodaj zweryfikowane współrzędne GPS do zgodnych obrazów JPEG bez zmiany oryginału.",
+      "icon": "geotag"
+    },
+    {
+      "title": "Przeglądarka metadanych obrazu",
+      "href": "/metadane obrazu",
+      "body": "Sprawdź wymiary, informacje o kolorach i bezpieczne metadane obrazów z listy dozwolonych.",
+      "icon": "metadane"
+    },
+    {
+      "title": "Obraz SEO Edytor metadanych",
+      "href": "/edytor metadanych obrazu",
+      "body": "Zapisuj, przeglądaj i eksportuj pola obrazu SEO dla swojej witryny internetowej lub systemu zarządzania treścią.",
+      "icon": "redaktor"
+    },
+    {
+      "title": "Narzędzia do obrazów zbiorczych",
+      "href": "/narzędzia-obrazu zbiorczego",
+      "body": "Kompresuj, zmieniaj rozmiar lub konwertuj kilka obrazów i pobieraj razem pomyślne wyniki.",
+      "icon": "cielsko"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Kompresuj JPG",
+      "badge": "JPG",
+      "href": "/kompresuj-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/kompresuj-png",
+      "label": "Kompresuj PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/kompresuj-webp",
+      "label": "Kompresuj WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/zmień rozmiar-jpg",
+      "label": "Zmień rozmiar JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/zmień rozmiar-png",
+      "label": "Zmień rozmiar PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/zmień rozmiar-webp",
+      "label": "Zmień rozmiar WebP"
+    },
+    {
+      "href": "/jpg-do-png",
+      "label": "JPG do PNG",
+      "badge": "JPG →PNG"
+    },
+    {
+      "href": "/jpg-do-webp",
+      "label": "JPG do WebP",
+      "badge": "JPG →WebP"
+    },
+    {
+      "href": "/png-do-jpg",
+      "label": "PNG do JPG",
+      "badge": "PNG →JPG"
+    },
+    {
+      "href": "/png-do-webp",
+      "label": "PNG do WebP",
+      "badge": "PNG →WebP"
+    },
+    {
+      "href": "/webp-do-jpg",
+      "label": "WebP do JPG",
+      "badge": "WebP →JPG"
+    },
+    {
+      "href": "/webp-do-png",
+      "label": "WebP do PNG",
+      "badge": "WebP →PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Praktyczny format zdjęć, treści internetowych i mniejszych plików obrazów stratnych.",
+      "href": "/kompresuj-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Bezstratny format powszechnie używany w przypadku grafiki i obrazów wymagających przezroczystości.",
+      "href": "/kompresuj-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Nowoczesny format internetowy zapewniający wydajną kompresję z opcjonalną przezroczystością.",
+      "href": "/kompresuj-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Dostępne dla obsługiwanych przepływów pracy konwersji, gdy środowisko wykonawcze serwera może je zakodować i zweryfikować.",
+      "href": "/jpg-do-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Kompresuj, zmieniaj rozmiar, konwertuj i optymalizuj obrazy online",
+  "metaDescription": "Kompresuj, zmieniaj rozmiar, przycinaj, konwertuj i optymalizuj obrazy JPG, PNG i WebP online. Korzystaj z prywatnych narzędzi gościa bez konta, z automatycznym usuwaniem w ciągu godziny.",
+  "heroBadge": "Darmowe narzędzia do tworzenia obrazów online umożliwiające szybsze i czystsze strony internetowe",
+  "h1": "Zoptymalizuj każdy obraz w jednym prostym obszarze roboczym",
+  "heroParagraph": "Kompresuj, zmieniaj rozmiar, przycinaj, konwertuj i optymalizuj swoje obrazy bez instalowania oprogramowania. Zacznij bezpłatnie bez konta, zachowaj pełną kontrolę nad swoimi plikami i pobierz czyste, zweryfikowane wyniki za pomocą zaledwie kilku kliknięć.",
+  "uploadHeading": "Aby rozpocząć, upuść obraz tutaj",
+  "uploadSupport": "Prześlij obraz JPG, PNG lub WebP lub wklej go bezpośrednio ze schowka.",
+  "chooseImage": "Wybierz obraz",
+  "pasteHint": "Możesz także wkleić obraz, naciskając Ctrl + V lub ⌘ + V",
+  "formatLimitLine": "JPG, PNG i WebP • Do {maxFileSize} • Konto nie jest wymagane",
+  "privacyLine": "Twoje pliki gości pozostają prywatne i są automatycznie usuwane w ciągu godziny.",
+  "defaultActionLabel": "Zacznij od kompresji obrazu",
+  "trust": [
+    {
+      "title": "Nie jest wymagane konto",
+      "body": "Jako gość natychmiast korzystaj z podstawowych narzędzi graficznych."
+    },
+    {
+      "title": "Przetwarzanie prywatne",
+      "body": "Pliki pozostają w chronionym magazynie tymczasowym."
+    },
+    {
+      "title": "Automatyczne usuwanie",
+      "body": "Pliki gościa wygasają w ciągu godziny."
+    },
+    {
+      "title": "Zweryfikowane wyniki",
+      "body": "Dane wyjściowe są sprawdzane przez serwer przed pobraniem."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Przetworzono ponad 10 milionów obrazów",
+      "body": "Zaufane przepływy pracy do codziennej optymalizacji."
+    },
+    {
+      "title": "100% prywatności i bezpieczeństwa",
+      "body": "Tymczasowe przechowywanie z krótkotrwałym dostępem."
+    },
+    {
+      "title": "Automatyczne usuwanie w ciągu 1 godziny",
+      "body": "Pliki gościa wygasają według ustalonego harmonogramu."
+    },
+    {
+      "title": "Brak czystego pobierania ze znakiem wodnym",
+      "body": "Pobierz zweryfikowane wyniki bez brandingu."
+    }
+  ],
+  "toolsEyebrow": "Wszystko, czego potrzebujesz",
+  "toolsHeading": "Potężne narzędzia do tworzenia obrazów, gotowe, kiedy tylko chcesz",
+  "toolsDescription": "Obsługuj codzienne zadania związane z obrazami w jednym, czystym obszarze roboczym. Każde narzędzie zaprojektowano tak, aby było proste dla początkujących, a jednocześnie zapewniało profesjonalistom niezbędną kontrolę.",
+  "openTool": "Otwórz narzędzie",
+  "exploreAllTools": "Poznaj wszystkie narzędzia",
+  "formatEyebrow": "Popularne zadania obrazkowe",
+  "formatHeading": "Przejdź bezpośrednio do formatu, którego potrzebujesz",
+  "formatDescription": "Wybierz narzędzie dedykowane dla Twojego formatu obrazu lub konwersji. Preferowane ustawienia źródła i wyjścia zostaną już wybrane.",
+  "platformEyebrow": "Jeden prywatny obszar roboczy obrazu",
+  "platformHeading": "Od przesłania do pobrania bez zwykłej złożoności",
+  "platformP1": "Img Pilot łączy najbardziej przydatne procesy przetwarzania obrazu w jedno spójne doświadczenie. Nie musisz uczyć się innego interfejsu do każdego zadania. Prześlij swój obraz, wybierz istotne ustawienia, przetwórz go bezpiecznie i pobierz zweryfikowany wynik.",
+  "platformP2": "Ten sam przepływ pracy obsługuje szybkie zadania z pojedynczym obrazem, strony docelowe w określonym formacie i wybrane operacje zbiorcze. Narzędzia gościa nie wymagają konta, a zalogowani użytkownicy mają dostęp do projektów i długoterminowych funkcji przestrzeni roboczej.",
+  "platformFeatures": [
+    "Jeden spójny obszar roboczy narzędzi",
+    "Jasne informacje przed i po",
+    "Prywatne tymczasowe miejsce do przechowywania gości",
+    "Indywidualne i wybrane przepływy pracy zbiorcze",
+    "Interfejsy w języku angielskim i urdu",
+    "Dane wyjściowe zweryfikowane przez serwer"
+  ],
+  "whyEyebrow": "Zbudowany wokół przejrzystości i kontroli",
+  "whyHeading": "Narzędzia graficzne, które szanują Twój czas i Twoje pliki",
+  "whyIntro": "Każdy przepływ pracy ma na celu usunięcie niepotrzebnych kroków, przy jednoczesnym zachowaniu widoczności ważnych elementów sterujących. Zawsze wiesz, co stanie się z Twoim obrazem, co będzie zawierać wynik i kiedy pliki tymczasowe zostaną usunięte.",
+  "benefits": [
+    {
+      "title": "Zacznij natychmiast",
+      "body": "Korzystaj z podstawowych narzędzi gościnnych bez rejestracji, instalacji oprogramowania i procesu konfiguracji projektu."
+    },
+    {
+      "title": "Zachowaj oryginał w bezpiecznym miejscu",
+      "body": "Przetwarzanie tworzy nowy wynik, a przesłany oryginał pozostaje niezmieniony."
+    },
+    {
+      "title": "Wiedz, co się zmieniło",
+      "body": "Porównaj wymiary, formaty i rozmiary plików przed pobraniem wyniku końcowego."
+    },
+    {
+      "title": "Pracuj w różnych formatach",
+      "body": "Użyj dedykowanych przepływów pracy dla JPG, PNG i WebP z rzetelną obsługą specyficzną dla formatu."
+    },
+    {
+      "title": "Chroń pliki tymczasowe",
+      "body": "Obrazy gości i wygenerowane wyniki są automatycznie usuwane w oknie przechowywania."
+    },
+    {
+      "title": "Przygotuj obrazy do wyszukiwania",
+      "body": "Przeglądaj metadane, poprawiaj nazwy plików i organizuj tekst alternatywny na potrzeby witryny internetowej i CMS."
+    }
+  ],
+  "howEyebrow": "Proste od początku do końca",
+  "howHeading": "Zakończ zadanie obrazowe w czterech przejrzystych krokach",
+  "steps": [
+    {
+      "title": "Prześlij swój obraz",
+      "body": "Wybierz obsługiwany obraz, przeciągnij go do obszaru roboczego lub wklej ze schowka."
+    },
+    {
+      "title": "Wybierz swoje ustawienia",
+      "body": "Wybierz format, wymiary, jakość, obszar przycięcia lub opcje metadanych wymagane dla Twojego zadania."
+    },
+    {
+      "title": "Przetwarzaj bezpiecznie",
+      "body": "Serwer wykonuje i weryfikuje operację pokazując czytelny postęp i stany błędów."
+    },
+    {
+      "title": "Pobierz wynik",
+      "body": "Przejrzyj ostateczne szczegóły, pobierz plik i w razie potrzeby przetwórz kolejny obraz."
+    }
+  ],
+  "beforeEyebrow": "Zobacz różnicę",
+  "beforeHeading": "Zobacz różnicę przed pobraniem",
+  "beforeParagraph": "Przejrzyste podsumowania wyników pomagają zrozumieć, co się zmieniło. Porównaj oryginalny obraz z wersją przetworzoną, sprawdź rozmiar lub wymiary pliku i pobierz tylko wtedy, gdy wynik odpowiada Twoim potrzebom.",
+  "beforeBullets": [
+    "Oryginał pozostaje bezpieczny podczas tworzenia nowego wyniku",
+    "Zweryfikowane dane wyjściowe z uczciwymi szczegółami dotyczącymi rozmiaru i wymiarów"
+  ],
+  "beforeCaption": "Ilustracja produktu — tylko przykład. Rzeczywiste oszczędności różnią się w zależności od obrazu.",
+  "useEyebrow": "Zaprojektowany do prawdziwej pracy",
+  "useHeading": "Przygotuj obrazy do stron internetowych, treści i codziennego udostępniania",
+  "useCases": [
+    {
+      "title": "Strony internetowe",
+      "body": "Zmniejsz niepotrzebną wagę obrazu i przygotuj spójne wymiary, aby uzyskać szybsze i czystsze strony."
+    },
+    {
+      "title": "Sklepy internetowe",
+      "body": "Uporządkuj formaty obrazów produktów, nazwy plików, wymiary i metadane przed publikacją."
+    },
+    {
+      "title": "Treści społecznościowe",
+      "body": "Zmień rozmiar i przytnij obrazy do praktycznych proporcji dla postów, miniatur i kampanii."
+    },
+    {
+      "title": "Blogi i wydawcy",
+      "body": "Twórz jaśniejsze obrazy artykułów i przygotuj przystępny, opisowy tekst obrazu."
+    },
+    {
+      "title": "E-mail i dokumenty",
+      "body": "Zmniejsz duże pliki, aby łatwiej było dołączać, udostępniać i dołączać obrazy do prezentacji."
+    },
+    {
+      "title": "Lokalny SEO",
+      "body": "Sprawdź metadane, dodaj zweryfikowane współrzędne JPEG i uporządkuj informacje o obrazie SEO na potrzeby lokalnych przepływów pracy."
+    }
+  ],
+  "seoEyebrow": "Więcej niż podstawowa edycja",
+  "seoHeading": "Zamień zwykłe obrazy w lepsze zasoby witryny internetowej",
+  "seoP1": "Optymalizacja obrazu to nie tylko zmniejszenie rozmiaru pliku. Przejrzyste nazwy plików, dokładny tekst alternatywny, odpowiednie wymiary i przydatne metadane mogą ułatwić zarządzanie bibliotekami obrazów i sprawić, że zawartość witryny będzie bardziej dostępna.",
+  "seoP2": "Img Pilot zawiera narzędzia do sprawdzania metadanych, tworzenia pól obrazu SEO i eksportowania informacji do wykorzystania na stronie internetowej lub CMS.",
+  "seoLinks": [
+    {
+      "href": "/metadane obrazu",
+      "label": "Wyświetl metadane obrazu"
+    },
+    {
+      "href": "/edytor metadanych obrazu",
+      "label": "Edytuj metadane obrazu SEO"
+    },
+    {
+      "href": "/geotag-obraz",
+      "label": "Oznacz geotagiem JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO i narzędzia ułatwień dostępu zapewniają pomoc i rekomendacje. Nie gwarantują rankingów wyszukiwania ani automatycznej zgodności.",
+  "bulkEyebrow": "Pracujesz z więcej niż jednym obrazem?",
+  "bulkHeading": "Przetwórz małą partię bez powtarzania każdego kroku",
+  "bulkParagraph": "Użyj narzędzi do tworzenia obrazów masowych, aby kompresować, zmieniać rozmiar lub konwertować kilka obsługiwanych obrazów za pomocą jednego wspólnego zestawu opcji. Przejrzyj każdy plik osobno, pobierz indywidualne wyniki lub zbierz pomyślne wyniki w archiwum ZIP.",
+  "bulkBullets": [
+    "Kompresja zbiorcza",
+    "Zbiorcza zmiana rozmiaru",
+    "Konwersja zbiorcza",
+    "Stan przetwarzania poszczególnych plików",
+    "Indywidualne pliki do pobrania",
+    "Archiwum ZIP pomyślnych wyników"
+  ],
+  "bulkCta": "Otwórz Narzędzia obrazów zbiorczych",
+  "bulkNotice": "Obowiązują limity zbiorcze dla gości. Większe przepływy pracy mogą wymagać konta.",
+  "privacyEyebrow": "Prywatność według projektu",
+  "privacyHeading": "Pliki tymczasowe powinny pozostać tymczasowe",
+  "privacyP1": "Przesłane przez gościa są przechowywane prywatnie, dopóki wybrane narzędzie działa. Twój obraz, wygenerowane wyniki i tymczasowe dane wynikowe wygasają w ciągu godziny. Pobranie, odświeżenie lub ponowne przetwarzanie nie powoduje przedłużenia tego terminu.",
+  "privacyP2": "Sesje gościnne nie tworzą trwałej biblioteki obrazów. Loguj się tylko wtedy, gdy potrzebujesz projektów lub długoterminowych funkcji konta.",
+  "privacyFacts": [
+    "Prywatne tymczasowe przechowywanie obiektów",
+    "Krótkotrwałe podglądy i pliki do pobrania",
+    "Brak publicznego adresu URL obrazu gościa",
+    "Automatyczne czyszczenie",
+    "Brak stałej historii gości",
+    "Oryginalne pliki pozostają niezmienione podczas przetwarzania"
+  ],
+  "privacyCta": "Przeczytaj naszą Politykę prywatności",
+  "formatsHeading": "Pracuj z najczęściej używanymi formatami obrazów",
+  "formatsParagraph": "Podstawowe narzędzia gościnne obsługują obrazy JPG, PNG i WebP. Dostępne formaty wyjściowe i funkcje metadanych zależą od wybranej operacji i możliwości każdego formatu obrazu.",
+  "faqHeading": "Często zadawane pytania",
+  "faqs": [
+    {
+      "q": "Czy potrzebuję konta, aby korzystać z Img Pilot?",
+      "a": "Nie. Z podstawowych narzędzi dla gości można korzystać bez konieczności tworzenia konta. Obowiązują limity gości, a funkcje konta są dostępne, gdy potrzebujesz zapisanych projektów lub wyższych limitów przepływu pracy."
+    },
+    {
+      "q": "Jak długo przechowywane są zdjęcia gości?",
+      "a": "Zdjęcia gości i wyniki tymczasowe wygasają w ciągu godziny. Pobranie, odświeżenie lub ponowne przetwarzanie nie powoduje przedłużenia tego terminu."
+    },
+    {
+      "q": "Czy przetwarzanie zastąpi mój oryginalny obraz?",
+      "a": "Nie. Przetwarzanie tworzy oddzielny wynik. Przesłany oryginał pozostaje niezmieniony podczas aktywnej sesji gościa."
+    },
+    {
+      "q": "Jakie formaty obrazów są obsługiwane?",
+      "a": "Podstawowe narzędzia obsługują JPG, PNG i WebP. Niektóre procesy konwersji mogą również obsługiwać AVIF, gdy serwer może zakodować i zweryfikować wynik."
+    },
+    {
+      "q": "Czy mogę przetwarzać kilka obrazów jednocześnie?",
+      "a": "Tak. Narzędzia obrazów zbiorczych obsługują wybrane procesy kompresji, zmiany rozmiaru i konwersji. Obowiązują limity partii gości."
+    },
+    {
+      "q": "Czy kompresja obrazu zawsze powoduje jego zmniejszenie?",
+      "a": "Nie zawsze. Ostateczny rozmiar zależy od oryginalnego obrazu, jego formatu i wybranych ustawień. Img Pilot rzetelnie raportuje rzeczywisty wynik, także wtedy, gdy moc wyjściowa jest większa."
+    },
+    {
+      "q": "Czy tekst alternatywny jest osadzony w obrazie?",
+      "a": "Tekst alternatywny jest zwykle dodawany do witryny internetowej lub rekordu CMS, a nie uniwersalnie osadzany w pliku obrazu. Edytor metadanych pomaga przygotować i wyeksportować je do wykorzystania w Twojej witrynie."
+    },
+    {
+      "q": "Czy optymalizacja obrazu gwarantuje lepsze rankingi wyszukiwania?",
+      "a": "Nie. Optymalizacja obrazu może wspierać wydajność, organizację i dostępność, ale żadne indywidualne narzędzie graficzne nie może zagwarantować rankingów wyszukiwania."
+    }
+  ],
+  "finalHeading": "Twój następny obraz jest gotowy do optymalizacji",
+  "finalParagraph": "Prześlij obraz JPG, PNG lub WebP i wykonaj zadanie bez instalowania oprogramowania lub tworzenia konta.",
+  "finalPrimary": "Wybierz obraz",
+  "finalSecondary": "Przeglądaj wszystkie narzędzia",
+  "finalTrust": "Przetwarzanie prywatnych gości · Automatyczne usuwanie po godzinie · Brak znaku wodnego",
+  "footerBrand": "Prywatne narzędzia online do kompresji, zmiany rozmiaru, konwertowania i przygotowywania obrazów do wykorzystania w Internecie.",
+  "footerRights": "© {year} Img Pilot. Wszelkie prawa zastrzeżone."
+}

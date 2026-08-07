@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Очаквайте скоро",
+    "openMenu": "Отвори навигация",
+    "closeMenu": "Затвори навигация",
+    "mainNavigation": "Основна навигация"
+  },
+  "navigation": {
+    "dashboard": "Табло",
+    "projects": "Проекти",
+    "usage": "Анализи",
+    "billing": "Таксуване",
+    "developer": "Разработчик",
+    "integrations": "Интеграции",
+    "automation": "Автоматизация",
+    "settings": "Настройки на акаунта",
+    "organizations": "Организации"
+  },
+  "language": {
+    "label": "Език на интерфейса",
+    "english": "английски",
+    "urdu": "урду",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Инструменти за изображения",
+    "compress": "Компресирай",
+    "resize": "Преоразмери",
+    "convert": "Конвертирай",
+    "seoTools": "SEO инструменти",
+    "bulkTools": "Групови инструменти",
+    "openAppGrid": "Отвори меню с инструменти",
+    "appGridTitle": "Инструменти и ресурси",
+    "languageHint": "Езикови предпочитания",
+    "menu": "Меню",
+    "close": "Затвори",
+    "footerBlurb": "Частни онлайн инструменти за компресиране, преоразмеряване, конвертиране и подготовка на изображения за уеб.",
+    "popularFormats": "Популярни формати",
+    "company": "Компания",
+    "resources": "Ресурси",
+    "rights": "Всички права запазени."
+  },
+  "errors": {
+    "generic": "Нещо се обърка."
+  }
+}

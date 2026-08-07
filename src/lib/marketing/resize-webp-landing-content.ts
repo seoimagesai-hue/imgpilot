@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Resize WebP landing — responsive web delivery / modern screens
  * (distinct from Resize JPG photos and Resize PNG logos/UI).
@@ -120,7 +121,7 @@ export const RESIZE_WEBP_POPULAR_SIZES = [
 ] as const;
 
 const en: ResizeWebpCopy = {
-  metaTitle: "Resize WebP Images Online Free | SEO Images",
+  metaTitle: "Resize WebP Images Online Free | Img Pilot",
   metaDescription:
     "Resize WebP images online for responsive websites, blogs and mobile devices. Change dimensions securely and download resized WebP images instantly.",
   h1: "Resize WebP Images Online",
@@ -367,7 +368,7 @@ const en: ResizeWebpCopy = {
 };
 
 const ur: ResizeWebpCopy = {
-  metaTitle: "آن لائن WebP امیجز ری سائز کریں مفت | SEO Images",
+  metaTitle: "آن لائن WebP امیجز ری سائز کریں مفت | Img Pilot",
   metaDescription:
     "ریسپانسو ویب سائٹس، بلاگز اور موبائل ڈیوائسز کے لیے WebP تصاویر آن لائن ری سائز کریں۔ محفوظ انداز میں ابعاد بدلیں اور فوری ڈاؤن لوڈ کریں۔",
   h1: "آن لائن WebP امیجز ری سائز کریں",
@@ -607,7 +608,7 @@ const ur: ResizeWebpCopy = {
 };
 
 export function getResizeWebpCopy(locale: string): ResizeWebpCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function resizeWebpSeoCompat() {

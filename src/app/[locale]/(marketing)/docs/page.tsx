@@ -27,19 +27,15 @@ export default async function DocsHubPage({params}: Props) {
   const t = await getTranslations("marketing.docs");
 
   const links = [
-    ["/docs/getting-started", t("gettingStarted")],
-    ["/docs/uploads", t("uploads")],
-    ["/docs/validation", t("validation")],
-    ["/docs/processing", t("processing")],
-    ["/docs/ai-metadata", t("aiMetadata")],
-    ["/docs/exports", t("exports")],
-    ["/docs/billing", t("billing")],
     ["/docs/api", t("api")],
     ["/docs/webhooks", t("webhooks")],
     ["/docs/wordpress", t("wordpress")],
     ["/docs/shopify", t("shopify")],
     ["/docs/webflow", t("webflow")],
     ["/docs/cloudinary", t("cloudinary")],
+    ["/docs/ai-batches", t("aiBatches")],
+    ["/docs/automation", t("automation")],
+    ["/docs/collaboration", t("collaboration")],
   ] as const;
 
   return (

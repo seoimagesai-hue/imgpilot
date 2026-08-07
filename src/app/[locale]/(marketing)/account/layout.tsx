@@ -6,6 +6,8 @@ import {requireUser} from "@/server/auth/session";
 export const dynamic = "force-dynamic";
 
 export const metadata = {
+  title: "Account — Img Pilot",
+  description: "Manage your Img Pilot account overview, usage, billing, history and settings.",
   robots: {index: false, follow: false},
 };
 

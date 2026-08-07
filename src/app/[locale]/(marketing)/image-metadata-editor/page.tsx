@@ -1,18 +1,20 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {ImageMetadataEditorLandingView} from "@/components/marketing/image-metadata-editor-landing-view";
-import {getImageMetadataEditorCopy} from "@/lib/marketing/image-metadata-editor-landing-content";
+import {metadataEditorToolConfig} from "@/components/guest/tools/metadata-editor-tool";
+import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
+import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
 import {buildPublicMetadata} from "@/server/marketing/seo";
 
 type PageProps = {params: Promise<{locale: string}>};
+const PATH = "/image-metadata-editor";
 
 export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   const {locale} = await params;
-  const copy = getImageMetadataEditorCopy(locale);
+  const copy = getToolLandingCopyForLocale(PATH, locale);
   return buildPublicMetadata({
     locale: locale as AppLocale,
-    path: "/image-metadata-editor",
+    path: PATH,
     title: copy.metaTitle,
     description: copy.metaDescription,
     index: true,
@@ -22,5 +24,11 @@ export async function generateMetadata({params}: PageProps): Promise<Metadata> {
 export default async function ImageMetadataEditorPage({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  return <ImageMetadataEditorLandingView locale={locale} />;
+  return (
+    <ToolLandingShell
+      locale={locale}
+      copy={getToolLandingCopyForLocale(PATH, locale)}
+      toolConfig={metadataEditorToolConfig}
+    />
+  );
 }

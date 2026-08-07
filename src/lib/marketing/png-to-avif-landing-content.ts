@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * PNG → AVIF landing — modern compression with encode honesty
  * (distinct from PNG→WebP fallback path and JPG→AVIF photographic migration).
@@ -93,7 +94,7 @@ export type PngToAvifCopy = {
 };
 
 const en: PngToAvifCopy = {
-  metaTitle: "Convert PNG to AVIF Online Free | SEO Images",
+  metaTitle: "Convert PNG to AVIF Online Free | Img Pilot",
   metaDescription:
     "Convert PNG images to AVIF when encoder support is available. Fail-closed honesty, private guest storage, and PNG to WebP as the recommended fallback when AVIF is blocked.",
   h1: "Convert PNG to AVIF Online",
@@ -325,7 +326,7 @@ const en: PngToAvifCopy = {
 };
 
 const ur: PngToAvifCopy = {
-  metaTitle: "آن لائن PNG کو AVIF میں تبدیل کریں مفت | SEO Images",
+  metaTitle: "آن لائن PNG کو AVIF میں تبدیل کریں مفت | Img Pilot",
   metaDescription:
     "جب انکوڈر سپورٹ دستیاب ہو تو PNG تصاویر AVIF میں تبدیل کریں۔ انکوڈر بند ہونے پر fail-closed ایمانداری، نجی مہمان اسٹوریج، اور AVIF بلاک ہونے پر PNG to WebP بطور تجویز کردہ متبادل۔",
   h1: "آن لائن PNG کو AVIF میں تبدیل کریں",
@@ -552,7 +553,7 @@ const ur: PngToAvifCopy = {
 };
 
 export function getPngToAvifCopy(locale: string): PngToAvifCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function pngToAvifSeoCompat() {

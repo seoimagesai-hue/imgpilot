@@ -1,6 +1,6 @@
 {
   "nav": {
-    "brand": "SEO Images",
+    "brand": "Img Pilot",
     "tools": "اوزار",
     "pricing": "قیمتیں",
     "docs": "دستاویزات",
@@ -13,6 +13,10 @@
     "resize": "سائز تبدیل کریں",
     "crop": "کراپ کریں",
     "convert": "فارمیٹ تبدیل کریں",
+    "rotate": "گھمائیں",
+    "watermark": "واٹرمارک",
+    "blur": "بلر ریجن",
+    "meme": "میم جنریٹر",
     "geotag": "جیوٹیگ",
     "metadata": "میٹا ڈیٹا ناظر",
     "aiAlt": "AI آلٹ ٹیکسٹ",
@@ -193,7 +197,7 @@
     "maintainAspect": "تناسب لاک رکھیں",
     "preventUpscale": "اپ اسکیل روکیں",
     "qualityNoteBefore": "ریسائز کے بعد JPG کوالٹی یا چھوٹی فائل چاہیے؟",
-    "qualityNoteLink": "Compress JPG",
+    "qualityNoteLink": "کمپریس JPG",
     "qualityNoteAfter": "وضاحت اور سائز کا توازن بناتا ہے۔ یہ ٹول صرف طول و عرض کنٹرول کرتا ہے۔",
     "sourceSize": "اصل: {width}×{height}",
     "changedSize": "{before} → {after}",
@@ -432,7 +436,7 @@
       "make": "کیمرہ میک",
       "model": "کیمرہ ماڈل",
       "lens": "لینس",
-      "iso": "ISO",
+      "iso": "آئی ایس او",
       "exposureTime": "ایکسپوژر وقت",
       "aperture": "اپرچر",
       "focalLength": "فوکل لینتھ",
@@ -524,7 +528,7 @@
   },
   "metadataEditor": {
     "subtitle": "ویب سائٹس کے لیے تصویر کا میٹا ڈیٹا شامل اور ترتیب دیں — نجی، عارضی، بغیر لاگ اِن۔",
-    "optionsTitle": "Image SEO Metadata Editor",
+    "optionsTitle": "تصویر SEO میٹا ڈیٹا ایڈیٹر",
     "optionsHint": "خالی شروع کریں یا اسی اپ لوڈ کے مکمل AI میٹا ڈیٹا کو درآمد کریں۔",
     "formats": "سپورٹ: JPEG، PNG، WebP (جامد تصاویر)۔ یہ ٹول پکسل تبدیل نہیں کرتا۔",
     "startMode": "کیسے شروع کریں",
@@ -698,6 +702,69 @@
     "policyLoading": "حدیں لوڈ ہو رہی ہیں…",
     "expiryNotice": "فائلیں ایک گھنٹے میں حذف۔ ZIP میعاد نہیں بڑھاتا۔",
     "aiUnavailable": "مہمانوں کے لیے بلک AI آلٹ دستیاب نہیں۔ سنگل AI ٹول یا اہل پروجیکٹ بیچ استعمال کریں۔"
+  },
+  "rotate": {
+    "optionsTitle": "گھماؤ",
+    "optionsHint": "زاویہ اور اختیاری فلپ منتخب کریں۔ آؤٹ پٹ وہی فارمیٹ رہے گا۔",
+    "angleLabel": "زاویہ",
+    "flipHorizontal": "افقی فلپ",
+    "flipVertical": "عمودی فلپ",
+    "result": {
+      "angle": "زاویہ",
+      "flip": "فلپس",
+      "noFlip": "کوئی نہیں",
+      "dimensions": "ابعاد",
+      "size": "فائل سائز"
+    }
+  },
+  "watermark": {
+    "optionsTitle": "واٹرمارک",
+    "optionsHint": "مختصر متن، پوزیشن اور شفافیت کے ساتھ واٹرمارک لگائیں۔",
+    "textLabel": "واٹرمارک متن",
+    "positionLabel": "پوزیشن",
+    "opacityLabel": "شفافیت",
+    "position": {
+      "center": "بیچ",
+      "top-left": "اوپر بائیں",
+      "top-right": "اوپر دائیں",
+      "bottom-left": "نیچے بائیں",
+      "bottom-right": "نیچے دائیں"
+    },
+    "result": {
+      "position": "پوزیشن",
+      "opacity": "شفافیت",
+      "dimensions": "ابعاد",
+      "size": "فائل سائز"
+    }
+  },
+  "blur": {
+    "optionsTitle": "بلر ریجن",
+    "optionsHint": "فیصد کے ساتھ وہ حصہ منتخب کریں جسے بلر کرنا ہے۔ چہرے/تفصیلات دستی طور پر چھپائیں۔",
+    "regionX": "بائیں",
+    "regionY": "اوپر",
+    "regionWidth": "چوڑائی",
+    "regionHeight": "اونچائی",
+    "strengthLabel": "بلر طاقت",
+    "strength": {
+      "light": "ہلکا",
+      "medium": "درمیانہ",
+      "strong": "مضبوط"
+    },
+    "result": {
+      "strength": "طاقت",
+      "dimensions": "ابعاد",
+      "size": "فائل سائز"
+    }
+  },
+  "meme": {
+    "optionsTitle": "کیپشنز",
+    "optionsHint": "اوپر اور/یا نیچے کیپشن لکھیں۔ کلاسیکل میم طرز۔",
+    "topLabel": "اوپر متن",
+    "bottomLabel": "نیچے متن",
+    "result": {
+      "dimensions": "ابعاد",
+      "size": "فائل سائز"
+    }
   },
   "footer": {
     "privacy": "رازداری",

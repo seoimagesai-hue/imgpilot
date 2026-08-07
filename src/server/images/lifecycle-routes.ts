@@ -1,4 +1,5 @@
 import {revalidatePath} from "next/cache";
+import {localePath, routing} from "@/i18n/routing";
 import type {SafeLifecycleErrorCode} from "@/server/images/lifecycle-errors";
 
 export function lifecycleErrorHttpStatus(error: SafeLifecycleErrorCode): number {
@@ -23,6 +24,7 @@ export function lifecycleErrorHttpStatus(error: SafeLifecycleErrorCode): number 
 }
 
 export function revalidateProjectImageLibrary(projectId: string): void {
-  revalidatePath(`/en/dashboard/projects/${projectId}/images`);
-  revalidatePath(`/ur/dashboard/projects/${projectId}/images`);
+  for (const locale of routing.locales) {
+    revalidatePath(localePath(locale, `/dashboard/projects/${projectId}/images`));
+  }
 }

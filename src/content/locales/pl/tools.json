@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/kompresuj obraz",
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Kompres"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Jak działa kompresja obrazu?",
+        "a": "Narzędzie ponownie koduje obraz z ustawieniami, które zmniejszają rozmiar pliku, zachowując jednocześnie użyteczność wizualną. Przed przetworzeniem wybierz jaśniejsze lub mocniejsze ustawienie wstępne."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB. Większe przepływy pracy mogą wymagać konta."
+      },
+      {
+        "q": "Czy kompresja obniży jakość obrazu?",
+        "a": "Silniejsze ustawienia wstępne mogą złagodzić drobne szczegóły. Używaj opcji Maksymalna jakość lub Zrównoważona, gdy wygląd ma największe znaczenie i zawsze wyświetlaj podgląd przed pobraniem."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Kompresja gościa działa bez logowania. Pliki pozostają prywatne i wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesyłane przez gości treści i wyniki są tymczasowe i automatycznie usuwane w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Kompresuj obrazy online — zmniejsz rozmiar JPG, PNG i WebP",
+    "metaDescription": "Kompresuj obrazy online bez utraty jakości. Zmniejsz rozmiar plików JPG, PNG i WebP dzięki przetwarzaniu prywatnego gościa i automatycznemu usuwaniu w ciągu godziny.",
+    "breadcrumbCurrent": "Kompresuj obrazy online",
+    "h1": "Kompresuj obrazy online",
+    "subtitle": "Zmniejsz rozmiar pliku obrazu bez utraty jakości",
+    "paragraph": "Kompresuj obrazy JPG, PNG i WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Mniejszy rozmiar, ta sama świetna jakość",
+    "features": [
+      {
+        "title": "Inteligentna kompresja",
+        "body": "Inteligentna kompresja, dzięki której Twoje obrazy będą ostre.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Do 80% mniejszy",
+        "body": "Znacząco zmniejsz rozmiar pliku, aby przyspieszyć przesyłanie i ładowanie stron.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Idealny do Internetu",
+        "body": "Optymalizuj obrazy na potrzeby witryn internetowych, blogów i stron produktów.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Jakość, której możesz zaufać",
+        "body": "Wyświetl podgląd przed pobraniem, więc jakość pozostaje pod Twoją kontrolą.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje zdjęcia są przetwarzane prywatnie i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Kompresja wspierana przez chmurę zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/resize-image": {
+    "path": "/zmiana rozmiaru obrazu",
+    "features": [
+      {
+        "title": "Dokładne wymiary",
+        "body": "Wprowadź szerokość i wysokość odpowiadające potrzebom układu.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Dopasuj się do środka",
+        "body": "Skaluj obrazy do ramki, zachowując proporcje.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Żadnych niechcianych ekskluzywnych rozwiązań",
+        "body": "Poręcze pomagają uniknąć rozciągania małych źródeł.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Gotowy do sieci",
+        "body": "Przygotuj spójne rozmiary stron i siatek produktów.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Zmień rozmiar"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Czy mogę zachować proporcje?",
+        "a": "Tak. Użyj wymiarów dopasowanych lub połączonych, aby obrazy skalowały się płynnie i bez zniekształceń."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy zmiana rozmiaru powiększy mój obraz?",
+        "a": "Domyślnie przepływy pracy unikają niepożądanego powiększenia. Wybierz wymiary pasujące do Twojego źródła."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Rozpocznij zmianę rozmiaru jako gość. Pliki tymczasowe wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki są automatycznie usuwane w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Zmień rozmiar obrazów online — zmień wymiary dla Internetu i mediów społecznościowych",
+    "metaDescription": "Zmień rozmiar obrazów JPG, PNG i WebP online według szerokości, wysokości lub dopasowania do wnętrza. Prywatne narzędzie dla gości, które nie wymaga konta.",
+    "breadcrumbCurrent": "Zmień rozmiar obrazów online",
+    "h1": "Zmień rozmiar obrazów online",
+    "subtitle": "Zmień wymiary dla sieci, mediów społecznościowych i układu",
+    "paragraph": "Zmień rozmiar obrazów JPG, PNG i WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Precyzyjna kontrola, czyste wyniki",
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje obrazy są przetwarzane prywatnie w celu zmiany rozmiaru i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/crop-image": {
+    "path": "/przytnij obraz",
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Przyciąć"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Czy mogę przyciąć do kwadratu?",
+        "a": "Tak. Wybierz współczynnik 1:1 lub narysuj darmowy kadr odpowiadający Twoim potrzebom."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy oryginał został nadpisany?",
+        "a": "Nie. Przetwarzanie powoduje utworzenie nowego przyciętego wyniku."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Przytnij jako gość. Pliki są usuwane automatycznie w ciągu godziny."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Przycinaj obrazy online — bezpłatne i stałe kadrowanie",
+    "metaDescription": "Przycinaj obrazy JPG, PNG i WebP online za pomocą bezpłatnej lub stałej kontroli proporcji. Prywatne przetwarzanie gości, nie wymaga konta.",
+    "breadcrumbCurrent": "Przycinaj obrazy online",
+    "h1": "Przycinaj obrazy online",
+    "subtitle": "Zachowaj tylko tę część obrazu, która ma znaczenie",
+    "paragraph": "Przytnij obrazy JPG, PNG i WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Uprawa z pewnością",
+    "features": [
+      {
+        "title": "Bezpłatne uprawy",
+        "body": "Wybierz dowolny obszar obrazu i zachowaj dokładnie ten region.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Stałe współczynniki",
+        "body": "Aby uzyskać spójne układy, użyj typowych współczynników proporcji.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Bezpieczna orientacja",
+        "body": "Obliczenia dotyczące przycinania uwzględniają wymiary zorientowane po przesłaniu.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Wyjście w tym samym formacie",
+        "body": "Pobierz przycięty wynik w formacie źródłowym, jeśli jest obsługiwany.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje zdjęcia są przetwarzane prywatnie w celu przycięcia i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/convert-image": {
+    "path": "/convert-image",
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Konwertować"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Jakie konwersje są obsługiwane?",
+        "a": "Konwersja gościa podstawowego obejmuje JPG, PNG i WebP. AVIF jest oferowany, gdy środowisko wykonawcze może go zakodować i zweryfikować."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy przejrzystość zostanie zachowana?",
+        "a": "Podczas konwersji do formatów obsługujących alfa, przezroczystość można zachować zgodnie z opcjami narzędzia."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Konwertuj jako gość. Pliki tymczasowe wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki są automatycznie usuwane w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Konwertuj obrazy online — JPG, PNG, WebP i AVIF",
+    "metaDescription": "Konwertuj pomiędzy JPG, PNG, WebP i obsługiwanymi formatami AVIF online. Prywatna konwersja gościa ze zweryfikowanymi wynikami.",
+    "breadcrumbCurrent": "Konwertuj obrazy online",
+    "h1": "Konwertuj obrazy online",
+    "subtitle": "Przełączaj formaty w Internecie bez oprogramowania komputerowego",
+    "paragraph": "Konwertuj obrazy JPG, PNG i WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Proste zmiany formatu",
+    "features": [
+      {
+        "title": "Popularne formaty",
+        "body": "Poruszaj się pomiędzy JPG, PNG i WebP z przejrzystymi opcjami.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Świadomość przejrzystości",
+        "body": "PNG i WebP alfa są traktowane ostrożnie przez zasady.",
+        "tone": "zielony"
+      },
+      {
+        "title": "AVIF Gdy wszystko będzie gotowe",
+        "body": "Zakoduj do AVIF tylko wtedy, gdy serwer może to zweryfikować.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Uczciwy wynik",
+        "body": "Przed pobraniem zapoznaj się z powstałym typem i rozmiarem MIME.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Obracać"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Które kąty są obsługiwane?",
+        "a": "Obrót gościnny obsługuje 90°, 180° i 270° oraz opcjonalne przewroty."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Obróć się jako gość. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy zastosowano orientację EXIF?",
+        "a": "Źródła są normalizowane pod względem orientacji przed transformacją, więc wyniki odpowiadają oczekiwaniom."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "path": "/obróć obraz",
+    "metaTitle": "Obróć obraz online — Odwróć JPG, PNG i WebP",
+    "metaDescription": "Obracaj obrazy o 90°, 180° lub 270° i obracaj je w poziomie lub w pionie. Bezpłatne narzędzie dla gości z prywatnym tymczasowym miejscem do przechowywania.",
+    "breadcrumbCurrent": "Obracaj obrazy online",
+    "h1": "Obracaj obrazy online",
+    "subtitle": "Obróć lub przerzuć obrazy, aby uzyskać układ i projekt",
+    "paragraph": "Obróć lub przerzuć obrazy JPG, PNG i WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Szybkie poprawki orientacji",
+    "features": [
+      {
+        "title": "Kroki 90°",
+        "body": "Obróć o 90°, 180° lub 270° w jednym przejściu.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Odwróć elementy sterujące",
+        "body": "W razie potrzeby odbij lustro poziomo lub pionowo.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Ten sam format",
+        "body": "Dane wyjściowe pozostają w przesłanym formacie.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Prywatne oferty pracy dla gości",
+        "body": "Krótkotrwałe przetwarzanie z automatycznym czyszczeniem.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje zdjęcia są przetwarzane prywatnie w celu rotacji i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Filigran"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Czy mogę przesłać znak wodny z logo?",
+        "a": "To narzędzie gościa stempluje tekst. Na razie używaj krótkiego tekstu marki."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Znak wodny jako gość. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy znak wodny zakryje mój temat?",
+        "a": "Wybierz pozycje narożne i zmniejsz przezroczystość, aby obiekty były widoczne."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "path": "/obraz znaku wodnego",
+    "metaTitle": "Obrazy ze znakami wodnymi online — dodawaj tekstowe znaki wodne",
+    "metaDescription": "Stempluj krótkie tekstowe znaki wodne na JPG, PNG i WebP z kontrolą położenia i krycia. Prywatne narzędzie dla gości.",
+    "breadcrumbCurrent": "Obrazy znaków wodnych w Internecie",
+    "h1": "Obrazy znaków wodnych w Internecie",
+    "subtitle": "Stempluj krótki tekst bez zasłaniania całego obrazu",
+    "paragraph": "Dodaj tekstowy znak wodny do obrazów JPG, PNG lub WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Chroń elementy wizualne za pomocą lekkiego brandingu",
+    "features": [
+      {
+        "title": "Krótkie znaczki tekstowe",
+        "body": "Dodaj zwięzły znak wodny, który pozostanie czytelny.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Kontrola pozycji",
+        "body": "Umieść znaki wodne w rogach lub na środku.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Suwak krycia",
+        "body": "Zrównoważ widoczność z treścią obrazu.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Wyjście w tym samym formacie",
+        "body": "Pobierz plik ze znakiem wodnym w formacie źródłowym.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje obrazy są przetwarzane prywatnie w celu dodania znaku wodnego i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Plama"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Czy to automatycznie wykrywa twarze?",
+        "a": "Nie. Region wybiera się ręcznie jako procent obrazu."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Blur jako gość. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy mogę rozmazać wiele regionów?",
+        "a": "To narzędzie gościa stosuje jeden region na uruchomienie. Uruchom ponownie, aby zamazać inny obszar."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "path": "/blur-region",
+    "metaTitle": "Rozmyj obszar obrazu online — ukryj twarze i szczegóły",
+    "metaDescription": "Ręcznie rozmyj obszar obrazów JPG, PNG lub WebP, aby ukryć twarze, tablice i inne szczegóły. Prywatne narzędzie dla gości.",
+    "breadcrumbCurrent": "Rozmycie regionu w Internecie",
+    "h1": "Rozmycie regionu w Internecie",
+    "subtitle": "Ukryj wrażliwe szczegóły za pomocą ręcznego pola rozmycia",
+    "paragraph": "Rozmyj wybrany region na obrazach JPG, PNG lub WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Zamazuj to, co wymaga prywatności",
+    "features": [
+      {
+        "title": "Region ręczny",
+        "body": "Ty wybierasz dokładnie, gdzie stosowane jest rozmycie.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Poziomy siły",
+        "body": "Lekkie, średnie lub mocne rozmycie dla różnych potrzeb.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Przyjazny dla prywatności",
+        "body": "Ukryj szczegóły przed opublikowaniem lub wysyłką zasobów.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Sejf dla gości",
+        "body": "Prywatne tymczasowe przetwarzanie z automatycznym usuwaniem.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje zdjęcia są przetwarzane prywatnie w celu rozmycia regionu i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Podpis"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Czy potrzebuję tekstu na górze i na dole?",
+        "a": "Nie. Podaj co najmniej jeden wiersz podpisu."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Generuj jako gość. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy mogę zmienić czcionkę?",
+        "a": "Memy gości korzystają z klasycznego stosu w stylu Impact, aby zapewnić czytelność."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "path": "/generator memów",
+    "metaTitle": "Generator memów online — dodaj podpisy u góry i u dołu",
+    "metaDescription": "Dodaj klasyczne podpisy memów na górze i na dole do obrazów JPG, PNG lub WebP. Darmowy generator memów dla gości.",
+    "breadcrumbCurrent": "Generator memów online",
+    "h1": "Generator memów online",
+    "subtitle": "Dodaj klasyczne napisy w ciągu kilku sekund",
+    "paragraph": "Dodaj górne i dolne podpisy do obrazów JPG, PNG lub WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Podpisy, które czyta się jak klasyczne memy",
+    "features": [
+      {
+        "title": "Tekst górny i dolny",
+        "body": "W przypadku klasycznych układów użyj jednej lub obu linii.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Automatyczne zawijanie",
+        "body": "Długie podpisy są zawijane w krótkie, czytelne linie.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Typ o wysokim kontraście",
+        "body": "Białe wypełnienie z ciemnym obrysem dla przejrzystości.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Natychmiastowe narzędzie gościa",
+        "body": "Twórz i pobieraj bez logowania.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje obrazy są przetwarzane prywatnie na potrzeby podpisów memów i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/geotag-image": {
+    "path": "/geotag-obraz",
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Geotag"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Jakie formaty obsługują geotagowanie?",
+        "a": "Geotag gościa koncentruje się na zgodnych obrazach JPEG."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłane przez gości obsługują JPEG w ramach limitu 10 MB."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Geotag jako gość. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy współrzędne są zweryfikowane?",
+        "a": "Zapisuje zgodnie z regułami sprawdzania poprawności, więc wartości są dobrze sformułowane przed osadzeniem."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Geotaguj obrazy online — dodaj GPS do JPEG",
+    "metaDescription": "Odczytuj lub zapisuj zweryfikowane współrzędne GPS na kompatybilnych obrazach JPEG. Prywatne narzędzie do geotagowania gości.",
+    "breadcrumbCurrent": "Geotaguj obrazy online",
+    "h1": "Geotaguj obrazy online",
+    "subtitle": "Dodaj lub sprawdź dane lokalizacji JPEG GPS",
+    "paragraph": "Dodaj lub sprawdź współrzędne GPS na zgodnych obrazach JPEG. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Dane lokalizacyjne, które możesz zweryfikować",
+    "features": [
+      {
+        "title": "JPEG Skoncentrowany",
+        "body": "Przepływy pracy z geotagami są ukierunkowane na kompatybilne źródła JPEG.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Najpierw sprawdź",
+        "body": "Sprawdź, czy czytelny GPS jest już obecny.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Zapisz współrzędne",
+        "body": "Osadzanie szerokości i długości geograficznej, gdy wymiana jest dozwolona.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Prywatność gości",
+        "body": "Przetwarzanie tymczasowe z automatycznym czyszczeniem.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje zdjęcia są przetwarzane prywatnie w celu geotagowania i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/image-metadata": {
+    "path": "/metadane obrazu",
+    "breadcrumbCurrent": "Przeglądarka metadanych obrazu",
+    "h1": "Przeglądarka metadanych obrazu",
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Sprawdzać"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Czy wyświetlasz wszystkie tagi EXIF?",
+        "a": "Nie. Dla bezpieczeństwa i przejrzystości przeglądarka wyświetla dozwolone pola."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Nie. Sprawdź jako gość. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "Czy mogę tutaj edytować metadane?",
+        "a": "Użyj Edytora metadanych obrazu SEO, aby narysować i wyeksportować pola SEO."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Przeglądarka metadanych obrazów online — sprawdź bezpiecznie EXIF",
+    "metaDescription": "Sprawdź wymiary, informacje o kolorach i bezpieczne metadane na liście dozwolonych dla JPG, PNG i WebP. Prywatny widz-gość.",
+    "subtitle": "Przed opublikowaniem sprawdź właściwości bezpiecznego obrazu",
+    "paragraph": "Sprawdź właściwości JPG, PNG i WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Zobacz, co ważne, bezpiecznie",
+    "features": [
+      {
+        "title": "Podstawowe właściwości",
+        "body": "Wymiary, typ i praktyczne szczegóły pliku.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Pola na liście dozwolonych",
+        "body": "Wyświetlane są tylko bezpieczne, sprawdzone powierzchnie metadanych.",
+        "tone": "zielony"
+      },
+      {
+        "title": "Przyjazny dla sieci",
+        "body": "Przydatne kontrole przed przesłaniem CMS lub recenzją SEO.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Prywatność gości",
+        "body": "Tymczasowe zadania inspekcji z automatycznym usuwaniem.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje obrazy są przetwarzane prywatnie w celu kontroli metadanych i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/image-metadata-editor": {
+    "path": "/edytor metadanych obrazu",
+    "breadcrumbCurrent": "Obraz SEO Edytor metadanych",
+    "h1": "Obraz SEO Edytor metadanych",
+    "howSteps": [
+      {
+        "title": "Prześlij swój obraz"
+      },
+      {
+        "title": "Redagować"
+      },
+      {
+        "title": "Podgląd wyniku"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Czy to przepisuje EXIF w każdym formacie?",
+        "a": "Edytor koncentruje się na przygotowaniu pól SEO i eksporcie."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Przesyłanie gości obsługuje JPG, PNG i WebP do 10 MB."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Edycja gościnna jest dostępna z ograniczeniami. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "Co mogę wyeksportować?",
+        "a": "Korzystaj z przyjaznego eksportu dla CMS i przepływów pracy z treścią."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Obraz SEO Edytor metadanych online",
+    "metaDescription": "Zapisuj, przeglądaj i eksportuj obrazy pól SEO dla stron internetowych i przepływów pracy CMS. Edytor metadanych gości prywatnych.",
+    "subtitle": "Przygotuj pola obrazu SEO przed publikacją",
+    "paragraph": "Utwórz wersję roboczą pól SEO obrazu i wyeksportuj wózki boczne w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Kontrola redakcyjna obrazu SEO",
+    "features": [
+      {
+        "title": "Edytowalne pola",
+        "body": "Zaktualizuj faktycznie wysyłany tekst SEO.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Przyjazny dla eksportu",
+        "body": "Pobierz przyczepy boczne dla CMS i przepływów pracy z treścią.",
+        "tone": "zielony"
+      },
+      {
+        "title": "CMS Gotowy",
+        "body": "Przygotuj tytuły, opisy i słowa kluczowe przed publikacją.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Sesje gościnne",
+        "body": "Tymczasowe wersje robocze z automatycznym czyszczeniem.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje obrazy są przetwarzane prywatnie w celu edycji metadanych i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  },
+  "/bulk-image-tools": {
+    "path": "/narzędzia-obrazu zbiorczego",
+    "breadcrumbCurrent": "Narzędzia do obrazów zbiorczych",
+    "h1": "Narzędzia do obrazów zbiorczych",
+    "howSteps": [
+      {
+        "title": "Prześlij partię"
+      },
+      {
+        "title": "Wybierz Operację"
+      },
+      {
+        "title": "Przetwarzaj pliki"
+      },
+      {
+        "title": "Pobierać"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ile plików mogę przesłać?",
+        "a": "Zadania zbiorcze gościa wymuszają maksymalną liczbę plików i całkowity rozmiar wsadu."
+      },
+      {
+        "q": "Czy istnieje limit rozmiaru pliku?",
+        "a": "Każdy plik ma maksymalny rozmiar gościa, a partia ma łączny limit bajtów."
+      },
+      {
+        "q": "Czy potrzebuję konta?",
+        "a": "Goście mogą wykonywać ograniczone zadania masowe. Pliki wygasają w ciągu godziny."
+      },
+      {
+        "q": "A co jeśli jeden plik się nie powiedzie?",
+        "a": "Pomyślne wyniki nadal można pobrać; elementy zakończone niepowodzeniem wyświetlają status błędu."
+      },
+      {
+        "q": "Czy moje obrazy są przechowywane trwale?",
+        "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+      }
+    ],
+    "metaTitle": "Narzędzia do masowych obrazów online — kompresuj, zmieniaj rozmiar, konwertuj",
+    "metaDescription": "Kompresuj, zmieniaj rozmiar lub konwertuj kilka obrazów i pobieraj razem pomyślne wyniki. Obowiązują limity zbiorcze dla gości.",
+    "subtitle": "Przetwórz krótką partię bez powtarzania każdego kroku",
+    "paragraph": "Kompresuj, zmieniaj rozmiar lub konwertuj wiele plików JPG, PNG lub WebP w jednej partii. Obowiązują bezpłatne limity gości.",
+    "trust": [
+      "Nie jest wymagane konto",
+      "Prywatne i bezpieczne przetwarzanie",
+      "Automatyczne usuwanie w ciągu 1 godziny"
+    ],
+    "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny.",
+    "featuresHeading": "Szybkość partii z wyraźnymi ograniczeniami",
+    "features": [
+      {
+        "title": "Udostępnione ustawienia",
+        "body": "Zastosuj jedną opcję kompresji, zmiany rozmiaru lub konwersji w całej partii.",
+        "tone": "niebieski"
+      },
+      {
+        "title": "Stan poszczególnych plików",
+        "body": "Zobacz, które obrazy odniosły sukces, a które wymagają uwagi.",
+        "tone": "zielony"
+      },
+      {
+        "title": "ZIP Pobierz",
+        "body": "Zbierz pomyślne wyniki, gdy partia będzie gotowa.",
+        "tone": "fioletowy"
+      },
+      {
+        "title": "Czapki gościnne",
+        "body": "Rozmiar partii i całkowita liczba bajtów są zgodne z zasadami dotyczącymi bezpłatnych gości.",
+        "tone": "pomarańczowy"
+      }
+    ],
+    "howHeading": "Jak to działa",
+    "benefitCards": [
+      {
+        "title": "Twoja prywatność ma znaczenie",
+        "body": "Twoje zdjęcia są przetwarzane prywatnie w celu przetwarzania zbiorczego i automatycznie usuwane w ciągu godziny.",
+        "kind": "prywatność"
+      },
+      {
+        "title": "Szybki i wydajny",
+        "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+        "kind": "prędkość"
+      }
+    ],
+    "faqHeading": "Często zadawane pytania"
+  }
+}

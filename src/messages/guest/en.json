@@ -1,6 +1,6 @@
 {
   "nav": {
-    "brand": "SEO Images",
+    "brand": "Img Pilot",
     "tools": "Tools",
     "pricing": "Pricing",
     "docs": "Docs",
@@ -13,6 +13,10 @@
     "resize": "Resize Image",
     "crop": "Crop Image",
     "convert": "Convert Image",
+    "rotate": "Rotate Image",
+    "watermark": "Watermark Image",
+    "blur": "Blur Region",
+    "meme": "Meme Generator",
     "geotag": "Geotag Image",
     "metadata": "Image Metadata Viewer",
     "aiAlt": "AI Alt Text Generator",
@@ -698,6 +702,69 @@
     "policyLoading": "Loading limits…",
     "expiryNotice": "Files are deleted within one hour. ZIP download does not extend expiry.",
     "aiUnavailable": "Bulk AI Alt Text is not available for guests. Use the single-image AI tool or an eligible account project batch."
+  },
+  "rotate": {
+    "optionsTitle": "Rotation",
+    "optionsHint": "Choose an angle and optional flips. Output stays in the same format.",
+    "angleLabel": "Angle",
+    "flipHorizontal": "Flip horizontal",
+    "flipVertical": "Flip vertical",
+    "result": {
+      "angle": "Angle",
+      "flip": "Flips",
+      "noFlip": "None",
+      "dimensions": "Dimensions",
+      "size": "File size"
+    }
+  },
+  "watermark": {
+    "optionsTitle": "Watermark",
+    "optionsHint": "Add short text with position and opacity. Keep it readable without covering the whole image.",
+    "textLabel": "Watermark text",
+    "positionLabel": "Position",
+    "opacityLabel": "Opacity",
+    "position": {
+      "center": "Center",
+      "top-left": "Top left",
+      "top-right": "Top right",
+      "bottom-left": "Bottom left",
+      "bottom-right": "Bottom right"
+    },
+    "result": {
+      "position": "Position",
+      "opacity": "Opacity",
+      "dimensions": "Dimensions",
+      "size": "File size"
+    }
+  },
+  "blur": {
+    "optionsTitle": "Blur region",
+    "optionsHint": "Choose the area to blur as percentages. Use this to hide faces or details manually.",
+    "regionX": "Left",
+    "regionY": "Top",
+    "regionWidth": "Width",
+    "regionHeight": "Height",
+    "strengthLabel": "Blur strength",
+    "strength": {
+      "light": "Light",
+      "medium": "Medium",
+      "strong": "Strong"
+    },
+    "result": {
+      "strength": "Strength",
+      "dimensions": "Dimensions",
+      "size": "File size"
+    }
+  },
+  "meme": {
+    "optionsTitle": "Captions",
+    "optionsHint": "Add top and/or bottom caption text. Style is classic meme lettering.",
+    "topLabel": "Top text",
+    "bottomLabel": "Bottom text",
+    "result": {
+      "dimensions": "Dimensions",
+      "size": "File size"
+    }
   },
   "footer": {
     "privacy": "Privacy",

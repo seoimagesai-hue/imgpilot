@@ -134,7 +134,10 @@ function WorkflowCard({
             <p className="mt-1 text-sm text-[var(--muted)]">{workflow.description}</p>
           ) : null}
           <p className="mt-2 text-xs text-[var(--muted)]">
-            {t("triggerLabel")}: {t(`triggerValues.${workflow.triggerType}` as "triggerValues.manual")}
+            {t("triggerLabel")}:{" "}
+            {t(
+              `triggerValues.${workflow.triggerType.replace(/\./g, "_")}` as "triggerValues.manual",
+            )}
             {workflow.scheduleInterval
               ? ` · ${t(`scheduleValues.${workflow.scheduleInterval}` as "scheduleValues.daily")}`
               : null}

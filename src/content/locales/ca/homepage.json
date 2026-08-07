@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/comprimir-imatge",
+      "title": "Comprimir imatge",
+      "body": "Reduïu les mides dels fitxers JPG, PNG i WebP tot mantenint el resultat clar i útil.",
+      "icon": "comprimir"
+    },
+    {
+      "href": "/redimensiona-imatge",
+      "title": "Canvia la mida de la imatge",
+      "body": "Canvieu les dimensions de la imatge segons l'amplada, l'alçada o la configuració d'ajust interior sense ampliar-les no desitjades.",
+      "icon": "canviar la mida"
+    },
+    {
+      "title": "Retalla la imatge",
+      "href": "/imatge retallada",
+      "body": "Seleccioneu l'àrea exacta que voleu mantenir amb controls de retall gratuïts i de proporció fixa.",
+      "icon": "cultiu"
+    },
+    {
+      "title": "Convertir imatge",
+      "href": "/convertir-imatge",
+      "body": "Converteix entre JPG, PNG, WebP i els formats AVIF compatibles amb una verificació de sortida segura.",
+      "icon": "convertir"
+    },
+    {
+      "title": "Imatge d'etiqueta geogràfica",
+      "href": "/geotag-image",
+      "body": "Afegiu coordenades GPS verificades a imatges JPEG compatibles sense canviar l'original.",
+      "icon": "geoetiqueta"
+    },
+    {
+      "title": "Visualitzador de metadades d'imatge",
+      "href": "/metadades-imatge",
+      "body": "Inspeccioneu les dimensions, la informació de color i les metadades segures de les imatges de la llista permesa.",
+      "icon": "metadades"
+    },
+    {
+      "title": "Imatge SEO Editor de metadades",
+      "href": "/editor-metadades-imatge",
+      "body": "Escriu, revisa i exporta els camps d'imatge SEO per al teu lloc web o sistema de gestió de continguts.",
+      "icon": "editor"
+    },
+    {
+      "title": "Eines d'imatge massiva",
+      "href": "/bulk-image-tools",
+      "body": "Comprimiu, canvieu la mida o convertiu diverses imatges i baixeu els resultats amb èxit junts.",
+      "icon": "a granel"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Comprimir JPG",
+      "badge": "JPG",
+      "href": "/compress-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/compress-png",
+      "label": "Comprimir PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/compress-webp",
+      "label": "Comprimir WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/redimensiona-jpg",
+      "label": "Canvia la mida JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/redimensiona-png",
+      "label": "Canvia la mida PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/redimensiona-webp",
+      "label": "Canvia la mida WebP"
+    },
+    {
+      "href": "/jpg-a-png",
+      "label": "JPG a PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-a-webp",
+      "label": "JPG a WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-a-jpg",
+      "label": "PNG a JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-a-webp",
+      "label": "PNG a WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-a-jpg",
+      "label": "WebP a JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-a-png",
+      "label": "WebP a PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Un format pràctic per a fotografies, contingut web i fitxers d'imatges amb pèrdua més petits.",
+      "href": "/compress-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Un format sense pèrdues que s'utilitza habitualment per a gràfics i imatges que requereixen transparència.",
+      "href": "/compress-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Un format web modern que pot proporcionar una compressió eficient amb transparència opcional.",
+      "href": "/compress-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Disponible per als fluxos de treball de conversió admesos quan el temps d'execució del servidor el pot codificar i verificar.",
+      "href": "/jpg-a-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Comprimiu, canvieu la mida, convertiu i optimitzeu imatges en línia",
+  "metaDescription": "Comprimiu, canvieu la mida, retalleu, convertiu i optimitzeu les imatges JPG, PNG i WebP en línia. Utilitzeu eines de convidat privades sense un compte, amb supressió automàtica en una hora.",
+  "heroBadge": "Eines d'imatge en línia gratuïtes per a llocs web més ràpids i nets",
+  "h1": "Optimitzeu cada imatge en un espai de treball senzill",
+  "heroParagraph": "Comprimiu, canvieu la mida, retalleu, convertiu i optimitzeu les vostres imatges sense instal·lar programari. Comença gratuïtament sense un compte, manté el control total dels teus fitxers i baixa resultats nets i verificats amb només uns quants clics.",
+  "uploadHeading": "Deixa una imatge aquí per començar",
+  "uploadSupport": "Carregueu una imatge JPG, PNG o WebP o enganxeu-ne una directament des del porta-retalls.",
+  "chooseImage": "Trieu una imatge",
+  "pasteHint": "També podeu enganxar una imatge amb Ctrl + V o ⌘ + V",
+  "formatLimitLine": "JPG, PNG i WebP • Fins a {maxFileSize} • No es requereix cap compte",
+  "privacyLine": "Els vostres fitxers de convidats es mantenen privats i s'eliminen automàticament en una hora.",
+  "defaultActionLabel": "Comenceu amb la compressió d'imatges",
+  "trust": [
+    {
+      "title": "No es requereix cap compte",
+      "body": "Utilitzeu les eines d'imatge essencials a l'instant com a convidat."
+    },
+    {
+      "title": "Tramitació privada",
+      "body": "Els fitxers romanen en un emmagatzematge temporal protegit."
+    },
+    {
+      "title": "Eliminació automàtica",
+      "body": "Els fitxers de convidats caduquen en una hora."
+    },
+    {
+      "title": "Resultats verificats",
+      "body": "El servidor comprova les sortides abans de la descàrrega."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Més de 10 milions d'imatges processades",
+      "body": "Fluxos de treball de confiança per a l'optimització diària."
+    },
+    {
+      "title": "100% privat i segur",
+      "body": "Emmagatzematge temporal amb accés de curta durada."
+    },
+    {
+      "title": "Supressió automàtica d'1 hora",
+      "body": "Els fitxers de convidats caduquen amb una programació fixa."
+    },
+    {
+      "title": "No hi ha cap descàrrega neta de filigrana",
+      "body": "Baixeu resultats verificats sense marca."
+    }
+  ],
+  "toolsEyebrow": "Tot el que necessiteu",
+  "toolsHeading": "Eines d'imatge potents, a punt quan estiguis",
+  "toolsDescription": "Gestioneu les tasques quotidianes d'imatge des d'un espai de treball net. Cada eina està dissenyada per ser senzilla per als principiants alhora que ofereix als professionals els controls que necessiten.",
+  "openTool": "Eina oberta",
+  "exploreAllTools": "Exploreu totes les eines",
+  "formatEyebrow": "Tasques populars d'imatge",
+  "formatHeading": "Aneu directament al format que necessiteu",
+  "formatDescription": "Trieu una eina dedicada per al vostre format d'imatge o conversió. La vostra configuració de font i sortida preferida ja estarà seleccionada.",
+  "platformEyebrow": "Un espai de treball d'imatge privat",
+  "platformHeading": "De la càrrega a la descàrrega sense la complexitat habitual",
+  "platformP1": "Img Pilot aporta els fluxos de treball d'imatge més útils en una experiència coherent. No cal que aprenguis una interfície diferent per a cada tasca. Carregueu la vostra imatge, trieu la configuració que importeu, processeu-la de manera segura i descarregueu el resultat verificat.",
+  "platformP2": "El mateix flux de treball admet treballs ràpids d'una sola imatge, pàgines de destinació específiques de format i operacions a granel seleccionades. Les eines de convidat no requereixen cap compte, mentre que els usuaris que han iniciat la sessió poden accedir als projectes i a les funcions de l'espai de treball a llarg termini.",
+  "platformFeatures": [
+    "Un espai de treball d'eina consistent",
+    "Informació clara d'abans i després",
+    "Emmagatzematge temporal privat de convidats",
+    "Fluxos de treball a granel individuals i seleccionats",
+    "Interfícies anglesa i urdú",
+    "Sortides verificades pel servidor"
+  ],
+  "whyEyebrow": "Construït al voltant de la claredat i el control",
+  "whyHeading": "Eines d'imatge que respecten el vostre temps i els vostres fitxers",
+  "whyIntro": "Cada flux de treball està dissenyat per eliminar passos innecessaris alhora que es mantenen visibles els controls importants. Sempre saps què passarà amb la teva imatge, què conté el resultat i quan s'eliminaran els fitxers temporals.",
+  "benefits": [
+    {
+      "title": "Comença immediatament",
+      "body": "Utilitzeu les eines bàsiques per a convidats sense registre, instal·lació de programari o procés de configuració del projecte."
+    },
+    {
+      "title": "Mantingueu l'original segur",
+      "body": "El processament crea un resultat nou mentre l'original penjat es manté sense canvis."
+    },
+    {
+      "title": "Saber què va canviar",
+      "body": "Compara dimensions, formats i mides de fitxer abans de descarregar el resultat final."
+    },
+    {
+      "title": "Treballar en diferents formats",
+      "body": "Utilitzeu fluxos de treball dedicats per a JPG, PNG i WebP amb un maneig honest específic del format."
+    },
+    {
+      "title": "Protegiu els fitxers temporals",
+      "body": "Les imatges dels convidats i els resultats generats s'eliminen automàticament dins de la finestra de retenció."
+    },
+    {
+      "title": "Prepareu imatges per a la cerca",
+      "body": "Reviseu les metadades, milloreu els noms de fitxers i organitzeu el text alternatiu per al lloc web i l'ús de CMS."
+    }
+  ],
+  "howEyebrow": "Senzill de principi a fi",
+  "howHeading": "Acabeu la vostra tasca d'imatge en quatre passos clars",
+  "steps": [
+    {
+      "title": "Carrega la teva imatge",
+      "body": "Trieu una imatge compatible, arrossegueu-la a l'espai de treball o enganxeu-la des del porta-retalls."
+    },
+    {
+      "title": "Seleccioneu la vostra configuració",
+      "body": "Trieu el format, les dimensions, la qualitat, l'àrea de retall o les opcions de metadades necessàries per a la vostra tasca."
+    },
+    {
+      "title": "Processa amb seguretat",
+      "body": "El servidor realitza i verifica l'operació mentre mostra un progrés clar i estats d'error."
+    },
+    {
+      "title": "Descarrega el resultat",
+      "body": "Reviseu els detalls finals, descarregueu el vostre fitxer i processeu una altra imatge sempre que sigui necessari."
+    }
+  ],
+  "beforeEyebrow": "Veure la diferència",
+  "beforeHeading": "Vegeu la diferència abans de descarregar",
+  "beforeParagraph": "Els resums de resultats clars us ajuden a entendre què ha canviat. Compareu la imatge original amb la versió processada, reviseu la mida o les dimensions del fitxer i descarregueu només quan la sortida s'ajusti a les vostres necessitats.",
+  "beforeBullets": [
+    "L'original es manté segur mentre es crea un resultat nou",
+    "Sortida verificada amb detalls de mida i dimensions honestos"
+  ],
+  "beforeCaption": "Il·lustració del producte: només exemple. Els estalvis reals varien segons la imatge.",
+  "useEyebrow": "Dissenyat per a un treball real",
+  "useHeading": "Prepareu imatges per a llocs web, contingut i compartició diària",
+  "useCases": [
+    {
+      "title": "Llocs web",
+      "body": "Reduïu el pes innecessari de la imatge i prepareu dimensions coherents per a pàgines més ràpides i netes."
+    },
+    {
+      "title": "Botigues en línia",
+      "body": "Organitzeu els formats d'imatge del producte, els noms de fitxer, les dimensions i les metadades abans de publicar-los."
+    },
+    {
+      "title": "Contingut social",
+      "body": "Canvia la mida i retalla les imatges amb proporcions pràctiques per a publicacions, miniatures i campanyes."
+    },
+    {
+      "title": "Blogs i editorials",
+      "body": "Creeu imatges d'articles més lleugeres i prepareu un text d'imatge descriptiu accessible."
+    },
+    {
+      "title": "Correu electrònic i documents",
+      "body": "Reduïu els fitxers grans perquè les imatges siguin més fàcils d'adjuntar, compartir i incloure a les presentacions."
+    },
+    {
+      "title": "Local SEO",
+      "body": "Inspeccioneu les metadades, afegiu coordenades JPEG verificades i organitzeu la informació de la imatge SEO per als fluxos de treball de contingut local."
+    }
+  ],
+  "seoEyebrow": "Més que una edició bàsica",
+  "seoHeading": "Converteix les imatges normals en millors actius del lloc web",
+  "seoP1": "L'optimització d'imatges no es tracta només de reduir la mida del fitxer. Els noms de fitxers clars, el text alternatiu precís, les dimensions adequades i les metadades útils poden fer que les biblioteques d'imatges siguin més fàcils de gestionar i el contingut del lloc web més accessible.",
+  "seoP2": "Img Pilot inclou eines per inspeccionar metadades, dibuixar camps d'imatge SEO i exportar informació per utilitzar-la en un lloc web o CMS.",
+  "seoLinks": [
+    {
+      "href": "/metadades-imatge",
+      "label": "Visualitza les metadades de la imatge"
+    },
+    {
+      "href": "/editor-metadades-imatge",
+      "label": "Edita la imatge SEO Metadades"
+    },
+    {
+      "href": "/geotag-image",
+      "label": "Geoetiqueta a JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO i les eines d'accessibilitat ofereixen assistència i recomanacions. No garanteixen els rànquings de cerca ni el compliment automàtic.",
+  "bulkEyebrow": "Treballeu amb més d'una imatge?",
+  "bulkHeading": "Processa un petit lot sense repetir cada pas",
+  "bulkParagraph": "Utilitzeu les eines d'imatge massiva per comprimir, canviar la mida o convertir diverses imatges compatibles amb un conjunt d'opcions compartides. Reviseu cada fitxer per separat, baixeu els resultats individuals o recolliu resultats reeixits en un arxiu ZIP.",
+  "bulkBullets": [
+    "Compressió a granel",
+    "Canvi de mida massiu",
+    "Conversió massiva",
+    "Estat de processament per fitxer",
+    "Descàrregues individuals",
+    "Arxiu ZIP per obtenir resultats satisfactoris"
+  ],
+  "bulkCta": "Obriu Eines d'imatge massiva",
+  "bulkNotice": "S'apliquen límits de massa de convidats. Els fluxos de treball més grans poden requerir un compte.",
+  "privacyEyebrow": "Privadesa per disseny",
+  "privacyHeading": "Els fitxers temporals haurien de romandre temporals",
+  "privacyP1": "Les càrregues dels convidats s'emmagatzemen de manera privada mentre l'eina seleccionada funciona. La vostra imatge, els resultats generats i les dades de resultats temporals caduquen en una hora. La descàrrega, l'actualització o el reprocessament no amplia aquest termini.",
+  "privacyP2": "Les sessions de convidat no creen una biblioteca d'imatges permanent. Inicieu la sessió només quan necessiteu projectes o funcions de compte a llarg termini.",
+  "privacyFacts": [
+    "Emmagatzematge temporal privat d'objectes",
+    "Previsualitzacions i descàrregues de curta durada",
+    "No hi ha cap URL d'imatge de convidat públic",
+    "Neteja automàtica",
+    "No hi ha historial permanent de convidats",
+    "Els fitxers originals romanen sense canvis durant el processament"
+  ],
+  "privacyCta": "Llegiu la nostra política de privadesa",
+  "formatsHeading": "Treballeu amb els formats d'imatge que més feu servir",
+  "formatsParagraph": "Les eines de convidats principals admeten imatges JPG, PNG i WebP. Els formats de sortida disponibles i les funcions de metadades depenen de l'operació seleccionada i de les capacitats de cada format d'imatge.",
+  "faqHeading": "Preguntes freqüents",
+  "faqs": [
+    {
+      "q": "Necessito un compte per utilitzar Img Pilot?",
+      "a": "No. Les eines principals per a convidats es poden utilitzar sense crear un compte. S'apliquen límits de convidats i les funcions del compte estan disponibles quan necessiteu projectes desats o límits de flux de treball superiors."
+    },
+    {
+      "q": "Quant de temps s'emmagatzemen les imatges dels convidats?",
+      "a": "Les imatges dels convidats i els resultats temporals caduquen en una hora. La descàrrega, l'actualització o el reprocessament no amplia aquest termini."
+    },
+    {
+      "q": "El processament sobreescriurà la meva imatge original?",
+      "a": "No. El processament crea un resultat independent. L'original penjat es manté sense canvis durant la sessió de convidat activa."
+    },
+    {
+      "q": "Quins formats d'imatge són compatibles?",
+      "a": "Les eines bàsiques admeten JPG, PNG i WebP. Alguns fluxos de treball de conversió també poden admetre AVIF quan el servidor pot codificar i verificar el resultat."
+    },
+    {
+      "q": "Puc processar diverses imatges juntes?",
+      "a": "Sí. Les eines d'imatge massiva admeten comprimits, canvis de mida i fluxos de treball seleccionats. S'apliquen límits de lots de convidats."
+    },
+    {
+      "q": "Comprimir una imatge sempre la fa més petita?",
+      "a": "No sempre. La mida final depèn de la imatge original, el seu format i la configuració seleccionada. Img Pilot informa del resultat real amb honestedat, inclòs quan una sortida és més gran."
+    },
+    {
+      "q": "El text alternatiu està incrustat dins de la imatge?",
+      "a": "El text alternatiu normalment s'afegeix a un lloc web o un registre CMS en lloc d'incrustar-se universalment al fitxer d'imatge. L'Editor de metadades us ajuda a preparar-lo i exportar-lo per utilitzar-lo al vostre lloc web."
+    },
+    {
+      "q": "L'optimització d'imatges garanteix un millor rànquing de cerca?",
+      "a": "No. L'optimització d'imatges pot donar suport al rendiment, l'organització i l'accessibilitat, però cap eina d'imatge individual pot garantir la classificació de la cerca."
+    }
+  ],
+  "finalHeading": "La vostra següent imatge està a punt per ser optimitzada",
+  "finalParagraph": "Carregueu una imatge JPG, PNG o WebP i completeu la vostra tasca sense instal·lar programari ni crear un compte.",
+  "finalPrimary": "Trieu una imatge",
+  "finalSecondary": "Exploreu totes les eines",
+  "finalTrust": "Processament de convidats privats · Supressió automàtica d'una hora · Sense marca d'aigua",
+  "footerBrand": "Eines privades en línia per comprimir, redimensionar, convertir i preparar imatges per a la web.",
+  "footerRights": "© {year} Img Pilot. Tots els drets reservats."
+}

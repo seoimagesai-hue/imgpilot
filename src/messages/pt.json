@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Em breve",
+    "openMenu": "Abrir navegação",
+    "closeMenu": "Fechar navegação",
+    "mainNavigation": "Navegação principal"
+  },
+  "navigation": {
+    "dashboard": "Painel",
+    "projects": "Projetos",
+    "usage": "Análises",
+    "billing": "Faturação",
+    "developer": "Programador",
+    "integrations": "Integrações",
+    "automation": "Automação",
+    "settings": "Definições da conta",
+    "organizations": "Organizações"
+  },
+  "language": {
+    "label": "Idioma da interface",
+    "english": "Inglês",
+    "urdu": "urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Ferramentas de imagem",
+    "compress": "Comprimir",
+    "resize": "Redimensionar",
+    "convert": "Converter",
+    "seoTools": "Ferramentas SEO",
+    "bulkTools": "Ferramentas em lote",
+    "openAppGrid": "Abrir menu de ferramentas",
+    "appGridTitle": "Ferramentas e recursos",
+    "languageHint": "Preferência de idioma",
+    "menu": "Menu",
+    "close": "Fechar",
+    "footerBlurb": "Ferramentas privadas online para comprimir, redimensionar, converter e preparar imagens para a web.",
+    "popularFormats": "Formatos populares",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "rights": "Todos os direitos reservados."
+  },
+  "errors": {
+    "generic": "Algo deu errado."
+  }
+}

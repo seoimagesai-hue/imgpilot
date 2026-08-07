@@ -1,3 +1,4 @@
+import {isRtlLocale} from "@/i18n/routing";
 import Image from "next/image";
 import {Link} from "@/i18n/navigation";
 import {LandingToolWorkspace} from "@/components/guest/landing-tool-workspace";
@@ -9,7 +10,7 @@ import {Breadcrumbs} from "@/components/marketing/landing-sections";
 import {JsonLd} from "@/components/marketing/json-ld";
 import {getWebpToJpgCopy} from "@/lib/marketing/webp-to-jpg-landing-content";
 import type {ToolLandingDefinition} from "@/lib/marketing/tool-landing-registry";
-import {getPublicAppOrigin} from "@/server/marketing/seo";
+import {absoluteUrl, getPublicAppOrigin} from "@/server/marketing/seo";
 
 function Eyebrow({children}: {children: string}) {
   return (
@@ -111,8 +112,8 @@ export function WebpToJpgLandingView({
   const copy = getWebpToJpgCopy(locale);
   const origin = getPublicAppOrigin();
   const path = "/webp-to-jpg";
-  const pageUrl = `${origin}/${locale}${path}`;
-  const isRtl = locale === "ur";
+  const pageUrl = absoluteUrl(locale, path);
+  const isRtl = isRtlLocale(locale);
 
   const crumbs = [
     {href: "/", label: isRtl ? "ہوم" : "Home"},
@@ -142,7 +143,7 @@ export function WebpToJpgLandingView({
         "@type": "ListItem",
         position: index + 1,
         name: crumb.name,
-        item: `${origin}/${locale}${crumb.path === "/" ? "" : crumb.path}`,
+        item: absoluteUrl(locale, crumb.path),
       })),
     },
     {
@@ -157,7 +158,7 @@ export function WebpToJpgLandingView({
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "SEO Images",
+      name: "Img Pilot",
       url: origin,
     },
   ];

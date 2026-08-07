@@ -1,5 +1,6 @@
 import {unstable_noStore as noStore} from "next/cache";
 import {notFound, redirect} from "next/navigation";
+import type {Session} from "next-auth";
 import {auth} from "@/auth";
 import {isAppLocale} from "@/server/auth/validation";
 
@@ -29,7 +30,7 @@ export async function requireSuperAdmin(locale: string, callbackPath = "/admin")
   noStore();
   const safeLocale = isAppLocale(locale) ? locale : "en";
 
-  let session: Awaited<ReturnType<typeof auth>>;
+  let session: Session | null = null;
   try {
     session = await auth();
   } catch (err) {

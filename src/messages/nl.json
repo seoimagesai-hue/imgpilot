@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Binnenkort",
+    "openMenu": "Navigatie openen",
+    "closeMenu": "Navigatie sluiten",
+    "mainNavigation": "Hoofdnavigatie"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "projects": "Projecten",
+    "usage": "Analyses",
+    "billing": "Facturatie",
+    "developer": "Ontwikkelaar",
+    "integrations": "Integraties",
+    "automation": "Automatisering",
+    "settings": "Accountinstellingen",
+    "organizations": "Organisaties"
+  },
+  "language": {
+    "label": "Interfacetaal",
+    "english": "Engels",
+    "urdu": "Urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Afbeeldingstools",
+    "compress": "Comprimeren",
+    "resize": "Formaat wijzigen",
+    "convert": "Converteren",
+    "seoTools": "SEO-tools",
+    "bulkTools": "Bulktools",
+    "openAppGrid": "Toolsmenu openen",
+    "appGridTitle": "Tools en bronnen",
+    "languageHint": "Taalvoorkeur",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "footerBlurb": "Privé online tools om afbeeldingen te comprimeren, te verkleinen, te converteren en klaar te maken voor het web.",
+    "popularFormats": "Populaire formaten",
+    "company": "Bedrijf",
+    "resources": "Bronnen",
+    "rights": "Alle rechten voorbehouden."
+  },
+  "errors": {
+    "generic": "Er is iets misgegaan."
+  }
+}

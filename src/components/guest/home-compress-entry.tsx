@@ -42,7 +42,9 @@ export function HomeCompressEntry({
           router.push("/compress-image");
         }}
       />
-      <p className="text-center text-sm font-medium text-[var(--accent)]">{defaultActionLabel}</p>
+      {defaultActionLabel ? (
+        <p className="text-center text-sm font-medium text-[var(--accent)]">{defaultActionLabel}</p>
+      ) : null}
       <p className="text-center text-sm text-[var(--body)]" dir="ltr">
         {formatLimitLine}
       </p>

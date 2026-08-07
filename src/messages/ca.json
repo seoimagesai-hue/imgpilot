@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Properament",
+    "openMenu": "Obre la navegació",
+    "closeMenu": "Tanca la navegació",
+    "mainNavigation": "Navegació principal"
+  },
+  "navigation": {
+    "dashboard": "Tauler",
+    "projects": "Projectes",
+    "usage": "Analítiques",
+    "billing": "Facturació",
+    "developer": "Desenvolupador",
+    "integrations": "Integracions",
+    "automation": "Automatització",
+    "settings": "Configuració del compte",
+    "organizations": "Organitzacions"
+  },
+  "language": {
+    "label": "Idioma de la interfície",
+    "english": "Anglès",
+    "urdu": "Urdú",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Eines d’imatge",
+    "compress": "Comprimeix",
+    "resize": "Canvia la mida",
+    "convert": "Converteix",
+    "seoTools": "Eines SEO",
+    "bulkTools": "Eines massives",
+    "openAppGrid": "Obre el menú d’eines",
+    "appGridTitle": "Eines i recursos",
+    "languageHint": "Preferència d’idioma",
+    "menu": "Menú",
+    "close": "Tanca",
+    "footerBlurb": "Eines privades en línia per comprimir, canviar la mida, convertir i preparar imatges per al web.",
+    "popularFormats": "Formats populars",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "rights": "Tots els drets reservats."
+  },
+  "errors": {
+    "generic": "Alguna cosa va fallar."
+  }
+}

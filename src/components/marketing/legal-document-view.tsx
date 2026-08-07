@@ -3,7 +3,8 @@ import {Link} from "@/i18n/navigation";
 import {LegalStickyToc, type LegalTocItem} from "@/components/marketing/legal-toc";
 import {Breadcrumbs} from "@/components/marketing/landing-sections";
 import {JsonLd} from "@/components/marketing/json-ld";
-import {getPublicAppOrigin} from "@/server/marketing/seo";
+import {isRtlLocale} from "@/i18n/routing";
+import {absoluteUrl} from "@/server/marketing/seo";
 
 export type LegalMetaCard = {label: string; value: string};
 export type LegalSection = {
@@ -40,9 +41,8 @@ export type LegalDocModel = {
 const sectionPad = "py-14 md:py-20";
 
 export function LegalDocumentView({locale, doc}: {locale: string; doc: LegalDocModel}) {
-  const origin = getPublicAppOrigin();
-  const pageUrl = `${origin}/${locale}${doc.path}`;
-  const isRtl = locale === "ur";
+  const pageUrl = absoluteUrl(locale, doc.path);
+  const isRtl = isRtlLocale(locale);
   const crumbs = [
     {href: "/", label: isRtl ? "ہوم" : "Home"},
     {label: doc.breadcrumbCurrent},
@@ -70,7 +70,7 @@ export function LegalDocumentView({locale, doc}: {locale: string; doc: LegalDocM
         "@type": "ListItem",
         position: index + 1,
         name: crumb.name,
-        item: `${origin}/${locale}${crumb.path === "/" ? "" : crumb.path}`,
+        item: absoluteUrl(locale, crumb.path),
       })),
     },
   ];

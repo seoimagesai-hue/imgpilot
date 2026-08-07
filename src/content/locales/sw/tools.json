@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/compress-picha",
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Compress"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ukandamizaji wa picha hufanyaje kazi?",
+        "a": "Zana husimba upya picha yako kwa mipangilio inayopunguza saizi ya faili huku matokeo yakionekana kutumika. Chagua kifaa chepesi au thabiti zaidi kabla ya kuchakata."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10. Mitiririko mikubwa zaidi inaweza kuhitaji akaunti."
+      },
+      {
+        "q": "Je, kubana kutapunguza ubora wa picha?",
+        "a": "Mipangilio thabiti zaidi inaweza kulainisha maelezo mazuri. Tumia Ubora wa Juu zaidi au Uwiano wakati inaonekana kuwa muhimu zaidi, na uhakiki kabla ya kupakua."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Ukandamizaji wa wageni hufanya kazi bila kuingia. Faili hukaa za faragha na huisha muda ndani ya saa moja."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Upakiaji na matokeo ya wageni ni ya muda na yatafutwa kiotomatiki ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Finya Picha Mtandaoni — Punguza JPG, PNG & WebP Ukubwa",
+    "metaDescription": "Finya picha mtandaoni bila kupoteza ubora. Punguza JPG, PNG na WebP ukubwa wa faili kwa kuchakata mgeni wa kibinafsi na kufuta kiotomatiki ndani ya saa moja.",
+    "breadcrumbCurrent": "Finyaza Picha Mtandaoni",
+    "h1": "Finyaza Picha Mtandaoni",
+    "subtitle": "Punguza ukubwa wa faili ya picha bila kupoteza ubora",
+    "paragraph": "Finyaza JPG, PNG na WebP picha kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Ukubwa Mdogo, Ubora Sawa Mkuu",
+    "features": [
+      {
+        "title": "Ukandamizaji wa Smart",
+        "body": "Mfinyazo wa akili unaoweka picha zako zionekane kali.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Hadi 80% Ndogo",
+        "body": "Punguza kwa kiasi kikubwa ukubwa wa faili kwa upakiaji wa haraka na upakiaji wa kurasa.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Kamili kwa Wavuti",
+        "body": "Boresha picha za tovuti, blogu na kurasa za bidhaa.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Ubora Unaoweza Kuamini",
+        "body": "Kagua kabla ya kupakua ili ubora ubaki chini ya udhibiti wako.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Mfinyazo unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/resize-image": {
+    "path": "/resize-picha",
+    "features": [
+      {
+        "title": "Vipimo Hasa",
+        "body": "Weka upana na urefu unaolingana na mahitaji yako ya mpangilio.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Fit Ndani",
+        "body": "Weka picha kwenye kisanduku huku ukihifadhi uwiano wa kipengele.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Hakuna Upscale Usiohitajika",
+        "body": "Walinzi husaidia kuzuia kunyoosha vyanzo vidogo.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Mtandao Tayari",
+        "body": "Tayarisha saizi thabiti za kurasa na gridi za bidhaa.",
+        "tone": "machungwa"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Badilisha ukubwa"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, ninaweza kuweka uwiano wa kipengele?",
+        "a": "Ndiyo. Tumia vipimo vinavyotoshea ndani au vilivyounganishwa ili picha ziongezeke vizuri bila kupotoshwa."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, kubadilisha ukubwa kutaongeza picha yangu?",
+        "a": "Kwa chaguo-msingi, mtiririko wa kazi huepuka upanuzi usiohitajika. Chagua vipimo vinavyolingana na chanzo chako."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Anza kubadilisha ukubwa kama mgeni. Muda wa faili za muda utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Vipakizi na matokeo ya wageni hufutwa kiotomatiki ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Badilisha ukubwa wa Picha Mtandaoni - Badilisha Vipimo vya Wavuti na Jamii",
+    "metaDescription": "Badilisha ukubwa wa picha JPG, PNG na WebP mtandaoni kwa upana, urefu au kutoshea ndani. Zana ya kibinafsi ya wageni bila akaunti inayohitajika.",
+    "breadcrumbCurrent": "Badilisha ukubwa wa Picha Mtandaoni",
+    "h1": "Badilisha ukubwa wa Picha Mtandaoni",
+    "subtitle": "Badilisha vipimo vya wavuti, kijamii na mpangilio",
+    "paragraph": "Badilisha ukubwa wa picha JPG, PNG na WebP kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Udhibiti Sahihi, Matokeo Safi",
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha ili kubadilisha ukubwa na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/crop-image": {
+    "path": "/ picha-ya mazao",
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Mazao"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, ninaweza kupanda hadi mraba?",
+        "a": "Ndiyo. Chagua uwiano wa 1:1 au chora mazao yasiyolipishwa yanayolingana na mahitaji yako."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, ya awali imeandikwa tena?",
+        "a": "Hapana. Uchakataji huunda matokeo mapya yaliyopunguzwa."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Panda kama mgeni. Faili hufutwa kiotomatiki ndani ya saa moja."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Punguza Picha Mkondoni - Mazao ya Uwiano Bila Malipo na Usiobadilika",
+    "metaDescription": "Punguza picha JPG, PNG na WebP mtandaoni kwa vidhibiti vya uwiano usiolipishwa au usiobadilika. Uchakataji wa wageni wa kibinafsi, hakuna akaunti inayohitajika.",
+    "breadcrumbCurrent": "Panda Picha Mtandaoni",
+    "h1": "Panda Picha Mtandaoni",
+    "subtitle": "Weka tu sehemu ya picha ambayo ni muhimu",
+    "paragraph": "Punguza picha JPG, PNG na WebP kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Panda kwa Kujiamini",
+    "features": [
+      {
+        "title": "Mazao ya Bure",
+        "body": "Chagua eneo lolote la picha na uweke eneo hilo haswa.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Viwango visivyobadilika",
+        "body": "Tumia uwiano wa vipengele vya kawaida kwa mipangilio thabiti.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Mwelekeo Salama",
+        "body": "Hisabati ya mazao huheshimu vipimo vilivyoelekezwa baada ya kupakiwa.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Umbizo Sawa Nje",
+        "body": "Pakua tokeo lililopunguzwa katika umbizo la chanzo chako linapotumika.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha ili kupunguzwa na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/convert-image": {
+    "path": "/geuza-picha",
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Geuza"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ni ubadilishaji gani unatumika?",
+        "a": "Vifuniko kuu vya ubadilishaji wa wageni JPG, PNG na WebP. AVIF inatolewa wakati muda wa utekelezaji unaweza kusimba na kuuthibitisha."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, uwazi utawekwa?",
+        "a": "Wakati wa kubadilisha hadi umbizo zinazotumia alpha, uwazi unaweza kuhifadhiwa kulingana na chaguo za zana."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Badilisha kama mgeni. Muda wa faili za muda utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Vipakizi na matokeo ya wageni hufutwa kiotomatiki ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Badilisha Picha Mtandaoni — JPG, PNG, WebP & AVIF",
+    "metaDescription": "Badilisha kati ya JPG, PNG, WebP na umbizo linalotumika AVIF mtandaoni. Ubadilishaji wa kibinafsi wa mgeni na matokeo yaliyothibitishwa.",
+    "breadcrumbCurrent": "Badilisha Picha Mtandaoni",
+    "h1": "Badilisha Picha Mtandaoni",
+    "subtitle": "Badilisha fomati za wavuti bila programu ya eneo-kazi",
+    "paragraph": "Badilisha picha za JPG, PNG na WebP kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Mabadiliko ya Fomati Yamefanywa Rahisi",
+    "features": [
+      {
+        "title": "Miundo Maarufu",
+        "body": "Sogeza kati ya JPG, PNG na WebP na chaguo wazi.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Uwazi Kufahamu",
+        "body": "PNG na WebP alpha inashughulikiwa kwa uangalifu na sera.",
+        "tone": "kijani"
+      },
+      {
+        "title": "AVIF Ukiwa Tayari",
+        "body": "Weka msimbo hadi AVIF tu wakati seva inaweza kuithibitisha.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Pato la uaminifu",
+        "body": "Jua aina na saizi ya MIME kabla ya kupakua.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha ili kubadilishwa na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Zungusha"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ni pembe gani zinazoungwa mkono?",
+        "a": "Mzunguko wa wageni unaweza kutumia 90°, 180° na 270° pamoja na migeuko ya hiari."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Zungusha kama mgeni. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, mwelekeo wa EXIF unatumika?",
+        "a": "Vyanzo hurekebishwa kwa mwelekeo kabla ya kubadilisha ili matokeo yalingane na unavyotarajia."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "path": "/zungusha-picha",
+    "metaTitle": "Zungusha Picha Mtandaoni — Geuza JPG, PNG na WebP",
+    "metaDescription": "Zungusha picha kwa 90°, 180° au 270° na ugeuze mlalo au wima. Zana ya bure ya wageni iliyo na hifadhi ya muda ya kibinafsi.",
+    "breadcrumbCurrent": "Zungusha Picha Mtandaoni",
+    "h1": "Zungusha Picha Mtandaoni",
+    "subtitle": "Geuza au geuza picha kwa mpangilio na muundo",
+    "paragraph": "Zungusha au geuza JPG, PNG na WebP picha kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Marekebisho ya Mwelekeo wa Haraka",
+    "features": [
+      {
+        "title": "90° Hatua",
+        "body": "Zungusha kwa 90 °, 180 ° au 270 ° kwa kupita moja.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Vidhibiti vya Geuza",
+        "body": "Onyesha kwa usawa au wima inapohitajika.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Umbizo Sawa",
+        "body": "Pato husalia katika umbizo lako ulilopakia.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Kazi za Wageni Binafsi",
+        "body": "Usindikaji wa muda mfupi na kusafisha kiotomatiki.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha ili kuzungushwa na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Alama ya maji"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, ninaweza kupakia nembo ya watermark?",
+        "a": "Zana hii ya mgeni huweka muhuri maandishi. Tumia maandishi mafupi ya chapa kwa sasa."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Watermark kama mgeni. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, watermark itashughulikia mada yangu?",
+        "a": "Chagua nafasi za pembeni na uwazi wa chini ili kuweka masomo yaonekane."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "path": "/watermark-picha",
+    "metaTitle": "Picha za Watermark Mkondoni - Ongeza Alama za Maandishi",
+    "metaDescription": "Piga alama za maandishi mafupi kwenye JPG, PNG na WebP na vidhibiti vya nafasi na kutoweka. Chombo cha mgeni wa kibinafsi.",
+    "breadcrumbCurrent": "Picha za Watermark Mtandaoni",
+    "h1": "Picha za Watermark Mtandaoni",
+    "subtitle": "Piga maandishi mafupi bila kufunika picha nzima",
+    "paragraph": "Ongeza alama ya maandishi kwa JPG, PNG au WebP picha kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Linda Visual na Mwanga Branding",
+    "features": [
+      {
+        "title": "Mihuri ya Maandishi Mafupi",
+        "body": "Ongeza watermark fupi ambayo inabaki kusomeka.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Udhibiti wa Nafasi",
+        "body": "Weka alama za maji kwenye pembe au katikati.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Kitelezi cha Uwazi",
+        "body": "Sawazisha mwonekano dhidi ya maudhui ya picha.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Umbizo Sawa Nje",
+        "body": "Pakua faili iliyotiwa alama katika umbizo la chanzo chako.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha ili kuangaziwa na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Ukungu"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, hii hutambua nyuso kiotomatiki?",
+        "a": "Hapana. Unachagua eneo wewe mwenyewe kama asilimia ya picha."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Tia ukungu kama mgeni. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, ninaweza kutia ukungu katika maeneo mengi?",
+        "a": "Zana hii ya mgeni inatumika eneo moja kwa kila kukimbia. Endesha tena ili kutia ukungu eneo lingine."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "path": "/eneo la ukungu",
+    "metaTitle": "Waa Eneo la Picha Mtandaoni — Ficha Nyuso na Maelezo",
+    "metaDescription": "Tia ukungu mwenyewe eneo la JPG, PNG au WebP ili kuficha nyuso, sahani au maelezo mengine. Chombo cha mgeni wa kibinafsi.",
+    "breadcrumbCurrent": "Blur Mkoa Online",
+    "h1": "Blur Mkoa Online",
+    "subtitle": "Ficha maelezo nyeti kwa kutumia kisanduku cha ukungu mwenyewe",
+    "paragraph": "Tia ukungu eneo lililochaguliwa kwenye JPG, PNG au WebP picha kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Waa Kinachohitaji Faragha",
+    "features": [
+      {
+        "title": "Mkoa wa Mwongozo",
+        "body": "Unachagua mahali ambapo ukungu utatumika.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Viwango vya Nguvu",
+        "body": "Ukungu mwepesi, wa kati au wenye nguvu kwa mahitaji tofauti.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Faragha Rafiki",
+        "body": "Ficha maelezo kabla ya kuchapisha au kusafirisha mali.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Mgeni Salama",
+        "body": "Usindikaji wa muda wa kibinafsi na ufutaji wa kiotomatiki.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha kwa ukungu wa eneo na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Manukuu"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, ninahitaji maandishi ya juu na ya chini?",
+        "a": "Hapana. Toa angalau mstari wa maelezo mafupi."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Tengeneza kama mgeni. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, ninaweza kubadilisha fonti?",
+        "a": "Meme za wageni hutumia rafu ya kawaida ya mtindo wa Impact kwa kusomeka."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "path": "/meme-jenereta",
+    "metaTitle": "Jenereta ya Meme Mkondoni - Ongeza Manukuu ya Juu na Chini",
+    "metaDescription": "Ongeza manukuu ya kawaida ya juu na chini kwenye picha za JPG, PNG au WebP. Jenereta ya meme ya wageni ya bure.",
+    "breadcrumbCurrent": "Jenereta ya Meme Mtandaoni",
+    "h1": "Jenereta ya Meme Mtandaoni",
+    "subtitle": "Ongeza manukuu ya kawaida kwa sekunde",
+    "paragraph": "Ongeza manukuu ya juu na chini kwenye picha za JPG, PNG au WebP kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Manukuu Ambayo Inasoma Kama Meme za Kawaida",
+    "features": [
+      {
+        "title": "Maandishi ya Juu na Chini",
+        "body": "Tumia mstari au zote mbili kwa muundo wa kawaida.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Kufunga Kiotomatiki",
+        "body": "Manukuu marefu hufunga mistari mifupi inayoweza kusomeka.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Aina ya Utofautishaji wa Juu",
+        "body": "Jaza nyeupe na kiharusi cha giza kwa uwazi.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Zana ya Wageni Papo Hapo",
+        "body": "Unda na upakue bila kuingia.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha kwa manukuu ya meme na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/geotag-image": {
+    "path": "/geotag-picha",
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Geotag"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Ni fomati zipi zinazounga mkono kuweka tagi?",
+        "a": "Geotag ya wageni inaangazia picha JPEG zinazooana."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Upakiaji wa wageni unaweza kutumika JPEG ndani ya kikomo cha MB 10."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Geotag kama mgeni. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, kuratibu zimethibitishwa?",
+        "a": "Huandika hufuata sheria za uthibitishaji ili maadili yawe yameundwa vyema kabla ya kupachikwa."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Picha za Geotag Mtandaoni — Ongeza GPS hadi JPEG",
+    "metaDescription": "Kusoma au kuandika kuthibitishwa GPS viwianishi kwenye picha JPEG zinazooana. Zana ya geotag ya mgeni wa kibinafsi.",
+    "breadcrumbCurrent": "Picha za Geotag Mtandaoni",
+    "h1": "Picha za Geotag Mtandaoni",
+    "subtitle": "Ongeza au kagua JPEG GPS data ya eneo",
+    "paragraph": "Ongeza au kagua viwianishi vya GPS kwenye picha JPEG zinazooana. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Data ya Mahali Unayoweza Kuthibitisha",
+    "features": [
+      {
+        "title": "JPEG Imeelekezwa",
+        "body": "Utiririshaji wa kazi wa Geotag unalenga vyanzo vinavyooana JPEG.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Kagua Kwanza",
+        "body": "Angalia ikiwa GPS inayosomeka tayari iko.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Andika Viratibu",
+        "body": "Kupachika latitudo na longitudo wakati kubadilisha kunaruhusiwa.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Faragha ya Mgeni",
+        "body": "Usindikaji wa muda kwa kusafisha kiotomatiki.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha kwa ajili ya kuweka tagi na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/image-metadata": {
+    "path": "/metadata-picha",
+    "breadcrumbCurrent": "Kitazamaji cha Metadata ya Picha",
+    "h1": "Kitazamaji cha Metadata ya Picha",
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Kagua"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, unaonyesha lebo zote EXIF?",
+        "a": "Hapana. Mtazamaji anaonyesha sehemu zilizoorodheshwa kwa usalama na uwazi."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Hapana. Kagua kama mgeni. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, ninaweza kuhariri metadata hapa?",
+        "a": "Tumia Picha SEO Kihariri cha Metadata kuandaa na kuhamisha sehemu za SEO."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Kitazamaji cha Metadata ya Picha Mtandaoni — Kagua EXIF Kwa Usalama",
+    "metaDescription": "Kagua vipimo, maelezo ya rangi na metadata salama iliyoorodheshwa inayoruhusiwa ya JPG, PNG na WebP. Mtazamaji mgeni wa kibinafsi.",
+    "subtitle": "Kagua sifa salama za picha kabla ya kuchapisha",
+    "paragraph": "Kagua sifa za JPG, PNG na WebP kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Angalia Nini Muhimu, Salama",
+    "features": [
+      {
+        "title": "Sifa za Msingi",
+        "body": "Vipimo, aina na maelezo ya faili ya vitendo.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Sehemu Zilizoruhusiwa",
+        "body": "Nyuso salama tu za metadata zilizoratibiwa ndizo zinazoonyeshwa.",
+        "tone": "kijani"
+      },
+      {
+        "title": "Mtandao wa kirafiki",
+        "body": "Ukaguzi muhimu kabla ya CMS kupakia au SEO kukagua.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Faragha ya Mgeni",
+        "body": "Kagua kazi kwa muda kwa kufuta kiotomatiki.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha kwa ajili ya ukaguzi wa metadata na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/image-metadata-editor": {
+    "path": "/image-metadata-editor",
+    "breadcrumbCurrent": "Picha SEO Kihariri cha Metadata",
+    "h1": "Picha SEO Kihariri cha Metadata",
+    "howSteps": [
+      {
+        "title": "Pakia Picha Yako"
+      },
+      {
+        "title": "Hariri"
+      },
+      {
+        "title": "Hakiki Matokeo"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, hii inaandika upya EXIF ndani ya kila umbizo?",
+        "a": "Kihariri kinaangazia kuandaa SEO sehemu na usafirishaji."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Usaidizi wa upakiaji wa wageni JPG, PNG na WebP hadi MB 10."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Uhariri wa wageni unapatikana kwa kikomo. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, ninaweza kuuza nje nini?",
+        "a": "Tumia uhamishaji unaofaa kando kwa CMS na mtiririko wa kazi wa maudhui."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Picha SEO Kihariri cha Metadata Mtandaoni",
+    "metaDescription": "Andika, kagua na usafirishaji wa picha SEO sehemu za tovuti na CMS utiririshaji wa kazi. Kihariri cha metadata cha mgeni wa kibinafsi.",
+    "subtitle": "Tayarisha sehemu SEO za picha kabla ya kuichapisha",
+    "paragraph": "Rasimu ya taswira SEO sehemu na usafirishaji wa kando kwa sekunde. Zana ya bure mtandaoni - hakuna akaunti inayohitajika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Udhibiti wa Uhariri wa Picha SEO",
+    "features": [
+      {
+        "title": "Sehemu Zinazoweza Kuhaririwa",
+        "body": "Sasisha maandishi ya SEO unayosafirisha.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Hamisha ya Kirafiki",
+        "body": "Pakua kando za CMS na mtiririko wa kazi wa maudhui.",
+        "tone": "kijani"
+      },
+      {
+        "title": "CMS Tayari",
+        "body": "Tayarisha mada, maelezo na maneno muhimu kabla ya kuchapisha.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Vikao vya Wageni",
+        "body": "Rasimu za muda zilizo na usafishaji wa kiotomatiki.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha ili kuhaririwa na metadata na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  },
+  "/bulk-image-tools": {
+    "path": "/zana-za-picha-za-wingi",
+    "breadcrumbCurrent": "Zana za Picha nyingi",
+    "h1": "Zana za Picha nyingi",
+    "howSteps": [
+      {
+        "title": "Pakia Kundi"
+      },
+      {
+        "title": "Chagua Operesheni"
+      },
+      {
+        "title": "Faili za Mchakato"
+      },
+      {
+        "title": "Pakua"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Je, ninaweza kupakia faili ngapi?",
+        "a": "Ajira nyingi za wageni hutekeleza idadi ya juu zaidi ya faili na saizi ya jumla ya kundi."
+      },
+      {
+        "q": "Je, kuna kikomo cha ukubwa wa faili?",
+        "a": "Kila faili hufuata ukubwa wa juu wa mgeni, na kundi lina jumla ya baiti."
+      },
+      {
+        "q": "Je, ninahitaji akaunti?",
+        "a": "Wageni wanaweza kufanya kazi nyingi chache. Muda wa faili utaisha ndani ya saa moja."
+      },
+      {
+        "q": "Je, ikiwa faili moja itashindwa?",
+        "a": "Matokeo yaliyofaulu yanaendelea kupakuliwa; vipengee vilivyoshindwa vinaonyesha hali ya hitilafu."
+      },
+      {
+        "q": "Je, picha zangu zimehifadhiwa kabisa?",
+        "a": "Hapana. Muda wa upakiaji na matokeo ya wageni huisha ndani ya saa moja."
+      }
+    ],
+    "metaTitle": "Zana za Picha Wingi Mkondoni - Finyaza, Badilisha ukubwa, Geuza",
+    "metaDescription": "Finyaza, badilisha ukubwa au ubadilishe picha kadhaa na upakue matokeo yaliyofaulu pamoja. Vizuizi vya wingi wa wageni vinatumika.",
+    "subtitle": "Sindika kundi fupi bila kurudia kila hatua",
+    "paragraph": "Finyaza, badilisha ukubwa au ubadilishe faili nyingi JPG, PNG au WebP katika kundi moja. Vizuizi vya bure vya wageni vinatumika.",
+    "trust": [
+      "Hakuna akaunti inahitajika",
+      "Usindikaji wa faragha na salama",
+      "Futa kiotomatiki ndani ya saa 1"
+    ],
+    "workspaceNote": "Miundo inayotumika: JPG, PNG, WebP • Upeo wa ukubwa wa faili: 10 MB. Faili zako ni za faragha na zitafutwa kiotomatiki ndani ya saa moja.",
+    "featuresHeading": "Kasi ya Kundi yenye Vikomo Vilivyo wazi",
+    "features": [
+      {
+        "title": "Mipangilio Iliyoshirikiwa",
+        "body": "Tumia compress moja, badilisha ukubwa au ubadilishe chaguo kwenye kundi.",
+        "tone": "bluu"
+      },
+      {
+        "title": "Hali ya kila faili",
+        "body": "Tazama ni picha zipi zimefaulu na zipi zinahitaji kuzingatiwa.",
+        "tone": "kijani"
+      },
+      {
+        "title": "ZIP Pakua",
+        "body": "Kusanya matokeo yaliyofaulu wakati bechi iko tayari.",
+        "tone": "zambarau"
+      },
+      {
+        "title": "Kofia za Wageni",
+        "body": "Ukubwa wa kundi na jumla ya baiti hufuata sera ya wageni bila malipo.",
+        "tone": "machungwa"
+      }
+    ],
+    "howHeading": "Jinsi Inavyofanya Kazi",
+    "benefitCards": [
+      {
+        "title": "Mambo ya Faragha Yako",
+        "body": "Picha zako huchakatwa kwa faragha ili kuchakatwa kwa wingi na kufutwa kiotomatiki ndani ya saa moja.",
+        "kind": "faragha"
+      },
+      {
+        "title": "Haraka na Ufanisi",
+        "body": "Uchakataji wa wageni unaoungwa mkono na wingu hutoa matokeo kwa sekunde bila kusakinisha programu.",
+        "kind": "kasi"
+      }
+    ],
+    "faqHeading": "Maswali Yanayoulizwa Mara Kwa Mara"
+  }
+}

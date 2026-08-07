@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * WebP → AVIF landing — next-gen delivery with fail-closed encode honesty
  * (distinct from WebP→JPG compatibility and WebP→PNG editing paths).
@@ -93,7 +94,7 @@ export type WebpToAvifCopy = {
 };
 
 const en: WebpToAvifCopy = {
-  metaTitle: "Convert WebP to AVIF Online Free | SEO Images",
+  metaTitle: "Convert WebP to AVIF Online Free | Img Pilot",
   metaDescription:
     "Convert WebP images to AVIF when AVIF encoding is available on this server. Fail-closed conversion, private guest storage and instant download — no fake stand-in files.",
   h1: "Convert WebP to AVIF Online",
@@ -344,7 +345,7 @@ const en: WebpToAvifCopy = {
 };
 
 const ur: WebpToAvifCopy = {
-  metaTitle: "آن لائن WebP کو AVIF میں تبدیل کریں مفت | SEO Images",
+  metaTitle: "آن لائن WebP کو AVIF میں تبدیل کریں مفت | Img Pilot",
   metaDescription:
     "جب اس سرور پر AVIF انکوڈنگ دستیاب ہو WebP کو آن لائن AVIF میں تبدیل کریں۔ فیل کلوزڈ کنورژن، نجی مہمان اسٹوریج اور فوری ڈاؤن لوڈ — کوئی جعلی اسٹینڈ اِن فائل نہیں۔",
   h1: "آن لائن WebP کو AVIF میں تبدیل کریں",
@@ -595,7 +596,7 @@ const ur: WebpToAvifCopy = {
 };
 
 export function getWebpToAvifCopy(locale: string): WebpToAvifCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function webpToAvifSeoCompat() {

@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Bientôt",
+    "openMenu": "Ouvrir la navigation",
+    "closeMenu": "Fermer la navigation",
+    "mainNavigation": "Navigation principale"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "projects": "Projets",
+    "usage": "Analyses",
+    "billing": "Facturation",
+    "developer": "Développeur",
+    "integrations": "Intégrations",
+    "automation": "Automatisation",
+    "settings": "Paramètres du compte",
+    "organizations": "Organisations"
+  },
+  "language": {
+    "label": "Langue de l’interface",
+    "english": "Anglais",
+    "urdu": "Ourdou",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Outils image",
+    "compress": "Compresser",
+    "resize": "Redimensionner",
+    "convert": "Convertir",
+    "seoTools": "Outils SEO",
+    "bulkTools": "Outils par lot",
+    "openAppGrid": "Ouvrir le menu des outils",
+    "appGridTitle": "Outils et ressources",
+    "languageHint": "Préférence de langue",
+    "menu": "Menu",
+    "close": "Fermer",
+    "footerBlurb": "Outils privés en ligne pour compresser, redimensionner, convertir et préparer des images pour le web.",
+    "popularFormats": "Formats populaires",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "rights": "Tous droits réservés."
+  },
+  "errors": {
+    "generic": "Quelque chose s'est mal passé."
+  }
+}

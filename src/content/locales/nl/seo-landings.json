@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "formaat wijzigen",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Exacte afbeeldingsafmetingen met populaire platformformaten",
+        "Vergrendeling van de beeldverhouding om vervorming te voorkomen",
+        "Privé tijdelijke gastenopslag"
+      ],
+      "faqs": [
+        {
+          "q": "Welke JPG-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan JPG. Andere formaten kunnen hier worden afgewezen. Gebruik de algemene tool Formaat wijzigen voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "formaat wijzigen-jpg",
+      "title": "Formaat wijzigen JPG Afbeeldingen online gratis | Img Pilot",
+      "description": "Wijzig het formaat van JPG-afbeeldingen online door aangepaste afmetingen of populaire voorinstellingen te kiezen. Pas de breedte, hoogte en kwaliteit aan en download vervolgens veilig uw gewijzigde JPG.",
+      "h1": "Formaat wijzigen JPG Afbeeldingen online",
+      "intro": "Wijzig het formaat van JPG afbeeldingen naar de exacte afmetingen die u nodig heeft zonder software te installeren. Upload een foto, kies een voorinstelling of voer een aangepaste breedte en hoogte in en download vervolgens binnen enkele seconden uw aangepaste JPG.",
+      "related": [
+        "comprimeren-jpg",
+        "jpg-naar-webp",
+        "bijsnijden-jpg",
+        "formaat wijzigen-png",
+        "png-naar-jpg",
+        "bulk-image-tools"
+      ],
+      "howTo": [
+        "Upload een JPG",
+        "Kies methode of voorinstelling",
+        "Proces",
+        "Download het gewijzigde formaat JPG"
+      ]
+    },
+    "resize-png": {
+      "operation": "formaat wijzigen",
+      "sourceFormat": "png",
+      "howTo": [
+        "Upload een PNG",
+        "Afmetingen of preset instellen",
+        "Proces",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Welke PNG-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan PNG. Andere formaten kunnen hier worden afgewezen. Gebruik de algemene tool Formaat wijzigen voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "formaat wijzigen-png",
+      "title": "Formaat wijzigen PNG Afbeeldingen online gratis | Img Pilot",
+      "description": "Wijzig het formaat van PNG-afbeeldingen online met behoud van de transparantie. Wijzig de afbeeldingsafmetingen veilig en download uw aangepaste PNG binnen enkele seconden.",
+      "h1": "Formaat wijzigen PNG Afbeeldingen online",
+      "intro": "Pas het formaat van PNG afbeeldingen aan zonder de transparantie van logo's, UI-afbeeldingen, pictogrammen en schermafbeeldingen te verliezen.",
+      "related": [
+        "comprimeren-png",
+        "png-naar-jpg",
+        "png-naar-webp",
+        "bijsnijden-png",
+        "formaat wijzigen-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Transparantiebehoud PNG formaat wijzigen",
+        "Ontwerpvoorinstellingen voor logo's, pictogrammen en favicons",
+        "Privé tijdelijke gastverwerking"
+      ]
+    },
+    "resize-webp": {
+      "operation": "formaat wijzigen",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Upload een WebP",
+        "Kies maatopties",
+        "Proces",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Welke WebP-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan WebP. Andere formaten kunnen hier worden afgewezen. Gebruik de algemene tool Formaat wijzigen voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "formaat wijzigen-webp",
+      "title": "Formaat wijzigen WebP Afbeeldingen online gratis | Img Pilot",
+      "description": "Wijzig het formaat van WebP-afbeeldingen online voor responsieve websites, blogs en mobiele apparaten. Wijzig de afmetingen veilig en download direct de verkleinde WebP-afbeeldingen.",
+      "h1": "Formaat wijzigen WebP Afbeeldingen online",
+      "intro": "Pas het formaat van WebP-afbeeldingen aan voor responsieve lay-outs, mobiele apparaten en moderne websites, terwijl de WebP-efficiëntie behouden blijft.",
+      "related": [
+        "comprimeren-webp",
+        "webp-naar-jpg",
+        "webp-naar-png",
+        "formaat wijzigen-jpg",
+        "formaat wijzigen-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Responsieve WebP dimensiecontrole",
+        "Pijplijn voor het wijzigen van de grootte van een gedeelde gast",
+        "Tijdelijke privéopslag met automatische opschoning"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "comprimeren",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Upload een JPG",
+        "Kies een kwaliteitsvoorinstelling",
+        "Comprimeren",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Welke JPG-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan JPG. Andere formaten kunnen hier worden afgewezen. Gebruik de generieke Compressietool voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "comprimeren-jpg",
+      "title": "JPG Afbeeldingen online gratis comprimeren | Img Pilot",
+      "description": "Comprimeer JPG-afbeeldingen online en verklein de bestandsgrootte met aanpasbare kwaliteitscontroles. Bekijk een voorbeeld van het resultaat en download veilig een kleinere, geoptimaliseerde JPG.",
+      "h1": "Comprimeer JPG Afbeeldingen online",
+      "intro": "Verklein de bestandsgrootte van JPG-afbeeldingen rechtstreeks in uw browser zonder ingewikkelde software te installeren.",
+      "related": [
+        "formaat wijzigen-jpg",
+        "jpg-naar-webp",
+        "bijsnijden-jpg",
+        "jpg-naar-png",
+        "webp-naar-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Instelbare JPG kwaliteitsvoorinstellingen",
+        "Privé tijdelijke gastverwerking",
+        "Originele afbeelding blijft ongewijzigd"
+      ]
+    },
+    "compress-png": {
+      "operation": "comprimeren",
+      "sourceFormat": "png",
+      "howTo": [
+        "Upload een PNG",
+        "Kies voor kwaliteit",
+        "Comprimeren",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Welke PNG-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan PNG. Andere formaten kunnen hier worden afgewezen. Gebruik de generieke Compressietool voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "comprimeren-png",
+      "title": "PNG Afbeeldingen online gratis comprimeren | Img Pilot",
+      "description": "Comprimeer PNG-afbeeldingen online met behoud van transparantie. Verklein de PNG bestandsgrootte veilig en download binnen enkele seconden een geoptimaliseerde afbeelding.",
+      "h1": "Comprimeer PNG Afbeeldingen online",
+      "intro": "Verklein de bestandsgrootte PNG zonder dat dit ten koste gaat van de transparantie of helderheid van de afbeelding.",
+      "related": [
+        "comprimeren-jpg",
+        "formaat wijzigen-png",
+        "png-naar-jpg",
+        "png-naar-webp",
+        "bijsnijden-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Transparantiebehoudende PNG-compressie",
+        "Gebouwd voor logo's, UI-afbeeldingen en schermafbeeldingen",
+        "Privé tijdelijke gastverwerking"
+      ]
+    },
+    "compress-webp": {
+      "operation": "comprimeren",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Upload een WebP",
+        "Selecteer kwaliteit",
+        "Comprimeren",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Welke WebP-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan WebP. Andere formaten kunnen hier worden afgewezen. Gebruik de generieke Compressietool voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "comprimeren-webp",
+      "title": "WebP Afbeeldingen online gratis comprimeren | Img Pilot",
+      "description": "Comprimeer WebP-afbeeldingen online om de bestandsgrootte te verkleinen met behoud van de kwaliteit. Verbeter de websitesnelheid met veilige browsergebaseerde WebP-optimalisatie.",
+      "h1": "Comprimeer WebP Afbeeldingen online",
+      "intro": "Verklein de reeds geëxporteerde WebP bestandsgrootte terwijl de visuele kwaliteit voor websites, landingspagina's en mobiele apps behouden blijft.",
+      "related": [
+        "formaat wijzigen-webp",
+        "webp-naar-jpg",
+        "webp-naar-png",
+        "comprimeren-jpg",
+        "comprimeren-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Optimaliseer de moderne WebP-exports verder",
+        "Gedeelde gast Comprimeer kwaliteitsvoorinstellingen",
+        "Tijdelijke privéopslag met automatische opschoning"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "gewas",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Welke JPG-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan JPG. Andere formaten kunnen hier worden afgewezen. Gebruik het algemene gereedschap Bijsnijden voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "bijsnijden-jpg",
+      "title": "JPG Afbeeldingen online gratis bijsnijden | Img Pilot",
+      "description": "Snijd JPG-afbeeldingen online bij met behulp van nauwkeurige bijsnijdopties en populaire beeldverhoudingen. Download uw bijgesneden afbeelding veilig binnen enkele seconden.",
+      "h1": "JPG Afbeeldingen online bijsnijden",
+      "intro": "Verwijder ongewenste gebieden, vergrendel algemene beeldverhoudingen en download een nieuwe JPG zonder het origineel te wijzigen.",
+      "related": [
+        "formaat wijzigen-jpg",
+        "comprimeren-jpg",
+        "jpg-naar-webp",
+        "formaat wijzigen-png",
+        "bijsnijden-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Nauwkeurige gewashandvatten",
+        "Populaire beeldverhoudingen",
+        "Sociale inlijsting",
+        "Privé tijdelijke opslag",
+        "Originele afbeelding blijft veilig"
+      ],
+      "howTo": [
+        "Upload een JPG",
+        "Selecteer het bijsnijdgebied",
+        "Voorbeeld van compositie",
+        "Download de bijgesneden JPG"
+      ]
+    },
+    "crop-png": {
+      "operation": "gewas",
+      "sourceFormat": "png",
+      "howTo": [
+        "Upload een PNG",
+        "Stel het bijsnijdgebied in",
+        "Proces",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Welke PNG-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan PNG. Andere formaten kunnen hier worden afgewezen. Gebruik het algemene gereedschap Bijsnijden voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "bijsnijden-png",
+      "title": "PNG Afbeeldingen online gratis bijsnijden | Img Pilot",
+      "description": "Snijd PNG-afbeeldingen online bij met behoud van de transparante achtergronden. Verwijder ongewenste gebieden en download veilig een nauwkeurig bijgesneden PNG.",
+      "h1": "PNG Afbeeldingen online bijsnijden",
+      "intro": "Snijd transparante PNG-logo's, pictogrammen en UI-afbeeldingen bij terwijl de alfa intact blijft.",
+      "related": [
+        "formaat wijzigen-png",
+        "comprimeren-png",
+        "png-naar-webp",
+        "png-naar-jpg",
+        "bijsnijden-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Transparantiebehoudende PNG-uitsnede",
+        "Gedeelde gast Gewasmotor en verhoudingen",
+        "Tijdelijke privéopslag met automatische opschoning"
+      ]
+    },
+    "crop-webp": {
+      "operation": "gewas",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Upload een WebP",
+        "Selecteer het bijsnijdgebied",
+        "Proces",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Welke WebP-bestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan WebP. Andere formaten kunnen hier worden afgewezen. Gebruik het algemene gereedschap Bijsnijden voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "bijsnijden-webp",
+      "title": "WebP Afbeeldingen online gratis bijsnijden | Img Pilot",
+      "description": "Snijd WebP-afbeeldingen online bij met behulp van nauwkeurige bijsnijdopties en populaire beeldverhoudingen. Maak webklare afbeeldingen en download ze binnen enkele seconden veilig.",
+      "h1": "WebP Afbeeldingen online bijsnijden",
+      "intro": "Snijd moderne WebP-afbeeldingen bij voor responsieve websites, landingspagina's en e-commerce, terwijl u een voor het web geoptimaliseerd formaat behoudt.",
+      "related": [
+        "formaat wijzigen-webp",
+        "comprimeren-webp",
+        "webp-naar-jpg",
+        "webp-naar-png",
+        "bijsnijden-jpg",
+        "bijsnijden-png"
+      ],
+      "benefits": [
+        "WebP-eerste oogst voor moderne levering",
+        "Gedeelde gast Crop engine en eerlijke verhoudingen",
+        "Tijdelijke privéopslag met automatische opschoning"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "gewas",
+      "howTo": [
+        "Upload een afbeelding",
+        "Pas de vierkante uitsnede aan",
+        "Proces",
+        "Downloaden"
+      ],
+      "faqs": [
+        {
+          "q": "Is de exacte platformgrootte voor Instagram inbegrepen?",
+          "a": "Niet op deze pagina. Speciale pagina's op sociaal formaat worden uitgesteld totdat gedateerde voorinstellingen zijn goedgekeurd."
+        },
+        {
+          "q": "Welke uw afbeeldingsbestanden worden geaccepteerd?",
+          "a": "Deze pagina geeft prioriteit aan uw afbeelding. Andere formaten kunnen hier worden afgewezen. Gebruik het algemene gereedschap Bijsnijden voor gemengde formaten."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gasttools werken zonder inloggen binnen de gratis dagelijkse limieten."
+        },
+        {
+          "q": "Is de verwerking privé?",
+          "a": "Uploads gaan naar privéopslag en tijdelijke gastbestanden verlopen na ongeveer een uur."
+        }
+      ],
+      "slug": "bijsnijden-afbeelding-vierkant",
+      "cropAspect": "1:1",
+      "title": "Afbeelding bijsnijden tot vierkant — Gratis 1:1-bijsnijdgereedschap",
+      "description": "Snijd afbeeldingen bij tot een vierkante beeldverhouding van 1:1 met de gedeelde bijsnijdengine.",
+      "h1": "Snijd een afbeelding bij tot vierkant",
+      "intro": "Begint met een aspectvergrendeling van 1:1. Indien nodig kunt u de verhouding nog steeds in de editor wijzigen.",
+      "related": [
+        "bijsnijden-jpg",
+        "bijsnijden-png",
+        "formaat-afbeelding wijzigen",
+        "comprimeren-afbeelding"
+      ],
+      "benefits": [
+        "Standaard ingesteld op 1:1",
+        "Werkt met JPEG, PNG en WebP",
+        "Hetzelfde privacymodel als andere gasttools"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "overzetten",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "jpg-naar-png",
+      "title": "Converter JPG naar PNG — Gratis online",
+      "description": "Converteer JPG naar PNG. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer JPG naar PNG",
+      "intro": "Maak een PNG van een JPG met behulp van de gedeelde Convert-engine.",
+      "related": [
+        "png-naar-jpg",
+        "jpg-naar-webp",
+        "comprimeren-png",
+        "formaat wijzigen-png"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van JPEG naar PNG mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "overzetten",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "jpg-naar-webp",
+      "title": "Converteer JPG naar WebP Online gratis | Img Pilot",
+      "description": "Converteer JPG online naar WebP. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer JPG online naar WebP",
+      "intro": "Converteer JPG foto's naar WebP voor snellere websites, kleinere leveringsbestanden en sterkere Core Web Vitals wanneer browsers moderne formaten ondersteunen.",
+      "related": [
+        "webp-naar-jpg",
+        "comprimeren-jpg",
+        "formaat wijzigen-jpg",
+        "bijsnijden-jpg",
+        "png-naar-webp",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van JPEG naar WEBP mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "overzetten",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "jpg-naar-avif",
+      "title": "Converter JPG naar AVIF — Gratis online",
+      "description": "Converteer JPG naar AVIF. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer JPG naar AVIF",
+      "intro": "AVIF-codering wordt alleen aangeboden als de encoder van deze server dit ondersteunt. Anders blijft de controle eerlijk gezegd geblokkeerd.",
+      "related": [
+        "jpg-naar-webp",
+        "png-naar-avif",
+        "comprimeren-jpg",
+        "convert-afbeelding"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van JPEG naar AVIF mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "overzetten",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "png-naar-jpg",
+      "title": "Converteer PNG naar JPG Online gratis | Img Pilot",
+      "description": "Converteer PNG online naar JPG. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer PNG online naar JPG",
+      "intro": "Maak transparante PNGs plat tot universeel compatibele JPG-bestanden wanneer alpha niet langer vereist is.",
+      "related": [
+        "png-naar-webp",
+        "formaat wijzigen-png",
+        "comprimeren-png",
+        "jpg-naar-webp",
+        "webp-naar-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van PNG naar JPEG mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "overzetten",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "png-naar-webp",
+      "title": "Converteer PNG naar WebP Online gratis | Img Pilot",
+      "description": "Converteer PNG online naar WebP. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer PNG online naar WebP",
+      "intro": "Converteer PNG-afbeeldingen online naar WebP met behoud van transparantie. Maak kleinere webklare afbeeldingen voor snellere websites met veilige browsergebaseerde conversie.",
+      "related": [
+        "webp-naar-png",
+        "png-naar-jpg",
+        "comprimeren-png",
+        "formaat wijzigen-png",
+        "jpg-naar-webp",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van PNG naar WEBP mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "overzetten",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "png-naar-avif",
+      "title": "Converter PNG naar AVIF — Gratis online",
+      "description": "Converteer PNG naar AVIF. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer PNG naar AVIF",
+      "intro": "Converteer PNG naar AVIF wanneer encoderondersteuning beschikbaar is voor deze implementatie.",
+      "related": [
+        "png-naar-webp",
+        "jpg-naar-avif",
+        "comprimeren-png",
+        "convert-afbeelding"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van PNG naar AVIF mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "overzetten",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "webp-naar-jpg",
+      "title": "Converteer WebP naar JPG Online gratis | Img Pilot",
+      "description": "Converteer WebP online naar JPG. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer WebP online naar JPG",
+      "intro": "Converteer WebP afbeeldingen naar JPG voor maximale compatibiliteit met e-mail, documenten, CMS uploads en oudere software.",
+      "related": [
+        "jpg-naar-webp",
+        "png-naar-jpg",
+        "comprimeren-jpg",
+        "formaat wijzigen-jpg",
+        "bijsnijden-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van WEBP naar JPEG mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "overzetten",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "webp-naar-png",
+      "title": "Converteer WebP naar PNG Online gratis | Img Pilot",
+      "description": "Converteer WebP online naar PNG. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer WebP online naar PNG",
+      "intro": "Converteer WebP-afbeeldingen online naar PNG met behoud van de transparantie en beeldkwaliteit voor ontwerp- en bewerkingsworkflows.",
+      "related": [
+        "png-naar-webp",
+        "png-naar-jpg",
+        "webp-naar-jpg",
+        "formaat wijzigen-png",
+        "comprimeren-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van WEBP naar PNG mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "overzetten",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Upload de bronafbeelding",
+        "Bevestig het doelformaat",
+        "Overzetten",
+        "Downloaden"
+      ],
+      "slug": "webp-naar-avif",
+      "title": "Converter WebP naar AVIF — Gratis online",
+      "description": "Converteer WebP naar AVIF. Privégastconversie met tijdelijke retentie van één uur.",
+      "h1": "Converteer WebP naar AVIF",
+      "intro": "Converteer WebP alleen naar AVIF als AVIF-codering hier wordt ondersteund.",
+      "related": [
+        "webp-naar-jpg",
+        "png-naar-avif",
+        "comprimeren-webp",
+        "convert-afbeelding"
+      ],
+      "benefits": [
+        "Maakt alleen gebruik van de ondersteunde conversiematrix",
+        "Dezelfde gastsessie en opruimregels als Convert Image",
+        "Geen uitgevonden niet-ondersteunde paren"
+      ],
+      "faqs": [
+        {
+          "q": "Verandert het converteren van WEBP naar AVIF mijn originele bestand?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Hoe lang wordt het geconverteerde bestand bewaard?",
+          "a": "Gastbestanden worden ongeveer een uur na het begin van de gastsessie verwijderd. Downloads verlengen de vervaldatum niet."
+        },
+        {
+          "q": "Kan ik meerdere afbeeldingen converteren?",
+          "a": "Gebruik Bulk Image Tools voor meerdere bestanden binnen de bulklimieten voor gasten of ingelogde gasten."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/comprimeren-jpg",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Kleiner formaat, dezelfde geweldige kwaliteit",
+      "features": [
+        {
+          "title": "Slimme compressie",
+          "tone": "blauw",
+          "body": "Intelligente compressie afgestemd op JPG-afbeeldingen."
+        },
+        {
+          "title": "Tot 80% kleiner",
+          "body": "Verklein de bestandsgrootte drastisch voor snellere uploads en paginaladingen.",
+          "tone": "groente"
+        },
+        {
+          "title": "Perfect voor internet",
+          "body": "Optimaliseer afbeeldingen voor websites, blogs en productpagina's.",
+          "tone": "paars"
+        },
+        {
+          "title": "Kwaliteit waarop u kunt vertrouwen",
+          "body": "Bekijk een voorbeeld vóór het downloaden, zodat de kwaliteit onder uw controle blijft.",
+          "tone": "oranje"
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Comprimeren"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "kind": "privacy",
+          "body": "Uw afbeeldingen worden privé verwerkt voor compressie en binnen een uur automatisch verwijderd."
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Hoe werkt JPG-compressie?",
+          "a": "De tool codeert uw JPG opnieuw met instellingen die de bestandsgrootte verkleinen terwijl het resultaat visueel bruikbaar blijft."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen JPG tot 10 MB."
+        },
+        {
+          "q": "Zal compressie de beeldkwaliteit verminderen?",
+          "a": "Sterkere presets kunnen fijne details verzachten. Kies een lichtere preset als uiterlijk het belangrijkst is, en bekijk altijd een voorbeeld."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gastcompressie werkt zonder aanmelding."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten worden automatisch binnen een uur verwijderd."
+        }
+      ],
+      "metaTitle": "JPG Afbeeldingen online gratis comprimeren | Img Pilot",
+      "metaDescription": "Comprimeer JPG-afbeeldingen online zonder kwaliteitsverlies. Verklein de bestandsgrootte JPG met privégastverwerking.",
+      "breadcrumbCurrent": "Comprimeer JPG online",
+      "h1": "Comprimeer JPG online",
+      "subtitle": "Verklein de bestandsgrootte JPG zonder kwaliteitsverlies",
+      "paragraph": "Comprimeer JPG afbeeldingen in seconden. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: JPG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/compress-png": {
+      "path": "/comprimeren-png",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Kleiner formaat, dezelfde geweldige kwaliteit",
+      "features": [
+        {
+          "title": "Slimme compressie",
+          "tone": "blauw",
+          "body": "Intelligente compressie afgestemd op PNG-afbeeldingen."
+        },
+        {
+          "title": "Tot 80% kleiner",
+          "body": "Verklein de bestandsgrootte drastisch voor snellere uploads en paginaladingen.",
+          "tone": "groente"
+        },
+        {
+          "title": "Perfect voor internet",
+          "body": "Optimaliseer afbeeldingen voor websites, blogs en productpagina's.",
+          "tone": "paars"
+        },
+        {
+          "title": "Kwaliteit waarop u kunt vertrouwen",
+          "body": "Bekijk een voorbeeld vóór het downloaden, zodat de kwaliteit onder uw controle blijft.",
+          "tone": "oranje"
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Comprimeren"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "kind": "privacy",
+          "body": "Uw afbeeldingen worden privé verwerkt voor compressie en binnen een uur automatisch verwijderd."
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Hoe werkt PNG-compressie?",
+          "a": "De tool codeert uw PNG opnieuw met instellingen die de bestandsgrootte verkleinen terwijl het resultaat visueel bruikbaar blijft."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen PNG tot 10 MB."
+        },
+        {
+          "q": "Zal compressie de beeldkwaliteit verminderen?",
+          "a": "Sterkere presets kunnen fijne details verzachten. Kies een lichtere preset als uiterlijk het belangrijkst is, en bekijk altijd een voorbeeld."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gastcompressie werkt zonder aanmelding."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten worden automatisch binnen een uur verwijderd."
+        }
+      ],
+      "metaTitle": "PNG Afbeeldingen online gratis comprimeren | Img Pilot",
+      "metaDescription": "Comprimeer PNG-afbeeldingen online zonder kwaliteitsverlies. Verklein de bestandsgrootte PNG met privégastverwerking.",
+      "breadcrumbCurrent": "Comprimeer PNG online",
+      "h1": "Comprimeer PNG online",
+      "subtitle": "Verklein de bestandsgrootte PNG zonder kwaliteitsverlies",
+      "paragraph": "Comprimeer PNG afbeeldingen in seconden. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: PNG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/compress-webp": {
+      "path": "/comprimeren-webp",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Kleiner formaat, dezelfde geweldige kwaliteit",
+      "features": [
+        {
+          "title": "Slimme compressie",
+          "tone": "blauw",
+          "body": "Intelligente compressie afgestemd op WebP-afbeeldingen."
+        },
+        {
+          "title": "Tot 80% kleiner",
+          "body": "Verklein de bestandsgrootte drastisch voor snellere uploads en paginaladingen.",
+          "tone": "groente"
+        },
+        {
+          "title": "Perfect voor internet",
+          "body": "Optimaliseer afbeeldingen voor websites, blogs en productpagina's.",
+          "tone": "paars"
+        },
+        {
+          "title": "Kwaliteit waarop u kunt vertrouwen",
+          "body": "Bekijk een voorbeeld vóór het downloaden, zodat de kwaliteit onder uw controle blijft.",
+          "tone": "oranje"
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Comprimeren"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "kind": "privacy",
+          "body": "Uw afbeeldingen worden privé verwerkt voor compressie en binnen een uur automatisch verwijderd."
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Hoe werkt WebP-compressie?",
+          "a": "De tool codeert uw WebP opnieuw met instellingen die de bestandsgrootte verkleinen terwijl het resultaat visueel bruikbaar blijft."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen WebP tot 10 MB."
+        },
+        {
+          "q": "Zal compressie de beeldkwaliteit verminderen?",
+          "a": "Sterkere presets kunnen fijne details verzachten. Kies een lichtere preset als uiterlijk het belangrijkst is, en bekijk altijd een voorbeeld."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Gastcompressie werkt zonder aanmelding."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten worden automatisch binnen een uur verwijderd."
+        }
+      ],
+      "metaTitle": "WebP Afbeeldingen online gratis comprimeren | Img Pilot",
+      "metaDescription": "Comprimeer WebP-afbeeldingen online zonder kwaliteitsverlies. Verklein de bestandsgrootte WebP met privégastverwerking.",
+      "breadcrumbCurrent": "Comprimeer WebP online",
+      "h1": "Comprimeer WebP online",
+      "subtitle": "Verklein de bestandsgrootte WebP zonder kwaliteitsverlies",
+      "paragraph": "Comprimeer WebP afbeeldingen in seconden. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/resize-jpg": {
+      "path": "/formaat wijzigen-jpg",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Nauwkeurige controle, zuivere resultaten",
+      "features": [
+        {
+          "title": "Exacte afmetingen",
+          "body": "Voer de breedte en hoogte in die overeenkomen met uw lay-outbehoeften.",
+          "tone": "blauw"
+        },
+        {
+          "title": "Binnen passen",
+          "body": "Schaal afbeeldingen in een kader met behoud van de beeldverhouding.",
+          "tone": "groente"
+        },
+        {
+          "title": "Geen ongewenste luxe",
+          "body": "Vangrails helpen voorkomen dat kleine bronnen worden uitgerekt.",
+          "tone": "paars"
+        },
+        {
+          "title": "Webklaar",
+          "tone": "oranje",
+          "body": "Zorg voor consistente JPG-formaten voor pagina's en rasters."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Formaat wijzigen"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor het wijzigen van het formaat en automatisch binnen een uur verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Kan ik de beeldverhouding behouden?",
+          "a": "Ja. Gebruik fit-inside of gekoppelde afmetingen zodat afbeeldingen netjes worden geschaald."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen JPG tot 10 MB."
+        },
+        {
+          "q": "Zal het wijzigen van het formaat mijn afbeelding vergroten?",
+          "a": "Standaard vermijden workflows ongewenste vergroting."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Formaat wijzigen als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Formaat wijzigen JPG Afbeeldingen online gratis | Img Pilot",
+      "metaDescription": "Wijzig het formaat van JPG afbeeldingen online op breedte, hoogte of binnenmaat. Privégasttool zonder account vereist.",
+      "breadcrumbCurrent": "Formaat wijzigen JPG Online",
+      "h1": "Formaat wijzigen JPG Online",
+      "subtitle": "Wijzig de JPG-dimensies voor internet en sociaal",
+      "paragraph": "Pas het formaat van JPG afbeeldingen binnen enkele seconden aan. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: JPG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/resize-png": {
+      "path": "/formaat wijzigen-png",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Nauwkeurige controle, zuivere resultaten",
+      "features": [
+        {
+          "title": "Exacte afmetingen",
+          "body": "Voer de breedte en hoogte in die overeenkomen met uw lay-outbehoeften.",
+          "tone": "blauw"
+        },
+        {
+          "title": "Binnen passen",
+          "body": "Schaal afbeeldingen in een kader met behoud van de beeldverhouding.",
+          "tone": "groente"
+        },
+        {
+          "title": "Geen ongewenste luxe",
+          "body": "Vangrails helpen voorkomen dat kleine bronnen worden uitgerekt.",
+          "tone": "paars"
+        },
+        {
+          "title": "Webklaar",
+          "tone": "oranje",
+          "body": "Zorg voor consistente PNG-formaten voor pagina's en rasters."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Formaat wijzigen"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor het wijzigen van het formaat en automatisch binnen een uur verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Kan ik de beeldverhouding behouden?",
+          "a": "Ja. Gebruik fit-inside of gekoppelde afmetingen zodat afbeeldingen netjes worden geschaald."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen PNG tot 10 MB."
+        },
+        {
+          "q": "Zal het wijzigen van het formaat mijn afbeelding vergroten?",
+          "a": "Standaard vermijden workflows ongewenste vergroting."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Formaat wijzigen als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Formaat wijzigen PNG Afbeeldingen online gratis | Img Pilot",
+      "metaDescription": "Wijzig het formaat van PNG afbeeldingen online op breedte, hoogte of binnenmaat. Privégasttool zonder account vereist.",
+      "breadcrumbCurrent": "Formaat wijzigen PNG Online",
+      "h1": "Formaat wijzigen PNG Online",
+      "subtitle": "Wijzig de PNG-dimensies voor internet en sociaal",
+      "paragraph": "Pas het formaat van PNG afbeeldingen binnen enkele seconden aan. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: PNG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/resize-webp": {
+      "path": "/formaat wijzigen-webp",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Nauwkeurige controle, zuivere resultaten",
+      "features": [
+        {
+          "title": "Exacte afmetingen",
+          "body": "Voer de breedte en hoogte in die overeenkomen met uw lay-outbehoeften.",
+          "tone": "blauw"
+        },
+        {
+          "title": "Binnen passen",
+          "body": "Schaal afbeeldingen in een kader met behoud van de beeldverhouding.",
+          "tone": "groente"
+        },
+        {
+          "title": "Geen ongewenste luxe",
+          "body": "Vangrails helpen voorkomen dat kleine bronnen worden uitgerekt.",
+          "tone": "paars"
+        },
+        {
+          "title": "Webklaar",
+          "tone": "oranje",
+          "body": "Zorg voor consistente WebP-formaten voor pagina's en rasters."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Formaat wijzigen"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor het wijzigen van het formaat en automatisch binnen een uur verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Kan ik de beeldverhouding behouden?",
+          "a": "Ja. Gebruik fit-inside of gekoppelde afmetingen zodat afbeeldingen netjes worden geschaald."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen WebP tot 10 MB."
+        },
+        {
+          "q": "Zal het wijzigen van het formaat mijn afbeelding vergroten?",
+          "a": "Standaard vermijden workflows ongewenste vergroting."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Formaat wijzigen als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Formaat wijzigen WebP Afbeeldingen online gratis | Img Pilot",
+      "metaDescription": "Wijzig het formaat van WebP afbeeldingen online op breedte, hoogte of binnenmaat. Privégasttool zonder account vereist.",
+      "breadcrumbCurrent": "Formaat wijzigen WebP Online",
+      "h1": "Formaat wijzigen WebP Online",
+      "subtitle": "Wijzig de WebP-dimensies voor internet en sociaal",
+      "paragraph": "Pas het formaat van WebP afbeeldingen binnen enkele seconden aan. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Gewas met vertrouwen",
+      "features": [
+        {
+          "title": "Gratis gewas",
+          "body": "Selecteer een willekeurig gebied van de afbeelding en behoud precies dat gebied.",
+          "tone": "blauw"
+        },
+        {
+          "title": "Vaste verhoudingen",
+          "body": "Gebruik algemene beeldverhoudingen voor consistente lay-outs.",
+          "tone": "groente"
+        },
+        {
+          "title": "Oriëntatie Veilig",
+          "body": "Snij wiskunde bij met respect voor georiënteerde dimensies na het uploaden.",
+          "tone": "paars"
+        },
+        {
+          "title": "Hetzelfde formaat uit",
+          "tone": "oranje",
+          "body": "Download een bijgesneden JPG resultaat."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Gewas"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor bijsnijden en automatisch binnen een uur verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Kan ik bijsnijden tot een vierkant?",
+          "a": "Ja. Kies een verhouding van 1:1 of teken een vrije uitsnede."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen JPG tot 10 MB."
+        },
+        {
+          "q": "Wordt het origineel overschreven?",
+          "a": "Nee. Bij het verwerken ontstaat een nieuw bijgesneden resultaat."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Crop als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/bijsnijden-jpg",
+      "metaTitle": "JPG Afbeeldingen online gratis bijsnijden | Img Pilot",
+      "metaDescription": "Snijd JPG-afbeeldingen online bij met gratis besturingselementen of besturingselementen met een vaste verhouding. Privégastverwerking, geen account vereist.",
+      "breadcrumbCurrent": "Bijsnijden JPG Online",
+      "h1": "Bijsnijden JPG Online",
+      "subtitle": "Bewaar alleen het deel van uw JPG dat ertoe doet",
+      "paragraph": "Snijd JPG-afbeeldingen binnen enkele seconden bij. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: JPG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/crop-png": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Gewas met vertrouwen",
+      "features": [
+        {
+          "title": "Gratis gewas",
+          "body": "Selecteer een willekeurig gebied van de afbeelding en behoud precies dat gebied.",
+          "tone": "blauw"
+        },
+        {
+          "title": "Vaste verhoudingen",
+          "body": "Gebruik algemene beeldverhoudingen voor consistente lay-outs.",
+          "tone": "groente"
+        },
+        {
+          "title": "Oriëntatie Veilig",
+          "body": "Snij wiskunde bij met respect voor georiënteerde dimensies na het uploaden.",
+          "tone": "paars"
+        },
+        {
+          "title": "Hetzelfde formaat uit",
+          "tone": "oranje",
+          "body": "Download een bijgesneden PNG resultaat."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Gewas"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor bijsnijden en automatisch binnen een uur verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Kan ik bijsnijden tot een vierkant?",
+          "a": "Ja. Kies een verhouding van 1:1 of teken een vrije uitsnede."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen PNG tot 10 MB."
+        },
+        {
+          "q": "Wordt het origineel overschreven?",
+          "a": "Nee. Bij het verwerken ontstaat een nieuw bijgesneden resultaat."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Crop als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/bijsnijden-png",
+      "metaTitle": "PNG Afbeeldingen online gratis bijsnijden | Img Pilot",
+      "metaDescription": "Snijd PNG-afbeeldingen online bij met gratis besturingselementen of besturingselementen met een vaste verhouding. Privégastverwerking, geen account vereist.",
+      "breadcrumbCurrent": "Bijsnijden PNG Online",
+      "h1": "Bijsnijden PNG Online",
+      "subtitle": "Bewaar alleen het deel van uw PNG dat ertoe doet",
+      "paragraph": "Snijd PNG-afbeeldingen binnen enkele seconden bij. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: PNG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Gewas met vertrouwen",
+      "features": [
+        {
+          "title": "Gratis gewas",
+          "body": "Selecteer een willekeurig gebied van de afbeelding en behoud precies dat gebied.",
+          "tone": "blauw"
+        },
+        {
+          "title": "Vaste verhoudingen",
+          "body": "Gebruik algemene beeldverhoudingen voor consistente lay-outs.",
+          "tone": "groente"
+        },
+        {
+          "title": "Oriëntatie Veilig",
+          "body": "Snij wiskunde bij met respect voor georiënteerde dimensies na het uploaden.",
+          "tone": "paars"
+        },
+        {
+          "title": "Hetzelfde formaat uit",
+          "tone": "oranje",
+          "body": "Download een bijgesneden WebP resultaat."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Gewas"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor bijsnijden en automatisch binnen een uur verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Kan ik bijsnijden tot een vierkant?",
+          "a": "Ja. Kies een verhouding van 1:1 of teken een vrije uitsnede."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen WebP tot 10 MB."
+        },
+        {
+          "q": "Wordt het origineel overschreven?",
+          "a": "Nee. Bij het verwerken ontstaat een nieuw bijgesneden resultaat."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Crop als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/bijsnijden-webp",
+      "metaTitle": "WebP Afbeeldingen online gratis bijsnijden | Img Pilot",
+      "metaDescription": "Snijd WebP-afbeeldingen online bij met gratis besturingselementen of besturingselementen met een vaste verhouding. Privégastverwerking, geen account vereist.",
+      "breadcrumbCurrent": "Bijsnijden WebP Online",
+      "h1": "Bijsnijden WebP Online",
+      "subtitle": "Bewaar alleen het deel van uw WebP dat ertoe doet",
+      "paragraph": "Snijd WebP-afbeeldingen binnen enkele seconden bij. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund formaat: WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-naar-webp",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als WebP met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van JPG naar WebP mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen JPG tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is conversie verliesvrij?",
+          "a": "Het hangt af van de bron- en doelformaten. Formaten met verlies kunnen de kwaliteit verminderen bij een kleiner formaat."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Converteer JPG naar WebP Online gratis | Img Pilot",
+      "metaDescription": "Converteer JPG afbeeldingen online naar WebP voor snellere websites. Privégastconversie met geverifieerde outputs.",
+      "breadcrumbCurrent": "JPG naar WebP Omzetter",
+      "h1": "Converteer JPG online naar WebP",
+      "subtitle": "Schakel over van JPG naar WebP zonder desktopsoftware",
+      "paragraph": "Converteer JPG-afbeeldingen in seconden naar WebP. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: JPG → WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-naar-png",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als PNG met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van JPG naar PNG mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen JPG tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is conversie verliesvrij?",
+          "a": "Het hangt af van de bron- en doelformaten. Formaten met verlies kunnen de kwaliteit verminderen bij een kleiner formaat."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Converteer JPG naar PNG Online gratis | Img Pilot",
+      "metaDescription": "Converteer JPG-afbeeldingen online naar PNG. Privégastconversie met geverifieerde outputs.",
+      "breadcrumbCurrent": "JPG naar PNG Converter",
+      "h1": "Converteer JPG online naar PNG",
+      "subtitle": "Schakel over van JPG naar PNG zonder desktopsoftware",
+      "paragraph": "Converteer JPG afbeeldingen in seconden naar PNG. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: JPG → PNG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-naar-avif",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als AVIF met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van JPG naar AVIF mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen JPG tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is AVIF altijd beschikbaar?",
+          "a": "AVIF-codering wordt alleen aangeboden als de server het resultaat kan coderen en verifiëren."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Converteer JPG naar AVIF Online gratis | Img Pilot",
+      "metaDescription": "Converteer JPG-afbeeldingen online naar AVIF wanneer codering beschikbaar is. Conversie van privégasten.",
+      "breadcrumbCurrent": "JPG naar AVIF Omzetter",
+      "h1": "Converteer JPG online naar AVIF",
+      "subtitle": "Schakel over van JPG naar AVIF zonder desktopsoftware",
+      "paragraph": "Converteer JPG-afbeeldingen in seconden naar AVIF. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: JPG → AVIF • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/png-to-jpg": {
+      "path": "/png-naar-jpg",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als JPG met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van PNG naar JPG mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen PNG tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is conversie verliesvrij?",
+          "a": "Het hangt af van de bron- en doelformaten. Formaten met verlies kunnen de kwaliteit verminderen bij een kleiner formaat."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Converteer PNG naar JPG Online gratis | Img Pilot",
+      "metaDescription": "Converteer PNG-afbeeldingen online naar JPG. Privégastconversie met geverifieerde outputs.",
+      "breadcrumbCurrent": "PNG naar JPG Omzetter",
+      "h1": "Converteer PNG online naar JPG",
+      "subtitle": "Schakel over van PNG naar JPG zonder desktopsoftware",
+      "paragraph": "Converteer PNG-afbeeldingen in seconden naar JPG. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: PNG → JPG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/png-to-webp": {
+      "path": "/png-naar-webp",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als WebP met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van PNG naar WebP mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen PNG tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is conversie verliesvrij?",
+          "a": "Het hangt af van de bron- en doelformaten. Formaten met verlies kunnen de kwaliteit verminderen bij een kleiner formaat."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Converteer PNG naar WebP Online gratis | Img Pilot",
+      "metaDescription": "Converteer PNG-afbeeldingen online naar WebP voor kleinere weblevering. Conversie van privégasten.",
+      "breadcrumbCurrent": "PNG naar WebP Omzetter",
+      "h1": "Converteer PNG online naar WebP",
+      "subtitle": "Schakel over van PNG naar WebP zonder desktopsoftware",
+      "paragraph": "Converteer PNG-afbeeldingen in seconden naar WebP. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: PNG → WebP • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als AVIF met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van PNG naar AVIF mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen PNG tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is AVIF altijd beschikbaar?",
+          "a": "AVIF-codering wordt alleen aangeboden als de server het resultaat kan coderen en verifiëren."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/png-naar-avif",
+      "metaTitle": "Converteer PNG naar AVIF Online gratis | Img Pilot",
+      "metaDescription": "Converteer PNG-afbeeldingen online naar AVIF wanneer codering beschikbaar is. Conversie van privégasten.",
+      "breadcrumbCurrent": "PNG naar AVIF Omzetter",
+      "h1": "Converteer PNG online naar AVIF",
+      "subtitle": "Schakel over van PNG naar AVIF zonder desktopsoftware",
+      "paragraph": "Converteer PNG-afbeeldingen in seconden naar AVIF. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: PNG → AVIF • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-naar-jpg",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als JPG met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van WebP naar JPG mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen WebP tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is conversie verliesvrij?",
+          "a": "Het hangt af van de bron- en doelformaten. Formaten met verlies kunnen de kwaliteit verminderen bij een kleiner formaat."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Converteer WebP naar JPG Online gratis | Img Pilot",
+      "metaDescription": "Converteer WebP-afbeeldingen online naar JPG. Privégastconversie met geverifieerde outputs.",
+      "breadcrumbCurrent": "WebP naar JPG Converter",
+      "h1": "Converteer WebP online naar JPG",
+      "subtitle": "Schakel over van WebP naar JPG zonder desktopsoftware",
+      "paragraph": "Converteer WebP afbeeldingen in seconden naar JPG. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: WebP → JPG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/webp-to-png": {
+      "path": "/webp-naar-png",
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als PNG met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van WebP naar PNG mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen WebP tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is conversie verliesvrij?",
+          "a": "Het hangt af van de bron- en doelformaten. Formaten met verlies kunnen de kwaliteit verminderen bij een kleiner formaat."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "metaTitle": "Converteer WebP naar PNG Online gratis | Img Pilot",
+      "metaDescription": "Converteer WebP-afbeeldingen online naar PNG. Privégastconversie met geverifieerde outputs.",
+      "breadcrumbCurrent": "WebP naar PNG Converter",
+      "h1": "Converteer WebP online naar PNG",
+      "subtitle": "Schakel over van WebP naar PNG zonder desktopsoftware",
+      "paragraph": "Converteer WebP afbeeldingen in seconden naar PNG. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: WebP → PNG • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Formaatwijzigingen eenvoudig gemaakt",
+      "features": [
+        {
+          "tone": "blauw",
+          "title": "Duidelijk doel",
+          "body": "Uitvoer wordt opgeslagen als AVIF met geverifieerde resultaten."
+        },
+        {
+          "tone": "groente",
+          "title": "Snelle gasttool",
+          "body": "Uploaden, converteren en downloaden in één privésessie."
+        },
+        {
+          "title": "Webvriendelijk",
+          "tone": "paars",
+          "body": "Gebruik het formaat dat bij uw site of workflow past."
+        },
+        {
+          "title": "Eerlijke uitvoer",
+          "tone": "oranje",
+          "body": "Ken het resulterende type en formaat voordat u het downloadt."
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload uw afbeelding"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Voorbeeld van resultaat"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "body": "Uw afbeeldingen worden privé verwerkt voor conversie en binnen een uur automatisch verwijderd.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Verandert het converteren van WebP naar AVIF mijn origineel?",
+          "a": "Nee. Gastverwerking schrijft een afzonderlijke uitvoer. Je upload blijft privé en vervalt met de sessie."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Gastuploads ondersteunen WebP tot 10 MB."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Nee. Converteer als gast. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Is AVIF altijd beschikbaar?",
+          "a": "AVIF-codering wordt alleen aangeboden als de server het resultaat kan coderen en verifiëren."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/webp-naar-avif",
+      "metaTitle": "Converteer WebP naar AVIF Online gratis | Img Pilot",
+      "metaDescription": "Converteer WebP-afbeeldingen online naar AVIF wanneer codering beschikbaar is. Conversie van privégasten.",
+      "breadcrumbCurrent": "WebP naar AVIF Converter",
+      "h1": "Converteer WebP online naar AVIF",
+      "subtitle": "Schakel over van WebP naar AVIF zonder desktopsoftware",
+      "paragraph": "Converteer WebP afbeeldingen in seconden naar AVIF. Gratis online tool – geen account vereist.",
+      "workspaceNote": "Ondersteund: WebP → AVIF • Maximale bestandsgrootte: 10 MB. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Batchsnelheid met duidelijke grenzen",
+      "features": [
+        {
+          "title": "Gedeelde instellingen",
+          "tone": "blauw",
+          "body": "Pas één kompreskeuze toe op de hele batch."
+        },
+        {
+          "title": "Status per bestand",
+          "body": "Bekijk welke afbeeldingen zijn gelukt en welke aandacht behoeven.",
+          "tone": "groente"
+        },
+        {
+          "title": "ZIP Downloaden",
+          "body": "Verzamel succesvolle outputs wanneer de batch gereed is.",
+          "tone": "paars"
+        },
+        {
+          "title": "Gastkappen",
+          "body": "Batchgrootte en totaal aantal bytes volgen het gratis gastenbeleid.",
+          "tone": "oranje"
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload een batch"
+        },
+        {
+          "title": "Comprimeren"
+        },
+        {
+          "title": "Bestanden verwerken"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "kind": "privacy",
+          "body": "Uw afbeeldingen worden privé verwerkt voor bulkcompressie en automatisch binnen een uur verwijderd."
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Hoeveel bestanden kan ik uploaden?",
+          "a": "Gastbulktaken dwingen een maximaal aantal bestanden en een totale batchgrootte af."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Elk bestand volgt de maximale grootte van de gast en de batch heeft een maximum aantal bytes."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Gasten kunnen beperkte bulktaken uitvoeren. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Wat als één bestand mislukt?",
+          "a": "Succesvolle resultaten blijven downloadbaar; mislukte items geven een foutstatus weer."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/bulk-comprimeren",
+      "metaTitle": "Bulkafbeeldingen online gratis comprimeren | Img Pilot",
+      "metaDescription": "Comprimeer meerdere afbeeldingen online en download samen succesvolle resultaten. Er zijn limieten voor het aantal gasten van toepassing.",
+      "breadcrumbCurrent": "Afbeeldingen bulksgewijs comprimeren",
+      "h1": "Afbeeldingen in bulk online comprimeren",
+      "subtitle": "Comprimeer een korte batch zonder elke stap te herhalen",
+      "paragraph": "Comprimeer meerdere JPG, PNG of WebP bestanden in één batch. Er zijn gratis gastenlimieten van toepassing.",
+      "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Er zijn gastbatchlimieten van toepassing. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Batchsnelheid met duidelijke grenzen",
+      "features": [
+        {
+          "title": "Gedeelde instellingen",
+          "tone": "blauw",
+          "body": "Pas één keuze voor formaatwijziging toe op de hele batch."
+        },
+        {
+          "title": "Status per bestand",
+          "body": "Bekijk welke afbeeldingen zijn gelukt en welke aandacht behoeven.",
+          "tone": "groente"
+        },
+        {
+          "title": "ZIP Downloaden",
+          "body": "Verzamel succesvolle outputs wanneer de batch gereed is.",
+          "tone": "paars"
+        },
+        {
+          "title": "Gastkappen",
+          "body": "Batchgrootte en totaal aantal bytes volgen het gratis gastenbeleid.",
+          "tone": "oranje"
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload een batch"
+        },
+        {
+          "title": "Formaat wijzigen"
+        },
+        {
+          "title": "Bestanden verwerken"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "kind": "privacy",
+          "body": "Uw afbeeldingen worden privé verwerkt voor bulkaanpassing en automatisch binnen een uur verwijderd."
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Hoeveel bestanden kan ik uploaden?",
+          "a": "Gastbulktaken dwingen een maximaal aantal bestanden en een totale batchgrootte af."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Elk bestand volgt de maximale grootte van de gast en de batch heeft een maximum aantal bytes."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Gasten kunnen beperkte bulktaken uitvoeren. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Wat als één bestand mislukt?",
+          "a": "Succesvolle resultaten blijven downloadbaar; mislukte items geven een foutstatus weer."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/bulk-formaat wijzigen",
+      "metaTitle": "Bulk formaat afbeeldingen online gratis | Img Pilot",
+      "metaDescription": "Vergroot het formaat van meerdere afbeeldingen online en download samen succesvolle resultaten. Er zijn limieten voor het aantal gasten van toepassing.",
+      "breadcrumbCurrent": "Bulkgrootte van afbeeldingen wijzigen",
+      "h1": "Bulkgrootte van afbeeldingen online wijzigen",
+      "subtitle": "Wijzig het formaat van een korte batch zonder elke stap te herhalen",
+      "paragraph": "Wijzig het formaat van meerdere JPG, PNG of WebP bestanden in één batch. Er zijn gratis gastenlimieten van toepassing.",
+      "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Er zijn gastbatchlimieten van toepassing. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Geen account vereist",
+        "Privé en veilige verwerking",
+        "Automatische verwijdering binnen 1 uur"
+      ],
+      "featuresHeading": "Batchsnelheid met duidelijke grenzen",
+      "features": [
+        {
+          "title": "Gedeelde instellingen",
+          "tone": "blauw",
+          "body": "Pas één conversiekeuze toe voor de hele batch."
+        },
+        {
+          "title": "Status per bestand",
+          "body": "Bekijk welke afbeeldingen zijn gelukt en welke aandacht behoeven.",
+          "tone": "groente"
+        },
+        {
+          "title": "ZIP Downloaden",
+          "body": "Verzamel succesvolle outputs wanneer de batch gereed is.",
+          "tone": "paars"
+        },
+        {
+          "title": "Gastkappen",
+          "body": "Batchgrootte en totaal aantal bytes volgen het gratis gastenbeleid.",
+          "tone": "oranje"
+        }
+      ],
+      "howHeading": "Hoe het werkt",
+      "howSteps": [
+        {
+          "title": "Upload een batch"
+        },
+        {
+          "title": "Overzetten"
+        },
+        {
+          "title": "Bestanden verwerken"
+        },
+        {
+          "title": "Downloaden"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Uw privacy is belangrijk",
+          "kind": "privacy",
+          "body": "Uw afbeeldingen worden privé verwerkt voor bulkconversie en automatisch binnen een uur verwijderd."
+        },
+        {
+          "title": "Snel en efficiënt",
+          "body": "Door de cloud ondersteunde gastverwerking levert binnen enkele seconden resultaten op zonder software te installeren.",
+          "kind": "snelheid"
+        }
+      ],
+      "faqHeading": "Veelgestelde vragen",
+      "faqs": [
+        {
+          "q": "Hoeveel bestanden kan ik uploaden?",
+          "a": "Gastbulktaken dwingen een maximaal aantal bestanden en een totale batchgrootte af."
+        },
+        {
+          "q": "Is er een limiet voor de bestandsgrootte?",
+          "a": "Elk bestand volgt de maximale grootte van de gast en de batch heeft een maximum aantal bytes."
+        },
+        {
+          "q": "Heb ik een account nodig?",
+          "a": "Gasten kunnen beperkte bulktaken uitvoeren. Bestanden verlopen binnen een uur."
+        },
+        {
+          "q": "Wat als één bestand mislukt?",
+          "a": "Succesvolle resultaten blijven downloadbaar; mislukte items geven een foutstatus weer."
+        },
+        {
+          "q": "Worden mijn afbeeldingen permanent opgeslagen?",
+          "a": "Nee. Gastuploads en resultaten verlopen binnen een uur."
+        }
+      ],
+      "path": "/bulk-conversie",
+      "metaTitle": "Bulkafbeeldingen online gratis converteren | Img Pilot",
+      "metaDescription": "Converteer meerdere afbeeldingen online en download samen succesvolle resultaten. Er zijn limieten voor het aantal gasten van toepassing.",
+      "breadcrumbCurrent": "Afbeeldingen bulksgewijs converteren",
+      "h1": "Bulkafbeeldingen online converteren",
+      "subtitle": "Converteer een korte batch zonder elke stap te herhalen",
+      "paragraph": "Converteer meerdere JPG, PNG of WebP bestanden in één batch. Er zijn gratis gastenlimieten van toepassing.",
+      "workspaceNote": "Ondersteunde formaten: JPG, PNG, WebP • Er zijn gastbatchlimieten van toepassing. Uw bestanden zijn privé en worden binnen een uur automatisch verwijderd."
+    }
+  }
+}

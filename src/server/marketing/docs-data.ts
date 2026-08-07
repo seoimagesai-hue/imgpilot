@@ -23,6 +23,23 @@ export type DocDefinition = {
   sections: {h: string; p: string[]}[];
 };
 
+/** Doc article slugs that have App Router pages (nav + llms.txt). */
+export const PUBLISHED_DOC_SLUGS = [
+  "api",
+  "webhooks",
+  "wordpress",
+  "shopify",
+  "webflow",
+  "cloudinary",
+  "ai-batches",
+  "automation",
+  "collaboration",
+] as const satisfies readonly DocSlug[];
+
+export function listPublishedDocs(): DocDefinition[] {
+  return PUBLISHED_DOC_SLUGS.map((slug) => DOCS[slug]);
+}
+
 export const DOCS: Record<DocSlug, DocDefinition> = {
   "getting-started": {
     path: "/docs/getting-started",
@@ -284,7 +301,7 @@ export const DOCS: Record<DocSlug, DocDefinition> = {
       {
         h: "What publishing does not do",
         p: [
-          "SEO Images never creates, edits, or deletes WordPress posts or pages — only media library items it uploaded itself are touched.",
+          "Img Pilot never creates, edits, or deletes WordPress posts or pages — only media library items it uploaded itself are touched.",
           "Nothing is ever deleted remotely on your WordPress site by this integration; disconnecting a connection only stops future publishing and destroys the locally stored credentials.",
           "Credentials (username and Application Password) are encrypted at rest and are never returned by any API response or shown again in the dashboard after they are saved.",
         ],
@@ -322,7 +339,7 @@ export const DOCS: Record<DocSlug, DocDefinition> = {
       {
         h: "What publishing does not do",
         p: [
-          "SEO Images never creates, edits, or deletes Shopify products, variants, orders, or inventory — only the product image it uploaded itself is touched.",
+          "Img Pilot never creates, edits, or deletes Shopify products, variants, orders, or inventory — only the product image it uploaded itself is touched.",
           "Nothing is ever deleted remotely on your Shopify store by this integration; disconnecting a connection or deleting the SaaS project only stops future publishing and destroys the locally stored access token.",
           "The Admin API access token is encrypted at rest and is never returned by any API response or shown again in the dashboard after it is saved.",
         ],
@@ -354,7 +371,7 @@ export const DOCS: Record<DocSlug, DocDefinition> = {
         h: "Mapping CMS fields",
         p: [
           "Before publishing, an owner or admin must map an existing Webflow collection: choose the collection, discover its live field schema, and assign one Image field (required) plus optional PlainText/RichText fields for alt text, title, caption, and description.",
-          "SEO Images never creates a collection or a field — mapping only binds a publish job to fields that already exist in your Webflow site.",
+          "Img Pilot never creates a collection or a field — mapping only binds a publish job to fields that already exist in your Webflow site.",
           "If a mapped field is later renamed or removed in Webflow, the mapping is marked stale and must be re-mapped before new jobs can use it; jobs already queued against the old mapping fail safely instead of writing to the wrong field.",
         ],
       },
@@ -370,8 +387,8 @@ export const DOCS: Record<DocSlug, DocDefinition> = {
       {
         h: "What publishing does not do",
         p: [
-          "SEO Images never creates, edits, or deletes Webflow collections, CMS items outside the one you selected, or Designer/layout elements — only the mapped fields on the CMS item you chose are touched.",
-          "Updating a CMS item's fields does not publish your live Webflow site — Webflow may require a separate, explicit site publish (from within Webflow) before the change is visible on your public domain. SEO Images never triggers a site-wide publish.",
+          "Img Pilot never creates, edits, or deletes Webflow collections, CMS items outside the one you selected, or Designer/layout elements — only the mapped fields on the CMS item you chose are touched.",
+          "Updating a CMS item's fields does not publish your live Webflow site — Webflow may require a separate, explicit site publish (from within Webflow) before the change is visible on your public domain. Img Pilot never triggers a site-wide publish.",
           "Nothing is ever deleted remotely on your Webflow site by this integration; disconnecting a connection only stops future publishing and destroys the locally stored access token — assets and CMS field values already published to Webflow remain untouched.",
           "The Site access token is encrypted at rest and is never returned by any API response or shown again in the dashboard after it is saved.",
         ],
@@ -419,7 +436,7 @@ export const DOCS: Record<DocSlug, DocDefinition> = {
       {
         h: "What publishing does not do",
         p: [
-          "SEO Images never calls Cloudinary's destroy/delete APIs — nothing is ever deleted remotely on Cloudinary by this integration, whether you disconnect a connection or delete the SaaS project.",
+          "Img Pilot never calls Cloudinary's destroy/delete APIs — nothing is ever deleted remotely on Cloudinary by this integration, whether you disconnect a connection or delete the SaaS project.",
           "Disconnecting a connection only stops future publishing and destroys the locally stored credentials; assets already published to Cloudinary remain there untouched.",
           "The browser never talks to Cloudinary directly — every upload, verification, metadata update, and signed delivery URL is generated by our servers.",
         ],
@@ -442,7 +459,7 @@ export const DOCS: Record<DocSlug, DocDefinition> = {
       {
         h: "Orchestration only — not AI agents",
         p: [
-          "Workflows automate sequences of features that already exist in SEO Images: validation, processing, metadata approval, exports, Cloudinary publish, and webhooks.",
+          "Workflows automate sequences of features that already exist in Img Pilot: validation, processing, metadata approval, exports, Cloudinary publish, and webhooks.",
           "They do not replace R2 object storage, invent new processing engines, or run autonomous AI agents. Every step delegates to the same server-owned services used by the dashboard and public API.",
           "Disabling or deleting a workflow never deletes images, derivatives, or metadata in R2.",
         ],

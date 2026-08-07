@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/compress-picha",
+      "title": "Finyaza Picha",
+      "body": "Punguza JPG, PNG na WebP ukubwa wa faili huku ukiweka matokeo wazi na yanayoweza kutumika.",
+      "icon": "kubana"
+    },
+    {
+      "href": "/resize-picha",
+      "title": "Badilisha ukubwa wa Picha",
+      "body": "Badilisha vipimo vya picha kwa upana, urefu au mipangilio ya kutoshea ndani bila upanuzi usiotakikana.",
+      "icon": "badilisha ukubwa"
+    },
+    {
+      "title": "Punguza Picha",
+      "href": "/ picha-ya mazao",
+      "body": "Chagua eneo kamili unalotaka kuweka na vidhibiti vya mazao visivyolipishwa na vya uwiano usiobadilika.",
+      "icon": "mazao"
+    },
+    {
+      "title": "Badilisha Picha",
+      "href": "/geuza-picha",
+      "body": "Badilisha kati ya JPG, PNG, WebP na zinazotumika AVIF zenye uthibitishaji wa towe salama.",
+      "icon": "kubadilisha"
+    },
+    {
+      "title": "Picha ya Geotag",
+      "href": "/geotag-picha",
+      "body": "Ongeza viwianishi vya GPS vilivyothibitishwa kwa picha JPEG zinazooana bila kubadilisha asili.",
+      "icon": "geotag"
+    },
+    {
+      "title": "Kitazamaji cha Metadata ya Picha",
+      "href": "/metadata-picha",
+      "body": "Kagua vipimo, maelezo ya rangi na metadata salama ya picha iliyoorodheshwa.",
+      "icon": "metadata"
+    },
+    {
+      "title": "Picha SEO Kihariri cha Metadata",
+      "href": "/image-metadata-editor",
+      "body": "Andika, kagua na usafirishaji wa picha SEO sehemu za tovuti yako au mfumo wa kudhibiti maudhui.",
+      "icon": "mhariri"
+    },
+    {
+      "title": "Zana za Picha nyingi",
+      "href": "/zana-za-picha-za-wingi",
+      "body": "Finyaza, badilisha ukubwa au ubadilishe picha kadhaa na upakue matokeo yaliyofaulu pamoja.",
+      "icon": "wingi"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Finyaza JPG",
+      "badge": "JPG",
+      "href": "/compress-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/compress-png",
+      "label": "Finyaza PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/compress-webp",
+      "label": "Finyaza WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/resize-jpg",
+      "label": "Badilisha ukubwa JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/resize-png",
+      "label": "Badilisha ukubwa PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/resize-webp",
+      "label": "Badilisha ukubwa WebP"
+    },
+    {
+      "href": "/jpg-hadi-png",
+      "label": "JPG hadi PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-hadi-webp",
+      "label": "JPG hadi WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-hadi-jpg",
+      "label": "PNG hadi JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-hadi-webp",
+      "label": "PNG hadi WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-hadi-jpg",
+      "label": "WebP hadi JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-hadi-png",
+      "label": "WebP hadi PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Muundo wa vitendo wa picha, maudhui ya wavuti na faili ndogo za picha zilizopotea.",
+      "href": "/compress-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Muundo usio na hasara unaotumika sana kwa michoro na picha zinazohitaji uwazi.",
+      "href": "/compress-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Muundo wa kisasa wa wavuti ambao unaweza kutoa mbano bora na uwazi wa hiari.",
+      "href": "/compress-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Inapatikana kwa utendakazi unaoauniwa wakati seva inapotumika inaweza kusimba na kuithibitisha.",
+      "href": "/jpg-hadi-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Finyaza, Badilisha ukubwa, Geuza na Uboreshe Picha Mtandaoni",
+  "metaDescription": "Finyaza, badilisha ukubwa, punguza, badilisha na uboresha JPG, PNG na WebP picha mtandaoni. Tumia zana za faragha za wageni bila akaunti, na ufutaji kiotomatiki ndani ya saa moja.",
+  "heroBadge": "Zana za bure za picha mtandaoni kwa tovuti zenye kasi na safi zaidi",
+  "h1": "Boresha Kila Picha katika Nafasi Moja Rahisi ya Kazi",
+  "heroParagraph": "Finyaza, punguza ukubwa, punguza, badilisha na uboresha picha zako bila kusakinisha programu. Anza bila malipo bila akaunti, weka udhibiti kamili wa faili zako na upakue matokeo safi, yaliyothibitishwa kwa mibofyo michache tu.",
+  "uploadHeading": "Dondosha picha hapa ili kuanza",
+  "uploadSupport": "Pakia picha ya JPG, PNG au WebP, au ubandike moja kwa moja kutoka kwenye ubao wako wa kunakili.",
+  "chooseImage": "Chagua Picha",
+  "pasteHint": "Unaweza pia kubandika picha kwa kutumia Ctrl + V au ⌘ + V",
+  "formatLimitLine": "JPG, PNG na WebP • Hadi {maxFileSize} • Hakuna akaunti inayohitajika",
+  "privacyLine": "Faili zako za wageni hukaa za faragha na hufutwa kiotomatiki ndani ya saa moja.",
+  "defaultActionLabel": "Anza na Ukandamizaji wa Picha",
+  "trust": [
+    {
+      "title": "Hakuna Akaunti Inahitajika",
+      "body": "Tumia zana muhimu za picha papo hapo kama mgeni."
+    },
+    {
+      "title": "Usindikaji wa Kibinafsi",
+      "body": "Faili husalia katika hifadhi ya muda iliyolindwa."
+    },
+    {
+      "title": "Ufutaji Otomatiki",
+      "body": "Muda wa faili za wageni utakwisha ndani ya saa moja."
+    },
+    {
+      "title": "Matokeo Yaliyothibitishwa",
+      "body": "Matokeo huangaliwa na seva kabla ya kupakua."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Picha 10M+ Zimechakatwa",
+      "body": "Mitiririko ya kazi inayoaminika kwa uboreshaji wa kila siku."
+    },
+    {
+      "title": "100% Faragha na Salama",
+      "body": "Hifadhi ya muda na ufikiaji wa muda mfupi."
+    },
+    {
+      "title": "Saa 1 Ufutaji Kiotomatiki",
+      "body": "Faili za wageni huisha muda kwa ratiba isiyobadilika."
+    },
+    {
+      "title": "Hakuna Watermark Safi Upakuaji",
+      "body": "Pakua matokeo yaliyothibitishwa bila kuweka chapa."
+    }
+  ],
+  "toolsEyebrow": "Kila kitu unachohitaji",
+  "toolsHeading": "Zana za Picha zenye Nguvu, Tayari Unapokuwa",
+  "toolsDescription": "Shughulikia kazi za picha za kila siku kutoka kwa nafasi moja safi ya kazi. Kila zana imeundwa kuwa rahisi kwa wanaoanza huku ikiwa bado inawapa wataalamu vidhibiti wanavyohitaji.",
+  "openTool": "Fungua chombo",
+  "exploreAllTools": "Chunguza zana zote",
+  "formatEyebrow": "Kazi maarufu za picha",
+  "formatHeading": "Nenda Moja kwa Moja kwa Umbizo Unalohitaji",
+  "formatDescription": "Chagua zana maalum ya umbizo la picha yako au ubadilishaji. Mipangilio yako ya chanzo na towe unayopendelea tayari itachaguliwa.",
+  "platformEyebrow": "Nafasi moja ya kazi ya picha ya kibinafsi",
+  "platformHeading": "Kutoka kwa Upakiaji hadi Kupakua Bila Utata wa Kawaida",
+  "platformP1": "Img Pilot huleta mtiririko wa kazi muhimu zaidi katika matumizi moja thabiti. Huna haja ya kujifunza kiolesura tofauti kwa kila kazi. Pakia picha yako, chagua mipangilio ambayo ni muhimu, ichakate kwa usalama na upakue matokeo yaliyothibitishwa.",
+  "platformP2": "Mtiririko sawa wa kazi unaauni kazi za haraka za picha moja, kurasa za kutua za umbizo mahususi na shughuli nyingi zilizochaguliwa. Zana za wageni hazihitaji akaunti, ilhali watumiaji walioingia wanaweza kufikia miradi na vipengele vya muda mrefu vya nafasi ya kazi.",
+  "platformFeatures": [
+    "Nafasi ya kazi ya zana moja thabiti",
+    "Futa taarifa kabla na baada",
+    "Hifadhi ya muda ya wageni ya kibinafsi",
+    "Mitiririko ya kazi ya mtu binafsi na iliyochaguliwa",
+    "Miingiliano ya Kiingereza na Kiurdu",
+    "Matokeo yaliyothibitishwa na seva"
+  ],
+  "whyEyebrow": "Imejengwa karibu na uwazi na udhibiti",
+  "whyHeading": "Vyombo vya Picha Vinavyoheshimu Wakati Wako na Faili Zako",
+  "whyIntro": "Kila mtiririko wa kazi umeundwa ili kuondoa hatua zisizo za lazima huku vidhibiti muhimu vikiendelea kuonekana. Unajua kila wakati nini kitatokea kwa picha yako, matokeo yana nini na wakati faili za muda zitaondolewa.",
+  "benefits": [
+    {
+      "title": "Anza Mara Moja",
+      "body": "Tumia zana kuu za wageni bila usajili, usakinishaji wa programu au mchakato wa kusanidi mradi."
+    },
+    {
+      "title": "Weka Salama ya Asili",
+      "body": "Uchakataji huunda tokeo jipya huku la asili lililopakiwa likisalia bila kubadilika."
+    },
+    {
+      "title": "Jua Nini Kilibadilika",
+      "body": "Linganisha vipimo, umbizo na saizi za faili kabla ya kupakua matokeo ya mwisho."
+    },
+    {
+      "title": "Fanya Kazi Katika Miundo",
+      "body": "Tumia utiririshaji maalum wa kazi kwa JPG, PNG na WebP kwa ushughulikiaji wa uadilifu wa umbizo mahususi."
+    },
+    {
+      "title": "Linda Faili za Muda",
+      "body": "Picha za wageni na matokeo yaliyotolewa huondolewa kiotomatiki ndani ya dirisha la uhifadhi."
+    },
+    {
+      "title": "Tayarisha Picha kwa Utafutaji",
+      "body": "Kagua metadata, boresha majina ya faili na upange maandishi mengine kwa tovuti na CMS matumizi."
+    }
+  ],
+  "howEyebrow": "Rahisi kutoka mwanzo hadi mwisho",
+  "howHeading": "Maliza Kazi Yako ya Picha kwa Hatua Nne Wazi",
+  "steps": [
+    {
+      "title": "Pakia Picha Yako",
+      "body": "Chagua picha inayotumika, iburute kwenye nafasi ya kazi au ubandike kutoka kwenye ubao wako wa kunakili."
+    },
+    {
+      "title": "Chagua Mipangilio Yako",
+      "body": "Chagua umbizo, vipimo, ubora, eneo la kupunguza au chaguo za metadata zinazohitajika kwa kazi yako."
+    },
+    {
+      "title": "Mchakato kwa Usalama",
+      "body": "Seva hufanya na kuthibitisha utendakazi huku ikionyesha maendeleo wazi na hali za makosa."
+    },
+    {
+      "title": "Pakua Matokeo",
+      "body": "Kagua maelezo ya mwisho, pakua faili yako na uchakate picha nyingine inapohitajika."
+    }
+  ],
+  "beforeEyebrow": "Tazama tofauti",
+  "beforeHeading": "Tazama Tofauti Kabla Hujapakua",
+  "beforeParagraph": "Muhtasari wazi wa matokeo hukusaidia kuelewa kilichobadilika. Linganisha taswira asili na toleo lililochakatwa, kagua ukubwa wa faili au vipimo na upakue tu wakati matokeo yanalingana na mahitaji yako.",
+  "beforeBullets": [
+    "Asili hukaa salama wakati tokeo jipya linapoundwa",
+    "Toleo lililothibitishwa kwa ukubwa wa uaminifu na maelezo ya vipimo"
+  ],
+  "beforeCaption": "Mchoro wa bidhaa - mfano tu. Akiba halisi hutofautiana kulingana na picha.",
+  "useEyebrow": "Imeundwa kwa kazi halisi",
+  "useHeading": "Andaa Picha za Wavuti, Yaliyomo na Ushiriki wa Kila Siku",
+  "useCases": [
+    {
+      "title": "Tovuti",
+      "body": "Punguza uzito usio wa lazima wa picha na uandae vipimo thabiti kwa kurasa zenye kasi na safi zaidi."
+    },
+    {
+      "title": "Maduka ya mtandaoni",
+      "body": "Panga fomati za picha za bidhaa, majina ya faili, vipimo na metadata kabla ya kuchapisha."
+    },
+    {
+      "title": "Maudhui ya kijamii",
+      "body": "Badilisha ukubwa na upunguze picha ziwe uwiano wa vipengele vya vitendo kwa machapisho, vijipicha na kampeni."
+    },
+    {
+      "title": "Blogu na wachapishaji",
+      "body": "Unda picha za makala nyepesi na uandae maandishi ya picha yanayoweza kufikiwa na ya ufafanuzi."
+    },
+    {
+      "title": "Barua pepe na hati",
+      "body": "Punguza faili kubwa ili picha ziwe rahisi kuambatisha, kushiriki na kujumuisha katika mawasilisho."
+    },
+    {
+      "title": "Karibu SEO",
+      "body": "Kagua metadata, ongeza viwianishi vya JPEG vilivyothibitishwa na upange picha SEO maelezo kwa utendakazi wa maudhui ya ndani."
+    }
+  ],
+  "seoEyebrow": "Zaidi ya uhariri wa kimsingi",
+  "seoHeading": "Geuza Picha za Kawaida ziwe Vipengee Bora vya Tovuti",
+  "seoP1": "Uboreshaji wa picha sio tu juu ya kupunguza saizi ya faili. Futa majina ya faili, maandishi mbadala sahihi, vipimo vinavyofaa na metadata muhimu inaweza kufanya maktaba za picha kuwa rahisi kudhibiti na maudhui ya tovuti kufikiwa zaidi.",
+  "seoP2": "Img Pilot inajumuisha zana za kukagua metadata, kuandaa picha SEO nyuga na kuhamisha maelezo kwa ajili ya matumizi katika tovuti au CMS.",
+  "seoLinks": [
+    {
+      "href": "/metadata-picha",
+      "label": "Tazama Metadata ya Picha"
+    },
+    {
+      "href": "/image-metadata-editor",
+      "label": "Badilisha Picha SEO Metadata"
+    },
+    {
+      "href": "/geotag-picha",
+      "label": "Geotag a JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO na zana za ufikivu hutoa usaidizi na mapendekezo. Hazihakikishii viwango vya utafutaji au kufuata kiotomatiki.",
+  "bulkEyebrow": "Je, unafanya kazi na zaidi ya picha moja?",
+  "bulkHeading": "Sindika Kundi Ndogo Bila Kurudia Kila Hatua",
+  "bulkParagraph": "Tumia Zana za Picha Nyingi kubana, kubadilisha ukubwa au kubadilisha picha kadhaa zinazotumika kwa seti moja ya chaguo zilizoshirikiwa. Kagua kila faili kivyake, pakua matokeo mahususi au kukusanya matokeo yaliyofaulu katika kumbukumbu ya ZIP.",
+  "bulkBullets": [
+    "Compress kwa wingi",
+    "Ukubwa wa Wingi",
+    "Kubadilisha Wingi",
+    "Hali ya uchakataji kwa kila faili",
+    "Vipakuliwa vya mtu binafsi",
+    "ZIP hifadhi kwa matokeo yaliyofaulu"
+  ],
+  "bulkCta": "Fungua Zana za Picha Wingi",
+  "bulkNotice": "Vizuizi vya wingi wa wageni vinatumika. Mitiririko mikubwa zaidi inaweza kuhitaji akaunti.",
+  "privacyEyebrow": "Faragha kwa muundo",
+  "privacyHeading": "Faili za Muda Zinapaswa Kukaa kwa Muda",
+  "privacyP1": "Upakiaji wa wageni huhifadhiwa kwa faragha wakati zana uliyochagua inafanya kazi. Picha yako, matokeo yanayozalishwa na data ya matokeo ya muda inaisha muda wa saa moja. Kupakua, kuonyesha upya au kuchakata hakuongezi makataa hayo.",
+  "privacyP2": "Vipindi vya wageni haviundi maktaba ya kudumu ya picha. Ingia tu wakati unahitaji miradi au vipengele vya akaunti vya muda mrefu.",
+  "privacyFacts": [
+    "Hifadhi ya kibinafsi ya muda ya kitu",
+    "Muhtasari wa muda mfupi na vipakuliwa",
+    "Hakuna URL ya picha ya mgeni wa umma",
+    "Kusafisha otomatiki",
+    "Hakuna historia ya kudumu ya mgeni",
+    "Faili asili hubaki bila kubadilika wakati wa kuchakata"
+  ],
+  "privacyCta": "Soma Sera Yetu ya Faragha",
+  "formatsHeading": "Fanya kazi na Miundo ya Picha Unayotumia Zaidi",
+  "formatsParagraph": "Zana kuu za wageni zinaweza kutumia JPG, PNG na WebP picha. Miundo ya towe inayopatikana na vipengele vya metadata hutegemea utendakazi uliochaguliwa na uwezo wa kila umbizo la picha.",
+  "faqHeading": "Maswali yanayoulizwa mara kwa mara",
+  "faqs": [
+    {
+      "q": "Je, ninahitaji akaunti ili kutumia Img Pilot?",
+      "a": "Hapana. Zana za msingi za wageni zinaweza kutumika bila kuunda akaunti. Vizuizi vya wageni vinatumika, na vipengele vya akaunti vinapatikana unapohitaji miradi iliyohifadhiwa au vikomo vya juu zaidi vya mtiririko wa kazi."
+    },
+    {
+      "q": "Picha za wageni huhifadhiwa kwa muda gani?",
+      "a": "Picha za wageni na matokeo ya muda yanaisha ndani ya saa moja. Kupakua, kuonyesha upya au kuchakata hakuongezi makataa hayo."
+    },
+    {
+      "q": "Je, usindikaji utafuta picha yangu asili?",
+      "a": "Hapana. Uchakataji hutengeneza matokeo tofauti. Asili iliyopakiwa bado haijabadilishwa wakati wa kipindi cha mgeni kinachoendelea."
+    },
+    {
+      "q": "Ni miundo gani ya picha inayotumika?",
+      "a": "Zana za msingi zinaweza kutumia JPG, PNG na WebP. Baadhi ya mitiririko ya kazi ya kushawishika inaweza pia kutumia AVIF wakati seva inaweza kusimba na kuthibitisha matokeo."
+    },
+    {
+      "q": "Je, ninaweza kuchakata picha kadhaa pamoja?",
+      "a": "Ndiyo. Zana za Picha Nyingi zinaauni ukandamizaji uliochaguliwa, kurekebisha ukubwa na kubadilisha mtiririko wa kazi. Vizuizi vya kundi la wageni vinatumika."
+    },
+    {
+      "q": "Je, kubana picha kunaifanya iwe ndogo kila wakati?",
+      "a": "Si mara zote. Saizi ya mwisho inategemea picha ya asili, muundo wake na mipangilio iliyochaguliwa. Img Pilot inaripoti matokeo halisi kwa uaminifu, ikiwa ni pamoja na wakati pato ni kubwa."
+    },
+    {
+      "q": "Je, maandishi mbadala yamepachikwa ndani ya picha?",
+      "a": "Maandishi mbadala kwa kawaida huongezwa kwenye tovuti au CMS rekodi badala ya kupachikwa katika faili ya picha. Kihariri cha Metadata hukusaidia kuitayarisha na kuisafirisha kwa matumizi kwenye tovuti yako."
+    },
+    {
+      "q": "Je, uboreshaji wa picha unahakikisha viwango bora vya utafutaji?",
+      "a": "Hapana. Uboreshaji wa picha unaweza kusaidia utendakazi, mpangilio na ufikiaji, lakini hakuna zana mahususi ya picha inayoweza kuhakikisha viwango vya utafutaji."
+    }
+  ],
+  "finalHeading": "Picha Yako Inayofuata Iko Tayari Kuboreshwa",
+  "finalParagraph": "Pakia picha ya JPG, PNG au WebP na ukamilishe kazi yako bila kusakinisha programu au kufungua akaunti.",
+  "finalPrimary": "Chagua Picha",
+  "finalSecondary": "Chunguza Zana Zote",
+  "finalTrust": "Usindikaji wa wageni wa kibinafsi · Kufuta kiotomatiki kwa saa moja · Hakuna watermark",
+  "footerBrand": "Zana za kibinafsi za mtandaoni za kubana, kubadilisha ukubwa, kubadilisha na kuandaa picha za wavuti.",
+  "footerRights": "© {year} Img Pilot. Haki zote zimehifadhiwa."
+}

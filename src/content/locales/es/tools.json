@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/comprimir-imagen",
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Comprimir"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cómo funciona la compresión de imágenes?",
+        "a": "La herramienta vuelve a codificar su imagen con configuraciones que reducen el tamaño del archivo y al mismo tiempo mantienen el resultado visualmente utilizable. Elija un ajuste preestablecido más claro o más fuerte antes de procesar."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB. Los flujos de trabajo más grandes pueden requerir una cuenta."
+      },
+      {
+        "q": "¿La compresión reducirá la calidad de la imagen?",
+        "a": "Los ajustes preestablecidos más fuertes pueden suavizar los detalles finos. Utilice Calidad máxima o Equilibrado cuando la apariencia sea más importante y siempre obtenga una vista previa antes de descargar."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. La compresión de invitados funciona sin iniciar sesión. Los archivos permanecen privados y caducan en una hora."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas y los resultados de los invitados son temporales y se eliminan automáticamente en el plazo de una hora."
+      }
+    ],
+    "metaTitle": "Comprimir imágenes en línea: reducir el tamaño JPG, PNG y WebP",
+    "metaDescription": "Comprime imágenes online sin perder calidad. Reduzca el tamaño de los archivos JPG, PNG y WebP con procesamiento privado de invitados y eliminación automática en una hora.",
+    "breadcrumbCurrent": "Comprimir imágenes en línea",
+    "h1": "Comprimir imágenes en línea",
+    "subtitle": "Reduzca el tamaño del archivo de imagen sin perder calidad",
+    "paragraph": "Comprime imágenes JPG, PNG y WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Tamaño más pequeño, misma gran calidad",
+    "features": [
+      {
+        "title": "Compresión inteligente",
+        "body": "Compresión inteligente que mantiene sus imágenes con un aspecto nítido.",
+        "tone": "azul"
+      },
+      {
+        "title": "Hasta un 80% más pequeño",
+        "body": "Reduzca drásticamente el tamaño del archivo para cargas y cargas de páginas más rápidas.",
+        "tone": "verde"
+      },
+      {
+        "title": "Perfecto para Internet",
+        "body": "Optimice imágenes para sitios web, blogs y páginas de productos.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Calidad en la que puedes confiar",
+        "body": "Obtenga una vista previa antes de descargar para que la calidad permanezca bajo su control.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "La compresión respaldada en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/resize-image": {
+    "path": "/redimensionar-imagen",
+    "features": [
+      {
+        "title": "Dimensiones exactas",
+        "body": "Ingrese el ancho y el alto que coincidan con sus necesidades de diseño.",
+        "tone": "azul"
+      },
+      {
+        "title": "Encajar dentro",
+        "body": "Escale las imágenes en un cuadro conservando la relación de aspecto.",
+        "tone": "verde"
+      },
+      {
+        "title": "Sin lujos no deseados",
+        "body": "Las barandillas ayudan a evitar que las fuentes pequeñas se estiren.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Listo para Internet",
+        "body": "Prepare tamaños consistentes para páginas y cuadrículas de productos.",
+        "tone": "naranja"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Cambiar tamaño"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo mantener la relación de aspecto?",
+        "a": "Sí. Utilice dimensiones ajustadas o vinculadas para que las imágenes se escale limpiamente y sin distorsión."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿El cambio de tamaño ampliará mi imagen?",
+        "a": "De forma predeterminada, los flujos de trabajo evitan ampliaciones no deseadas. Elija dimensiones que se ajusten a su fuente."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Comience a cambiar el tamaño como invitado. Los archivos temporales caducan en una hora."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas y los resultados de los invitados se eliminan automáticamente en el plazo de una hora."
+      }
+    ],
+    "metaTitle": "Cambiar el tamaño de las imágenes en línea: cambiar las dimensiones para la Web y las redes sociales",
+    "metaDescription": "Cambie el tamaño de las imágenes JPG, PNG y WebP en línea por ancho, alto o ajuste al interior. Herramienta privada para invitados sin necesidad de cuenta.",
+    "breadcrumbCurrent": "Cambiar el tamaño de las imágenes en línea",
+    "h1": "Cambiar el tamaño de las imágenes en línea",
+    "subtitle": "Cambiar dimensiones para web, redes sociales y diseño.",
+    "paragraph": "Cambie el tamaño de las imágenes JPG, PNG y WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Control preciso, resultados limpios",
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para cambiar su tamaño y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/crop-image": {
+    "path": "/recortar-imagen",
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Cultivo"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo recortar a un cuadrado?",
+        "a": "Sí. Elija una proporción de 1:1 o dibuje un cultivo gratuito que se adapte a sus necesidades."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Se sobrescribe el original?",
+        "a": "No. El procesamiento crea un nuevo resultado recortado."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Recorta como invitado. Los archivos se eliminan automáticamente en una hora."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "metaTitle": "Recortar imágenes en línea: recorte gratuito y de proporción fija",
+    "metaDescription": "Recorte imágenes JPG, PNG y WebP en línea con controles libres o de proporción fija. Procesamiento privado de invitados, no se requiere cuenta.",
+    "breadcrumbCurrent": "Recortar imágenes en línea",
+    "h1": "Recortar imágenes en línea",
+    "subtitle": "Conserva solo la parte de la imagen que importa.",
+    "paragraph": "Recorta imágenes JPG, PNG y WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Cultive con confianza",
+    "features": [
+      {
+        "title": "Cultivo libre",
+        "body": "Seleccione cualquier área de la imagen y conserve exactamente esa región.",
+        "tone": "azul"
+      },
+      {
+        "title": "Ratios fijos",
+        "body": "Utilice relaciones de aspecto comunes para diseños consistentes.",
+        "tone": "verde"
+      },
+      {
+        "title": "Orientación segura",
+        "body": "Las matemáticas de recorte respetan las dimensiones orientadas después de la carga.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Mismo formato",
+        "body": "Descargue un resultado recortado en su formato fuente cuando sea compatible.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para recortarlas y eliminarlas automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/convert-image": {
+    "path": "/convertir-imagen",
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Convertir"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué conversiones son compatibles?",
+        "a": "La conversión principal de invitados cubre JPG, PNG y WebP. AVIF se ofrece cuando el tiempo de ejecución puede codificarlo y verificarlo."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Se mantendrá la transparencia?",
+        "a": "Al convertir a formatos que admiten alfa, la transparencia se puede conservar según las opciones de la herramienta."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Conviértete como invitado. Los archivos temporales caducan en una hora."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas y los resultados de los invitados se eliminan automáticamente en el plazo de una hora."
+      }
+    ],
+    "metaTitle": "Convierta imágenes en línea: JPG, PNG, WebP y AVIF",
+    "metaDescription": "Convierta entre JPG, PNG, WebP y los formatos AVIF compatibles en línea. Conversión de invitados privados con salidas verificadas.",
+    "breadcrumbCurrent": "Convertir imágenes en línea",
+    "h1": "Convertir imágenes en línea",
+    "subtitle": "Cambie de formato para la web sin software de escritorio",
+    "paragraph": "Convierta imágenes JPG, PNG y WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Cambios de formato simplificados",
+    "features": [
+      {
+        "title": "Formatos populares",
+        "body": "Muévete entre JPG, PNG y WebP con opciones claras.",
+        "tone": "azul"
+      },
+      {
+        "title": "Consciente de la transparencia",
+        "body": "PNG y WebP alfa se manejan cuidadosamente por política.",
+        "tone": "verde"
+      },
+      {
+        "title": "AVIF Cuando esté listo",
+        "body": "Codifique en AVIF solo cuando el servidor pueda verificarlo.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Salida honesta",
+        "body": "Conozca el tipo y tamaño MIME resultante antes de la descarga.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para su conversión y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Girar"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué ángulos se admiten?",
+        "a": "La rotación de invitados admite 90°, 180° y 270°, además de giros opcionales."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Rotar como invitado. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿Se aplica la orientación EXIF?",
+        "a": "Las fuentes se normalizan en orientación antes de la transformación para que los resultados coincidan con lo esperado."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "path": "/rotar-imagen",
+    "metaTitle": "Girar imagen en línea: girar JPG, PNG y WebP",
+    "metaDescription": "Gire las imágenes 90°, 180° o 270° y gírelas horizontal o verticalmente. Herramienta gratuita para invitados con almacenamiento temporal privado.",
+    "breadcrumbCurrent": "Rotar imágenes en línea",
+    "h1": "Rotar imágenes en línea",
+    "subtitle": "Girar o voltear imágenes para maquetación y diseño",
+    "paragraph": "Gire o voltee las imágenes JPG, PNG y WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Correcciones rápidas de orientación",
+    "features": [
+      {
+        "title": "Pasos de 90°",
+        "body": "Gire 90°, 180° o 270° en una sola pasada.",
+        "tone": "azul"
+      },
+      {
+        "title": "Controles de giro",
+        "body": "Refleje horizontal o verticalmente cuando sea necesario.",
+        "tone": "verde"
+      },
+      {
+        "title": "Mismo formato",
+        "body": "La salida permanece en el formato cargado.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Trabajos privados para invitados",
+        "body": "Procesamiento de corta duración con limpieza automática.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para su rotación y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Filigrana"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo cargar una marca de agua de logotipo?",
+        "a": "Esta herramienta invitada estampa texto. Utilice texto de marca breve por ahora."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Marca de agua como invitado. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿La marca de agua cubrirá mi tema?",
+        "a": "Elija posiciones de esquina y reduzca la opacidad para mantener a los sujetos visibles."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "path": "/imagen-marca de agua",
+    "metaTitle": "Imágenes de marcas de agua en línea: agregar marcas de agua de texto",
+    "metaDescription": "Estampe marcas de agua de texto breve en JPG, PNG y WebP con controles de posición y opacidad. Herramienta privada para invitados.",
+    "breadcrumbCurrent": "Imágenes de marcas de agua en línea",
+    "h1": "Imágenes de marcas de agua en línea",
+    "subtitle": "Sellar texto corto sin cubrir toda la imagen.",
+    "paragraph": "Agregue una marca de agua de texto a las imágenes JPG, PNG o WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Proteja las imágenes con una marca ligera",
+    "features": [
+      {
+        "title": "Sellos de texto corto",
+        "body": "Agregue una marca de agua concisa que permanezca legible.",
+        "tone": "azul"
+      },
+      {
+        "title": "Control de posición",
+        "body": "Coloque marcas de agua en las esquinas o en el centro.",
+        "tone": "verde"
+      },
+      {
+        "title": "Control deslizante de opacidad",
+        "body": "Equilibra la visibilidad con el contenido de la imagen.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Mismo formato",
+        "body": "Descargue un archivo con marca de agua en su formato fuente.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para agregarles marcas de agua y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Difuminar"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Esto detecta rostros automáticamente?",
+        "a": "No. Seleccionas la región manualmente como porcentajes de la imagen."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Blur como invitado. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿Puedo desenfocar varias regiones?",
+        "a": "Esta herramienta invitada aplica una región por ejecución. Vuelva a ejecutar para difuminar otra área."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "path": "/región-desenfoque",
+    "metaTitle": "Región de imagen borrosa en línea: ocultar caras y detalles",
+    "metaDescription": "Desenfoque manualmente una región de imágenes JPG, PNG o WebP para ocultar caras, placas u otros detalles. Herramienta privada para invitados.",
+    "breadcrumbCurrent": "Región borrosa en línea",
+    "h1": "Región borrosa en línea",
+    "subtitle": "Oculte detalles sensibles con un cuadro de desenfoque manual",
+    "paragraph": "Desenfoque una región seleccionada en imágenes JPG, PNG o WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Desenfoque lo que necesita privacidad",
+    "features": [
+      {
+        "title": "Región manual",
+        "body": "Tú eliges exactamente dónde se aplica el desenfoque.",
+        "tone": "azul"
+      },
+      {
+        "title": "Niveles de fuerza",
+        "body": "Desenfoque claro, medio o fuerte para diferentes necesidades.",
+        "tone": "verde"
+      },
+      {
+        "title": "Respetuoso con la privacidad",
+        "body": "Oculte detalles antes de publicar o enviar activos.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Caja fuerte para invitados",
+        "body": "Procesamiento temporal privado con eliminación automática.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para desenfocar la región y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Subtítulo"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Necesito texto superior e inferior?",
+        "a": "No. Proporcione al menos una línea de título."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Generar como invitado. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿Puedo cambiar la fuente?",
+        "a": "Los memes invitados utilizan una pila clásica de estilo Impact para facilitar la lectura."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "path": "/generador-de-memes",
+    "metaTitle": "Generador de memes en línea: agregue subtítulos superiores e inferiores",
+    "metaDescription": "Agregue títulos de memes superiores e inferiores clásicos a las imágenes JPG, PNG o WebP. Generador de memes de invitados gratuito.",
+    "breadcrumbCurrent": "Generador de memes en línea",
+    "h1": "Generador de memes en línea",
+    "subtitle": "Añade subtítulos clásicos en segundos",
+    "paragraph": "Agregue títulos superiores e inferiores a las imágenes JPG, PNG o WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Subtítulos que se leen como memes clásicos",
+    "features": [
+      {
+        "title": "Texto superior e inferior",
+        "body": "Utilice cualquiera de las líneas o ambas para diseños clásicos.",
+        "tone": "azul"
+      },
+      {
+        "title": "Envoltura automática",
+        "body": "Los subtítulos largos se envuelven en líneas cortas y legibles.",
+        "tone": "verde"
+      },
+      {
+        "title": "Tipo de alto contraste",
+        "body": "Relleno blanco con trazo oscuro para mayor claridad.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Herramienta de invitado instantáneo",
+        "body": "Crea y descarga sin iniciar sesión.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para los subtítulos de los memes y se eliminan automáticamente en el plazo de una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/geotag-image": {
+    "path": "/imagen-geoetiqueta",
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Etiqueta geográfica"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Qué formatos admiten el geoetiquetado?",
+        "a": "La geoetiqueta de invitado se centra en imágenes JPEG compatibles."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPEG compatibles dentro del límite de 10 MB."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Geoetiqueta como invitado. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿Se verifican las coordenadas?",
+        "a": "Las escrituras siguen reglas de validación para que los valores estén bien formados antes de incrustarlos."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "metaTitle": "Geoetiquetar imágenes en línea: agregue GPS a JPEG",
+    "metaDescription": "Lea o escriba coordenadas GPS verificadas en imágenes JPEG compatibles. Herramienta privada de geoetiquetado de invitados.",
+    "breadcrumbCurrent": "Geoetiquetar imágenes en línea",
+    "h1": "Geoetiquetar imágenes en línea",
+    "subtitle": "Agregar o inspeccionar datos de ubicación JPEG GPS",
+    "paragraph": "Agregue o inspeccione coordenadas GPS en imágenes JPEG compatibles. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Datos de ubicación que puedes verificar",
+    "features": [
+      {
+        "title": "JPEG Enfocado",
+        "body": "Los flujos de trabajo de etiquetas geográficas se dirigen a fuentes JPEG compatibles.",
+        "tone": "azul"
+      },
+      {
+        "title": "Inspeccionar primero",
+        "body": "Vea si GPS legible ya está presente.",
+        "tone": "verde"
+      },
+      {
+        "title": "Escribir coordenadas",
+        "body": "Incrustar latitud y longitud cuando se permite el reemplazo.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Privacidad del huésped",
+        "body": "Procesamiento temporal con limpieza automática.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para geoetiquetar y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/image-metadata": {
+    "path": "/metadatos-imagen",
+    "breadcrumbCurrent": "Visor de metadatos de imágenes",
+    "h1": "Visor de metadatos de imágenes",
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Inspeccionar"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Muestras todas las etiquetas EXIF?",
+        "a": "No. El visor muestra los campos permitidos por motivos de seguridad y claridad."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "No. Inspeccionar como invitado. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿Puedo editar metadatos aquí?",
+        "a": "Utilice el editor de metadatos de imagen SEO para redactar y exportar campos SEO."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "metaTitle": "Visor de metadatos de imágenes en línea: inspeccionar EXIF de forma segura",
+    "metaDescription": "Inspeccione las dimensiones, la información de color y los metadatos seguros permitidos para JPG, PNG y WebP. Visor invitado privado.",
+    "subtitle": "Inspeccione las propiedades seguras de la imagen antes de publicarla",
+    "paragraph": "Inspeccione las propiedades JPG, PNG y WebP en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Vea lo que importa, de forma segura",
+    "features": [
+      {
+        "title": "Propiedades principales",
+        "body": "Dimensiones, tipología y detalles prácticos del archivo.",
+        "tone": "azul"
+      },
+      {
+        "title": "Campos permitidos",
+        "body": "Solo se muestran superficies de metadatos seguras y seleccionadas.",
+        "tone": "verde"
+      },
+      {
+        "title": "Compatible con Web",
+        "body": "Comprobaciones útiles antes de cargar CMS o revisar SEO.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Privacidad del huésped",
+        "body": "Trabajos de inspección temporal con eliminación automática.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para la inspección de metadatos y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/image-metadata-editor": {
+    "path": "/editor-de-metadatos-de-imagen",
+    "breadcrumbCurrent": "Imagen SEO Editor de metadatos",
+    "h1": "Imagen SEO Editor de metadatos",
+    "howSteps": [
+      {
+        "title": "Sube tu imagen"
+      },
+      {
+        "title": "Editar"
+      },
+      {
+        "title": "Vista previa del resultado"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Esto reescribe EXIF dentro de cada formato?",
+        "a": "El editor se centra en preparar campos SEO y exportaciones."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Las cargas de invitados admiten JPG, PNG y WebP hasta 10 MB."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "La edición invitada está disponible con límites. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿Qué puedo exportar?",
+        "a": "Utilice exportaciones compatibles con sidecar para CMS y flujos de trabajo de contenido."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "metaTitle": "Imagen SEO Editor de metadatos en línea",
+    "metaDescription": "Escriba, revise y exporte campos de imágenes SEO para sitios web y flujos de trabajo CMS. Editor de metadatos privado invitado.",
+    "subtitle": "Prepare los campos de imagen SEO antes de publicar",
+    "paragraph": "Borre campos de imagen SEO y exporte sidecars en segundos. Herramienta en línea gratuita: no se requiere cuenta.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Control editorial para imagen SEO",
+    "features": [
+      {
+        "title": "Campos editables",
+        "body": "Actualice el texto SEO que realmente envía.",
+        "tone": "azul"
+      },
+      {
+        "title": "Amigable con la exportación",
+        "body": "Descargue complementos para CMS y flujos de trabajo de contenido.",
+        "tone": "verde"
+      },
+      {
+        "title": "CMS Listo",
+        "body": "Prepare títulos, descripciones y palabras clave antes de publicar.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Sesiones de invitados",
+        "body": "Borradores temporales con limpieza automática.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para la edición de metadatos y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  },
+  "/bulk-image-tools": {
+    "path": "/herramientas-de-imagen-masiva",
+    "breadcrumbCurrent": "Herramientas de imágenes masivas",
+    "h1": "Herramientas de imágenes masivas",
+    "howSteps": [
+      {
+        "title": "Cargar un lote"
+      },
+      {
+        "title": "Elija Operación"
+      },
+      {
+        "title": "Archivos de proceso"
+      },
+      {
+        "title": "Descargar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Cuantos archivos puedo subir?",
+        "a": "Los trabajos masivos invitados imponen un número máximo de archivos y un tamaño total de lote."
+      },
+      {
+        "q": "¿Existe un límite de tamaño de archivo?",
+        "a": "Cada archivo sigue el tamaño máximo del invitado y el lote tiene un límite total de bytes."
+      },
+      {
+        "q": "¿Necesito una cuenta?",
+        "a": "Los invitados pueden ejecutar trabajos masivos limitados. Los archivos caducan en una hora."
+      },
+      {
+        "q": "¿Qué pasa si un archivo falla?",
+        "a": "Los resultados exitosos siguen siendo descargables; Los elementos fallidos muestran un estado de error."
+      },
+      {
+        "q": "¿Mis imágenes se almacenan permanentemente?",
+        "a": "No. Las cargas de invitados y los resultados caducan en una hora."
+      }
+    ],
+    "metaTitle": "Herramientas de imágenes masivas en línea: comprimir, cambiar el tamaño y convertir",
+    "metaDescription": "Comprime, cambia el tamaño o convierte varias imágenes y descarga juntos resultados exitosos. Se aplican límites masivos de invitados.",
+    "subtitle": "Procese un lote corto sin repetir cada paso",
+    "paragraph": "Comprima, cambie el tamaño o convierta varios archivos JPG, PNG o WebP en un solo lote. Se aplican límites de huéspedes gratuitos.",
+    "trust": [
+      "No se requiere cuenta",
+      "Procesamiento privado y seguro",
+      "Eliminación automática en 1 hora"
+    ],
+    "workspaceNote": "Formatos admitidos: JPG, PNG, WebP • Tamaño máximo de archivo: 10 MB. Sus archivos son privados y se eliminan automáticamente en una hora.",
+    "featuresHeading": "Velocidad de lote con límites claros",
+    "features": [
+      {
+        "title": "Configuración compartida",
+        "body": "Aplique una opción de comprimir, cambiar el tamaño o convertir en todo el lote.",
+        "tone": "azul"
+      },
+      {
+        "title": "Estado por archivo",
+        "body": "Vea qué imágenes tuvieron éxito y cuáles necesitan atención.",
+        "tone": "verde"
+      },
+      {
+        "title": "ZIP Descargar",
+        "body": "Recopile resultados exitosos cuando el lote esté listo.",
+        "tone": "púrpura"
+      },
+      {
+        "title": "Gorras de invitados",
+        "body": "El tamaño del lote y el total de bytes siguen la política de invitados gratuitos.",
+        "tone": "naranja"
+      }
+    ],
+    "howHeading": "Cómo funciona",
+    "benefitCards": [
+      {
+        "title": "Tu privacidad importa",
+        "body": "Sus imágenes se procesan de forma privada para un procesamiento masivo y se eliminan automáticamente en una hora.",
+        "kind": "privacidad"
+      },
+      {
+        "title": "Rápido y eficiente",
+        "body": "El procesamiento de invitados respaldado en la nube ofrece resultados en segundos sin instalar software.",
+        "kind": "velocidad"
+      }
+    ],
+    "faqHeading": "Preguntas frecuentes"
+  }
+}

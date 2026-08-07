@@ -1,0 +1,2676 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "slug": "resize-jpg",
+      "operation": "resize",
+      "sourceFormat": "jpeg",
+      "indexable": true,
+      "title": "Resize JPG Images Online Free | Img Pilot",
+      "description": "Resize JPG images online by choosing custom dimensions or popular presets. Adjust width, height and quality, then download your resized JPG securely.",
+      "h1": "Resize JPG Images Online",
+      "intro": "Resize JPG images to the exact dimensions you need without installing any software. Upload a photo, choose a preset or enter a custom width and height, then download your resized JPG in seconds.",
+      "related": [
+        "compress-jpg",
+        "jpg-to-webp",
+        "crop-jpg",
+        "resize-png",
+        "png-to-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Exact image dimensions with popular platform sizes",
+        "Aspect ratio lock to prevent distortion",
+        "Private temporary guest storage"
+      ],
+      "howTo": [
+        "Upload a JPG",
+        "Choose method or preset",
+        "Process",
+        "Download the resized JPG"
+      ],
+      "faqs": [
+        {
+          "q": "Which JPG files are accepted?",
+          "a": "This page prioritizes JPG. Other formats may be rejected here — use the generic Resize tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "resize-png": {
+      "slug": "resize-png",
+      "operation": "resize",
+      "sourceFormat": "png",
+      "indexable": true,
+      "title": "Resize PNG Images Online Free | Img Pilot",
+      "description": "Resize PNG images online while preserving transparency. Change image dimensions securely and download your resized PNG in seconds.",
+      "h1": "Resize PNG Images Online",
+      "intro": "Resize PNG images without losing transparency for logos, UI graphics, icons and screenshots.",
+      "related": [
+        "compress-png",
+        "png-to-jpg",
+        "png-to-webp",
+        "crop-png",
+        "resize-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Transparency-preserving PNG resize",
+        "Design presets for logos, icons and favicons",
+        "Private temporary guest processing"
+      ],
+      "howTo": [
+        "Upload a PNG",
+        "Set dimensions or preset",
+        "Process",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Which PNG files are accepted?",
+          "a": "This page prioritizes PNG. Other formats may be rejected here — use the generic Resize tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "resize-webp": {
+      "slug": "resize-webp",
+      "operation": "resize",
+      "sourceFormat": "webp",
+      "indexable": true,
+      "title": "Resize WebP Images Online Free | Img Pilot",
+      "description": "Resize WebP images online for responsive websites, blogs and mobile devices. Change dimensions securely and download resized WebP images instantly.",
+      "h1": "Resize WebP Images Online",
+      "intro": "Resize WebP images for responsive layouts, mobile devices and modern websites while keeping WebP efficiency.",
+      "related": [
+        "compress-webp",
+        "webp-to-jpg",
+        "webp-to-png",
+        "resize-jpg",
+        "resize-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Responsive WebP dimension control",
+        "Shared guest Resize pipeline",
+        "Private temporary storage with automatic cleanup"
+      ],
+      "howTo": [
+        "Upload a WebP",
+        "Choose size options",
+        "Process",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Which WebP files are accepted?",
+          "a": "This page prioritizes WebP. Other formats may be rejected here — use the generic Resize tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "compress-jpg": {
+      "slug": "compress-jpg",
+      "operation": "compress",
+      "sourceFormat": "jpeg",
+      "indexable": true,
+      "title": "Compress JPG Images Online Free | Img Pilot",
+      "description": "Compress JPG images online and reduce file size with adjustable quality controls. Preview the result and download a smaller optimized JPG securely.",
+      "h1": "Compress JPG Images Online",
+      "intro": "Reduce the file size of JPG images directly in your browser without installing complicated software.",
+      "related": [
+        "resize-jpg",
+        "jpg-to-webp",
+        "crop-jpg",
+        "jpg-to-png",
+        "webp-to-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Adjustable JPG quality presets",
+        "Private temporary guest processing",
+        "Original image stays unchanged"
+      ],
+      "howTo": [
+        "Upload a JPG",
+        "Pick a quality preset",
+        "Compress",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Which JPG files are accepted?",
+          "a": "This page prioritizes JPG. Other formats may be rejected here — use the generic Compress tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "compress-png": {
+      "slug": "compress-png",
+      "operation": "compress",
+      "sourceFormat": "png",
+      "indexable": true,
+      "title": "Compress PNG Images Online Free | Img Pilot",
+      "description": "Compress PNG images online while preserving transparency. Reduce PNG file size securely and download an optimized image in seconds.",
+      "h1": "Compress PNG Images Online",
+      "intro": "Reduce PNG image file size without sacrificing transparency or image clarity.",
+      "related": [
+        "compress-jpg",
+        "resize-png",
+        "png-to-jpg",
+        "png-to-webp",
+        "crop-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Transparency-preserving PNG compression",
+        "Built for logos, UI graphics and screenshots",
+        "Private temporary guest processing"
+      ],
+      "howTo": [
+        "Upload a PNG",
+        "Choose quality",
+        "Compress",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Which PNG files are accepted?",
+          "a": "This page prioritizes PNG. Other formats may be rejected here — use the generic Compress tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "compress-webp": {
+      "slug": "compress-webp",
+      "operation": "compress",
+      "sourceFormat": "webp",
+      "indexable": true,
+      "title": "Compress WebP Images Online Free | Img Pilot",
+      "description": "Compress WebP images online to reduce file size while maintaining quality. Improve website speed with secure browser-based WebP optimization.",
+      "h1": "Compress WebP Images Online",
+      "intro": "Reduce already-exported WebP file size while keeping clear visual quality for websites, landing pages and mobile apps.",
+      "related": [
+        "resize-webp",
+        "webp-to-jpg",
+        "webp-to-png",
+        "compress-jpg",
+        "compress-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Further optimize modern WebP exports",
+        "Shared guest Compress quality presets",
+        "Private temporary storage with automatic cleanup"
+      ],
+      "howTo": [
+        "Upload a WebP",
+        "Select quality",
+        "Compress",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Which WebP files are accepted?",
+          "a": "This page prioritizes WebP. Other formats may be rejected here — use the generic Compress tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "crop-jpg": {
+      "slug": "crop-jpg",
+      "operation": "crop",
+      "sourceFormat": "jpeg",
+      "indexable": true,
+      "title": "Crop JPG Images Online Free | Img Pilot",
+      "description": "Crop JPG images online using precise crop controls and popular aspect ratios. Download your cropped image securely in seconds.",
+      "h1": "Crop JPG Images Online",
+      "intro": "Remove unwanted areas, lock common aspect ratios and download a new JPG without changing the original.",
+      "related": [
+        "resize-jpg",
+        "compress-jpg",
+        "jpg-to-webp",
+        "resize-png",
+        "crop-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Precise crop handles",
+        "Popular aspect ratios",
+        "Social-ready framing",
+        "Private temporary storage",
+        "Original image stays safe"
+      ],
+      "howTo": [
+        "Upload a JPG",
+        "Select the crop area",
+        "Preview composition",
+        "Download the cropped JPG"
+      ],
+      "faqs": [
+        {
+          "q": "Which JPG files are accepted?",
+          "a": "This page prioritizes JPG. Other formats may be rejected here — use the generic Crop tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "crop-png": {
+      "slug": "crop-png",
+      "operation": "crop",
+      "sourceFormat": "png",
+      "indexable": true,
+      "title": "Crop PNG Images Online Free | Img Pilot",
+      "description": "Crop PNG images online while preserving transparent backgrounds. Remove unwanted areas and download a precisely cropped PNG securely.",
+      "h1": "Crop PNG Images Online",
+      "intro": "Crop transparent PNG logos, icons and UI graphics while keeping alpha intact.",
+      "related": [
+        "resize-png",
+        "compress-png",
+        "png-to-webp",
+        "png-to-jpg",
+        "crop-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Transparency-preserving PNG crop",
+        "Shared guest Crop engine and ratios",
+        "Private temporary storage with automatic cleanup"
+      ],
+      "howTo": [
+        "Upload a PNG",
+        "Set the crop region",
+        "Process",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Which PNG files are accepted?",
+          "a": "This page prioritizes PNG. Other formats may be rejected here — use the generic Crop tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "crop-webp": {
+      "slug": "crop-webp",
+      "operation": "crop",
+      "sourceFormat": "webp",
+      "indexable": true,
+      "title": "Crop WebP Images Online Free | Img Pilot",
+      "description": "Crop WebP images online using precise crop controls and popular aspect ratios. Create web-ready images and download them securely in seconds.",
+      "h1": "Crop WebP Images Online",
+      "intro": "Crop modern WebP images for responsive websites, landing pages and ecommerce while keeping a web-optimized format.",
+      "related": [
+        "resize-webp",
+        "compress-webp",
+        "webp-to-jpg",
+        "webp-to-png",
+        "crop-jpg",
+        "crop-png"
+      ],
+      "benefits": [
+        "WebP-first crop for modern delivery",
+        "Shared guest Crop engine and honest ratios",
+        "Private temporary storage with automatic cleanup"
+      ],
+      "howTo": [
+        "Upload a WebP",
+        "Select the crop area",
+        "Process",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Which WebP files are accepted?",
+          "a": "This page prioritizes WebP. Other formats may be rejected here — use the generic Crop tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "crop-image-square": {
+      "slug": "crop-image-square",
+      "operation": "crop",
+      "cropAspect": "1:1",
+      "indexable": true,
+      "title": "Crop Image to Square — Free 1:1 Crop Tool",
+      "description": "Crop images to a square 1:1 aspect ratio with the shared crop engine.",
+      "h1": "Crop an image to square",
+      "intro": "Starts with a 1:1 aspect lock. You can still change the ratio in the editor if needed.",
+      "related": [
+        "crop-jpg",
+        "crop-png",
+        "resize-image",
+        "compress-image"
+      ],
+      "benefits": [
+        "Defaults to 1:1",
+        "Works with JPEG, PNG, and WebP",
+        "Same privacy model as other guest tools"
+      ],
+      "howTo": [
+        "Upload an image",
+        "Adjust the square crop",
+        "Process",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Is Exact platform sizing for Instagram included?",
+          "a": "Not on this page. Dedicated social size pages are deferred until dated presets are approved."
+        },
+        {
+          "q": "Which your image files are accepted?",
+          "a": "This page prioritizes your image. Other formats may be rejected here — use the generic Crop tool for mixed formats."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest tools work without login within free daily limits."
+        },
+        {
+          "q": "Is processing private?",
+          "a": "Uploads go to private storage and temporary guest files expire after about one hour."
+        }
+      ]
+    },
+    "jpg-to-png": {
+      "slug": "jpg-to-png",
+      "operation": "convert",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "indexable": true,
+      "title": "JPG to PNG Converter — Free Online",
+      "description": "Convert JPG to PNG. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert JPG to PNG",
+      "intro": "Create a PNG from a JPG using the shared Convert engine.",
+      "related": [
+        "png-to-jpg",
+        "jpg-to-webp",
+        "compress-png",
+        "resize-png"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting JPEG to PNG change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "slug": "jpg-to-webp",
+      "operation": "convert",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "indexable": true,
+      "title": "Convert JPG to WebP Online Free | Img Pilot",
+      "description": "Convert JPG to WebP Online. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert JPG to WebP Online",
+      "intro": "Convert JPG photos to WebP for faster websites, smaller delivery files and stronger Core Web Vitals when browsers support modern formats.",
+      "related": [
+        "webp-to-jpg",
+        "compress-jpg",
+        "resize-jpg",
+        "crop-jpg",
+        "png-to-webp",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting JPEG to WEBP change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "slug": "jpg-to-avif",
+      "operation": "convert",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "indexable": true,
+      "title": "JPG to AVIF Converter — Free Online",
+      "description": "Convert JPG to AVIF. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert JPG to AVIF",
+      "intro": "AVIF encoding is offered only when this server’s encoder supports it. Otherwise the control stays blocked honestly.",
+      "related": [
+        "jpg-to-webp",
+        "png-to-avif",
+        "compress-jpg",
+        "convert-image"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting JPEG to AVIF change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "slug": "png-to-jpg",
+      "operation": "convert",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "indexable": true,
+      "title": "Convert PNG to JPG Online Free | Img Pilot",
+      "description": "Convert PNG to JPG Online. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert PNG to JPG Online",
+      "intro": "Flatten transparent PNGs into universally compatible JPG files when alpha is no longer required.",
+      "related": [
+        "png-to-webp",
+        "resize-png",
+        "compress-png",
+        "jpg-to-webp",
+        "webp-to-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting PNG to JPEG change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "slug": "png-to-webp",
+      "operation": "convert",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "indexable": true,
+      "title": "Convert PNG to WebP Online Free | Img Pilot",
+      "description": "Convert PNG to WebP Online. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert PNG to WebP Online",
+      "intro": "Convert PNG images to WebP online while preserving transparency. Create smaller web-ready images for faster websites with secure browser-based conversion.",
+      "related": [
+        "webp-to-png",
+        "png-to-jpg",
+        "compress-png",
+        "resize-png",
+        "jpg-to-webp",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting PNG to WEBP change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "slug": "png-to-avif",
+      "operation": "convert",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "indexable": true,
+      "title": "PNG to AVIF Converter — Free Online",
+      "description": "Convert PNG to AVIF. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert PNG to AVIF",
+      "intro": "Convert PNG to AVIF when encoder support is available on this deployment.",
+      "related": [
+        "png-to-webp",
+        "jpg-to-avif",
+        "compress-png",
+        "convert-image"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting PNG to AVIF change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "slug": "webp-to-jpg",
+      "operation": "convert",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "indexable": true,
+      "title": "Convert WebP to JPG Online Free | Img Pilot",
+      "description": "Convert WebP to JPG Online. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert WebP to JPG Online",
+      "intro": "Convert WebP images to JPG for maximum compatibility with email, documents, CMS uploads and older software.",
+      "related": [
+        "jpg-to-webp",
+        "png-to-jpg",
+        "compress-jpg",
+        "resize-jpg",
+        "crop-jpg",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting WEBP to JPEG change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "slug": "webp-to-png",
+      "operation": "convert",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "indexable": true,
+      "title": "Convert WebP to PNG Online Free | Img Pilot",
+      "description": "Convert WebP to PNG Online. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert WebP to PNG Online",
+      "intro": "Convert WebP images to PNG online while preserving transparency and image quality for design and editing workflows.",
+      "related": [
+        "png-to-webp",
+        "png-to-jpg",
+        "webp-to-jpg",
+        "resize-png",
+        "compress-png",
+        "bulk-image-tools"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting WEBP to PNG change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "slug": "webp-to-avif",
+      "operation": "convert",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "indexable": true,
+      "title": "WebP to AVIF Converter — Free Online",
+      "description": "Convert WebP to AVIF. Private guest conversion with one-hour temporary retention.",
+      "h1": "Convert WebP to AVIF",
+      "intro": "Convert WebP to AVIF only when AVIF encode is supported here.",
+      "related": [
+        "webp-to-jpg",
+        "png-to-avif",
+        "compress-webp",
+        "convert-image"
+      ],
+      "benefits": [
+        "Uses the supported convert matrix only",
+        "Same guest session and cleanup rules as Convert Image",
+        "No invented unsupported pairs"
+      ],
+      "howTo": [
+        "Upload the source image",
+        "Confirm the target format",
+        "Convert",
+        "Download"
+      ],
+      "faqs": [
+        {
+          "q": "Does converting WEBP to AVIF change my original file?",
+          "a": "No. Guest processing writes a separate output. Your upload remains private and expires with the session."
+        },
+        {
+          "q": "How long is the converted file stored?",
+          "a": "Guest files are deleted about one hour after the guest session starts. Downloads do not extend expiry."
+        },
+        {
+          "q": "Can I convert multiple images?",
+          "a": "Use Bulk Image Tools for multiple files within guest or signed-in bulk limits."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/compress-jpg",
+      "metaTitle": "Compress JPG Images Online Free | Img Pilot",
+      "metaDescription": "Compress JPG images online without losing quality. Reduce JPG file size with private guest processing.",
+      "breadcrumbCurrent": "Compress JPG Online",
+      "h1": "Compress JPG Online",
+      "subtitle": "Reduce JPG file size without losing quality",
+      "paragraph": "Compress JPG images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: JPG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Smaller Size, Same Great Quality",
+      "features": [
+        {
+          "title": "Smart Compression",
+          "body": "Intelligent compression tuned for JPG images.",
+          "tone": "blue"
+        },
+        {
+          "title": "Up to 80% Smaller",
+          "body": "Dramatically reduce file size for faster uploads and page loads.",
+          "tone": "green"
+        },
+        {
+          "title": "Perfect for Web",
+          "body": "Optimize images for websites, blogs, and product pages.",
+          "tone": "purple"
+        },
+        {
+          "title": "Quality You Can Trust",
+          "body": "Preview before download so quality stays under your control.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Compress"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for compression and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How does JPG compression work?",
+          "a": "The tool re-encodes your JPG with settings that reduce file size while keeping the result visually usable."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support JPG up to 10 MB."
+        },
+        {
+          "q": "Will compressing reduce image quality?",
+          "a": "Stronger presets can soften fine detail. Choose a lighter preset when looks matter most, and always preview."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest compression works without signing in."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results are deleted automatically within one hour."
+        }
+      ]
+    },
+    "/compress-png": {
+      "path": "/compress-png",
+      "metaTitle": "Compress PNG Images Online Free | Img Pilot",
+      "metaDescription": "Compress PNG images online without losing quality. Reduce PNG file size with private guest processing.",
+      "breadcrumbCurrent": "Compress PNG Online",
+      "h1": "Compress PNG Online",
+      "subtitle": "Reduce PNG file size without losing quality",
+      "paragraph": "Compress PNG images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: PNG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Smaller Size, Same Great Quality",
+      "features": [
+        {
+          "title": "Smart Compression",
+          "body": "Intelligent compression tuned for PNG images.",
+          "tone": "blue"
+        },
+        {
+          "title": "Up to 80% Smaller",
+          "body": "Dramatically reduce file size for faster uploads and page loads.",
+          "tone": "green"
+        },
+        {
+          "title": "Perfect for Web",
+          "body": "Optimize images for websites, blogs, and product pages.",
+          "tone": "purple"
+        },
+        {
+          "title": "Quality You Can Trust",
+          "body": "Preview before download so quality stays under your control.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Compress"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for compression and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How does PNG compression work?",
+          "a": "The tool re-encodes your PNG with settings that reduce file size while keeping the result visually usable."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support PNG up to 10 MB."
+        },
+        {
+          "q": "Will compressing reduce image quality?",
+          "a": "Stronger presets can soften fine detail. Choose a lighter preset when looks matter most, and always preview."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest compression works without signing in."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results are deleted automatically within one hour."
+        }
+      ]
+    },
+    "/compress-webp": {
+      "path": "/compress-webp",
+      "metaTitle": "Compress WebP Images Online Free | Img Pilot",
+      "metaDescription": "Compress WebP images online without losing quality. Reduce WebP file size with private guest processing.",
+      "breadcrumbCurrent": "Compress WebP Online",
+      "h1": "Compress WebP Online",
+      "subtitle": "Reduce WebP file size without losing quality",
+      "paragraph": "Compress WebP images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Smaller Size, Same Great Quality",
+      "features": [
+        {
+          "title": "Smart Compression",
+          "body": "Intelligent compression tuned for WebP images.",
+          "tone": "blue"
+        },
+        {
+          "title": "Up to 80% Smaller",
+          "body": "Dramatically reduce file size for faster uploads and page loads.",
+          "tone": "green"
+        },
+        {
+          "title": "Perfect for Web",
+          "body": "Optimize images for websites, blogs, and product pages.",
+          "tone": "purple"
+        },
+        {
+          "title": "Quality You Can Trust",
+          "body": "Preview before download so quality stays under your control.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Compress"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for compression and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How does WebP compression work?",
+          "a": "The tool re-encodes your WebP with settings that reduce file size while keeping the result visually usable."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support WebP up to 10 MB."
+        },
+        {
+          "q": "Will compressing reduce image quality?",
+          "a": "Stronger presets can soften fine detail. Choose a lighter preset when looks matter most, and always preview."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Guest compression works without signing in."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results are deleted automatically within one hour."
+        }
+      ]
+    },
+    "/resize-jpg": {
+      "path": "/resize-jpg",
+      "metaTitle": "Resize JPG Images Online Free | Img Pilot",
+      "metaDescription": "Resize JPG images online by width, height or fit-inside. Private guest tool with no account required.",
+      "breadcrumbCurrent": "Resize JPG Online",
+      "h1": "Resize JPG Online",
+      "subtitle": "Change JPG dimensions for web and social",
+      "paragraph": "Resize JPG images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: JPG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Precise Control, Clean Results",
+      "features": [
+        {
+          "title": "Exact Dimensions",
+          "body": "Enter width and height that match your layout needs.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fit Inside",
+          "body": "Scale images into a box while preserving aspect ratio.",
+          "tone": "green"
+        },
+        {
+          "title": "No Unwanted Upscale",
+          "body": "Guardrails help avoid stretching small sources.",
+          "tone": "purple"
+        },
+        {
+          "title": "Web Ready",
+          "body": "Prepare consistent JPG sizes for pages and grids.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Resize"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for resizing and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Can I keep the aspect ratio?",
+          "a": "Yes. Use fit-inside or linked dimensions so images scale cleanly."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support JPG up to 10 MB."
+        },
+        {
+          "q": "Will resizing enlarge my image?",
+          "a": "By default, workflows avoid unwanted enlargement."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Resize as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/resize-png": {
+      "path": "/resize-png",
+      "metaTitle": "Resize PNG Images Online Free | Img Pilot",
+      "metaDescription": "Resize PNG images online by width, height or fit-inside. Private guest tool with no account required.",
+      "breadcrumbCurrent": "Resize PNG Online",
+      "h1": "Resize PNG Online",
+      "subtitle": "Change PNG dimensions for web and social",
+      "paragraph": "Resize PNG images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: PNG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Precise Control, Clean Results",
+      "features": [
+        {
+          "title": "Exact Dimensions",
+          "body": "Enter width and height that match your layout needs.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fit Inside",
+          "body": "Scale images into a box while preserving aspect ratio.",
+          "tone": "green"
+        },
+        {
+          "title": "No Unwanted Upscale",
+          "body": "Guardrails help avoid stretching small sources.",
+          "tone": "purple"
+        },
+        {
+          "title": "Web Ready",
+          "body": "Prepare consistent PNG sizes for pages and grids.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Resize"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for resizing and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Can I keep the aspect ratio?",
+          "a": "Yes. Use fit-inside or linked dimensions so images scale cleanly."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support PNG up to 10 MB."
+        },
+        {
+          "q": "Will resizing enlarge my image?",
+          "a": "By default, workflows avoid unwanted enlargement."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Resize as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/resize-webp": {
+      "path": "/resize-webp",
+      "metaTitle": "Resize WebP Images Online Free | Img Pilot",
+      "metaDescription": "Resize WebP images online by width, height or fit-inside. Private guest tool with no account required.",
+      "breadcrumbCurrent": "Resize WebP Online",
+      "h1": "Resize WebP Online",
+      "subtitle": "Change WebP dimensions for web and social",
+      "paragraph": "Resize WebP images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Precise Control, Clean Results",
+      "features": [
+        {
+          "title": "Exact Dimensions",
+          "body": "Enter width and height that match your layout needs.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fit Inside",
+          "body": "Scale images into a box while preserving aspect ratio.",
+          "tone": "green"
+        },
+        {
+          "title": "No Unwanted Upscale",
+          "body": "Guardrails help avoid stretching small sources.",
+          "tone": "purple"
+        },
+        {
+          "title": "Web Ready",
+          "body": "Prepare consistent WebP sizes for pages and grids.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Resize"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for resizing and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Can I keep the aspect ratio?",
+          "a": "Yes. Use fit-inside or linked dimensions so images scale cleanly."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support WebP up to 10 MB."
+        },
+        {
+          "q": "Will resizing enlarge my image?",
+          "a": "By default, workflows avoid unwanted enlargement."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Resize as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/crop-jpg": {
+      "path": "/crop-jpg",
+      "metaTitle": "Crop JPG Images Online Free | Img Pilot",
+      "metaDescription": "Crop JPG images online with free or fixed-ratio controls. Private guest processing, no account required.",
+      "breadcrumbCurrent": "Crop JPG Online",
+      "h1": "Crop JPG Online",
+      "subtitle": "Keep only the part of your JPG that matters",
+      "paragraph": "Crop JPG images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: JPG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Crop With Confidence",
+      "features": [
+        {
+          "title": "Free Crop",
+          "body": "Select any area of the image and keep exactly that region.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fixed Ratios",
+          "body": "Use common aspect ratios for consistent layouts.",
+          "tone": "green"
+        },
+        {
+          "title": "Orientation Safe",
+          "body": "Crop math respects oriented dimensions after upload.",
+          "tone": "purple"
+        },
+        {
+          "title": "Same Format Out",
+          "body": "Download a cropped JPG result.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Crop"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for cropping and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Can I crop to a square?",
+          "a": "Yes. Choose a 1:1 ratio or draw a free crop."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support JPG up to 10 MB."
+        },
+        {
+          "q": "Is the original overwritten?",
+          "a": "No. Processing creates a new cropped result."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Crop as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/crop-png": {
+      "path": "/crop-png",
+      "metaTitle": "Crop PNG Images Online Free | Img Pilot",
+      "metaDescription": "Crop PNG images online with free or fixed-ratio controls. Private guest processing, no account required.",
+      "breadcrumbCurrent": "Crop PNG Online",
+      "h1": "Crop PNG Online",
+      "subtitle": "Keep only the part of your PNG that matters",
+      "paragraph": "Crop PNG images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: PNG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Crop With Confidence",
+      "features": [
+        {
+          "title": "Free Crop",
+          "body": "Select any area of the image and keep exactly that region.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fixed Ratios",
+          "body": "Use common aspect ratios for consistent layouts.",
+          "tone": "green"
+        },
+        {
+          "title": "Orientation Safe",
+          "body": "Crop math respects oriented dimensions after upload.",
+          "tone": "purple"
+        },
+        {
+          "title": "Same Format Out",
+          "body": "Download a cropped PNG result.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Crop"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for cropping and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Can I crop to a square?",
+          "a": "Yes. Choose a 1:1 ratio or draw a free crop."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support PNG up to 10 MB."
+        },
+        {
+          "q": "Is the original overwritten?",
+          "a": "No. Processing creates a new cropped result."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Crop as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/crop-webp": {
+      "path": "/crop-webp",
+      "metaTitle": "Crop WebP Images Online Free | Img Pilot",
+      "metaDescription": "Crop WebP images online with free or fixed-ratio controls. Private guest processing, no account required.",
+      "breadcrumbCurrent": "Crop WebP Online",
+      "h1": "Crop WebP Online",
+      "subtitle": "Keep only the part of your WebP that matters",
+      "paragraph": "Crop WebP images in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported format: WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Crop With Confidence",
+      "features": [
+        {
+          "title": "Free Crop",
+          "body": "Select any area of the image and keep exactly that region.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fixed Ratios",
+          "body": "Use common aspect ratios for consistent layouts.",
+          "tone": "green"
+        },
+        {
+          "title": "Orientation Safe",
+          "body": "Crop math respects oriented dimensions after upload.",
+          "tone": "purple"
+        },
+        {
+          "title": "Same Format Out",
+          "body": "Download a cropped WebP result.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Crop"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for cropping and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Can I crop to a square?",
+          "a": "Yes. Choose a 1:1 ratio or draw a free crop."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support WebP up to 10 MB."
+        },
+        {
+          "q": "Is the original overwritten?",
+          "a": "No. Processing creates a new cropped result."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Crop as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-to-webp",
+      "metaTitle": "Convert JPG to WebP Online Free | Img Pilot",
+      "metaDescription": "Convert JPG images to WebP online for faster websites. Private guest conversion with verified outputs.",
+      "breadcrumbCurrent": "JPG to WebP Converter",
+      "h1": "Convert JPG to WebP Online",
+      "subtitle": "Switch from JPG to WebP without desktop software",
+      "paragraph": "Convert JPG images to WebP in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: JPG → WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as WebP with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting JPG to WebP change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support JPG up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is conversion lossless?",
+          "a": "It depends on the source and target formats. Lossy formats may reduce quality for smaller size."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-to-png",
+      "metaTitle": "Convert JPG to PNG Online Free | Img Pilot",
+      "metaDescription": "Convert JPG images to PNG online. Private guest conversion with verified outputs.",
+      "breadcrumbCurrent": "JPG to PNG Converter",
+      "h1": "Convert JPG to PNG Online",
+      "subtitle": "Switch from JPG to PNG without desktop software",
+      "paragraph": "Convert JPG images to PNG in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: JPG → PNG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as PNG with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting JPG to PNG change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support JPG up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is conversion lossless?",
+          "a": "It depends on the source and target formats. Lossy formats may reduce quality for smaller size."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-to-avif",
+      "metaTitle": "Convert JPG to AVIF Online Free | Img Pilot",
+      "metaDescription": "Convert JPG images to AVIF online when encoding is available. Private guest conversion.",
+      "breadcrumbCurrent": "JPG to AVIF Converter",
+      "h1": "Convert JPG to AVIF Online",
+      "subtitle": "Switch from JPG to AVIF without desktop software",
+      "paragraph": "Convert JPG images to AVIF in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: JPG → AVIF • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as AVIF with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting JPG to AVIF change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support JPG up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is AVIF always available?",
+          "a": "AVIF encoding is offered only when the server can encode and verify the result."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/png-to-jpg": {
+      "path": "/png-to-jpg",
+      "metaTitle": "Convert PNG to JPG Online Free | Img Pilot",
+      "metaDescription": "Convert PNG images to JPG online. Private guest conversion with verified outputs.",
+      "breadcrumbCurrent": "PNG to JPG Converter",
+      "h1": "Convert PNG to JPG Online",
+      "subtitle": "Switch from PNG to JPG without desktop software",
+      "paragraph": "Convert PNG images to JPG in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: PNG → JPG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as JPG with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting PNG to JPG change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support PNG up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is conversion lossless?",
+          "a": "It depends on the source and target formats. Lossy formats may reduce quality for smaller size."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/png-to-webp": {
+      "path": "/png-to-webp",
+      "metaTitle": "Convert PNG to WebP Online Free | Img Pilot",
+      "metaDescription": "Convert PNG images to WebP online for smaller web delivery. Private guest conversion.",
+      "breadcrumbCurrent": "PNG to WebP Converter",
+      "h1": "Convert PNG to WebP Online",
+      "subtitle": "Switch from PNG to WebP without desktop software",
+      "paragraph": "Convert PNG images to WebP in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: PNG → WebP • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as WebP with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting PNG to WebP change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support PNG up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is conversion lossless?",
+          "a": "It depends on the source and target formats. Lossy formats may reduce quality for smaller size."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/png-to-avif": {
+      "path": "/png-to-avif",
+      "metaTitle": "Convert PNG to AVIF Online Free | Img Pilot",
+      "metaDescription": "Convert PNG images to AVIF online when encoding is available. Private guest conversion.",
+      "breadcrumbCurrent": "PNG to AVIF Converter",
+      "h1": "Convert PNG to AVIF Online",
+      "subtitle": "Switch from PNG to AVIF without desktop software",
+      "paragraph": "Convert PNG images to AVIF in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: PNG → AVIF • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as AVIF with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting PNG to AVIF change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support PNG up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is AVIF always available?",
+          "a": "AVIF encoding is offered only when the server can encode and verify the result."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-to-jpg",
+      "metaTitle": "Convert WebP to JPG Online Free | Img Pilot",
+      "metaDescription": "Convert WebP images to JPG online. Private guest conversion with verified outputs.",
+      "breadcrumbCurrent": "WebP to JPG Converter",
+      "h1": "Convert WebP to JPG Online",
+      "subtitle": "Switch from WebP to JPG without desktop software",
+      "paragraph": "Convert WebP images to JPG in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: WebP → JPG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as JPG with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting WebP to JPG change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support WebP up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is conversion lossless?",
+          "a": "It depends on the source and target formats. Lossy formats may reduce quality for smaller size."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/webp-to-png": {
+      "path": "/webp-to-png",
+      "metaTitle": "Convert WebP to PNG Online Free | Img Pilot",
+      "metaDescription": "Convert WebP images to PNG online. Private guest conversion with verified outputs.",
+      "breadcrumbCurrent": "WebP to PNG Converter",
+      "h1": "Convert WebP to PNG Online",
+      "subtitle": "Switch from WebP to PNG without desktop software",
+      "paragraph": "Convert WebP images to PNG in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: WebP → PNG • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as PNG with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting WebP to PNG change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support WebP up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is conversion lossless?",
+          "a": "It depends on the source and target formats. Lossy formats may reduce quality for smaller size."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/webp-to-avif": {
+      "path": "/webp-to-avif",
+      "metaTitle": "Convert WebP to AVIF Online Free | Img Pilot",
+      "metaDescription": "Convert WebP images to AVIF online when encoding is available. Private guest conversion.",
+      "breadcrumbCurrent": "WebP to AVIF Converter",
+      "h1": "Convert WebP to AVIF Online",
+      "subtitle": "Switch from WebP to AVIF without desktop software",
+      "paragraph": "Convert WebP images to AVIF in seconds. Free online tool — no account required.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported: WebP → AVIF • Maximum file size: 10 MB. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Format Changes Made Simple",
+      "features": [
+        {
+          "title": "Clear Target",
+          "body": "Output is saved as AVIF with verified results.",
+          "tone": "blue"
+        },
+        {
+          "title": "Fast Guest Tool",
+          "body": "Upload, convert, and download in one private session.",
+          "tone": "green"
+        },
+        {
+          "title": "Web Friendly",
+          "body": "Use the format that fits your site or workflow.",
+          "tone": "purple"
+        },
+        {
+          "title": "Honest Output",
+          "body": "Know the resulting type and size before download.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload Your Image"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Preview Result"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for conversion and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Does converting WebP to AVIF change my original?",
+          "a": "No. Guest processing writes a separate output. Your upload stays private and expires with the session."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Guest uploads support WebP up to 10 MB."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Convert as a guest. Files expire within one hour."
+        },
+        {
+          "q": "Is AVIF always available?",
+          "a": "AVIF encoding is offered only when the server can encode and verify the result."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/bulk-compress": {
+      "path": "/bulk-compress",
+      "metaTitle": "Bulk Compress Images Online Free | Img Pilot",
+      "metaDescription": "Compress multiple images online and download successful results together. Guest bulk limits apply.",
+      "breadcrumbCurrent": "Bulk Compress Images",
+      "h1": "Bulk Compress Images Online",
+      "subtitle": "Compress a short batch without repeating every step",
+      "paragraph": "Compress multiple JPG, PNG or WebP files in one batch. Free guest limits apply.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported formats: JPG, PNG, WebP • Guest batch limits apply. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Batch Speed With Clear Limits",
+      "features": [
+        {
+          "title": "Shared Settings",
+          "body": "Apply one compress choice across the batch.",
+          "tone": "blue"
+        },
+        {
+          "title": "Per-file Status",
+          "body": "See which images succeeded and which need attention.",
+          "tone": "green"
+        },
+        {
+          "title": "ZIP Download",
+          "body": "Collect successful outputs when the batch is ready.",
+          "tone": "purple"
+        },
+        {
+          "title": "Guest Caps",
+          "body": "Batch size and total bytes follow free guest policy.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload a Batch"
+        },
+        {
+          "title": "Compress"
+        },
+        {
+          "title": "Process Files"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for bulk compress and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How many files can I upload?",
+          "a": "Guest bulk jobs enforce a maximum file count and total batch size."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Each file follows the guest max size, and the batch has a total bytes cap."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "Guests can run limited bulk jobs. Files expire within one hour."
+        },
+        {
+          "q": "What if one file fails?",
+          "a": "Successful outputs remain downloadable; failed items show an error status."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/bulk-resize": {
+      "path": "/bulk-resize",
+      "metaTitle": "Bulk Resize Images Online Free | Img Pilot",
+      "metaDescription": "Resize multiple images online and download successful results together. Guest bulk limits apply.",
+      "breadcrumbCurrent": "Bulk Resize Images",
+      "h1": "Bulk Resize Images Online",
+      "subtitle": "Resize a short batch without repeating every step",
+      "paragraph": "Resize multiple JPG, PNG or WebP files in one batch. Free guest limits apply.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported formats: JPG, PNG, WebP • Guest batch limits apply. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Batch Speed With Clear Limits",
+      "features": [
+        {
+          "title": "Shared Settings",
+          "body": "Apply one resize choice across the batch.",
+          "tone": "blue"
+        },
+        {
+          "title": "Per-file Status",
+          "body": "See which images succeeded and which need attention.",
+          "tone": "green"
+        },
+        {
+          "title": "ZIP Download",
+          "body": "Collect successful outputs when the batch is ready.",
+          "tone": "purple"
+        },
+        {
+          "title": "Guest Caps",
+          "body": "Batch size and total bytes follow free guest policy.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload a Batch"
+        },
+        {
+          "title": "Resize"
+        },
+        {
+          "title": "Process Files"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for bulk resize and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How many files can I upload?",
+          "a": "Guest bulk jobs enforce a maximum file count and total batch size."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Each file follows the guest max size, and the batch has a total bytes cap."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "Guests can run limited bulk jobs. Files expire within one hour."
+        },
+        {
+          "q": "What if one file fails?",
+          "a": "Successful outputs remain downloadable; failed items show an error status."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    },
+    "/bulk-convert": {
+      "path": "/bulk-convert",
+      "metaTitle": "Bulk Convert Images Online Free | Img Pilot",
+      "metaDescription": "Convert multiple images online and download successful results together. Guest bulk limits apply.",
+      "breadcrumbCurrent": "Bulk Convert Images",
+      "h1": "Bulk Convert Images Online",
+      "subtitle": "Convert a short batch without repeating every step",
+      "paragraph": "Convert multiple JPG, PNG or WebP files in one batch. Free guest limits apply.",
+      "trust": [
+        "No account required",
+        "Private & secure processing",
+        "Auto delete within 1 hour"
+      ],
+      "workspaceNote": "Supported formats: JPG, PNG, WebP • Guest batch limits apply. Your files are private and automatically deleted within one hour.",
+      "featuresHeading": "Batch Speed With Clear Limits",
+      "features": [
+        {
+          "title": "Shared Settings",
+          "body": "Apply one convert choice across the batch.",
+          "tone": "blue"
+        },
+        {
+          "title": "Per-file Status",
+          "body": "See which images succeeded and which need attention.",
+          "tone": "green"
+        },
+        {
+          "title": "ZIP Download",
+          "body": "Collect successful outputs when the batch is ready.",
+          "tone": "purple"
+        },
+        {
+          "title": "Guest Caps",
+          "body": "Batch size and total bytes follow free guest policy.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "How It Works",
+      "howSteps": [
+        {
+          "title": "Upload a Batch"
+        },
+        {
+          "title": "Convert"
+        },
+        {
+          "title": "Process Files"
+        },
+        {
+          "title": "Download"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Your Privacy Matters",
+          "body": "Your images are processed privately for bulk convert and deleted automatically within one hour.",
+          "kind": "privacy"
+        },
+        {
+          "title": "Fast & Efficient",
+          "body": "Cloud-backed guest processing delivers results in seconds without installing software.",
+          "kind": "speed"
+        }
+      ],
+      "faqHeading": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How many files can I upload?",
+          "a": "Guest bulk jobs enforce a maximum file count and total batch size."
+        },
+        {
+          "q": "Is there a file size limit?",
+          "a": "Each file follows the guest max size, and the batch has a total bytes cap."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "Guests can run limited bulk jobs. Files expire within one hour."
+        },
+        {
+          "q": "What if one file fails?",
+          "a": "Successful outputs remain downloadable; failed items show an error status."
+        },
+        {
+          "q": "Are my images stored permanently?",
+          "a": "No. Guest uploads and results expire within one hour."
+        }
+      ]
+    }
+  }
+}

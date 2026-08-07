@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Bulk Resize landing — commercial batch resize for agencies, ecommerce, photographers.
  * Distinct from single-image Resize JPG/PNG/WebP landings.
@@ -96,7 +97,7 @@ export type BulkResizeCopy = {
 };
 
 const en: BulkResizeCopy = {
-  metaTitle: "Bulk Resize Images Online Free | SEO Images",
+  metaTitle: "Bulk Resize Images Online Free | Img Pilot",
   metaDescription:
     "Resize multiple JPG, PNG and WebP images at once. Batch process images online and download resized files together in a ZIP archive.",
   h1: "Bulk Resize Images Online",
@@ -361,7 +362,7 @@ const en: BulkResizeCopy = {
 };
 
 const ur: BulkResizeCopy = {
-  metaTitle: "آن لائن بلک ری سائز امیجز مفت | SEO Images",
+  metaTitle: "آن لائن بلک ری سائز امیجز مفت | Img Pilot",
   metaDescription:
     "ایک ساتھ متعدد JPG، PNG اور WebP امیجز ری سائز کریں۔ آن لائن بیچ پروسیس کریں اور ری سائز شدہ فائلیں ایک ZIP میں ڈاؤن لوڈ کریں۔",
   h1: "آن لائن بلک ری سائز امیجز",
@@ -628,7 +629,7 @@ const ur: BulkResizeCopy = {
 };
 
 export function getBulkResizeCopy(locale: string): BulkResizeCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export type BulkResizeLocale = AppLocale;

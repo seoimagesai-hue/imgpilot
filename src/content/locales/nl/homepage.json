@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/compressie-afbeelding",
+      "title": "Comprimeer afbeelding",
+      "body": "Verklein de bestandsgroottes JPG, PNG en WebP terwijl het resultaat duidelijk en bruikbaar blijft.",
+      "icon": "comprimeren"
+    },
+    {
+      "href": "/formaat-afbeelding wijzigen",
+      "title": "Formaat van afbeelding wijzigen",
+      "body": "Wijzig de afbeeldingsafmetingen op basis van breedte, hoogte of fit-inside-instellingen zonder ongewenste vergroting.",
+      "icon": "formaat wijzigen"
+    },
+    {
+      "title": "Afbeelding bijsnijden",
+      "href": "/bijsnijdafbeelding",
+      "body": "Selecteer het exacte gebied dat u wilt behouden met de gewasbedieningselementen voor vrije en vaste verhoudingen.",
+      "icon": "gewas"
+    },
+    {
+      "title": "Afbeelding converteren",
+      "href": "/convert-afbeelding",
+      "body": "Converteer tussen JPG, PNG, WebP en ondersteunde AVIF formaten met veilige uitvoerverificatie.",
+      "icon": "overzetten"
+    },
+    {
+      "title": "Geotag-afbeelding",
+      "href": "/geotag-afbeelding",
+      "body": "Voeg geverifieerde GPS-coördinaten toe aan compatibele JPEG-afbeeldingen zonder het origineel te wijzigen.",
+      "icon": "geotag"
+    },
+    {
+      "title": "Metagegevensviewer voor afbeeldingen",
+      "href": "/afbeelding-metagegevens",
+      "body": "Inspecteer afmetingen, kleurinformatie en veilige metadata van afbeeldingen.",
+      "icon": "metagegevens"
+    },
+    {
+      "title": "Afbeelding SEO Metagegevenseditor",
+      "href": "/image-metadata-editor",
+      "body": "Schrijf, controleer en exporteer afbeeldings-SEO-velden voor uw website of contentmanagementsysteem.",
+      "icon": "editor"
+    },
+    {
+      "title": "Hulpmiddelen voor bulkafbeeldingen",
+      "href": "/bulk-image-tools",
+      "body": "Comprimeer, wijzig het formaat of converteer meerdere afbeeldingen en download samen succesvolle resultaten.",
+      "icon": "bulk"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Comprimeer JPG",
+      "badge": "JPG",
+      "href": "/comprimeren-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/comprimeren-png",
+      "label": "Comprimeer PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/comprimeren-webp",
+      "label": "Comprimeer WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/formaat wijzigen-jpg",
+      "label": "Formaat wijzigen JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/formaat wijzigen-png",
+      "label": "Formaat wijzigen PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/formaat wijzigen-webp",
+      "label": "Formaat wijzigen WebP"
+    },
+    {
+      "href": "/jpg-naar-png",
+      "label": "JPG tot PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-naar-webp",
+      "label": "JPG tot WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-naar-jpg",
+      "label": "PNG tot JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-naar-webp",
+      "label": "PNG tot WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-naar-jpg",
+      "label": "WebP tot JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-naar-png",
+      "label": "WebP tot PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Een praktisch formaat voor foto's, webinhoud en kleinere lossy afbeeldingsbestanden.",
+      "href": "/comprimeren-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Een verliesvrij formaat dat vaak wordt gebruikt voor afbeeldingen en afbeeldingen die transparantie vereisen.",
+      "href": "/comprimeren-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Een modern webformaat dat efficiënte compressie kan bieden met optionele transparantie.",
+      "href": "/comprimeren-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Beschikbaar voor ondersteunde conversieworkflows wanneer de serverruntime deze kan coderen en verifiëren.",
+      "href": "/jpg-naar-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Afbeeldingen online comprimeren, vergroten/verkleinen, converteren en optimaliseren",
+  "metaDescription": "Comprimeer, vergroot of verklein, snij bij, converteer en optimaliseer JPG, PNG en WebP afbeeldingen online. Gebruik privégasttools zonder account, met automatische verwijdering binnen een uur.",
+  "heroBadge": "Gratis online beeldtools voor snellere, schonere websites",
+  "h1": "Optimaliseer elke afbeelding in één eenvoudige werkruimte",
+  "heroParagraph": "Uw afbeeldingen comprimeren, vergroten of verkleinen, bijsnijden, converteren en optimaliseren zonder software te installeren. Begin gratis zonder account, houd de volledige controle over uw bestanden en download schone, geverifieerde resultaten met slechts een paar klikken.",
+  "uploadHeading": "Plaats hier een afbeelding om aan de slag te gaan",
+  "uploadSupport": "Upload een afbeelding JPG, PNG of WebP, of plak er een rechtstreeks vanaf uw klembord.",
+  "chooseImage": "Kies een afbeelding",
+  "pasteHint": "Je kunt een afbeelding ook plakken met Ctrl + V of ⌘ + V",
+  "formatLimitLine": "JPG, PNG en WebP • Tot {maxFileSize} • Geen account vereist",
+  "privacyLine": "Uw gastbestanden blijven privé en worden automatisch binnen een uur verwijderd.",
+  "defaultActionLabel": "Begin met beeldcompressie",
+  "trust": [
+    {
+      "title": "Geen account vereist",
+      "body": "Gebruik essentiële beeldtools direct als gast."
+    },
+    {
+      "title": "Privéverwerking",
+      "body": "Bestanden blijven in beveiligde tijdelijke opslag."
+    },
+    {
+      "title": "Automatische verwijdering",
+      "body": "Gastbestanden verlopen binnen een uur."
+    },
+    {
+      "title": "Geverifieerde resultaten",
+      "body": "Uitgangen worden vóór het downloaden door de server gecontroleerd."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Meer dan 10 miljoen afbeeldingen verwerkt",
+      "body": "Betrouwbare workflows voor dagelijkse optimalisatie."
+    },
+    {
+      "title": "100% privé en veilig",
+      "body": "Tijdelijke opslag met kortstondige toegang."
+    },
+    {
+      "title": "1 uur automatisch verwijderen",
+      "body": "Gastbestanden verlopen volgens een vast schema."
+    },
+    {
+      "title": "Geen watermerk schone download",
+      "body": "Download geverifieerde resultaten zonder branding."
+    }
+  ],
+  "toolsEyebrow": "Alles wat je nodig hebt",
+  "toolsHeading": "Krachtige beeldtools, klaar wanneer u dat bent",
+  "toolsDescription": "Voer dagelijkse beeldtaken uit vanuit één overzichtelijke werkruimte. Elke tool is ontworpen om eenvoudig te zijn voor beginners, terwijl professionals toch de bedieningselementen krijgen die ze nodig hebben.",
+  "openTool": "Gereedschap openen",
+  "exploreAllTools": "Ontdek alle tools",
+  "formatEyebrow": "Populaire beeldtaken",
+  "formatHeading": "Ga direct naar het formaat dat u nodig heeft",
+  "formatDescription": "Kies een speciale tool voor uw afbeeldingsformaat of conversie. Uw favoriete bron- en uitvoerinstellingen zijn al geselecteerd.",
+  "platformEyebrow": "Eén privé werkruimte voor afbeeldingen",
+  "platformHeading": "Van uploaden tot downloaden zonder de gebruikelijke complexiteit",
+  "platformP1": "Img Pilot brengt de nuttigste beeldworkflows in één consistente ervaring. U hoeft niet voor elke taak een andere interface te leren. Upload uw afbeelding, kies de instellingen die er toe doen, verwerk deze veilig en download het geverifieerde resultaat.",
+  "platformP2": "Dezelfde workflow ondersteunt snelle opdrachten met één afbeelding, formaatspecifieke landingspagina's en geselecteerde bulkbewerkingen. Gasttools vereisen geen account, terwijl ingelogde gebruikers toegang hebben tot projecten en werkruimtefuncties voor de langere termijn.",
+  "platformFeatures": [
+    "Eén consistente toolwerkruimte",
+    "Duidelijke voor-en-na informatie",
+    "Privé tijdelijke gastenopslag",
+    "Individuele en geselecteerde bulkworkflows",
+    "Engelse en Urdu-interfaces",
+    "Server-geverifieerde uitgangen"
+  ],
+  "whyEyebrow": "Gebouwd rond duidelijkheid en controle",
+  "whyHeading": "Beeldtools die uw tijd en uw bestanden respecteren",
+  "whyIntro": "Elke workflow is ontworpen om onnodige stappen te verwijderen terwijl de belangrijke bedieningselementen zichtbaar blijven. U weet altijd wat er met uw afbeelding gebeurt, wat het resultaat is en wanneer tijdelijke bestanden worden verwijderd.",
+  "benefits": [
+    {
+      "title": "Begin onmiddellijk",
+      "body": "Gebruik de belangrijkste gasttools zonder registratie, software-installatie of projectconfiguratieproces."
+    },
+    {
+      "title": "Bewaar het origineel veilig",
+      "body": "Door de verwerking ontstaat een nieuw resultaat, terwijl het geüploade origineel ongewijzigd blijft."
+    },
+    {
+      "title": "Weet wat er is veranderd",
+      "body": "Vergelijk afmetingen, formaten en bestandsgroottes voordat u het eindresultaat downloadt."
+    },
+    {
+      "title": "Werk in verschillende formaten",
+      "body": "Gebruik speciale workflows voor JPG, PNG en WebP met eerlijke formaatspecifieke afhandeling."
+    },
+    {
+      "title": "Bescherm tijdelijke bestanden",
+      "body": "Gastafbeeldingen en gegenereerde resultaten worden binnen de retentieperiode automatisch verwijderd."
+    },
+    {
+      "title": "Afbeeldingen voorbereiden voor zoeken",
+      "body": "Controleer metagegevens, verbeter bestandsnamen en organiseer alternatieve tekst voor website- en CMS-gebruik."
+    }
+  ],
+  "howEyebrow": "Eenvoudig van begin tot eind",
+  "howHeading": "Voltooi uw afbeeldingstaak in vier duidelijke stappen",
+  "steps": [
+    {
+      "title": "Upload uw afbeelding",
+      "body": "Kies een ondersteunde afbeelding, sleep deze naar de werkruimte of plak deze vanaf uw klembord."
+    },
+    {
+      "title": "Selecteer uw instellingen",
+      "body": "Kies het formaat, de afmetingen, de kwaliteit, het bijsnijdgebied of de metadata-opties die nodig zijn voor uw taak."
+    },
+    {
+      "title": "Veilig verwerken",
+      "body": "De server voert en verifieert de bewerking en toont duidelijke voortgangs- en foutstatussen."
+    },
+    {
+      "title": "Download het resultaat",
+      "body": "Controleer de laatste details, download uw bestand en verwerk indien nodig een nieuwe afbeelding."
+    }
+  ],
+  "beforeEyebrow": "Zie het verschil",
+  "beforeHeading": "Bekijk het verschil voordat u downloadt",
+  "beforeParagraph": "Duidelijke resultaatsamenvattingen helpen u te begrijpen wat er is veranderd. Vergelijk de originele afbeelding met de verwerkte versie, controleer de bestandsgrootte of afmetingen en download alleen als de uitvoer aan uw behoeften voldoet.",
+  "beforeBullets": [
+    "Origineel blijft veilig terwijl er een nieuw resultaat ontstaat",
+    "Geverifieerde uitvoer met eerlijke maat- en afmetingsdetails"
+  ],
+  "beforeCaption": "Productillustratie - alleen voorbeeld. De daadwerkelijke besparing verschilt per afbeelding.",
+  "useEyebrow": "Ontworpen voor echt werk",
+  "useHeading": "Bereid afbeeldingen voor voor websites, inhoud en dagelijks delen",
+  "useCases": [
+    {
+      "title": "Websites",
+      "body": "Verminder onnodig afbeeldingsgewicht en zorg voor consistente afmetingen voor snellere, schonere pagina's."
+    },
+    {
+      "title": "Online winkels",
+      "body": "Organiseer productafbeeldingsformaten, bestandsnamen, afmetingen en metagegevens voordat u deze publiceert."
+    },
+    {
+      "title": "Sociale inhoud",
+      "body": "Pas het formaat van afbeeldingen aan en snij ze bij tot praktische beeldverhoudingen voor berichten, thumbnails en campagnes."
+    },
+    {
+      "title": "Blogs en uitgevers",
+      "body": "Maak lichtere artikelafbeeldingen en bereid toegankelijke, beschrijvende beeldtekst voor."
+    },
+    {
+      "title": "E-mail en documenten",
+      "body": "Verklein grote bestanden, zodat afbeeldingen gemakkelijker kunnen worden bijgevoegd, gedeeld en opgenomen in presentaties."
+    },
+    {
+      "title": "Lokaal SEO",
+      "body": "Inspecteer metadata, voeg geverifieerde JPEG-coördinaten toe en organiseer afbeeldings-SEO-informatie voor lokale contentworkflows."
+    }
+  ],
+  "seoEyebrow": "Meer dan eenvoudige bewerking",
+  "seoHeading": "Verander gewone afbeeldingen in betere website-items",
+  "seoP1": "Beeldoptimalisatie gaat niet alleen over het verkleinen van de bestandsgrootte. Duidelijke bestandsnamen, nauwkeurige alternatieve tekst, passende afmetingen en nuttige metagegevens kunnen ervoor zorgen dat beeldbibliotheken eenvoudiger te beheren zijn en de inhoud van websites toegankelijker worden.",
+  "seoP2": "Img Pilot bevat tools voor het inspecteren van metadata, het opstellen van afbeeldingsvelden SEO en het exporteren van informatie voor gebruik in een website of CMS.",
+  "seoLinks": [
+    {
+      "href": "/afbeelding-metagegevens",
+      "label": "Metagegevens van afbeeldingen bekijken"
+    },
+    {
+      "href": "/image-metadata-editor",
+      "label": "Afbeelding bewerken SEO Metagegevens"
+    },
+    {
+      "href": "/geotag-afbeelding",
+      "label": "Geotag een JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO en toegankelijkheidstools bieden hulp en aanbevelingen. Ze garanderen geen zoekresultaten of automatische naleving.",
+  "bulkEyebrow": "Werken met meer dan één afbeelding?",
+  "bulkHeading": "Verwerk een kleine batch zonder elke stap te herhalen",
+  "bulkParagraph": "Gebruik Bulk Image Tools om meerdere ondersteunde afbeeldingen te comprimeren, te verkleinen of te converteren met één gedeelde set opties. Bekijk elk bestand afzonderlijk, download individuele resultaten of verzamel succesvolle resultaten in een ZIP archief.",
+  "bulkBullets": [
+    "Bulkcompressie",
+    "Bulkgrootte wijzigen",
+    "Bulkconversie",
+    "Verwerkingsstatus per bestand",
+    "Individuele downloads",
+    "ZIP archief voor succesvolle resultaten"
+  ],
+  "bulkCta": "Open Hulpmiddelen voor bulkafbeeldingen",
+  "bulkNotice": "Er zijn limieten voor het aantal gasten van toepassing. Voor grotere workflows is mogelijk een account vereist.",
+  "privacyEyebrow": "Privacy door ontwerp",
+  "privacyHeading": "Tijdelijke bestanden moeten tijdelijk blijven",
+  "privacyP1": "Gastuploads worden privé opgeslagen terwijl de door u geselecteerde tool werkt. Uw afbeelding, gegenereerde output en tijdelijke resultaatgegevens vervallen binnen een uur. Het downloaden, vernieuwen of opnieuw verwerken verlengt deze termijn niet.",
+  "privacyP2": "Gastsessies creëren geen permanente beeldbibliotheek. Meld u alleen aan als u projecten of accountfuncties voor de langere termijn nodig heeft.",
+  "privacyFacts": [
+    "Particuliere tijdelijke objectopslag",
+    "Kortstondige previews en downloads",
+    "Geen openbare gastafbeelding-URL",
+    "Automatisch opruimen",
+    "Geen permanente gastgeschiedenis",
+    "Originele bestanden blijven tijdens de verwerking ongewijzigd"
+  ],
+  "privacyCta": "Lees ons privacybeleid",
+  "formatsHeading": "Werk met de beeldformaten die u het meest gebruikt",
+  "formatsParagraph": "Kerngasthulpmiddelen ondersteunen afbeeldingen JPG, PNG en WebP. Beschikbare uitvoerformaten en metadatafuncties zijn afhankelijk van de geselecteerde bewerking en de mogelijkheden van elk beeldformaat.",
+  "faqHeading": "Veelgestelde vragen",
+  "faqs": [
+    {
+      "q": "Heb ik een account nodig om Img Pilot te gebruiken?",
+      "a": "Nee. De kerngasttools kunnen worden gebruikt zonder een account aan te maken. Er zijn gastlimieten van toepassing en accountfuncties zijn beschikbaar wanneer u opgeslagen projecten of hogere workflowlimieten nodig heeft."
+    },
+    {
+      "q": "Hoe lang worden gastafbeeldingen bewaard?",
+      "a": "Gastafbeeldingen en tijdelijke resultaten vervallen binnen een uur. Het downloaden, vernieuwen of opnieuw verwerken verlengt deze termijn niet."
+    },
+    {
+      "q": "Zal de verwerking mijn originele afbeelding overschrijven?",
+      "a": "Nee. Door verwerking ontstaat een apart resultaat. Het geüploade origineel blijft ongewijzigd tijdens de actieve gastsessie."
+    },
+    {
+      "q": "Welke beeldformaten worden ondersteund?",
+      "a": "Kernhulpmiddelen ondersteunen JPG, PNG en WebP. Sommige conversieworkflows ondersteunen mogelijk ook AVIF wanneer de server het resultaat kan coderen en verifiëren."
+    },
+    {
+      "q": "Kan ik meerdere afbeeldingen tegelijk verwerken?",
+      "a": "Ja. Bulk Image Tools ondersteunen geselecteerde workflows voor het comprimeren, vergroten of verkleinen en converteren. Er zijn gastbatchlimieten van toepassing."
+    },
+    {
+      "q": "Maakt het comprimeren van een afbeelding deze altijd kleiner?",
+      "a": "Niet altijd. De uiteindelijke grootte is afhankelijk van de originele afbeelding, het formaat en de geselecteerde instellingen. Img Pilot rapporteert het daadwerkelijke resultaat eerlijk, ook als de output groter is."
+    },
+    {
+      "q": "Is er alt-tekst ingebed in de afbeelding?",
+      "a": "Alt-tekst wordt normaal gesproken toegevoegd aan een website of CMS-record in plaats van universeel ingesloten in het afbeeldingsbestand. Met de Metadata Editor kunt u deze voorbereiden en exporteren voor gebruik op uw website."
+    },
+    {
+      "q": "Garandeert beeldoptimalisatie betere zoekresultaten?",
+      "a": "Nee. Beeldoptimalisatie kan de prestaties, organisatie en toegankelijkheid ondersteunen, maar geen enkele individuele beeldtool kan de zoekresultaten garanderen."
+    }
+  ],
+  "finalHeading": "Uw volgende afbeelding is klaar om te worden geoptimaliseerd",
+  "finalParagraph": "Upload een JPG, PNG of WebP afbeelding en voltooi uw taak zonder software te installeren of een account aan te maken.",
+  "finalPrimary": "Kies een afbeelding",
+  "finalSecondary": "Ontdek alle tools",
+  "finalTrust": "Privégastverwerking · Automatische verwijdering van één uur · Geen watermerk",
+  "footerBrand": "Privé-onlinetools voor het comprimeren, vergroten of verkleinen, converteren en voorbereiden van afbeeldingen voor internet.",
+  "footerRights": "© {year} Img Pilot. Alle rechten voorbehouden."
+}

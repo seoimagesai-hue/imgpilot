@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/comprimir-imagem",
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Compressa"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Como funciona a compactação de imagem?",
+        "a": "A ferramenta recodifica sua imagem com configurações que reduzem o tamanho do arquivo, mantendo o resultado visualmente utilizável. Escolha uma predefinição mais leve ou mais forte antes de processar."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB. Fluxos de trabalho maiores podem exigir uma conta."
+      },
+      {
+        "q": "A compactação reduzirá a qualidade da imagem?",
+        "a": "Predefinições mais fortes podem suavizar detalhes finos. Use Qualidade Máxima ou Equilibrado quando a aparência for mais importante e sempre visualize antes do download."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. A compactação de convidados funciona sem login. Os arquivos permanecem privados e expiram em uma hora."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos convidados são temporários e excluídos automaticamente dentro de uma hora."
+      }
+    ],
+    "metaTitle": "Compactar imagens online - Reduza o tamanho JPG, PNG e WebP",
+    "metaDescription": "Comprima imagens online sem perder qualidade. Reduza o tamanho dos arquivos JPG, PNG e WebP com processamento de convidado privado e exclusão automática dentro de uma hora.",
+    "breadcrumbCurrent": "Compactar imagens on-line",
+    "h1": "Compactar imagens on-line",
+    "subtitle": "Reduza o tamanho do arquivo de imagem sem perder qualidade",
+    "paragraph": "Comprima imagens JPG, PNG e WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Tamanho menor, mesma excelente qualidade",
+    "features": [
+      {
+        "title": "Compressão Inteligente",
+        "body": "Compressão inteligente que mantém suas imagens nítidas.",
+        "tone": "azul"
+      },
+      {
+        "title": "Até 80% menor",
+        "body": "Reduza drasticamente o tamanho do arquivo para uploads e carregamentos de páginas mais rápidos.",
+        "tone": "verde"
+      },
+      {
+        "title": "Perfeito para Web",
+        "body": "Otimize imagens para sites, blogs e páginas de produtos.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Qualidade em que você pode confiar",
+        "body": "Visualize antes do download para que a qualidade fique sob seu controle.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "A compactação baseada na nuvem oferece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/resize-image": {
+    "path": "/ redimensionar imagem",
+    "features": [
+      {
+        "title": "Dimensões exatas",
+        "body": "Insira a largura e a altura que correspondam às suas necessidades de layout.",
+        "tone": "azul"
+      },
+      {
+        "title": "Caber dentro",
+        "body": "Dimensione as imagens em uma caixa preservando a proporção.",
+        "tone": "verde"
+      },
+      {
+        "title": "Nenhum luxo indesejado",
+        "body": "Os guarda-corpos ajudam a evitar o estiramento de pequenas fontes.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Pronto para a Web",
+        "body": "Prepare tamanhos consistentes para páginas e grades de produtos.",
+        "tone": "laranja"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Redimensionar"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Posso manter a proporção?",
+        "a": "Sim. Use dimensões ajustadas ou vinculadas para que as imagens sejam dimensionadas de maneira limpa e sem distorção."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "O redimensionamento aumentará minha imagem?",
+        "a": "Por padrão, os fluxos de trabalho evitam ampliações indesejadas. Escolha dimensões que se ajustem à sua fonte."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Comece a redimensionar como convidado. Os arquivos temporários expiram em uma hora."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos convidados são excluídos automaticamente em uma hora."
+      }
+    ],
+    "metaTitle": "Redimensionar imagens on-line – alterar dimensões para Web e redes sociais",
+    "metaDescription": "Redimensione imagens JPG, PNG e WebP online por largura, altura ou ajuste interno. Ferramenta de convidado privado sem necessidade de conta.",
+    "breadcrumbCurrent": "Redimensionar imagens on-line",
+    "h1": "Redimensionar imagens on-line",
+    "subtitle": "Alterar dimensões para web, redes sociais e layout",
+    "paragraph": "Redimensione imagens JPG, PNG e WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Controle preciso, resultados limpos",
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para redimensionamento e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/crop-image": {
+    "path": "/cortar-imagem",
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Cortar"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Posso cortar em um quadrado?",
+        "a": "Sim. Escolha uma proporção de 1:1 ou desenhe um corte livre que atenda às suas necessidades."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "O original foi sobrescrito?",
+        "a": "Não. O processamento cria um novo resultado recortado."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Corte como convidado. Os arquivos são excluídos automaticamente em uma hora."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "metaTitle": "Cortar imagens on-line – corte gratuito e de proporção fixa",
+    "metaDescription": "Corte imagens JPG, PNG e WebP online com controles de proporção livre ou fixa. Processamento privado de convidados, sem necessidade de conta.",
+    "breadcrumbCurrent": "Cortar imagens on-line",
+    "h1": "Cortar imagens on-line",
+    "subtitle": "Mantenha apenas a parte da imagem que importa",
+    "paragraph": "Corte imagens JPG, PNG e WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Corte com confiança",
+    "features": [
+      {
+        "title": "Colheita Livre",
+        "body": "Selecione qualquer área da imagem e mantenha exatamente essa região.",
+        "tone": "azul"
+      },
+      {
+        "title": "Razões fixas",
+        "body": "Use proporções comuns para layouts consistentes.",
+        "tone": "verde"
+      },
+      {
+        "title": "Orientação Segura",
+        "body": "A matemática de corte respeita as dimensões orientadas após o upload.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Mesmo formato",
+        "body": "Baixe um resultado recortado em seu formato de origem, quando compatível.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para corte e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/convert-image": {
+    "path": "/convert-imagem",
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Converter"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quais conversões são suportadas?",
+        "a": "A conversão principal de convidados abrange JPG, PNG e WebP. AVIF é oferecido quando o tempo de execução pode codificá-lo e verificá-lo."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "A transparência será mantida?",
+        "a": "Ao converter para formatos que suportam alfa, a transparência pode ser preservada de acordo com as opções da ferramenta."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Converta-se como convidado. Os arquivos temporários expiram em uma hora."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos convidados são excluídos automaticamente em uma hora."
+      }
+    ],
+    "metaTitle": "Converta imagens online - JPG, PNG, WebP e AVIF",
+    "metaDescription": "Converta entre JPG, PNG, WebP e formatos AVIF suportados online. Conversão de convidados privados com resultados verificados.",
+    "breadcrumbCurrent": "Converta imagens on-line",
+    "h1": "Converta imagens on-line",
+    "subtitle": "Alterne formatos para a web sem software de desktop",
+    "paragraph": "Converta imagens JPG, PNG e WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Alterações de formato simplificadas",
+    "features": [
+      {
+        "title": "Formatos Populares",
+        "body": "Mova entre JPG, PNG e WebP com opções claras.",
+        "tone": "azul"
+      },
+      {
+        "title": "Consciente da Transparência",
+        "body": "PNG e WebP alpha são tratados com cuidado pela política.",
+        "tone": "verde"
+      },
+      {
+        "title": "AVIF Quando estiver pronto",
+        "body": "Codifique para AVIF somente quando o servidor puder verificá-lo.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Resultado honesto",
+        "body": "Conheça o tipo e tamanho MIME resultante antes do download.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para conversão e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Girar"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quais ângulos são suportados?",
+        "a": "A rotação do convidado suporta 90°, 180° e 270°, além de giros opcionais."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Faça a rotação como convidado. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "A orientação EXIF é aplicada?",
+        "a": "As fontes são normalizadas por orientação antes da transformação para que os resultados correspondam ao esperado."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "path": "/girar-imagem",
+    "metaTitle": "Girar imagem online - Inverter JPG, PNG e WebP",
+    "metaDescription": "Gire as imagens em 90°, 180° ou 270° e vire horizontalmente ou verticalmente. Ferramenta gratuita para hóspedes com armazenamento temporário privado.",
+    "breadcrumbCurrent": "Girar imagens on-line",
+    "h1": "Girar imagens on-line",
+    "subtitle": "Vire ou inverta imagens para layout e design",
+    "paragraph": "Gire ou inverta as imagens JPG, PNG e WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Correções rápidas de orientação",
+    "features": [
+      {
+        "title": "Passos de 90°",
+        "body": "Gire 90°, 180° ou 270° em uma passagem.",
+        "tone": "azul"
+      },
+      {
+        "title": "Controles de inversão",
+        "body": "Espelhe horizontalmente ou verticalmente quando necessário.",
+        "tone": "verde"
+      },
+      {
+        "title": "Mesmo formato",
+        "body": "A saída permanece no formato carregado.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Empregos para convidados privados",
+        "body": "Processamento de curta duração com limpeza automática.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para rotação e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Marca d’água"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Posso fazer upload de uma marca d'água de logotipo?",
+        "a": "Esta ferramenta convidada carimba o texto. Use um texto curto da marca por enquanto."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Marca d'água como convidado. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "A marca d'água cobrirá meu assunto?",
+        "a": "Escolha as posições dos cantos e reduza a opacidade para manter os assuntos visíveis."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "path": "/imagem de marca d'água",
+    "metaTitle": "Imagens de marca d’água online – Adicionar marcas d’água de texto",
+    "metaDescription": "Carimbe marcas d'água de texto curto em JPG, PNG e WebP com controles de posição e opacidade. Ferramenta de convidado privado.",
+    "breadcrumbCurrent": "Imagens de marca d’água on-line",
+    "h1": "Imagens de marca d’água on-line",
+    "subtitle": "Carimbo de texto curto sem cobrir toda a imagem",
+    "paragraph": "Adicione uma marca d'água de texto às imagens JPG, PNG ou WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Proteja os recursos visuais com uma marca leve",
+    "features": [
+      {
+        "title": "Selos de texto curto",
+        "body": "Adicione uma marca d'água concisa que permaneça legível.",
+        "tone": "azul"
+      },
+      {
+        "title": "Controle de posição",
+        "body": "Coloque marcas d'água nos cantos ou no centro.",
+        "tone": "verde"
+      },
+      {
+        "title": "Controle deslizante de opacidade",
+        "body": "Equilibre a visibilidade com o conteúdo da imagem.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Mesmo formato",
+        "body": "Baixe um arquivo com marca d'água em seu formato de origem.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para marca d'água e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Borrão"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Isso detecta rostos automaticamente?",
+        "a": "Não. Você seleciona a região manualmente como porcentagens da imagem."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Blur como convidado. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "Posso desfocar várias regiões?",
+        "a": "Esta ferramenta convidada aplica uma região por execução. Execute novamente para desfocar outra área."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "path": "/ região de desfoque",
+    "metaTitle": "Desfocar região de imagem online – ocultar rostos e detalhes",
+    "metaDescription": "Desfoque manualmente uma região de imagens JPG, PNG ou WebP para ocultar rostos, placas ou outros detalhes. Ferramenta de convidado privado.",
+    "breadcrumbCurrent": "Região de desfoque on-line",
+    "h1": "Região de desfoque on-line",
+    "subtitle": "Oculte detalhes confidenciais com uma caixa de desfoque manual",
+    "paragraph": "Desfoque uma região selecionada nas imagens JPG, PNG ou WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Desfoque o que precisa de privacidade",
+    "features": [
+      {
+        "title": "Região Manual",
+        "body": "Você escolhe exatamente onde o desfoque será aplicado.",
+        "tone": "azul"
+      },
+      {
+        "title": "Níveis de força",
+        "body": "Desfoque leve, médio ou forte para diferentes necessidades.",
+        "tone": "verde"
+      },
+      {
+        "title": "Amigável à privacidade",
+        "body": "Oculte detalhes antes de publicar ou enviar ativos.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Cofre para convidados",
+        "body": "Processamento temporário privado com exclusão automática.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para desfoque de região e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Rubrica"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Preciso do texto superior e inferior?",
+        "a": "Não. Forneça pelo menos uma linha de legenda."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Gere como convidado. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "Posso mudar a fonte?",
+        "a": "Os memes convidados usam uma pilha clássica de estilo Impact para facilitar a leitura."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "path": "/gerador de meme",
+    "metaTitle": "Meme Generator Online – Adicione legendas superiores e inferiores",
+    "metaDescription": "Adicione legendas clássicas de meme superior e inferior às imagens JPG, PNG ou WebP. Gerador de memes para convidados grátis.",
+    "breadcrumbCurrent": "Gerador de memes on-line",
+    "h1": "Gerador de memes on-line",
+    "subtitle": "Adicione legendas clássicas em segundos",
+    "paragraph": "Adicione legendas superiores e inferiores às imagens JPG, PNG ou WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Legendas que parecem memes clássicos",
+    "features": [
+      {
+        "title": "Texto superior e inferior",
+        "body": "Use uma linha ou ambas para layouts clássicos.",
+        "tone": "azul"
+      },
+      {
+        "title": "Envolvimento automático",
+        "body": "Legendas longas são agrupadas em linhas curtas e legíveis.",
+        "tone": "verde"
+      },
+      {
+        "title": "Tipo de alto contraste",
+        "body": "Preenchimento branco com traço escuro para maior clareza.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Ferramenta de Convidado Instantâneo",
+        "body": "Crie e baixe sem fazer login.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para legendas de memes e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/geotag-image": {
+    "path": "/geotag-imagem",
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Geomarcação"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quais formatos suportam marcação geográfica?",
+        "a": "A geotag do convidado concentra-se em imagens JPEG compatíveis."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Os uploads de convidados são compatíveis com JPEG dentro do limite de 10 MB."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Geotag como convidado. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "As coordenadas são verificadas?",
+        "a": "As gravações seguem regras de validação para que os valores sejam bem formados antes da incorporação."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "metaTitle": "Geotag imagens on-line - Adicione GPS a JPEG",
+    "metaDescription": "Leia ou escreva coordenadas GPS verificadas em imagens JPEG compatíveis. Ferramenta de geotag de convidado privado.",
+    "breadcrumbCurrent": "Georreferenciar imagens on-line",
+    "h1": "Georreferenciar imagens on-line",
+    "subtitle": "Adicionar ou inspecionar dados de localização JPEG GPS",
+    "paragraph": "Adicione ou inspecione coordenadas GPS em imagens JPEG compatíveis. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Dados de localização que você pode verificar",
+    "features": [
+      {
+        "title": "JPEG Focado",
+        "body": "Os fluxos de trabalho de geotag têm como alvo fontes JPEG compatíveis.",
+        "tone": "azul"
+      },
+      {
+        "title": "Inspecione primeiro",
+        "body": "Veja se GPS legível já está presente.",
+        "tone": "verde"
+      },
+      {
+        "title": "Escrever coordenadas",
+        "body": "Incorporar latitude e longitude quando a substituição for permitida.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Privacidade dos hóspedes",
+        "body": "Processamento temporário com limpeza automática.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para marcação geográfica e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/image-metadata": {
+    "path": "/ metadados de imagem",
+    "breadcrumbCurrent": "Visualizador de metadados de imagem",
+    "h1": "Visualizador de metadados de imagem",
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Inspecionar"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Você mostra todas as tags EXIF?",
+        "a": "Não. O visualizador mostra os campos da lista de permissões para segurança e clareza."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Não. Inspecione como convidado. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "Posso editar metadados aqui?",
+        "a": "Use o Editor de metadados de imagem SEO para rascunhar e exportar campos SEO."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "metaTitle": "Visualizador de metadados de imagem on-line — Inspecione EXIF com segurança",
+    "metaDescription": "Inspecione dimensões, informações de cores e metadados seguros listados para JPG, PNG e WebP. Visualizador convidado privado.",
+    "subtitle": "Inspecione as propriedades seguras da imagem antes de publicar",
+    "paragraph": "Inspecione as propriedades JPG, PNG e WebP em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Veja o que é importante, com segurança",
+    "features": [
+      {
+        "title": "Propriedades principais",
+        "body": "Dimensões, tipo e detalhes práticos do arquivo.",
+        "tone": "azul"
+      },
+      {
+        "title": "Campos permitidos",
+        "body": "Somente superfícies de metadados seguras e selecionadas são mostradas.",
+        "tone": "verde"
+      },
+      {
+        "title": "Amigável para a Web",
+        "body": "Verificações úteis antes do upload do CMS ou da revisão do SEO.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Privacidade dos hóspedes",
+        "body": "Trabalhos de inspeção temporários com exclusão automática.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para inspeção de metadados e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/image-metadata-editor": {
+    "path": "/editor de metadados de imagem",
+    "breadcrumbCurrent": "Imagem SEO Editor de metadados",
+    "h1": "Imagem SEO Editor de metadados",
+    "howSteps": [
+      {
+        "title": "Envie sua imagem"
+      },
+      {
+        "title": "Editar"
+      },
+      {
+        "title": "Resultado de visualização"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Isso reescreve EXIF dentro de cada formato?",
+        "a": "O editor se concentra na preparação de campos e exportações SEO."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Uploads de convidados suportam JPG, PNG e WebP até 10 MB."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "A edição de convidados está disponível com limites. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "O que posso exportar?",
+        "a": "Use exportações compatíveis com sidecar para CMS e fluxos de trabalho de conteúdo."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "metaTitle": "Imagem SEO Editor de metadados online",
+    "metaDescription": "Escreva, revise e exporte campos de imagem SEO para sites e fluxos de trabalho CMS. Editor de metadados de convidados privados.",
+    "subtitle": "Prepare os campos da imagem SEO antes de publicar",
+    "paragraph": "Rascunhe campos de imagem SEO e exporte sidecars em segundos. Ferramenta online gratuita – não é necessária conta.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Controle Editorial para Imagem SEO",
+    "features": [
+      {
+        "title": "Campos editáveis",
+        "body": "Atualize o texto SEO que você realmente enviou.",
+        "tone": "azul"
+      },
+      {
+        "title": "Exportação amigável",
+        "body": "Baixe sidecars para CMS e fluxos de trabalho de conteúdo.",
+        "tone": "verde"
+      },
+      {
+        "title": "CMS Pronto",
+        "body": "Prepare títulos, descrições e palavras-chave antes de publicar.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Sessões de convidados",
+        "body": "Rascunhos temporários com limpeza automática.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para edição de metadados e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  },
+  "/bulk-image-tools": {
+    "path": "/ ferramentas de imagem em massa",
+    "breadcrumbCurrent": "Ferramentas de imagem em massa",
+    "h1": "Ferramentas de imagem em massa",
+    "howSteps": [
+      {
+        "title": "Carregar um lote"
+      },
+      {
+        "title": "Escolha a operação"
+      },
+      {
+        "title": "Arquivos de processo"
+      },
+      {
+        "title": "Download"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quantos arquivos posso enviar?",
+        "a": "Os trabalhos em massa convidados impõem uma contagem máxima de arquivos e um tamanho total de lote."
+      },
+      {
+        "q": "Existe um limite de tamanho de arquivo?",
+        "a": "Cada arquivo segue o tamanho máximo do convidado e o lote tem um limite total de bytes."
+      },
+      {
+        "q": "Eu preciso de uma conta?",
+        "a": "Os convidados podem executar trabalhos em massa limitados. Os arquivos expiram em uma hora."
+      },
+      {
+        "q": "E se um arquivo falhar?",
+        "a": "Os resultados bem-sucedidos permanecem disponíveis para download; itens com falha mostram um status de erro."
+      },
+      {
+        "q": "Minhas imagens são armazenadas permanentemente?",
+        "a": "Não. Os uploads e resultados dos visitantes expiram em uma hora."
+      }
+    ],
+    "metaTitle": "Ferramentas on-line de imagens em massa – compactar, redimensionar, converter",
+    "metaDescription": "Comprima, redimensione ou converta várias imagens e baixe juntos os resultados bem-sucedidos. Aplicam-se limites em massa de convidados.",
+    "subtitle": "Processe um lote curto sem repetir todas as etapas",
+    "paragraph": "Compacte, redimensione ou converta vários arquivos JPG, PNG ou WebP em um lote. Aplicam-se limites de hóspedes gratuitos.",
+    "trust": [
+      "Nenhuma conta necessária",
+      "Processamento privado e seguro",
+      "Exclusão automática em 1 hora"
+    ],
+    "workspaceNote": "Formatos suportados: JPG, PNG, WebP • Tamanho máximo do arquivo: 10 MB. Seus arquivos são privados e excluídos automaticamente em uma hora.",
+    "featuresHeading": "Velocidade de lote com limites claros",
+    "features": [
+      {
+        "title": "Configurações compartilhadas",
+        "body": "Aplique uma opção de compactação, redimensionamento ou conversão em todo o lote.",
+        "tone": "azul"
+      },
+      {
+        "title": "Status por arquivo",
+        "body": "Veja quais imagens fizeram sucesso e quais precisam de atenção.",
+        "tone": "verde"
+      },
+      {
+        "title": "ZIP Baixar",
+        "body": "Colete resultados bem-sucedidos quando o lote estiver pronto.",
+        "tone": "roxo"
+      },
+      {
+        "title": "Limites de convidados",
+        "body": "O tamanho do lote e o total de bytes seguem a política de hóspedes gratuitos.",
+        "tone": "laranja"
+      }
+    ],
+    "howHeading": "Como funciona",
+    "benefitCards": [
+      {
+        "title": "Sua privacidade é importante",
+        "body": "Suas imagens são processadas de forma privada para processamento em massa e excluídas automaticamente em uma hora.",
+        "kind": "privacidade"
+      },
+      {
+        "title": "Rápido e eficiente",
+        "body": "O processamento de convidados apoiado na nuvem fornece resultados em segundos, sem instalação de software.",
+        "kind": "velocidade"
+      }
+    ],
+    "faqHeading": "Perguntas frequentes"
+  }
+}

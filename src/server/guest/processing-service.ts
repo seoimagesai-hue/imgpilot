@@ -23,6 +23,30 @@ import {
 } from "@/server/guest/convert-policy";
 import {executeGuestConvertJob} from "@/server/guest/convert-service";
 import {
+  GUEST_ROTATE_OPERATION,
+  parseGuestRotateOptions,
+  type GuestRotateOptions,
+} from "@/server/guest/rotate-policy";
+import {executeGuestRotateJob} from "@/server/guest/rotate-service";
+import {
+  GUEST_WATERMARK_OPERATION,
+  parseGuestWatermarkOptions,
+  type GuestWatermarkOptions,
+} from "@/server/guest/watermark-policy";
+import {executeGuestWatermarkJob} from "@/server/guest/watermark-service";
+import {
+  GUEST_BLUR_REGION_OPERATION,
+  parseGuestBlurRegionOptions,
+  type GuestBlurRegionOptions,
+} from "@/server/guest/blur-region-policy";
+import {executeGuestBlurRegionJob} from "@/server/guest/blur-region-service";
+import {
+  GUEST_MEME_OPERATION,
+  parseGuestMemeOptions,
+  type GuestMemeOptions,
+} from "@/server/guest/meme-policy";
+import {executeGuestMemeJob} from "@/server/guest/meme-service";
+import {
   GUEST_GEOTAG_OPERATION,
   guestGeotagOptionsEqual,
   parseGuestGeotagOptions,
@@ -102,6 +126,10 @@ type ParsedJobOptions =
   | GuestResizeOptions
   | GuestCropOptions
   | GuestConvertOptions
+  | GuestRotateOptions
+  | GuestWatermarkOptions
+  | GuestBlurRegionOptions
+  | GuestMemeOptions
   | GuestGeotagOptions
   | GuestMetadataOptions
   | GuestAiAltOptions
@@ -233,6 +261,30 @@ export async function createGuestJob(params: {
         hasAlpha: Boolean(upload.hasAlpha),
         avifSupported,
       });
+    } catch {
+      throw new GuestDomainError("INVALID_REQUEST");
+    }
+  } else if (operation === GUEST_ROTATE_OPERATION) {
+    try {
+      jobOptions = parseGuestRotateOptions(params.options);
+    } catch {
+      throw new GuestDomainError("INVALID_REQUEST");
+    }
+  } else if (operation === GUEST_WATERMARK_OPERATION) {
+    try {
+      jobOptions = parseGuestWatermarkOptions(params.options);
+    } catch {
+      throw new GuestDomainError("INVALID_REQUEST");
+    }
+  } else if (operation === GUEST_BLUR_REGION_OPERATION) {
+    try {
+      jobOptions = parseGuestBlurRegionOptions(params.options);
+    } catch {
+      throw new GuestDomainError("INVALID_REQUEST");
+    }
+  } else if (operation === GUEST_MEME_OPERATION) {
+    try {
+      jobOptions = parseGuestMemeOptions(params.options);
     } catch {
       throw new GuestDomainError("INVALID_REQUEST");
     }
@@ -420,6 +472,62 @@ export async function createGuestJob(params: {
         job: running,
         upload,
         options: jobOptions as GuestConvertOptions,
+      });
+    }
+
+    if (operation === GUEST_ROTATE_OPERATION) {
+      await enqueuePreviousOutputs({
+        sessionId: params.session.id,
+        uploadId: upload.id,
+        operation: GUEST_ROTATE_OPERATION,
+      });
+      return await executeGuestRotateJob({
+        session: params.session,
+        job: running,
+        upload,
+        options: jobOptions as GuestRotateOptions,
+      });
+    }
+
+    if (operation === GUEST_WATERMARK_OPERATION) {
+      await enqueuePreviousOutputs({
+        sessionId: params.session.id,
+        uploadId: upload.id,
+        operation: GUEST_WATERMARK_OPERATION,
+      });
+      return await executeGuestWatermarkJob({
+        session: params.session,
+        job: running,
+        upload,
+        options: jobOptions as GuestWatermarkOptions,
+      });
+    }
+
+    if (operation === GUEST_BLUR_REGION_OPERATION) {
+      await enqueuePreviousOutputs({
+        sessionId: params.session.id,
+        uploadId: upload.id,
+        operation: GUEST_BLUR_REGION_OPERATION,
+      });
+      return await executeGuestBlurRegionJob({
+        session: params.session,
+        job: running,
+        upload,
+        options: jobOptions as GuestBlurRegionOptions,
+      });
+    }
+
+    if (operation === GUEST_MEME_OPERATION) {
+      await enqueuePreviousOutputs({
+        sessionId: params.session.id,
+        uploadId: upload.id,
+        operation: GUEST_MEME_OPERATION,
+      });
+      return await executeGuestMemeJob({
+        session: params.session,
+        job: running,
+        upload,
+        options: jobOptions as GuestMemeOptions,
       });
     }
 

@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/compress-image",
+      "title": "Bild komprimieren",
+      "body": "Reduzieren Sie die Dateigrößen JPG, PNG und WebP und sorgen Sie gleichzeitig dafür, dass das Ergebnis klar und nutzbar bleibt.",
+      "icon": "Kompresse"
+    },
+    {
+      "href": "/resize-image",
+      "title": "Bildgröße ändern",
+      "body": "Ändern Sie die Bildabmessungen nach Breite, Höhe oder Anpassungseinstellungen ohne unerwünschte Vergrößerung.",
+      "icon": "Größe ändern"
+    },
+    {
+      "title": "Bild zuschneiden",
+      "href": "/Bild zuschneiden",
+      "body": "Wählen Sie den genauen Bereich aus, den Sie behalten möchten, mit freien und festen Beschnittsteuerungen.",
+      "icon": "Ernte"
+    },
+    {
+      "title": "Bild konvertieren",
+      "href": "/convert-image",
+      "body": "Konvertieren Sie zwischen den Formaten JPG, PNG, WebP und den unterstützten AVIF-Formaten mit sicherer Ausgabeüberprüfung.",
+      "icon": "konvertieren"
+    },
+    {
+      "title": "Geotag-Bild",
+      "href": "/geotag-image",
+      "body": "Fügen Sie verifizierte GPS-Koordinaten zu kompatiblen JPEG-Bildern hinzu, ohne das Original zu ändern.",
+      "icon": "Geotag"
+    },
+    {
+      "title": "Bildmetadaten-Viewer",
+      "href": "/image-Metadaten",
+      "body": "Überprüfen Sie Abmessungen, Farbinformationen und sichere Bildmetadaten auf der Zulassungsliste.",
+      "icon": "Metadaten"
+    },
+    {
+      "title": "Bild SEO Metadaten-Editor",
+      "href": "/image-Metadaten-editor",
+      "body": "Schreiben, überprüfen und exportieren Sie Bild-SEO-Felder für Ihre Website oder Ihr Content-Management-System.",
+      "icon": "Editor"
+    },
+    {
+      "title": "Massenbild-Tools",
+      "href": "/bulk-image-tools",
+      "body": "Komprimieren, skalieren oder konvertieren Sie mehrere Bilder und laden Sie erfolgreiche Ergebnisse zusammen herunter.",
+      "icon": "Schüttgut"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Komprimieren Sie JPG",
+      "badge": "JPG",
+      "href": "/compress-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/compress-png",
+      "label": "Komprimieren Sie PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/compress-webp",
+      "label": "Komprimieren Sie WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/resize-jpg",
+      "label": "Größe ändern JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/resize-png",
+      "label": "Größe ändern PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/resize-webp",
+      "label": "Größe ändern WebP"
+    },
+    {
+      "href": "/jpg-to-png",
+      "label": "JPG bis PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-to-webp",
+      "label": "JPG bis WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-to-jpg",
+      "label": "PNG bis JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-to-webp",
+      "label": "PNG bis WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-to-jpg",
+      "label": "WebP bis JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-to-png",
+      "label": "WebP bis PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Ein praktisches Format für Fotos, Webinhalte und kleinere verlustbehaftete Bilddateien.",
+      "href": "/compress-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Ein verlustfreies Format, das häufig für Grafiken und Bilder verwendet wird, die Transparenz erfordern.",
+      "href": "/compress-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Ein modernes Webformat, das eine effiziente Komprimierung mit optionaler Transparenz bietet.",
+      "href": "/compress-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Verfügbar für unterstützte Konvertierungsworkflows, wenn die Serverlaufzeit sie codieren und überprüfen kann.",
+      "href": "/jpg-to-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot – Bilder online komprimieren, in der Größe ändern, konvertieren und optimieren",
+  "metaDescription": "Komprimieren, skalieren, beschneiden, konvertieren und optimieren Sie JPG-, PNG- und WebP-Bilder online. Nutzen Sie private Gast-Tools ohne Konto, mit automatischer Löschung innerhalb einer Stunde.",
+  "heroBadge": "Kostenlose Online-Bildtools für schnellere und sauberere Websites",
+  "h1": "Optimieren Sie jedes Bild in einem einfachen Arbeitsbereich",
+  "heroParagraph": "Komprimieren, skalieren, beschneiden, konvertieren und optimieren Sie Ihre Bilder, ohne Software installieren zu müssen. Starten Sie kostenlos ohne Konto, behalten Sie die volle Kontrolle über Ihre Dateien und laden Sie saubere, verifizierte Ergebnisse mit nur wenigen Klicks herunter.",
+  "uploadHeading": "Fügen Sie hier ein Bild ein, um loszulegen",
+  "uploadSupport": "Laden Sie ein JPG-, PNG- oder WebP-Bild hoch oder fügen Sie eines direkt aus Ihrer Zwischenablage ein.",
+  "chooseImage": "Wählen Sie ein Bild",
+  "pasteHint": "Sie können ein Bild auch mit Strg + V oder ⌘ + V einfügen",
+  "formatLimitLine": "JPG, PNG und WebP • Bis zu {maxFileSize} • Kein Konto erforderlich",
+  "privacyLine": "Ihre Gästedateien bleiben privat und werden innerhalb einer Stunde automatisch gelöscht.",
+  "defaultActionLabel": "Beginnen Sie mit der Bildkomprimierung",
+  "trust": [
+    {
+      "title": "Kein Konto erforderlich",
+      "body": "Nutzen Sie als Gast sofort wichtige Bildtools."
+    },
+    {
+      "title": "Private Verarbeitung",
+      "body": "Dateien bleiben im geschützten temporären Speicher."
+    },
+    {
+      "title": "Automatisches Löschen",
+      "body": "Gastdateien verfallen innerhalb einer Stunde."
+    },
+    {
+      "title": "Verifizierte Ergebnisse",
+      "body": "Die Ausgaben werden vor dem Download vom Server überprüft."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Über 10 Millionen Bilder verarbeitet",
+      "body": "Zuverlässige Workflows für die tägliche Optimierung."
+    },
+    {
+      "title": "100 % privat und sicher",
+      "body": "Temporäre Lagerung mit kurzlebigem Zugriff."
+    },
+    {
+      "title": "1 Stunde automatisches Löschen",
+      "body": "Gastdateien verfallen nach einem festen Zeitplan."
+    },
+    {
+      "title": "Kein Wasserzeichen, sauberer Download",
+      "body": "Laden Sie verifizierte Ergebnisse ohne Branding herunter."
+    }
+  ],
+  "toolsEyebrow": "Alles was Sie brauchen",
+  "toolsHeading": "Leistungsstarke Bildtools, bereit, wenn Sie es sind",
+  "toolsDescription": "Erledigen Sie alltägliche Bildaufgaben von einem übersichtlichen Arbeitsplatz aus. Jedes Tool ist so konzipiert, dass es für Anfänger einfach zu bedienen ist und Profis dennoch die Steuerungsmöglichkeiten bietet, die sie benötigen.",
+  "openTool": "Werkzeug öffnen",
+  "exploreAllTools": "Entdecken Sie alle Tools",
+  "formatEyebrow": "Beliebte Bildaufgaben",
+  "formatHeading": "Gehen Sie direkt zu dem Format, das Sie benötigen",
+  "formatDescription": "Wählen Sie ein spezielles Tool für Ihr Bildformat oder Ihre Konvertierung. Ihre bevorzugten Quellen- und Ausgabeeinstellungen sind bereits ausgewählt.",
+  "platformEyebrow": "Ein privater Bildarbeitsbereich",
+  "platformHeading": "Vom Upload zum Download ohne die übliche Komplexität",
+  "platformP1": "Img Pilot vereint die nützlichsten Bild-Workflows in einem einheitlichen Erlebnis. Sie müssen nicht für jede Aufgabe eine andere Benutzeroberfläche erlernen. Laden Sie Ihr Bild hoch, wählen Sie die wichtigen Einstellungen, verarbeiten Sie es sicher und laden Sie das verifizierte Ergebnis herunter.",
+  "platformP2": "Der gleiche Workflow unterstützt schnelle Einzelbildaufträge, formatspezifische Zielseiten und ausgewählte Massenvorgänge. Für Gasttools ist kein Konto erforderlich, während angemeldete Benutzer auf Projekte und längerfristige Arbeitsbereichsfunktionen zugreifen können.",
+  "platformFeatures": [
+    "Ein einheitlicher Werkzeugarbeitsbereich",
+    "Klare Vorher-Nachher-Informationen",
+    "Privater temporärer Gästespeicher",
+    "Individuelle und ausgewählte Massenworkflows",
+    "Englisch- und Urdu-Schnittstellen",
+    "Vom Server überprüfte Ausgaben"
+  ],
+  "whyEyebrow": "Auf Klarheit und Kontrolle ausgerichtet",
+  "whyHeading": "Bildtools, die Ihre Zeit und Ihre Dateien respektieren",
+  "whyIntro": "Jeder Workflow ist darauf ausgelegt, unnötige Schritte zu vermeiden und gleichzeitig die wichtigen Steuerelemente sichtbar zu halten. Sie wissen immer, was mit Ihrem Bild passiert, was das Ergebnis enthält und wann temporäre Dateien entfernt werden.",
+  "benefits": [
+    {
+      "title": "Beginnen Sie sofort",
+      "body": "Nutzen Sie die wichtigsten Gasttools ohne Registrierung, Softwareinstallation oder Projekteinrichtung."
+    },
+    {
+      "title": "Bewahren Sie das Original sicher auf",
+      "body": "Durch die Verarbeitung wird ein neues Ergebnis erstellt, während das hochgeladene Original unverändert bleibt."
+    },
+    {
+      "title": "Erfahren Sie, was sich geändert hat",
+      "body": "Vergleichen Sie Abmessungen, Formate und Dateigrößen, bevor Sie das Endergebnis herunterladen."
+    },
+    {
+      "title": "Formatübergreifend arbeiten",
+      "body": "Verwenden Sie dedizierte Workflows für JPG, PNG und WebP mit ehrlicher formatspezifischer Handhabung."
+    },
+    {
+      "title": "Temporäre Dateien schützen",
+      "body": "Gastbilder und generierte Ergebnisse werden innerhalb des Aufbewahrungsfensters automatisch entfernt."
+    },
+    {
+      "title": "Bereiten Sie Bilder für die Suche vor",
+      "body": "Überprüfen Sie Metadaten, verbessern Sie Dateinamen und organisieren Sie Alternativtext für die Website und die CMS-Nutzung."
+    }
+  ],
+  "howEyebrow": "Von Anfang bis Ende einfach",
+  "howHeading": "Erledigen Sie Ihre Bildaufgabe in vier klaren Schritten",
+  "steps": [
+    {
+      "title": "Laden Sie Ihr Bild hoch",
+      "body": "Wählen Sie ein unterstütztes Bild, ziehen Sie es in den Arbeitsbereich oder fügen Sie es aus Ihrer Zwischenablage ein."
+    },
+    {
+      "title": "Wählen Sie Ihre Einstellungen",
+      "body": "Wählen Sie das für Ihre Aufgabe erforderliche Format, die Abmessungen, die Qualität, den Zuschneidebereich oder die Metadatenoptionen."
+    },
+    {
+      "title": "Sicher verarbeiten",
+      "body": "Der Server führt den Vorgang aus und überprüft ihn, während er klare Fortschritts- und Fehlerzustände anzeigt."
+    },
+    {
+      "title": "Laden Sie das Ergebnis herunter",
+      "body": "Überprüfen Sie die letzten Details, laden Sie Ihre Datei herunter und bearbeiten Sie bei Bedarf ein weiteres Bild."
+    }
+  ],
+  "beforeEyebrow": "Sehen Sie den Unterschied",
+  "beforeHeading": "Sehen Sie sich den Unterschied an, bevor Sie ihn herunterladen",
+  "beforeParagraph": "Klare Ergebniszusammenfassungen helfen Ihnen zu verstehen, was sich geändert hat. Vergleichen Sie das Originalbild mit der verarbeiteten Version, überprüfen Sie die Dateigröße oder -abmessungen und laden Sie es erst herunter, wenn die Ausgabe Ihren Anforderungen entspricht.",
+  "beforeBullets": [
+    "Das Original bleibt erhalten, während ein neues Ergebnis erstellt wird",
+    "Verifizierte Ausgabe mit ehrlichen Größen- und Dimensionsangaben"
+  ],
+  "beforeCaption": "Produktabbildung – nur Beispiel. Die tatsächlichen Einsparungen variieren je nach Bild.",
+  "useEyebrow": "Entwickelt für echte Arbeit",
+  "useHeading": "Bereiten Sie Bilder für Websites, Inhalte und den täglichen Austausch vor",
+  "useCases": [
+    {
+      "title": "Websites",
+      "body": "Reduzieren Sie unnötiges Bildgewicht und sorgen Sie für einheitliche Abmessungen für schnellere und sauberere Seiten."
+    },
+    {
+      "title": "Online-Shops",
+      "body": "Organisieren Sie Produktbildformate, Dateinamen, Abmessungen und Metadaten vor der Veröffentlichung."
+    },
+    {
+      "title": "Sozialer Inhalt",
+      "body": "Passen Sie die Größe von Bildern an und schneiden Sie sie in praktische Seitenverhältnisse für Beiträge, Miniaturansichten und Kampagnen zu."
+    },
+    {
+      "title": "Blogs und Verlage",
+      "body": "Erstellen Sie hellere Artikelbilder und bereiten Sie verständliche, beschreibende Bildtexte vor."
+    },
+    {
+      "title": "E-Mail und Dokumente",
+      "body": "Reduzieren Sie große Dateien, damit Bilder leichter angehängt, geteilt und in Präsentationen eingebunden werden können."
+    },
+    {
+      "title": "Lokal SEO",
+      "body": "Überprüfen Sie Metadaten, fügen Sie verifizierte JPEG-Koordinaten hinzu und organisieren Sie Bildinformationen SEO für lokale Inhaltsworkflows."
+    }
+  ],
+  "seoEyebrow": "Mehr als nur einfache Bearbeitung",
+  "seoHeading": "Verwandeln Sie gewöhnliche Bilder in bessere Website-Assets",
+  "seoP1": "Bei der Bildoptimierung geht es nicht nur um die Reduzierung der Dateigröße. Klare Dateinamen, präzise Alternativtexte, geeignete Abmessungen und nützliche Metadaten können die Verwaltung von Bildbibliotheken und den Zugriff auf Website-Inhalte erleichtern.",
+  "seoP2": "Img Pilot umfasst Tools zum Überprüfen von Metadaten, zum Entwerfen von Bildfeldern SEO und zum Exportieren von Informationen zur Verwendung auf einer Website oder CMS.",
+  "seoLinks": [
+    {
+      "href": "/image-Metadaten",
+      "label": "Bildmetadaten anzeigen"
+    },
+    {
+      "href": "/image-Metadaten-editor",
+      "label": "Bild SEO Metadaten bearbeiten"
+    },
+    {
+      "href": "/geotag-image",
+      "label": "Geotaggen Sie ein JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO und Barrierefreiheitstools bieten Hilfestellungen und Empfehlungen. Sie garantieren keine Suchrankings oder automatische Compliance.",
+  "bulkEyebrow": "Arbeiten Sie mit mehr als einem Bild?",
+  "bulkHeading": "Verarbeiten Sie eine kleine Charge, ohne jeden Schritt wiederholen zu müssen",
+  "bulkParagraph": "Verwenden Sie Bulk Image Tools, um mehrere unterstützte Bilder mit einem gemeinsamen Satz von Optionen zu komprimieren, ihre Größe zu ändern oder zu konvertieren. Überprüfen Sie jede Datei einzeln, laden Sie einzelne Ergebnisse herunter oder sammeln Sie erfolgreiche Ergebnisse in einem ZIP-Archiv.",
+  "bulkBullets": [
+    "Massenkomprimierung",
+    "Massenänderung der Größe",
+    "Massenkonvertierung",
+    "Verarbeitungsstatus pro Datei",
+    "Individuelle Downloads",
+    "ZIP-Archiv für erfolgreiche Ergebnisse"
+  ],
+  "bulkCta": "Öffnen Sie die Massenbild-Tools",
+  "bulkNotice": "Es gelten Beschränkungen für die Anzahl der Gäste. Für größere Arbeitsabläufe ist möglicherweise ein Konto erforderlich.",
+  "privacyEyebrow": "Datenschutz durch Design",
+  "privacyHeading": "Temporäre Dateien sollten temporär bleiben",
+  "privacyP1": "Gast-Uploads werden privat gespeichert, während Ihr ausgewähltes Tool funktioniert. Ihr Bild, generierte Ausgaben und temporäre Ergebnisdaten verfallen innerhalb einer Stunde. Durch das Herunterladen, Aktualisieren oder erneute Bearbeiten wird diese Frist nicht verlängert.",
+  "privacyP2": "Gastsitzungen erstellen keine permanente Bildbibliothek. Melden Sie sich nur an, wenn Sie Projekte oder längerfristige Kontofunktionen benötigen.",
+  "privacyFacts": [
+    "Privater temporärer Objektspeicher",
+    "Kurzfristige Vorschauen und Downloads",
+    "Keine öffentliche Gastbild-URL",
+    "Automatische Bereinigung",
+    "Keine ständige Gästehistorie",
+    "Originaldateien bleiben während der Verarbeitung unverändert"
+  ],
+  "privacyCta": "Lesen Sie unsere Datenschutzrichtlinie",
+  "formatsHeading": "Arbeiten Sie mit den Bildformaten, die Sie am häufigsten verwenden",
+  "formatsParagraph": "Kerngast-Tools unterstützen JPG-, PNG- und WebP-Bilder. Die verfügbaren Ausgabeformate und Metadatenfunktionen hängen vom ausgewählten Vorgang und den Funktionen jedes Bildformats ab.",
+  "faqHeading": "Häufig gestellte Fragen",
+  "faqs": [
+    {
+      "q": "Benötige ich ein Konto, um Img Pilot zu verwenden?",
+      "a": "Nein. Die wichtigsten Gasttools können ohne die Erstellung eines Kontos verwendet werden. Es gelten Gastlimits und Kontofunktionen sind verfügbar, wenn Sie gespeicherte Projekte oder höhere Workflow-Limits benötigen."
+    },
+    {
+      "q": "Wie lange werden Gastbilder gespeichert?",
+      "a": "Gastbilder und vorläufige Ergebnisse verfallen innerhalb einer Stunde. Durch das Herunterladen, Aktualisieren oder erneute Bearbeiten wird diese Frist nicht verlängert."
+    },
+    {
+      "q": "Wird durch die Verarbeitung mein Originalbild überschrieben?",
+      "a": "Nein. Bei der Verarbeitung wird ein separates Ergebnis erstellt. Das hochgeladene Original bleibt während der aktiven Gastsitzung unverändert."
+    },
+    {
+      "q": "Welche Bildformate werden unterstützt?",
+      "a": "Kerntools unterstützen JPG, PNG und WebP. Einige Konvertierungsworkflows unterstützen möglicherweise auch AVIF, wenn der Server das Ergebnis kodieren und überprüfen kann."
+    },
+    {
+      "q": "Kann ich mehrere Bilder zusammen verarbeiten?",
+      "a": "Ja. Bulk Image Tools unterstützen ausgewählte Arbeitsabläufe zum Komprimieren, Ändern der Größe und Konvertieren. Es gelten Gruppenbeschränkungen für Gäste."
+    },
+    {
+      "q": "Wird ein Bild durch Komprimieren immer kleiner?",
+      "a": "Nicht immer. Die endgültige Größe hängt vom Originalbild, seinem Format und den gewählten Einstellungen ab. Img Pilot meldet das tatsächliche Ergebnis ehrlich, auch wenn die Ausgabe größer ist."
+    },
+    {
+      "q": "Ist Alternativtext in das Bild eingebettet?",
+      "a": "Alt-Text wird normalerweise einer Website oder einem CMS-Datensatz hinzugefügt und nicht allgemein in die Bilddatei eingebettet. Der Metadaten-Editor hilft Ihnen beim Vorbereiten und Exportieren für die Verwendung auf Ihrer Website."
+    },
+    {
+      "q": "Garantiert die Bildoptimierung bessere Suchrankings?",
+      "a": "Nein. Die Bildoptimierung kann Leistung, Organisation und Zugänglichkeit unterstützen, aber kein einzelnes Bildtool kann Suchrankings garantieren."
+    }
+  ],
+  "finalHeading": "Ihr nächstes Bild ist bereit zur Optimierung",
+  "finalParagraph": "Laden Sie ein JPG-, PNG- oder WebP-Bild hoch und erledigen Sie Ihre Aufgabe, ohne Software zu installieren oder ein Konto zu erstellen.",
+  "finalPrimary": "Wählen Sie ein Bild",
+  "finalSecondary": "Entdecken Sie alle Tools",
+  "finalTrust": "Private Gastverarbeitung · Automatische einstündige Löschung · Kein Wasserzeichen",
+  "footerBrand": "Private Online-Tools zum Komprimieren, Ändern der Größe, Konvertieren und Vorbereiten von Bildern für das Web.",
+  "footerRights": "© {year} Img Pilot. Alle Rechte vorbehalten."
+}

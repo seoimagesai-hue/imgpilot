@@ -1,7 +1,7 @@
 import {NextIntlClientProvider, hasLocale} from "next-intl";
 import {getMessages, setRequestLocale} from "next-intl/server";
 import {notFound} from "next/navigation";
-import {routing} from "@/i18n/routing";
+import {isRtlLocale, routing} from "@/i18n/routing";
 
 type LocaleLayoutProps = Readonly<{
   children: React.ReactNode;
@@ -22,7 +22,7 @@ export default async function LocaleLayout({children, params}: LocaleLayoutProps
 
   setRequestLocale(locale);
   const messages = await getMessages();
-  const direction = locale === "ur" ? "rtl" : "ltr";
+  const direction = isRtlLocale(locale) ? "rtl" : "ltr";
 
   return (
     <html lang={locale} dir={direction}>

@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Compress PNG landing — transparency / logos / UI focus (distinct from Compress JPG).
  */
@@ -83,7 +84,7 @@ export type CompressPngCopy = {
 };
 
 const en: CompressPngCopy = {
-  metaTitle: "Compress PNG Images Online Free | SEO Images",
+  metaTitle: "Compress PNG Images Online Free | Img Pilot",
   metaDescription:
     "Compress PNG images online while preserving transparency. Reduce PNG file size securely and download an optimized image in seconds.",
   h1: "Compress PNG Images Online",
@@ -310,7 +311,7 @@ const en: CompressPngCopy = {
 };
 
 const ur: CompressPngCopy = {
-  metaTitle: "آن لائن PNG تصاویر کمپریس کریں مفت | SEO Images",
+  metaTitle: "آن لائن PNG تصاویر کمپریس کریں مفت | Img Pilot",
   metaDescription:
     "شفافیت برقرار رکھتے ہوئے آن لائن PNG تصاویر کمپریس کریں۔ فائل سائز محفوظ طریقے سے کم کریں اور چند سیکنڈز میں آپٹیمائزڈ تصویر ڈاؤن لوڈ کریں۔",
   h1: "آن لائن PNG تصاویر کمپریس کریں",
@@ -537,7 +538,7 @@ const ur: CompressPngCopy = {
 };
 
 export function getCompressPngCopy(locale: string): CompressPngCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function compressPngSeoCompat() {

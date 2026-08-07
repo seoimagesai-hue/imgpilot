@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Resize PNG landing — logos / UI / icons / screenshots (distinct from Resize JPG).
  */
@@ -114,7 +115,7 @@ export const RESIZE_PNG_POPULAR_SIZES = [
 ] as const;
 
 const en: ResizePngCopy = {
-  metaTitle: "Resize PNG Images Online Free | SEO Images",
+  metaTitle: "Resize PNG Images Online Free | Img Pilot",
   metaDescription:
     "Resize PNG images online while preserving transparency. Change image dimensions securely and download your resized PNG in seconds.",
   h1: "Resize PNG Images Online",
@@ -356,7 +357,7 @@ const en: ResizePngCopy = {
 };
 
 const ur: ResizePngCopy = {
-  metaTitle: "آن لائن PNG تصاویر کا سائز بدلیں مفت | SEO Images",
+  metaTitle: "آن لائن PNG تصاویر کا سائز بدلیں مفت | Img Pilot",
   metaDescription:
     "شفافیت برقرار رکھتے ہوئے آن لائن PNG تصاویر کا سائز بدلیں۔ ابعاد محفوظ طریقے سے تبدیل کریں اور سیکنڈز میں ری سائزڈ PNG ڈاؤن لوڈ کریں۔",
   h1: "آن لائن PNG تصاویر کا سائز بدلیں",
@@ -598,7 +599,7 @@ const ur: ResizePngCopy = {
 };
 
 export function getResizePngCopy(locale: string): ResizePngCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function resizePngSeoCompat() {

@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Bulk Compress landing — commercial batch optimization for storage, CWV and workflows.
  * Distinct from single-image Compress JPG/PNG/WebP landings.
@@ -100,7 +101,7 @@ export type BulkCompressCopy = {
 };
 
 const en: BulkCompressCopy = {
-  metaTitle: "Bulk Compress Images Online Free | SEO Images",
+  metaTitle: "Bulk Compress Images Online Free | Img Pilot",
   metaDescription:
     "Compress multiple JPG, PNG and WebP images at once. Batch optimize images online and download all compressed files together in a ZIP archive.",
   h1: "Bulk Compress Images Online",
@@ -375,7 +376,7 @@ const en: BulkCompressCopy = {
 };
 
 const ur: BulkCompressCopy = {
-  metaTitle: "آن لائن بلک کمپریس امیجز مفت | SEO Images",
+  metaTitle: "آن لائن بلک کمپریس امیجز مفت | Img Pilot",
   metaDescription:
     "ایک ساتھ متعدد JPG، PNG اور WebP امیجز کمپریس کریں۔ آن لائن بیچ آپٹیمائز کریں اور تمام کمپریس شدہ فائلیں ایک ZIP میں ڈاؤن لوڈ کریں۔",
   h1: "آن لائن بلک کمپریس امیجز",
@@ -652,7 +653,7 @@ const ur: BulkCompressCopy = {
 };
 
 export function getBulkCompressCopy(locale: string): BulkCompressCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export type BulkCompressLocale = AppLocale;

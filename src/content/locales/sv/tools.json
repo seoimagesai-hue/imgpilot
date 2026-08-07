@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/komprimera-bild",
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Komprimera"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hur fungerar bildkomprimering?",
+        "a": "Verktyget kodar om din bild med inställningar som minskar filstorleken samtidigt som resultatet blir visuellt användbart. Välj en ljusare eller starkare förinställning innan du bearbetar."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB. Större arbetsflöden kan kräva ett konto."
+      },
+      {
+        "q": "Kommer komprimering att minska bildkvaliteten?",
+        "a": "Starkare förinställningar kan mjuka upp fina detaljer. Använd Maximal Quality eller Balanced när utseendet betyder mest, och förhandsgranska alltid före nedladdning."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Gästkomprimering fungerar utan att logga in. Filer förblir privata och upphör att gälla inom en timme."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat är tillfälliga och raderas automatiskt inom en timme."
+      }
+    ],
+    "metaTitle": "Komprimera bilder online — Förminska JPG, PNG & WebP storlek",
+    "metaDescription": "Komprimera bilder online utan att förlora kvalitet. Minska filstorlekarna JPG, PNG och WebP med privat gästbearbetning och automatisk radering inom en timme.",
+    "breadcrumbCurrent": "Komprimera bilder online",
+    "h1": "Komprimera bilder online",
+    "subtitle": "Minska bildfilstorleken utan att förlora kvalitet",
+    "paragraph": "Komprimera bilderna JPG, PNG och WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Mindre storlek, samma bra kvalitet",
+    "features": [
+      {
+        "title": "Smart kompression",
+        "body": "Intelligent komprimering som håller dina bilder skarpa.",
+        "tone": "blå"
+      },
+      {
+        "title": "Upp till 80 % mindre",
+        "body": "Minska filstorleken dramatiskt för snabbare uppladdningar och sidladdningar.",
+        "tone": "grön"
+      },
+      {
+        "title": "Perfekt för webben",
+        "body": "Optimera bilder för webbplatser, bloggar och produktsidor.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Kvalitet du kan lita på",
+        "body": "Förhandsgranska före nedladdning så att kvaliteten förblir under din kontroll.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd komprimering ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/resize-image": {
+    "path": "/ändra storlek på bild",
+    "features": [
+      {
+        "title": "Exakta mått",
+        "body": "Ange bredd och höjd som matchar dina layoutbehov.",
+        "tone": "blå"
+      },
+      {
+        "title": "Passa inuti",
+        "body": "Skala bilder till en ruta med bibehållen bildförhållande.",
+        "tone": "grön"
+      },
+      {
+        "title": "Ingen oönskad uppskalning",
+        "body": "Skyddsräcken hjälper till att undvika att sträcka ut små källor.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Webben redo",
+        "body": "Förbered konsekventa storlekar för sidor och produktrutnät.",
+        "tone": "orange"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Ändra storlek"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kan jag behålla bildförhållandet?",
+        "a": "Ja. Använd inpassade eller länkade dimensioner så att bilder skalas rent utan förvrängning."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Kommer storleksändring förstora min bild?",
+        "a": "Som standard undviker arbetsflöden oönskad förstoring. Välj mått som passar din källa."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Börja ändra storlek som gäst. Tillfälliga filer löper ut inom en timme."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat raderas automatiskt inom en timme."
+      }
+    ],
+    "metaTitle": "Ändra storlek på bilder online — Ändra dimensioner för webb och socialt",
+    "metaDescription": "Ändra storlek på JPG, PNG och WebP bilder online efter bredd, höjd eller passform. Privat gästverktyg utan konto krävs.",
+    "breadcrumbCurrent": "Ändra storlek på bilder online",
+    "h1": "Ändra storlek på bilder online",
+    "subtitle": "Ändra dimensioner för webb, social och layout",
+    "paragraph": "Ändra storlek på bilderna JPG, PNG och WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Exakt kontroll, rena resultat",
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder bearbetas privat för storleksändring och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/crop-image": {
+    "path": "/beskär-bild",
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Beskära"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kan jag beskära till en kvadrat?",
+        "a": "Ja. Välj ett förhållande på 1:1 eller rita en gratis skörd som matchar dina behov."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Är originalet överskrivet?",
+        "a": "Nej. Bearbetning skapar ett nytt beskuret resultat."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Beskär som gäst. Filer raderas automatiskt inom en timme."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "metaTitle": "Beskär bilder online — Gratis beskärning med fast kvot",
+    "metaDescription": "Beskär JPG, PNG och WebP bilder online med gratis eller fasta kontroller. Privat gästbehandling, inget konto krävs.",
+    "breadcrumbCurrent": "Beskär bilder online",
+    "h1": "Beskär bilder online",
+    "subtitle": "Behåll bara den del av bilden som är viktig",
+    "paragraph": "Beskär JPG, PNG och WebP bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Beskär med självförtroende",
+    "features": [
+      {
+        "title": "Gratis gröda",
+        "body": "Välj valfritt område i bilden och behåll exakt det området.",
+        "tone": "blå"
+      },
+      {
+        "title": "Fasta förhållanden",
+        "body": "Använd vanliga bildförhållanden för konsekventa layouter.",
+        "tone": "grön"
+      },
+      {
+        "title": "Orienteringssäker",
+        "body": "Beskärningsmatematiken respekterar orienterade dimensioner efter uppladdning.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Samma format ut",
+        "body": "Ladda ner ett beskuret resultat i ditt källformat när det stöds.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder bearbetas privat för beskärning och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/convert-image": {
+    "path": "/konvertera-bild",
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Konvertera"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Vilka konverteringar stöds?",
+        "a": "Kärngästkonvertering omfattar JPG, PNG och WebP. AVIF erbjuds när körtiden kan koda och verifiera den."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Kommer transparensen att behållas?",
+        "a": "Vid konvertering till format som stöder alfa kan transparensen bevaras enligt verktygsalternativ."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Konvertera som gäst. Tillfälliga filer löper ut inom en timme."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat raderas automatiskt inom en timme."
+      }
+    ],
+    "metaTitle": "Konvertera bilder online — JPG, PNG, WebP & AVIF",
+    "metaDescription": "Konvertera mellan JPG, PNG, WebP och stödda AVIF-format online. Privat gästkonvertering med verifierade utgångar.",
+    "breadcrumbCurrent": "Konvertera bilder online",
+    "h1": "Konvertera bilder online",
+    "subtitle": "Byt format för webben utan skrivbordsprogram",
+    "paragraph": "Konvertera JPG, PNG och WebP bilder på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Formatändringar på ett enkelt sätt",
+    "features": [
+      {
+        "title": "Populära format",
+        "body": "Flytta mellan JPG, PNG och WebP med tydliga alternativ.",
+        "tone": "blå"
+      },
+      {
+        "title": "Transparensmedveten",
+        "body": "PNG och WebP alpha hanteras noggrant av policyn.",
+        "tone": "grön"
+      },
+      {
+        "title": "AVIF När du är klar",
+        "body": "Koda till AVIF endast när servern kan verifiera det.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Ärlig utgång",
+        "body": "Känn till den resulterande MIME-typen och storleken innan du laddar ned.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för konvertering och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Rotera"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Vilka vinklar stöds?",
+        "a": "Gästrotationsstöd 90°, 180° och 270° plus valfria flips."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Rotera som gäst. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Används EXIF orientering?",
+        "a": "Källor är orienteringsnormaliserade före transformation så resultaten matchar vad du förväntar dig."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "path": "/rotera-bild",
+    "metaTitle": "Rotera bild online — Vänd JPG, PNG och WebP",
+    "metaDescription": "Rotera bilderna 90°, 180° eller 270° och vänd horisontellt eller vertikalt. Gratis gästverktyg med privat tillfällig förvaring.",
+    "breadcrumbCurrent": "Rotera bilder online",
+    "h1": "Rotera bilder online",
+    "subtitle": "Vänd eller vänd bilder för layout och design",
+    "paragraph": "Rotera eller vänd bilderna JPG, PNG och WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Snabba orienteringsfixar",
+    "features": [
+      {
+        "title": "90° steg",
+        "body": "Rotera 90°, 180° eller 270° i en gång.",
+        "tone": "blå"
+      },
+      {
+        "title": "Vändkontroller",
+        "body": "Spegel horisontellt eller vertikalt vid behov.",
+        "tone": "grön"
+      },
+      {
+        "title": "Samma format",
+        "body": "Utdata förblir i ditt uppladdade format.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Privata gästjobb",
+        "body": "Kortlivad bearbetning med automatisk rensning.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för rotation och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Vattenstämpel"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kan jag ladda upp en vattenstämpel med logotyp?",
+        "a": "Detta gästverktyg stämplar text. Använd kort varumärkestext för tillfället."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Vattenmärke som gäst. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Kommer vattenstämpeln att täcka mitt ämne?",
+        "a": "Välj hörnpositioner och lägre opacitet för att hålla motiven synliga."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "path": "/vattenmärke-bild",
+    "metaTitle": "Vattenstämpelbilder online — Lägg till textvattenstämplar",
+    "metaDescription": "Stämpla korta textvattenstämplar på JPG, PNG och WebP med positions- och opacitetskontroller. Privat gästverktyg.",
+    "breadcrumbCurrent": "Vattenstämpelbilder online",
+    "h1": "Vattenstämpelbilder online",
+    "subtitle": "Stämpla kort text utan att täcka hela bilden",
+    "paragraph": "Lägg till en textvattenstämpel till bilderna JPG, PNG eller WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Skydda bilder med Light Branding",
+    "features": [
+      {
+        "title": "Korta textstämplar",
+        "body": "Lägg till en kortfattad vattenstämpel som förblir läsbar.",
+        "tone": "blå"
+      },
+      {
+        "title": "Positionskontroll",
+        "body": "Placera vattenstämplar i hörnen eller mitten.",
+        "tone": "grön"
+      },
+      {
+        "title": "Opacitetsreglage",
+        "body": "Balansera synlighet mot bildinnehåll.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Samma format ut",
+        "body": "Ladda ner en vattenmärkt fil i ditt källformat.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för vattenmärkning och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Fläck"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Upptäcker detta ansikten automatiskt?",
+        "a": "Nej. Du väljer regionen manuellt i procent av bilden."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Blur som gäst. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Kan jag göra flera områden oskarpa?",
+        "a": "Detta gästverktyg tillämpar en region per körning. Kör igen för att sudda ut ett annat område."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "path": "/oskärpa-region",
+    "metaTitle": "Oskärpa bildregion online — Dölj ansikten och detaljer",
+    "metaDescription": "Skärpa manuellt ett område med JPG, PNG eller WebP bilder för att dölja ansikten, plattor eller andra detaljer. Privat gästverktyg.",
+    "breadcrumbCurrent": "Oskärpa region online",
+    "h1": "Oskärpa region online",
+    "subtitle": "Dölj känsliga detaljer med en manuell oskärpa",
+    "paragraph": "Gör en vald region suddig på bilderna JPG, PNG eller WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Oskärpa vad som behöver sekretess",
+    "features": [
+      {
+        "title": "Manuell region",
+        "body": "Du väljer exakt var suddigheten ska appliceras.",
+        "tone": "blå"
+      },
+      {
+        "title": "Styrkenivåer",
+        "body": "Lätt, medium eller stark oskärpa för olika behov.",
+        "tone": "grön"
+      },
+      {
+        "title": "Sekretessvänlig",
+        "body": "Dölj detaljer innan du bokför eller skickar tillgångar.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Gästsäkert",
+        "body": "Privat tillfällig bearbetning med automatisk radering.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder bearbetas privat för regionoskärpa och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Rubrik"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Behöver jag både över- och undertext?",
+        "a": "Nej. Ange minst en textrad."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Generera som gäst. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Kan jag ändra typsnittet?",
+        "a": "Gästmemes använder en klassisk stack i Impact-stil för läsbarhet."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "path": "/meme-generator",
+    "metaTitle": "Meme Generator Online — Lägg till topp- och undertexter",
+    "metaDescription": "Lägg till klassiska över- och undertexter för meme till bilderna JPG, PNG eller WebP. Gratis gäst meme generator.",
+    "breadcrumbCurrent": "Meme Generator Online",
+    "h1": "Online meme-generator",
+    "subtitle": "Lägg till klassiska bildtexter på några sekunder",
+    "paragraph": "Lägg till över- och undertexter till bilderna JPG, PNG eller WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Bildtexter som läser som klassiska memes",
+    "features": [
+      {
+        "title": "Över- och undertext",
+        "body": "Använd endera linjen eller båda för klassiska layouter.",
+        "tone": "blå"
+      },
+      {
+        "title": "Automatisk inslagning",
+        "body": "Långa bildtexter lindas in i korta läsbara rader.",
+        "tone": "grön"
+      },
+      {
+        "title": "Typ med hög kontrast",
+        "body": "Vit fyllning med mörkt streck för klarhet.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Instant Guest Tool",
+        "body": "Skapa och ladda ner utan att logga in.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för meme-texter och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/geotag-image": {
+    "path": "/geotag-bild",
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Geotagga"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Vilka format stöder geotaggning?",
+        "a": "Gästgeotagg fokuserar på kompatibla JPEG-bilder."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder kompatibla JPEG inom gränsen på 10 MB."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Geotagga som gäst. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Är koordinaterna verifierade?",
+        "a": "Skriver följer valideringsregler så att värden är välformade innan de bäddas in."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "metaTitle": "Geotagga bilder online — Lägg till GPS till JPEG",
+    "metaDescription": "Läs eller skriv verifierade GPS-koordinater på kompatibla JPEG-bilder. Privat gästgeotaggningsverktyg.",
+    "breadcrumbCurrent": "Geotagga bilder online",
+    "h1": "Geotagga bilder online",
+    "subtitle": "Lägg till eller inspektera JPEG GPS platsdata",
+    "paragraph": "Lägg till eller inspektera GPS-koordinater på kompatibla JPEG-bilder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Platsdata du kan verifiera",
+    "features": [
+      {
+        "title": "JPEG Fokuserad",
+        "body": "Geotaggar arbetsflöden riktar sig mot kompatibla JPEG källor.",
+        "tone": "blå"
+      },
+      {
+        "title": "Inspektera först",
+        "body": "Se om läsbar GPS redan finns.",
+        "tone": "grön"
+      },
+      {
+        "title": "Skriv koordinater",
+        "body": "Bädda in latitud och longitud när byte är tillåtet.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Gästernas sekretess",
+        "body": "Tillfällig bearbetning med automatisk rensning.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för geotaggning och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/image-metadata": {
+    "path": "/bild-metadata",
+    "breadcrumbCurrent": "Bild Metadata Viewer",
+    "h1": "Bild Metadata Viewer",
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Inspektera"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Visar du alla EXIF-taggar?",
+        "a": "Nej. Tittaren visar tillåtna fält för säkerhet och tydlighet."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Nej. Inspektera som gäst. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Kan jag redigera metadata här?",
+        "a": "Använd bild SEO Metadata Editor för att rita och exportera SEO fält."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "metaTitle": "Bildmetadatavisare online — Inspektera EXIF säkert",
+    "metaDescription": "Inspektera mått, färginformation och säker tillåten metadata för JPG, PNG och WebP. Privat gästtittare.",
+    "subtitle": "Inspektera säkra bildegenskaper innan du publicerar",
+    "paragraph": "Inspektera egenskaperna JPG, PNG och WebP på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Se vad som betyder något, säkert",
+    "features": [
+      {
+        "title": "Kärnegenskaper",
+        "body": "Mått, typ och praktiska fildetaljer.",
+        "tone": "blå"
+      },
+      {
+        "title": "Tillåtna fält",
+        "body": "Endast säkra, kurerade metadataytor visas.",
+        "tone": "grön"
+      },
+      {
+        "title": "Webbvänlig",
+        "body": "Användbara kontroller före CMS uppladdning eller SEO granskning.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Gästernas sekretess",
+        "body": "Tillfälligt granska jobb med automatisk radering.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för metadatainspektion och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/image-metadata-editor": {
+    "path": "/image-metadata-editor",
+    "breadcrumbCurrent": "Bild SEO Metadataredigerare",
+    "h1": "Bild SEO Metadataredigerare",
+    "howSteps": [
+      {
+        "title": "Ladda upp din bild"
+      },
+      {
+        "title": "Redigera"
+      },
+      {
+        "title": "Förhandsgranska resultat"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Skriver detta om EXIF i alla format?",
+        "a": "Redaktören fokuserar på att förbereda SEO fält och exporter."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Gästuppladdningar stöder JPG, PNG och WebP upp till 10 MB."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Gästredigering är tillgänglig med begränsningar. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Vad kan jag exportera?",
+        "a": "Använd sidovagnsvänliga exporter för CMS och innehållsarbetsflöden."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "metaTitle": "Bild SEO Metadataredigerare online",
+    "metaDescription": "Skriv, granska och exportera bild SEO fält för webbplatser och CMS arbetsflöden. Privat gästmetadataredigerare.",
+    "subtitle": "Förbered bild SEO fält innan publicering",
+    "paragraph": "Utkast bild SEO fält och exportera sidvagnar på några sekunder. Gratis onlineverktyg – inget konto krävs.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Redaktionell kontroll för bild SEO",
+    "features": [
+      {
+        "title": "Redigerbara fält",
+        "body": "Uppdatera texten SEO som du faktiskt skickar.",
+        "tone": "blå"
+      },
+      {
+        "title": "Exportvänlig",
+        "body": "Ladda ner sidvagnar för CMS och innehållsarbetsflöden.",
+        "tone": "grön"
+      },
+      {
+        "title": "CMS Klar",
+        "body": "Förbered titlar, beskrivningar och nyckelord innan publicering.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Gästsessioner",
+        "body": "Tillfälliga utkast med automatisk rensning.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för metadataredigering och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  },
+  "/bulk-image-tools": {
+    "path": "/bulk-image-verktyg",
+    "breadcrumbCurrent": "Bulk bildverktyg",
+    "h1": "Bulk bildverktyg",
+    "howSteps": [
+      {
+        "title": "Ladda upp en batch"
+      },
+      {
+        "title": "Välj Operation"
+      },
+      {
+        "title": "Bearbeta filer"
+      },
+      {
+        "title": "Ladda ner"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hur många filer kan jag ladda upp?",
+        "a": "Stora gästjobb tvingar fram ett maximalt antal filer och total batchstorlek."
+      },
+      {
+        "q": "Finns det en filstorleksgräns?",
+        "a": "Varje fil följer gästens maxstorlek, och batchen har ett totalt bytetak."
+      },
+      {
+        "q": "Behöver jag ett konto?",
+        "a": "Gäster kan köra begränsade bulkjobb. Filer upphör att gälla inom en timme."
+      },
+      {
+        "q": "Vad händer om en fil misslyckas?",
+        "a": "Framgångsrika utgångar förblir nedladdningsbara; misslyckade objekt visar en felstatus."
+      },
+      {
+        "q": "Lagras mina bilder permanent?",
+        "a": "Nej. Gästuppladdningar och resultat löper ut inom en timme."
+      }
+    ],
+    "metaTitle": "Bulk bildverktyg online — komprimera, ändra storlek, konvertera",
+    "metaDescription": "Komprimera, ändra storlek på eller konvertera flera bilder och ladda ner framgångsrika resultat tillsammans. Massgränser för gäster gäller.",
+    "subtitle": "Bearbeta en kort sats utan att upprepa varje steg",
+    "paragraph": "Komprimera, ändra storlek på eller konvertera flera JPG, PNG eller WebP filer i en batch. Gratis gästgränser gäller.",
+    "trust": [
+      "Inget konto krävs",
+      "Privat & säker bearbetning",
+      "Radera automatiskt inom 1 timme"
+    ],
+    "workspaceNote": "Format som stöds: JPG, PNG, WebP • Maximal filstorlek: 10 MB. Dina filer är privata och raderas automatiskt inom en timme.",
+    "featuresHeading": "Batchhastighet med tydliga gränser",
+    "features": [
+      {
+        "title": "Delade inställningar",
+        "body": "Använd en komprimering, ändra storlek eller konvertera val över hela partiet.",
+        "tone": "blå"
+      },
+      {
+        "title": "Status per fil",
+        "body": "Se vilka bilder som lyckades och vilka som behöver uppmärksamhet.",
+        "tone": "grön"
+      },
+      {
+        "title": "ZIP Ladda ner",
+        "body": "Samla framgångsrika utgångar när batchen är klar.",
+        "tone": "purpur"
+      },
+      {
+        "title": "Gästmössor",
+        "body": "Batchstorlek och totala byte följer gratis gästpolicy.",
+        "tone": "orange"
+      }
+    ],
+    "howHeading": "Hur det fungerar",
+    "benefitCards": [
+      {
+        "title": "Din integritet är viktig",
+        "body": "Dina bilder behandlas privat för massbearbetning och raderas automatiskt inom en timme.",
+        "kind": "privatliv"
+      },
+      {
+        "title": "Snabb & Effektiv",
+        "body": "Molnstödd gästbearbetning ger resultat på några sekunder utan att installera programvara.",
+        "kind": "hastighet"
+      }
+    ],
+    "faqHeading": "Vanliga frågor"
+  }
+}

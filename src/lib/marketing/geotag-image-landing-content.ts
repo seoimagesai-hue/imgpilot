@@ -1,7 +1,8 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Geotag Images hub — JPEG-only GPS write; honest about PNG/WebP limits.
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type GeotagImageFaq = {q: string; a: string};
 
@@ -76,7 +77,7 @@ export type GeotagImageCopy = {
 };
 
 const en: GeotagImageCopy = {
-  metaTitle: "Geotag Images Online Free | SEO Images",
+  metaTitle: "Geotag Images Online Free | Img Pilot",
   metaDescription:
     "Add GPS location to JPEG photos online. Write latitude, longitude and optional altitude to JPG EXIF metadata in your browser with private processing.",
   h1: "Geotag Images Online",
@@ -112,7 +113,7 @@ const en: GeotagImageCopy = {
     title: "Geotag JPEG Images for Maps, Archives and Field Work",
     paragraphs: [
       "GPS metadata helps photos show up on maps, sort into location folders and prove where a shot was taken. Many cameras embed coordinates automatically, but phone exports, edited JPEGs and legacy uploads often arrive without location data.",
-      "SEO Images geotags JPEG files only. The guest engine writes EXIF GPS tags into a new JPG download — it does not claim PNG or WebP geotag support because those containers are not handled for GPS write in this tool.",
+      "Img Pilot geotags JPEG files only. The guest engine writes EXIF GPS tags into a new JPG download — it does not claim PNG or WebP geotag support because those containers are not handled for GPS write in this tool.",
       "Upload a JPEG, set coordinates manually or from your browser, optionally add altitude and a short location label, then download the geotagged copy. Guest files expire on the countdown shown above the workspace.",
     ],
   },
@@ -277,7 +278,7 @@ const en: GeotagImageCopy = {
 };
 
 const ur: GeotagImageCopy = {
-  metaTitle: "آن لائن امیجز کو جیو ٹیگ کریں مفت | SEO Images",
+  metaTitle: "آن لائن امیجز کو جیو ٹیگ کریں مفت | Img Pilot",
   metaDescription:
     "JPEG تصاویر میں آن لائن GPS مقام شامل کریں۔ براؤزر میں JPG EXIF میٹا ڈیٹا میں عرض بلد، طول بلد اور اختیاری بلندی لکھیں۔",
   h1: "آن لائن امیجز کو جیو ٹیگ کریں",
@@ -313,7 +314,7 @@ const ur: GeotagImageCopy = {
     title: "نقشوں، آرکائیوز اور فیلڈ ورک کے لیے JPEG جیو ٹیگ",
     paragraphs: [
       "GPS میٹا ڈیٹا تصاویر کو نقشوں پر دکھانے، مقام کے فولڈرز میں ترتیب دینے اور شوٹ کہاں لیا گیا ثابت کرنے میں مدد کرتا ہے۔ بہت سے کیمرے خودکار کوآرڈینیٹس شامل کرتے ہیں، لیکن فون ایکسپورٹ، ایڈٹ شدہ JPEG اور پرانی اپلوڈز اکثر بغیر مقام کے آتے ہیں۔",
-      "SEO Images صرف JPEG فائلوں کو جیو ٹیگ کرتا ہے۔ گیسٹ انجن EXIF GPS ٹیگز نئے JPG ڈاؤن لوڈ میں لکھتا ہے — PNG یا WebP جیو ٹیگ کا دعویٰ نہیں کرتا کیونکہ GPS رائٹ ان فارمیٹس میں نہیں ہے۔",
+      "Img Pilot صرف JPEG فائلوں کو جیو ٹیگ کرتا ہے۔ گیسٹ انجن EXIF GPS ٹیگز نئے JPG ڈاؤن لوڈ میں لکھتا ہے — PNG یا WebP جیو ٹیگ کا دعویٰ نہیں کرتا کیونکہ GPS رائٹ ان فارمیٹس میں نہیں ہے۔",
       "JPEG اپلوڈ کریں، دستی یا براؤزر سے کوآرڈینیٹس سیٹ کریں، اختیاری بلندی یا مختصر لیبل شامل کریں، پھر جیو ٹیگڈ کاپی ڈاؤن لوڈ کریں۔ گیسٹ فائلیں ورک اسپیس کے اوپر کاؤنٹ ڈاؤن پر ختم ہوتی ہیں۔",
     ],
   },
@@ -397,9 +398,9 @@ const ur: GeotagImageCopy = {
 };
 
 export function getGeotagImageCopy(locale: string): GeotagImageCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isGeotagImageLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

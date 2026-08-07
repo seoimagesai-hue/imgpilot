@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Compress JPG landing copy — English + natural Urdu (RTL-ready).
  * Processing stays on LandingToolWorkspace; this module is marketing + SEO only.
@@ -109,7 +110,7 @@ export type CompressJpgCopy = {
 };
 
 const en: CompressJpgCopy = {
-  metaTitle: "Compress JPG Images Online Free | SEO Images",
+  metaTitle: "Compress JPG Images Online Free | Img Pilot",
   metaDescription:
     "Compress JPG images online and reduce file size with adjustable quality controls. Preview the result and download a smaller optimized JPG securely.",
   h1: "Compress JPG Images Online",
@@ -420,7 +421,7 @@ const en: CompressJpgCopy = {
 };
 
 const ur: CompressJpgCopy = {
-  metaTitle: "آن لائن JPG تصاویر کمپریس کریں مفت | SEO Images",
+  metaTitle: "آن لائن JPG تصاویر کمپریس کریں مفت | Img Pilot",
   metaDescription:
     "آن لائن JPG تصاویر کمپریس کریں اور قابلِ ایڈجسٹ کوالٹی سے فائل سائز کم کریں۔ نتیجہ دیکھیں اور چھوٹی، محفوظ JPG ڈاؤن لوڈ کریں۔",
   h1: "آن لائن JPG تصاویر کمپریس کریں",
@@ -719,7 +720,7 @@ const ur: CompressJpgCopy = {
 };
 
 export function getCompressJpgCopy(locale: string): CompressJpgCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 /** Shared SEO registry payload (English) for landing-content tests. */

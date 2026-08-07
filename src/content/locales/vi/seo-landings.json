@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "thay đổi kích thước",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Kích thước hình ảnh chính xác với các kích thước nền tảng phổ biến",
+        "Khóa tỷ lệ khung hình để tránh biến dạng",
+        "Nơi lưu trữ khách tạm thời riêng tư"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp JPG nào được chấp nhận?",
+          "a": "Trang này ưu tiên JPG. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Thay đổi kích thước chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "thay đổi kích thước-jpg",
+      "title": "Thay đổi kích thước hình ảnh JPG Trực tuyến miễn phí | Img Pilot",
+      "description": "Thay đổi kích thước hình ảnh JPG trực tuyến bằng cách chọn kích thước tùy chỉnh hoặc cài đặt trước phổ biến. Điều chỉnh chiều rộng, chiều cao và chất lượng, sau đó tải xuống JPG đã thay đổi kích thước của bạn một cách an toàn.",
+      "h1": "Thay đổi kích thước hình ảnh JPG Trực tuyến",
+      "intro": "Thay đổi kích thước hình ảnh JPG theo kích thước chính xác mà bạn cần mà không cần cài đặt bất kỳ phần mềm nào. Tải ảnh lên, chọn cài đặt trước hoặc nhập chiều rộng và chiều cao tùy chỉnh, sau đó tải xuống JPG đã đổi kích thước của bạn sau vài giây.",
+      "related": [
+        "nén-jpg",
+        "jpg-đến-webp",
+        "cắt-jpg",
+        "thay đổi kích thước-png",
+        "png-đến-jpg",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "howTo": [
+        "Tải lên JPG",
+        "Chọn phương pháp hoặc cài đặt trước",
+        "Quá trình",
+        "Tải xuống JPG đã thay đổi kích thước"
+      ]
+    },
+    "resize-png": {
+      "operation": "thay đổi kích thước",
+      "sourceFormat": "png",
+      "howTo": [
+        "Tải lên PNG",
+        "Đặt kích thước hoặc đặt trước",
+        "Quá trình",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp PNG nào được chấp nhận?",
+          "a": "Trang này ưu tiên PNG. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Thay đổi kích thước chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "thay đổi kích thước-png",
+      "title": "Thay đổi kích thước hình ảnh PNG Trực tuyến miễn phí | Img Pilot",
+      "description": "Thay đổi kích thước hình ảnh PNG trực tuyến trong khi vẫn giữ được độ trong suốt. Thay đổi kích thước hình ảnh một cách an toàn và tải xuống PNG đã thay đổi kích thước của bạn sau vài giây.",
+      "h1": "Thay đổi kích thước hình ảnh PNG Trực tuyến",
+      "intro": "Thay đổi kích thước hình ảnh PNG mà không làm mất độ trong suốt của logo, đồ họa giao diện người dùng, biểu tượng và ảnh chụp màn hình.",
+      "related": [
+        "nén-png",
+        "png-đến-jpg",
+        "png-đến-webp",
+        "cắt-png",
+        "thay đổi kích thước-jpg",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Bảo toàn độ trong suốt PNG thay đổi kích thước",
+        "Thiết kế cài đặt trước cho logo, biểu tượng và favicon",
+        "Xử lý khách tạm thời riêng tư"
+      ]
+    },
+    "resize-webp": {
+      "operation": "thay đổi kích thước",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Tải lên WebP",
+        "Chọn tùy chọn kích thước",
+        "Quá trình",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp WebP nào được chấp nhận?",
+          "a": "Trang này ưu tiên WebP. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Thay đổi kích thước chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "thay đổi kích thước-webp",
+      "title": "Thay đổi kích thước hình ảnh WebP Trực tuyến miễn phí | Img Pilot",
+      "description": "Thay đổi kích thước hình ảnh WebP trực tuyến cho các trang web, blog và thiết bị di động phản hồi. Thay đổi kích thước một cách an toàn và tải xuống hình ảnh WebP đã được thay đổi kích thước ngay lập tức.",
+      "h1": "Thay đổi kích thước hình ảnh WebP Trực tuyến",
+      "intro": "Thay đổi kích thước hình ảnh WebP để có bố cục đáp ứng, thiết bị di động và trang web hiện đại trong khi vẫn duy trì hiệu quả WebP.",
+      "related": [
+        "nén-webp",
+        "webp-đến-jpg",
+        "webp-đến-png",
+        "thay đổi kích thước-jpg",
+        "thay đổi kích thước-png",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Kiểm soát kích thước đáp ứng WebP",
+        "Khách được chia sẻ Thay đổi kích thước quy trình",
+        "Lưu trữ tạm thời riêng tư với tính năng dọn dẹp tự động"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "nén",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Tải lên JPG",
+        "Chọn cài đặt trước chất lượng",
+        "nén",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp JPG nào được chấp nhận?",
+          "a": "Trang này ưu tiên JPG. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Nén chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "nén-jpg",
+      "title": "Nén JPG Hình ảnh Trực tuyến Miễn phí | Img Pilot",
+      "description": "Nén hình ảnh JPG trực tuyến và giảm kích thước tệp bằng các điều khiển chất lượng có thể điều chỉnh. Xem trước kết quả và tải xuống JPG được tối ưu hóa nhỏ hơn một cách an toàn.",
+      "h1": "Nén hình ảnh JPG Trực tuyến",
+      "intro": "Giảm kích thước tệp hình ảnh JPG trực tiếp trong trình duyệt của bạn mà không cần cài đặt phần mềm phức tạp.",
+      "related": [
+        "thay đổi kích thước-jpg",
+        "jpg-đến-webp",
+        "cắt-jpg",
+        "jpg-đến-png",
+        "webp-đến-jpg",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Có thể điều chỉnh cài đặt trước chất lượng JPG",
+        "Xử lý khách tạm thời riêng tư",
+        "Hình ảnh gốc không thay đổi"
+      ]
+    },
+    "compress-png": {
+      "operation": "nén",
+      "sourceFormat": "png",
+      "howTo": [
+        "Tải lên PNG",
+        "Chọn chất lượng",
+        "nén",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp PNG nào được chấp nhận?",
+          "a": "Trang này ưu tiên PNG. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Nén chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "nén-png",
+      "title": "Nén PNG Hình ảnh Trực tuyến Miễn phí | Img Pilot",
+      "description": "Nén hình ảnh PNG trực tuyến trong khi vẫn giữ được độ trong suốt. Giảm kích thước tệp PNG một cách an toàn và tải xuống hình ảnh được tối ưu hóa trong vài giây.",
+      "h1": "Nén hình ảnh PNG Trực tuyến",
+      "intro": "Giảm kích thước tệp hình ảnh PNG mà không làm giảm độ trong suốt hoặc độ rõ của hình ảnh.",
+      "related": [
+        "nén-jpg",
+        "thay đổi kích thước-png",
+        "png-đến-jpg",
+        "png-đến-webp",
+        "cắt-png",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Nén PNG bảo toàn độ trong suốt",
+        "Được xây dựng cho logo, đồ họa giao diện người dùng và ảnh chụp màn hình",
+        "Xử lý khách tạm thời riêng tư"
+      ]
+    },
+    "compress-webp": {
+      "operation": "nén",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Tải lên WebP",
+        "Chọn chất lượng",
+        "nén",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp WebP nào được chấp nhận?",
+          "a": "Trang này ưu tiên WebP. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Nén chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "nén-webp",
+      "title": "Nén WebP Hình ảnh Trực tuyến Miễn phí | Img Pilot",
+      "description": "Nén hình ảnh WebP trực tuyến để giảm kích thước tệp trong khi vẫn duy trì chất lượng. Cải thiện tốc độ trang web với tính năng tối ưu hóa WebP dựa trên trình duyệt an toàn.",
+      "h1": "Nén hình ảnh WebP Trực tuyến",
+      "intro": "Giảm kích thước tệp WebP đã xuất trong khi vẫn giữ được chất lượng hình ảnh rõ ràng cho trang web, trang đích và ứng dụng dành cho thiết bị di động.",
+      "related": [
+        "thay đổi kích thước-webp",
+        "webp-đến-jpg",
+        "webp-đến-png",
+        "nén-jpg",
+        "nén-png",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Tối ưu hóa hơn nữa xuất khẩu WebP hiện đại",
+        "Khách được chia sẻ Cài đặt trước chất lượng nén",
+        "Lưu trữ tạm thời riêng tư với tính năng dọn dẹp tự động"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "mùa vụ",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Tệp JPG nào được chấp nhận?",
+          "a": "Trang này ưu tiên JPG. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Cắt chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "cắt-jpg",
+      "title": "Cắt JPG Hình ảnh trực tuyến miễn phí | Img Pilot",
+      "description": "Cắt hình ảnh JPG trực tuyến bằng cách sử dụng các điều khiển cắt chính xác và tỷ lệ khung hình phổ biến. Tải xuống hình ảnh đã cắt của bạn một cách an toàn trong vài giây.",
+      "h1": "Cắt JPG Hình ảnh trực tuyến",
+      "intro": "Xóa các khu vực không mong muốn, khóa các tỷ lệ khung hình phổ biến và tải xuống JPG mới mà không thay đổi bản gốc.",
+      "related": [
+        "thay đổi kích thước-jpg",
+        "nén-jpg",
+        "jpg-đến-webp",
+        "thay đổi kích thước-png",
+        "cắt-png",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Tay cầm cắt chính xác",
+        "Tỷ lệ khung hình phổ biến",
+        "Đóng khung sẵn sàng cho xã hội",
+        "Lưu trữ tạm thời riêng tư",
+        "Hình ảnh gốc vẫn an toàn"
+      ],
+      "howTo": [
+        "Tải lên JPG",
+        "Chọn vùng cắt",
+        "Xem trước bố cục",
+        "Tải xuống JPG đã cắt"
+      ]
+    },
+    "crop-png": {
+      "operation": "mùa vụ",
+      "sourceFormat": "png",
+      "howTo": [
+        "Tải lên PNG",
+        "Đặt vùng cắt",
+        "Quá trình",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp PNG nào được chấp nhận?",
+          "a": "Trang này ưu tiên PNG. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Cắt chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "cắt-png",
+      "title": "Cắt PNG Hình ảnh trực tuyến miễn phí | Img Pilot",
+      "description": "Cắt hình ảnh PNG trực tuyến trong khi vẫn giữ được nền trong suốt. Xóa các khu vực không mong muốn và tải xuống PNG được cắt chính xác một cách an toàn.",
+      "h1": "Cắt PNG Hình ảnh trực tuyến",
+      "intro": "Cắt các logo, biểu tượng và đồ họa giao diện người dùng PNG trong suốt trong khi vẫn giữ nguyên bản alpha.",
+      "related": [
+        "thay đổi kích thước-png",
+        "nén-png",
+        "png-đến-webp",
+        "png-đến-jpg",
+        "cắt-jpg",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Bảo toàn độ trong suốt PNG crop",
+        "Khách chia sẻ Công cụ cắt xén và tỷ lệ",
+        "Lưu trữ tạm thời riêng tư với tính năng dọn dẹp tự động"
+      ]
+    },
+    "crop-webp": {
+      "operation": "mùa vụ",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Tải lên WebP",
+        "Chọn vùng cắt",
+        "Quá trình",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Tệp WebP nào được chấp nhận?",
+          "a": "Trang này ưu tiên WebP. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Cắt chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "cắt-webp",
+      "title": "Cắt WebP Hình ảnh trực tuyến miễn phí | Img Pilot",
+      "description": "Cắt hình ảnh WebP trực tuyến bằng cách sử dụng các điều khiển cắt chính xác và tỷ lệ khung hình phổ biến. Tạo hình ảnh sẵn sàng cho web và tải chúng xuống một cách an toàn trong vài giây.",
+      "h1": "Cắt WebP Hình ảnh trực tuyến",
+      "intro": "Cắt hình ảnh WebP hiện đại cho các trang web, trang đích và thương mại điện tử phản hồi trong khi vẫn giữ định dạng được tối ưu hóa cho web.",
+      "related": [
+        "thay đổi kích thước-webp",
+        "nén-webp",
+        "webp-đến-jpg",
+        "webp-đến-png",
+        "cắt-jpg",
+        "cắt-png"
+      ],
+      "benefits": [
+        "WebP-vụ đầu tiên cho giao hàng hiện đại",
+        "Khách chia sẻ Công cụ cắt xén và tỷ lệ trung thực",
+        "Lưu trữ tạm thời riêng tư với tính năng dọn dẹp tự động"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "mùa vụ",
+      "howTo": [
+        "Tải lên một hình ảnh",
+        "Điều chỉnh cắt hình vuông",
+        "Quá trình",
+        "Tải xuống"
+      ],
+      "faqs": [
+        {
+          "q": "Có bao gồm kích thước nền tảng chính xác cho Instagram không?",
+          "a": "Không có trên trang này. Các trang có kích thước xã hội chuyên dụng sẽ được hoãn lại cho đến khi các giá trị đặt trước ngày tháng được phê duyệt."
+        },
+        {
+          "q": "Những tập tin hình ảnh của bạn được chấp nhận?",
+          "a": "Trang này ưu tiên hình ảnh của bạn. Các định dạng khác có thể bị từ chối tại đây — hãy sử dụng công cụ Cắt chung cho các định dạng hỗn hợp."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Công cụ dành cho khách hoạt động mà không cần đăng nhập trong giới hạn miễn phí hàng ngày."
+        },
+        {
+          "q": "Việc xử lý có riêng tư không?",
+          "a": "Nội dung tải lên sẽ được lưu vào bộ nhớ riêng và các tệp khách tạm thời sẽ hết hạn sau khoảng một giờ."
+        }
+      ],
+      "slug": "cắt-hình-vuông",
+      "cropAspect": "1:1",
+      "title": "Cắt hình ảnh thành hình vuông — Công cụ cắt ảnh 1:1 miễn phí",
+      "description": "Cắt hình ảnh thành tỷ lệ khung hình vuông 1:1 bằng công cụ cắt ảnh được chia sẻ.",
+      "h1": "Cắt ảnh thành hình vuông",
+      "intro": "Bắt đầu với khóa khía cạnh 1:1. Bạn vẫn có thể thay đổi tỷ lệ trong trình chỉnh sửa nếu cần.",
+      "related": [
+        "cắt-jpg",
+        "cắt-png",
+        "thay đổi kích thước hình ảnh",
+        "nén hình ảnh"
+      ],
+      "benefits": [
+        "Mặc định là 1:1",
+        "Hoạt động với JPEG, PNG và WebP",
+        "Mô hình bảo mật tương tự như các công cụ khách khác"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "chuyển thành",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "jpg-đến-png",
+      "title": "Công cụ chuyển đổi JPG sang PNG — Trực tuyến miễn phí",
+      "description": "Chuyển đổi JPG thành PNG. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi JPG thành PNG",
+      "intro": "Tạo PNG từ JPG bằng công cụ Chuyển đổi được chia sẻ.",
+      "related": [
+        "png-đến-jpg",
+        "jpg-đến-webp",
+        "nén-png",
+        "thay đổi kích thước-png"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi JPEG thành PNG có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "chuyển thành",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "jpg-đến-webp",
+      "title": "Chuyển đổi JPG sang WebP Trực tuyến Miễn phí | Img Pilot",
+      "description": "Chuyển đổi JPG sang WebP trực tuyến. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi JPG sang WebP Trực tuyến",
+      "intro": "Chuyển đổi ảnh JPG thành WebP để có trang web nhanh hơn, tệp phân phối nhỏ hơn và Core Web Vitals mạnh hơn khi trình duyệt hỗ trợ các định dạng hiện đại.",
+      "related": [
+        "webp-đến-jpg",
+        "nén-jpg",
+        "thay đổi kích thước-jpg",
+        "cắt-jpg",
+        "png-đến-webp",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi JPEG thành WEBP có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "chuyển thành",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "jpg-đến-avif",
+      "title": "Chuyển đổi JPG sang AVIF — Trực tuyến miễn phí",
+      "description": "Chuyển đổi JPG thành AVIF. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi JPG thành AVIF",
+      "intro": "Mã hóa AVIF chỉ được cung cấp khi bộ mã hóa của máy chủ này hỗ trợ nó. Nếu không, điều khiển vẫn bị chặn một cách trung thực.",
+      "related": [
+        "jpg-đến-webp",
+        "png-đến-avif",
+        "nén-jpg",
+        "chuyển đổi hình ảnh"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi JPEG thành AVIF có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "chuyển thành",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "png-đến-jpg",
+      "title": "Chuyển đổi PNG sang JPG Trực tuyến Miễn phí | Img Pilot",
+      "description": "Chuyển đổi PNG sang JPG trực tuyến. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi PNG sang JPG Trực tuyến",
+      "intro": "Làm phẳng các tệp PNG trong suốt thành các tệp JPG tương thích phổ biến khi không còn cần đến alpha.",
+      "related": [
+        "png-đến-webp",
+        "thay đổi kích thước-png",
+        "nén-png",
+        "jpg-đến-webp",
+        "webp-đến-jpg",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi PNG thành JPEG có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "chuyển thành",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "png-đến-webp",
+      "title": "Chuyển đổi PNG sang WebP Trực tuyến Miễn phí | Img Pilot",
+      "description": "Chuyển đổi PNG sang WebP trực tuyến. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi PNG sang WebP Trực tuyến",
+      "intro": "Chuyển đổi hình ảnh PNG thành WebP trực tuyến trong khi vẫn duy trì độ trong suốt. Tạo hình ảnh nhỏ hơn sẵn sàng cho web để có trang web nhanh hơn bằng tính năng chuyển đổi an toàn dựa trên trình duyệt.",
+      "related": [
+        "webp-đến-png",
+        "png-đến-jpg",
+        "nén-png",
+        "thay đổi kích thước-png",
+        "jpg-đến-webp",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi PNG thành WEBP có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "chuyển thành",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "png-đến-avif",
+      "title": "Chuyển đổi PNG sang AVIF — Trực tuyến miễn phí",
+      "description": "Chuyển đổi PNG thành AVIF. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi PNG thành AVIF",
+      "intro": "Chuyển đổi PNG thành AVIF khi triển khai này có hỗ trợ bộ mã hóa.",
+      "related": [
+        "png-đến-webp",
+        "jpg-đến-avif",
+        "nén-png",
+        "chuyển đổi hình ảnh"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi PNG thành AVIF có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "chuyển thành",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "webp-đến-jpg",
+      "title": "Chuyển đổi WebP sang JPG Trực tuyến Miễn phí | Img Pilot",
+      "description": "Chuyển đổi WebP sang JPG trực tuyến. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi WebP sang JPG Trực tuyến",
+      "intro": "Chuyển đổi hình ảnh WebP thành JPG để có khả năng tương thích tối đa với email, tài liệu, nội dung tải lên CMS và phần mềm cũ hơn.",
+      "related": [
+        "jpg-đến-webp",
+        "png-đến-jpg",
+        "nén-jpg",
+        "thay đổi kích thước-jpg",
+        "cắt-jpg",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi WEBP thành JPEG có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "chuyển thành",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "webp-đến-png",
+      "title": "Chuyển đổi WebP sang PNG Trực tuyến Miễn phí | Img Pilot",
+      "description": "Chuyển đổi WebP sang PNG trực tuyến. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi WebP sang PNG Trực tuyến",
+      "intro": "Chuyển đổi hình ảnh WebP thành PNG trực tuyến trong khi vẫn duy trì độ trong suốt và chất lượng hình ảnh cho quy trình thiết kế và chỉnh sửa.",
+      "related": [
+        "png-đến-webp",
+        "png-đến-jpg",
+        "webp-đến-jpg",
+        "thay đổi kích thước-png",
+        "nén-png",
+        "công cụ hình ảnh hàng loạt"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi WEBP thành PNG có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "chuyển thành",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Tải lên hình ảnh nguồn",
+        "Xác nhận định dạng mục tiêu",
+        "Chuyển thành",
+        "Tải xuống"
+      ],
+      "slug": "webp-đến-avif",
+      "title": "Công cụ chuyển đổi WebP sang AVIF — Trực tuyến miễn phí",
+      "description": "Chuyển đổi WebP thành AVIF. Chuyển đổi khách riêng với thời gian lưu giữ tạm thời trong một giờ.",
+      "h1": "Chuyển đổi WebP thành AVIF",
+      "intro": "Chỉ chuyển đổi WebP thành AVIF khi mã hóa AVIF được hỗ trợ tại đây.",
+      "related": [
+        "webp-đến-jpg",
+        "png-đến-avif",
+        "nén-webp",
+        "chuyển đổi hình ảnh"
+      ],
+      "benefits": [
+        "Chỉ sử dụng ma trận chuyển đổi được hỗ trợ",
+        "Quy tắc dọn dẹp và phiên khách tương tự như Chuyển đổi hình ảnh",
+        "Không có cặp nào được phát minh không được hỗ trợ"
+      ],
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi WEBP thành AVIF có làm thay đổi tệp gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Tệp đã chuyển đổi được lưu trữ trong bao lâu?",
+          "a": "Các tập tin khách sẽ bị xóa khoảng một giờ sau khi phiên khách bắt đầu. Tải xuống không kéo dài thời hạn sử dụng."
+        },
+        {
+          "q": "Tôi có thể chuyển đổi nhiều hình ảnh không?",
+          "a": "Sử dụng Công cụ hình ảnh hàng loạt cho nhiều tệp trong giới hạn số lượng lớn dành cho khách hoặc đăng nhập."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/nén-jpg",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Kích thước nhỏ hơn, chất lượng tuyệt vời như nhau",
+      "features": [
+        {
+          "title": "Nén thông minh",
+          "tone": "màu xanh da trời",
+          "body": "Tính năng nén thông minh được điều chỉnh cho hình ảnh JPG."
+        },
+        {
+          "title": "Nhỏ hơn tới 80%",
+          "body": "Giảm đáng kể kích thước tệp để tải lên và tải trang nhanh hơn.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Hoàn hảo cho Web",
+          "body": "Tối ưu hóa hình ảnh cho website, blog, trang sản phẩm.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Chất lượng bạn có thể tin tưởng",
+          "body": "Xem trước trước khi tải xuống để bạn có thể kiểm soát chất lượng.",
+          "tone": "quả cam"
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "nén"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "kind": "sự riêng tư",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để nén và tự động xóa trong vòng một giờ."
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tính năng nén JPG hoạt động như thế nào?",
+          "a": "Công cụ này mã hóa lại JPG của bạn bằng các cài đặt giúp giảm kích thước tệp trong khi vẫn giữ được kết quả có thể sử dụng được một cách trực quan."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách JPG lên tới 10 MB."
+        },
+        {
+          "q": "Việc nén có làm giảm chất lượng hình ảnh không?",
+          "a": "Các cài đặt trước mạnh hơn có thể làm mềm các chi tiết đẹp. Chọn cài đặt trước nhẹ hơn khi có vẻ quan trọng nhất và luôn xem trước."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Tính năng nén khách hoạt động mà không cần đăng nhập."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Các kết quả và nội dung tải lên của khách sẽ tự động bị xóa trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Nén JPG Hình ảnh Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Nén hình ảnh JPG trực tuyến mà không làm giảm chất lượng. Giảm kích thước tệp JPG bằng tính năng xử lý khách riêng tư.",
+      "breadcrumbCurrent": "Nén JPG Trực tuyến",
+      "h1": "Nén JPG Trực tuyến",
+      "subtitle": "Giảm kích thước tệp JPG mà không làm giảm chất lượng",
+      "paragraph": "Nén hình ảnh JPG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: JPG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/compress-png": {
+      "path": "/nén-png",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Kích thước nhỏ hơn, chất lượng tuyệt vời như nhau",
+      "features": [
+        {
+          "title": "Nén thông minh",
+          "tone": "màu xanh da trời",
+          "body": "Tính năng nén thông minh được điều chỉnh cho hình ảnh PNG."
+        },
+        {
+          "title": "Nhỏ hơn tới 80%",
+          "body": "Giảm đáng kể kích thước tệp để tải lên và tải trang nhanh hơn.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Hoàn hảo cho Web",
+          "body": "Tối ưu hóa hình ảnh cho website, blog, trang sản phẩm.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Chất lượng bạn có thể tin tưởng",
+          "body": "Xem trước trước khi tải xuống để bạn có thể kiểm soát chất lượng.",
+          "tone": "quả cam"
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "nén"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "kind": "sự riêng tư",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để nén và tự động xóa trong vòng một giờ."
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tính năng nén PNG hoạt động như thế nào?",
+          "a": "Công cụ này mã hóa lại PNG của bạn bằng các cài đặt giúp giảm kích thước tệp trong khi vẫn giữ được kết quả có thể sử dụng được một cách trực quan."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách PNG lên tới 10 MB."
+        },
+        {
+          "q": "Việc nén có làm giảm chất lượng hình ảnh không?",
+          "a": "Các cài đặt trước mạnh hơn có thể làm mềm các chi tiết đẹp. Chọn cài đặt trước nhẹ hơn khi có vẻ quan trọng nhất và luôn xem trước."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Tính năng nén khách hoạt động mà không cần đăng nhập."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Các kết quả và nội dung tải lên của khách sẽ tự động bị xóa trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Nén PNG Hình ảnh Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Nén hình ảnh PNG trực tuyến mà không làm giảm chất lượng. Giảm kích thước tệp PNG bằng tính năng xử lý khách riêng tư.",
+      "breadcrumbCurrent": "Nén PNG Trực tuyến",
+      "h1": "Nén PNG Trực tuyến",
+      "subtitle": "Giảm kích thước tệp PNG mà không làm giảm chất lượng",
+      "paragraph": "Nén hình ảnh PNG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: PNG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/compress-webp": {
+      "path": "/nén-webp",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Kích thước nhỏ hơn, chất lượng tuyệt vời như nhau",
+      "features": [
+        {
+          "title": "Nén thông minh",
+          "tone": "màu xanh da trời",
+          "body": "Tính năng nén thông minh được điều chỉnh cho hình ảnh WebP."
+        },
+        {
+          "title": "Nhỏ hơn tới 80%",
+          "body": "Giảm đáng kể kích thước tệp để tải lên và tải trang nhanh hơn.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Hoàn hảo cho Web",
+          "body": "Tối ưu hóa hình ảnh cho website, blog, trang sản phẩm.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Chất lượng bạn có thể tin tưởng",
+          "body": "Xem trước trước khi tải xuống để bạn có thể kiểm soát chất lượng.",
+          "tone": "quả cam"
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "nén"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "kind": "sự riêng tư",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để nén và tự động xóa trong vòng một giờ."
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tính năng nén WebP hoạt động như thế nào?",
+          "a": "Công cụ này mã hóa lại WebP của bạn bằng các cài đặt giúp giảm kích thước tệp trong khi vẫn giữ được kết quả có thể sử dụng được một cách trực quan."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách WebP lên tới 10 MB."
+        },
+        {
+          "q": "Việc nén có làm giảm chất lượng hình ảnh không?",
+          "a": "Các cài đặt trước mạnh hơn có thể làm mềm các chi tiết đẹp. Chọn cài đặt trước nhẹ hơn khi có vẻ quan trọng nhất và luôn xem trước."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Tính năng nén khách hoạt động mà không cần đăng nhập."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Các kết quả và nội dung tải lên của khách sẽ tự động bị xóa trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Nén WebP Hình ảnh Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Nén hình ảnh WebP trực tuyến mà không làm giảm chất lượng. Giảm kích thước tệp WebP bằng tính năng xử lý khách riêng tư.",
+      "breadcrumbCurrent": "Nén WebP Trực tuyến",
+      "h1": "Nén WebP Trực tuyến",
+      "subtitle": "Giảm kích thước tệp WebP mà không làm giảm chất lượng",
+      "paragraph": "Nén hình ảnh WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/resize-jpg": {
+      "path": "/thay đổi kích thước-jpg",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Kiểm soát chính xác, kết quả sạch",
+      "features": [
+        {
+          "title": "Kích thước chính xác",
+          "body": "Nhập chiều rộng và chiều cao phù hợp với nhu cầu bố cục của bạn.",
+          "tone": "màu xanh da trời"
+        },
+        {
+          "title": "Vừa vặn bên trong",
+          "body": "Chia tỷ lệ hình ảnh thành một hộp trong khi vẫn giữ nguyên tỷ lệ khung hình.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Không có sự nâng cấp không mong muốn",
+          "body": "Lan can giúp tránh kéo dài các nguồn nhỏ.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Web sẵn sàng",
+          "tone": "quả cam",
+          "body": "Chuẩn bị kích thước JPG nhất quán cho các trang và lưới."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Thay đổi kích thước"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để thay đổi kích thước và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể giữ tỷ lệ khung hình không?",
+          "a": "Đúng. Sử dụng kích thước vừa vặn hoặc liên kết để hình ảnh có tỷ lệ rõ ràng."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách JPG lên tới 10 MB."
+        },
+        {
+          "q": "Việc thay đổi kích thước có phóng to hình ảnh của tôi không?",
+          "a": "Theo mặc định, quy trình làm việc sẽ tránh được việc mở rộng không mong muốn."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Thay đổi kích thước với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Thay đổi kích thước hình ảnh JPG Trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Thay đổi kích thước hình ảnh JPG trực tuyến theo chiều rộng, chiều cao hoặc vừa với bên trong. Công cụ dành cho khách riêng không cần có tài khoản.",
+      "breadcrumbCurrent": "Thay đổi kích thước JPG Trực tuyến",
+      "h1": "Thay đổi kích thước JPG Trực tuyến",
+      "subtitle": "Thay đổi kích thước JPG cho web và mạng xã hội",
+      "paragraph": "Thay đổi kích thước hình ảnh JPG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: JPG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/resize-png": {
+      "path": "/thay đổi kích thước-png",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Kiểm soát chính xác, kết quả sạch",
+      "features": [
+        {
+          "title": "Kích thước chính xác",
+          "body": "Nhập chiều rộng và chiều cao phù hợp với nhu cầu bố cục của bạn.",
+          "tone": "màu xanh da trời"
+        },
+        {
+          "title": "Vừa vặn bên trong",
+          "body": "Chia tỷ lệ hình ảnh thành một hộp trong khi vẫn giữ nguyên tỷ lệ khung hình.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Không có sự nâng cấp không mong muốn",
+          "body": "Lan can giúp tránh kéo dài các nguồn nhỏ.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Web sẵn sàng",
+          "tone": "quả cam",
+          "body": "Chuẩn bị kích thước PNG nhất quán cho các trang và lưới."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Thay đổi kích thước"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để thay đổi kích thước và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể giữ tỷ lệ khung hình không?",
+          "a": "Đúng. Sử dụng kích thước vừa vặn hoặc liên kết để hình ảnh có tỷ lệ rõ ràng."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách PNG lên tới 10 MB."
+        },
+        {
+          "q": "Việc thay đổi kích thước có phóng to hình ảnh của tôi không?",
+          "a": "Theo mặc định, quy trình làm việc sẽ tránh được việc mở rộng không mong muốn."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Thay đổi kích thước với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Thay đổi kích thước hình ảnh PNG Trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Thay đổi kích thước hình ảnh PNG trực tuyến theo chiều rộng, chiều cao hoặc vừa với bên trong. Công cụ dành cho khách riêng không cần có tài khoản.",
+      "breadcrumbCurrent": "Thay đổi kích thước PNG Trực tuyến",
+      "h1": "Thay đổi kích thước PNG Trực tuyến",
+      "subtitle": "Thay đổi kích thước PNG cho web và mạng xã hội",
+      "paragraph": "Thay đổi kích thước hình ảnh PNG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: PNG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/resize-webp": {
+      "path": "/thay đổi kích thước-webp",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Kiểm soát chính xác, kết quả sạch",
+      "features": [
+        {
+          "title": "Kích thước chính xác",
+          "body": "Nhập chiều rộng và chiều cao phù hợp với nhu cầu bố cục của bạn.",
+          "tone": "màu xanh da trời"
+        },
+        {
+          "title": "Vừa vặn bên trong",
+          "body": "Chia tỷ lệ hình ảnh thành một hộp trong khi vẫn giữ nguyên tỷ lệ khung hình.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Không có sự nâng cấp không mong muốn",
+          "body": "Lan can giúp tránh kéo dài các nguồn nhỏ.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Web sẵn sàng",
+          "tone": "quả cam",
+          "body": "Chuẩn bị kích thước WebP nhất quán cho các trang và lưới."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Thay đổi kích thước"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để thay đổi kích thước và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể giữ tỷ lệ khung hình không?",
+          "a": "Đúng. Sử dụng kích thước vừa vặn hoặc liên kết để hình ảnh có tỷ lệ rõ ràng."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách WebP lên tới 10 MB."
+        },
+        {
+          "q": "Việc thay đổi kích thước có phóng to hình ảnh của tôi không?",
+          "a": "Theo mặc định, quy trình làm việc sẽ tránh được việc mở rộng không mong muốn."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Thay đổi kích thước với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Thay đổi kích thước hình ảnh WebP Trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Thay đổi kích thước hình ảnh WebP trực tuyến theo chiều rộng, chiều cao hoặc vừa với bên trong. Công cụ dành cho khách riêng không cần có tài khoản.",
+      "breadcrumbCurrent": "Thay đổi kích thước WebP Trực tuyến",
+      "h1": "Thay đổi kích thước WebP Trực tuyến",
+      "subtitle": "Thay đổi kích thước WebP cho web và mạng xã hội",
+      "paragraph": "Thay đổi kích thước hình ảnh WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Cắt xén với sự tự tin",
+      "features": [
+        {
+          "title": "Cắt miễn phí",
+          "body": "Chọn bất kỳ khu vực nào của hình ảnh và giữ chính xác khu vực đó.",
+          "tone": "màu xanh da trời"
+        },
+        {
+          "title": "Tỷ lệ cố định",
+          "body": "Sử dụng tỷ lệ khung hình chung để có bố cục nhất quán.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Định hướng an toàn",
+          "body": "Cắt các kích thước định hướng tôn trọng toán học sau khi tải lên.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Cùng một định dạng",
+          "tone": "quả cam",
+          "body": "Tải xuống kết quả JPG đã cắt."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Mùa vụ"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để cắt xén và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể cắt thành hình vuông không?",
+          "a": "Đúng. Chọn tỷ lệ 1:1 hoặc vẽ một hình cắt tự do."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách JPG lên tới 10 MB."
+        },
+        {
+          "q": "Bản gốc có bị ghi đè không?",
+          "a": "Không. Việc xử lý sẽ tạo ra một kết quả đã được cắt xén mới."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Cắt với tư cách khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/crop-jpg",
+      "metaTitle": "Cắt JPG Hình ảnh trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Cắt hình ảnh JPG trực tuyến bằng các điều khiển tỷ lệ cố định hoặc miễn phí. Xử lý khách riêng, không cần tài khoản.",
+      "breadcrumbCurrent": "Cắt JPG Trực tuyến",
+      "h1": "Cắt JPG Trực tuyến",
+      "subtitle": "Chỉ giữ lại phần JPG quan trọng của bạn",
+      "paragraph": "Cắt hình ảnh JPG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: JPG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/crop-png": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Cắt xén với sự tự tin",
+      "features": [
+        {
+          "title": "Cắt miễn phí",
+          "body": "Chọn bất kỳ khu vực nào của hình ảnh và giữ chính xác khu vực đó.",
+          "tone": "màu xanh da trời"
+        },
+        {
+          "title": "Tỷ lệ cố định",
+          "body": "Sử dụng tỷ lệ khung hình chung để có bố cục nhất quán.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Định hướng an toàn",
+          "body": "Cắt các kích thước định hướng tôn trọng toán học sau khi tải lên.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Cùng một định dạng",
+          "tone": "quả cam",
+          "body": "Tải xuống kết quả PNG đã cắt."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Mùa vụ"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để cắt xén và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể cắt thành hình vuông không?",
+          "a": "Đúng. Chọn tỷ lệ 1:1 hoặc vẽ một hình cắt tự do."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách PNG lên tới 10 MB."
+        },
+        {
+          "q": "Bản gốc có bị ghi đè không?",
+          "a": "Không. Việc xử lý sẽ tạo ra một kết quả đã được cắt xén mới."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Cắt với tư cách khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/crop-png",
+      "metaTitle": "Cắt PNG Hình ảnh trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Cắt hình ảnh PNG trực tuyến bằng các điều khiển tỷ lệ cố định hoặc miễn phí. Xử lý khách riêng, không cần tài khoản.",
+      "breadcrumbCurrent": "Cắt PNG Trực tuyến",
+      "h1": "Cắt PNG Trực tuyến",
+      "subtitle": "Chỉ giữ lại phần PNG quan trọng của bạn",
+      "paragraph": "Cắt hình ảnh PNG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: PNG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Cắt xén với sự tự tin",
+      "features": [
+        {
+          "title": "Cắt miễn phí",
+          "body": "Chọn bất kỳ khu vực nào của hình ảnh và giữ chính xác khu vực đó.",
+          "tone": "màu xanh da trời"
+        },
+        {
+          "title": "Tỷ lệ cố định",
+          "body": "Sử dụng tỷ lệ khung hình chung để có bố cục nhất quán.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "Định hướng an toàn",
+          "body": "Cắt các kích thước định hướng tôn trọng toán học sau khi tải lên.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Cùng một định dạng",
+          "tone": "quả cam",
+          "body": "Tải xuống kết quả WebP đã cắt."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Mùa vụ"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để cắt xén và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể cắt thành hình vuông không?",
+          "a": "Đúng. Chọn tỷ lệ 1:1 hoặc vẽ một hình cắt tự do."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách WebP lên tới 10 MB."
+        },
+        {
+          "q": "Bản gốc có bị ghi đè không?",
+          "a": "Không. Việc xử lý sẽ tạo ra một kết quả đã được cắt xén mới."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Cắt với tư cách khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/crop-webp",
+      "metaTitle": "Cắt WebP Hình ảnh trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Cắt hình ảnh WebP trực tuyến bằng các điều khiển tỷ lệ cố định hoặc miễn phí. Xử lý khách riêng, không cần tài khoản.",
+      "breadcrumbCurrent": "Cắt WebP Trực tuyến",
+      "h1": "Cắt WebP Trực tuyến",
+      "subtitle": "Chỉ giữ lại phần WebP quan trọng của bạn",
+      "paragraph": "Cắt hình ảnh WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Định dạng được hỗ trợ: WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-đến-webp",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng WebP với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi JPG thành WebP có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách JPG lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Chuyển đổi có bị mất không?",
+          "a": "Nó phụ thuộc vào định dạng nguồn và đích. Các định dạng bị mất có thể làm giảm chất lượng đối với kích thước nhỏ hơn."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Chuyển đổi JPG sang WebP Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh JPG thành WebP trực tuyến để có trang web nhanh hơn. Chuyển đổi khách riêng với kết quả đầu ra đã được xác minh.",
+      "breadcrumbCurrent": "Công cụ chuyển đổi JPG sang WebP",
+      "h1": "Chuyển đổi JPG sang WebP Trực tuyến",
+      "subtitle": "Chuyển từ JPG sang WebP mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh JPG thành WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: JPG → WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-đến-png",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng PNG với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi JPG thành PNG có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách JPG lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Chuyển đổi có bị mất không?",
+          "a": "Nó phụ thuộc vào định dạng nguồn và đích. Các định dạng bị mất có thể làm giảm chất lượng đối với kích thước nhỏ hơn."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Chuyển đổi JPG sang PNG Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh JPG thành PNG trực tuyến. Chuyển đổi khách riêng với kết quả đầu ra đã được xác minh.",
+      "breadcrumbCurrent": "Bộ chuyển đổi JPG sang PNG",
+      "h1": "Chuyển đổi JPG sang PNG Trực tuyến",
+      "subtitle": "Chuyển từ JPG sang PNG mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh JPG thành PNG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: JPG → PNG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-đến-avif",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng AVIF với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi JPG thành AVIF có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách JPG lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "AVIF có luôn sẵn có không?",
+          "a": "Mã hóa AVIF chỉ được cung cấp khi máy chủ có thể mã hóa và xác minh kết quả."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Chuyển đổi JPG sang AVIF Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh JPG thành AVIF trực tuyến khi có sẵn mã hóa. Chuyển đổi khách riêng.",
+      "breadcrumbCurrent": "Công cụ chuyển đổi JPG sang AVIF",
+      "h1": "Chuyển đổi JPG sang AVIF Trực tuyến",
+      "subtitle": "Chuyển từ JPG sang AVIF mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh JPG thành AVIF trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: JPG → AVIF • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/png-to-jpg": {
+      "path": "/png-đến-jpg",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng JPG với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi PNG thành JPG có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách PNG lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Chuyển đổi có bị mất không?",
+          "a": "Nó phụ thuộc vào định dạng nguồn và đích. Các định dạng bị mất có thể làm giảm chất lượng đối với kích thước nhỏ hơn."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Chuyển đổi PNG sang JPG Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh PNG thành JPG trực tuyến. Chuyển đổi khách riêng với kết quả đầu ra đã được xác minh.",
+      "breadcrumbCurrent": "Công cụ chuyển đổi PNG sang JPG",
+      "h1": "Chuyển đổi PNG sang JPG Trực tuyến",
+      "subtitle": "Chuyển từ PNG sang JPG mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh PNG thành JPG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: PNG → JPG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/png-to-webp": {
+      "path": "/png-đến-webp",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng WebP với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi PNG thành WebP có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách PNG lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Chuyển đổi có bị mất không?",
+          "a": "Nó phụ thuộc vào định dạng nguồn và đích. Các định dạng bị mất có thể làm giảm chất lượng đối với kích thước nhỏ hơn."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Chuyển đổi PNG sang WebP Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi trực tuyến hình ảnh PNG thành WebP để phân phối trên web nhỏ hơn. Chuyển đổi khách riêng.",
+      "breadcrumbCurrent": "Công cụ chuyển đổi PNG sang WebP",
+      "h1": "Chuyển đổi PNG sang WebP Trực tuyến",
+      "subtitle": "Chuyển từ PNG sang WebP mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh PNG thành WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: PNG → WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng AVIF với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi PNG thành AVIF có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách PNG lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "AVIF có luôn sẵn có không?",
+          "a": "Mã hóa AVIF chỉ được cung cấp khi máy chủ có thể mã hóa và xác minh kết quả."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/png-đến-avif",
+      "metaTitle": "Chuyển đổi PNG sang AVIF Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh PNG thành AVIF trực tuyến khi có sẵn mã hóa. Chuyển đổi khách riêng.",
+      "breadcrumbCurrent": "Công cụ chuyển đổi PNG sang AVIF",
+      "h1": "Chuyển đổi PNG sang AVIF Trực tuyến",
+      "subtitle": "Chuyển từ PNG sang AVIF mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh PNG thành AVIF trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: PNG → AVIF • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-đến-jpg",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng JPG với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi WebP thành JPG có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách WebP lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Chuyển đổi có bị mất không?",
+          "a": "Nó phụ thuộc vào định dạng nguồn và đích. Các định dạng bị mất có thể làm giảm chất lượng đối với kích thước nhỏ hơn."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Chuyển đổi WebP sang JPG Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh WebP thành JPG trực tuyến. Chuyển đổi khách riêng với kết quả đầu ra đã được xác minh.",
+      "breadcrumbCurrent": "Bộ chuyển đổi WebP sang JPG",
+      "h1": "Chuyển đổi WebP sang JPG Trực tuyến",
+      "subtitle": "Chuyển từ WebP sang JPG mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh WebP thành JPG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: WebP → JPG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/webp-to-png": {
+      "path": "/webp-đến-png",
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng PNG với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi WebP thành PNG có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách WebP lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Chuyển đổi có bị mất không?",
+          "a": "Nó phụ thuộc vào định dạng nguồn và đích. Các định dạng bị mất có thể làm giảm chất lượng đối với kích thước nhỏ hơn."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "metaTitle": "Chuyển đổi WebP sang PNG Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh WebP thành PNG trực tuyến. Chuyển đổi khách riêng với kết quả đầu ra đã được xác minh.",
+      "breadcrumbCurrent": "Bộ chuyển đổi WebP sang PNG",
+      "h1": "Chuyển đổi WebP sang PNG Trực tuyến",
+      "subtitle": "Chuyển từ WebP sang PNG mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh WebP thành PNG trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: WebP → PNG • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+      "features": [
+        {
+          "tone": "màu xanh da trời",
+          "title": "Xóa mục tiêu",
+          "body": "Đầu ra được lưu dưới dạng AVIF với kết quả đã được xác minh."
+        },
+        {
+          "tone": "màu xanh lá",
+          "title": "Công cụ khách nhanh",
+          "body": "Tải lên, chuyển đổi và tải xuống trong một phiên riêng tư."
+        },
+        {
+          "title": "Thân thiện với web",
+          "tone": "màu tím",
+          "body": "Sử dụng định dạng phù hợp với trang web hoặc quy trình làm việc của bạn."
+        },
+        {
+          "title": "Đầu ra trung thực",
+          "tone": "quả cam",
+          "body": "Biết loại và kích thước kết quả trước khi tải xuống."
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải hình ảnh của bạn lên"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Xem trước kết quả"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+          "kind": "sự riêng tư"
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Việc chuyển đổi WebP thành AVIF có làm thay đổi bản gốc của tôi không?",
+          "a": "Không. Quá trình xử lý khách ghi một đầu ra riêng. Nội dung tải lên của bạn vẫn ở chế độ riêng tư và hết hạn theo phiên."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Hỗ trợ tải lên của khách WebP lên tới 10 MB."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Không. Chuyển đổi thành khách. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "AVIF có luôn sẵn có không?",
+          "a": "Mã hóa AVIF chỉ được cung cấp khi máy chủ có thể mã hóa và xác minh kết quả."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/webp-đến-avif",
+      "metaTitle": "Chuyển đổi WebP sang AVIF Trực tuyến Miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi hình ảnh WebP thành AVIF trực tuyến khi có sẵn mã hóa. Chuyển đổi khách riêng.",
+      "breadcrumbCurrent": "Bộ chuyển đổi WebP sang AVIF",
+      "h1": "Chuyển đổi WebP sang AVIF Trực tuyến",
+      "subtitle": "Chuyển từ WebP sang AVIF mà không cần phần mềm máy tính",
+      "paragraph": "Chuyển đổi hình ảnh WebP thành AVIF trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+      "workspaceNote": "Được hỗ trợ: WebP → AVIF • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Tốc độ hàng loạt với giới hạn rõ ràng",
+      "features": [
+        {
+          "title": "Cài đặt chia sẻ",
+          "tone": "màu xanh da trời",
+          "body": "Áp dụng một lựa chọn nén cho toàn bộ lô."
+        },
+        {
+          "title": "Trạng thái mỗi tệp",
+          "body": "Xem hình ảnh nào thành công và hình ảnh nào cần chú ý.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "ZIP Tải xuống",
+          "body": "Thu thập kết quả đầu ra thành công khi lô đã sẵn sàng.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Mũ khách",
+          "body": "Kích thước lô và tổng số byte tuân theo chính sách dành cho khách miễn phí.",
+          "tone": "quả cam"
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải lên một lô"
+        },
+        {
+          "title": "nén"
+        },
+        {
+          "title": "Tệp xử lý"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "kind": "sự riêng tư",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để nén hàng loạt và tự động xóa trong vòng một giờ."
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể tải lên bao nhiêu tập tin?",
+          "a": "Công việc hàng loạt của khách thực thi số lượng tệp tối đa và tổng kích thước lô."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Mỗi tệp tuân theo kích thước tối đa của khách và lô có giới hạn tổng số byte."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Khách có thể thực hiện các công việc số lượng lớn có giới hạn. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Điều gì sẽ xảy ra nếu một tập tin bị lỗi?",
+          "a": "Kết quả đầu ra thành công vẫn có thể tải xuống được; các mục không thành công hiển thị trạng thái lỗi."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/nén hàng loạt",
+      "metaTitle": "Nén hàng loạt hình ảnh trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Nén nhiều hình ảnh trực tuyến và tải xuống kết quả thành công cùng nhau. Áp dụng giới hạn số lượng khách.",
+      "breadcrumbCurrent": "Nén hình ảnh hàng loạt",
+      "h1": "Nén hàng loạt hình ảnh trực tuyến",
+      "subtitle": "Nén một đợt ngắn mà không lặp lại từng bước",
+      "paragraph": "Nén nhiều tệp JPG, PNG hoặc WebP trong một đợt. Áp dụng giới hạn số lượng khách miễn phí.",
+      "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Áp dụng giới hạn số lượng khách. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Tốc độ hàng loạt với giới hạn rõ ràng",
+      "features": [
+        {
+          "title": "Cài đặt chia sẻ",
+          "tone": "màu xanh da trời",
+          "body": "Áp dụng một lựa chọn thay đổi kích thước cho toàn bộ lô."
+        },
+        {
+          "title": "Trạng thái mỗi tệp",
+          "body": "Xem hình ảnh nào thành công và hình ảnh nào cần chú ý.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "ZIP Tải xuống",
+          "body": "Thu thập kết quả đầu ra thành công khi lô đã sẵn sàng.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Mũ khách",
+          "body": "Kích thước lô và tổng số byte tuân theo chính sách dành cho khách miễn phí.",
+          "tone": "quả cam"
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải lên một lô"
+        },
+        {
+          "title": "Thay đổi kích thước"
+        },
+        {
+          "title": "Tệp xử lý"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "kind": "sự riêng tư",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để thay đổi kích thước hàng loạt và tự động xóa trong vòng một giờ."
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể tải lên bao nhiêu tập tin?",
+          "a": "Công việc hàng loạt của khách thực thi số lượng tệp tối đa và tổng kích thước lô."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Mỗi tệp tuân theo kích thước tối đa của khách và lô có giới hạn tổng số byte."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Khách có thể thực hiện các công việc số lượng lớn có giới hạn. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Điều gì sẽ xảy ra nếu một tập tin bị lỗi?",
+          "a": "Kết quả đầu ra thành công vẫn có thể tải xuống được; các mục không thành công hiển thị trạng thái lỗi."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/thay đổi kích thước hàng loạt",
+      "metaTitle": "Thay đổi kích thước hàng loạt hình ảnh trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Thay đổi kích thước nhiều hình ảnh trực tuyến và tải xuống kết quả thành công cùng nhau. Áp dụng giới hạn số lượng khách.",
+      "breadcrumbCurrent": "Thay đổi kích thước hình ảnh hàng loạt",
+      "h1": "Thay đổi kích thước hàng loạt hình ảnh trực tuyến",
+      "subtitle": "Thay đổi kích thước một đợt ngắn mà không lặp lại từng bước",
+      "paragraph": "Thay đổi kích thước nhiều tệp JPG, PNG hoặc WebP trong một đợt. Áp dụng giới hạn số lượng khách miễn phí.",
+      "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Áp dụng giới hạn số lượng khách. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Không cần tài khoản",
+        "Xử lý riêng tư và an toàn",
+        "Tự động xóa trong vòng 1 giờ"
+      ],
+      "featuresHeading": "Tốc độ hàng loạt với giới hạn rõ ràng",
+      "features": [
+        {
+          "title": "Cài đặt chia sẻ",
+          "tone": "màu xanh da trời",
+          "body": "Áp dụng một lựa chọn chuyển đổi cho toàn bộ lô."
+        },
+        {
+          "title": "Trạng thái mỗi tệp",
+          "body": "Xem hình ảnh nào thành công và hình ảnh nào cần chú ý.",
+          "tone": "màu xanh lá"
+        },
+        {
+          "title": "ZIP Tải xuống",
+          "body": "Thu thập kết quả đầu ra thành công khi lô đã sẵn sàng.",
+          "tone": "màu tím"
+        },
+        {
+          "title": "Mũ khách",
+          "body": "Kích thước lô và tổng số byte tuân theo chính sách dành cho khách miễn phí.",
+          "tone": "quả cam"
+        }
+      ],
+      "howHeading": "Nó hoạt động như thế nào",
+      "howSteps": [
+        {
+          "title": "Tải lên một lô"
+        },
+        {
+          "title": "Chuyển thành"
+        },
+        {
+          "title": "Tệp xử lý"
+        },
+        {
+          "title": "Tải xuống"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Vấn đề riêng tư của bạn",
+          "kind": "sự riêng tư",
+          "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi hàng loạt và tự động xóa trong vòng một giờ."
+        },
+        {
+          "title": "Nhanh chóng & Hiệu quả",
+          "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+          "kind": "tốc độ"
+        }
+      ],
+      "faqHeading": "Câu hỏi thường gặp",
+      "faqs": [
+        {
+          "q": "Tôi có thể tải lên bao nhiêu tập tin?",
+          "a": "Công việc hàng loạt của khách thực thi số lượng tệp tối đa và tổng kích thước lô."
+        },
+        {
+          "q": "Có giới hạn kích thước tập tin?",
+          "a": "Mỗi tệp tuân theo kích thước tối đa của khách và lô có giới hạn tổng số byte."
+        },
+        {
+          "q": "Tôi có cần một tài khoản không?",
+          "a": "Khách có thể thực hiện các công việc số lượng lớn có giới hạn. Các tập tin hết hạn trong vòng một giờ."
+        },
+        {
+          "q": "Điều gì sẽ xảy ra nếu một tập tin bị lỗi?",
+          "a": "Kết quả đầu ra thành công vẫn có thể tải xuống được; các mục không thành công hiển thị trạng thái lỗi."
+        },
+        {
+          "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+          "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+        }
+      ],
+      "path": "/chuyển đổi hàng loạt",
+      "metaTitle": "Chuyển đổi hàng loạt hình ảnh trực tuyến miễn phí | Img Pilot",
+      "metaDescription": "Chuyển đổi nhiều hình ảnh trực tuyến và tải xuống các kết quả thành công cùng nhau. Áp dụng giới hạn số lượng khách.",
+      "breadcrumbCurrent": "Chuyển đổi hình ảnh hàng loạt",
+      "h1": "Chuyển đổi hàng loạt hình ảnh trực tuyến",
+      "subtitle": "Chuyển đổi một đợt ngắn mà không lặp lại từng bước",
+      "paragraph": "Chuyển đổi nhiều tệp JPG, PNG hoặc WebP trong một đợt. Áp dụng giới hạn số lượng khách miễn phí.",
+      "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Áp dụng giới hạn số lượng khách. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ."
+    }
+  }
+}

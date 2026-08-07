@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/compresser l'image",
+      "title": "Compresser l'image",
+      "body": "Réduisez la taille des fichiers JPG, PNG et WebP tout en gardant le résultat clair et utilisable.",
+      "icon": "compresse"
+    },
+    {
+      "href": "/redimensionner-l'image",
+      "title": "Redimensionner l'image",
+      "body": "Modifiez les dimensions de l'image en fonction des paramètres de largeur, de hauteur ou d'ajustement sans agrandissement indésirable.",
+      "icon": "redimensionner"
+    },
+    {
+      "title": "Recadrer l'image",
+      "href": "/recadrer-image",
+      "body": "Sélectionnez la zone exacte que vous souhaitez conserver grâce à des contrôles de recadrage gratuits et à rapport fixe.",
+      "icon": "recadrer"
+    },
+    {
+      "title": "Convertir l'image",
+      "href": "/convertir-image",
+      "body": "Convertissez entre les formats JPG, PNG, WebP et AVIF pris en charge avec une vérification de sortie sécurisée.",
+      "icon": "convertir"
+    },
+    {
+      "title": "Géolocaliser l'image",
+      "href": "/image-géolocalisée",
+      "body": "Ajoutez des coordonnées GPS vérifiées aux images JPEG compatibles sans modifier l'original.",
+      "icon": "géolocaliser"
+    },
+    {
+      "title": "Visionneuse de métadonnées d'image",
+      "href": "/métadonnées-image",
+      "body": "Inspectez les dimensions, les informations sur les couleurs et les métadonnées d’image sécurisées et autorisées.",
+      "icon": "métadonnées"
+    },
+    {
+      "title": "Image SEO Éditeur de métadonnées",
+      "href": "/éditeur-de-métadonnées-d'image",
+      "body": "Rédigez, révisez et exportez les champs d'image SEO pour votre site Web ou votre système de gestion de contenu.",
+      "icon": "éditeur"
+    },
+    {
+      "title": "Outils d'images en masse",
+      "href": "/outils-d'images-en vrac",
+      "body": "Compressez, redimensionnez ou convertissez plusieurs images et téléchargez ensemble les résultats réussis.",
+      "icon": "en gros"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Compresser JPG",
+      "badge": "JPG",
+      "href": "/compresser-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/compresser-png",
+      "label": "Compresser PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/compresser-webp",
+      "label": "Compresser WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/resize-jpg",
+      "label": "Redimensionner JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/resize-png",
+      "label": "Redimensionner PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/resize-webp",
+      "label": "Redimensionner WebP"
+    },
+    {
+      "href": "/jpg-à-png",
+      "label": "JPG à PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-à-webp",
+      "label": "JPG à WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-à-jpg",
+      "label": "PNG à JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-à-webp",
+      "label": "PNG à WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-à-jpg",
+      "label": "WebP à JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-à-png",
+      "label": "WebP à PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Un format pratique pour les photographies, le contenu Web et les petits fichiers d'images avec perte.",
+      "href": "/compresser-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Format sans perte couramment utilisé pour les graphiques et les images nécessitant de la transparence.",
+      "href": "/compresser-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Un format Web moderne capable de fournir une compression efficace avec une transparence facultative.",
+      "href": "/compresser-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Disponible pour les workflows de conversion pris en charge lorsque le runtime du serveur peut les coder et les vérifier.",
+      "href": "/jpg-à-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Compresser, redimensionner, convertir et optimiser les images en ligne",
+  "metaDescription": "Compressez, redimensionnez, recadrez, convertissez et optimisez les images JPG, PNG et WebP en ligne. Utilisez des outils invités privés sans compte, avec suppression automatique dans l’heure.",
+  "heroBadge": "Outils d'image en ligne gratuits pour des sites Web plus rapides et plus propres",
+  "h1": "Optimisez chaque image dans un seul espace de travail simple",
+  "heroParagraph": "Compressez, redimensionnez, recadrez, convertissez et optimisez vos images sans installer de logiciel. Démarrez gratuitement sans compte, gardez le contrôle total de vos fichiers et téléchargez des résultats propres et vérifiés en quelques clics.",
+  "uploadHeading": "Déposez une image ici pour commencer",
+  "uploadSupport": "Téléchargez une image JPG, PNG ou WebP, ou collez-en une directement depuis votre presse-papiers.",
+  "chooseImage": "Choisissez une image",
+  "pasteHint": "Vous pouvez également coller une image avec Ctrl + V ou ⌘ + V",
+  "formatLimitLine": "JPG, PNG et WebP • Jusqu'à {maxFileSize} • Aucun compte requis",
+  "privacyLine": "Vos fichiers invités restent privés et sont automatiquement supprimés dans un délai d'une heure.",
+  "defaultActionLabel": "Commencez par la compression d'image",
+  "trust": [
+    {
+      "title": "Aucun compte requis",
+      "body": "Utilisez instantanément les outils d’image essentiels en tant qu’invité."
+    },
+    {
+      "title": "Traitement privé",
+      "body": "Les fichiers restent dans un stockage temporaire protégé."
+    },
+    {
+      "title": "Suppression automatique",
+      "body": "Les fichiers invités expirent dans un délai d’une heure."
+    },
+    {
+      "title": "Résultats vérifiés",
+      "body": "Les sorties sont vérifiées par le serveur avant le téléchargement."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Plus de 10 millions d'images traitées",
+      "body": "Des flux de travail fiables pour une optimisation quotidienne."
+    },
+    {
+      "title": "100% privé et sécurisé",
+      "body": "Stockage temporaire avec accès de courte durée."
+    },
+    {
+      "title": "Suppression automatique après 1 heure",
+      "body": "Les fichiers invités expirent selon un horaire fixe."
+    },
+    {
+      "title": "Aucun téléchargement propre sans filigrane",
+      "body": "Téléchargez les résultats vérifiés sans marque."
+    }
+  ],
+  "toolsEyebrow": "Tout ce dont vous avez besoin",
+  "toolsHeading": "Des outils d'image puissants, prêts quand vous l'êtes",
+  "toolsDescription": "Gérez les tâches quotidiennes liées aux images à partir d’un seul espace de travail propre. Chaque outil est conçu pour être simple pour les débutants tout en offrant aux professionnels les contrôles dont ils ont besoin.",
+  "openTool": "Ouvrir l'outil",
+  "exploreAllTools": "Explorez tous les outils",
+  "formatEyebrow": "Tâches d'image populaires",
+  "formatHeading": "Accédez directement au format dont vous avez besoin",
+  "formatDescription": "Choisissez un outil dédié pour votre format d'image ou votre conversion. Vos paramètres de source et de sortie préférés seront déjà sélectionnés.",
+  "platformEyebrow": "Un espace de travail d'image privé",
+  "platformHeading": "Du téléchargement au téléchargement sans la complexité habituelle",
+  "platformP1": "Img Pilot rassemble les flux de travail d'images les plus utiles en une seule expérience cohérente. Vous n'avez pas besoin d'apprendre une interface différente pour chaque tâche. Téléchargez votre image, choisissez les paramètres importants, traitez-la en toute sécurité et téléchargez le résultat vérifié.",
+  "platformP2": "Le même flux de travail prend en charge les tâches rapides d'image unique, les pages de destination spécifiques à un format et les opérations groupées sélectionnées. Les outils invités ne nécessitent aucun compte, tandis que les utilisateurs connectés peuvent accéder aux projets et aux fonctionnalités de l'espace de travail à plus long terme.",
+  "platformFeatures": [
+    "Un espace de travail d’outils cohérent",
+    "Informations claires avant et après",
+    "Stockage temporaire privé pour les invités",
+    "Workflows groupés individuels et sélectionnés",
+    "Interfaces en anglais et en ourdou",
+    "Sorties vérifiées par le serveur"
+  ],
+  "whyEyebrow": "Construit autour de la clarté et du contrôle",
+  "whyHeading": "Des outils d'image qui respectent votre temps et vos fichiers",
+  "whyIntro": "Chaque flux de travail est conçu pour supprimer les étapes inutiles tout en gardant les contrôles importants visibles. Vous savez toujours ce qui arrivera à votre image, ce que contient le résultat et quand les fichiers temporaires seront supprimés.",
+  "benefits": [
+    {
+      "title": "Commencez immédiatement",
+      "body": "Utilisez les outils invités de base sans inscription, installation de logiciel ou processus de configuration de projet."
+    },
+    {
+      "title": "Gardez l'original en sécurité",
+      "body": "Le traitement crée un nouveau résultat tandis que l'original téléchargé reste inchangé."
+    },
+    {
+      "title": "Sachez ce qui a changé",
+      "body": "Comparez les dimensions, les formats et les tailles de fichiers avant de télécharger le résultat final."
+    },
+    {
+      "title": "Travailler sur plusieurs formats",
+      "body": "Utilisez des flux de travail dédiés pour JPG, PNG et WebP avec une gestion honnête spécifique au format."
+    },
+    {
+      "title": "Protéger les fichiers temporaires",
+      "body": "Les images des invités et les résultats générés sont automatiquement supprimés dans la fenêtre de conservation."
+    },
+    {
+      "title": "Préparer les images pour la recherche",
+      "body": "Examinez les métadonnées, améliorez les noms de fichiers et organisez le texte alternatif pour le site Web et l'utilisation de CMS."
+    }
+  ],
+  "howEyebrow": "Simple du début à la fin",
+  "howHeading": "Terminez votre tâche d'image en quatre étapes claires",
+  "steps": [
+    {
+      "title": "Téléchargez votre image",
+      "body": "Choisissez une image prise en charge, faites-la glisser dans l'espace de travail ou collez-la depuis votre presse-papiers."
+    },
+    {
+      "title": "Sélectionnez vos paramètres",
+      "body": "Choisissez le format, les dimensions, la qualité, la zone de recadrage ou les options de métadonnées requises pour votre tâche."
+    },
+    {
+      "title": "Traiter en toute sécurité",
+      "body": "Le serveur effectue et vérifie l'opération tout en affichant clairement la progression et les états d'erreur."
+    },
+    {
+      "title": "Téléchargez le résultat",
+      "body": "Vérifiez les derniers détails, téléchargez votre fichier et traitez une autre image chaque fois que nécessaire."
+    }
+  ],
+  "beforeEyebrow": "Voyez la différence",
+  "beforeHeading": "Voyez la différence avant de télécharger",
+  "beforeParagraph": "Des résumés clairs des résultats vous aident à comprendre ce qui a changé. Comparez l'image originale avec la version traitée, vérifiez la taille ou les dimensions du fichier et téléchargez-la uniquement lorsque le résultat correspond à vos besoins.",
+  "beforeBullets": [
+    "L'original reste en sécurité pendant qu'un nouveau résultat est créé",
+    "Sortie vérifiée avec des détails honnêtes sur la taille et les dimensions"
+  ],
+  "beforeCaption": "Illustration du produit – exemple uniquement. Les économies réelles varient selon l’image.",
+  "useEyebrow": "Conçu pour le vrai travail",
+  "useHeading": "Préparer des images pour les sites Web, le contenu et le partage quotidien",
+  "useCases": [
+    {
+      "title": "Sites Web",
+      "body": "Réduisez le poids inutile des images et préparez des dimensions cohérentes pour des pages plus rapides et plus propres."
+    },
+    {
+      "title": "Boutiques en ligne",
+      "body": "Organisez les formats d'image de produit, les noms de fichiers, les dimensions et les métadonnées avant la publication."
+    },
+    {
+      "title": "Contenu social",
+      "body": "Redimensionnez et recadrez les images selon des proportions pratiques pour les publications, les miniatures et les campagnes."
+    },
+    {
+      "title": "Blogs et éditeurs",
+      "body": "Créez des images d'articles plus légères et préparez un texte d'image accessible et descriptif."
+    },
+    {
+      "title": "Courriel et documents",
+      "body": "Réduisez les fichiers volumineux afin que les images soient plus faciles à joindre, à partager et à inclure dans les présentations."
+    },
+    {
+      "title": "Local SEO",
+      "body": "Inspectez les métadonnées, ajoutez des coordonnées JPEG vérifiées et organisez les informations de l'image SEO pour les flux de travail de contenu local."
+    }
+  ],
+  "seoEyebrow": "Plus qu'une simple édition",
+  "seoHeading": "Transformez des images ordinaires en meilleurs éléments de site Web",
+  "seoP1": "L'optimisation des images ne consiste pas seulement à réduire la taille du fichier. Des noms de fichiers clairs, un texte alternatif précis, des dimensions appropriées et des métadonnées utiles peuvent rendre les bibliothèques d'images plus faciles à gérer et le contenu des sites Web plus accessible.",
+  "seoP2": "Img Pilot comprend des outils pour inspecter les métadonnées, rédiger des champs d'image SEO et exporter des informations pour une utilisation dans un site Web ou CMS.",
+  "seoLinks": [
+    {
+      "href": "/métadonnées-image",
+      "label": "Afficher les métadonnées de l'image"
+    },
+    {
+      "href": "/éditeur-de-métadonnées-d'image",
+      "label": "Modifier l'image SEO Métadonnées"
+    },
+    {
+      "href": "/image-géolocalisée",
+      "label": "Géolocaliser un JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO et les outils d'accessibilité fournissent une assistance et des recommandations. Ils ne garantissent pas le classement des recherches ni la conformité automatique.",
+  "bulkEyebrow": "Vous travaillez avec plusieurs images ?",
+  "bulkHeading": "Traitez un petit lot sans répéter chaque étape",
+  "bulkParagraph": "Utilisez Bulk Image Tools pour compresser, redimensionner ou convertir plusieurs images prises en charge avec un ensemble d'options partagé. Examinez chaque fichier séparément, téléchargez des résultats individuels ou collectez les résultats réussis dans une archive ZIP.",
+  "bulkBullets": [
+    "Compresser en vrac",
+    "Redimensionnement en bloc",
+    "Conversion en masse",
+    "Statut de traitement par fichier",
+    "Téléchargements individuels",
+    "Archive ZIP pour des résultats réussis"
+  ],
+  "bulkCta": "Ouvrir les outils d'images en masse",
+  "bulkNotice": "Des limites de nombre d'invités s'appliquent. Les flux de travail plus importants peuvent nécessiter un compte.",
+  "privacyEyebrow": "Confidentialité dès la conception",
+  "privacyHeading": "Les fichiers temporaires doivent rester temporaires",
+  "privacyP1": "Les téléchargements d'invités sont stockés en privé pendant que l'outil sélectionné fonctionne. Votre image, vos sorties générées et vos données de résultats temporaires expirent dans un délai d'une heure. Le téléchargement, l’actualisation ou le retraitement ne prolonge pas ce délai.",
+  "privacyP2": "Les sessions invité ne créent pas de bibliothèque d’images permanente. Connectez-vous uniquement lorsque vous avez besoin de projets ou de fonctionnalités de compte à plus long terme.",
+  "privacyFacts": [
+    "Stockage d'objets temporaire privé",
+    "Aperçus et téléchargements de courte durée",
+    "Aucune URL d'image d'invité publique",
+    "Nettoyage automatique",
+    "Pas d'historique permanent des invités",
+    "Les fichiers originaux restent inchangés pendant le traitement"
+  ],
+  "privacyCta": "Lisez notre politique de confidentialité",
+  "formatsHeading": "Travaillez avec les formats d'image que vous utilisez le plus",
+  "formatsParagraph": "Les outils invités de base prennent en charge les images JPG, PNG et WebP. Les formats de sortie disponibles et les fonctionnalités de métadonnées dépendent de l'opération sélectionnée et des capacités de chaque format d'image.",
+  "faqHeading": "Questions fréquemment posées",
+  "faqs": [
+    {
+      "q": "Ai-je besoin d'un compte pour utiliser Img Pilot ?",
+      "a": "Non. Les outils invités de base peuvent être utilisés sans créer de compte. Des limites d'invités s'appliquent et des fonctionnalités de compte sont disponibles lorsque vous avez besoin de projets enregistrés ou de limites de flux de travail plus élevées."
+    },
+    {
+      "q": "Combien de temps les images des invités sont-elles conservées ?",
+      "a": "Les images des invités et les résultats temporaires expirent dans un délai d’une heure. Le téléchargement, l’actualisation ou le retraitement ne prolonge pas ce délai."
+    },
+    {
+      "q": "Le traitement écrasera-t-il mon image originale ?",
+      "a": "Non. Le traitement crée un résultat distinct. L'original téléchargé reste inchangé pendant la session invité active."
+    },
+    {
+      "q": "Quels formats d'images sont pris en charge ?",
+      "a": "Les outils de base prennent en charge JPG, PNG et WebP. Certains workflows de conversion peuvent également prendre en charge AVIF lorsque le serveur peut encoder et vérifier le résultat."
+    },
+    {
+      "q": "Puis-je traiter plusieurs images ensemble ?",
+      "a": "Oui. Bulk Image Tools prend en charge les flux de travail sélectionnés de compression, de redimensionnement et de conversion. Des limites de lots d'invités s'appliquent."
+    },
+    {
+      "q": "Est-ce que compresser une image la rend toujours plus petite ?",
+      "a": "Pas toujours. La taille finale dépend de l'image originale, de son format et des paramètres sélectionnés. Img Pilot rapporte honnêtement le résultat réel, y compris lorsqu'une sortie est plus grande."
+    },
+    {
+      "q": "Le texte alternatif est-il intégré à l’image ?",
+      "a": "Le texte alternatif est normalement ajouté à un site Web ou à un enregistrement CMS plutôt que universellement intégré dans le fichier image. L'éditeur de métadonnées vous aide à les préparer et à les exporter pour les utiliser sur votre site Web."
+    },
+    {
+      "q": "L’optimisation des images garantit-elle un meilleur classement dans les recherches ?",
+      "a": "L'optimisation des images peut prendre en charge les performances, l'organisation et l'accessibilité, mais aucun outil d'image individuel ne peut garantir le classement dans les recherches."
+    }
+  ],
+  "finalHeading": "Votre prochaine image est prête à être optimisée",
+  "finalParagraph": "Téléchargez une image JPG, PNG ou WebP et terminez votre tâche sans installer de logiciel ni créer de compte.",
+  "finalPrimary": "Choisissez une image",
+  "finalSecondary": "Explorer tous les outils",
+  "finalTrust": "Traitement des invités privés · Suppression automatique après une heure · Pas de filigrane",
+  "footerBrand": "Outils privés en ligne pour compresser, redimensionner, convertir et préparer des images pour le Web.",
+  "footerRights": "© {year} Img Pilot. Tous droits réservés."
+}

@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/comprimir-imatge",
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Comprimir"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Com funciona la compressió d'imatges?",
+        "a": "L'eina torna a codificar la vostra imatge amb paràmetres que redueixen la mida del fitxer alhora que el resultat es pot utilitzar visualment. Trieu un valor predefinit més lleuger o més fort abans de processar-lo."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB. Els fluxos de treball més grans poden requerir un compte."
+      },
+      {
+        "q": "La compressió reduirà la qualitat de la imatge?",
+        "a": "Els preajustos més forts poden suavitzar els detalls fins. Utilitzeu Qualitat màxima o Equilibrat quan l'aspecte més importa, i previsualitzeu sempre abans de baixar-lo."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. La compressió de convidat funciona sense iniciar la sessió. Els fitxers es mantenen privats i caduquen en una hora."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats són temporals i s'eliminen automàticament en una hora."
+      }
+    ],
+    "metaTitle": "Comprimiu imatges en línia: reduïu la mida JPG, PNG i WebP",
+    "metaDescription": "Comprimiu imatges en línia sense perdre qualitat. Reduïu la mida dels fitxers JPG, PNG i WebP amb processament de convidats privats i supressió automàtica en una hora.",
+    "breadcrumbCurrent": "Comprimir imatges en línia",
+    "h1": "Comprimir imatges en línia",
+    "subtitle": "Redueix la mida del fitxer d'imatge sense perdre qualitat",
+    "paragraph": "Comprimiu les imatges JPG, PNG i WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Talla més petita, mateixa gran qualitat",
+    "features": [
+      {
+        "title": "Compressió intel·ligent",
+        "body": "Compressió intel·ligent que manté les vostres imatges nítides.",
+        "tone": "blau"
+      },
+      {
+        "title": "Fins a un 80% més petit",
+        "body": "Redueix dràsticament la mida del fitxer per a càrregues i càrregues de pàgines més ràpides.",
+        "tone": "verd"
+      },
+      {
+        "title": "Perfecte per a la web",
+        "body": "Optimitzeu imatges per a llocs web, blocs i pàgines de productes.",
+        "tone": "morat"
+      },
+      {
+        "title": "Qualitat en la qual pots confiar",
+        "body": "Previsualitza abans de baixar perquè la qualitat estigui sota el teu control.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada i s'eliminen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "La compressió amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/resize-image": {
+    "path": "/redimensiona-imatge",
+    "features": [
+      {
+        "title": "Dimensions exactes",
+        "body": "Introduïu l'amplada i l'alçada que coincideixin amb les vostres necessitats de disseny.",
+        "tone": "blau"
+      },
+      {
+        "title": "Fit Dins",
+        "body": "Escala les imatges en un quadre mentre es conserva la relació d'aspecte.",
+        "tone": "verd"
+      },
+      {
+        "title": "Sense augment no desitjat",
+        "body": "Les baranes ajuden a evitar estirar fonts petites.",
+        "tone": "morat"
+      },
+      {
+        "title": "Web llest",
+        "body": "Prepareu mides coherents per a pàgines i graelles de productes.",
+        "tone": "taronja"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Canvia la mida"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Puc mantenir la relació d'aspecte?",
+        "a": "Sí. Utilitzeu dimensions encaixades o enllaçades perquè les imatges s'escallin netament sense distorsió."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "El canvi de mida augmentarà la meva imatge?",
+        "a": "Per defecte, els fluxos de treball eviten l'ampliació no desitjada. Trieu les dimensions que s'adaptin a la vostra font."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Comenceu a canviar la mida com a convidat. Els fitxers temporals caduquen en una hora."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats s'eliminen automàticament en una hora."
+      }
+    ],
+    "metaTitle": "Canvia la mida de les imatges en línia: canvia les dimensions per al web i les xarxes socials",
+    "metaDescription": "Canvia la mida de les imatges en línia JPG, PNG i WebP per amplada, alçada o ajust interior. Eina de convidat privada sense necessitat de compte.",
+    "breadcrumbCurrent": "Canvia la mida de les imatges en línia",
+    "h1": "Canvia la mida de les imatges en línia",
+    "subtitle": "Canvia les dimensions per a la web, les xarxes socials i el disseny",
+    "paragraph": "Canvia la mida de les imatges JPG, PNG i WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Control precís, resultats nets",
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per canviar-les de mida i es suprimeixen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/crop-image": {
+    "path": "/imatge retallada",
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Cultiu"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Puc retallar fins a un quadrat?",
+        "a": "Sí. Trieu una proporció 1:1 o dibuixeu un tall gratuït que s'adapti a les vostres necessitats."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Es sobreescriu l'original?",
+        "a": "No. El processament crea un resultat retallat nou."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Retalla com a convidat. Els fitxers s'eliminen automàticament en una hora."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "metaTitle": "Retalla imatges en línia — Retalla de proporció fixa i gratuïta",
+    "metaDescription": "Retalla les imatges JPG, PNG i WebP en línia amb controls gratuïts o de proporció fixa. Processament de convidat privat, no cal cap compte.",
+    "breadcrumbCurrent": "Retalla imatges en línia",
+    "h1": "Retalla imatges en línia",
+    "subtitle": "Conserveu només la part de la imatge que importa",
+    "paragraph": "Retalla les imatges JPG, PNG i WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Cultiva amb confiança",
+    "features": [
+      {
+        "title": "Cultiu gratuït",
+        "body": "Seleccioneu qualsevol àrea de la imatge i manteniu exactament aquesta regió.",
+        "tone": "blau"
+      },
+      {
+        "title": "Relacions fixes",
+        "body": "Utilitzeu relacions d'aspecte habituals per a dissenys coherents.",
+        "tone": "verd"
+      },
+      {
+        "title": "Orientació segura",
+        "body": "Les matemàtiques de retall respecten les dimensions orientades després de la càrrega.",
+        "tone": "morat"
+      },
+      {
+        "title": "Sortida del mateix format",
+        "body": "Baixeu un resultat retallat en el vostre format font quan sigui compatible.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per retallar-les i es suprimeixen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/convert-image": {
+    "path": "/convertir-imatge",
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Converteix"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quines conversions s'admeten?",
+        "a": "La conversió de convidat bàsic cobreix JPG, PNG i WebP. AVIF s'ofereix quan el temps d'execució pot codificar-lo i verificar-lo."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Es mantindrà la transparència?",
+        "a": "Quan es converteix a formats que admeten alfa, la transparència es pot preservar segons les opcions de l'eina."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Converteix-te com a convidat. Els fitxers temporals caduquen en una hora."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats s'eliminen automàticament en una hora."
+      }
+    ],
+    "metaTitle": "Converteix imatges en línia — JPG, PNG, WebP i AVIF",
+    "metaDescription": "Converteix entre JPG, PNG, WebP i els formats AVIF compatibles en línia. Conversió de convidats privats amb sortides verificades.",
+    "breadcrumbCurrent": "Converteix imatges en línia",
+    "h1": "Converteix imatges en línia",
+    "subtitle": "Canvia de format per al web sense programari d'escriptori",
+    "paragraph": "Converteix imatges JPG, PNG i WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Canvis de format senzills",
+    "features": [
+      {
+        "title": "Formats populars",
+        "body": "Mou-te entre JPG, PNG i WebP amb opcions clares.",
+        "tone": "blau"
+      },
+      {
+        "title": "Conscient de la transparència",
+        "body": "PNG i WebP alpha són gestionats amb cura per la política.",
+        "tone": "verd"
+      },
+      {
+        "title": "AVIF Quan estigui llest",
+        "body": "Codifica a AVIF només quan el servidor pugui verificar-ho.",
+        "tone": "morat"
+      },
+      {
+        "title": "Sortida honesta",
+        "body": "Conegui el tipus i la mida MIME resultants abans de descarregar-lo.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Girar"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quins angles es suporten?",
+        "a": "La rotació dels convidats admet 90°, 180° i 270° més voltes opcionals."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Gira com a convidat. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "S'aplica l'orientació EXIF?",
+        "a": "Les fonts es normalitzen per orientació abans de la transformació, de manera que els resultats coincideixen amb el que espereu."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "path": "/girar-imatge",
+    "metaTitle": "Gira la imatge en línia — Gira JPG, PNG i WebP",
+    "metaDescription": "Gireu les imatges 90°, 180° o 270° i gireu horitzontalment o verticalment. Eina gratuïta per a convidats amb emmagatzematge temporal privat.",
+    "breadcrumbCurrent": "Gira les imatges en línia",
+    "h1": "Gira les imatges en línia",
+    "subtitle": "Gireu o gireu les imatges per a la seva disposició i disseny",
+    "paragraph": "Gira o gira les imatges JPG, PNG i WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Solucions ràpides d'orientació",
+    "features": [
+      {
+        "title": "Passos de 90°",
+        "body": "Gireu 90°, 180° o 270° en una sola passada.",
+        "tone": "blau"
+      },
+      {
+        "title": "Controls de volta",
+        "body": "Mirall horitzontal o vertical quan sigui necessari.",
+        "tone": "verd"
+      },
+      {
+        "title": "Mateix format",
+        "body": "La sortida es manté en el format que heu penjat.",
+        "tone": "morat"
+      },
+      {
+        "title": "Feines de convidats privats",
+        "body": "Processament de curta durada amb neteja automàtica.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per girar-les i es suprimeixen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Filigrana"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Puc penjar una marca d'aigua de logotip?",
+        "a": "Aquesta eina de convidat marca el text. Utilitzeu un text de marca breu de moment."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Marca d'aigua com a convidat. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "La marca d'aigua cobrirà el meu tema?",
+        "a": "Trieu les posicions de les cantonades i una opacitat més baixa per mantenir els subjectes visibles."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "path": "/imatge-filigrana",
+    "metaTitle": "Imatges de filigrana en línia — Afegeix filigranes de text",
+    "metaDescription": "Marca filigranes de text breu a JPG, PNG i WebP amb controls de posició i opacitat. Eina de convidat privat.",
+    "breadcrumbCurrent": "Imatges de filigrana en línia",
+    "h1": "Imatges de filigrana en línia",
+    "subtitle": "Segell text breu sense cobrir tota la imatge",
+    "paragraph": "Afegeix una marca d'aigua de text a les imatges JPG, PNG o WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Protegiu les imatges amb la marca lleugera",
+    "features": [
+      {
+        "title": "Segells de text curt",
+        "body": "Afegiu una marca d'aigua concisa que es mantingui llegible.",
+        "tone": "blau"
+      },
+      {
+        "title": "Control de posició",
+        "body": "Col·loqueu filigranes a les cantonades o al centre.",
+        "tone": "verd"
+      },
+      {
+        "title": "Control lliscant d'opacitat",
+        "body": "Equilibri la visibilitat amb el contingut de la imatge.",
+        "tone": "morat"
+      },
+      {
+        "title": "Sortida del mateix format",
+        "body": "Baixeu un fitxer amb filigrana en el vostre format d'origen.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per a la marca d'aigua i s'eliminen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Desenfocament"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Això detecta cares automàticament?",
+        "a": "No. Seleccioneu la regió manualment com a percentatges de la imatge."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Desenfoca com a convidat. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "Puc desenfocar diverses regions?",
+        "a": "Aquesta eina convidada aplica una regió per execució. Torna a executar per desenfocar una altra àrea."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "path": "/blur-region",
+    "metaTitle": "Desenfoca la regió de la imatge en línia: amaga cares i detalls",
+    "metaDescription": "Desenfoca manualment una regió d'imatges JPG, PNG o WebP per amagar cares, plaques o altres detalls. Eina de convidat privat.",
+    "breadcrumbCurrent": "Desenfocar la regió en línia",
+    "h1": "Desenfocar la regió en línia",
+    "subtitle": "Amaga els detalls sensibles amb un quadre de desenfocament manual",
+    "paragraph": "Desenfoca una regió seleccionada en imatges JPG, PNG o WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Desenfoca el que necessita privadesa",
+    "features": [
+      {
+        "title": "Regió manual",
+        "body": "Trieu exactament on s'aplica el desenfocament.",
+        "tone": "blau"
+      },
+      {
+        "title": "Nivells de força",
+        "body": "Desenfocament lleuger, mitjà o fort per a diferents necessitats.",
+        "tone": "verd"
+      },
+      {
+        "title": "Privadesa amigable",
+        "body": "Amaga els detalls abans de publicar o enviar actius.",
+        "tone": "morat"
+      },
+      {
+        "title": "Segur de convidats",
+        "body": "Tramitació temporal privada amb supressió automàtica.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per a la desenfocament de la regió i es suprimeixen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Subtítol"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Necessito tant el text superior com el inferior?",
+        "a": "No. Proporcioneu almenys una línia de subtítols."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Genera com a convidat. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "Puc canviar el tipus de lletra?",
+        "a": "Els mems de convidats utilitzen una pila clàssica d'estil Impact per a la llegibilitat."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "path": "/meme-generator",
+    "metaTitle": "Generador de memes en línia: afegiu subtítols superior i inferior",
+    "metaDescription": "Afegeix subtítols clàssics de memes superior i inferior a les imatges JPG, PNG o WebP. Generador de memes de convidat gratuït.",
+    "breadcrumbCurrent": "Generador de memes en línia",
+    "h1": "Generador de memes en línia",
+    "subtitle": "Afegeix subtítols clàssics en segons",
+    "paragraph": "Afegeix subtítols superior i inferior a les imatges JPG, PNG o WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Subtítols que es llegeixen com Memes clàssics",
+    "features": [
+      {
+        "title": "Text superior i inferior",
+        "body": "Utilitzeu qualsevol línia o totes dues per als dissenys clàssics.",
+        "tone": "blau"
+      },
+      {
+        "title": "Embolcall automàtic",
+        "body": "Els subtítols llargs s'emboliquen en línies curtes llegibles.",
+        "tone": "verd"
+      },
+      {
+        "title": "Tipus d'alt contrast",
+        "body": "Farciment blanc amb traç fosc per a la claredat.",
+        "tone": "morat"
+      },
+      {
+        "title": "Eina de convidat instantani",
+        "body": "Crea i baixa sense iniciar la sessió.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per als subtítols de memes i s'eliminen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/geotag-image": {
+    "path": "/geotag-image",
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Geoetiqueta"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quins formats admeten el geoetiquetatge?",
+        "a": "La geoetiqueta de convidat se centra en imatges JPEG compatibles."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Les càrregues de convidats són compatibles amb JPEG dins del límit de 10 MB."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Geoetiqueta com a convidat. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "Es comproven les coordenades?",
+        "a": "Les escriptures segueixen regles de validació perquè els valors estiguin ben formats abans d'incorporar-los."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "metaTitle": "Geoetiqueta imatges en línia — Afegeix GPS a JPEG",
+    "metaDescription": "Llegiu o escriviu les coordenades GPS verificades en imatges JPEG compatibles. Eina d'etiqueta geogràfica de convidat privat.",
+    "breadcrumbCurrent": "Geoetiqueta imatges en línia",
+    "h1": "Geoetiqueta imatges en línia",
+    "subtitle": "Afegiu o inspeccioneu les dades d'ubicació JPEG GPS",
+    "paragraph": "Afegiu o inspeccioneu les coordenades GPS a les imatges JPEG compatibles. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Dades d'ubicació que podeu verificar",
+    "features": [
+      {
+        "title": "JPEG Centrat",
+        "body": "Els fluxos de treball d'etiquetes geogràfiques es dirigeixen a fonts JPEG compatibles.",
+        "tone": "blau"
+      },
+      {
+        "title": "Inspeccionar primer",
+        "body": "Vegeu si ja hi ha GPS llegible.",
+        "tone": "verd"
+      },
+      {
+        "title": "Escriu les coordenades",
+        "body": "Es permet inserir la latitud i la longitud quan es substitueix.",
+        "tone": "morat"
+      },
+      {
+        "title": "Privadesa dels convidats",
+        "body": "Tramitació temporal amb neteja automàtica.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per al geoetiquetatge i s'eliminen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/image-metadata": {
+    "path": "/metadades-imatge",
+    "breadcrumbCurrent": "Visualitzador de metadades d'imatge",
+    "h1": "Visualitzador de metadades d'imatge",
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Inspeccionar"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Mostreu totes les etiquetes EXIF?",
+        "a": "No. El visualitzador mostra els camps de la llista permesa per seguretat i claredat."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "No. Inspeccioneu com a convidat. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "Puc editar les metadades aquí?",
+        "a": "Utilitzeu l'Editor de metadades d'imatge SEO per redactar i exportar camps SEO."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "metaTitle": "Visualitzador de metadades d'imatges en línia — Inspeccioneu EXIF amb seguretat",
+    "metaDescription": "Inspeccioneu les dimensions, la informació sobre els colors i les metadades segures de la llista permesa per a JPG, PNG i WebP. Visor convidat privat.",
+    "subtitle": "Inspeccioneu les propietats segures de la imatge abans de publicar-la",
+    "paragraph": "Inspeccioneu les propietats JPG, PNG i WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Vegeu el que importa, amb seguretat",
+    "features": [
+      {
+        "title": "Propietats bàsiques",
+        "body": "Dimensions, tipus i detalls pràctics de la fitxa.",
+        "tone": "blau"
+      },
+      {
+        "title": "Camps llistats permès",
+        "body": "Només es mostren superfícies de metadades curades i segures.",
+        "tone": "verd"
+      },
+      {
+        "title": "Web Friendly",
+        "body": "Comprovacions útils abans de la càrrega CMS o la revisió SEO.",
+        "tone": "morat"
+      },
+      {
+        "title": "Privadesa dels convidats",
+        "body": "Treballs d'inspecció temporal amb supressió automàtica.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per a la inspecció de metadades i s'eliminen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/image-metadata-editor": {
+    "path": "/editor-metadades-imatge",
+    "breadcrumbCurrent": "Imatge SEO Editor de metadades",
+    "h1": "Imatge SEO Editor de metadades",
+    "howSteps": [
+      {
+        "title": "Carrega la teva imatge"
+      },
+      {
+        "title": "Edita"
+      },
+      {
+        "title": "Previsualitza el resultat"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Això reescriu EXIF dins de tots els formats?",
+        "a": "L'editor se centra a preparar camps SEO i exportacions."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Admet càrregues de convidats JPG, PNG i WebP fins a 10 MB."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "L'edició de convidats està disponible amb límits. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "Què puc exportar?",
+        "a": "Utilitzeu exportacions compatibles amb sidecar per a CMS i fluxos de treball de contingut."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "metaTitle": "Imatge SEO Editor de metadades en línia",
+    "metaDescription": "Escriu, revisa i exporta els camps d'imatge SEO per a llocs web i fluxos de treball CMS. Editor de metadades de convidat privat.",
+    "subtitle": "Prepareu els camps de la imatge SEO abans de publicar-los",
+    "paragraph": "Esborrany de camps d'imatge SEO i exporteu sidecars en segons. Eina en línia gratuïta: no cal cap compte.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Control editorial per a la imatge SEO",
+    "features": [
+      {
+        "title": "Camps editables",
+        "body": "Actualitzeu el text SEO que realment envieu.",
+        "tone": "blau"
+      },
+      {
+        "title": "Amic d'exportació",
+        "body": "Baixeu sidecars per a CMS i fluxos de treball de contingut.",
+        "tone": "verd"
+      },
+      {
+        "title": "CMS A punt",
+        "body": "Prepareu títols, descripcions i paraules clau abans de publicar-los.",
+        "tone": "morat"
+      },
+      {
+        "title": "Sessions de convidats",
+        "body": "Esborranys temporals amb neteja automàtica.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per a l'edició de metadades i es suprimeixen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  },
+  "/bulk-image-tools": {
+    "path": "/bulk-image-tools",
+    "breadcrumbCurrent": "Eines d'imatge massiva",
+    "h1": "Eines d'imatge massiva",
+    "howSteps": [
+      {
+        "title": "Carregueu un lot"
+      },
+      {
+        "title": "Trieu Operació"
+      },
+      {
+        "title": "Fitxers de procés"
+      },
+      {
+        "title": "Descarregar"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Quants fitxers puc pujar?",
+        "a": "Les feines massives dels convidats imposen un nombre màxim de fitxers i una mida total del lot."
+      },
+      {
+        "q": "Hi ha un límit de mida del fitxer?",
+        "a": "Cada fitxer segueix la mida màxima del convidat i el lot té un límit total de bytes."
+      },
+      {
+        "q": "Necessito un compte?",
+        "a": "Els convidats poden executar treballs a granel limitats. Els fitxers caduquen en una hora."
+      },
+      {
+        "q": "Què passa si falla un fitxer?",
+        "a": "Les sortides reeixides es poden descarregar; els elements fallits mostren un estat d'error."
+      },
+      {
+        "q": "Les meves imatges s'emmagatzemen permanentment?",
+        "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+      }
+    ],
+    "metaTitle": "Eines d'imatge massiva en línia: comprimir, canviar la mida, convertir",
+    "metaDescription": "Comprimiu, canvieu la mida o convertiu diverses imatges i baixeu els resultats amb èxit junts. S'apliquen límits de massa de convidats.",
+    "subtitle": "Processa un lot curt sense repetir cada pas",
+    "paragraph": "Comprimiu, canvieu la mida o convertiu diversos fitxers JPG, PNG o WebP en un sol lot. S'apliquen límits de convidats gratuïts.",
+    "trust": [
+      "No es requereix cap compte",
+      "Processament privat i segur",
+      "Supressió automàtica en 1 hora"
+    ],
+    "workspaceNote": "Formats admesos: JPG, PNG, WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora.",
+    "featuresHeading": "Velocitat del lot amb límits clars",
+    "features": [
+      {
+        "title": "Configuració compartida",
+        "body": "Apliqueu una opció de compressió, canvi de mida o conversió a tot el lot.",
+        "tone": "blau"
+      },
+      {
+        "title": "Estat per fitxer",
+        "body": "Vegeu quines imatges han tingut èxit i quines necessiten atenció.",
+        "tone": "verd"
+      },
+      {
+        "title": "ZIP Descarrega",
+        "body": "Recolliu sortides reeixides quan el lot estigui llest.",
+        "tone": "morat"
+      },
+      {
+        "title": "Gorres de convidat",
+        "body": "La mida del lot i els bytes totals segueixen la política de convidats gratuïts.",
+        "tone": "taronja"
+      }
+    ],
+    "howHeading": "Com funciona",
+    "benefitCards": [
+      {
+        "title": "La teva privadesa és important",
+        "body": "Les vostres imatges es processen de manera privada per a un processament massiu i s'eliminen automàticament en una hora.",
+        "kind": "privadesa"
+      },
+      {
+        "title": "Ràpid i eficient",
+        "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+        "kind": "velocitat"
+      }
+    ],
+    "faqHeading": "Preguntes freqüents"
+  }
+}

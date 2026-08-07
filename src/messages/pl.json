@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Wkrótce",
+    "openMenu": "Otwórz nawigację",
+    "closeMenu": "Zamknij nawigację",
+    "mainNavigation": "Główna nawigacja"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "projects": "Projekty",
+    "usage": "Analityka",
+    "billing": "Płatności",
+    "developer": "Deweloper",
+    "integrations": "Integracje",
+    "automation": "Automatyzacja",
+    "settings": "Ustawienia konta",
+    "organizations": "Organizacje"
+  },
+  "language": {
+    "label": "Język interfejsu",
+    "english": "angielski",
+    "urdu": "urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Narzędzia obrazów",
+    "compress": "Kompresuj",
+    "resize": "Zmień rozmiar",
+    "convert": "Konwertuj",
+    "seoTools": "Narzędzia SEO",
+    "bulkTools": "Narzędzia zbiorcze",
+    "openAppGrid": "Otwórz menu narzędzi",
+    "appGridTitle": "Narzędzia i zasoby",
+    "languageHint": "Preferowany język",
+    "menu": "Menu",
+    "close": "Zamknij",
+    "footerBlurb": "Prywatne narzędzia online do kompresji, zmiany rozmiaru, konwersji i przygotowania obrazów pod web.",
+    "popularFormats": "Popularne formaty",
+    "company": "Firma",
+    "resources": "Zasoby",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "errors": {
+    "generic": "Coś poszło nie tak."
+  }
+}

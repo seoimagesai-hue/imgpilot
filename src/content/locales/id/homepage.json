@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/kompres-gambar",
+      "title": "Kompres Gambar",
+      "body": "Kurangi ukuran file JPG, PNG dan WebP sambil menjaga hasilnya tetap jelas dan dapat digunakan.",
+      "icon": "kompres"
+    },
+    {
+      "href": "/ubah ukuran-gambar",
+      "title": "Ubah Ukuran Gambar",
+      "body": "Ubah dimensi gambar berdasarkan pengaturan lebar, tinggi, atau pas di dalam tanpa pembesaran yang tidak diinginkan.",
+      "icon": "mengubah ukuran"
+    },
+    {
+      "title": "Pangkas Gambar",
+      "href": "/ potong-gambar",
+      "body": "Pilih area tepat yang ingin Anda pertahankan dengan kontrol pemangkasan rasio bebas dan tetap.",
+      "icon": "tanaman"
+    },
+    {
+      "title": "Konversi Gambar",
+      "href": "/convert-image",
+      "body": "Konversi antara format JPG, PNG, WebP dan AVIF yang didukung dengan verifikasi keluaran yang aman.",
+      "icon": "mengubah"
+    },
+    {
+      "title": "Gambar Geotag",
+      "href": "/geotag-gambar",
+      "body": "Tambahkan koordinat GPS terverifikasi ke gambar JPEG yang kompatibel tanpa mengubah aslinya.",
+      "icon": "tag geografis"
+    },
+    {
+      "title": "Penampil Metadata Gambar",
+      "href": "/gambar-metadata",
+      "body": "Periksa dimensi, informasi warna, dan metadata gambar aman yang diizinkan.",
+      "icon": "metadata"
+    },
+    {
+      "title": "Gambar SEO Editor Metadata",
+      "href": "/gambar-metadata-editor",
+      "body": "Tulis, tinjau, dan ekspor bidang gambar SEO untuk situs web atau sistem manajemen konten Anda.",
+      "icon": "editor"
+    },
+    {
+      "title": "Alat Gambar Massal",
+      "href": "/bulk-image-tools",
+      "body": "Kompres, ubah ukuran, atau konversi beberapa gambar dan unduh hasil yang sukses secara bersamaan.",
+      "icon": "dalam jumlah besar"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Kompres JPG",
+      "badge": "JPG",
+      "href": "/kompres-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/kompres-png",
+      "label": "Kompres PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/kompres-webp",
+      "label": "Kompres WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/ubah ukuran-jpg",
+      "label": "Ubah ukuran JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/ubah ukuran-png",
+      "label": "Ubah ukuran PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/ubah ukuran-webp",
+      "label": "Ubah ukuran WebP"
+    },
+    {
+      "href": "/jpg-ke-png",
+      "label": "JPG hingga PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-ke-webp",
+      "label": "JPG hingga WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-ke-jpg",
+      "label": "PNG hingga JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-ke-webp",
+      "label": "PNG hingga WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-ke-jpg",
+      "label": "WebP hingga JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-ke-png",
+      "label": "WebP hingga PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Format praktis untuk foto, konten web, dan file gambar lossy yang lebih kecil.",
+      "href": "/kompres-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Format lossless yang biasa digunakan untuk grafik dan gambar yang memerlukan transparansi.",
+      "href": "/kompres-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Format web modern yang dapat memberikan kompresi efisien dengan transparansi opsional.",
+      "href": "/kompres-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Tersedia untuk alur kerja konversi yang didukung ketika runtime server dapat mengkodekan dan memverifikasinya.",
+      "href": "/jpg-ke-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Kompres, Ubah Ukuran, Konversi, dan Optimalkan Gambar Secara Online",
+  "metaDescription": "Kompres, ubah ukuran, potong, konversi, dan optimalkan gambar JPG, PNG dan WebP secara online. Gunakan alat tamu pribadi tanpa akun, dengan penghapusan otomatis dalam waktu satu jam.",
+  "heroBadge": "Alat gambar online gratis untuk situs web yang lebih cepat dan bersih",
+  "h1": "Optimalkan Setiap Gambar dalam Satu Ruang Kerja Sederhana",
+  "heroParagraph": "Kompres, ubah ukuran, potong, konversi, dan optimalkan gambar Anda tanpa menginstal perangkat lunak. Mulai gratis tanpa akun, tetap kendali penuh atas file Anda, dan unduh hasil yang bersih dan terverifikasi hanya dalam beberapa klik.",
+  "uploadHeading": "Letakkan gambar di sini untuk memulai",
+  "uploadSupport": "Unggah gambar JPG, PNG atau WebP, atau tempel langsung dari clipboard Anda.",
+  "chooseImage": "Pilih Gambar",
+  "pasteHint": "Anda juga dapat menempelkan gambar dengan Ctrl + V atau ⌘ + V",
+  "formatLimitLine": "JPG, PNG dan WebP • Hingga {maxFileSize} • Tidak perlu akun",
+  "privacyLine": "File tamu Anda tetap pribadi dan otomatis dihapus dalam waktu satu jam.",
+  "defaultActionLabel": "Mulailah dengan Kompresi Gambar",
+  "trust": [
+    {
+      "title": "Tidak Perlu Akun",
+      "body": "Gunakan alat gambar penting secara instan sebagai tamu."
+    },
+    {
+      "title": "Pemrosesan Pribadi",
+      "body": "File tetap berada dalam penyimpanan sementara yang dilindungi."
+    },
+    {
+      "title": "Penghapusan Otomatis",
+      "body": "File tamu kedaluwarsa dalam waktu satu jam."
+    },
+    {
+      "title": "Hasil Terverifikasi",
+      "body": "Output diperiksa oleh server sebelum diunduh."
+    }
+  ],
+  "stats": [
+    {
+      "title": "10 Juta+ Gambar Diproses",
+      "body": "Alur kerja tepercaya untuk pengoptimalan sehari-hari."
+    },
+    {
+      "title": "100% Pribadi & Aman",
+      "body": "Penyimpanan sementara dengan akses jangka pendek."
+    },
+    {
+      "title": "Penghapusan Otomatis 1 Jam",
+      "body": "File tamu kedaluwarsa pada jadwal yang tetap."
+    },
+    {
+      "title": "Unduh Tanpa Tanda Air Bersih",
+      "body": "Unduh hasil terverifikasi tanpa branding."
+    }
+  ],
+  "toolsEyebrow": "Semua yang Anda butuhkan",
+  "toolsHeading": "Alat Gambar yang Kuat, Siap Saat Anda Siap",
+  "toolsDescription": "Tangani tugas gambar sehari-hari dari satu ruang kerja yang bersih. Setiap alat dirancang sederhana untuk pemula namun tetap memberikan kontrol yang dibutuhkan para profesional.",
+  "openTool": "Buka alat",
+  "exploreAllTools": "Jelajahi semua alat",
+  "formatEyebrow": "Tugas gambar populer",
+  "formatHeading": "Langsung ke Format yang Anda Butuhkan",
+  "formatDescription": "Pilih alat khusus untuk format atau konversi gambar Anda. Pengaturan sumber dan keluaran pilihan Anda sudah dipilih.",
+  "platformEyebrow": "Satu ruang kerja gambar pribadi",
+  "platformHeading": "Dari Upload hingga Download Tanpa Rumit Biasa",
+  "platformP1": "Img Pilot menghadirkan alur kerja gambar paling berguna ke dalam satu pengalaman yang konsisten. Anda tidak perlu mempelajari antarmuka yang berbeda untuk setiap tugas. Unggah gambar Anda, pilih pengaturan yang penting, proses dengan aman, dan unduh hasil terverifikasi.",
+  "platformP2": "Alur kerja yang sama mendukung pekerjaan gambar tunggal yang cepat, halaman arahan khusus format, dan operasi massal yang dipilih. Alat tamu tidak memerlukan akun, sementara pengguna yang masuk dapat mengakses proyek dan fitur ruang kerja jangka panjang.",
+  "platformFeatures": [
+    "Satu ruang kerja alat yang konsisten",
+    "Hapus informasi sebelum dan sesudah",
+    "Penyimpanan tamu sementara pribadi",
+    "Alur kerja massal individual dan terpilih",
+    "Antarmuka bahasa Inggris dan Urdu",
+    "Output yang diverifikasi server"
+  ],
+  "whyEyebrow": "Dibangun berdasarkan kejelasan dan kontrol",
+  "whyHeading": "Alat Gambar yang Menghargai Waktu dan File Anda",
+  "whyIntro": "Setiap alur kerja dirancang untuk menghilangkan langkah-langkah yang tidak perlu sekaligus menjaga kontrol penting tetap terlihat. Anda selalu tahu apa yang akan terjadi pada gambar Anda, apa isi hasilnya, dan kapan file sementara akan dihapus.",
+  "benefits": [
+    {
+      "title": "Mulai Segera",
+      "body": "Gunakan alat tamu inti tanpa registrasi, instalasi perangkat lunak, atau proses pengaturan proyek."
+    },
+    {
+      "title": "Simpan yang Asli Aman",
+      "body": "Pemrosesan menciptakan hasil baru sementara hasil asli yang diunggah tetap tidak berubah."
+    },
+    {
+      "title": "Ketahui Apa yang Berubah",
+      "body": "Bandingkan dimensi, format, dan ukuran file sebelum mengunduh hasil akhirnya."
+    },
+    {
+      "title": "Bekerja Lintas Format",
+      "body": "Gunakan alur kerja khusus untuk JPG, PNG dan WebP dengan penanganan khusus format yang jujur."
+    },
+    {
+      "title": "Lindungi File Sementara",
+      "body": "Gambar tamu dan hasil yang dihasilkan dihapus secara otomatis dalam jendela retensi."
+    },
+    {
+      "title": "Siapkan Gambar untuk Pencarian",
+      "body": "Tinjau metadata, perbaiki nama file, dan atur teks alternatif untuk situs web dan penggunaan CMS."
+    }
+  ],
+  "howEyebrow": "Sederhana dari awal hingga akhir",
+  "howHeading": "Selesaikan Tugas Gambar Anda dalam Empat Langkah Jelas",
+  "steps": [
+    {
+      "title": "Unggah Gambar Anda",
+      "body": "Pilih gambar yang didukung, seret ke ruang kerja atau tempel dari clipboard Anda."
+    },
+    {
+      "title": "Pilih Pengaturan Anda",
+      "body": "Pilih opsi format, dimensi, kualitas, area pemotongan, atau metadata yang diperlukan untuk tugas Anda."
+    },
+    {
+      "title": "Proses dengan Aman",
+      "body": "Server melakukan dan memverifikasi operasi sambil menunjukkan kemajuan yang jelas dan status kesalahan."
+    },
+    {
+      "title": "Unduh Hasilnya",
+      "body": "Tinjau detail akhir, unduh file Anda dan proses gambar lain kapan pun diperlukan."
+    }
+  ],
+  "beforeEyebrow": "Lihat perbedaannya",
+  "beforeHeading": "Lihat Perbedaannya Sebelum Anda Mengunduh",
+  "beforeParagraph": "Ringkasan hasil yang jelas membantu Anda memahami apa yang berubah. Bandingkan gambar asli dengan versi yang diproses, tinjau ukuran atau dimensi file dan unduh hanya jika hasilnya sesuai dengan kebutuhan Anda.",
+  "beforeBullets": [
+    "Yang asli tetap aman saat hasil baru dibuat",
+    "Output terverifikasi dengan detail ukuran dan dimensi yang jujur"
+  ],
+  "beforeCaption": "Ilustrasi produk — hanya contoh. Penghematan sebenarnya bervariasi berdasarkan gambar.",
+  "useEyebrow": "Dirancang untuk pekerjaan nyata",
+  "useHeading": "Siapkan Gambar untuk Situs Web, Konten, dan Berbagi Sehari-hari",
+  "useCases": [
+    {
+      "title": "Situs web",
+      "body": "Kurangi bobot gambar yang tidak perlu dan persiapkan dimensi yang konsisten untuk halaman yang lebih cepat dan bersih."
+    },
+    {
+      "title": "Toko online",
+      "body": "Atur format gambar produk, nama file, dimensi, dan metadata sebelum dipublikasikan."
+    },
+    {
+      "title": "Konten sosial",
+      "body": "Ubah ukuran dan pangkas gambar menjadi rasio aspek praktis untuk postingan, gambar mini, dan kampanye."
+    },
+    {
+      "title": "Blog dan penerbit",
+      "body": "Buat gambar artikel yang lebih ringan dan siapkan teks gambar deskriptif yang mudah diakses."
+    },
+    {
+      "title": "Email dan dokumen",
+      "body": "Kurangi file berukuran besar sehingga gambar lebih mudah dilampirkan, dibagikan, dan disertakan dalam presentasi."
+    },
+    {
+      "title": "Lokal SEO",
+      "body": "Periksa metadata, tambahkan koordinat JPEG terverifikasi dan atur informasi gambar SEO untuk alur kerja konten lokal."
+    }
+  ],
+  "seoEyebrow": "Lebih dari sekadar pengeditan dasar",
+  "seoHeading": "Ubah Gambar Biasa Menjadi Aset Situs Web yang Lebih Baik",
+  "seoP1": "Pengoptimalan gambar bukan hanya tentang mengurangi ukuran file. Nama file yang jelas, teks alternatif yang akurat, dimensi yang sesuai, dan metadata yang berguna dapat membuat perpustakaan gambar lebih mudah dikelola dan konten situs web lebih mudah diakses.",
+  "seoP2": "Img Pilot mencakup alat untuk memeriksa metadata, menyusun bidang gambar SEO dan mengekspor informasi untuk digunakan di situs web atau CMS.",
+  "seoLinks": [
+    {
+      "href": "/gambar-metadata",
+      "label": "Lihat Metadata Gambar"
+    },
+    {
+      "href": "/gambar-metadata-editor",
+      "label": "Sunting Gambar SEO Metadata"
+    },
+    {
+      "href": "/geotag-gambar",
+      "label": "Beri tag geografis pada JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO dan alat aksesibilitas memberikan bantuan dan rekomendasi. Mereka tidak menjamin peringkat pencarian atau kepatuhan otomatis.",
+  "bulkEyebrow": "Bekerja dengan lebih dari satu gambar?",
+  "bulkHeading": "Proses dalam Jumlah Kecil Tanpa Mengulangi Setiap Langkah",
+  "bulkParagraph": "Gunakan Alat Gambar Massal untuk mengompresi, mengubah ukuran, atau mengonversi beberapa gambar yang didukung dengan satu rangkaian opsi bersama. Tinjau setiap file secara terpisah, unduh hasil individual atau kumpulkan keluaran yang berhasil dalam arsip ZIP.",
+  "bulkBullets": [
+    "Kompres Massal",
+    "Ubah Ukuran Secara Massal",
+    "Konversi Massal",
+    "Status pemrosesan per file",
+    "Unduhan individu",
+    "Arsip ZIP untuk hasil yang sukses"
+  ],
+  "bulkCta": "Buka Alat Gambar Massal",
+  "bulkNotice": "Batas jumlah tamu berlaku. Alur kerja yang lebih besar mungkin memerlukan akun.",
+  "privacyEyebrow": "Privasi berdasarkan desain",
+  "privacyHeading": "File Sementara Harus Tetap Sementara",
+  "privacyP1": "Unggahan tamu disimpan secara pribadi saat alat pilihan Anda berfungsi. Gambar Anda, keluaran yang dihasilkan, dan data hasil sementara akan habis masa berlakunya dalam waktu satu jam. Mengunduh, menyegarkan, atau memproses ulang tidak memperpanjang batas waktu tersebut.",
+  "privacyP2": "Sesi tamu tidak membuat perpustakaan gambar permanen. Masuk hanya ketika Anda memerlukan proyek atau fitur akun jangka panjang.",
+  "privacyFacts": [
+    "Penyimpanan objek sementara pribadi",
+    "Pratinjau dan unduhan berumur pendek",
+    "Tidak ada URL gambar tamu publik",
+    "Pembersihan otomatis",
+    "Tidak ada riwayat tamu permanen",
+    "File asli tetap tidak berubah selama pemrosesan"
+  ],
+  "privacyCta": "Baca Kebijakan Privasi Kami",
+  "formatsHeading": "Bekerja Dengan Format Gambar yang Paling Sering Anda Gunakan",
+  "formatsParagraph": "Alat tamu inti mendukung gambar JPG, PNG dan WebP. Format keluaran dan fitur metadata yang tersedia bergantung pada operasi yang dipilih dan kemampuan setiap format gambar.",
+  "faqHeading": "Pertanyaan yang sering diajukan",
+  "faqs": [
+    {
+      "q": "Apakah saya memerlukan akun untuk menggunakan Img Pilot?",
+      "a": "Tidak. Alat tamu inti dapat digunakan tanpa membuat akun. Batasan tamu berlaku, dan fitur akun tersedia saat Anda memerlukan proyek tersimpan atau batas alur kerja yang lebih tinggi."
+    },
+    {
+      "q": "Berapa lama gambar tamu disimpan?",
+      "a": "Gambar tamu dan hasil sementara akan habis masa berlakunya dalam waktu satu jam. Mengunduh, menyegarkan, atau memproses ulang tidak memperpanjang batas waktu tersebut."
+    },
+    {
+      "q": "Apakah pemrosesan akan menimpa gambar asli saya?",
+      "a": "Tidak. Pemrosesan menghasilkan hasil terpisah. Dokumen asli yang diunggah tetap tidak berubah selama sesi tamu aktif."
+    },
+    {
+      "q": "Format gambar apa yang didukung?",
+      "a": "Alat inti mendukung JPG, PNG dan WebP. Beberapa alur kerja konversi mungkin juga mendukung AVIF ketika server dapat menyandikan dan memverifikasi hasilnya."
+    },
+    {
+      "q": "Bisakah saya memproses beberapa gambar secara bersamaan?",
+      "a": "Ya. Alat Gambar Massal mendukung kompresi, pengubahan ukuran, dan konversi alur kerja yang dipilih. Batasan batch tamu berlaku."
+    },
+    {
+      "q": "Apakah mengompresi gambar selalu membuatnya lebih kecil?",
+      "a": "Tidak selalu. Ukuran akhir bergantung pada gambar asli, formatnya, dan pengaturan yang dipilih. Img Pilot melaporkan hasil sebenarnya dengan jujur, termasuk bila keluarannya lebih besar."
+    },
+    {
+      "q": "Apakah teks alternatif tertanam di dalam gambar?",
+      "a": "Teks alternatif biasanya ditambahkan ke situs web atau rekaman CMS daripada disematkan secara universal ke dalam file gambar. Editor Metadata membantu Anda mempersiapkan dan mengekspornya untuk digunakan di situs web Anda."
+    },
+    {
+      "q": "Apakah pengoptimalan gambar menjamin peringkat pencarian yang lebih baik?",
+      "a": "Tidak. Pengoptimalan gambar dapat mendukung kinerja, pengorganisasian, dan aksesibilitas, namun tidak ada alat gambar individual yang dapat menjamin peringkat penelusuran."
+    }
+  ],
+  "finalHeading": "Gambar Anda Berikutnya Siap Dioptimalkan",
+  "finalParagraph": "Unggah gambar JPG, PNG atau WebP dan selesaikan tugas Anda tanpa menginstal perangkat lunak atau membuat akun.",
+  "finalPrimary": "Pilih Gambar",
+  "finalSecondary": "Jelajahi Semua Alat",
+  "finalTrust": "Pemrosesan tamu pribadi · Penghapusan otomatis satu jam · Tanpa tanda air",
+  "footerBrand": "Alat online pribadi untuk mengompresi, mengubah ukuran, mengonversi, dan menyiapkan gambar untuk web.",
+  "footerRights": "© {year} Img Pilot. Semua hak dilindungi undang-undang."
+}

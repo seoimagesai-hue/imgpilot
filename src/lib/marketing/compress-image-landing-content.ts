@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Image Compressor master hub — pillar page for "image compressor" keywords.
  * Distinct from Compress JPG/PNG/WebP landings and Bulk Compress.
@@ -106,7 +107,7 @@ export type CompressImageCopy = {
 };
 
 const en: CompressImageCopy = {
-  metaTitle: "Image Compressor Online Free | SEO Images",
+  metaTitle: "Image Compressor Online Free | Img Pilot",
   metaDescription:
     "Compress JPG, PNG and WebP images online using a secure browser-based image compressor. Reduce image file sizes for websites, email and social media.",
   h1: "Compress Images Online",
@@ -204,7 +205,7 @@ const en: CompressImageCopy = {
       "Email attachments and messaging portals still reject oversized files. Compressing a photo before you attach it avoids bounced messages and broken approval chains. Social platforms also re-encode uploads; starting from a lighter master reduces surprise smearing when an ad creative is resized again downstream.",
       "Mobile browsing intensifies every choice. Small screens still download large assets unless you intervene. Compressed images reach the viewport sooner, keep scroll smoother and reduce heat and battery drain caused by decoding overweight bitmaps. That user experience quietly feeds SEO: search systems observe which pages satisfy visitors and which feel unfinished.",
       "SEO also benefits indirectly through engagement. Pages that load reliably earn longer sessions and clearer crawl signals. Compressing imagery is one of the few content changes teams can make repeatedly without redesigning a template — especially when the same quality intent is reused across a catalog.",
-      "CDN delivery finishes the story. Optimized files cache cleaner, propagate faster and leave more room for script and font budgets. When your library mixes JPG photographs, PNG graphics and WebP delivery assets, a format-aware compressor keeps each container honest instead of forcing every file through the same blunt setting. SEO Images keeps that work in the browser: upload once, choose a quality intent, download a smaller copy and leave the original on your device untouched.",
+      "CDN delivery finishes the story. Optimized files cache cleaner, propagate faster and leave more room for script and font budgets. When your library mixes JPG photographs, PNG graphics and WebP delivery assets, a format-aware compressor keeps each container honest instead of forcing every file through the same blunt setting. Img Pilot keeps that work in the browser: upload once, choose a quality intent, download a smaller copy and leave the original on your device untouched.",
     ],
   },
   howItWorks: {
@@ -364,7 +365,7 @@ const en: CompressImageCopy = {
   faqs: [
     {
       q: "What is image compression?",
-      a: "Image compression rewrites a file so it uses fewer bytes while still displaying a usable picture. SEO Images keeps the same format unless you choose a dedicated convert tool.",
+      a: "Image compression rewrites a file so it uses fewer bytes while still displaying a usable picture. Img Pilot keeps the same format unless you choose a dedicated convert tool.",
     },
     {
       q: "What is the difference between lossy and lossless compression?",
@@ -446,7 +447,7 @@ const en: CompressImageCopy = {
 };
 
 const ur: CompressImageCopy = {
-  metaTitle: "آن لائن امیج کمپریسر مفت | SEO Images",
+  metaTitle: "آن لائن امیج کمپریسر مفت | Img Pilot",
   metaDescription:
     "محفوظ براؤزر پر مبنی امیج کمپریسر سے JPG، PNG اور WebP امیجز آن لائن کمپریس کریں۔ ویب سائٹس، ای میل اور سوشل میڈیا کے لیے فائل سائز کم کریں۔",
   h1: "آن لائن امیجز کمپریس کریں",
@@ -544,7 +545,7 @@ const ur: CompressImageCopy = {
       "ای میل اٹیچمنٹس اور messaging portals اب بھی بڑی فائلیں مسترد کرتے ہیں۔ منسلک کرنے سے پہلے فото کمپریس کرنے سے bounced messages اور ٹوٹی منظوری کی زنجیریں بچتی ہیں۔ سوشل پلیٹ فارمز اپ لوڈز دوبارہ encode کرتے ہیں؛ ہلکے master سے شروع کرنے پر جب ad creative دوبارہ resize ہو تو حیران کن smearing کم ہوتی ہے۔",
       "موبائل براؤزنگ ہر انتخاب کو شدید کرتا ہے۔ چھوٹی اسکرینیں بھی بڑے اثاثے ڈاؤن لوڈ کرتی ہیں جب تک آپ مداخلت نہ کریں۔ کمپریس شدہ امیجز viewport تک جلدی پہنچتی ہیں، scroll ہموار رکھتی ہیں اور overweight bitmaps decode کرنے سے گرمی اور بیٹری drain کم کرتی ہیں۔ یہ user experience خاموشی سے SEO کو فائدہ دیتی ہے: سرچ سسٹمز دیکھتے ہیں کون سے صفحات زائرین کو مطمئن کرتے ہیں اور کون نامکمل لگتے ہیں۔",
       "SEO بالواسطہ engagement سے بھی فائدہ اٹھاتا ہے۔ جو صفحات قابلِ اعتماد لوڈ ہوتے ہیں انہیں لمبے sessions اور واضح crawl signals ملتے ہیں۔ imagery کمپریس کرنا ان چند content تبدیلیوں میں سے ہے جو ٹیمیں ٹیمپلیٹ دوبارہ ڈیزائن کیے بغیر بار بار کر سکتی ہیں — خاص طور پر جب ایک ہی کوالٹی ارادہ پورے کیٹلاگ میں دہرایا جائے۔",
-      "CDN ڈیلیوری کہانی مکمل کرتی ہے۔ آپٹیمائزڈ فائلیں صاف cache ہوتی ہیں، تیزی سے پھیلتی ہیں اور script و font بجٹ کے لیے زیادہ جگہ چھوڑتی ہیں۔ جب آپ کی لائبریری JPG فوٹوز، PNG گرافکس اور WebP ڈیلیوری اثاثے ملاتی ہے، تو فارمیٹ-aware کمپریسر ہر کنٹینر کو ایماندار رکھتا ہے بجائے ہر فائل کو ایک ہی کُند سیٹنگ سے گزارنے کے۔ SEO Images یہ کام براؤزر میں رکھتا ہے: ایک بار اپ لوڈ، کوالٹی ارادہ چنیں، چھوٹی کاپی ڈاؤن لوڈ کریں اور اصل ڈیوائس پر جوں کی توں رہنے دیں۔",
+      "CDN ڈیلیوری کہانی مکمل کرتی ہے۔ آپٹیمائزڈ فائلیں صاف cache ہوتی ہیں، تیزی سے پھیلتی ہیں اور script و font بجٹ کے لیے زیادہ جگہ چھوڑتی ہیں۔ جب آپ کی لائبریری JPG فوٹوز، PNG گرافکس اور WebP ڈیلیوری اثاثے ملاتی ہے، تو فارمیٹ-aware کمپریسر ہر کنٹینر کو ایماندار رکھتا ہے بجائے ہر فائل کو ایک ہی کُند سیٹنگ سے گزارنے کے۔ Img Pilot یہ کام براؤزر میں رکھتا ہے: ایک بار اپ لوڈ، کوالٹی ارادہ چنیں، چھوٹی کاپی ڈاؤن لوڈ کریں اور اصل ڈیوائس پر جوں کی توں رہنے دیں۔",
     ],
   },
   howItWorks: {
@@ -704,7 +705,7 @@ const ur: CompressImageCopy = {
   faqs: [
     {
       q: "امیج کمپریشن کیا ہے؟",
-      a: "امیج کمپریشن فائل دوبارہ لکھتی ہے تاکہ کم bytes استعمال ہوں مگر قابلِ استعمال تصویر دکھے۔ SEO Images وہی فارمیٹ رکھتا ہے جب تک آپ مخصوص convert ٹول نہ چنیں۔",
+      a: "امیج کمپریشن فائل دوبارہ لکھتی ہے تاکہ کم bytes استعمال ہوں مگر قابلِ استعمال تصویر دکھے۔ Img Pilot وہی فارمیٹ رکھتا ہے جب تک آپ مخصوص convert ٹول نہ چنیں۔",
     },
     {
       q: "Lossy اور lossless کمپریشن میں کیا فرق ہے؟",
@@ -786,7 +787,7 @@ const ur: CompressImageCopy = {
 };
 
 export function getCompressImageCopy(locale: string): CompressImageCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export type CompressImageLocale = AppLocale;

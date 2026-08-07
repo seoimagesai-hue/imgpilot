@@ -1,14 +1,15 @@
+import {isRtlLocale} from "@/i18n/routing";
 import Image from "next/image";
 import {Breadcrumbs} from "@/components/marketing/landing-sections";
 import {JsonLd} from "@/components/marketing/json-ld";
 import {ToolSearchClient} from "@/components/marketing/tool-search-client";
-import {getPublicAppOrigin} from "@/server/marketing/seo";
+import {absoluteUrl, getPublicAppOrigin} from "@/server/marketing/seo";
 
 export function SearchLandingView({locale}: {locale: string}) {
-  const isRtl = locale === "ur";
+  const isRtl = isRtlLocale(locale);
   const origin = getPublicAppOrigin();
   const path = "/search";
-  const pageUrl = `${origin}/${locale}${path}`;
+  const pageUrl = absoluteUrl(locale, path);
 
   const copy = isRtl
     ? {
@@ -16,8 +17,8 @@ export function SearchLandingView({locale}: {locale: string}) {
         badge: "TOOL SEARCH",
         h1: "امیج ٹولز تلاش کریں",
         paragraph: "کنورٹ، کمپریس، ری سائز، کراپ اور بلک ٹولز فوراً تلاش کریں۔",
-        metaTitle: "ٹول تلاش | SEO Images",
-        metaDescription: "SEO Images کے امیج ٹولز تلاش کریں — تیز فلٹرنگ اور مقبول تجاویز کے ساتھ۔",
+        metaTitle: "ٹول تلاش | Img Pilot",
+        metaDescription: "Img Pilot کے امیج ٹولز تلاش کریں — تیز فلٹرنگ اور مقبول تجاویز کے ساتھ۔",
         heroAlt: "امیج ٹول تلاش انٹرفیس کی مثال",
         labels: {
           placeholder: "ٹول تلاش کریں…",
@@ -36,9 +37,9 @@ export function SearchLandingView({locale}: {locale: string}) {
         badge: "TOOL SEARCH",
         h1: "Find an Image Tool",
         paragraph: "Search convert, compress, resize, crop and bulk tools instantly.",
-        metaTitle: "Search Tools | SEO Images",
+        metaTitle: "Search Tools | Img Pilot",
         metaDescription:
-          "Find SEO Images tools fast with instant filtering, popular suggestions and categories.",
+          "Find Img Pilot tools fast with instant filtering, popular suggestions and categories.",
         heroAlt: "Image tool search interface illustration",
         labels: {
           placeholder: "Search image tools…",
@@ -76,7 +77,7 @@ export function SearchLandingView({locale}: {locale: string}) {
         "@type": "ListItem",
         position: index + 1,
         name: crumb.name,
-        item: `${origin}/${locale}${crumb.path === "/" ? "" : crumb.path}`,
+        item: absoluteUrl(locale, crumb.path),
       })),
     },
   ];
@@ -127,14 +128,14 @@ export function SearchLandingView({locale}: {locale: string}) {
 }
 
 export function getSearchMeta(locale: string) {
-  if (locale === "ur") {
+  if (isRtlLocale(locale)) {
     return {
-      title: "ٹول تلاش | SEO Images",
-      description: "SEO Images کے امیج ٹولز تلاش کریں — تیز فلٹرنگ اور مقبول تجاویز کے ساتھ۔",
+      title: "ٹول تلاش | Img Pilot",
+      description: "Img Pilot کے امیج ٹولز تلاش کریں — تیز فلٹرنگ اور مقبول تجاویز کے ساتھ۔",
     };
   }
   return {
-    title: "Search Tools | SEO Images",
-    description: "Find SEO Images tools fast with instant filtering, popular suggestions and categories.",
+    title: "Search Tools | Img Pilot",
+    description: "Find Img Pilot tools fast with instant filtering, popular suggestions and categories.",
   };
 }

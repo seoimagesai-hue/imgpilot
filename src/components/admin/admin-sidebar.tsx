@@ -36,7 +36,7 @@ export function AdminSidebar() {
     >
       <div className="mb-8">
         <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Platform ops</p>
-        <p className="mt-1 text-lg font-semibold text-white">SEO Images Admin</p>
+        <p className="mt-1 text-lg font-semibold text-white">Img Pilot Admin</p>
       </div>
       <nav className="space-y-1">
         {NAV_ITEMS.map(({href, label, ...rest}) => {

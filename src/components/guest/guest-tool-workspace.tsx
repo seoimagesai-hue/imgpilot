@@ -456,7 +456,11 @@ export function GuestToolWorkspace<TOptions>({config}: {config: GuestToolConfig<
     <div
       ref={mainRef}
       tabIndex={-1}
-      className="tool-container space-y-6 py-8 outline-none sm:py-10"
+      className={`outline-none ${
+        presentation?.landingChrome === "marketing"
+          ? "space-y-4 py-1"
+          : "tool-container space-y-6 py-8 sm:py-10"
+      }`}
     >
       {config.hideToolHeader ? null : (
         <ToolHeader
@@ -465,7 +469,7 @@ export function GuestToolWorkspace<TOptions>({config}: {config: GuestToolConfig<
         />
       )}
 
-      {premiumStatus ? (
+      {presentation?.landingChrome === "marketing" && (stage === "idle" || stage === "limit") ? null : premiumStatus ? (
         <aside className="flex flex-col gap-4 rounded-[18px] border border-[var(--border)] bg-white px-4 py-4 shadow-[var(--shadow-soft)] sm:flex-row sm:items-center sm:justify-between sm:px-5">
           <GuestLimitBanner
             variant="premium"
@@ -501,7 +505,8 @@ export function GuestToolWorkspace<TOptions>({config}: {config: GuestToolConfig<
         <>
           <UploadDropzone
             large
-            showHints={!presentation?.formatsHint}
+            variant={presentation?.landingChrome === "marketing" ? "marketing" : "default"}
+            showHints={!presentation?.formatsHint && presentation?.landingChrome !== "marketing"}
             maxMb={maxMb}
             disabled={stage === "limit"}
             dropLabel={presentation?.dropLabel}
@@ -529,10 +534,10 @@ export function GuestToolWorkspace<TOptions>({config}: {config: GuestToolConfig<
               ))}
             </ul>
           ) : null}
-          {!presentation?.uploadFeatures?.length ? (
+          {!presentation?.uploadFeatures?.length && presentation?.landingChrome !== "marketing" ? (
             <p className="text-sm text-[var(--muted-foreground)]">{tTool("expiryNotice")}</p>
           ) : null}
-          {showUpgrade ? <UpgradeBanner /> : null}
+          {showUpgrade && presentation?.landingChrome !== "marketing" ? <UpgradeBanner /> : null}
         </>
       ) : null}
 

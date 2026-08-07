@@ -493,15 +493,55 @@ export function BulkToolWorkspace({
       ) : null}
 
       <section
-        className="rounded-2xl border border-dashed border-[var(--border)] bg-white p-6 shadow-[var(--shadow-soft)]"
+        className={
+          presentation?.embedded
+            ? "flex min-h-[280px] flex-col items-center justify-center rounded-[20px] border-2 border-dashed border-slate-300/90 bg-[#f4f7fb] px-6 py-10 text-center sm:min-h-[320px]"
+            : "rounded-2xl border border-dashed border-[var(--border)] bg-white p-6 shadow-[var(--shadow-soft)]"
+        }
         aria-labelledby={`${formId}-drop`}
       >
-        <h2 id={`${formId}-drop`} className="text-sm font-semibold sm:text-base">
+        {presentation?.embedded ? (
+          <span
+            className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-50 text-[var(--accent)]"
+            aria-hidden
+          >
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7">
+              <path
+                d="M7.5 18a4.5 4.5 0 0 1-.4-9 6 6 0 0 1 11.6-1.2A4 4 0 1 1 18 18H7.5z"
+                strokeLinejoin="round"
+              />
+              <path d="M12 15V9M9.5 11.5 12 9l2.5 2.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </span>
+        ) : null}
+        <h2
+          id={`${formId}-drop`}
+          className={
+            presentation?.embedded
+              ? "text-lg font-semibold text-slate-900 sm:text-xl"
+              : "text-sm font-semibold sm:text-base"
+          }
+        >
           {dropTitle}
         </h2>
-        <p className="mt-1 text-sm text-[var(--muted-foreground)]">{dropHint}</p>
+        <p
+          className={
+            presentation?.embedded
+              ? "mt-2 max-w-sm text-[0.95rem] leading-relaxed text-slate-500"
+              : "mt-1 text-sm text-[var(--muted-foreground)]"
+          }
+        >
+          {dropHint}
+        </p>
         {browseLabel ? (
-          <label className="btn-primary mt-4 inline-flex min-h-11 cursor-pointer items-center justify-center px-6 text-sm">
+          <label
+            className={
+              presentation?.embedded
+                ? "mt-6 inline-flex min-h-12 w-full max-w-[240px] cursor-pointer items-center justify-center rounded-xl px-8 py-3.5 text-[0.95rem] font-semibold text-white shadow-[0_14px_30px_-12px_rgba(37,99,235,0.85)]"
+                : "btn-primary mt-4 inline-flex min-h-11 cursor-pointer items-center justify-center px-6 text-sm"
+            }
+            style={presentation?.embedded ? {backgroundImage: "var(--gradient-brand)"} : undefined}
+          >
             {browseLabel}
             <input
               id={`${formId}-input`}

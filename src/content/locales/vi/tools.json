@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/nén-hình ảnh",
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "nén"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Nén hình ảnh hoạt động như thế nào?",
+        "a": "Công cụ này mã hóa lại hình ảnh của bạn bằng các cài đặt giúp giảm kích thước tệp trong khi vẫn giữ được kết quả có thể sử dụng được một cách trực quan. Chọn cài đặt trước nhẹ hơn hoặc mạnh hơn trước khi xử lý."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB. Quy trình công việc lớn hơn có thể yêu cầu một tài khoản."
+      },
+      {
+        "q": "Việc nén có làm giảm chất lượng hình ảnh không?",
+        "a": "Các cài đặt trước mạnh hơn có thể làm mềm các chi tiết đẹp. Sử dụng Chất lượng tối đa hoặc Cân bằng khi ngoại hình quan trọng nhất và luôn xem trước trước khi tải xuống."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Tính năng nén khách hoạt động mà không cần đăng nhập. Các tệp luôn ở chế độ riêng tư và hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Các kết quả và nội dung tải lên của khách chỉ là tạm thời và tự động bị xóa trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Nén hình ảnh trực tuyến - Giảm kích thước JPG, PNG & WebP",
+    "metaDescription": "Nén hình ảnh trực tuyến mà không làm giảm chất lượng. Giảm kích thước tệp JPG, PNG và WebP bằng tính năng xử lý khách riêng tư và xóa tự động trong vòng một giờ.",
+    "breadcrumbCurrent": "Nén hình ảnh trực tuyến",
+    "h1": "Nén hình ảnh trực tuyến",
+    "subtitle": "Giảm kích thước file ảnh mà không làm giảm chất lượng",
+    "paragraph": "Nén hình ảnh JPG, PNG và WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Kích thước nhỏ hơn, chất lượng tuyệt vời như nhau",
+    "features": [
+      {
+        "title": "Nén thông minh",
+        "body": "Tính năng nén thông minh giúp hình ảnh của bạn luôn sắc nét.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Nhỏ hơn tới 80%",
+        "body": "Giảm đáng kể kích thước tệp để tải lên và tải trang nhanh hơn.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Hoàn hảo cho Web",
+        "body": "Tối ưu hóa hình ảnh cho website, blog, trang sản phẩm.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Chất lượng bạn có thể tin tưởng",
+        "body": "Xem trước trước khi tải xuống để bạn có thể kiểm soát chất lượng.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Tính năng nén dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/resize-image": {
+    "path": "/thay đổi kích thước hình ảnh",
+    "features": [
+      {
+        "title": "Kích thước chính xác",
+        "body": "Nhập chiều rộng và chiều cao phù hợp với nhu cầu bố cục của bạn.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Vừa vặn bên trong",
+        "body": "Chia tỷ lệ hình ảnh thành một hộp trong khi vẫn giữ nguyên tỷ lệ khung hình.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Không có sự nâng cấp không mong muốn",
+        "body": "Lan can giúp tránh kéo dài các nguồn nhỏ.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Web sẵn sàng",
+        "body": "Chuẩn bị kích thước nhất quán cho các trang và lưới sản phẩm.",
+        "tone": "quả cam"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Thay đổi kích thước"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tôi có thể giữ tỷ lệ khung hình không?",
+        "a": "Đúng. Sử dụng kích thước vừa vặn hoặc liên kết để hình ảnh có tỷ lệ rõ ràng mà không bị biến dạng."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Việc thay đổi kích thước có phóng to hình ảnh của tôi không?",
+        "a": "Theo mặc định, quy trình làm việc sẽ tránh được việc mở rộng không mong muốn. Chọn kích thước phù hợp với nguồn của bạn."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Bắt đầu thay đổi kích thước với tư cách khách. Các tệp tạm thời sẽ hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Các kết quả và nội dung tải lên của khách sẽ tự động bị xóa trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Thay đổi kích thước hình ảnh trực tuyến — Thay đổi kích thước cho web và mạng xã hội",
+    "metaDescription": "Thay đổi kích thước hình ảnh JPG, PNG và WebP trực tuyến theo chiều rộng, chiều cao hoặc vừa vặn bên trong. Công cụ dành cho khách riêng không cần có tài khoản.",
+    "breadcrumbCurrent": "Thay đổi kích thước hình ảnh trực tuyến",
+    "h1": "Thay đổi kích thước hình ảnh trực tuyến",
+    "subtitle": "Thay đổi kích thước cho web, mạng xã hội và bố cục",
+    "paragraph": "Thay đổi kích thước hình ảnh JPG, PNG và WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Kiểm soát chính xác, kết quả sạch",
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để thay đổi kích thước và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/crop-image": {
+    "path": "/crop-image",
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Mùa vụ"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tôi có thể cắt thành hình vuông không?",
+        "a": "Đúng. Chọn tỷ lệ 1:1 hoặc vẽ một hình cắt miễn phí phù hợp với nhu cầu của bạn."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Bản gốc có bị ghi đè không?",
+        "a": "Không. Việc xử lý sẽ tạo ra một kết quả đã được cắt xén mới."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Cắt với tư cách khách. Các tập tin sẽ tự động bị xóa trong vòng một giờ."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Cắt hình ảnh trực tuyến — Cắt theo tỷ lệ cố định và miễn phí",
+    "metaDescription": "Cắt hình ảnh JPG, PNG và WebP trực tuyến bằng các điều khiển tỷ lệ miễn phí hoặc cố định. Xử lý khách riêng, không cần tài khoản.",
+    "breadcrumbCurrent": "Cắt hình ảnh trực tuyến",
+    "h1": "Cắt hình ảnh trực tuyến",
+    "subtitle": "Chỉ giữ lại phần hình ảnh quan trọng",
+    "paragraph": "Cắt hình ảnh JPG, PNG và WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Cắt xén với sự tự tin",
+    "features": [
+      {
+        "title": "Cắt miễn phí",
+        "body": "Chọn bất kỳ khu vực nào của hình ảnh và giữ chính xác khu vực đó.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Tỷ lệ cố định",
+        "body": "Sử dụng tỷ lệ khung hình chung để có bố cục nhất quán.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Định hướng an toàn",
+        "body": "Cắt các kích thước định hướng tôn trọng toán học sau khi tải lên.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Cùng một định dạng",
+        "body": "Tải xuống kết quả đã cắt ở định dạng nguồn của bạn khi được hỗ trợ.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để cắt xén và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/convert-image": {
+    "path": "/chuyển đổi hình ảnh",
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Chuyển thành"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Những chuyển đổi nào được hỗ trợ?",
+        "a": "Chuyển đổi khách cốt lõi bao gồm JPG, PNG và WebP. AVIF được cung cấp khi bộ thực thi có thể mã hóa và xác minh nó."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Tính minh bạch sẽ được giữ?",
+        "a": "Khi chuyển đổi sang các định dạng hỗ trợ alpha, độ trong suốt có thể được giữ nguyên theo tùy chọn công cụ."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Chuyển đổi thành khách. Các tệp tạm thời sẽ hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Các kết quả và nội dung tải lên của khách sẽ tự động bị xóa trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Chuyển đổi hình ảnh trực tuyến — JPG, PNG, WebP & AVIF",
+    "metaDescription": "Chuyển đổi trực tuyến giữa JPG, PNG, WebP và các định dạng AVIF được hỗ trợ. Chuyển đổi khách riêng với kết quả đầu ra đã được xác minh.",
+    "breadcrumbCurrent": "Chuyển đổi hình ảnh trực tuyến",
+    "h1": "Chuyển đổi hình ảnh trực tuyến",
+    "subtitle": "Chuyển đổi định dạng cho web mà không cần phần mềm máy tính để bàn",
+    "paragraph": "Chuyển đổi hình ảnh JPG, PNG và WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Thay đổi định dạng được thực hiện đơn giản",
+    "features": [
+      {
+        "title": "Các định dạng phổ biến",
+        "body": "Di chuyển giữa JPG, PNG và WebP với các tùy chọn rõ ràng.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Nhận thức minh bạch",
+        "body": "PNG và WebP alpha được xử lý cẩn thận theo chính sách.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "AVIF Khi đã sẵn sàng",
+        "body": "Chỉ mã hóa thành AVIF khi máy chủ có thể xác minh nó.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Đầu ra trung thực",
+        "body": "Biết loại và kích thước MIME kết quả trước khi tải xuống.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để chuyển đổi và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Quay"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Những góc nào được hỗ trợ?",
+        "a": "Xoay khách hỗ trợ 90°, 180° và 270° cộng với các lần lật tùy chọn."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Xoay vòng với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Định hướng EXIF có được áp dụng không?",
+        "a": "Các nguồn được chuẩn hóa theo hướng trước khi chuyển đổi để kết quả phù hợp với những gì bạn mong đợi."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "path": "/xoay-hình ảnh",
+    "metaTitle": "Xoay hình ảnh trực tuyến - Lật JPG, PNG và WebP",
+    "metaDescription": "Xoay hình ảnh 90°, 180° hoặc 270° và lật theo chiều ngang hoặc chiều dọc. Công cụ dành cho khách miễn phí với bộ lưu trữ tạm thời riêng tư.",
+    "breadcrumbCurrent": "Xoay hình ảnh trực tuyến",
+    "h1": "Xoay hình ảnh trực tuyến",
+    "subtitle": "Xoay hoặc lật hình ảnh để bố trí và thiết kế",
+    "paragraph": "Xoay hoặc lật hình ảnh JPG, PNG và WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Sửa lỗi định hướng nhanh",
+    "features": [
+      {
+        "title": "Bước 90°",
+        "body": "Xoay 90°, 180° hoặc 270° trong một lần.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Điều khiển lật",
+        "body": "Gương theo chiều ngang hoặc chiều dọc khi cần thiết.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Cùng định dạng",
+        "body": "Đầu ra vẫn ở định dạng đã tải lên của bạn.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Việc làm của khách riêng",
+        "body": "Xử lý trong thời gian ngắn với tính năng dọn dẹp tự động.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để xoay và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Hình mờ"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tôi có thể tải lên hình mờ logo không?",
+        "a": "Công cụ khách này đóng dấu văn bản. Bây giờ hãy sử dụng văn bản thương hiệu ngắn."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Hình mờ với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Hình mờ có bao phủ chủ đề của tôi không?",
+        "a": "Chọn các vị trí góc và độ mờ thấp hơn để giữ cho đối tượng được nhìn thấy."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "path": "/hình mờ-hình ảnh",
+    "metaTitle": "Hình mờ hình ảnh trực tuyến — Thêm hình mờ văn bản",
+    "metaDescription": "Đóng dấu hình mờ văn bản ngắn trên JPG, PNG và WebP bằng các điều khiển vị trí và độ mờ. Công cụ khách riêng.",
+    "breadcrumbCurrent": "Hình mờ hình ảnh trực tuyến",
+    "h1": "Hình mờ hình ảnh trực tuyến",
+    "subtitle": "Đóng dấu văn bản ngắn mà không che toàn bộ hình ảnh",
+    "paragraph": "Thêm hình mờ văn bản vào hình ảnh JPG, PNG hoặc WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Bảo vệ hình ảnh bằng cách xây dựng thương hiệu nhẹ nhàng",
+    "features": [
+      {
+        "title": "Tem văn bản ngắn",
+        "body": "Thêm hình mờ ngắn gọn mà vẫn có thể đọc được.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Kiểm soát vị trí",
+        "body": "Đặt hình mờ ở các góc hoặc trung tâm.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Thanh trượt độ mờ",
+        "body": "Cân bằng khả năng hiển thị với nội dung hình ảnh.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Cùng một định dạng",
+        "body": "Tải xuống tệp có hình mờ ở định dạng nguồn của bạn.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để tạo hình mờ và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Làm mờ"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tính năng này có tự động phát hiện khuôn mặt không?",
+        "a": "Không. Bạn chọn vùng theo cách thủ công theo tỷ lệ phần trăm của hình ảnh."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Blur với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Tôi có thể làm mờ nhiều vùng không?",
+        "a": "Công cụ khách này áp dụng một vùng cho mỗi lần chạy. Chạy lại để làm mờ vùng khác."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "path": "/ vùng mờ",
+    "metaTitle": "Làm mờ vùng ảnh trực tuyến — Ẩn khuôn mặt và chi tiết",
+    "metaDescription": "Làm mờ thủ công vùng gồm các hình ảnh JPG, PNG hoặc WebP để ẩn khuôn mặt, tấm hoặc các chi tiết khác. Công cụ khách riêng.",
+    "breadcrumbCurrent": "Làm mờ vùng trực tuyến",
+    "h1": "Làm mờ vùng trực tuyến",
+    "subtitle": "Ẩn các chi tiết nhạy cảm bằng hộp làm mờ thủ công",
+    "paragraph": "Làm mờ vùng đã chọn trên hình ảnh JPG, PNG hoặc WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Làm mờ những gì cần sự riêng tư",
+    "features": [
+      {
+        "title": "Vùng thủ công",
+        "body": "Bạn chọn chính xác nơi áp dụng độ mờ.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Cấp độ sức mạnh",
+        "body": "Độ mờ nhẹ, trung bình hoặc mạnh tùy theo nhu cầu khác nhau.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Thân thiện với quyền riêng tư",
+        "body": "Ẩn chi tiết trước khi đăng hoặc vận chuyển nội dung.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "An toàn cho khách",
+        "body": "Xử lý tạm thời riêng tư với tính năng xóa tự động.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để làm mờ vùng và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Đầu đề"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tôi có cần cả văn bản trên và dưới không?",
+        "a": "Không. Cung cấp ít nhất một dòng chú thích."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Tạo với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Tôi có thể thay đổi phông chữ không?",
+        "a": "Meme khách sử dụng ngăn xếp kiểu Tác động cổ điển để dễ đọc."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "path": "/trình tạo meme",
+    "metaTitle": "Meme Generator trực tuyến - Thêm chú thích trên và dưới",
+    "metaDescription": "Thêm chú thích meme cổ điển trên và dưới vào hình ảnh JPG, PNG hoặc WebP. Trình tạo meme khách miễn phí.",
+    "breadcrumbCurrent": "Trình tạo Meme trực tuyến",
+    "h1": "Trình tạo Meme trực tuyến",
+    "subtitle": "Thêm chú thích cổ điển trong vài giây",
+    "paragraph": "Thêm chú thích trên cùng và dưới cùng vào hình ảnh JPG, PNG hoặc WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Chú thích đọc như những meme cổ điển",
+    "features": [
+      {
+        "title": "Văn bản trên và dưới",
+        "body": "Sử dụng một trong hai dòng hoặc cả hai cho bố cục cổ điển.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Tự động gói",
+        "body": "Chú thích dài được gói thành những dòng ngắn có thể đọc được.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Loại tương phản cao",
+        "body": "Tô màu trắng với nét đậm để tạo sự rõ ràng.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Công cụ khách tức thì",
+        "body": "Tạo và tải xuống mà không cần đăng nhập.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư cho chú thích meme và sẽ tự động bị xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/geotag-image": {
+    "path": "/thẻ địa lý-hình ảnh",
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Gắn thẻ địa lý"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Những định dạng nào hỗ trợ gắn thẻ địa lý?",
+        "a": "Gắn thẻ địa lý của khách tập trung vào hình ảnh JPEG tương thích."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách tương thích JPEG trong giới hạn 10 MB."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Gắn thẻ địa lý với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Tọa độ đã được xác minh chưa?",
+        "a": "Việc ghi tuân theo các quy tắc xác thực để các giá trị được định dạng đúng trước khi nhúng."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Gắn thẻ địa lý cho hình ảnh trực tuyến — Thêm GPS vào JPEG",
+    "metaDescription": "Đọc hoặc ghi tọa độ GPS đã được xác minh trên các hình ảnh JPEG tương thích. Công cụ gắn thẻ địa lý riêng cho khách.",
+    "breadcrumbCurrent": "Gắn thẻ địa lý hình ảnh trực tuyến",
+    "h1": "Gắn thẻ địa lý hình ảnh trực tuyến",
+    "subtitle": "Thêm hoặc kiểm tra dữ liệu vị trí JPEG GPS",
+    "paragraph": "Thêm hoặc kiểm tra tọa độ GPS trên hình ảnh JPEG tương thích. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Dữ liệu vị trí bạn có thể xác minh",
+    "features": [
+      {
+        "title": "JPEG Tập trung",
+        "body": "Quy trình làm việc gắn thẻ địa lý nhắm mục tiêu các nguồn JPEG tương thích.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Kiểm tra đầu tiên",
+        "body": "Xem liệu GPS có thể đọc được đã có chưa.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Viết tọa độ",
+        "body": "Nhúng vĩ độ và kinh độ khi cho phép thay thế.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Quyền riêng tư của khách",
+        "body": "Xử lý tạm thời với tính năng dọn dẹp tự động.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để gắn thẻ địa lý và tự động bị xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/image-metadata": {
+    "path": "/ siêu dữ liệu hình ảnh",
+    "breadcrumbCurrent": "Trình xem siêu dữ liệu hình ảnh",
+    "h1": "Trình xem siêu dữ liệu hình ảnh",
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Thanh tra"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bạn có hiển thị tất cả thẻ EXIF không?",
+        "a": "Không. Trình xem hiển thị các trường được liệt kê cho phép để đảm bảo an toàn và rõ ràng."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Không. Kiểm tra với tư cách là khách. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Tôi có thể chỉnh sửa siêu dữ liệu ở đây không?",
+        "a": "Sử dụng Trình chỉnh sửa siêu dữ liệu Hình ảnh SEO để soạn thảo và xuất các trường SEO."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Trình xem siêu dữ liệu hình ảnh trực tuyến — Kiểm tra EXIF một cách an toàn",
+    "metaDescription": "Kiểm tra kích thước, thông tin màu sắc và siêu dữ liệu an toàn được liệt kê cho phép đối với JPG, PNG và WebP. Người xem riêng của khách.",
+    "subtitle": "Kiểm tra các thuộc tính hình ảnh an toàn trước khi bạn xuất bản",
+    "paragraph": "Kiểm tra các thuộc tính JPG, PNG và WebP trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Xem những gì quan trọng một cách an toàn",
+    "features": [
+      {
+        "title": "Thuộc tính cốt lõi",
+        "body": "Kích thước, loại và chi tiết tập tin thực tế.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Các trường được liệt kê cho phép",
+        "body": "Chỉ các bề mặt siêu dữ liệu an toàn, được tuyển chọn mới được hiển thị.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "Thân thiện với web",
+        "body": "Kiểm tra hữu ích trước khi CMS tải lên hoặc xem xét SEO.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Quyền riêng tư của khách",
+        "body": "Kiểm tra tạm thời công việc với tính năng xóa tự động.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để kiểm tra siêu dữ liệu và tự động bị xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/image-metadata-editor": {
+    "path": "/hình ảnh-siêu dữ liệu-biên tập",
+    "breadcrumbCurrent": "Trình chỉnh sửa siêu dữ liệu hình ảnh SEO",
+    "h1": "Trình chỉnh sửa siêu dữ liệu hình ảnh SEO",
+    "howSteps": [
+      {
+        "title": "Tải hình ảnh của bạn lên"
+      },
+      {
+        "title": "Biên tập"
+      },
+      {
+        "title": "Xem trước kết quả"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Điều này có viết lại EXIF ở mọi định dạng không?",
+        "a": "Trình chỉnh sửa tập trung vào việc chuẩn bị các trường SEO và xuất."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Hỗ trợ tải lên của khách JPG, PNG và WebP lên tới 10 MB."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Chỉnh sửa của khách có sẵn với giới hạn. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Tôi có thể xuất khẩu những gì?",
+        "a": "Sử dụng tính năng xuất thân thiện với xe sidecar cho CMS và quy trình làm việc nội dung."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Hình ảnh SEO Trình chỉnh sửa siêu dữ liệu trực tuyến",
+    "metaDescription": "Viết, đánh giá và xuất các trường hình ảnh SEO cho trang web và quy trình công việc CMS. Trình chỉnh sửa siêu dữ liệu của khách riêng tư.",
+    "subtitle": "Chuẩn bị các trường hình ảnh SEO trước khi xuất bản",
+    "paragraph": "Các trường hình ảnh nháp SEO và xuất sidecar trong vài giây. Công cụ trực tuyến miễn phí - không cần tài khoản.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Kiểm soát biên tập cho hình ảnh SEO",
+    "features": [
+      {
+        "title": "Trường có thể chỉnh sửa",
+        "body": "Cập nhật văn bản SEO mà bạn thực sự gửi đi.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Xuất khẩu thân thiện",
+        "body": "Tải xuống sidecar cho CMS và quy trình làm việc nội dung.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "CMS Sẵn sàng",
+        "body": "Chuẩn bị tiêu đề, mô tả và từ khóa trước khi xuất bản.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Phiên khách",
+        "body": "Bản nháp tạm thời với khả năng dọn dẹp tự động.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để chỉnh sửa siêu dữ liệu và tự động xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  },
+  "/bulk-image-tools": {
+    "path": "/công cụ hình ảnh số lượng lớn",
+    "breadcrumbCurrent": "Công cụ hình ảnh hàng loạt",
+    "h1": "Công cụ hình ảnh hàng loạt",
+    "howSteps": [
+      {
+        "title": "Tải lên một lô"
+      },
+      {
+        "title": "Chọn thao tác"
+      },
+      {
+        "title": "Tệp xử lý"
+      },
+      {
+        "title": "Tải xuống"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tôi có thể tải lên bao nhiêu tập tin?",
+        "a": "Công việc hàng loạt của khách thực thi số lượng tệp tối đa và tổng kích thước lô."
+      },
+      {
+        "q": "Có giới hạn kích thước tập tin?",
+        "a": "Mỗi tệp tuân theo kích thước tối đa của khách và lô có giới hạn tổng số byte."
+      },
+      {
+        "q": "Tôi có cần một tài khoản không?",
+        "a": "Khách có thể thực hiện các công việc số lượng lớn có giới hạn. Các tập tin hết hạn trong vòng một giờ."
+      },
+      {
+        "q": "Điều gì sẽ xảy ra nếu một tập tin bị lỗi?",
+        "a": "Kết quả đầu ra thành công vẫn có thể tải xuống được; các mục không thành công hiển thị trạng thái lỗi."
+      },
+      {
+        "q": "Hình ảnh của tôi có được lưu trữ vĩnh viễn không?",
+        "a": "Không. Nội dung tải lên và kết quả của khách sẽ hết hạn trong vòng một giờ."
+      }
+    ],
+    "metaTitle": "Công cụ hình ảnh hàng loạt trực tuyến - Nén, thay đổi kích thước, chuyển đổi",
+    "metaDescription": "Nén, thay đổi kích thước hoặc chuyển đổi một số hình ảnh và tải xuống các kết quả thành công cùng nhau. Áp dụng giới hạn số lượng khách.",
+    "subtitle": "Xử lý một đợt ngắn mà không lặp lại từng bước",
+    "paragraph": "Nén, thay đổi kích thước hoặc chuyển đổi nhiều tệp JPG, PNG hoặc WebP trong một đợt. Áp dụng giới hạn số lượng khách miễn phí.",
+    "trust": [
+      "Không cần tài khoản",
+      "Xử lý riêng tư và an toàn",
+      "Tự động xóa trong vòng 1 giờ"
+    ],
+    "workspaceNote": "Các định dạng được hỗ trợ: JPG, PNG, WebP • Kích thước tệp tối đa: 10 MB. Các tập tin của bạn là riêng tư và tự động bị xóa trong vòng một giờ.",
+    "featuresHeading": "Tốc độ hàng loạt với giới hạn rõ ràng",
+    "features": [
+      {
+        "title": "Cài đặt chia sẻ",
+        "body": "Áp dụng một lựa chọn nén, thay đổi kích thước hoặc chuyển đổi hàng loạt.",
+        "tone": "màu xanh da trời"
+      },
+      {
+        "title": "Trạng thái mỗi tệp",
+        "body": "Xem hình ảnh nào thành công và hình ảnh nào cần chú ý.",
+        "tone": "màu xanh lá"
+      },
+      {
+        "title": "ZIP Tải xuống",
+        "body": "Thu thập kết quả đầu ra thành công khi lô đã sẵn sàng.",
+        "tone": "màu tím"
+      },
+      {
+        "title": "Mũ khách",
+        "body": "Kích thước lô và tổng số byte tuân theo chính sách dành cho khách miễn phí.",
+        "tone": "quả cam"
+      }
+    ],
+    "howHeading": "Nó hoạt động như thế nào",
+    "benefitCards": [
+      {
+        "title": "Vấn đề riêng tư của bạn",
+        "body": "Hình ảnh của bạn được xử lý riêng tư để xử lý hàng loạt và tự động bị xóa trong vòng một giờ.",
+        "kind": "sự riêng tư"
+      },
+      {
+        "title": "Nhanh chóng & Hiệu quả",
+        "body": "Quá trình xử lý khách dựa trên đám mây mang lại kết quả sau vài giây mà không cần cài đặt phần mềm.",
+        "kind": "tốc độ"
+      }
+    ],
+    "faqHeading": "Câu hỏi thường gặp"
+  }
+}

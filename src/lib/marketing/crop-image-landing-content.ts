@@ -1,9 +1,10 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Crop Images master hub — pillar page for "crop images online" keywords.
  * Distinct from Crop JPG/PNG/WebP landings.
  * Ratios match guest engine only: free, 1:1, 4:3, 3:4, 16:9, 9:16.
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type CropImageFaq = {q: string; a: string};
 
@@ -105,7 +106,7 @@ export type CropImageCopy = {
 };
 
 const en: CropImageCopy = {
-  metaTitle: "Crop Images Online Free | SEO Images",
+  metaTitle: "Crop Images Online Free | Img Pilot",
   metaDescription:
     "Crop JPG, PNG and WebP images online using precise crop controls and popular aspect ratios. Browser-based image cropping with secure processing.",
   h1: "Crop Images Online",
@@ -214,7 +215,7 @@ const en: CropImageCopy = {
       "Product images sell clarity. Isolation crops remove table edges and warehouse clutter so merchandise sits cleanly in ecommerce grids. Consistent aspect ratios across a catalog also make comparison shopping pages feel intentional rather than patched together.",
       "Marketing and blog teams reuse the same masters across emails, landing pages and articles. Cropping creates channel-specific derivatives while the original shoot stays untouched. That habit protects campaign assets and reduces last-minute layout fights.",
       "Print and presentations punish messy borders too. Slides need breathing room around charts and people; posters need a focal point that survives viewing distance. Cropping sets that focus before export so design tools are not dragging invisible pixels.",
-      "SEO Images keeps the workflow browser-based: upload JPG, PNG or WebP, drag the crop box, lock a supported aspect ratio when needed, preview the composition and download a new file. Resize or compress afterwards if the delivery box or file weight still needs work.",
+      "Img Pilot keeps the workflow browser-based: upload JPG, PNG or WebP, drag the crop box, lock a supported aspect ratio when needed, preview the composition and download a new file. Resize or compress afterwards if the delivery box or file weight still needs work.",
     ],
   },
   howItWorks: {
@@ -448,7 +449,7 @@ const en: CropImageCopy = {
 };
 
 const ur: CropImageCopy = {
-  metaTitle: "آن لائن امیجز کراپ کریں مفت | SEO Images",
+  metaTitle: "آن لائن امیجز کراپ کریں مفت | Img Pilot",
   metaDescription:
     "درست کراپ کنٹرولز اور مقبول آسپیکٹ ریشو کے ساتھ JPG، PNG اور WebP امیجز آن لائن کراپ کریں۔ محفوظ پروسیسنگ والا براؤزر پر مبنی امیج کراپ۔",
   h1: "آن لائن امیجز کراپ کریں",
@@ -557,7 +558,7 @@ const ur: CropImageCopy = {
       "پروڈکٹ امیجز وضاحت بیچتی ہیں۔ آئسولیشن کراپ میز کے کنارے اور گودام کی بے ترتیبی ہٹا کر سامان کو ای کامرس گرڈز میں صاف بٹھاتا ہے۔ کیٹلاگ بھر میں یکساں آسپیکٹ ریشو صفحات کو پیچے ہوئے کے بجائے ارادی لگاتے ہیں۔",
       "مارکیٹنگ اور بلاگ ٹیمیں ایک ہی ماسٹرز کو ای میل، لینڈنگ پیجز اور مضامین میں دوبارہ استعمال کرتی ہیں۔ کراپنگ چینل مخصوص کاپیاں بناتی ہے جبکہ اصل شوٹ محفوظ رہتا ہے۔ یہ عادت مہم کے اثاثوں کی حفاظت کرتی ہے۔",
       "پرنٹ اور پریزنٹیشنز گندے بارڈرز کو بھی سزا دیتے ہیں۔ سلائیڈز کو چارٹس اور لوگوں کے ارد گرد سانس لینے کی جگہ چاہیے؛ پوسٹرز کو ایسا فوکس چاہیے جو فاصلے پر بھی بچے۔ کراپنگ ایکسپورٹ سے پہلے وہ فوکس طے کرتی ہے۔",
-      "SEO Images اس ورک فلو کو براؤزر میں رکھتا ہے: JPG، PNG یا WebP اپلوڈ کریں، کراپ باکس گھسیٹیں، ضرورت ہو تو معاون آسپیکٹ ریشو لاک کریں، کمپوزیشن دیکھیں اور نئی فائل ڈاؤن لوڈ کریں۔ اگر ڈیلیوری باکس یا فائل وزن اب بھی درکار ہو تو بعد میں ری سائز یا کمپریس کریں۔",
+      "Img Pilot اس ورک فلو کو براؤزر میں رکھتا ہے: JPG، PNG یا WebP اپلوڈ کریں، کراپ باکس گھسیٹیں، ضرورت ہو تو معاون آسپیکٹ ریشو لاک کریں، کمپوزیشن دیکھیں اور نئی فائل ڈاؤن لوڈ کریں۔ اگر ڈیلیوری باکس یا فائل وزن اب بھی درکار ہو تو بعد میں ری سائز یا کمپریس کریں۔",
     ],
   },
   howItWorks: {
@@ -791,9 +792,9 @@ const ur: CropImageCopy = {
 };
 
 export function getCropImageCopy(locale: string): CropImageCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isCropImageLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

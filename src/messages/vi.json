@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Sắp ra mắt",
+    "openMenu": "Mở điều hướng",
+    "closeMenu": "Đóng điều hướng",
+    "mainNavigation": "Điều hướng chính"
+  },
+  "navigation": {
+    "dashboard": "Bảng điều khiển",
+    "projects": "Dự án",
+    "usage": "Phân tích",
+    "billing": "Thanh toán",
+    "developer": "Nhà phát triển",
+    "integrations": "Tích hợp",
+    "automation": "Tự động hóa",
+    "settings": "Cài đặt tài khoản",
+    "organizations": "Tổ chức"
+  },
+  "language": {
+    "label": "Ngôn ngữ giao diện",
+    "english": "Tiếng Anh",
+    "urdu": "tiếng Urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Công cụ hình ảnh",
+    "compress": "Nén",
+    "resize": "Đổi kích thước",
+    "convert": "Chuyển đổi",
+    "seoTools": "Công cụ SEO",
+    "bulkTools": "Công cụ hàng loạt",
+    "openAppGrid": "Mở menu công cụ",
+    "appGridTitle": "Công cụ và tài nguyên",
+    "languageHint": "Tùy chọn ngôn ngữ",
+    "menu": "Thực đơn",
+    "close": "Đóng",
+    "footerBlurb": "Công cụ trực tuyến riêng tư để nén, đổi kích thước, chuyển đổi và chuẩn bị hình ảnh cho web.",
+    "popularFormats": "Định dạng phổ biến",
+    "company": "Công ty",
+    "resources": "Tài nguyên",
+    "rights": "Đã đăng ký bản quyền."
+  },
+  "errors": {
+    "generic": "Đã xảy ra lỗi."
+  }
+}

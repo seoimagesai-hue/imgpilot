@@ -145,11 +145,13 @@ export function WorkflowForm({workspaceType, workspaceId, projects, workflow, ca
         >
           {WORKFLOW_TRIGGER_TYPES.map((value) => (
             <option key={value} value={value}>
-              {t(`triggerValues.${value}` as "triggerValues.manual")}
+              {t(`triggerValues.${value.replace(/\./g, "_")}` as "triggerValues.manual")}
             </option>
           ))}
         </select>
-        <p className="mt-1 text-xs text-[var(--muted)]">{t(`triggerHints.${triggerType}` as "triggerHints.manual")}</p>
+        <p className="mt-1 text-xs text-[var(--muted)]">
+          {t(`triggerHints.${triggerType.replace(/\./g, "_")}` as "triggerHints.manual")}
+        </p>
         {state.fieldErrors?.triggerType ? (
           <p className="mt-1 text-sm text-red-700">{msg(state.fieldErrors.triggerType)}</p>
         ) : null}

@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Yakında",
+    "openMenu": "Gezinmeyi aç",
+    "closeMenu": "Gezinmeyi kapat",
+    "mainNavigation": "Ana gezinme"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "projects": "Projeler",
+    "usage": "Analitik",
+    "billing": "Faturalama",
+    "developer": "Geliştirici",
+    "integrations": "Entegrasyonlar",
+    "automation": "Otomasyon",
+    "settings": "Hesap ayarları",
+    "organizations": "Organizasyonlar"
+  },
+  "language": {
+    "label": "Arayüz dili",
+    "english": "İngilizce",
+    "urdu": "Urduca",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Görsel araçları",
+    "compress": "Sıkıştır",
+    "resize": "Yeniden boyutlandır",
+    "convert": "Dönüştür",
+    "seoTools": "SEO araçları",
+    "bulkTools": "Toplu araçlar",
+    "openAppGrid": "Araçlar menüsünü aç",
+    "appGridTitle": "Araçlar ve kaynaklar",
+    "languageHint": "Dil tercihi",
+    "menu": "Menü",
+    "close": "Kapat",
+    "footerBlurb": "Görselleri sıkıştırmak, boyutlandırmak, dönüştürmek ve web için hazırlamak üzere özel çevrimiçi araçlar.",
+    "popularFormats": "Popüler biçimler",
+    "company": "Şirket",
+    "resources": "Kaynaklar",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "errors": {
+    "generic": "Bir şeyler ters gitti."
+  }
+}

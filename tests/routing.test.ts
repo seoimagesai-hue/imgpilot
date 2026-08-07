@@ -1,5 +1,11 @@
 import {describe, expect, it} from "vitest";
-import {routing} from "../src/i18n/routing";
+import {
+  isRtlLocale,
+  localeNativeName,
+  localePath,
+  locales,
+  routing,
+} from "../src/i18n/routing";
 import {getClientEnv, isGoogleAuthConfigured} from "../src/lib/env";
 import {
   getSafeCallbackUrl,
@@ -8,18 +14,51 @@ import {
   registerSchema,
 } from "../src/server/auth/validation";
 import {hashPassword, verifyPassword} from "../src/server/auth/password";
+import {absoluteUrl, hreflangAlternates} from "../src/server/marketing/seo";
 
 describe("locale routing", () => {
-  it("supports English and Urdu", () => {
-    expect(routing.locales).toEqual(["en", "ur"]);
-  });
-
-  it("uses English by default", () => {
+  it("supports 25 locales with English default", () => {
+    expect(routing.locales).toHaveLength(25);
+    expect(locales).toContain("en");
+    expect(locales).toContain("ur");
+    expect(locales).toContain("es");
+    expect(locales).toContain("ar");
     expect(routing.defaultLocale).toBe("en");
   });
 
-  it("always prefixes locales in URLs", () => {
-    expect(routing.localePrefix).toBe("always");
+  it("uses as-needed prefixes so English is unprefixed", () => {
+    expect(routing.localePrefix).toBe("as-needed");
+    expect(localePath("en", "/compress-image")).toBe("/compress-image");
+    expect(localePath("en", "/")).toBe("/");
+    expect(localePath("es", "/compress-image")).toBe("/es/compress-image");
+    expect(localePath("ur", "/")).toBe("/ur");
+  });
+
+  it("marks Arabic and Urdu as RTL", () => {
+    expect(isRtlLocale("ar")).toBe(true);
+    expect(isRtlLocale("ur")).toBe(true);
+    expect(isRtlLocale("en")).toBe(false);
+    expect(isRtlLocale("es")).toBe(false);
+  });
+
+  it("exposes native language names", () => {
+    expect(localeNativeName("ja")).toBe("日本語");
+    expect(localeNativeName("ar")).toBe("العربية");
+  });
+});
+
+describe("SEO absolute URLs", () => {
+  it("builds unprefixed English absolute URLs", () => {
+    const url = absoluteUrl("en", "/compress-image");
+    expect(url.endsWith("/compress-image")).toBe(true);
+    expect(url.includes("/en/")).toBe(false);
+  });
+
+  it("includes all locales plus x-default in hreflang", () => {
+    const languages = hreflangAlternates("/compress-image");
+    expect(Object.keys(languages)).toHaveLength(26);
+    expect(languages["x-default"]).toBe(absoluteUrl("en", "/compress-image"));
+    expect(languages.es).toBe(absoluteUrl("es", "/compress-image"));
   });
 });
 
@@ -96,24 +135,28 @@ describe("login schema", () => {
 });
 
 describe("safe callback URLs", () => {
-  it("accepts locale-prefixed internal paths", () => {
-    expect(getSafeCallbackUrl("/en/compress-image", "en")).toBe("/en/compress-image");
+  it("accepts unprefixed English and locale-prefixed paths", () => {
+    expect(getSafeCallbackUrl("/compress-image", "en")).toBe("/compress-image");
+    expect(getSafeCallbackUrl("/en/compress-image", "en")).toBe("/compress-image");
     expect(getSafeCallbackUrl("/ur/account", "ur")).toBe("/ur/account");
+    expect(getSafeCallbackUrl("/es/compress-image", "es")).toBe("/es/compress-image");
   });
 
   it("maps legacy dashboard callbacks to account", () => {
-    expect(getSafeCallbackUrl("/en/dashboard", "en")).toBe("/en/account");
+    expect(getSafeCallbackUrl("/dashboard", "en")).toBe("/account");
+    expect(getSafeCallbackUrl("/en/dashboard", "en")).toBe("/account");
     expect(getSafeCallbackUrl("/ur/dashboard/projects", "ur")).toBe("/ur/account");
   });
 
   it("rejects open redirects", () => {
-    expect(getSafeCallbackUrl("https://evil.example/phish", "en")).toBe("/en");
-    expect(getSafeCallbackUrl("//evil.example", "en")).toBe("/en");
-    expect(getSafeCallbackUrl("/en/../admin", "en")).toBe("/en");
+    expect(getSafeCallbackUrl("https://evil.example/phish", "en")).toBe("/");
+    expect(getSafeCallbackUrl("//evil.example", "en")).toBe("/");
+    expect(getSafeCallbackUrl("/en/../admin", "en")).toBe("/");
   });
 
   it("falls back when callback is missing", () => {
     expect(getSafeCallbackUrl(undefined, "ur")).toBe("/ur");
+    expect(getSafeCallbackUrl(undefined, "en")).toBe("/");
   });
 });
 
@@ -242,11 +285,9 @@ describe("password hashing", () => {
 });
 
 describe("locale-aware authentication paths", () => {
-  it("builds expected login and register paths for each locale", () => {
-    for (const locale of routing.locales) {
-      expect(`/${locale}/login`).toMatch(/^\/(en|ur)\/login$/);
-      expect(`/${locale}/register`).toMatch(/^\/(en|ur)\/register$/);
-      expect(`/${locale}/dashboard`).toMatch(/^\/(en|ur)\/dashboard$/);
-    }
+  it("builds expected login paths for default and prefixed locales", () => {
+    expect(localePath("en", "/login")).toBe("/login");
+    expect(localePath("ur", "/login")).toBe("/ur/login");
+    expect(localePath("es", "/register")).toBe("/es/register");
   });
 });

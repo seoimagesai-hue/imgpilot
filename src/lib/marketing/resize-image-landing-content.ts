@@ -1,8 +1,9 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Image Resizer master hub — pillar page for "image resizer" keywords.
  * Distinct from Resize JPG/PNG/WebP landings and Bulk Resize.
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type ResizeImageFaq = {q: string; a: string};
 
@@ -123,7 +124,7 @@ export const RESIZE_IMAGE_POPULAR_SIZES = [
 ] as const;
 
 const en: ResizeImageCopy = {
-  metaTitle: "Image Resizer Online Free | SEO Images",
+  metaTitle: "Image Resizer Online Free | Img Pilot",
   metaDescription:
     "Resize JPG, PNG and WebP images online. Change image dimensions for websites, social media and mobile devices using a secure browser-based image resizer.",
   h1: "Resize Images Online",
@@ -209,7 +210,7 @@ const en: ResizeImageCopy = {
       "Photography and marketing libraries benefit from intentional masters. Keep the original capture, then export a resized derivative for the CMS. That habit protects creative work while giving content teams files that fit WordPress blocks, Shopify galleries and landing-page builders without guesswork.",
       "Email clients punish oversized attachments and slow-loading HTML images. Ecommerce grids compound small mistakes across dozens of SKUs. Page speed tools still flag weighty media even when the visual box on screen is tiny. Storage and CDN bills quietly track every unnecessary megapixel you leave in production.",
       "Content publishing is faster when the right size already exists. Designers, SEOs and store operators stop fighting auto-crop surprises when assets arrive pre-sized for the channel. Compression remains important, but resizing removes pixels you should never compress in the first place.",
-      "SEO Images keeps that workflow browser-based: upload JPG, PNG or WebP, pick a popular size or enter custom dimensions, lock aspect ratio when you need natural scaling, preview the result and download a new file while the original on your device stays untouched.",
+      "Img Pilot keeps that workflow browser-based: upload JPG, PNG or WebP, pick a popular size or enter custom dimensions, lock aspect ratio when you need natural scaling, preview the result and download a new file while the original on your device stays untouched.",
     ],
   },
   howItWorks: {
@@ -443,7 +444,7 @@ const en: ResizeImageCopy = {
 };
 
 const ur: ResizeImageCopy = {
-  metaTitle: "آن لائن امیج ری سائزر مفت | SEO Images",
+  metaTitle: "آن لائن امیج ری سائزر مفت | Img Pilot",
   metaDescription:
     "JPG، PNG اور WebP امیجز آن لائن ری سائز کریں۔ ویب سائٹس، سوشل میڈیا اور موبائل کے لیے محفوظ براؤزر پر مبنی امیج ری سائزر سے ابعاد تبدیل کریں۔",
   h1: "آن لائن امیجز ری سائز کریں",
@@ -529,7 +530,7 @@ const ur: ResizeImageCopy = {
       "فوٹوگرافی اور مارکیٹنگ لائبریریاں ارادی ماسٹرز سے فائدہ اٹھاتی ہیں۔ اصل کیپچر رکھیں، پھر CMS کے لیے ری سائز شدہ کاپی نکالیں۔ یہ عادت تخلیقی کام کی حفاظت کرتی ہے اور مواد کی ٹیم کو ایسے فائل دیتی ہے جو WordPress بلاکس، Shopify گیلریز اور لینڈنگ پیج بلڈرز میں بغیر اندازے کے فٹ ہو جائیں۔",
       "ای میل کلائنٹس بڑے اٹیچمنٹس اور سست لوڈ ہونے والی HTML امیجز کو سزا دیتے ہیں۔ ای کامرس گرڈز درجنوں SKUs پر چھوٹی غلطیوں کو بڑھاتے ہیں۔ پیج اسپیڈ ٹولز تب بھی بھاری میڈیا فلگ کرتے ہیں جب اسکرین پر بصری باکس چھوٹا ہو۔ اسٹوریج اور CDN بل خاموشی سے ہر غیر ضروری میگا پکسل کا حساب رکھتے ہیں۔",
       "مواد کی اشاعت اس وقت تیز ہوتی ہے جب صحیح سائز پہلے سے موجود ہو۔ ڈیزائنرز، SEO اور اسٹور آپریٹرز آٹو کراپ کے حیرت انگیز نتائج سے کم لڑتے ہیں جب اثاثے چینل کے لیے پہلے سے سائز کیے ہوں۔ کمپریشن اہم رہتی ہے، مگر ری سائز وہ پکسل ہٹاتا ہے جنہیں کبھی کمپریس نہیں کرنا چاہیے تھا۔",
-      "SEO Images اس ورک فلو کو براؤزر میں رکھتا ہے: JPG، PNG یا WebP اپلوڈ کریں، مقبول سائز منتخب کریں یا حسبِ ضرورت ابعاد درج کریں، ضرورت ہو تو آسپیکٹ ریشو لاک رکھیں، نتیجہ دیکھیں اور نئی فائل ڈاؤن لوڈ کریں جبکہ آپ کی ڈیوائس پر اصل فائل ویسی ہی رہتی ہے۔",
+      "Img Pilot اس ورک فلو کو براؤزر میں رکھتا ہے: JPG، PNG یا WebP اپلوڈ کریں، مقبول سائز منتخب کریں یا حسبِ ضرورت ابعاد درج کریں، ضرورت ہو تو آسپیکٹ ریشو لاک رکھیں، نتیجہ دیکھیں اور نئی فائل ڈاؤن لوڈ کریں جبکہ آپ کی ڈیوائس پر اصل فائل ویسی ہی رہتی ہے۔",
     ],
   },
   howItWorks: {
@@ -763,9 +764,9 @@ const ur: ResizeImageCopy = {
 };
 
 export function getResizeImageCopy(locale: string): ResizeImageCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isResizeImageLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

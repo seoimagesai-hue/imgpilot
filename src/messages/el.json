@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Σύντομα",
+    "openMenu": "Άνοιγμα πλοήγησης",
+    "closeMenu": "Κλείσιμο πλοήγησης",
+    "mainNavigation": "Κύρια πλοήγηση"
+  },
+  "navigation": {
+    "dashboard": "Πίνακας",
+    "projects": "Έργα",
+    "usage": "Αναλυτικά",
+    "billing": "Χρεώσεις",
+    "developer": "Προγραμματιστής",
+    "integrations": "Ενσωματώσεις",
+    "automation": "Αυτοματισμός",
+    "settings": "Ρυθμίσεις λογαριασμού",
+    "organizations": "Οργανισμοί"
+  },
+  "language": {
+    "label": "Γλώσσα διεπαφής",
+    "english": "αγγλικός",
+    "urdu": "Ουρντού",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Εργαλεία εικόνας",
+    "compress": "Συμπίεση",
+    "resize": "Αλλαγή μεγέθους",
+    "convert": "Μετατροπή",
+    "seoTools": "Εργαλεία SEO",
+    "bulkTools": "Ομαδικά εργαλεία",
+    "openAppGrid": "Άνοιγμα μενού εργαλείων",
+    "appGridTitle": "Εργαλεία και πόροι",
+    "languageHint": "Προτίμηση γλώσσας",
+    "menu": "Μενού",
+    "close": "Κλείσιμο",
+    "footerBlurb": "Ιδιωτικά διαδικτυακά εργαλεία για συμπίεση, αλλαγή μεγέθους, μετατροπή και προετοιμασία εικόνων για τον ιστό.",
+    "popularFormats": "Δημοφιλείς μορφές",
+    "company": "Εταιρεία",
+    "resources": "Πόροι",
+    "rights": "Με επιφύλαξη παντός δικαιώματος."
+  },
+  "errors": {
+    "generic": "Κάτι πήγε στραβά."
+  }
+}

@@ -1,18 +1,20 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {ConvertImageLandingView} from "@/components/marketing/convert-image-landing-view";
-import {getConvertImageCopy} from "@/lib/marketing/convert-image-landing-content";
+import {convertToolConfig} from "@/components/guest/tools/convert-tool";
+import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
+import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
 import {buildPublicMetadata} from "@/server/marketing/seo";
 
 type PageProps = {params: Promise<{locale: string}>};
+const PATH = "/convert-image";
 
 export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   const {locale} = await params;
-  const copy = getConvertImageCopy(locale);
+  const copy = getToolLandingCopyForLocale(PATH, locale);
   return buildPublicMetadata({
     locale: locale as AppLocale,
-    path: "/convert-image",
+    path: PATH,
     title: copy.metaTitle,
     description: copy.metaDescription,
     index: true,
@@ -22,5 +24,5 @@ export async function generateMetadata({params}: PageProps): Promise<Metadata> {
 export default async function ConvertImagePage({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  return <ConvertImageLandingView locale={locale} />;
+  return <ToolLandingShell locale={locale} copy={getToolLandingCopyForLocale(PATH, locale)} toolConfig={convertToolConfig} />;
 }

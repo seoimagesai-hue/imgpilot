@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "zmienić rozmiar",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Dokładne wymiary obrazu przy popularnych rozmiarach platform",
+        "Blokada proporcji obrazu, aby zapobiec zniekształceniom",
+        "Prywatne tymczasowe miejsce do przechowywania gości"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki JPG są akceptowane?",
+          "a": "Ta strona ma priorytet JPG. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Zmień rozmiar."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "zmień rozmiar-jpg",
+      "title": "Zmień rozmiar JPG obrazów online za darmo | Img Pilot",
+      "description": "Zmień rozmiar obrazów JPG online, wybierając niestandardowe wymiary lub popularne ustawienia wstępne. Dostosuj szerokość, wysokość i jakość, a następnie bezpiecznie pobierz JPG o zmienionym rozmiarze.",
+      "h1": "Zmień rozmiar JPG obrazów online",
+      "intro": "Zmień rozmiar obrazów JPG do dokładnych wymiarów, których potrzebujesz, bez instalowania żadnego oprogramowania. Prześlij zdjęcie, wybierz ustawienie wstępne lub wprowadź niestandardową szerokość i wysokość, a następnie pobierz JPG o zmienionym rozmiarze w ciągu kilku sekund.",
+      "related": [
+        "skompresuj-jpg",
+        "jpg-do-webp",
+        "przytnij-jpg",
+        "zmień rozmiar-png",
+        "png-do-jpg",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "howTo": [
+        "Prześlij JPG",
+        "Wybierz metodę lub ustawienie wstępne",
+        "Proces",
+        "Pobierz plik JPG o zmienionym rozmiarze"
+      ]
+    },
+    "resize-png": {
+      "operation": "zmienić rozmiar",
+      "sourceFormat": "png",
+      "howTo": [
+        "Prześlij PNG",
+        "Ustaw wymiary lub ustawienie wstępne",
+        "Proces",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki PNG są akceptowane?",
+          "a": "Ta strona ma priorytet PNG. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Zmień rozmiar."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "zmień rozmiar-png",
+      "title": "Zmień rozmiar PNG obrazów online za darmo | Img Pilot",
+      "description": "Zmień rozmiar obrazów PNG online, zachowując przezroczystość. Zmień bezpiecznie wymiary obrazu i pobierz PNG o zmienionym rozmiarze w ciągu kilku sekund.",
+      "h1": "Zmień rozmiar PNG obrazów online",
+      "intro": "Zmień rozmiar obrazów PNG bez utraty przezroczystości logo, grafiki interfejsu użytkownika, ikon i zrzutów ekranu.",
+      "related": [
+        "skompresuj-png",
+        "png-do-jpg",
+        "png-do-webp",
+        "przytnij-png",
+        "zmień rozmiar-jpg",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Zmiana rozmiaru PNG zachowująca przezroczystość",
+        "Projektuj gotowe ustawienia logo, ikon i ulubionych ikon",
+        "Prywatne tymczasowe przetwarzanie gości"
+      ]
+    },
+    "resize-webp": {
+      "operation": "zmienić rozmiar",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Prześlij WebP",
+        "Wybierz opcje rozmiaru",
+        "Proces",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki WebP są akceptowane?",
+          "a": "Ta strona ma priorytet WebP. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Zmień rozmiar."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "zmień rozmiar-webp",
+      "title": "Zmień rozmiar WebP obrazów online za darmo | Img Pilot",
+      "description": "Zmień rozmiar obrazów WebP online dla responsywnych stron internetowych, blogów i urządzeń mobilnych. Bezpiecznie zmieniaj wymiary i natychmiast pobieraj obrazy WebP o zmienionym rozmiarze.",
+      "h1": "Zmień rozmiar WebP obrazów online",
+      "intro": "Zmień rozmiar obrazów WebP, aby dostosować je do responsywnych układów, urządzeń mobilnych i nowoczesnych stron internetowych, zachowując jednocześnie wydajność WebP.",
+      "related": [
+        "skompresuj-webp",
+        "webp-do-jpg",
+        "webp-do-png",
+        "zmień rozmiar-jpg",
+        "zmień rozmiar-png",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Responsywna kontrola wymiarów WebP",
+        "Udostępniony potok zmiany rozmiaru gościa",
+        "Prywatna pamięć tymczasowa z automatycznym czyszczeniem"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "kompres",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Prześlij JPG",
+        "Wybierz ustawienie jakości",
+        "Kompres",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki JPG są akceptowane?",
+          "a": "Ta strona ma priorytet JPG. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Kompresuj."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "skompresuj-jpg",
+      "title": "Kompresuj JPG obrazy online za darmo | Img Pilot",
+      "description": "Kompresuj obrazy JPG online i zmniejsz rozmiar pliku dzięki regulowanej kontroli jakości. Wyświetl podgląd wyniku i bezpiecznie pobierz mniejszy, zoptymalizowany JPG.",
+      "h1": "Kompresuj obrazy JPG online",
+      "intro": "Zmniejsz rozmiar pliku obrazów JPG bezpośrednio w przeglądarce, bez instalowania skomplikowanego oprogramowania.",
+      "related": [
+        "zmień rozmiar-jpg",
+        "jpg-do-webp",
+        "przytnij-jpg",
+        "jpg-do-png",
+        "webp-do-jpg",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Regulowane ustawienia jakości JPG",
+        "Prywatne tymczasowe przetwarzanie gości",
+        "Oryginalny obraz pozostaje niezmieniony"
+      ]
+    },
+    "compress-png": {
+      "operation": "kompres",
+      "sourceFormat": "png",
+      "howTo": [
+        "Prześlij PNG",
+        "Wybierz jakość",
+        "Kompres",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki PNG są akceptowane?",
+          "a": "Ta strona ma priorytet PNG. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Kompresuj."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "skompresuj-png",
+      "title": "Kompresuj PNG obrazy online za darmo | Img Pilot",
+      "description": "Kompresuj obrazy PNG online, zachowując przejrzystość. Bezpiecznie zmniejsz rozmiar pliku PNG i pobierz zoptymalizowany obraz w ciągu kilku sekund.",
+      "h1": "Kompresuj obrazy PNG online",
+      "intro": "Zmniejsz rozmiar pliku obrazu PNG bez utraty przezroczystości i przejrzystości obrazu.",
+      "related": [
+        "skompresuj-jpg",
+        "zmień rozmiar-png",
+        "png-do-jpg",
+        "png-do-webp",
+        "przytnij-png",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Kompresja PNG zachowująca przezroczystość",
+        "Stworzony dla logo, grafiki interfejsu użytkownika i zrzutów ekranu",
+        "Prywatne tymczasowe przetwarzanie gości"
+      ]
+    },
+    "compress-webp": {
+      "operation": "kompres",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Prześlij WebP",
+        "Wybierz jakość",
+        "Kompres",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki WebP są akceptowane?",
+          "a": "Ta strona ma priorytet WebP. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Kompresuj."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "skompresuj-webp",
+      "title": "Kompresuj WebP obrazy online za darmo | Img Pilot",
+      "description": "Kompresuj obrazy WebP online, aby zmniejszyć rozmiar pliku przy zachowaniu jakości. Popraw szybkość witryny dzięki bezpiecznej optymalizacji WebP opartej na przeglądarce.",
+      "h1": "Kompresuj obrazy WebP online",
+      "intro": "Zmniejsz rozmiar już wyeksportowanego pliku WebP, zachowując przy tym wyraźną jakość wizualną witryn internetowych, stron docelowych i aplikacji mobilnych.",
+      "related": [
+        "zmień rozmiar-webp",
+        "webp-do-jpg",
+        "webp-do-png",
+        "skompresuj-jpg",
+        "skompresuj-png",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Dalsza optymalizacja współczesnego eksportu WebP",
+        "Udostępniony gość Kompresuj ustawienia jakości",
+        "Prywatna pamięć tymczasowa z automatycznym czyszczeniem"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "przyciąć",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Które pliki JPG są akceptowane?",
+          "a": "Ta strona ma priorytet JPG. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Kadrowanie."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "przytnij-jpg",
+      "title": "Przytnij JPG Obrazy online za darmo | Img Pilot",
+      "description": "Przycinaj obrazy JPG online, korzystając z precyzyjnej kontroli kadrowania i popularnych współczynników proporcji. Pobierz bezpiecznie przycięty obraz w ciągu kilku sekund.",
+      "h1": "Przytnij JPG obrazy online",
+      "intro": "Usuń niechciane obszary, zablokuj typowe proporcje i pobierz nowy JPG bez zmiany oryginału.",
+      "related": [
+        "zmień rozmiar-jpg",
+        "skompresuj-jpg",
+        "jpg-do-webp",
+        "zmień rozmiar-png",
+        "przytnij-png",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Precyzyjne uchwyty do przycinania",
+        "Popularne proporcje",
+        "Ramy gotowe do użytku społecznościowego",
+        "Prywatne tymczasowe przechowywanie",
+        "Oryginalny obraz pozostaje bezpieczny"
+      ],
+      "howTo": [
+        "Prześlij JPG",
+        "Wybierz obszar przycięcia",
+        "Podgląd kompozycji",
+        "Pobierz przycięty JPG"
+      ]
+    },
+    "crop-png": {
+      "operation": "przyciąć",
+      "sourceFormat": "png",
+      "howTo": [
+        "Prześlij PNG",
+        "Ustaw zakres przycięcia",
+        "Proces",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki PNG są akceptowane?",
+          "a": "Ta strona ma priorytet PNG. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Kadrowanie."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "przytnij-png",
+      "title": "Przytnij PNG Obrazy online za darmo | Img Pilot",
+      "description": "Przycinaj obrazy PNG online, zachowując przezroczyste tło. Usuń niechciane obszary i bezpiecznie pobierz precyzyjnie przycięty PNG.",
+      "h1": "Przytnij PNG obrazy online",
+      "intro": "Przytnij przezroczyste logo, ikony i grafikę interfejsu użytkownika PNG, zachowując nienaruszoną wersję alfa.",
+      "related": [
+        "zmień rozmiar-png",
+        "skompresuj-png",
+        "png-do-webp",
+        "png-do-jpg",
+        "przytnij-jpg",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Przycięcie PNG zachowujące przejrzystość",
+        "Wspólny silnik i przełożenia dla gości",
+        "Prywatna pamięć tymczasowa z automatycznym czyszczeniem"
+      ]
+    },
+    "crop-webp": {
+      "operation": "przyciąć",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Prześlij WebP",
+        "Wybierz obszar przycięcia",
+        "Proces",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Które pliki WebP są akceptowane?",
+          "a": "Ta strona ma priorytet WebP. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Kadrowanie."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "przytnij-webp",
+      "title": "Przytnij WebP Obrazy online za darmo | Img Pilot",
+      "description": "Przycinaj obrazy WebP online, korzystając z precyzyjnej kontroli kadrowania i popularnych współczynników proporcji. Twórz obrazy gotowe do umieszczenia w Internecie i pobieraj je bezpiecznie w ciągu kilku sekund.",
+      "h1": "Przytnij WebP obrazy online",
+      "intro": "Przytnij nowoczesne obrazy WebP dla responsywnych stron internetowych, stron docelowych i e-commerce, zachowując format zoptymalizowany pod kątem sieci.",
+      "related": [
+        "zmień rozmiar-webp",
+        "skompresuj-webp",
+        "webp-do-jpg",
+        "webp-do-png",
+        "przytnij-jpg",
+        "przytnij-png"
+      ],
+      "benefits": [
+        "WebP – pierwszy zbiór w nowoczesnej dostawie",
+        "Wspólny silnik uprawy gości i uczciwe wskaźniki",
+        "Prywatna pamięć tymczasowa z automatycznym czyszczeniem"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "przyciąć",
+      "howTo": [
+        "Prześlij obraz",
+        "Dostosuj kadrowanie kwadratowe",
+        "Proces",
+        "Pobierać"
+      ],
+      "faqs": [
+        {
+          "q": "Czy uwzględniono dokładny rozmiar platformy dla Instagrama?",
+          "a": "Nie na tej stronie. Dedykowane strony o rozmiarach społecznościowych są odraczane do czasu zatwierdzenia przestarzałych ustawień wstępnych."
+        },
+        {
+          "q": "Które pliki obrazów są akceptowane?",
+          "a": "Ta strona nadaje priorytet Twojemu obrazowi. Inne formaty mogą zostać tutaj odrzucone — w przypadku formatów mieszanych użyj ogólnego narzędzia Kadrowanie."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Narzędzia dla gości działają bez logowania w ramach bezpłatnych limitów dziennych."
+        },
+        {
+          "q": "Czy przetwarzanie ma charakter prywatny?",
+          "a": "Przesłane pliki trafiają do magazynu prywatnego, a tymczasowe pliki gościa wygasają po około godzinie."
+        }
+      ],
+      "slug": "kwadrat-przycinania-obrazu",
+      "cropAspect": "1:1",
+      "title": "Przytnij obraz do kwadratu — bezpłatne narzędzie do przycinania 1:1",
+      "description": "Przytnij obrazy do kwadratowych proporcji 1:1 za pomocą udostępnionego silnika kadrowania.",
+      "h1": "Przytnij obraz do kwadratu",
+      "intro": "Rozpoczyna się od blokady proporcji 1:1. Jeśli zajdzie taka potrzeba, nadal możesz zmienić współczynnik w edytorze.",
+      "related": [
+        "przytnij-jpg",
+        "przytnij-png",
+        "zmień rozmiar obrazu",
+        "skompresuj obraz"
+      ],
+      "benefits": [
+        "Domyślnie 1:1",
+        "Współpracuje z JPEG, PNG i WebP",
+        "Ten sam model prywatności, co inne narzędzia dla gości"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "konwertować",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "jpg-do-png",
+      "title": "Konwerter JPG na PNG — bezpłatnie online",
+      "description": "Konwertuj JPG na PNG. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj JPG na PNG",
+      "intro": "Utwórz PNG z JPG, korzystając ze wspólnego silnika Convert.",
+      "related": [
+        "png-do-jpg",
+        "jpg-do-webp",
+        "skompresuj-png",
+        "zmień rozmiar-png"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja JPEG na PNG zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "konwertować",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "jpg-do-webp",
+      "title": "Konwertuj JPG na WebP online za darmo | Img Pilot",
+      "description": "Konwertuj JPG na WebP online. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj JPG na WebP online",
+      "intro": "Konwertuj zdjęcia JPG na WebP, aby uzyskać szybsze strony internetowe, mniejsze pliki dostarczane i silniejsze podstawowe wskaźniki internetowe, gdy przeglądarki obsługują nowoczesne formaty.",
+      "related": [
+        "webp-do-jpg",
+        "skompresuj-jpg",
+        "zmień rozmiar-jpg",
+        "przytnij-jpg",
+        "png-do-webp",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja JPEG na WEBP zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "konwertować",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "jpg-do-avif",
+      "title": "Konwerter JPG na AVIF — bezpłatnie online",
+      "description": "Konwertuj JPG na AVIF. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj JPG na AVIF",
+      "intro": "Kodowanie AVIF jest oferowane tylko wtedy, gdy obsługuje je koder tego serwera. W przeciwnym razie kontrola pozostanie szczerze zablokowana.",
+      "related": [
+        "jpg-do-webp",
+        "png-do-avif",
+        "skompresuj-jpg",
+        "konwertuj obraz"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja JPEG na AVIF zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "konwertować",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "png-do-jpg",
+      "title": "Konwertuj PNG na JPG online za darmo | Img Pilot",
+      "description": "Konwertuj PNG na JPG online. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj PNG na JPG online",
+      "intro": "Spłaszcz przezroczyste PNG w uniwersalnie kompatybilne pliki JPG, gdy alfa nie jest już potrzebna.",
+      "related": [
+        "png-do-webp",
+        "zmień rozmiar-png",
+        "skompresuj-png",
+        "jpg-do-webp",
+        "webp-do-jpg",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja PNG na JPEG zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "konwertować",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "png-do-webp",
+      "title": "Konwertuj PNG na WebP online za darmo | Img Pilot",
+      "description": "Konwertuj PNG na WebP online. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj PNG na WebP online",
+      "intro": "Konwertuj obrazy PNG na WebP online, zachowując przezroczystość. Twórz mniejsze obrazy gotowe do umieszczenia w Internecie, aby przyspieszyć witryny internetowe dzięki bezpiecznej konwersji w przeglądarce.",
+      "related": [
+        "webp-do-png",
+        "png-do-jpg",
+        "skompresuj-png",
+        "zmień rozmiar-png",
+        "jpg-do-webp",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja PNG na WEBP zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "konwertować",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "png-do-avif",
+      "title": "Konwerter PNG na AVIF — bezpłatnie online",
+      "description": "Konwertuj PNG na AVIF. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj PNG na AVIF",
+      "intro": "Konwertuj PNG na AVIF, jeśli w tym wdrożeniu dostępna jest obsługa kodera.",
+      "related": [
+        "png-do-webp",
+        "jpg-do-avif",
+        "skompresuj-png",
+        "konwertuj obraz"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja PNG na AVIF zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "konwertować",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "webp-do-jpg",
+      "title": "Konwertuj WebP na JPG online za darmo | Img Pilot",
+      "description": "Konwertuj WebP na JPG online. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj WebP na JPG online",
+      "intro": "Konwertuj obrazy WebP na JPG, aby uzyskać maksymalną zgodność z pocztą e-mail, dokumentami, przesłanymi plikami CMS i starszym oprogramowaniem.",
+      "related": [
+        "jpg-do-webp",
+        "png-do-jpg",
+        "skompresuj-jpg",
+        "zmień rozmiar-jpg",
+        "przytnij-jpg",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja WEBP na JPEG zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "konwertować",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "webp-do-png",
+      "title": "Konwertuj WebP na PNG online za darmo | Img Pilot",
+      "description": "Konwertuj WebP na PNG online. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj WebP na PNG online",
+      "intro": "Konwertuj obrazy WebP na PNG online, zachowując jednocześnie przezroczystość i jakość obrazu na potrzeby projektowania i edycji.",
+      "related": [
+        "png-do-webp",
+        "png-do-jpg",
+        "webp-do-jpg",
+        "zmień rozmiar-png",
+        "skompresuj-png",
+        "narzędzia do tworzenia obrazów zbiorczych"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja WEBP na PNG zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "konwertować",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Prześlij obraz źródłowy",
+        "Potwierdź format docelowy",
+        "Konwertować",
+        "Pobierać"
+      ],
+      "slug": "webp-do-avif",
+      "title": "Konwerter WebP na AVIF — bezpłatnie online",
+      "description": "Konwertuj WebP na AVIF. Konwersja prywatnego gościa z jednogodzinnym tymczasowym przechowywaniem.",
+      "h1": "Konwertuj WebP na AVIF",
+      "intro": "Konwertuj WebP na AVIF tylko wtedy, gdy obsługiwane jest tutaj kodowanie AVIF.",
+      "related": [
+        "webp-do-jpg",
+        "png-do-avif",
+        "skompresuj-webp",
+        "konwertuj obraz"
+      ],
+      "benefits": [
+        "Używa tylko obsługiwanej macierzy konwersji",
+        "Te same zasady sesji gościa i czyszczenia, co w przypadku konwersji obrazu",
+        "Brak wymyślonych nieobsługiwanych par"
+      ],
+      "faqs": [
+        {
+          "q": "Czy konwersja WEBP na AVIF zmienia mój oryginalny plik?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Jak długo przechowywany jest przekonwertowany plik?",
+          "a": "Pliki gościa są usuwane około godzinę po rozpoczęciu sesji gościa. Pobrania nie przedłużają ważności."
+        },
+        {
+          "q": "Czy mogę konwertować wiele obrazów?",
+          "a": "Użyj narzędzi obrazów zbiorczych w przypadku wielu plików w ramach limitów zbiorczych dla gości lub zalogowanych."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/kompresuj-jpg",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Mniejszy rozmiar, ta sama świetna jakość",
+      "features": [
+        {
+          "title": "Inteligentna kompresja",
+          "tone": "niebieski",
+          "body": "Inteligentna kompresja dostrojona do obrazów JPG."
+        },
+        {
+          "title": "Do 80% mniejszy",
+          "body": "Znacząco zmniejsz rozmiar pliku, aby przyspieszyć przesyłanie i ładowanie stron.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Idealny do Internetu",
+          "body": "Optymalizuj obrazy na potrzeby witryn internetowych, blogów i stron produktów.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Jakość, której możesz zaufać",
+          "body": "Wyświetl podgląd przed pobraniem, więc jakość pozostaje pod Twoją kontrolą.",
+          "tone": "pomarańczowy"
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "kind": "prywatność",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu kompresji i automatycznie usuwane w ciągu godziny."
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Jak działa kompresja JPG?",
+          "a": "Narzędzie ponownie koduje JPG z ustawieniami, które zmniejszają rozmiar pliku, zachowując jednocześnie użyteczność wizualną."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje JPG do 10 MB."
+        },
+        {
+          "q": "Czy kompresja obniży jakość obrazu?",
+          "a": "Silniejsze ustawienia wstępne mogą złagodzić drobne szczegóły. Wybierz jaśniejsze ustawienie wstępne, gdy wygląd ma największe znaczenie i zawsze korzystaj z podglądu."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Kompresja gościa działa bez logowania."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki są automatycznie usuwane w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Kompresuj JPG obrazy online za darmo | Img Pilot",
+      "metaDescription": "Kompresuj obrazy JPG online bez utraty jakości. Zmniejsz rozmiar pliku JPG dzięki przetwarzaniu prywatnego gościa.",
+      "breadcrumbCurrent": "Kompresuj JPG Online",
+      "h1": "Kompresuj JPG Online",
+      "subtitle": "Zmniejsz rozmiar pliku JPG bez utraty jakości",
+      "paragraph": "Kompresuj obrazy JPG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: JPG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/compress-png": {
+      "path": "/kompresuj-png",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Mniejszy rozmiar, ta sama świetna jakość",
+      "features": [
+        {
+          "title": "Inteligentna kompresja",
+          "tone": "niebieski",
+          "body": "Inteligentna kompresja dostrojona do obrazów PNG."
+        },
+        {
+          "title": "Do 80% mniejszy",
+          "body": "Znacząco zmniejsz rozmiar pliku, aby przyspieszyć przesyłanie i ładowanie stron.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Idealny do Internetu",
+          "body": "Optymalizuj obrazy na potrzeby witryn internetowych, blogów i stron produktów.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Jakość, której możesz zaufać",
+          "body": "Wyświetl podgląd przed pobraniem, więc jakość pozostaje pod Twoją kontrolą.",
+          "tone": "pomarańczowy"
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "kind": "prywatność",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu kompresji i automatycznie usuwane w ciągu godziny."
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Jak działa kompresja PNG?",
+          "a": "Narzędzie ponownie koduje PNG z ustawieniami, które zmniejszają rozmiar pliku, zachowując jednocześnie użyteczność wizualną."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje PNG do 10 MB."
+        },
+        {
+          "q": "Czy kompresja obniży jakość obrazu?",
+          "a": "Silniejsze ustawienia wstępne mogą złagodzić drobne szczegóły. Wybierz jaśniejsze ustawienie wstępne, gdy wygląd ma największe znaczenie i zawsze korzystaj z podglądu."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Kompresja gościa działa bez logowania."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki są automatycznie usuwane w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Kompresuj PNG obrazy online za darmo | Img Pilot",
+      "metaDescription": "Kompresuj obrazy PNG online bez utraty jakości. Zmniejsz rozmiar pliku PNG dzięki przetwarzaniu prywatnego gościa.",
+      "breadcrumbCurrent": "Kompresuj PNG Online",
+      "h1": "Kompresuj PNG Online",
+      "subtitle": "Zmniejsz rozmiar pliku PNG bez utraty jakości",
+      "paragraph": "Kompresuj obrazy PNG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: PNG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/compress-webp": {
+      "path": "/kompresuj-webp",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Mniejszy rozmiar, ta sama świetna jakość",
+      "features": [
+        {
+          "title": "Inteligentna kompresja",
+          "tone": "niebieski",
+          "body": "Inteligentna kompresja dostrojona do obrazów WebP."
+        },
+        {
+          "title": "Do 80% mniejszy",
+          "body": "Znacząco zmniejsz rozmiar pliku, aby przyspieszyć przesyłanie i ładowanie stron.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Idealny do Internetu",
+          "body": "Optymalizuj obrazy na potrzeby witryn internetowych, blogów i stron produktów.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Jakość, której możesz zaufać",
+          "body": "Wyświetl podgląd przed pobraniem, więc jakość pozostaje pod Twoją kontrolą.",
+          "tone": "pomarańczowy"
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "kind": "prywatność",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu kompresji i automatycznie usuwane w ciągu godziny."
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Jak działa kompresja WebP?",
+          "a": "Narzędzie ponownie koduje WebP z ustawieniami, które zmniejszają rozmiar pliku, zachowując jednocześnie użyteczność wizualną."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje WebP do 10 MB."
+        },
+        {
+          "q": "Czy kompresja obniży jakość obrazu?",
+          "a": "Silniejsze ustawienia wstępne mogą złagodzić drobne szczegóły. Wybierz jaśniejsze ustawienie wstępne, gdy wygląd ma największe znaczenie i zawsze korzystaj z podglądu."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Kompresja gościa działa bez logowania."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki są automatycznie usuwane w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Kompresuj WebP obrazy online za darmo | Img Pilot",
+      "metaDescription": "Kompresuj obrazy WebP online bez utraty jakości. Zmniejsz rozmiar pliku WebP dzięki przetwarzaniu prywatnego gościa.",
+      "breadcrumbCurrent": "Kompresuj WebP Online",
+      "h1": "Kompresuj WebP Online",
+      "subtitle": "Zmniejsz rozmiar pliku WebP bez utraty jakości",
+      "paragraph": "Kompresuj obrazy WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/resize-jpg": {
+      "path": "/zmień rozmiar-jpg",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Precyzyjna kontrola, czyste wyniki",
+      "features": [
+        {
+          "title": "Dokładne wymiary",
+          "body": "Wprowadź szerokość i wysokość odpowiadające potrzebom układu.",
+          "tone": "niebieski"
+        },
+        {
+          "title": "Dopasuj się do środka",
+          "body": "Skaluj obrazy do ramki, zachowując proporcje.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Żadnych niechcianych ekskluzywnych rozwiązań",
+          "body": "Poręcze pomagają uniknąć rozciągania małych źródeł.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Gotowy do sieci",
+          "tone": "pomarańczowy",
+          "body": "Przygotuj spójne rozmiary JPG dla stron i siatek."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Zmień rozmiar"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu zmiany rozmiaru i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy mogę zachować proporcje?",
+          "a": "Tak. Użyj wymiarów dopasowanych lub połączonych, aby obrazy skalowały się równomiernie."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje JPG do 10 MB."
+        },
+        {
+          "q": "Czy zmiana rozmiaru powiększy mój obraz?",
+          "a": "Domyślnie przepływy pracy unikają niepożądanego powiększenia."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Zmień rozmiar jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Zmień rozmiar JPG obrazów online za darmo | Img Pilot",
+      "metaDescription": "Zmień rozmiar obrazów JPG online według szerokości, wysokości lub dopasowania do wnętrza. Prywatne narzędzie dla gości, które nie wymaga konta.",
+      "breadcrumbCurrent": "Zmień rozmiar JPG Online",
+      "h1": "Zmień rozmiar JPG Online",
+      "subtitle": "Zmień wymiary JPG dla Internetu i mediów społecznościowych",
+      "paragraph": "Zmień rozmiar obrazów JPG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: JPG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/resize-png": {
+      "path": "/zmień rozmiar-png",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Precyzyjna kontrola, czyste wyniki",
+      "features": [
+        {
+          "title": "Dokładne wymiary",
+          "body": "Wprowadź szerokość i wysokość odpowiadające potrzebom układu.",
+          "tone": "niebieski"
+        },
+        {
+          "title": "Dopasuj się do środka",
+          "body": "Skaluj obrazy do ramki, zachowując proporcje.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Żadnych niechcianych ekskluzywnych rozwiązań",
+          "body": "Poręcze pomagają uniknąć rozciągania małych źródeł.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Gotowy do sieci",
+          "tone": "pomarańczowy",
+          "body": "Przygotuj spójne rozmiary PNG dla stron i siatek."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Zmień rozmiar"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu zmiany rozmiaru i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy mogę zachować proporcje?",
+          "a": "Tak. Użyj wymiarów dopasowanych lub połączonych, aby obrazy skalowały się równomiernie."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje PNG do 10 MB."
+        },
+        {
+          "q": "Czy zmiana rozmiaru powiększy mój obraz?",
+          "a": "Domyślnie przepływy pracy unikają niepożądanego powiększenia."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Zmień rozmiar jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Zmień rozmiar PNG obrazów online za darmo | Img Pilot",
+      "metaDescription": "Zmień rozmiar obrazów PNG online według szerokości, wysokości lub dopasowania do wnętrza. Prywatne narzędzie dla gości, które nie wymaga konta.",
+      "breadcrumbCurrent": "Zmień rozmiar PNG Online",
+      "h1": "Zmień rozmiar PNG Online",
+      "subtitle": "Zmień wymiary PNG dla Internetu i mediów społecznościowych",
+      "paragraph": "Zmień rozmiar obrazów PNG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: PNG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/resize-webp": {
+      "path": "/zmień rozmiar-webp",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Precyzyjna kontrola, czyste wyniki",
+      "features": [
+        {
+          "title": "Dokładne wymiary",
+          "body": "Wprowadź szerokość i wysokość odpowiadające potrzebom układu.",
+          "tone": "niebieski"
+        },
+        {
+          "title": "Dopasuj się do środka",
+          "body": "Skaluj obrazy do ramki, zachowując proporcje.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Żadnych niechcianych ekskluzywnych rozwiązań",
+          "body": "Poręcze pomagają uniknąć rozciągania małych źródeł.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Gotowy do sieci",
+          "tone": "pomarańczowy",
+          "body": "Przygotuj spójne rozmiary WebP dla stron i siatek."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Zmień rozmiar"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu zmiany rozmiaru i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy mogę zachować proporcje?",
+          "a": "Tak. Użyj wymiarów dopasowanych lub połączonych, aby obrazy skalowały się równomiernie."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje WebP do 10 MB."
+        },
+        {
+          "q": "Czy zmiana rozmiaru powiększy mój obraz?",
+          "a": "Domyślnie przepływy pracy unikają niepożądanego powiększenia."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Zmień rozmiar jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Zmień rozmiar WebP obrazów online za darmo | Img Pilot",
+      "metaDescription": "Zmień rozmiar obrazów WebP online według szerokości, wysokości lub dopasowania do wnętrza. Prywatne narzędzie dla gości, które nie wymaga konta.",
+      "breadcrumbCurrent": "Zmień rozmiar WebP Online",
+      "h1": "Zmień rozmiar WebP Online",
+      "subtitle": "Zmień wymiary WebP dla Internetu i mediów społecznościowych",
+      "paragraph": "Zmień rozmiar obrazów WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Uprawa z pewnością",
+      "features": [
+        {
+          "title": "Bezpłatne uprawy",
+          "body": "Wybierz dowolny obszar obrazu i zachowaj dokładnie ten region.",
+          "tone": "niebieski"
+        },
+        {
+          "title": "Stałe współczynniki",
+          "body": "Aby uzyskać spójne układy, użyj typowych współczynników proporcji.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Bezpieczna orientacja",
+          "body": "Obliczenia dotyczące przycinania uwzględniają wymiary zorientowane po przesłaniu.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Wyjście w tym samym formacie",
+          "tone": "pomarańczowy",
+          "body": "Pobierz przycięty wynik JPG."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Przyciąć"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje zdjęcia są przetwarzane prywatnie w celu przycięcia i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy mogę przyciąć do kwadratu?",
+          "a": "Tak. Wybierz współczynnik 1:1 lub narysuj dowolny kadr."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje JPG do 10 MB."
+        },
+        {
+          "q": "Czy oryginał został nadpisany?",
+          "a": "Nie. Przetwarzanie powoduje utworzenie nowego przyciętego wyniku."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Przytnij jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/crop-jpg",
+      "metaTitle": "Przytnij JPG Obrazy online za darmo | Img Pilot",
+      "metaDescription": "Przycinaj obrazy JPG online za pomocą bezpłatnych lub stałych proporcji. Prywatne przetwarzanie gości, nie wymaga konta.",
+      "breadcrumbCurrent": "Przytnij JPG Online",
+      "h1": "Przytnij JPG Online",
+      "subtitle": "Zachowaj tylko tę część swojego JPG, która ma znaczenie",
+      "paragraph": "Przytnij obrazy JPG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: JPG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/crop-png": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Uprawa z pewnością",
+      "features": [
+        {
+          "title": "Bezpłatne uprawy",
+          "body": "Wybierz dowolny obszar obrazu i zachowaj dokładnie ten region.",
+          "tone": "niebieski"
+        },
+        {
+          "title": "Stałe współczynniki",
+          "body": "Aby uzyskać spójne układy, użyj typowych współczynników proporcji.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Bezpieczna orientacja",
+          "body": "Obliczenia dotyczące przycinania uwzględniają wymiary zorientowane po przesłaniu.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Wyjście w tym samym formacie",
+          "tone": "pomarańczowy",
+          "body": "Pobierz przycięty wynik PNG."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Przyciąć"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje zdjęcia są przetwarzane prywatnie w celu przycięcia i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy mogę przyciąć do kwadratu?",
+          "a": "Tak. Wybierz współczynnik 1:1 lub narysuj dowolny kadr."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje PNG do 10 MB."
+        },
+        {
+          "q": "Czy oryginał został nadpisany?",
+          "a": "Nie. Przetwarzanie powoduje utworzenie nowego przyciętego wyniku."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Przytnij jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/crop-png",
+      "metaTitle": "Przytnij PNG Obrazy online za darmo | Img Pilot",
+      "metaDescription": "Przycinaj obrazy PNG online za pomocą bezpłatnych lub stałych proporcji. Prywatne przetwarzanie gości, nie wymaga konta.",
+      "breadcrumbCurrent": "Przytnij PNG Online",
+      "h1": "Przytnij PNG Online",
+      "subtitle": "Zachowaj tylko tę część swojego PNG, która ma znaczenie",
+      "paragraph": "Przytnij obrazy PNG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: PNG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Uprawa z pewnością",
+      "features": [
+        {
+          "title": "Bezpłatne uprawy",
+          "body": "Wybierz dowolny obszar obrazu i zachowaj dokładnie ten region.",
+          "tone": "niebieski"
+        },
+        {
+          "title": "Stałe współczynniki",
+          "body": "Aby uzyskać spójne układy, użyj typowych współczynników proporcji.",
+          "tone": "zielony"
+        },
+        {
+          "title": "Bezpieczna orientacja",
+          "body": "Obliczenia dotyczące przycinania uwzględniają wymiary zorientowane po przesłaniu.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Wyjście w tym samym formacie",
+          "tone": "pomarańczowy",
+          "body": "Pobierz przycięty wynik WebP."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Przyciąć"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje zdjęcia są przetwarzane prywatnie w celu przycięcia i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy mogę przyciąć do kwadratu?",
+          "a": "Tak. Wybierz współczynnik 1:1 lub narysuj dowolny kadr."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje WebP do 10 MB."
+        },
+        {
+          "q": "Czy oryginał został nadpisany?",
+          "a": "Nie. Przetwarzanie powoduje utworzenie nowego przyciętego wyniku."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Przytnij jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/crop-webp",
+      "metaTitle": "Przytnij WebP Obrazy online za darmo | Img Pilot",
+      "metaDescription": "Przycinaj obrazy WebP online za pomocą bezpłatnych lub stałych proporcji. Prywatne przetwarzanie gości, nie wymaga konta.",
+      "breadcrumbCurrent": "Przytnij WebP Online",
+      "h1": "Przytnij WebP Online",
+      "subtitle": "Zachowaj tylko tę część swojego WebP, która ma znaczenie",
+      "paragraph": "Przytnij obrazy WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwany format: WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-do-webp",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako WebP ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja JPG na WebP zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje JPG do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy konwersja jest bezstratna?",
+          "a": "Zależy to od formatu źródłowego i docelowego. Formaty stratne mogą obniżyć jakość w przypadku mniejszych rozmiarów."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Konwertuj JPG na WebP online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy JPG na WebP online, aby uzyskać szybsze strony internetowe. Prywatna konwersja gościa ze zweryfikowanymi wynikami.",
+      "breadcrumbCurrent": "Konwerter JPG na WebP",
+      "h1": "Konwertuj JPG na WebP online",
+      "subtitle": "Przełącz z JPG na WebP bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy JPG na WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: JPG → WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-do-png",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako PNG ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja JPG na PNG zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje JPG do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy konwersja jest bezstratna?",
+          "a": "Zależy to od formatu źródłowego i docelowego. Formaty stratne mogą obniżyć jakość w przypadku mniejszych rozmiarów."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Konwertuj JPG na PNG online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy JPG na PNG online. Prywatna konwersja gościa ze zweryfikowanymi wynikami.",
+      "breadcrumbCurrent": "Konwerter JPG na PNG",
+      "h1": "Konwertuj JPG na PNG online",
+      "subtitle": "Przełącz z JPG na PNG bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy JPG na PNG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: JPG → PNG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-do-avif",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako AVIF ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja JPG na AVIF zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje JPG do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy AVIF jest zawsze dostępne?",
+          "a": "Kodowanie AVIF jest oferowane tylko wtedy, gdy serwer może zakodować i zweryfikować wynik."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Konwertuj JPG na AVIF online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy JPG na AVIF online, jeśli dostępne jest kodowanie. Konwersja gościa prywatnego.",
+      "breadcrumbCurrent": "Konwerter JPG na AVIF",
+      "h1": "Konwertuj JPG na AVIF online",
+      "subtitle": "Przełącz z JPG na AVIF bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy JPG na AVIF w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: JPG → AVIF • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/png-to-jpg": {
+      "path": "/png-do-jpg",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako JPG ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja PNG na JPG zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje PNG do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy konwersja jest bezstratna?",
+          "a": "Zależy to od formatu źródłowego i docelowego. Formaty stratne mogą obniżyć jakość w przypadku mniejszych rozmiarów."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Konwertuj PNG na JPG online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy PNG na JPG online. Prywatna konwersja gościa ze zweryfikowanymi wynikami.",
+      "breadcrumbCurrent": "Konwerter PNG na JPG",
+      "h1": "Konwertuj PNG na JPG online",
+      "subtitle": "Przełącz z PNG na JPG bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy PNG na JPG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: PNG → JPG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/png-to-webp": {
+      "path": "/png-do-webp",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako WebP ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja PNG na WebP zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje PNG do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy konwersja jest bezstratna?",
+          "a": "Zależy to od formatu źródłowego i docelowego. Formaty stratne mogą obniżyć jakość w przypadku mniejszych rozmiarów."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Konwertuj PNG na WebP online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy PNG na WebP online, aby uzyskać mniejsze dostawy internetowe. Konwersja gościa prywatnego.",
+      "breadcrumbCurrent": "Konwerter PNG na WebP",
+      "h1": "Konwertuj PNG na WebP online",
+      "subtitle": "Przełącz z PNG na WebP bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy PNG na WebP w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: PNG → WebP • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako AVIF ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja PNG na AVIF zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje PNG do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy AVIF jest zawsze dostępne?",
+          "a": "Kodowanie AVIF jest oferowane tylko wtedy, gdy serwer może zakodować i zweryfikować wynik."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/png-do-avif",
+      "metaTitle": "Konwertuj PNG na AVIF online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy PNG na AVIF online, jeśli dostępne jest kodowanie. Konwersja gościa prywatnego.",
+      "breadcrumbCurrent": "Konwerter PNG na AVIF",
+      "h1": "Konwertuj PNG na AVIF online",
+      "subtitle": "Przełącz z PNG na AVIF bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy PNG na AVIF w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: PNG → AVIF • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-do-jpg",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako JPG ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja WebP na JPG zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje WebP do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy konwersja jest bezstratna?",
+          "a": "Zależy to od formatu źródłowego i docelowego. Formaty stratne mogą obniżyć jakość w przypadku mniejszych rozmiarów."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Konwertuj WebP na JPG online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy WebP na JPG online. Prywatna konwersja gościa ze zweryfikowanymi wynikami.",
+      "breadcrumbCurrent": "Konwerter WebP na JPG",
+      "h1": "Konwertuj WebP na JPG online",
+      "subtitle": "Przełącz z WebP na JPG bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy WebP na JPG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: WebP → JPG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/webp-to-png": {
+      "path": "/webp-do-png",
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako PNG ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja WebP na PNG zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje WebP do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy konwersja jest bezstratna?",
+          "a": "Zależy to od formatu źródłowego i docelowego. Formaty stratne mogą obniżyć jakość w przypadku mniejszych rozmiarów."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "metaTitle": "Konwertuj WebP na PNG online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy WebP na PNG online. Prywatna konwersja gościa ze zweryfikowanymi wynikami.",
+      "breadcrumbCurrent": "Konwerter WebP na PNG",
+      "h1": "Konwertuj WebP na PNG online",
+      "subtitle": "Przełącz z WebP na PNG bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy WebP na PNG w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: WebP → PNG • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Proste zmiany formatu",
+      "features": [
+        {
+          "tone": "niebieski",
+          "title": "Wyczyść cel",
+          "body": "Dane wyjściowe są zapisywane jako AVIF ze zweryfikowanymi wynikami."
+        },
+        {
+          "tone": "zielony",
+          "title": "Szybkie narzędzie dla gości",
+          "body": "Przesyłaj, konwertuj i pobieraj podczas jednej prywatnej sesji."
+        },
+        {
+          "title": "Przyjazny dla sieci",
+          "tone": "fioletowy",
+          "body": "Użyj formatu, który pasuje do Twojej witryny lub przepływu pracy."
+        },
+        {
+          "title": "Uczciwy wynik",
+          "tone": "pomarańczowy",
+          "body": "Przed pobraniem poznaj wynikowy typ i rozmiar."
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij swój obraz"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Podgląd wyniku"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu konwersji i automatycznie usuwane w ciągu godziny.",
+          "kind": "prywatność"
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Czy konwersja WebP na AVIF zmienia mój oryginał?",
+          "a": "Nie. Przetwarzanie gościa zapisuje osobne dane wyjściowe. Przesyłane pliki pozostają prywatne i wygasają wraz z sesją."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Przesyłanie gości obsługuje WebP do 10 MB."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Nie. Konwertuj jako gość. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "Czy AVIF jest zawsze dostępne?",
+          "a": "Kodowanie AVIF jest oferowane tylko wtedy, gdy serwer może zakodować i zweryfikować wynik."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/webp-do-avif",
+      "metaTitle": "Konwertuj WebP na AVIF online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj obrazy WebP na AVIF online, jeśli dostępne jest kodowanie. Konwersja gościa prywatnego.",
+      "breadcrumbCurrent": "Konwerter WebP na AVIF",
+      "h1": "Konwertuj WebP na AVIF online",
+      "subtitle": "Przełącz z WebP na AVIF bez oprogramowania komputerowego",
+      "paragraph": "Konwertuj obrazy WebP na AVIF w ciągu kilku sekund. Bezpłatne narzędzie online — nie wymaga konta.",
+      "workspaceNote": "Obsługiwane: WebP → AVIF • Maksymalny rozmiar pliku: 10 MB. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Szybkość partii z wyraźnymi ograniczeniami",
+      "features": [
+        {
+          "title": "Udostępnione ustawienia",
+          "tone": "niebieski",
+          "body": "Zastosuj jeden rodzaj kompresu w całej partii."
+        },
+        {
+          "title": "Stan poszczególnych plików",
+          "body": "Zobacz, które obrazy odniosły sukces, a które wymagają uwagi.",
+          "tone": "zielony"
+        },
+        {
+          "title": "ZIP Pobierz",
+          "body": "Zbierz pomyślne wyniki, gdy partia będzie gotowa.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Czapki gościnne",
+          "body": "Rozmiar partii i całkowita liczba bajtów są zgodne z zasadami dotyczącymi bezpłatnych gości.",
+          "tone": "pomarańczowy"
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij partię"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Przetwarzaj pliki"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "kind": "prywatność",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu zbiorczego kompresowania i automatycznie usuwane w ciągu godziny."
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Ile plików mogę przesłać?",
+          "a": "Zadania zbiorcze gościa wymuszają maksymalną liczbę plików i całkowity rozmiar wsadu."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Każdy plik ma maksymalny rozmiar gościa, a partia ma łączny limit bajtów."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Goście mogą wykonywać ograniczone zadania masowe. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "A co jeśli jeden plik się nie powiedzie?",
+          "a": "Pomyślne wyniki nadal można pobrać; elementy zakończone niepowodzeniem wyświetlają status błędu."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/kompresja zbiorcza",
+      "metaTitle": "Masowa kompresja obrazów online za darmo | Img Pilot",
+      "metaDescription": "Skompresuj wiele obrazów online i pobierz razem pomyślne wyniki. Obowiązują limity zbiorcze dla gości.",
+      "breadcrumbCurrent": "Zbiorcze kompresowanie obrazów",
+      "h1": "Zbiorcze kompresowanie obrazów online",
+      "subtitle": "Kompresuj krótką partię bez powtarzania każdego kroku",
+      "paragraph": "Skompresuj wiele plików JPG, PNG lub WebP w jednej partii. Obowiązują bezpłatne limity gości.",
+      "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Obowiązują limity partii gości. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Szybkość partii z wyraźnymi ograniczeniami",
+      "features": [
+        {
+          "title": "Udostępnione ustawienia",
+          "tone": "niebieski",
+          "body": "Zastosuj jedną opcję zmiany rozmiaru w całej partii."
+        },
+        {
+          "title": "Stan poszczególnych plików",
+          "body": "Zobacz, które obrazy odniosły sukces, a które wymagają uwagi.",
+          "tone": "zielony"
+        },
+        {
+          "title": "ZIP Pobierz",
+          "body": "Zbierz pomyślne wyniki, gdy partia będzie gotowa.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Czapki gościnne",
+          "body": "Rozmiar partii i całkowita liczba bajtów są zgodne z zasadami dotyczącymi bezpłatnych gości.",
+          "tone": "pomarańczowy"
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij partię"
+        },
+        {
+          "title": "Zmień rozmiar"
+        },
+        {
+          "title": "Przetwarzaj pliki"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "kind": "prywatność",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu zbiorczej zmiany rozmiaru i automatycznie usuwane w ciągu godziny."
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Ile plików mogę przesłać?",
+          "a": "Zadania zbiorcze gościa wymuszają maksymalną liczbę plików i całkowity rozmiar wsadu."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Każdy plik ma maksymalny rozmiar gościa, a partia ma łączny limit bajtów."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Goście mogą wykonywać ograniczone zadania masowe. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "A co jeśli jeden plik się nie powiedzie?",
+          "a": "Pomyślne wyniki nadal można pobrać; elementy zakończone niepowodzeniem wyświetlają status błędu."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/zbiorcza zmiana rozmiaru",
+      "metaTitle": "Zbiorcza zmiana rozmiaru obrazów online za darmo | Img Pilot",
+      "metaDescription": "Zmień rozmiar wielu obrazów online i razem pobierz pomyślne wyniki. Obowiązują limity zbiorcze dla gości.",
+      "breadcrumbCurrent": "Zbiorcza zmiana rozmiaru obrazów",
+      "h1": "Zbiorcza zmiana rozmiaru obrazów online",
+      "subtitle": "Zmień rozmiar krótkiej partii bez powtarzania każdego kroku",
+      "paragraph": "Zmień rozmiar wielu plików JPG, PNG lub WebP w jednej partii. Obowiązują bezpłatne limity gości.",
+      "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Obowiązują limity partii gości. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Nie jest wymagane konto",
+        "Prywatne i bezpieczne przetwarzanie",
+        "Automatyczne usuwanie w ciągu 1 godziny"
+      ],
+      "featuresHeading": "Szybkość partii z wyraźnymi ograniczeniami",
+      "features": [
+        {
+          "title": "Udostępnione ustawienia",
+          "tone": "niebieski",
+          "body": "Zastosuj jedną opcję konwersji w całej partii."
+        },
+        {
+          "title": "Stan poszczególnych plików",
+          "body": "Zobacz, które obrazy odniosły sukces, a które wymagają uwagi.",
+          "tone": "zielony"
+        },
+        {
+          "title": "ZIP Pobierz",
+          "body": "Zbierz pomyślne wyniki, gdy partia będzie gotowa.",
+          "tone": "fioletowy"
+        },
+        {
+          "title": "Czapki gościnne",
+          "body": "Rozmiar partii i całkowita liczba bajtów są zgodne z zasadami dotyczącymi bezpłatnych gości.",
+          "tone": "pomarańczowy"
+        }
+      ],
+      "howHeading": "Jak to działa",
+      "howSteps": [
+        {
+          "title": "Prześlij partię"
+        },
+        {
+          "title": "Konwertować"
+        },
+        {
+          "title": "Przetwarzaj pliki"
+        },
+        {
+          "title": "Pobierać"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Twoja prywatność ma znaczenie",
+          "kind": "prywatność",
+          "body": "Twoje obrazy są przetwarzane prywatnie w celu zbiorczej konwersji i automatycznie usuwane w ciągu godziny."
+        },
+        {
+          "title": "Szybki i wydajny",
+          "body": "Przetwarzanie gości w chmurze zapewnia wyniki w ciągu kilku sekund bez konieczności instalowania oprogramowania.",
+          "kind": "prędkość"
+        }
+      ],
+      "faqHeading": "Często zadawane pytania",
+      "faqs": [
+        {
+          "q": "Ile plików mogę przesłać?",
+          "a": "Zadania zbiorcze gościa wymuszają maksymalną liczbę plików i całkowity rozmiar wsadu."
+        },
+        {
+          "q": "Czy istnieje limit rozmiaru pliku?",
+          "a": "Każdy plik ma maksymalny rozmiar gościa, a partia ma łączny limit bajtów."
+        },
+        {
+          "q": "Czy potrzebuję konta?",
+          "a": "Goście mogą wykonywać ograniczone zadania masowe. Pliki wygasają w ciągu godziny."
+        },
+        {
+          "q": "A co jeśli jeden plik się nie powiedzie?",
+          "a": "Pomyślne wyniki nadal można pobrać; elementy zakończone niepowodzeniem wyświetlają status błędu."
+        },
+        {
+          "q": "Czy moje obrazy są przechowywane trwale?",
+          "a": "Nie. Przesłane przez gości i wyniki wygasają w ciągu godziny."
+        }
+      ],
+      "path": "/konwersja zbiorcza",
+      "metaTitle": "Zbiorcza konwersja obrazów online za darmo | Img Pilot",
+      "metaDescription": "Konwertuj wiele obrazów online i pobieraj razem pomyślne wyniki. Obowiązują limity zbiorcze dla gości.",
+      "breadcrumbCurrent": "Zbiorcza konwersja obrazów",
+      "h1": "Zbiorcza konwersja obrazów online",
+      "subtitle": "Konwertuj krótką partię bez powtarzania każdego kroku",
+      "paragraph": "Konwertuj wiele plików JPG, PNG lub WebP w jednej partii. Obowiązują bezpłatne limity gości.",
+      "workspaceNote": "Obsługiwane formaty: JPG, PNG, WebP • Obowiązują limity partii gości. Twoje pliki są prywatne i automatycznie usuwane w ciągu godziny."
+    }
+  }
+}

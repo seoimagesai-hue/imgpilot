@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * WebP → JPG landing — compatibility / interchange focus
  * (distinct from JPG→WebP performance / Core Web Vitals story).
@@ -92,7 +93,7 @@ export type WebpToJpgCopy = {
 };
 
 const en: WebpToJpgCopy = {
-  metaTitle: "Convert WebP to JPG Online Free | SEO Images",
+  metaTitle: "Convert WebP to JPG Online Free | Img Pilot",
   metaDescription:
     "Convert WebP images to JPG online for maximum compatibility. Secure browser-based conversion with instant download and no software required.",
   h1: "Convert WebP to JPG Online",
@@ -354,7 +355,7 @@ const en: WebpToJpgCopy = {
 };
 
 const ur: WebpToJpgCopy = {
-  metaTitle: "آن لائن WebP کو JPG میں تبدیل کریں مفت | SEO Images",
+  metaTitle: "آن لائن WebP کو JPG میں تبدیل کریں مفت | Img Pilot",
   metaDescription:
     "زیادہ سے زیادہ مطابقت کے لیے WebP تصاویر آن لائن JPG میں تبدیل کریں۔ محفوظ براؤزر پر مبنی کنورژن، فوری ڈاؤن لوڈ، بغیر سافٹ ویئر۔",
   h1: "آن لائن WebP کو JPG میں تبدیل کریں",
@@ -611,7 +612,7 @@ const ur: WebpToJpgCopy = {
 };
 
 export function getWebpToJpgCopy(locale: string): WebpToJpgCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function webpToJpgSeoCompat() {

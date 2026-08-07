@@ -26,9 +26,9 @@ export function ActivityFeed({projectId, initialItems, initialHasMore}: Props) {
   });
 
   const verbLabel = (verb: string) => {
-    const dotted = `verbs.${verb}` as Parameters<typeof t>[0];
+    const key = `verbs.${verb.replace(/\./g, "_")}` as Parameters<typeof t>[0];
     try {
-      return t(dotted);
+      return t(key);
     } catch {
       return verb;
     }

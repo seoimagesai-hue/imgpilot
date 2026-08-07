@@ -1,30 +1,28 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {notFound} from "next/navigation";
-import {PngToJpgLandingView} from "@/components/marketing/png-to-jpg-landing-view";
-import {getPngToJpgCopy} from "@/lib/marketing/png-to-jpg-landing-content";
-import {getToolLanding} from "@/lib/marketing/tool-landing-registry";
+import {SeoFormatToolLanding} from "@/components/marketing/seo-tool-landing";
+import {getSeoToolLandingCopy} from "@/lib/marketing/seo-tool-landing-copy";
 import type {AppLocale} from "@/i18n/routing";
 import {buildPublicMetadata} from "@/server/marketing/seo";
 
 type PageProps = {params: Promise<{locale: string}>};
+const PATH = "/png-to-jpg";
+const SLUG = "png-to-jpg";
 
 export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   const {locale} = await params;
-  const copy = getPngToJpgCopy(locale);
+  const copy = getSeoToolLandingCopy(PATH, locale);
   return buildPublicMetadata({
     locale: locale as AppLocale,
-    path: "/png-to-jpg",
+    path: PATH,
     title: copy.metaTitle,
     description: copy.metaDescription,
     index: true,
   });
 }
 
-export default async function PngToJpgLandingPage({params}: PageProps) {
+export default async function Page({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  const landing = getToolLanding("png-to-jpg");
-  if (!landing || landing.redirectTo) notFound();
-  return <PngToJpgLandingView landing={landing} locale={locale} />;
+  return <SeoFormatToolLanding slug={SLUG} locale={locale} />;
 }

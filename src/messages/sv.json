@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Kommer snart",
+    "openMenu": "Öppna navigering",
+    "closeMenu": "Stäng navigering",
+    "mainNavigation": "Huvudnavigering"
+  },
+  "navigation": {
+    "dashboard": "Panel",
+    "projects": "Projekt",
+    "usage": "Analys",
+    "billing": "Fakturering",
+    "developer": "Utvecklare",
+    "integrations": "Integrationer",
+    "automation": "Automatisering",
+    "settings": "Kontoinställningar",
+    "organizations": "Organisationer"
+  },
+  "language": {
+    "label": "Gränssnittsspråk",
+    "english": "engelska",
+    "urdu": "Urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Bildverktyg",
+    "compress": "Komprimera",
+    "resize": "Ändra storlek",
+    "convert": "Konvertera",
+    "seoTools": "SEO-verktyg",
+    "bulkTools": "Massverktyg",
+    "openAppGrid": "Öppna verktygsmenyn",
+    "appGridTitle": "Verktyg och resurser",
+    "languageHint": "Språkpreferens",
+    "menu": "Meny",
+    "close": "Stäng",
+    "footerBlurb": "Privata onlineverktyg för att komprimera, ändra storlek, konvertera och förbereda bilder för webben.",
+    "popularFormats": "Populära format",
+    "company": "Företag",
+    "resources": "Resurser",
+    "rights": "Alla rättigheter förbehållna."
+  },
+  "errors": {
+    "generic": "Något gick fel."
+  }
+}

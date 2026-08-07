@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "곧 제공",
+    "openMenu": "탐색 열기",
+    "closeMenu": "탐색 닫기",
+    "mainNavigation": "기본 탐색"
+  },
+  "navigation": {
+    "dashboard": "대시보드",
+    "projects": "프로젝트",
+    "usage": "분석",
+    "billing": "결제",
+    "developer": "개발자",
+    "integrations": "연동",
+    "automation": "자동화",
+    "settings": "계정 설정",
+    "organizations": "조직"
+  },
+  "language": {
+    "label": "인터페이스 언어",
+    "english": "영어",
+    "urdu": "우르두어",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "이미지 도구",
+    "compress": "압축",
+    "resize": "크기 조정",
+    "convert": "변환",
+    "seoTools": "SEO 도구",
+    "bulkTools": "일괄 도구",
+    "openAppGrid": "도구 메뉴 열기",
+    "appGridTitle": "도구 및 리소스",
+    "languageHint": "언어 환경설정",
+    "menu": "메뉴",
+    "close": "닫기",
+    "footerBlurb": "이미지 압축, 크기 조정, 변환 및 웹용 준비를 위한 비공개 온라인 도구입니다.",
+    "popularFormats": "인기 형식",
+    "company": "회사",
+    "resources": "리소스",
+    "rights": "모든 권리 보유."
+  },
+  "errors": {
+    "generic": "문제가 발생했습니다."
+  }
+}

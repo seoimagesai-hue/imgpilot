@@ -17,6 +17,9 @@
 - [x] Prompt 14 — Consumer Frontend SEO content layer (unique content registry, FAQ/Breadcrumb JSON-LD; Stripe still deferred)
 - [x] Premium homepage redesign — approved content, centered upload hero, expanded sections/footer (awaiting operator approval)
 - [x] User account experience + separate admin panel (`/account/*`, `/admin/*`, auth callbacks)
+- [x] Global multilingual architecture — 25 locales, English unprefixed, hreflang/sitemap/RTL, chrome packs + EN fallback
+- [x] Phase 3 Prompt 1 — Translation pipeline (catalogs, CLI, glossary/TM, indexability gate, MT packs labelled `machine_translated`)
+- [ ] Phase 3 Prompt 2 — Stripe subscriptions, plan entitlements and paid launch setup
 - [ ] Prompt 15 — Programmatic SEO expansion from landing registry (more format/social long-tails; keep unique copy rules)
 - [ ] Stripe — Final pricing decisions and Stripe test-mode setup (paid launch; was previously labeled “Prompt 14”)
 

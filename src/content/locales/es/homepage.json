@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/comprimir-imagen",
+      "title": "Comprimir imagen",
+      "body": "Reduzca los tamaños de archivos JPG, PNG y WebP manteniendo el resultado claro y utilizable.",
+      "icon": "comprimir"
+    },
+    {
+      "href": "/redimensionar-imagen",
+      "title": "Cambiar el tamaño de la imagen",
+      "body": "Cambie las dimensiones de la imagen por ancho, alto o ajustes de ajuste interior sin ampliaciones no deseadas.",
+      "icon": "cambiar el tamaño"
+    },
+    {
+      "title": "Recortar imagen",
+      "href": "/recortar-imagen",
+      "body": "Seleccione el área exacta que desea conservar con controles de cultivo gratuitos y de proporción fija.",
+      "icon": "cultivo"
+    },
+    {
+      "title": "Convertir imagen",
+      "href": "/convertir-imagen",
+      "body": "Convierta entre JPG, PNG, WebP y formatos AVIF compatibles con verificación de salida segura.",
+      "icon": "convertir"
+    },
+    {
+      "title": "Imagen de etiqueta geográfica",
+      "href": "/imagen-geoetiqueta",
+      "body": "Agregue coordenadas GPS verificadas a imágenes JPEG compatibles sin cambiar el original.",
+      "icon": "etiqueta geográfica"
+    },
+    {
+      "title": "Visor de metadatos de imágenes",
+      "href": "/metadatos-imagen",
+      "body": "Inspeccione las dimensiones, la información de color y los metadatos de imágenes seguros y permitidos.",
+      "icon": "metadatos"
+    },
+    {
+      "title": "Imagen SEO Editor de metadatos",
+      "href": "/editor-de-metadatos-de-imagen",
+      "body": "Escriba, revise y exporte campos de imagen SEO para su sitio web o sistema de gestión de contenidos.",
+      "icon": "editor"
+    },
+    {
+      "title": "Herramientas de imágenes masivas",
+      "href": "/herramientas-de-imagen-masiva",
+      "body": "Comprime, cambia el tamaño o convierte varias imágenes y descarga juntos resultados exitosos.",
+      "icon": "a granel"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Comprimir JPG",
+      "badge": "JPG",
+      "href": "/comprimir-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/comprimir-png",
+      "label": "Comprimir PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/comprimir-webp",
+      "label": "Comprimir WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/redimensionar-jpg",
+      "label": "Cambiar tamaño JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/redimensionar-png",
+      "label": "Cambiar tamaño PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/redimensionar-webp",
+      "label": "Cambiar tamaño WebP"
+    },
+    {
+      "href": "/jpg-a-png",
+      "label": "JPG a PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-a-webp",
+      "label": "JPG a WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-a-jpg",
+      "label": "PNG a JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-a-webp",
+      "label": "PNG a WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-a-jpg",
+      "label": "WebP a JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-a-png",
+      "label": "WebP a PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Un formato práctico para fotografías, contenido web y archivos de imágenes con pérdida más pequeños.",
+      "href": "/comprimir-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Un formato sin pérdidas comúnmente utilizado para gráficos e imágenes que requieren transparencia.",
+      "href": "/comprimir-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Un formato web moderno que puede proporcionar una compresión eficiente con transparencia opcional.",
+      "href": "/comprimir-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Disponible para flujos de trabajo de conversión admitidos cuando el tiempo de ejecución del servidor puede codificarlo y verificarlo.",
+      "href": "/jpg-a-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Comprimir, cambiar el tamaño, convertir y optimizar imágenes en línea",
+  "metaDescription": "Comprima, cambie el tamaño, recorte, convierta y optimice imágenes JPG, PNG y WebP en línea. Utilice herramientas privadas para invitados sin una cuenta, con eliminación automática en una hora.",
+  "heroBadge": "Herramientas de imágenes en línea gratuitas para sitios web más rápidos y limpios",
+  "h1": "Optimice cada imagen en un espacio de trabajo simple",
+  "heroParagraph": "Comprime, cambia el tamaño, recorta, convierte y optimiza tus imágenes sin instalar software. Comience gratis sin una cuenta, mantenga el control total de sus archivos y descargue resultados limpios y verificados con solo unos pocos clics.",
+  "uploadHeading": "Suelta una imagen aquí para comenzar",
+  "uploadSupport": "Sube una imagen JPG, PNG o WebP, o pega una directamente desde tu portapapeles.",
+  "chooseImage": "Elige una imagen",
+  "pasteHint": "También puedes pegar una imagen con Ctrl + V o ⌘ + V",
+  "formatLimitLine": "JPG, PNG y WebP • Hasta {maxFileSize} • No se requiere cuenta",
+  "privacyLine": "Los archivos de sus invitados permanecen privados y se eliminan automáticamente en una hora.",
+  "defaultActionLabel": "Comience con la compresión de imágenes",
+  "trust": [
+    {
+      "title": "No se requiere cuenta",
+      "body": "Utilice herramientas de imagen esenciales al instante como invitado."
+    },
+    {
+      "title": "Procesamiento privado",
+      "body": "Los archivos permanecen en un almacenamiento temporal protegido."
+    },
+    {
+      "title": "Eliminación automática",
+      "body": "Los archivos de invitado caducan en una hora."
+    },
+    {
+      "title": "Resultados verificados",
+      "body": "El servidor verifica las salidas antes de descargarlas."
+    }
+  ],
+  "stats": [
+    {
+      "title": "Más de 10 millones de imágenes procesadas",
+      "body": "Flujos de trabajo confiables para la optimización diaria."
+    },
+    {
+      "title": "100% privado y seguro",
+      "body": "Almacenamiento temporal con acceso de corta duración."
+    },
+    {
+      "title": "Eliminación automática de 1 hora",
+      "body": "Los archivos de invitados caducan en un horario fijo."
+    },
+    {
+      "title": "Descarga limpia sin marca de agua",
+      "body": "Descargue resultados verificados sin marca."
+    }
+  ],
+  "toolsEyebrow": "Todo lo que necesitas",
+  "toolsHeading": "Potentes herramientas de imagen, listas cuando usted lo esté",
+  "toolsDescription": "Maneje las tareas diarias de imágenes desde un espacio de trabajo limpio. Cada herramienta está diseñada para ser simple para principiantes y al mismo tiempo brindar a los profesionales los controles que necesitan.",
+  "openTool": "Abrir herramienta",
+  "exploreAllTools": "Explora todas las herramientas",
+  "formatEyebrow": "Tareas de imágenes populares",
+  "formatHeading": "Vaya directamente al formato que necesita",
+  "formatDescription": "Elija una herramienta dedicada para su formato o conversión de imagen. Su configuración de fuente y salida preferida ya estará seleccionada.",
+  "platformEyebrow": "Un espacio de trabajo de imágenes privado",
+  "platformHeading": "De la carga a la descarga sin la complejidad habitual",
+  "platformP1": "Img Pilot reúne los flujos de trabajo de imágenes más útiles en una experiencia consistente. No es necesario aprender una interfaz diferente para cada tarea. Cargue su imagen, elija las configuraciones importantes, procésela de forma segura y descargue el resultado verificado.",
+  "platformP2": "El mismo flujo de trabajo admite trabajos rápidos de una sola imagen, páginas de destino de formatos específicos y operaciones masivas seleccionadas. Las herramientas para invitados no requieren cuenta, mientras que los usuarios que hayan iniciado sesión pueden acceder a proyectos y funciones del espacio de trabajo a largo plazo.",
+  "platformFeatures": [
+    "Un espacio de trabajo de herramientas consistente",
+    "Información clara del antes y el después",
+    "Almacenamiento privado temporal para invitados",
+    "Flujos de trabajo masivos individuales y seleccionados",
+    "Interfaces en inglés y urdu",
+    "Salidas verificadas por el servidor"
+  ],
+  "whyEyebrow": "Construido en torno a la claridad y el control",
+  "whyHeading": "Herramientas de imagen que respetan su tiempo y sus archivos",
+  "whyIntro": "Cada flujo de trabajo está diseñado para eliminar pasos innecesarios y al mismo tiempo mantener visibles los controles importantes. Siempre sabrás qué pasará con tu imagen, qué contiene el resultado y cuándo se eliminarán los archivos temporales.",
+  "benefits": [
+    {
+      "title": "Comience inmediatamente",
+      "body": "Utilice herramientas principales para invitados sin registro, instalación de software ni proceso de configuración de proyecto."
+    },
+    {
+      "title": "Mantenga el original seguro",
+      "body": "El procesamiento crea un nuevo resultado mientras que el original cargado permanece sin cambios."
+    },
+    {
+      "title": "Sepa lo que cambió",
+      "body": "Compare dimensiones, formatos y tamaños de archivos antes de descargar el resultado final."
+    },
+    {
+      "title": "Trabajar en todos los formatos",
+      "body": "Utilice flujos de trabajo dedicados para JPG, PNG y WebP con un manejo honesto y específico del formato."
+    },
+    {
+      "title": "Proteger archivos temporales",
+      "body": "Las imágenes de invitados y los resultados generados se eliminan automáticamente dentro de la ventana de retención."
+    },
+    {
+      "title": "Preparar imágenes para la búsqueda",
+      "body": "Revise los metadatos, mejore los nombres de archivos y organice el texto alternativo para el sitio web y el uso de CMS."
+    }
+  ],
+  "howEyebrow": "Sencillo de principio a fin",
+  "howHeading": "Termine su tarea de imagen en cuatro pasos claros",
+  "steps": [
+    {
+      "title": "Sube tu imagen",
+      "body": "Elija una imagen compatible, arrástrela al espacio de trabajo o péguela desde su portapapeles."
+    },
+    {
+      "title": "Seleccione su configuración",
+      "body": "Elija el formato, las dimensiones, la calidad, el área de recorte o las opciones de metadatos necesarios para su tarea."
+    },
+    {
+      "title": "Procesar de forma segura",
+      "body": "El servidor realiza y verifica la operación mientras muestra claros estados de progreso y error."
+    },
+    {
+      "title": "Descargar el resultado",
+      "body": "Revise los detalles finales, descargue su archivo y procese otra imagen cuando sea necesario."
+    }
+  ],
+  "beforeEyebrow": "ver la diferencia",
+  "beforeHeading": "Vea la diferencia antes de descargar",
+  "beforeParagraph": "Los resúmenes claros de los resultados le ayudarán a comprender qué cambió. Compare la imagen original con la versión procesada, revise el tamaño o las dimensiones del archivo y descárguelo solo cuando el resultado se ajuste a sus necesidades.",
+  "beforeBullets": [
+    "El original permanece seguro mientras se crea un nuevo resultado",
+    "Salida verificada con detalles honestos sobre tamaños y dimensiones."
+  ],
+  "beforeCaption": "Ilustración del producto: solo ejemplo. Los ahorros reales varían según la imagen.",
+  "useEyebrow": "Diseñado para el trabajo real",
+  "useHeading": "Prepare imágenes para sitios web, contenido y uso compartido diario",
+  "useCases": [
+    {
+      "title": "Sitios web",
+      "body": "Reduzca el peso innecesario de las imágenes y prepare dimensiones consistentes para páginas más rápidas y limpias."
+    },
+    {
+      "title": "Tiendas online",
+      "body": "Organice los formatos de imágenes de productos, nombres de archivos, dimensiones y metadatos antes de publicarlos."
+    },
+    {
+      "title": "Contenido social",
+      "body": "Cambie el tamaño y recorte imágenes en relaciones de aspecto prácticas para publicaciones, miniaturas y campañas."
+    },
+    {
+      "title": "Blogs y editores",
+      "body": "Cree imágenes de artículos más claras y prepare texto de imagen descriptivo y accesible."
+    },
+    {
+      "title": "Correo electrónico y documentos",
+      "body": "Reduzca los archivos grandes para que las imágenes sean más fáciles de adjuntar, compartir e incluir en presentaciones."
+    },
+    {
+      "title": "Local SEO",
+      "body": "Inspeccione los metadatos, agregue coordenadas JPEG verificadas y organice la información de la imagen SEO para los flujos de trabajo de contenido local."
+    }
+  ],
+  "seoEyebrow": "Más que una edición básica",
+  "seoHeading": "Convierta imágenes comunes en mejores recursos para su sitio web",
+  "seoP1": "La optimización de imágenes no se trata sólo de reducir el tamaño del archivo. Los nombres de archivos claros, el texto alternativo preciso, las dimensiones adecuadas y los metadatos útiles pueden hacer que las bibliotecas de imágenes sean más fáciles de administrar y el contenido del sitio web más accesible.",
+  "seoP2": "Img Pilot incluye herramientas para inspeccionar metadatos, redactar campos de imágenes SEO y exportar información para usar en un sitio web o CMS.",
+  "seoLinks": [
+    {
+      "href": "/metadatos-imagen",
+      "label": "Ver metadatos de imagen"
+    },
+    {
+      "href": "/editor-de-metadatos-de-imagen",
+      "label": "Editar imagen SEO Metadatos"
+    },
+    {
+      "href": "/imagen-geoetiqueta",
+      "label": "Etiquetar geográficamente un JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO y las herramientas de accesibilidad brindan asistencia y recomendaciones. No garantizan clasificaciones de búsqueda ni cumplimiento automático.",
+  "bulkEyebrow": "¿Trabajar con más de una imagen?",
+  "bulkHeading": "Procese un lote pequeño sin repetir cada paso",
+  "bulkParagraph": "Utilice Bulk Image Tools para comprimir, cambiar el tamaño o convertir varias imágenes compatibles con un conjunto compartido de opciones. Revise cada archivo por separado, descargue resultados individuales o recopile resultados exitosos en un archivo ZIP.",
+  "bulkBullets": [
+    "Compresa a granel",
+    "Cambio de tamaño masivo",
+    "Conversión masiva",
+    "Estado de procesamiento por archivo",
+    "Descargas individuales",
+    "ZIP archivo para obtener resultados exitosos"
+  ],
+  "bulkCta": "Abrir herramientas de imágenes masivas",
+  "bulkNotice": "Se aplican límites masivos de invitados. Los flujos de trabajo más grandes pueden requerir una cuenta.",
+  "privacyEyebrow": "Privacidad por diseño",
+  "privacyHeading": "Los archivos temporales deben seguir siendo temporales",
+  "privacyP1": "Las cargas de invitados se almacenan de forma privada mientras la herramienta seleccionada está funcionando. Su imagen, los resultados generados y los datos de resultados temporales caducan en una hora. La descarga, actualización o reprocesamiento no extiende ese plazo.",
+  "privacyP2": "Las sesiones de invitados no crean una biblioteca de imágenes permanente. Inicie sesión solo cuando necesite proyectos o funciones de cuenta a largo plazo.",
+  "privacyFacts": [
+    "Almacenamiento privado de objetos temporales",
+    "Vistas previas y descargas de corta duración",
+    "Sin URL de imagen de invitado pública",
+    "limpieza automática",
+    "Sin historial de invitados permanente",
+    "Los archivos originales permanecen sin cambios durante el procesamiento."
+  ],
+  "privacyCta": "Lea nuestra política de privacidad",
+  "formatsHeading": "Trabaje con los formatos de imagen que más utiliza",
+  "formatsParagraph": "Las herramientas principales para invitados admiten imágenes JPG, PNG y WebP. Los formatos de salida disponibles y las funciones de metadatos dependen de la operación seleccionada y las capacidades de cada formato de imagen.",
+  "faqHeading": "Preguntas frecuentes",
+  "faqs": [
+    {
+      "q": "¿Necesito una cuenta para usar Img Pilot?",
+      "a": "No. Las herramientas principales para invitados se pueden utilizar sin crear una cuenta. Se aplican límites de invitados y las funciones de la cuenta están disponibles cuando necesita proyectos guardados o límites de flujo de trabajo más altos."
+    },
+    {
+      "q": "¿Durante cuánto tiempo se almacenan las imágenes de los invitados?",
+      "a": "Las imágenes de invitados y los resultados temporales caducan en una hora. La descarga, actualización o reprocesamiento no extiende ese plazo."
+    },
+    {
+      "q": "¿El procesamiento sobrescribirá mi imagen original?",
+      "a": "No. El procesamiento crea un resultado separado. El original cargado permanece sin cambios durante la sesión de invitado activo."
+    },
+    {
+      "q": "¿Qué formatos de imagen son compatibles?",
+      "a": "Las herramientas principales admiten JPG, PNG y WebP. Algunos flujos de trabajo de conversión también pueden admitir AVIF cuando el servidor puede codificar y verificar el resultado."
+    },
+    {
+      "q": "¿Puedo procesar varias imágenes juntas?",
+      "a": "Sí. Bulk Image Tools admite flujos de trabajo seleccionados para comprimir, cambiar el tamaño y convertir. Se aplican límites de lotes de invitados."
+    },
+    {
+      "q": "¿Comprimir una imagen siempre la hace más pequeña?",
+      "a": "No siempre. El tamaño final depende de la imagen original, su formato y la configuración seleccionada. Img Pilot informa el resultado real de manera honesta, incluso cuando una salida es mayor."
+    },
+    {
+      "q": "¿Está el texto alternativo incrustado dentro de la imagen?",
+      "a": "El texto alternativo normalmente se agrega a un sitio web o registro CMS en lugar de incrustarse universalmente en el archivo de imagen. El Editor de metadatos le ayuda a prepararlo y exportarlo para usarlo en su sitio web."
+    },
+    {
+      "q": "¿La optimización de imágenes garantiza mejores clasificaciones de búsqueda?",
+      "a": "No. La optimización de imágenes puede respaldar el rendimiento, la organización y la accesibilidad, pero ninguna herramienta de imágenes individual puede garantizar la clasificación de las búsquedas."
+    }
+  ],
+  "finalHeading": "Su próxima imagen está lista para ser optimizada",
+  "finalParagraph": "Cargue una imagen JPG, PNG o WebP y complete su tarea sin instalar software ni crear una cuenta.",
+  "finalPrimary": "Elige una imagen",
+  "finalSecondary": "Explora todas las herramientas",
+  "finalTrust": "Procesamiento privado de invitados · Eliminación automática en una hora · Sin marca de agua",
+  "footerBrand": "Herramientas privadas en línea para comprimir, cambiar el tamaño, convertir y preparar imágenes para la web.",
+  "footerRights": "© {year} Img Pilot. Reservados todos los derechos."
+}

@@ -1,26 +1,27 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {BulkConvertLandingView} from "@/components/marketing/bulk-convert-landing-view";
-import {getBulkConvertCopy} from "@/lib/marketing/bulk-convert-landing-content";
+import {SeoBulkToolLanding} from "@/components/marketing/seo-tool-landing";
+import {getSeoToolLandingCopy} from "@/lib/marketing/seo-tool-landing-copy";
 import type {AppLocale} from "@/i18n/routing";
 import {buildPublicMetadata} from "@/server/marketing/seo";
 
 type PageProps = {params: Promise<{locale: string}>};
+const PATH = "/bulk-convert" as const;
 
 export async function generateMetadata({params}: PageProps): Promise<Metadata> {
   const {locale} = await params;
-  const copy = getBulkConvertCopy(locale);
+  const copy = getSeoToolLandingCopy(PATH, locale);
   return buildPublicMetadata({
     locale: locale as AppLocale,
-    path: "/bulk-convert",
+    path: PATH,
     title: copy.metaTitle,
     description: copy.metaDescription,
     index: true,
   });
 }
 
-export default async function BulkConvertLandingPage({params}: PageProps) {
+export default async function Page({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  return <BulkConvertLandingView locale={locale} />;
+  return <SeoBulkToolLanding locale={locale} path={PATH} initialTool="convert" />;
 }

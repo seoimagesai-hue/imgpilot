@@ -2,12 +2,12 @@
 
 import {useState} from "react";
 import {useLocale} from "next-intl";
-import {Link} from "@/i18n/navigation";
 
 export function PricingCheckoutActions(props: {
   checkoutAvailable: boolean;
   monthlyAvailable: boolean;
   annualAvailable: boolean;
+  preferredInterval?: "month" | "year";
 }) {
   const locale = useLocale();
   const [error, setError] = useState<string | null>(null);
@@ -45,39 +45,48 @@ export function PricingCheckoutActions(props: {
 
   if (!props.checkoutAvailable) {
     return (
-      <div className="space-y-2 text-sm">
-        <p>Upgrade unavailable until Stripe Price IDs are configured.</p>
-        <Link href="/account/billing" className="underline">
-          Account billing
-        </Link>
+      <div className="space-y-2">
+        <button
+          type="button"
+          disabled
+          className="inline-flex h-12 w-full cursor-not-allowed items-center justify-center rounded-2xl bg-slate-900/80 px-4 text-sm font-semibold text-white opacity-80"
+        >
+          Coming Soon
+        </button>
+        <p className="text-center text-xs text-slate-500">
+          Stripe Price IDs are not configured yet.
+        </p>
       </div>
     );
   }
 
+  const preferred = props.preferredInterval ?? "month";
+  const interval: "month" | "year" =
+    preferred === "year" && props.annualAvailable
+      ? "year"
+      : preferred === "month" && props.monthlyAvailable
+        ? "month"
+        : props.monthlyAvailable
+          ? "month"
+          : "year";
+
+  const canStart =
+    (interval === "month" && props.monthlyAvailable) ||
+    (interval === "year" && props.annualAvailable);
+
   return (
     <div className="space-y-2">
-      {props.monthlyAvailable ? (
-        <button
-          type="button"
-          disabled={busy}
-          className="w-full rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
-          onClick={() => void start("month")}
-        >
-          Upgrade monthly
-        </button>
-      ) : null}
-      {props.annualAvailable ? (
-        <button
-          type="button"
-          disabled={busy}
-          className="w-full rounded-xl border border-[var(--border)] px-3 py-2 text-sm"
-          onClick={() => void start("year")}
-        >
-          Upgrade annual
-        </button>
-      ) : null}
+      <button
+        type="button"
+        disabled={busy || !canStart}
+        className="inline-flex h-12 w-full items-center justify-center rounded-2xl px-4 text-sm font-semibold text-white shadow-[0_12px_28px_-12px_rgba(37,99,235,0.85)] transition duration-150 hover:brightness-105 disabled:cursor-not-allowed disabled:opacity-60 motion-reduce:transition-none"
+        style={{backgroundImage: "var(--gradient-brand)"}}
+        onClick={() => void start(interval)}
+      >
+        {busy ? "Starting…" : "Upgrade to Pro"}
+      </button>
       {error ? (
-        <p className="text-sm text-red-700" role="alert">
+        <p className="text-center text-sm text-red-700" role="alert">
           {error}
         </p>
       ) : null}

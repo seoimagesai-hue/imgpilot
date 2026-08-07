@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import {useEffect, useId, useRef, useState} from "react";
 import {useLocale, useTranslations} from "next-intl";
 import {trackGuestEvent} from "@/lib/guest/analytics";
@@ -435,12 +434,7 @@ function EditorResultPanel({
           <p className="text-xs text-[var(--muted-foreground)]">{t("importAiHint")}</p>
         </div>
       ) : (
-        <p className="text-sm text-[var(--muted-foreground)]">
-          {t("noAiResult")}{" "}
-          <Link className="underline" href={`/${locale}/ai-alt-text`}>
-            {t("openAiAlt")}
-          </Link>
-        </p>
+        <p className="text-sm text-[var(--muted-foreground)]">{t("noAiResult")}</p>
       )}
 
       <div role="tablist" aria-label={t("tabsAria")} className="flex flex-wrap gap-2">

@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/compress-image",
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Memampatkan"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bagaimanakah pemampatan imej berfungsi?",
+        "a": "Alat ini mengekod semula imej anda dengan tetapan yang mengurangkan saiz fail sambil memastikan hasilnya boleh digunakan secara visual. Pilih pratetap yang lebih ringan atau lebih kuat sebelum anda memproses."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB. Aliran kerja yang lebih besar mungkin memerlukan akaun."
+      },
+      {
+        "q": "Adakah pemampatan akan mengurangkan kualiti imej?",
+        "a": "Pratetap yang lebih kukuh boleh melembutkan butiran halus. Gunakan Kualiti Maksimum atau Seimbang apabila penampilan paling penting dan sentiasa pratonton sebelum memuat turun."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Pemampatan tetamu berfungsi tanpa log masuk. Fail kekal peribadi dan tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan hasil carian adalah sementara dan dipadamkan secara automatik dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Mampatkan Imej Dalam Talian — Kurangkan Saiz JPG, PNG & WebP",
+    "metaDescription": "Memampatkan imej dalam talian tanpa kehilangan kualiti. Kurangkan saiz fail JPG, PNG dan WebP dengan pemprosesan tetamu peribadi dan pemadaman automatik dalam masa satu jam.",
+    "breadcrumbCurrent": "Memampatkan Imej Dalam Talian",
+    "h1": "Memampatkan Imej Dalam Talian",
+    "subtitle": "Kurangkan saiz fail imej tanpa kehilangan kualiti",
+    "paragraph": "Mampatkan imej JPG, PNG dan WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Saiz Lebih Kecil, Kualiti Hebat Sama",
+    "features": [
+      {
+        "title": "Mampatan Pintar",
+        "body": "Pemampatan pintar yang memastikan imej anda kelihatan tajam.",
+        "tone": "biru"
+      },
+      {
+        "title": "Sehingga 80% Lebih Kecil",
+        "body": "Kurangkan saiz fail secara mendadak untuk muat naik dan pemuatan halaman yang lebih pantas.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Sempurna untuk Web",
+        "body": "Optimumkan imej untuk tapak web, blog dan halaman produk.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Kualiti Yang Boleh Anda Percayai",
+        "body": "Pratonton sebelum muat turun supaya kualiti kekal di bawah kawalan anda.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Mampatan bersandarkan awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/resize-image": {
+    "path": "/resize-image",
+    "features": [
+      {
+        "title": "Dimensi Tepat",
+        "body": "Masukkan lebar dan tinggi yang sepadan dengan keperluan susun atur anda.",
+        "tone": "biru"
+      },
+      {
+        "title": "Muat Di Dalam",
+        "body": "Skalakan imej ke dalam kotak sambil mengekalkan nisbah bidang.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Tiada Kelas Atas yang Tidak Diingini",
+        "body": "Pengawal membantu mengelakkan regangan sumber kecil.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Sedia Web",
+        "body": "Sediakan saiz yang konsisten untuk halaman dan grid produk.",
+        "tone": "oren"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Ubah saiz"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bolehkah saya mengekalkan nisbah bidang?",
+        "a": "ya. Gunakan dimensi fit-inside atau dipautkan supaya imej berskala bersih tanpa herotan."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah saiz semula akan membesarkan imej saya?",
+        "a": "Secara lalai, aliran kerja mengelakkan pembesaran yang tidak diingini. Pilih dimensi yang sesuai dengan sumber anda."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Mula mengubah saiz sebagai tetamu. Fail sementara tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan hasil carian dipadamkan secara automatik dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Ubah Saiz Imej Dalam Talian — Tukar Dimensi untuk Web & Sosial",
+    "metaDescription": "Ubah saiz imej JPG, PNG dan WebP dalam talian mengikut lebar, tinggi atau muat dalam. Alat tetamu peribadi tanpa akaun diperlukan.",
+    "breadcrumbCurrent": "Ubah Saiz Imej Dalam Talian",
+    "h1": "Ubah Saiz Imej Dalam Talian",
+    "subtitle": "Tukar dimensi untuk web, sosial dan reka letak",
+    "paragraph": "Ubah saiz imej JPG, PNG dan WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Kawalan Tepat, Hasil Bersih",
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara peribadi untuk mengubah saiz dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/crop-image": {
+    "path": "/crop-image",
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "tanaman"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bolehkah saya memotong ke segi empat sama?",
+        "a": "ya. Pilih nisbah 1:1 atau lukis tanaman percuma yang sepadan dengan keperluan anda."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah yang asal ditimpa?",
+        "a": "Tidak. Pemprosesan mencipta hasil pangkas baharu."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Pangkas sebagai tetamu. Fail dipadamkan secara automatik dalam masa satu jam."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Pangkas Imej Dalam Talian — Pangkas Nisbah Percuma & Tetap",
+    "metaDescription": "Pangkas imej JPG, PNG dan WebP dalam talian dengan kawalan nisbah percuma atau tetap. Pemprosesan tetamu persendirian, tiada akaun diperlukan.",
+    "breadcrumbCurrent": "Pangkas Imej Dalam Talian",
+    "h1": "Pangkas Imej Dalam Talian",
+    "subtitle": "Simpan hanya bahagian imej yang penting",
+    "paragraph": "Pangkas imej JPG, PNG dan WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Pangkas Dengan Yakin",
+    "features": [
+      {
+        "title": "Tanaman Percuma",
+        "body": "Pilih mana-mana kawasan imej dan simpan dengan tepat kawasan itu.",
+        "tone": "biru"
+      },
+      {
+        "title": "Nisbah Tetap",
+        "body": "Gunakan nisbah aspek biasa untuk reka letak yang konsisten.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Orientasi Selamat",
+        "body": "Pangkasan matematik menghormati dimensi berorientasikan selepas muat naik.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Keluar Format Sama",
+        "body": "Muat turun hasil yang dipangkas dalam format sumber anda apabila disokong.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara peribadi untuk dipangkas dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/convert-image": {
+    "path": "/tukar-imej",
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Tukar"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Penukaran mana yang disokong?",
+        "a": "Penukaran tetamu teras meliputi JPG, PNG dan WebP. AVIF ditawarkan apabila masa jalan boleh mengekod dan mengesahkannya."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah ketelusan akan dikekalkan?",
+        "a": "Apabila menukar kepada format yang menyokong alfa, ketelusan boleh dipelihara mengikut pilihan alat."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Tukar sebagai tetamu. Fail sementara tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan hasil carian dipadamkan secara automatik dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Tukar Imej Dalam Talian — JPG, PNG, WebP & AVIF",
+    "metaDescription": "Tukar antara JPG, PNG, WebP dan format AVIF yang disokong dalam talian. Penukaran tetamu peribadi dengan output yang disahkan.",
+    "breadcrumbCurrent": "Tukar Imej Dalam Talian",
+    "h1": "Tukar Imej Dalam Talian",
+    "subtitle": "Tukar format untuk web tanpa perisian desktop",
+    "paragraph": "Tukar imej JPG, PNG dan WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Perubahan Format Dipermudahkan",
+    "features": [
+      {
+        "title": "Format Popular",
+        "body": "Beralih antara JPG, PNG dan WebP dengan pilihan yang jelas.",
+        "tone": "biru"
+      },
+      {
+        "title": "Sedar Ketelusan",
+        "body": "PNG dan WebP alpha dikendalikan dengan teliti oleh polisi.",
+        "tone": "hijau"
+      },
+      {
+        "title": "AVIF Apabila Sedia",
+        "body": "Kodkan kepada AVIF hanya apabila pelayan boleh mengesahkannya.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Keluaran Jujur",
+        "body": "Ketahui jenis dan saiz MIME yang terhasil sebelum muat turun.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara peribadi untuk penukaran dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Putar"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Sudut manakah yang disokong?",
+        "a": "Putaran tetamu menyokong 90°, 180° dan 270° ditambah pilihan flips."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Putar sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Adakah orientasi EXIF digunakan?",
+        "a": "Sumber dinormalisasikan orientasi sebelum berubah supaya hasil sepadan dengan apa yang anda jangkakan."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "path": "/putar-imej",
+    "metaTitle": "Putar Imej Dalam Talian — Balikkan JPG, PNG dan WebP",
+    "metaDescription": "Putar imej sebanyak 90°, 180° atau 270° dan flip secara mendatar atau menegak. Alat tetamu percuma dengan storan sementara peribadi.",
+    "breadcrumbCurrent": "Putar Imej Dalam Talian",
+    "h1": "Putar Imej Dalam Talian",
+    "subtitle": "Putar atau selak imej untuk reka letak dan reka bentuk",
+    "paragraph": "Putar atau balikkan imej JPG, PNG dan WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Pembetulan Orientasi Pantas",
+    "features": [
+      {
+        "title": "Langkah 90°",
+        "body": "Putar sebanyak 90°, 180° atau 270° dalam satu laluan.",
+        "tone": "biru"
+      },
+      {
+        "title": "Kawalan Balik",
+        "body": "Cermin secara mendatar atau menegak apabila diperlukan.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Format yang sama",
+        "body": "Output kekal dalam format yang anda muat naik.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Pekerjaan Tetamu Persendirian",
+        "body": "Pemprosesan jangka pendek dengan pembersihan automatik.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara tertutup untuk penggiliran dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Tera air"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bolehkah saya memuat naik tera air logo?",
+        "a": "Alat tetamu ini mengecap teks. Gunakan teks jenama pendek buat masa ini."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Tera air sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Adakah tera air meliputi subjek saya?",
+        "a": "Pilih kedudukan sudut dan kelegapan yang lebih rendah untuk memastikan subjek kelihatan."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "path": "/imej tera air",
+    "metaTitle": "Imej Tera Air Dalam Talian — Tambah Tera Air Teks",
+    "metaDescription": "Cap tera air teks pendek pada JPG, PNG dan WebP dengan kawalan kedudukan dan kelegapan. Alat tetamu peribadi.",
+    "breadcrumbCurrent": "Imej Tera Air Dalam Talian",
+    "h1": "Imej Tera Air Dalam Talian",
+    "subtitle": "Cap teks pendek tanpa menutup keseluruhan imej",
+    "paragraph": "Tambahkan tera air teks pada imej JPG, PNG atau WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Lindungi Visual Dengan Penjenamaan Ringan",
+    "features": [
+      {
+        "title": "Setem Teks Pendek",
+        "body": "Tambahkan tera air ringkas yang kekal boleh dibaca.",
+        "tone": "biru"
+      },
+      {
+        "title": "Kawalan Kedudukan",
+        "body": "Letakkan tera air di sudut atau tengah.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Slider Kelegapan",
+        "body": "Seimbangkan keterlihatan dengan kandungan imej.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Keluar Format Sama",
+        "body": "Muat turun fail bertanda air dalam format sumber anda.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara peribadi untuk penanda air dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Kabur"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Adakah ini mengesan wajah secara automatik?",
+        "a": "Tidak. Anda memilih rantau secara manual sebagai peratusan imej."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Kabur sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Bolehkah saya mengaburkan beberapa wilayah?",
+        "a": "Alat tetamu ini menggunakan satu rantau setiap larian. Jalankan semula untuk mengaburkan kawasan lain."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "path": "/kabur-rantau",
+    "metaTitle": "Rantau Imej Kabur Dalam Talian — Sembunyikan Wajah & Butiran",
+    "metaDescription": "Kaburkan kawasan imej JPG, PNG atau WebP secara manual untuk menyembunyikan muka, plat atau butiran lain. Alat tetamu peribadi.",
+    "breadcrumbCurrent": "Kabur Wilayah Dalam Talian",
+    "h1": "Kabur Wilayah Dalam Talian",
+    "subtitle": "Sembunyikan butiran sensitif dengan kotak kabur manual",
+    "paragraph": "Kaburkan kawasan yang dipilih pada imej JPG, PNG atau WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Kaburkan Perkara yang Memerlukan Privasi",
+    "features": [
+      {
+        "title": "Wilayah Manual",
+        "body": "Anda memilih dengan tepat di mana kabur digunakan.",
+        "tone": "biru"
+      },
+      {
+        "title": "Tahap Kekuatan",
+        "body": "Kabur ringan, sederhana atau kuat untuk keperluan yang berbeza.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Mesra Privasi",
+        "body": "Sembunyikan butiran sebelum menyiarkan atau menghantar aset.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Peti Deposit Keselamatan Tetamu",
+        "body": "Pemprosesan sementara peribadi dengan pemadaman automatik.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara tertutup untuk kawasan kabur dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Kapsyen"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Adakah saya memerlukan teks atas dan bawah?",
+        "a": "Tidak. Berikan sekurang-kurangnya satu baris kapsyen."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Jana sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Bolehkah saya menukar fon?",
+        "a": "Meme tetamu menggunakan timbunan gaya Impak klasik untuk kebolehbacaan."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "path": "/mem-generator",
+    "metaTitle": "Meme Generator Online — Tambah Kapsyen Atas & Bawah",
+    "metaDescription": "Tambahkan kapsyen meme atas dan bawah klasik pada imej JPG, PNG atau WebP. Penjana meme tetamu percuma.",
+    "breadcrumbCurrent": "Penjana Meme Dalam Talian",
+    "h1": "Penjana Meme Dalam Talian",
+    "subtitle": "Tambahkan kapsyen klasik dalam beberapa saat",
+    "paragraph": "Tambahkan kapsyen atas dan bawah pada imej JPG, PNG atau WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Kapsyen Yang Dibaca Seperti Meme Klasik",
+    "features": [
+      {
+        "title": "Teks Atas & Bawah",
+        "body": "Gunakan sama ada baris atau kedua-duanya untuk reka letak klasik.",
+        "tone": "biru"
+      },
+      {
+        "title": "Auto Balutan",
+        "body": "Kapsyen panjang dibalut menjadi baris pendek yang boleh dibaca.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Jenis Kontras Tinggi",
+        "body": "Isi putih dengan strok gelap untuk kejelasan.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Alat Tetamu Segera",
+        "body": "Buat dan muat turun tanpa log masuk.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara tertutup untuk kapsyen meme dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/geotag-image": {
+    "path": "/geotag-imej",
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Geotag"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Format manakah yang menyokong pengeteg geo?",
+        "a": "Geotag tetamu memfokuskan pada imej JPEG yang serasi."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPEG yang serasi dalam had 10 MB."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Geotag sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Adakah koordinat disahkan?",
+        "a": "Menulis mengikut peraturan pengesahan supaya nilai terbentuk dengan baik sebelum dibenamkan."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Geotag Imej Dalam Talian — Tambahkan GPS ke JPEG",
+    "metaDescription": "Baca atau tulis koordinat GPS yang disahkan pada imej JPEG yang serasi. Alat geoteg tetamu peribadi.",
+    "breadcrumbCurrent": "Imej Geoteg Dalam Talian",
+    "h1": "Imej Geoteg Dalam Talian",
+    "subtitle": "Tambahkan atau periksa JPEG GPS data lokasi",
+    "paragraph": "Tambah atau periksa koordinat GPS pada imej JPEG yang serasi. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Data Lokasi Anda Boleh Sahkan",
+    "features": [
+      {
+        "title": "JPEG Fokus",
+        "body": "Aliran kerja geotag menyasarkan sumber JPEG yang serasi.",
+        "tone": "biru"
+      },
+      {
+        "title": "Periksa dahulu",
+        "body": "Lihat sama ada GPS boleh dibaca sudah ada.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Tulis Koordinat",
+        "body": "Benamkan latitud dan longitud apabila penggantian dibenarkan.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Privasi Tetamu",
+        "body": "Pemprosesan sementara dengan pembersihan automatik.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara tertutup untuk pengeteg geo dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/image-metadata": {
+    "path": "/metadata imej",
+    "breadcrumbCurrent": "Pemapar Metadata Imej",
+    "h1": "Pemapar Metadata Imej",
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Periksa"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Adakah anda menunjukkan semua teg EXIF?",
+        "a": "Tidak. Penonton menunjukkan medan yang disenaraikan dibenarkan untuk keselamatan dan kejelasan."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tidak. Periksa sebagai tetamu. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Bolehkah saya mengedit metadata di sini?",
+        "a": "Gunakan Imej SEO Editor Metadata untuk mendraf dan mengeksport medan SEO."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Pemapar Metadata Imej Dalam Talian — Periksa EXIF Dengan Selamat",
+    "metaDescription": "Periksa dimensi, maklumat warna dan metadata tersenarai dibenarkan selamat untuk JPG, PNG dan WebP. Penonton tetamu peribadi.",
+    "subtitle": "Periksa sifat imej selamat sebelum anda menerbitkan",
+    "paragraph": "Periksa sifat JPG, PNG dan WebP dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Lihat Perkara yang Penting, Dengan Selamat",
+    "features": [
+      {
+        "title": "Harta Teras",
+        "body": "Dimensi, jenis dan butiran fail praktikal.",
+        "tone": "biru"
+      },
+      {
+        "title": "Medan yang disenaraikan benarkan",
+        "body": "Hanya permukaan metadata dipilih susun yang selamat ditunjukkan.",
+        "tone": "hijau"
+      },
+      {
+        "title": "Mesra Web",
+        "body": "Semakan berguna sebelum CMS muat naik atau SEO semakan.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Privasi Tetamu",
+        "body": "Periksa kerja sementara dengan pemadaman automatik.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara tertutup untuk pemeriksaan metadata dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/image-metadata-editor": {
+    "path": "/image-metadata-editor",
+    "breadcrumbCurrent": "Imej SEO Editor Metadata",
+    "h1": "Imej SEO Editor Metadata",
+    "howSteps": [
+      {
+        "title": "Muat Naik Imej Anda"
+      },
+      {
+        "title": "Sunting"
+      },
+      {
+        "title": "Pratonton Keputusan"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Adakah ini menulis semula EXIF dalam setiap format?",
+        "a": "Editor menumpukan pada penyediaan SEO medan dan eksport."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Muat naik tetamu menyokong JPG, PNG dan WebP sehingga 10 MB."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Pengeditan tetamu tersedia dengan had. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Apa yang boleh saya eksport?",
+        "a": "Gunakan eksport mesra kereta sampingan untuk CMS dan aliran kerja kandungan."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Imej SEO Editor Metadata Dalam Talian",
+    "metaDescription": "Tulis, semak dan eksport medan SEO imej untuk tapak web dan aliran kerja CMS. Editor metadata tetamu peribadi.",
+    "subtitle": "Sediakan medan SEO imej sebelum diterbitkan",
+    "paragraph": "Draf medan SEO imej dan eksport sidecar dalam beberapa saat. Alat dalam talian percuma — tiada akaun diperlukan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Kawalan Editorial untuk Imej SEO",
+    "features": [
+      {
+        "title": "Medan Boleh Sunting",
+        "body": "Kemas kini teks SEO yang sebenarnya anda hantar.",
+        "tone": "biru"
+      },
+      {
+        "title": "Mesra Eksport",
+        "body": "Muat turun sidecars untuk CMS dan aliran kerja kandungan.",
+        "tone": "hijau"
+      },
+      {
+        "title": "CMS Sedia",
+        "body": "Sediakan tajuk, penerangan dan kata kunci sebelum diterbitkan.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Sesi Tetamu",
+        "body": "Draf sementara dengan pembersihan automatik.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara peribadi untuk pengeditan metadata dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  },
+  "/bulk-image-tools": {
+    "path": "/alat-imej pukal",
+    "breadcrumbCurrent": "Alat Imej Pukal",
+    "h1": "Alat Imej Pukal",
+    "howSteps": [
+      {
+        "title": "Muat naik Kumpulan"
+      },
+      {
+        "title": "Pilih Operasi"
+      },
+      {
+        "title": "Proses Fail"
+      },
+      {
+        "title": "Muat turun"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Berapa banyak fail yang boleh saya muat naik?",
+        "a": "Kerja pukal tetamu menguatkuasakan kiraan fail maksimum dan jumlah saiz kelompok."
+      },
+      {
+        "q": "Adakah terdapat had saiz fail?",
+        "a": "Setiap fail mengikut saiz maksimum tetamu dan kumpulan mempunyai had jumlah bait."
+      },
+      {
+        "q": "Adakah saya memerlukan akaun?",
+        "a": "Tetamu boleh menjalankan kerja pukal terhad. Fail tamat tempoh dalam masa satu jam."
+      },
+      {
+        "q": "Bagaimana jika satu fail gagal?",
+        "a": "Output yang berjaya kekal boleh dimuat turun; item yang gagal menunjukkan status ralat."
+      },
+      {
+        "q": "Adakah imej saya disimpan secara kekal?",
+        "a": "Tidak. Muat naik tetamu dan keputusan tamat tempoh dalam masa satu jam."
+      }
+    ],
+    "metaTitle": "Alat Imej Pukal Dalam Talian — Mampat, Ubah Saiz, Tukar",
+    "metaDescription": "Mampatkan, ubah saiz atau tukar beberapa imej dan muat turun hasil yang berjaya bersama-sama. Had pukal tetamu dikenakan.",
+    "subtitle": "Proses kumpulan pendek tanpa mengulangi setiap langkah",
+    "paragraph": "Mampatkan, ubah saiz atau tukar berbilang fail JPG, PNG atau WebP dalam satu kelompok. Had tetamu percuma dikenakan.",
+    "trust": [
+      "Tiada akaun diperlukan",
+      "Pemprosesan peribadi & selamat",
+      "Auto padam dalam masa 1 jam"
+    ],
+    "workspaceNote": "Format yang disokong: JPG, PNG, WebP • Saiz fail maksimum: 10 MB. Fail anda adalah peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+    "featuresHeading": "Kelajuan Kelompok Dengan Had Jelas",
+    "features": [
+      {
+        "title": "Tetapan Dikongsi",
+        "body": "Sapukan satu mampat, ubah saiz atau tukar pilihan merentas kumpulan.",
+        "tone": "biru"
+      },
+      {
+        "title": "Status setiap fail",
+        "body": "Lihat imej mana yang berjaya dan mana yang memerlukan perhatian.",
+        "tone": "hijau"
+      },
+      {
+        "title": "ZIP Muat turun",
+        "body": "Kumpul output yang berjaya apabila kumpulan sudah sedia.",
+        "tone": "ungu"
+      },
+      {
+        "title": "Topi Tetamu",
+        "body": "Saiz kelompok dan jumlah bait mengikut dasar tetamu percuma.",
+        "tone": "oren"
+      }
+    ],
+    "howHeading": "Bagaimana Ia Berfungsi",
+    "benefitCards": [
+      {
+        "title": "Privasi Anda Penting",
+        "body": "Imej anda diproses secara tertutup untuk pemprosesan pukal dan dipadamkan secara automatik dalam masa satu jam.",
+        "kind": "privasi"
+      },
+      {
+        "title": "Cepat & Cekap",
+        "body": "Pemprosesan tetamu yang disokong awan memberikan hasil dalam beberapa saat tanpa memasang perisian.",
+        "kind": "kelajuan"
+      }
+    ],
+    "faqHeading": "Soalan Lazim"
+  }
+}

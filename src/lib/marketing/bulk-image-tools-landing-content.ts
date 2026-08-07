@@ -1,7 +1,8 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Bulk Image Tools hub — compress, resize and convert batches; guest AI bulk OFF.
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type BulkImageToolsFaq = {q: string; a: string};
 
@@ -82,7 +83,7 @@ export type BulkImageToolsCopy = {
 };
 
 const en: BulkImageToolsCopy = {
-  metaTitle: "Bulk Image Tools Online Free | SEO Images",
+  metaTitle: "Bulk Image Tools Online Free | Img Pilot",
   metaDescription:
     "Batch compress, resize and convert JPG, PNG and WebP images online. Guest bulk hub with ZIP download, honest file limits and no guest AI bulk processing.",
   h1: "Bulk Image Tools Online",
@@ -209,7 +210,7 @@ const en: BulkImageToolsCopy = {
 };
 
 const ur: BulkImageToolsCopy = {
-  metaTitle: "آن لائن Bulk Image Tools مفت | SEO Images",
+  metaTitle: "آن لائن Bulk Image Tools مفت | Img Pilot",
   metaDescription:
     "JPG, PNG اور WebP کی batch compress، resize اور convert آن لائن۔ ZIP download، ایماندار guest limits، guest AI bulk نہیں۔",
   h1: "آن لائن Bulk Image Tools",
@@ -335,9 +336,9 @@ const ur: BulkImageToolsCopy = {
 };
 
 export function getBulkImageToolsCopy(locale: string): BulkImageToolsCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isBulkImageToolsLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

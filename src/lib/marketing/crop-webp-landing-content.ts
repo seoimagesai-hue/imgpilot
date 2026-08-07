@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Crop WebP landing — modern web-optimized WebP crops
  * (distinct from Crop JPG photos and Crop PNG transparent graphics).
@@ -97,7 +98,7 @@ export type CropWebpCopy = {
 };
 
 const en: CropWebpCopy = {
-  metaTitle: "Crop WebP Images Online Free | SEO Images",
+  metaTitle: "Crop WebP Images Online Free | Img Pilot",
   metaDescription:
     "Crop WebP images online using precise crop controls and popular aspect ratios. Create web-ready images and download them securely in seconds.",
   h1: "Crop WebP Images Online",
@@ -285,7 +286,7 @@ const en: CropWebpCopy = {
   faqHeading: "Frequently Asked Questions",
   faqs: [
     {
-      q: "Can I crop WebP images online with SEO Images?",
+      q: "Can I crop WebP images online with Img Pilot?",
       a: "Yes. Upload a still WebP, set the crop region with the shared guest crop editor, process, and download a new cropped WebP.",
     },
     {
@@ -347,7 +348,7 @@ const en: CropWebpCopy = {
 };
 
 const ur: CropWebpCopy = {
-  metaTitle: "آن لائن WebP امیجز کراپ کریں مفت | SEO Images",
+  metaTitle: "آن لائن WebP امیجز کراپ کریں مفت | Img Pilot",
   metaDescription:
     "درست کراپ کنٹرولز اور مشہور آسپیوٹ ریشوز سے آن لائن WebP امیجز کراپ کریں۔ ویب کے لیے تیار تصاویر بنائیں اور سیکنڈوں میں محفوظ ڈاؤن لوڈ کریں۔",
   h1: "آن لائن WebP امیجز کراپ کریں",
@@ -529,7 +530,7 @@ const ur: CropWebpCopy = {
   faqHeading: "اکثر پوچھے گئے سوالات",
   faqs: [
     {
-      q: "کیا SEO Images سے آن لائن WebP امیجز کراپ ہو سکتی ہیں؟",
+      q: "کیا Img Pilot سے آن لائن WebP امیجز کراپ ہو سکتی ہیں؟",
       a: "ہاں۔ اسٹل WebP اپ لوڈ کریں، مشترکہ مہمان کراپ ایڈیٹر سے کراپ ریجن سیٹ کریں، پروسیس کریں اور نئی کراپ شدہ WebP ڈاؤن لوڈ کریں۔",
     },
     {
@@ -591,7 +592,7 @@ const ur: CropWebpCopy = {
 };
 
 export function getCropWebpCopy(locale: string): CropWebpCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function cropWebpSeoCompat() {

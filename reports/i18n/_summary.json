@@ -1,0 +1,389 @@
+{
+  "generatedAt": "2026-08-06T23:47:18.338Z",
+  "locales": [
+    {
+      "locale": "es",
+      "wave": "1",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "fr",
+      "wave": "1",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "de",
+      "wave": "1",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "it",
+      "wave": "2",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "pt",
+      "wave": "1",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "nl",
+      "wave": "2",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "pl",
+      "wave": "2",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "sv",
+      "wave": "3",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "tr",
+      "wave": "2",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "ru",
+      "wave": "2",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "uk",
+      "wave": "3",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "ja",
+      "wave": "2",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "ko",
+      "wave": "2",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "th",
+      "wave": "4",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "id",
+      "wave": "4",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "ms",
+      "wave": "4",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "vi",
+      "wave": "4",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "hi",
+      "wave": "3",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "ar",
+      "wave": "1",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "el",
+      "wave": "3",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "bg",
+      "wave": "3",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "sw",
+      "wave": "4",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "ca",
+      "wave": "3",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    },
+    {
+      "locale": "ur",
+      "wave": "3",
+      "layers": {
+        "layer1_ui": "machine_translated",
+        "layer2_tools": "machine_translated",
+        "layer3_homepage": "machine_translated",
+        "layer4_seo": "machine_translated"
+      },
+      "indexable": 32,
+      "noindex": 0,
+      "layer1Missing": 0,
+      "homepageMissing": 0,
+      "toolsMissing": 0,
+      "placeholderFailures": 0
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "tools": [
+    {
+      "href": "/compress-image",
+      "title": "Memampatkan Imej",
+      "body": "Kurangkan saiz fail JPG, PNG dan WebP sambil memastikan hasilnya jelas dan boleh digunakan.",
+      "icon": "memampatkan"
+    },
+    {
+      "href": "/resize-image",
+      "title": "Saiz semula Imej",
+      "body": "Tukar dimensi imej mengikut tetapan lebar, tinggi atau muat dalam tanpa pembesaran yang tidak diingini.",
+      "icon": "ubah saiz"
+    },
+    {
+      "title": "Pangkas Imej",
+      "href": "/crop-image",
+      "body": "Pilih kawasan tepat yang anda mahu kekalkan dengan kawalan tanaman percuma dan nisbah tetap.",
+      "icon": "tanaman"
+    },
+    {
+      "title": "Tukar Imej",
+      "href": "/tukar-imej",
+      "body": "Tukar antara format JPG, PNG, WebP dan format AVIF yang disokong dengan pengesahan output selamat.",
+      "icon": "menukar"
+    },
+    {
+      "title": "Imej Geotag",
+      "href": "/geotag-imej",
+      "body": "Tambahkan koordinat GPS yang disahkan pada imej JPEG yang serasi tanpa menukar yang asal.",
+      "icon": "geotag"
+    },
+    {
+      "title": "Pemapar Metadata Imej",
+      "href": "/metadata imej",
+      "body": "Periksa dimensi, maklumat warna dan metadata imej tersenarai selamat yang dibenarkan.",
+      "icon": "metadata"
+    },
+    {
+      "title": "Imej SEO Editor Metadata",
+      "href": "/image-metadata-editor",
+      "body": "Tulis, semak dan eksport medan SEO imej untuk tapak web atau sistem pengurusan kandungan anda.",
+      "icon": "editor"
+    },
+    {
+      "title": "Alat Imej Pukal",
+      "href": "/alat-imej pukal",
+      "body": "Mampatkan, ubah saiz atau tukar beberapa imej dan muat turun hasil yang berjaya bersama-sama.",
+      "icon": "pukal"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Mampatkan JPG",
+      "badge": "JPG",
+      "href": "/mampat-jpg"
+    },
+    {
+      "badge": "PNG",
+      "href": "/mampat-png",
+      "label": "Mampatkan PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/mampat-webp",
+      "label": "Mampatkan WebP"
+    },
+    {
+      "badge": "JPG",
+      "href": "/ubah saiz-jpg",
+      "label": "Ubah saiz JPG"
+    },
+    {
+      "badge": "PNG",
+      "href": "/ubah saiz-png",
+      "label": "Ubah saiz PNG"
+    },
+    {
+      "badge": "WebP",
+      "href": "/ubah saiz-webp",
+      "label": "Ubah saiz WebP"
+    },
+    {
+      "href": "/jpg-ke-png",
+      "label": "JPG hingga PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-ke-webp",
+      "label": "JPG hingga WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-ke-jpg",
+      "label": "PNG hingga JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-ke-webp",
+      "label": "PNG hingga WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-ke-jpg",
+      "label": "WebP hingga JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-ke-png",
+      "label": "WebP hingga PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "Format praktikal untuk gambar, kandungan web dan fail imej lossy yang lebih kecil.",
+      "href": "/mampat-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "Format tanpa kerugian yang biasa digunakan untuk grafik dan imej yang memerlukan ketelusan.",
+      "href": "/mampat-png"
+    },
+    {
+      "title": "WebP",
+      "body": "Format web moden yang boleh memberikan pemampatan yang cekap dengan ketelusan pilihan.",
+      "href": "/mampat-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Tersedia untuk aliran kerja penukaran yang disokong apabila masa jalan pelayan boleh mengekod dan mengesahkannya.",
+      "href": "/jpg-ke-avif"
+    }
+  ],
+  "metaTitle": "Img Pilot — Mampat, Ubah Saiz, Tukar dan Optimumkan Imej Dalam Talian",
+  "metaDescription": "Mampatkan, ubah saiz, pangkas, tukar dan optimumkan imej JPG, PNG dan WebP dalam talian. Gunakan alat tetamu peribadi tanpa akaun, dengan pemadaman automatik dalam masa satu jam.",
+  "heroBadge": "Alat imej dalam talian percuma untuk tapak web yang lebih pantas dan bersih",
+  "h1": "Optimumkan Setiap Imej dalam Satu Ruang Kerja Mudah",
+  "heroParagraph": "Memampatkan, mengubah saiz, memangkas, menukar dan mengoptimumkan imej anda tanpa memasang perisian. Mulakan secara percuma tanpa akaun, kekalkan kawalan penuh ke atas fail anda dan muat turun hasil yang bersih dan disahkan dalam beberapa klik sahaja.",
+  "uploadHeading": "Letakkan imej di sini untuk bermula",
+  "uploadSupport": "Muat naik imej JPG, PNG atau WebP atau tampal satu terus daripada papan keratan anda.",
+  "chooseImage": "Pilih Imej",
+  "pasteHint": "Anda juga boleh menampal imej dengan Ctrl + V atau ⌘ + V",
+  "formatLimitLine": "JPG, PNG dan WebP • Sehingga {maxFileSize} • Tiada akaun diperlukan",
+  "privacyLine": "Fail tetamu anda kekal peribadi dan dipadamkan secara automatik dalam masa satu jam.",
+  "defaultActionLabel": "Mulakan dengan Pemampatan Imej",
+  "trust": [
+    {
+      "title": "Tiada Akaun Diperlukan",
+      "body": "Gunakan alat imej penting serta-merta sebagai tetamu."
+    },
+    {
+      "title": "Pemprosesan Persendirian",
+      "body": "Fail kekal dalam storan sementara yang dilindungi."
+    },
+    {
+      "title": "Pemadaman Automatik",
+      "body": "Fail tetamu tamat tempoh dalam masa satu jam."
+    },
+    {
+      "title": "Keputusan Disahkan",
+      "body": "Output disemak oleh pelayan sebelum memuat turun."
+    }
+  ],
+  "stats": [
+    {
+      "title": "10J+ Imej Diproses",
+      "body": "Aliran kerja yang dipercayai untuk pengoptimuman setiap hari."
+    },
+    {
+      "title": "100% Peribadi & Selamat",
+      "body": "Storan sementara dengan akses jangka pendek."
+    },
+    {
+      "title": "Pemadaman Automatik 1 Jam",
+      "body": "Fail tetamu tamat tempoh pada jadual tetap."
+    },
+    {
+      "title": "Tiada Muat Turun Bersih Tera Air",
+      "body": "Muat turun hasil yang disahkan tanpa penjenamaan."
+    }
+  ],
+  "toolsEyebrow": "Semua yang anda perlukan",
+  "toolsHeading": "Alat Imej Berkuasa, Bersedia Apabila Anda Sedia",
+  "toolsDescription": "Mengendalikan tugas imej setiap hari dari satu ruang kerja yang bersih. Setiap alat direka bentuk untuk menjadi mudah untuk pemula sambil tetap memberikan profesional kawalan yang mereka perlukan.",
+  "openTool": "Buka alat",
+  "exploreAllTools": "Terokai semua alatan",
+  "formatEyebrow": "Tugas imej popular",
+  "formatHeading": "Pergi Terus ke Format yang Anda Perlukan",
+  "formatDescription": "Pilih alat khusus untuk format imej atau penukaran anda. Tetapan sumber dan output pilihan anda sudah pun dipilih.",
+  "platformEyebrow": "Satu ruang kerja imej peribadi",
+  "platformHeading": "Dari Muat Naik ke Muat Turun Tanpa Kerumitan Biasa",
+  "platformP1": "Img Pilot membawa aliran kerja imej yang paling berguna ke dalam satu pengalaman yang konsisten. Anda tidak perlu mempelajari antara muka yang berbeza untuk setiap tugas. Muat naik imej anda, pilih tetapan yang penting, proseskannya dengan selamat dan muat turun hasil yang disahkan.",
+  "platformP2": "Aliran kerja yang sama menyokong kerja imej tunggal pantas, halaman pendaratan khusus format dan operasi pukal yang dipilih. Alat tetamu tidak memerlukan akaun, manakala pengguna yang log masuk boleh mengakses projek dan ciri ruang kerja jangka panjang.",
+  "platformFeatures": [
+    "Satu ruang kerja alat yang konsisten",
+    "Kosongkan maklumat sebelum dan selepas",
+    "Simpanan tetamu sementara peribadi",
+    "Aliran kerja pukal individu dan terpilih",
+    "Antara muka bahasa Inggeris dan Urdu",
+    "Output yang disahkan pelayan"
+  ],
+  "whyEyebrow": "Dibina berdasarkan kejelasan dan kawalan",
+  "whyHeading": "Alat Imej Yang Menghormati Masa Anda dan Fail Anda",
+  "whyIntro": "Setiap aliran kerja direka untuk mengalih keluar langkah yang tidak perlu sambil memastikan kawalan penting kelihatan. Anda sentiasa tahu apa yang akan berlaku pada imej anda, kandungan hasil dan bila fail sementara akan dialih keluar.",
+  "benefits": [
+    {
+      "title": "Mulakan Segera",
+      "body": "Gunakan alat tetamu teras tanpa pendaftaran, pemasangan perisian atau proses persediaan projek."
+    },
+    {
+      "title": "Simpan yang Asal Selamat",
+      "body": "Pemprosesan mencipta hasil baharu manakala asal yang dimuat naik kekal tidak berubah."
+    },
+    {
+      "title": "Tahu Apa yang Berubah",
+      "body": "Bandingkan dimensi, format dan saiz fail sebelum memuat turun hasil akhir."
+    },
+    {
+      "title": "Bekerja Merentas Format",
+      "body": "Gunakan aliran kerja khusus untuk JPG, PNG dan WebP dengan pengendalian khusus format yang jujur."
+    },
+    {
+      "title": "Lindungi Fail Sementara",
+      "body": "Imej tetamu dan hasil yang dijana dialih keluar secara automatik dalam tetingkap pengekalan."
+    },
+    {
+      "title": "Sediakan Imej untuk Carian",
+      "body": "Semak metadata, perbaiki nama fail dan atur teks alt untuk tapak web dan penggunaan CMS."
+    }
+  ],
+  "howEyebrow": "Mudah dari awal hingga akhir",
+  "howHeading": "Selesaikan Tugas Imej Anda dalam Empat Langkah Jelas",
+  "steps": [
+    {
+      "title": "Muat Naik Imej Anda",
+      "body": "Pilih imej yang disokong, seret ke dalam ruang kerja atau tampalkannya daripada papan keratan anda."
+    },
+    {
+      "title": "Pilih Tetapan Anda",
+      "body": "Pilih format, dimensi, kualiti, kawasan pangkas atau pilihan metadata yang diperlukan untuk tugas anda."
+    },
+    {
+      "title": "Proses dengan Selamat",
+      "body": "Pelayan melaksanakan dan mengesahkan operasi sambil menunjukkan kemajuan yang jelas dan keadaan ralat."
+    },
+    {
+      "title": "Muat turun Keputusan",
+      "body": "Semak butiran akhir, muat turun fail anda dan proses imej lain apabila diperlukan."
+    }
+  ],
+  "beforeEyebrow": "Lihat perbezaannya",
+  "beforeHeading": "Lihat Perbezaan Sebelum Anda Muat Turun",
+  "beforeParagraph": "Ringkasan hasil yang jelas membantu anda memahami perkara yang berubah. Bandingkan imej asal dengan versi yang diproses, semak saiz atau dimensi fail dan muat turun hanya apabila output sepadan dengan keperluan anda.",
+  "beforeBullets": [
+    "Asal kekal selamat semasa hasil baharu dibuat",
+    "Output yang disahkan dengan butiran saiz dan dimensi yang jujur"
+  ],
+  "beforeCaption": "Ilustrasi produk — contoh sahaja. Penjimatan sebenar berbeza mengikut imej.",
+  "useEyebrow": "Direka untuk kerja sebenar",
+  "useHeading": "Sediakan Imej untuk Laman Web, Kandungan dan Perkongsian Setiap Hari",
+  "useCases": [
+    {
+      "title": "laman web",
+      "body": "Kurangkan berat imej yang tidak perlu dan sediakan dimensi yang konsisten untuk halaman yang lebih pantas dan bersih."
+    },
+    {
+      "title": "Kedai dalam talian",
+      "body": "Susun format imej produk, nama fail, dimensi dan metadata sebelum diterbitkan."
+    },
+    {
+      "title": "kandungan sosial",
+      "body": "Ubah saiz dan pangkas imej kepada nisbah bidang praktikal untuk siaran, lakaran kenit dan kempen."
+    },
+    {
+      "title": "Blog dan penerbit",
+      "body": "Cipta imej artikel yang lebih ringan dan sediakan teks imej deskriptif yang boleh diakses."
+    },
+    {
+      "title": "E-mel dan dokumen",
+      "body": "Kurangkan fail besar supaya imej lebih mudah dilampirkan, dikongsi dan disertakan dalam pembentangan."
+    },
+    {
+      "title": "Setempat SEO",
+      "body": "Periksa metadata, tambahkan koordinat JPEG yang disahkan dan susun maklumat SEO imej untuk aliran kerja kandungan setempat."
+    }
+  ],
+  "seoEyebrow": "Lebih daripada penyuntingan asas",
+  "seoHeading": "Tukar Imej Biasa Menjadi Aset Laman Web yang Lebih Baik",
+  "seoP1": "Pengoptimuman imej bukan sahaja tentang mengurangkan saiz fail. Nama fail yang jelas, teks alternatif yang tepat, dimensi yang sesuai dan metadata yang berguna boleh menjadikan perpustakaan imej lebih mudah untuk diurus dan kandungan tapak web lebih mudah diakses.",
+  "seoP2": "Img Pilot termasuk alatan untuk memeriksa metadata, mendraf medan SEO imej dan mengeksport maklumat untuk digunakan dalam tapak web atau CMS.",
+  "seoLinks": [
+    {
+      "href": "/metadata imej",
+      "label": "Lihat Metadata Imej"
+    },
+    {
+      "href": "/image-metadata-editor",
+      "label": "Edit Imej SEO Metadata"
+    },
+    {
+      "href": "/geotag-imej",
+      "label": "Geotag a JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO dan alat kebolehaksesan memberikan bantuan dan pengesyoran. Mereka tidak menjamin kedudukan carian atau pematuhan automatik.",
+  "bulkEyebrow": "Bekerja dengan lebih daripada satu imej?",
+  "bulkHeading": "Proses Sekumpulan Kecil Tanpa Mengulangi Setiap Langkah",
+  "bulkParagraph": "Gunakan Alat Imej Pukal untuk memampatkan, mengubah saiz atau menukar beberapa imej yang disokong dengan satu set pilihan yang dikongsi. Semak setiap fail secara berasingan, muat turun keputusan individu atau kumpulkan output yang berjaya dalam arkib ZIP.",
+  "bulkBullets": [
+    "Mampat Pukal",
+    "Ubah Saiz Pukal",
+    "Tukar Pukal",
+    "Status pemprosesan setiap fail",
+    "Muat turun individu",
+    "ZIP arkibkan untuk hasil yang berjaya"
+  ],
+  "bulkCta": "Buka Alat Imej Pukal",
+  "bulkNotice": "Had pukal tetamu dikenakan. Aliran kerja yang lebih besar mungkin memerlukan akaun.",
+  "privacyEyebrow": "Privasi mengikut reka bentuk",
+  "privacyHeading": "Fail Sementara Harus Kekal Sementara",
+  "privacyP1": "Muat naik tetamu disimpan secara tertutup semasa alat pilihan anda berfungsi. Imej anda, output yang dijana dan data hasil sementara tamat tempoh dalam masa satu jam. Memuat turun, memuat semula atau memproses semula tidak melanjutkan tarikh akhir tersebut.",
+  "privacyP2": "Sesi tetamu tidak mencipta pustaka imej kekal. Log masuk hanya apabila anda memerlukan projek atau ciri akaun jangka panjang.",
+  "privacyFacts": [
+    "Penyimpanan objek sementara peribadi",
+    "Pratonton dan muat turun jangka pendek",
+    "Tiada URL imej tetamu awam",
+    "Pembersihan automatik",
+    "Tiada sejarah tetamu tetap",
+    "Fail asal kekal tidak berubah semasa pemprosesan"
+  ],
+  "privacyCta": "Baca Dasar Privasi Kami",
+  "formatsHeading": "Bekerja Dengan Format Imej Yang Paling Anda Gunakan",
+  "formatsParagraph": "Alat tetamu teras menyokong imej JPG, PNG dan WebP. Format output dan ciri metadata yang tersedia bergantung pada operasi yang dipilih dan keupayaan setiap format imej.",
+  "faqHeading": "Soalan lazim",
+  "faqs": [
+    {
+      "q": "Adakah saya memerlukan akaun untuk menggunakan Img Pilot?",
+      "a": "Tidak. Alat tetamu teras boleh digunakan tanpa membuat akaun. Had tetamu dikenakan dan ciri akaun tersedia apabila anda memerlukan projek yang disimpan atau had aliran kerja yang lebih tinggi."
+    },
+    {
+      "q": "Berapa lama imej tetamu disimpan?",
+      "a": "Imej tetamu dan hasil sementara tamat tempoh dalam masa satu jam. Memuat turun, memuat semula atau memproses semula tidak melanjutkan tarikh akhir tersebut."
+    },
+    {
+      "q": "Adakah pemprosesan akan menimpa imej asal saya?",
+      "a": "Tidak. Pemprosesan mencipta hasil yang berasingan. Asal yang dimuat naik kekal tidak berubah semasa sesi tetamu aktif."
+    },
+    {
+      "q": "Format imej manakah yang disokong?",
+      "a": "Alat teras menyokong JPG, PNG dan WebP. Sesetengah aliran kerja penukaran juga mungkin menyokong AVIF apabila pelayan boleh mengekod dan mengesahkan hasilnya."
+    },
+    {
+      "q": "Bolehkah saya memproses beberapa imej bersama-sama?",
+      "a": "ya. Alat Imej Pukal menyokong pemampatan, ubah saiz dan tukar aliran kerja yang dipilih. Had kumpulan tetamu dikenakan."
+    },
+    {
+      "q": "Adakah memampatkan imej sentiasa menjadikannya lebih kecil?",
+      "a": "Bukan selalu. Saiz akhir bergantung pada imej asal, formatnya dan tetapan yang dipilih. Img Pilot melaporkan hasil sebenar dengan jujur, termasuk apabila output lebih besar."
+    },
+    {
+      "q": "Adakah teks alt dibenamkan di dalam imej?",
+      "a": "Teks Alt biasanya ditambahkan pada tapak web atau rekod CMS dan bukannya dibenamkan secara universal dalam fail imej. Editor Metadata membantu anda menyediakan dan mengeksportnya untuk digunakan di tapak web anda."
+    },
+    {
+      "q": "Adakah pengoptimuman imej menjamin kedudukan carian yang lebih baik?",
+      "a": "Tidak. Pengoptimuman imej boleh menyokong prestasi, organisasi dan kebolehaksesan, tetapi tiada alat imej individu boleh menjamin kedudukan carian."
+    }
+  ],
+  "finalHeading": "Imej Seterusnya Anda Sedia untuk Dioptimumkan",
+  "finalParagraph": "Muat naik imej JPG, PNG atau WebP dan selesaikan tugas anda tanpa memasang perisian atau membuat akaun.",
+  "finalPrimary": "Pilih Imej",
+  "finalSecondary": "Teroka Semua Alat",
+  "finalTrust": "Pemprosesan tetamu persendirian · Pemadaman sejam automatik · Tiada tera air",
+  "footerBrand": "Alat dalam talian peribadi untuk memampatkan, mengubah saiz, menukar dan menyediakan imej untuk web.",
+  "footerRights": "© {year} Img Pilot. Semua hak terpelihara."
+}

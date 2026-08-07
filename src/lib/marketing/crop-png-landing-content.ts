@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Crop PNG landing — transparent logos / icons / UI graphics
  * (distinct from Crop JPG photographic composition).
@@ -91,7 +92,7 @@ export type CropPngCopy = {
 };
 
 const en: CropPngCopy = {
-  metaTitle: "Crop PNG Images Online Free | SEO Images",
+  metaTitle: "Crop PNG Images Online Free | Img Pilot",
   metaDescription:
     "Crop PNG images online while preserving transparent backgrounds. Remove unwanted areas and download a precisely cropped PNG securely.",
   h1: "Crop PNG Images Online",
@@ -324,7 +325,7 @@ const en: CropPngCopy = {
 };
 
 const ur: CropPngCopy = {
-  metaTitle: "آن لائن PNG امیجز کراپ کریں مفت | SEO Images",
+  metaTitle: "آن لائن PNG امیجز کراپ کریں مفت | Img Pilot",
   metaDescription:
     "شفاف پس منظر برقرار رکھتے ہوئے PNG تصاویر آن لائن کراپ کریں۔ غیر مطلوبہ حصے ہٹائیں اور درست کراپ شدہ PNG محفوظ انداز میں ڈاؤن لوڈ کریں۔",
   h1: "آن لائن PNG امیجز کراپ کریں",
@@ -550,7 +551,7 @@ const ur: CropPngCopy = {
 };
 
 export function getCropPngCopy(locale: string): CropPngCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function cropPngSeoCompat() {

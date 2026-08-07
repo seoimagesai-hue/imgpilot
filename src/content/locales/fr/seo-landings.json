@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "redimensionner",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Dimensions exactes de l'image avec les tailles de plate-forme populaires",
+        "Verrouillage du rapport hauteur/largeur pour éviter la distorsion",
+        "Stockage temporaire privé pour les invités"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers JPG sont acceptés ?",
+          "a": "Cette page donne la priorité à JPG. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Resize pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "redimensionner-jpg",
+      "title": "Redimensionner les images JPG en ligne gratuitement | Img Pilot",
+      "description": "Redimensionnez les images JPG en ligne en choisissant des dimensions personnalisées ou des préréglages populaires. Ajustez la largeur, la hauteur et la qualité, puis téléchargez votre JPG redimensionné en toute sécurité.",
+      "h1": "Redimensionner les images JPG en ligne",
+      "intro": "Redimensionnez les images JPG aux dimensions exactes dont vous avez besoin sans installer de logiciel. Téléchargez une photo, choisissez un préréglage ou entrez une largeur et une hauteur personnalisées, puis téléchargez votre JPG redimensionné en quelques secondes.",
+      "related": [
+        "compresser-jpg",
+        "jpg-à-webp",
+        "récolte-jpg",
+        "redimensionner-png",
+        "png-à-jpg",
+        "outils d'image en masse"
+      ],
+      "howTo": [
+        "Téléchargez un JPG",
+        "Choisissez la méthode ou le préréglage",
+        "Processus",
+        "Téléchargez le JPG redimensionné"
+      ]
+    },
+    "resize-png": {
+      "operation": "redimensionner",
+      "sourceFormat": "png",
+      "howTo": [
+        "Téléchargez un PNG",
+        "Définir des dimensions ou un préréglage",
+        "Processus",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers PNG sont acceptés ?",
+          "a": "Cette page donne la priorité à PNG. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Resize pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "redimensionner-png",
+      "title": "Redimensionner les images PNG en ligne gratuitement | Img Pilot",
+      "description": "Redimensionnez les images PNG en ligne tout en préservant la transparence. Modifiez les dimensions de l'image en toute sécurité et téléchargez votre PNG redimensionné en quelques secondes.",
+      "h1": "Redimensionner les images PNG en ligne",
+      "intro": "Redimensionnez les images PNG sans perdre la transparence des logos, des graphiques de l'interface utilisateur, des icônes et des captures d'écran.",
+      "related": [
+        "compresser-png",
+        "png-à-jpg",
+        "png-à-webp",
+        "récolte-png",
+        "redimensionner-jpg",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Redimensionnement PNG préservant la transparence",
+        "Concevoir des préréglages pour les logos, les icônes et les favicons",
+        "Traitement des invités temporaires privés"
+      ]
+    },
+    "resize-webp": {
+      "operation": "redimensionner",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Téléchargez un WebP",
+        "Choisissez les options de taille",
+        "Processus",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers WebP sont acceptés ?",
+          "a": "Cette page donne la priorité à WebP. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Resize pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "redimensionner-webp",
+      "title": "Redimensionner les images WebP en ligne gratuitement | Img Pilot",
+      "description": "Redimensionnez les images WebP en ligne pour les sites Web, les blogs et les appareils mobiles réactifs. Modifiez les dimensions en toute sécurité et téléchargez instantanément des images WebP redimensionnées.",
+      "h1": "Redimensionner les images WebP en ligne",
+      "intro": "Redimensionnez les images WebP pour des mises en page réactives, des appareils mobiles et des sites Web modernes tout en conservant l'efficacité de WebP.",
+      "related": [
+        "compresser-webp",
+        "webp-à-jpg",
+        "webp-à-png",
+        "redimensionner-jpg",
+        "redimensionner-png",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Contrôle dimensionnel réactif WebP",
+        "Pipeline de redimensionnement des invités partagés",
+        "Stockage temporaire privé avec nettoyage automatique"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "compresse",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Téléchargez un JPG",
+        "Choisissez un préréglage de qualité",
+        "Compresse",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers JPG sont acceptés ?",
+          "a": "Cette page donne la priorité à JPG. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Compress pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "compresser-jpg",
+      "title": "Compresser les images JPG en ligne gratuitement | Img Pilot",
+      "description": "Compressez les images JPG en ligne et réduisez la taille du fichier grâce à des contrôles de qualité réglables. Prévisualisez le résultat et téléchargez en toute sécurité un JPG optimisé plus petit.",
+      "h1": "Compresser les images JPG en ligne",
+      "intro": "Réduisez la taille du fichier des images JPG directement dans votre navigateur sans installer de logiciel compliqué.",
+      "related": [
+        "redimensionner-jpg",
+        "jpg-à-webp",
+        "récolte-jpg",
+        "jpg-à-png",
+        "webp-à-jpg",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Préréglages de qualité JPG réglables",
+        "Traitement des invités temporaires privés",
+        "L'image originale reste inchangée"
+      ]
+    },
+    "compress-png": {
+      "operation": "compresse",
+      "sourceFormat": "png",
+      "howTo": [
+        "Téléchargez un PNG",
+        "Choisissez la qualité",
+        "Compresse",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers PNG sont acceptés ?",
+          "a": "Cette page donne la priorité à PNG. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Compress pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "compresser-png",
+      "title": "Compresser les images PNG en ligne gratuitement | Img Pilot",
+      "description": "Compressez les images PNG en ligne tout en préservant la transparence. Réduisez la taille du fichier PNG en toute sécurité et téléchargez une image optimisée en quelques secondes.",
+      "h1": "Compresser les images PNG en ligne",
+      "intro": "Réduisez la taille du fichier image PNG sans sacrifier la transparence ou la clarté de l'image.",
+      "related": [
+        "compresser-jpg",
+        "redimensionner-png",
+        "png-à-jpg",
+        "png-à-webp",
+        "récolte-png",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Compression PNG préservant la transparence",
+        "Conçu pour les logos, les graphiques d'interface utilisateur et les captures d'écran",
+        "Traitement des invités temporaires privés"
+      ]
+    },
+    "compress-webp": {
+      "operation": "compresse",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Téléchargez un WebP",
+        "Sélectionnez la qualité",
+        "Compresse",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers WebP sont acceptés ?",
+          "a": "Cette page donne la priorité à WebP. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Compress pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "compresser-webp",
+      "title": "Compresser les images WebP en ligne gratuitement | Img Pilot",
+      "description": "Compressez les images WebP en ligne pour réduire la taille du fichier tout en conservant la qualité. Améliorez la vitesse du site Web grâce à l'optimisation sécurisée WebP basée sur un navigateur.",
+      "h1": "Compresser les images WebP en ligne",
+      "intro": "Réduisez la taille du fichier WebP déjà exporté tout en conservant une qualité visuelle claire pour les sites Web, les pages de destination et les applications mobiles.",
+      "related": [
+        "redimensionner-webp",
+        "webp-à-jpg",
+        "webp-à-png",
+        "compresser-jpg",
+        "compresser-png",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Optimiser davantage les exportations WebP modernes",
+        "Invité partagé Préréglages de qualité de compression",
+        "Stockage temporaire privé avec nettoyage automatique"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "recadrer",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Quels fichiers JPG sont acceptés ?",
+          "a": "Cette page donne la priorité à JPG. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Recadrer pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "récolte-jpg",
+      "title": "Recadrer JPG Images en ligne gratuites | Img Pilot",
+      "description": "Recadrez les images JPG en ligne à l'aide de contrôles de recadrage précis et de formats d'image populaires. Téléchargez votre image recadrée en toute sécurité en quelques secondes.",
+      "h1": "Recadrer les images JPG en ligne",
+      "intro": "Supprimez les zones indésirables, verrouillez les formats d'image courants et téléchargez un nouveau JPG sans modifier l'original.",
+      "related": [
+        "redimensionner-jpg",
+        "compresser-jpg",
+        "jpg-à-webp",
+        "redimensionner-png",
+        "récolte-png",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Poignées de recadrage précises",
+        "Rapports d'aspect populaires",
+        "Cadrage prêt pour le social",
+        "Stockage temporaire privé",
+        "L'image originale reste en sécurité"
+      ],
+      "howTo": [
+        "Téléchargez un JPG",
+        "Sélectionnez la zone de recadrage",
+        "Aperçu de la composition",
+        "Téléchargez le JPG recadré"
+      ]
+    },
+    "crop-png": {
+      "operation": "recadrer",
+      "sourceFormat": "png",
+      "howTo": [
+        "Téléchargez un PNG",
+        "Définir la zone cadrée",
+        "Processus",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers PNG sont acceptés ?",
+          "a": "Cette page donne la priorité à PNG. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Recadrer pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "récolte-png",
+      "title": "Recadrer PNG Images en ligne gratuites | Img Pilot",
+      "description": "Recadrez les images PNG en ligne tout en préservant les arrière-plans transparents. Supprimez les zones indésirables et téléchargez en toute sécurité un PNG recadré avec précision.",
+      "h1": "Recadrer les images PNG en ligne",
+      "intro": "Recadrez les logos, icônes et graphiques d'interface utilisateur PNG transparents tout en gardant l'alpha intact.",
+      "related": [
+        "redimensionner-png",
+        "compresser-png",
+        "png-à-webp",
+        "png-à-jpg",
+        "récolte-jpg",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Culture PNG préservant la transparence",
+        "Moteur de recadrage et ratios d'invité partagé",
+        "Stockage temporaire privé avec nettoyage automatique"
+      ]
+    },
+    "crop-webp": {
+      "operation": "recadrer",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Téléchargez un WebP",
+        "Sélectionnez la zone de recadrage",
+        "Processus",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Quels fichiers WebP sont acceptés ?",
+          "a": "Cette page donne la priorité à WebP. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Recadrer pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "récolte-webp",
+      "title": "Recadrer WebP Images en ligne gratuites | Img Pilot",
+      "description": "Recadrez les images WebP en ligne à l'aide de contrôles de recadrage précis et de formats d'image populaires. Créez des images prêtes pour le Web et téléchargez-les en toute sécurité en quelques secondes.",
+      "h1": "Recadrer les images WebP en ligne",
+      "intro": "Recadrez des images WebP modernes pour des sites Web réactifs, des pages de destination et du commerce électronique tout en conservant un format optimisé pour le Web.",
+      "related": [
+        "redimensionner-webp",
+        "compresser-webp",
+        "webp-à-jpg",
+        "webp-à-png",
+        "récolte-jpg",
+        "récolte-png"
+      ],
+      "benefits": [
+        "WebP-première récolte pour une livraison moderne",
+        "Moteur de culture invité partagé et ratios honnêtes",
+        "Stockage temporaire privé avec nettoyage automatique"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "recadrer",
+      "howTo": [
+        "Télécharger une image",
+        "Ajuster le recadrage carré",
+        "Processus",
+        "Télécharger"
+      ],
+      "faqs": [
+        {
+          "q": "Le dimensionnement exact de la plateforme pour Instagram est-il inclus ?",
+          "a": "Pas sur cette page. Les pages de taille sociale dédiées sont différées jusqu'à ce que les préréglages datés soient approuvés."
+        },
+        {
+          "q": "Quels sont vos fichiers image acceptés ?",
+          "a": "Cette page donne la priorité à votre image. D'autres formats peuvent être rejetés ici — utilisez l'outil générique Recadrer pour les formats mixtes."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Les outils invités fonctionnent sans connexion dans les limites quotidiennes gratuites."
+        },
+        {
+          "q": "Le traitement est-il privé ?",
+          "a": "Les téléchargements sont transférés vers un stockage privé et les fichiers invités temporaires expirent après environ une heure."
+        }
+      ],
+      "slug": "recadrage-image-carré",
+      "cropAspect": "1:1",
+      "title": "Recadrer l'image au carré - Outil de recadrage 1:1 gratuit",
+      "description": "Recadrez les images selon un rapport hauteur/largeur carré de 1:1 avec le moteur de recadrage partagé.",
+      "h1": "Recadrer une image au carré",
+      "intro": "Commence par un verrouillage d’aspect 1:1. Vous pouvez toujours modifier le rapport dans l'éditeur si nécessaire.",
+      "related": [
+        "récolte-jpg",
+        "récolte-png",
+        "redimensionner l'image",
+        "compresser l'image"
+      ],
+      "benefits": [
+        "La valeur par défaut est 1:1",
+        "Fonctionne avec JPEG, PNG et WebP",
+        "Même modèle de confidentialité que les autres outils invités"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "convertir",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "jpg-à-png",
+      "title": "Convertisseur JPG en PNG — Gratuit en ligne",
+      "description": "Convertissez JPG en PNG. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir JPG en PNG",
+      "intro": "Créez un PNG à partir d'un JPG à l'aide du moteur Convert partagé.",
+      "related": [
+        "png-à-jpg",
+        "jpg-à-webp",
+        "compresser-png",
+        "redimensionner-png"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de JPEG en PNG modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "convertir",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "jpg-à-webp",
+      "title": "Convertir JPG en WebP en ligne gratuitement | Img Pilot",
+      "description": "Convertissez JPG en WebP en ligne. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir JPG en WebP en ligne",
+      "intro": "Convertissez les photos JPG en WebP pour des sites Web plus rapides, des fichiers de livraison plus petits et des Core Web Vitals plus puissants lorsque les navigateurs prennent en charge les formats modernes.",
+      "related": [
+        "webp-à-jpg",
+        "compresser-jpg",
+        "redimensionner-jpg",
+        "récolte-jpg",
+        "png-à-webp",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de JPEG en WEBP modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "convertir",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "jpg-à-avif",
+      "title": "Convertisseur JPG en AVIF — Gratuit en ligne",
+      "description": "Convertissez JPG en AVIF. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir JPG en AVIF",
+      "intro": "L'encodage AVIF est proposé uniquement lorsque l'encodeur de ce serveur le prend en charge. Sinon le contrôle reste honnêtement bloqué.",
+      "related": [
+        "jpg-à-webp",
+        "png-à-avif",
+        "compresser-jpg",
+        "convertir-image"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de JPEG en AVIF modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "convertir",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "png-à-jpg",
+      "title": "Convertir PNG en JPG en ligne gratuitement | Img Pilot",
+      "description": "Convertissez PNG en JPG en ligne. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir PNG en JPG en ligne",
+      "intro": "Aplatissez les PNG transparents en fichiers JPG universellement compatibles lorsque l'alpha n'est plus nécessaire.",
+      "related": [
+        "png-à-webp",
+        "redimensionner-png",
+        "compresser-png",
+        "jpg-à-webp",
+        "webp-à-jpg",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de PNG en JPEG modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "convertir",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "png-à-webp",
+      "title": "Convertir PNG en WebP en ligne gratuitement | Img Pilot",
+      "description": "Convertissez PNG en WebP en ligne. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir PNG en WebP en ligne",
+      "intro": "Convertissez les images PNG en WebP en ligne tout en préservant la transparence. Créez des images plus petites prêtes pour le Web pour des sites Web plus rapides avec une conversion sécurisée basée sur un navigateur.",
+      "related": [
+        "webp-à-png",
+        "png-à-jpg",
+        "compresser-png",
+        "redimensionner-png",
+        "jpg-à-webp",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de PNG en WEBP modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "convertir",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "png-à-avif",
+      "title": "Convertisseur PNG en AVIF — Gratuit en ligne",
+      "description": "Convertissez PNG en AVIF. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir PNG en AVIF",
+      "intro": "Convertissez PNG en AVIF lorsque la prise en charge de l'encodeur est disponible sur ce déploiement.",
+      "related": [
+        "png-à-webp",
+        "jpg-à-avif",
+        "compresser-png",
+        "convertir-image"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de PNG en AVIF modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "convertir",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "webp-à-jpg",
+      "title": "Convertir WebP en JPG en ligne gratuitement | Img Pilot",
+      "description": "Convertissez WebP en JPG en ligne. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir WebP en JPG en ligne",
+      "intro": "Convertissez les images WebP en JPG pour une compatibilité maximale avec les e-mails, les documents, les téléchargements CMS et les logiciels plus anciens.",
+      "related": [
+        "jpg-à-webp",
+        "png-à-jpg",
+        "compresser-jpg",
+        "redimensionner-jpg",
+        "récolte-jpg",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de WEBP en JPEG modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "convertir",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "webp-à-png",
+      "title": "Convertir WebP en PNG en ligne gratuitement | Img Pilot",
+      "description": "Convertissez WebP en PNG en ligne. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir WebP en PNG en ligne",
+      "intro": "Convertissez les images WebP en PNG en ligne tout en préservant la transparence et la qualité de l'image pour les flux de travail de conception et d'édition.",
+      "related": [
+        "png-à-webp",
+        "png-à-jpg",
+        "webp-à-jpg",
+        "redimensionner-png",
+        "compresser-png",
+        "outils d'image en masse"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de WEBP en PNG modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "convertir",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Téléchargez l'image source",
+        "Confirmez le format cible",
+        "Convertir",
+        "Télécharger"
+      ],
+      "slug": "webp-à-avif",
+      "title": "Convertisseur WebP en AVIF — Gratuit en ligne",
+      "description": "Convertissez WebP en AVIF. Conversion d'invités privés avec rétention temporaire d'une heure.",
+      "h1": "Convertir WebP en AVIF",
+      "intro": "Convertissez WebP en AVIF uniquement lorsque l'encodage AVIF est pris en charge ici.",
+      "related": [
+        "webp-à-jpg",
+        "png-à-avif",
+        "compresser-webp",
+        "convertir-image"
+      ],
+      "benefits": [
+        "Utilise uniquement la matrice de conversion prise en charge",
+        "Mêmes règles de session invité et de nettoyage que Convert Image",
+        "Aucune paire non prise en charge inventée"
+      ],
+      "faqs": [
+        {
+          "q": "La conversion de WEBP en AVIF modifie-t-elle mon fichier d'origine ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Combien de temps le fichier converti est-il stocké ?",
+          "a": "Les fichiers invité sont supprimés environ une heure après le début de la session invité. Les téléchargements ne prolongent pas l’expiration."
+        },
+        {
+          "q": "Puis-je convertir plusieurs images ?",
+          "a": "Utilisez Bulk Image Tools pour plusieurs fichiers dans les limites de volume des invités ou des personnes connectées."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/compresser-jpg",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Taille plus petite, même qualité supérieure",
+      "features": [
+        {
+          "title": "Compression intelligente",
+          "tone": "bleu",
+          "body": "Compression intelligente adaptée aux images JPG."
+        },
+        {
+          "title": "Jusqu'à 80 % plus petit",
+          "body": "Réduisez considérablement la taille des fichiers pour des téléchargements et des chargements de pages plus rapides.",
+          "tone": "vert"
+        },
+        {
+          "title": "Parfait pour le Web",
+          "body": "Optimisez les images pour les sites Web, les blogs et les pages de produits.",
+          "tone": "violet"
+        },
+        {
+          "title": "Une qualité à laquelle vous pouvez faire confiance",
+          "body": "Prévisualisez avant de télécharger afin que la qualité reste sous votre contrôle.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Compresse"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "kind": "confidentialité",
+          "body": "Vos images sont traitées en privé pour la compression et supprimées automatiquement dans un délai d'une heure."
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Comment fonctionne la compression JPG ?",
+          "a": "L'outil réencode votre JPG avec des paramètres qui réduisent la taille du fichier tout en gardant le résultat visuellement utilisable."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge JPG jusqu'à 10 Mo."
+        },
+        {
+          "q": "La compression réduira-t-elle la qualité de l’image ?",
+          "a": "Des préréglages plus forts peuvent adoucir les détails les plus fins. Choisissez un préréglage plus clair lorsque l’apparence compte le plus et toujours un aperçu."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. La compression des invités fonctionne sans connexion."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités sont automatiquement supprimés dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Compresser les images JPG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Compressez les images JPG en ligne sans perte de qualité. Réduisez la taille du fichier JPG grâce au traitement des invités privés.",
+      "breadcrumbCurrent": "Compresser JPG en ligne",
+      "h1": "Compresser JPG en ligne",
+      "subtitle": "Réduisez la taille du fichier JPG sans perte de qualité",
+      "paragraph": "Compressez les images JPG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : JPG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/compress-png": {
+      "path": "/compresser-png",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Taille plus petite, même qualité supérieure",
+      "features": [
+        {
+          "title": "Compression intelligente",
+          "tone": "bleu",
+          "body": "Compression intelligente adaptée aux images PNG."
+        },
+        {
+          "title": "Jusqu'à 80 % plus petit",
+          "body": "Réduisez considérablement la taille des fichiers pour des téléchargements et des chargements de pages plus rapides.",
+          "tone": "vert"
+        },
+        {
+          "title": "Parfait pour le Web",
+          "body": "Optimisez les images pour les sites Web, les blogs et les pages de produits.",
+          "tone": "violet"
+        },
+        {
+          "title": "Une qualité à laquelle vous pouvez faire confiance",
+          "body": "Prévisualisez avant de télécharger afin que la qualité reste sous votre contrôle.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Compresse"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "kind": "confidentialité",
+          "body": "Vos images sont traitées en privé pour la compression et supprimées automatiquement dans un délai d'une heure."
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Comment fonctionne la compression PNG ?",
+          "a": "L'outil réencode votre PNG avec des paramètres qui réduisent la taille du fichier tout en gardant le résultat visuellement utilisable."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge PNG jusqu'à 10 Mo."
+        },
+        {
+          "q": "La compression réduira-t-elle la qualité de l’image ?",
+          "a": "Des préréglages plus forts peuvent adoucir les détails les plus fins. Choisissez un préréglage plus clair lorsque l’apparence compte le plus et toujours un aperçu."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. La compression des invités fonctionne sans connexion."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités sont automatiquement supprimés dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Compresser les images PNG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Compressez les images PNG en ligne sans perte de qualité. Réduisez la taille du fichier PNG grâce au traitement des invités privés.",
+      "breadcrumbCurrent": "Compresser PNG en ligne",
+      "h1": "Compresser PNG en ligne",
+      "subtitle": "Réduisez la taille du fichier PNG sans perte de qualité",
+      "paragraph": "Compressez les images PNG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : PNG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/compress-webp": {
+      "path": "/compresser-webp",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Taille plus petite, même qualité supérieure",
+      "features": [
+        {
+          "title": "Compression intelligente",
+          "tone": "bleu",
+          "body": "Compression intelligente adaptée aux images WebP."
+        },
+        {
+          "title": "Jusqu'à 80 % plus petit",
+          "body": "Réduisez considérablement la taille des fichiers pour des téléchargements et des chargements de pages plus rapides.",
+          "tone": "vert"
+        },
+        {
+          "title": "Parfait pour le Web",
+          "body": "Optimisez les images pour les sites Web, les blogs et les pages de produits.",
+          "tone": "violet"
+        },
+        {
+          "title": "Une qualité à laquelle vous pouvez faire confiance",
+          "body": "Prévisualisez avant de télécharger afin que la qualité reste sous votre contrôle.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Compresse"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "kind": "confidentialité",
+          "body": "Vos images sont traitées en privé pour la compression et supprimées automatiquement dans un délai d'une heure."
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Comment fonctionne la compression WebP ?",
+          "a": "L'outil réencode votre WebP avec des paramètres qui réduisent la taille du fichier tout en gardant le résultat visuellement utilisable."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge WebP jusqu'à 10 Mo."
+        },
+        {
+          "q": "La compression réduira-t-elle la qualité de l’image ?",
+          "a": "Des préréglages plus forts peuvent adoucir les détails les plus fins. Choisissez un préréglage plus clair lorsque l’apparence compte le plus et toujours un aperçu."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. La compression des invités fonctionne sans connexion."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités sont automatiquement supprimés dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Compresser les images WebP en ligne gratuitement | Img Pilot",
+      "metaDescription": "Compressez les images WebP en ligne sans perte de qualité. Réduisez la taille du fichier WebP grâce au traitement des invités privés.",
+      "breadcrumbCurrent": "Compresser WebP en ligne",
+      "h1": "Compresser WebP en ligne",
+      "subtitle": "Réduisez la taille du fichier WebP sans perte de qualité",
+      "paragraph": "Compressez les images WebP en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : WebP • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/resize-jpg": {
+      "path": "/resize-jpg",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Contrôle précis, résultats propres",
+      "features": [
+        {
+          "title": "Dimensions exactes",
+          "body": "Entrez la largeur et la hauteur qui correspondent à vos besoins de mise en page.",
+          "tone": "bleu"
+        },
+        {
+          "title": "Ajuster à l'intérieur",
+          "body": "Redimensionnez les images dans une boîte tout en préservant les proportions.",
+          "tone": "vert"
+        },
+        {
+          "title": "Pas de haut de gamme indésirable",
+          "body": "Les garde-corps permettent d’éviter d’étirer les petites sources.",
+          "tone": "violet"
+        },
+        {
+          "title": "Prêt pour le Web",
+          "tone": "orange",
+          "body": "Préparez des tailles JPG cohérentes pour les pages et les grilles."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Redimensionner"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour être redimensionnées et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Puis-je conserver les proportions ?",
+          "a": "Oui. Utilisez des dimensions d'ajustement ou liées pour que les images soient mises à l'échelle proprement."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge JPG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Le redimensionnement agrandira-t-il mon image ?",
+          "a": "Par défaut, les flux de travail évitent les agrandissements indésirables."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Redimensionnez en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Redimensionner les images JPG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Redimensionnez les images JPG en ligne en fonction de la largeur, de la hauteur ou de l'ajustement à l'intérieur. Outil invité privé sans compte requis.",
+      "breadcrumbCurrent": "Redimensionner JPG en ligne",
+      "h1": "Redimensionner JPG en ligne",
+      "subtitle": "Modifier les dimensions JPG pour le Web et les réseaux sociaux",
+      "paragraph": "Redimensionnez les images JPG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : JPG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/resize-png": {
+      "path": "/resize-png",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Contrôle précis, résultats propres",
+      "features": [
+        {
+          "title": "Dimensions exactes",
+          "body": "Entrez la largeur et la hauteur qui correspondent à vos besoins de mise en page.",
+          "tone": "bleu"
+        },
+        {
+          "title": "Ajuster à l'intérieur",
+          "body": "Redimensionnez les images dans une boîte tout en préservant les proportions.",
+          "tone": "vert"
+        },
+        {
+          "title": "Pas de haut de gamme indésirable",
+          "body": "Les garde-corps permettent d’éviter d’étirer les petites sources.",
+          "tone": "violet"
+        },
+        {
+          "title": "Prêt pour le Web",
+          "tone": "orange",
+          "body": "Préparez des tailles PNG cohérentes pour les pages et les grilles."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Redimensionner"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour être redimensionnées et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Puis-je conserver les proportions ?",
+          "a": "Oui. Utilisez des dimensions d'ajustement ou liées pour que les images soient mises à l'échelle proprement."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge PNG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Le redimensionnement agrandira-t-il mon image ?",
+          "a": "Par défaut, les flux de travail évitent les agrandissements indésirables."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Redimensionnez en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Redimensionner les images PNG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Redimensionnez les images PNG en ligne en fonction de la largeur, de la hauteur ou de l'ajustement à l'intérieur. Outil invité privé sans compte requis.",
+      "breadcrumbCurrent": "Redimensionner PNG en ligne",
+      "h1": "Redimensionner PNG en ligne",
+      "subtitle": "Modifier les dimensions PNG pour le Web et les réseaux sociaux",
+      "paragraph": "Redimensionnez les images PNG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : PNG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/resize-webp": {
+      "path": "/resize-webp",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Contrôle précis, résultats propres",
+      "features": [
+        {
+          "title": "Dimensions exactes",
+          "body": "Entrez la largeur et la hauteur qui correspondent à vos besoins de mise en page.",
+          "tone": "bleu"
+        },
+        {
+          "title": "Ajuster à l'intérieur",
+          "body": "Redimensionnez les images dans une boîte tout en préservant les proportions.",
+          "tone": "vert"
+        },
+        {
+          "title": "Pas de haut de gamme indésirable",
+          "body": "Les garde-corps permettent d’éviter d’étirer les petites sources.",
+          "tone": "violet"
+        },
+        {
+          "title": "Prêt pour le Web",
+          "tone": "orange",
+          "body": "Préparez des tailles WebP cohérentes pour les pages et les grilles."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Redimensionner"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour être redimensionnées et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Puis-je conserver les proportions ?",
+          "a": "Oui. Utilisez des dimensions d'ajustement ou liées pour que les images soient mises à l'échelle proprement."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge WebP jusqu'à 10 Mo."
+        },
+        {
+          "q": "Le redimensionnement agrandira-t-il mon image ?",
+          "a": "Par défaut, les flux de travail évitent les agrandissements indésirables."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Redimensionnez en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Redimensionner les images WebP en ligne gratuitement | Img Pilot",
+      "metaDescription": "Redimensionnez les images WebP en ligne en fonction de la largeur, de la hauteur ou de l'ajustement à l'intérieur. Outil invité privé sans compte requis.",
+      "breadcrumbCurrent": "Redimensionner WebP en ligne",
+      "h1": "Redimensionner WebP en ligne",
+      "subtitle": "Modifier les dimensions WebP pour le Web et les réseaux sociaux",
+      "paragraph": "Redimensionnez les images WebP en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : WebP • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Recadrez en toute confiance",
+      "features": [
+        {
+          "title": "Recadrage gratuit",
+          "body": "Sélectionnez n’importe quelle zone de l’image et conservez exactement cette région.",
+          "tone": "bleu"
+        },
+        {
+          "title": "Rapports fixes",
+          "body": "Utilisez des formats d’image courants pour des mises en page cohérentes.",
+          "tone": "vert"
+        },
+        {
+          "title": "Orientation sécuritaire",
+          "body": "Les calculs de recadrage respectent les dimensions orientées après le téléchargement.",
+          "tone": "violet"
+        },
+        {
+          "title": "Même format de sortie",
+          "tone": "orange",
+          "body": "Téléchargez un résultat JPG recadré."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Recadrer"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour être recadrées et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Puis-je recadrer en carré ?",
+          "a": "Oui. Choisissez un rapport 1:1 ou dessinez un recadrage gratuit."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge JPG jusqu'à 10 Mo."
+        },
+        {
+          "q": "L'original est-il écrasé ?",
+          "a": "Non. Le traitement crée un nouveau résultat recadré."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Recadrez en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/crop-jpg",
+      "metaTitle": "Recadrer JPG Images en ligne gratuites | Img Pilot",
+      "metaDescription": "Recadrez les images JPG en ligne avec des commandes gratuites ou à rapport fixe. Traitement des invités privés, aucun compte requis.",
+      "breadcrumbCurrent": "Recadrer JPG en ligne",
+      "h1": "Recadrer JPG en ligne",
+      "subtitle": "Gardez uniquement la partie de votre JPG qui compte",
+      "paragraph": "Recadrez les images JPG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : JPG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/crop-png": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Recadrez en toute confiance",
+      "features": [
+        {
+          "title": "Recadrage gratuit",
+          "body": "Sélectionnez n’importe quelle zone de l’image et conservez exactement cette région.",
+          "tone": "bleu"
+        },
+        {
+          "title": "Rapports fixes",
+          "body": "Utilisez des formats d’image courants pour des mises en page cohérentes.",
+          "tone": "vert"
+        },
+        {
+          "title": "Orientation sécuritaire",
+          "body": "Les calculs de recadrage respectent les dimensions orientées après le téléchargement.",
+          "tone": "violet"
+        },
+        {
+          "title": "Même format de sortie",
+          "tone": "orange",
+          "body": "Téléchargez un résultat PNG recadré."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Recadrer"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour être recadrées et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Puis-je recadrer en carré ?",
+          "a": "Oui. Choisissez un rapport 1:1 ou dessinez un recadrage gratuit."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge PNG jusqu'à 10 Mo."
+        },
+        {
+          "q": "L'original est-il écrasé ?",
+          "a": "Non. Le traitement crée un nouveau résultat recadré."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Recadrez en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/crop-png",
+      "metaTitle": "Recadrer PNG Images en ligne gratuites | Img Pilot",
+      "metaDescription": "Recadrez les images PNG en ligne avec des commandes gratuites ou à rapport fixe. Traitement des invités privés, aucun compte requis.",
+      "breadcrumbCurrent": "Recadrer PNG en ligne",
+      "h1": "Recadrer PNG en ligne",
+      "subtitle": "Gardez uniquement la partie de votre PNG qui compte",
+      "paragraph": "Recadrez les images PNG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : PNG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Recadrez en toute confiance",
+      "features": [
+        {
+          "title": "Recadrage gratuit",
+          "body": "Sélectionnez n’importe quelle zone de l’image et conservez exactement cette région.",
+          "tone": "bleu"
+        },
+        {
+          "title": "Rapports fixes",
+          "body": "Utilisez des formats d’image courants pour des mises en page cohérentes.",
+          "tone": "vert"
+        },
+        {
+          "title": "Orientation sécuritaire",
+          "body": "Les calculs de recadrage respectent les dimensions orientées après le téléchargement.",
+          "tone": "violet"
+        },
+        {
+          "title": "Même format de sortie",
+          "tone": "orange",
+          "body": "Téléchargez un résultat WebP recadré."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Recadrer"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour être recadrées et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Puis-je recadrer en carré ?",
+          "a": "Oui. Choisissez un rapport 1:1 ou dessinez un recadrage gratuit."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge WebP jusqu'à 10 Mo."
+        },
+        {
+          "q": "L'original est-il écrasé ?",
+          "a": "Non. Le traitement crée un nouveau résultat recadré."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Recadrez en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/crop-webp",
+      "metaTitle": "Recadrer WebP Images en ligne gratuites | Img Pilot",
+      "metaDescription": "Recadrez les images WebP en ligne avec des commandes gratuites ou à rapport fixe. Traitement des invités privés, aucun compte requis.",
+      "breadcrumbCurrent": "Recadrer WebP en ligne",
+      "h1": "Recadrer WebP en ligne",
+      "subtitle": "Gardez uniquement la partie de votre WebP qui compte",
+      "paragraph": "Recadrez les images WebP en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Format pris en charge : WebP • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-à-webp",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous WebP avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de JPG en WebP change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge JPG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "La conversion est-elle sans perte ?",
+          "a": "Cela dépend des formats source et cible. Les formats avec perte peuvent réduire la qualité pour une taille plus petite."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Convertir JPG en WebP en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images JPG en WebP en ligne pour des sites Web plus rapides. Conversion d'invités privés avec résultats vérifiés.",
+      "breadcrumbCurrent": "Convertisseur JPG en WebP",
+      "h1": "Convertir JPG en WebP en ligne",
+      "subtitle": "Passer de JPG à WebP sans logiciel de bureau",
+      "paragraph": "Convertissez les images JPG en WebP en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : JPG → WebP • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-à-png",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous PNG avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de JPG en PNG change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge JPG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "La conversion est-elle sans perte ?",
+          "a": "Cela dépend des formats source et cible. Les formats avec perte peuvent réduire la qualité pour une taille plus petite."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Convertir JPG en PNG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images JPG en PNG en ligne. Conversion d'invités privés avec résultats vérifiés.",
+      "breadcrumbCurrent": "Convertisseur JPG en PNG",
+      "h1": "Convertir JPG en PNG en ligne",
+      "subtitle": "Passer de JPG à PNG sans logiciel de bureau",
+      "paragraph": "Convertissez les images JPG en PNG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : JPG → PNG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-à-avif",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous AVIF avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de JPG en AVIF change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge JPG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "AVIF est-il toujours disponible ?",
+          "a": "L'encodage AVIF est proposé uniquement lorsque le serveur peut encoder et vérifier le résultat."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Convertir JPG en AVIF en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images JPG en AVIF en ligne lorsque l'encodage est disponible. Conversion d'invités privés.",
+      "breadcrumbCurrent": "Convertisseur JPG en AVIF",
+      "h1": "Convertir JPG en AVIF en ligne",
+      "subtitle": "Passer de JPG à AVIF sans logiciel de bureau",
+      "paragraph": "Convertissez les images JPG en AVIF en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : JPG → AVIF • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/png-to-jpg": {
+      "path": "/png-à-jpg",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous JPG avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de PNG en JPG change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge PNG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "La conversion est-elle sans perte ?",
+          "a": "Cela dépend des formats source et cible. Les formats avec perte peuvent réduire la qualité pour une taille plus petite."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Convertir PNG en JPG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images PNG en JPG en ligne. Conversion d'invités privés avec résultats vérifiés.",
+      "breadcrumbCurrent": "Convertisseur PNG en JPG",
+      "h1": "Convertir PNG en JPG en ligne",
+      "subtitle": "Passer de PNG à JPG sans logiciel de bureau",
+      "paragraph": "Convertissez les images PNG en JPG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : PNG → JPG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/png-to-webp": {
+      "path": "/png-à-webp",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous WebP avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de PNG en WebP change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge PNG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "La conversion est-elle sans perte ?",
+          "a": "Cela dépend des formats source et cible. Les formats avec perte peuvent réduire la qualité pour une taille plus petite."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Convertir PNG en WebP en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images PNG en WebP en ligne pour une diffusion Web plus petite. Conversion d'invités privés.",
+      "breadcrumbCurrent": "Convertisseur PNG en WebP",
+      "h1": "Convertir PNG en WebP en ligne",
+      "subtitle": "Passer de PNG à WebP sans logiciel de bureau",
+      "paragraph": "Convertissez les images PNG en WebP en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : PNG → WebP • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous AVIF avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de PNG en AVIF change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge PNG jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "AVIF est-il toujours disponible ?",
+          "a": "L'encodage AVIF est proposé uniquement lorsque le serveur peut encoder et vérifier le résultat."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/png-à-avif",
+      "metaTitle": "Convertir PNG en AVIF en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images PNG en AVIF en ligne lorsque l'encodage est disponible. Conversion d'invités privés.",
+      "breadcrumbCurrent": "Convertisseur PNG en AVIF",
+      "h1": "Convertir PNG en AVIF en ligne",
+      "subtitle": "Passer de PNG à AVIF sans logiciel de bureau",
+      "paragraph": "Convertissez les images PNG en AVIF en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : PNG → AVIF • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-à-jpg",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous JPG avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de WebP en JPG change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge WebP jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "La conversion est-elle sans perte ?",
+          "a": "Cela dépend des formats source et cible. Les formats avec perte peuvent réduire la qualité pour une taille plus petite."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Convertir WebP en JPG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images WebP en JPG en ligne. Conversion d'invités privés avec résultats vérifiés.",
+      "breadcrumbCurrent": "Convertisseur WebP en JPG",
+      "h1": "Convertir WebP en JPG en ligne",
+      "subtitle": "Passer de WebP à JPG sans logiciel de bureau",
+      "paragraph": "Convertissez les images WebP en JPG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : WebP → JPG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/webp-to-png": {
+      "path": "/webp-à-png",
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous PNG avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de WebP en PNG change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge WebP jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "La conversion est-elle sans perte ?",
+          "a": "Cela dépend des formats source et cible. Les formats avec perte peuvent réduire la qualité pour une taille plus petite."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "metaTitle": "Convertir WebP en PNG en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images WebP en PNG en ligne. Conversion d'invités privés avec résultats vérifiés.",
+      "breadcrumbCurrent": "Convertisseur WebP en PNG",
+      "h1": "Convertir WebP en PNG en ligne",
+      "subtitle": "Passer de WebP à PNG sans logiciel de bureau",
+      "paragraph": "Convertissez les images WebP en PNG en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : WebP → PNG • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Modifications de format simplifiées",
+      "features": [
+        {
+          "tone": "bleu",
+          "title": "Effacer la cible",
+          "body": "La sortie est enregistrée sous AVIF avec des résultats vérifiés."
+        },
+        {
+          "tone": "vert",
+          "title": "Outil invité rapide",
+          "body": "Téléchargez, convertissez et téléchargez en une seule session privée."
+        },
+        {
+          "title": "Adapté au Web",
+          "tone": "violet",
+          "body": "Utilisez le format qui correspond à votre site ou flux de travail."
+        },
+        {
+          "title": "Sortie honnête",
+          "tone": "orange",
+          "body": "Connaissez le type et la taille résultants avant le téléchargement."
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Téléchargez votre image"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Aperçu du résultat"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "body": "Vos images sont traitées en privé pour la conversion et supprimées automatiquement dans un délai d'une heure.",
+          "kind": "confidentialité"
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "La conversion de WebP en AVIF change-t-elle mon original ?",
+          "a": "Non. Le traitement invité écrit une sortie distincte. Votre téléchargement reste privé et expire avec la session."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Les téléchargements d'invités prennent en charge WebP jusqu'à 10 Mo."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Non. Convertissez-vous en tant qu'invité. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "AVIF est-il toujours disponible ?",
+          "a": "L'encodage AVIF est proposé uniquement lorsque le serveur peut encoder et vérifier le résultat."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/webp-à-avif",
+      "metaTitle": "Convertir WebP en AVIF en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez les images WebP en AVIF en ligne lorsque l'encodage est disponible. Conversion d'invités privés.",
+      "breadcrumbCurrent": "Convertisseur WebP en AVIF",
+      "h1": "Convertir WebP en AVIF en ligne",
+      "subtitle": "Passer de WebP à AVIF sans logiciel de bureau",
+      "paragraph": "Convertissez les images WebP en AVIF en quelques secondes. Outil en ligne gratuit – aucun compte requis.",
+      "workspaceNote": "Pris en charge : WebP → AVIF • Taille maximale du fichier : 10 Mo. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Vitesse des lots avec des limites claires",
+      "features": [
+        {
+          "title": "Paramètres partagés",
+          "tone": "bleu",
+          "body": "Appliquez un choix de compression à travers le lot."
+        },
+        {
+          "title": "Statut par fichier",
+          "body": "Découvrez quelles images ont réussi et lesquelles nécessitent une attention particulière.",
+          "tone": "vert"
+        },
+        {
+          "title": "ZIP Télécharger",
+          "body": "Collectez les résultats réussis lorsque le lot est prêt.",
+          "tone": "violet"
+        },
+        {
+          "title": "Casquettes Invité",
+          "body": "La taille du lot et le nombre total d’octets suivent la politique relative aux invités gratuits.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Télécharger un lot"
+        },
+        {
+          "title": "Compresse"
+        },
+        {
+          "title": "Traiter les fichiers"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "kind": "confidentialité",
+          "body": "Vos images sont traitées en privé pour une compression groupée et supprimées automatiquement dans un délai d'une heure."
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Combien de fichiers puis-je télécharger ?",
+          "a": "Les tâches en masse d'invités imposent un nombre maximum de fichiers et une taille totale de lot."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Chaque fichier suit la taille maximale de l'invité et le lot a une limite totale d'octets."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Les invités peuvent exécuter des tâches en masse limitées. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Que se passe-t-il si un fichier échoue ?",
+          "a": "Les résultats réussis restent téléchargeables ; les éléments ayant échoué affichent un statut d'erreur."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/compression en vrac",
+      "metaTitle": "Compresser des images en masse en ligne gratuitement | Img Pilot",
+      "metaDescription": "Compressez plusieurs images en ligne et téléchargez ensemble les résultats réussis. Des limites de nombre d'invités s'appliquent.",
+      "breadcrumbCurrent": "Compresser des images en masse",
+      "h1": "Compresser des images en masse en ligne",
+      "subtitle": "Compressez un court lot sans répéter chaque étape",
+      "paragraph": "Compressez plusieurs fichiers JPG, PNG ou WebP en un seul lot. Des limites d'invités gratuits s'appliquent.",
+      "workspaceNote": "Formats pris en charge : JPG, PNG, WebP • Des limites de lots d'invités s'appliquent. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Vitesse des lots avec des limites claires",
+      "features": [
+        {
+          "title": "Paramètres partagés",
+          "tone": "bleu",
+          "body": "Appliquez un choix de redimensionnement à l’ensemble du lot."
+        },
+        {
+          "title": "Statut par fichier",
+          "body": "Découvrez quelles images ont réussi et lesquelles nécessitent une attention particulière.",
+          "tone": "vert"
+        },
+        {
+          "title": "ZIP Télécharger",
+          "body": "Collectez les résultats réussis lorsque le lot est prêt.",
+          "tone": "violet"
+        },
+        {
+          "title": "Casquettes Invité",
+          "body": "La taille du lot et le nombre total d’octets suivent la politique relative aux invités gratuits.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Télécharger un lot"
+        },
+        {
+          "title": "Redimensionner"
+        },
+        {
+          "title": "Traiter les fichiers"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "kind": "confidentialité",
+          "body": "Vos images sont traitées en privé pour un redimensionnement groupé et supprimées automatiquement dans un délai d'une heure."
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Combien de fichiers puis-je télécharger ?",
+          "a": "Les tâches en masse d'invités imposent un nombre maximum de fichiers et une taille totale de lot."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Chaque fichier suit la taille maximale de l'invité et le lot a une limite totale d'octets."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Les invités peuvent exécuter des tâches en masse limitées. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Que se passe-t-il si un fichier échoue ?",
+          "a": "Les résultats réussis restent téléchargeables ; les éléments ayant échoué affichent un statut d'erreur."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/redimensionner en masse",
+      "metaTitle": "Redimensionner en masse des images en ligne gratuitement | Img Pilot",
+      "metaDescription": "Redimensionnez plusieurs images en ligne et téléchargez ensemble les résultats réussis. Des limites de nombre d'invités s'appliquent.",
+      "breadcrumbCurrent": "Redimensionner les images en masse",
+      "h1": "Redimensionner en masse des images en ligne",
+      "subtitle": "Redimensionnez un petit lot sans répéter chaque étape",
+      "paragraph": "Redimensionnez plusieurs fichiers JPG, PNG ou WebP en un seul lot. Des limites d'invités gratuits s'appliquent.",
+      "workspaceNote": "Formats pris en charge : JPG, PNG, WebP • Des limites de lots d'invités s'appliquent. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Aucun compte requis",
+        "Traitement privé et sécurisé",
+        "Suppression automatique dans 1 heure"
+      ],
+      "featuresHeading": "Vitesse des lots avec des limites claires",
+      "features": [
+        {
+          "title": "Paramètres partagés",
+          "tone": "bleu",
+          "body": "Appliquez un choix de conversion dans le lot."
+        },
+        {
+          "title": "Statut par fichier",
+          "body": "Découvrez quelles images ont réussi et lesquelles nécessitent une attention particulière.",
+          "tone": "vert"
+        },
+        {
+          "title": "ZIP Télécharger",
+          "body": "Collectez les résultats réussis lorsque le lot est prêt.",
+          "tone": "violet"
+        },
+        {
+          "title": "Casquettes Invité",
+          "body": "La taille du lot et le nombre total d’octets suivent la politique relative aux invités gratuits.",
+          "tone": "orange"
+        }
+      ],
+      "howHeading": "Comment ça marche",
+      "howSteps": [
+        {
+          "title": "Télécharger un lot"
+        },
+        {
+          "title": "Convertir"
+        },
+        {
+          "title": "Traiter les fichiers"
+        },
+        {
+          "title": "Télécharger"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Votre vie privée est importante",
+          "kind": "confidentialité",
+          "body": "Vos images sont traitées en privé pour une conversion groupée et supprimées automatiquement dans un délai d'une heure."
+        },
+        {
+          "title": "Rapide et efficace",
+          "body": "Le traitement des invités basé sur le cloud fournit des résultats en quelques secondes sans installer de logiciel.",
+          "kind": "vitesse"
+        }
+      ],
+      "faqHeading": "Foire aux questions",
+      "faqs": [
+        {
+          "q": "Combien de fichiers puis-je télécharger ?",
+          "a": "Les tâches en masse d'invités imposent un nombre maximum de fichiers et une taille totale de lot."
+        },
+        {
+          "q": "Y a-t-il une limite de taille de fichier ?",
+          "a": "Chaque fichier suit la taille maximale de l'invité et le lot a une limite totale d'octets."
+        },
+        {
+          "q": "Ai-je besoin d'un compte ?",
+          "a": "Les invités peuvent exécuter des tâches en masse limitées. Les fichiers expirent dans une heure."
+        },
+        {
+          "q": "Que se passe-t-il si un fichier échoue ?",
+          "a": "Les résultats réussis restent téléchargeables ; les éléments ayant échoué affichent un statut d'erreur."
+        },
+        {
+          "q": "Mes images sont-elles stockées de manière permanente ?",
+          "a": "Non. Les téléchargements et les résultats des invités expirent dans un délai d'une heure."
+        }
+      ],
+      "path": "/conversion en masse",
+      "metaTitle": "Convertir des images en masse en ligne gratuitement | Img Pilot",
+      "metaDescription": "Convertissez plusieurs images en ligne et téléchargez ensemble les résultats réussis. Des limites de nombre d'invités s'appliquent.",
+      "breadcrumbCurrent": "Convertir des images en masse",
+      "h1": "Convertir des images en masse en ligne",
+      "subtitle": "Convertissez un petit lot sans répéter chaque étape",
+      "paragraph": "Convertissez plusieurs fichiers JPG, PNG ou WebP en un seul lot. Des limites d'invités gratuits s'appliquent.",
+      "workspaceNote": "Formats pris en charge : JPG, PNG, WebP • Des limites de lots d'invités s'appliquent. Vos fichiers sont privés et automatiquement supprimés dans un délai d'une heure."
+    }
+  }
+}

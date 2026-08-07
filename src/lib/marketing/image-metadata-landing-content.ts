@@ -1,7 +1,8 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Image Metadata viewer hub — inspect-only; never rewrites the source image.
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type ImageMetadataFaq = {q: string; a: string};
 
@@ -76,7 +77,7 @@ export type ImageMetadataCopy = {
 };
 
 const en: ImageMetadataCopy = {
-  metaTitle: "View Image Metadata Online Free | SEO Images",
+  metaTitle: "View Image Metadata Online Free | Img Pilot",
   metaDescription:
     "Inspect EXIF, dimensions and GPS on JPG, PNG and WebP images online. Read-only image metadata viewer with safe allow-listed fields and copy or export summaries.",
   h1: "View Image Metadata Online",
@@ -112,7 +113,7 @@ const en: ImageMetadataCopy = {
     title: "Inspect Image Metadata Before You Publish or Archive",
     paragraphs: [
       "Image files carry more than pixels. EXIF blocks can record camera make and model, exposure settings, capture date, orientation, color profile hints and sometimes GPS coordinates. That context helps debug wrong rotations, trace photo origins and decide whether location data should travel with a public upload.",
-      "SEO Images metadata viewer is inspect-only. Upload JPG, PNG or WebP, run a read pass, and review allow-listed fields in the workspace. The engine does not write metadata back into your file — for drafting alt text or SEO sidecars, use the Metadata Editor instead.",
+      "Img Pilot metadata viewer is inspect-only. Upload JPG, PNG or WebP, run a read pass, and review allow-listed fields in the workspace. The engine does not write metadata back into your file — for drafting alt text or SEO sidecars, use the Metadata Editor instead.",
       "Guest uploads expire on the countdown above the workspace. Copy or export summaries before the session ends if you need them offline.",
     ],
   },
@@ -195,7 +196,7 @@ const en: ImageMetadataCopy = {
 };
 
 const ur: ImageMetadataCopy = {
-  metaTitle: "آن لائن امیج میٹا ڈیٹا دیکھیں مفت | SEO Images",
+  metaTitle: "آن لائن امیج میٹا ڈیٹا دیکھیں مفت | Img Pilot",
   metaDescription:
     "JPG, PNG اور WebP تصاویر پر EXIF، ابعاد اور GPS آن لائن دیکھیں۔ صرف پڑھنے والا metadata viewer محفوظ فیلڈز کے ساتھ۔",
   h1: "آن لائن امیج میٹا ڈیٹا دیکھیں",
@@ -230,7 +231,7 @@ const ur: ImageMetadataCopy = {
     title: "شائع یا آرکائیو سے پہلے metadata دیکھیں",
     paragraphs: [
       "امیج فائلوں میں pixels سے زیادہ ہوتا ہے۔ EXIF میں کیمرہ، exposure، تاریخ، orientation، color profile اور有时 GPS ہو سکتا ہے۔",
-      "SEO Images metadata viewer inspect-only ہے۔ JPG, PNG یا WebP اپلوڈ کریں اور allow-listed فیلڈز دیکھیں۔ فائل rewrite نہیں ہوتی — alt text یا SEO sidecars کے لیے Metadata Editor استعمال کریں۔",
+      "Img Pilot metadata viewer inspect-only ہے۔ JPG, PNG یا WebP اپلوڈ کریں اور allow-listed فیلڈز دیکھیں۔ فائل rewrite نہیں ہوتی — alt text یا SEO sidecars کے لیے Metadata Editor استعمال کریں۔",
       "گیسٹ اپلوڈز کاؤنٹ ڈاؤن پر ختم ہوتے ہیں۔ offline record چاہیے تو summaries export کریں۔",
     ],
   },
@@ -313,9 +314,9 @@ const ur: ImageMetadataCopy = {
 };
 
 export function getImageMetadataCopy(locale: string): ImageMetadataCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isImageMetadataLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

@@ -1,10 +1,10 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "SEO Images Public API",
+    "title": "Img Pilot Public API",
     "version": "1",
     "description": "Bearer-authenticated REST API for projects, image uploads, processing, AI metadata, and exports. Every response is a JSON envelope: `{ \"ok\": true, \"data\": ..., \"meta\"?: ..., \"requestId\": ... }` on success, or `{ \"ok\": false, \"error\": { \"code\", \"message\", \"details\"? }, \"requestId\": ... }` on failure. Manage keys and webhooks from Dashboard → Settings → Developer.",
-    "contact": {"name": "SEO Images", "url": "https://seoimages.example.com/docs/api"}
+    "contact": {"name": "Img Pilot", "url": "https://seoimages.example.com/docs/api"}
   },
   "servers": [{"url": "https://app.seoimages.example.com/api/v1", "description": "Production"}],
   "security": [{"bearerAuth": []}],

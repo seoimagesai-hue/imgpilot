@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Segera hadir",
+    "openMenu": "Buka navigasi",
+    "closeMenu": "Tutup navigasi",
+    "mainNavigation": "Navigasi utama"
+  },
+  "navigation": {
+    "dashboard": "Dasbor",
+    "projects": "Proyek",
+    "usage": "Analitik",
+    "billing": "Penagihan",
+    "developer": "Pengembang",
+    "integrations": "Integrasi",
+    "automation": "Otomasi",
+    "settings": "Pengaturan akun",
+    "organizations": "Organisasi"
+  },
+  "language": {
+    "label": "Bahasa antarmuka",
+    "english": "Bahasa inggris",
+    "urdu": "bahasa Urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Alat gambar",
+    "compress": "Kompres",
+    "resize": "Ubah ukuran",
+    "convert": "Konversi",
+    "seoTools": "Alat SEO",
+    "bulkTools": "Alat massal",
+    "openAppGrid": "Buka menu alat",
+    "appGridTitle": "Alat dan sumber daya",
+    "languageHint": "Preferensi bahasa",
+    "menu": "Menu",
+    "close": "Tutup",
+    "footerBlurb": "Alat online pribadi untuk mengompres, mengubah ukuran, mengonversi, dan menyiapkan gambar untuk web.",
+    "popularFormats": "Format populer",
+    "company": "Perusahaan",
+    "resources": "Sumber daya",
+    "rights": "Hak cipta dilindungi."
+  },
+  "errors": {
+    "generic": "Ada yang tidak beres."
+  }
+}

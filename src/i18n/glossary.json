@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "doNotTranslate": [
+    "Img Pilot",
+    "JPG",
+    "JPEG",
+    "PNG",
+    "WebP",
+    "AVIF",
+    "EXIF",
+    "GPS",
+    "SEO",
+    "HTML",
+    "JSON",
+    "CSV",
+    "ZIP",
+    "CMS",
+    "WordPress",
+    "Cloudflare R2",
+    "R2",
+    "Ctrl+V",
+    "⌘V"
+  ],
+  "preferred": {
+    "Alt text": {
+      "es": "Texto alt",
+      "fr": "Texte alt",
+      "de": "Alt-Text",
+      "pt": "Texto alt",
+      "ar": "النص البديل",
+      "ur": "Alt متن",
+      "ja": "代替テキスト",
+      "ko": "대체 텍스트",
+      "ru": "Alt-текст",
+      "hi": "Alt टेक्स्ट"
+    },
+    "Metadata": {
+      "es": "Metadatos",
+      "fr": "Métadonnées",
+      "de": "Metadaten",
+      "pt": "Metadados",
+      "ar": "البيانات الوصفية",
+      "ur": "میٹا ڈیٹا",
+      "ja": "メタデータ",
+      "ko": "메타데이터",
+      "ru": "Метаданные",
+      "hi": "मेटाडेटा"
+    }
+  },
+  "forbidden": {
+    "unlimited": "Do not claim unlimited processing in any locale",
+    "lossless always": "Do not claim always-lossless compression"
+  },
+  "notes": {
+    "ar": "RTL layout; keep filenames and format codes LTR",
+    "ur": "RTL layout; keep English format codes",
+    "ja": "Prefer concise UI labels; keep Img Pilot Latin",
+    "ko": "Prefer concise UI labels; keep Img Pilot Latin"
+  }
+}

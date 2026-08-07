@@ -331,11 +331,13 @@ Indexes: `project_id`; `(project_id, status)`; `(project_id, created_at)`; uniqu
 - Reconcile: `npx tsx scripts/reconcile-billing.ts` (dry-run default)
 - Still out of scope: inventing prices, super-admin billing, revenue analytics, card forms
 
-### Public marketing website (Prompt 23)
+### Public marketing website (Prompt 23 + Phase 3 Prompt 1)
 - Route group: `src/app/[locale]/(marketing)/**` with dedicated layout (PublicHeader / PublicFooter / skip link)
 - Dashboard (`(dashboard)`) and admin (`/admin`) layouts remain separate and protected; public pages do not require auth
-- Locale prefixes always-on (`en` / `ur`); root `/` redirects to default locale; locale switch preserves nearest path
-- Marketing copy: `src/messages/marketing/{en,ur}.json` merged in i18n request config
+- Locale prefixes: English unprefixed (`as-needed`); 24 other locales under `/{locale}/...`; `/en/*` 301 → English root; RTL for `ar`/`ur`
+- Layer 1 UI messages: `src/messages/**`; marketing catalogs: `src/content/locales/{locale}/**` + `_status`
+- Translation CLI (server/CLI only): `scripts/i18n/{extract,audit,translate,populate-curated}.ts` with provider abstraction + glossary/TM
+- Indexability gate (`src/i18n/indexability.ts`) filters sitemap, hreflang, and robots for incomplete locales/pages
 - Pricing view: `src/server/marketing/pricing-view.ts` reads `listActivePlans()` — shows limits; never invents `$` amounts; Checkout entry only when Price IDs exist (otherwise “pricing being configured”)
 - Checkout remains existing `/api/billing/checkout` (server Price resolution); browsers cannot submit arbitrary Price IDs
 - Docs: source-controlled TSX pages via `src/server/marketing/docs-content.tsx` — no marketing CMS
@@ -344,6 +346,7 @@ Indexes: `project_id`; `(project_id, status)`; `(project_id, created_at)`; uniqu
 - Contact: validated form only (no ticket platform); support email from env when set
 - Cache boundary: marketing pages must not embed user-specific project/admin data
 - Claims policy: only verified product behaviour; CMS packages are export kits, not live publishing
+- Machine-translated content is labelled in `_status` until human review — never claim professional approval by default
 
 ### Super-admin operations (Prompt 22)
 - Role model: `users.role` = `user` | `super_admin` (default `user`); never client-controlled

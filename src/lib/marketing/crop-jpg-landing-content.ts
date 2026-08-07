@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Crop JPG landing — composition / social crop focus (distinct from resize & compress).
  */
@@ -88,7 +89,7 @@ export type CropJpgCopy = {
 };
 
 const en: CropJpgCopy = {
-  metaTitle: "Crop JPG Images Online Free | SEO Images",
+  metaTitle: "Crop JPG Images Online Free | Img Pilot",
   metaDescription:
     "Crop JPG images online using precise crop controls and popular aspect ratios. Download your cropped image securely in seconds.",
   h1: "Crop JPG Images Online",
@@ -318,7 +319,7 @@ const en: CropJpgCopy = {
 };
 
 const ur: CropJpgCopy = {
-  metaTitle: "آن لائن JPG تصاویر کراپ کریں مفت | SEO Images",
+  metaTitle: "آن لائن JPG تصاویر کراپ کریں مفت | Img Pilot",
   metaDescription:
     "درست کراپ کنٹرولز اور مقبول آسپیکٹ ریشوز کے ساتھ آن لائن JPG کراپ کریں۔ سیکنڈز میں محفوظ طریقے سے کراپ شدہ تصویر ڈاؤن لوڈ کریں۔",
   h1: "آن لائن JPG تصاویر کراپ کریں",
@@ -547,7 +548,7 @@ const ur: CropJpgCopy = {
 };
 
 export function getCropJpgCopy(locale: string): CropJpgCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function cropJpgSeoCompat() {

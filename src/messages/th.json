@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "เร็ว ๆ นี้",
+    "openMenu": "เปิดเมนูนำทาง",
+    "closeMenu": "ปิดเมนูนำทาง",
+    "mainNavigation": "การนำทางหลัก"
+  },
+  "navigation": {
+    "dashboard": "แดชบอร์ด",
+    "projects": "โปรเจกต์",
+    "usage": "การวิเคราะห์",
+    "billing": "การเรียกเก็บเงิน",
+    "developer": "นักพัฒนา",
+    "integrations": "การเชื่อมต่อ",
+    "automation": "ระบบอัตโนมัติ",
+    "settings": "การตั้งค่าบัญชี",
+    "organizations": "องค์กร"
+  },
+  "language": {
+    "label": "ภาษาของอินเทอร์เฟซ",
+    "english": "ภาษาอังกฤษ",
+    "urdu": "ภาษาอูรดู",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "เครื่องมือรูปภาพ",
+    "compress": "บีบอัด",
+    "resize": "ปรับขนาด",
+    "convert": "แปลง",
+    "seoTools": "เครื่องมือ SEO",
+    "bulkTools": "เครื่องมือแบบชุด",
+    "openAppGrid": "เปิดเมนูเครื่องมือ",
+    "appGridTitle": "เครื่องมือและทรัพยากร",
+    "languageHint": "การตั้งค่าภาษา",
+    "menu": "เมนู",
+    "close": "ปิด",
+    "footerBlurb": "เครื่องมือออนไลน์แบบส่วนตัวสำหรับบีบอัด ปรับขนาด แปลง และเตรียมรูปภาพสำหรับเว็บ",
+    "popularFormats": "รูปแบบยอดนิยม",
+    "company": "บริษัท",
+    "resources": "ทรัพยากร",
+    "rights": "สงวนลิขสิทธิ์"
+  },
+  "errors": {
+    "generic": "มีบางอย่างผิดพลาด"
+  }
+}

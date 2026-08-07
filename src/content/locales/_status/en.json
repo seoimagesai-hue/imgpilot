@@ -1,0 +1,11 @@
+{
+  "locale": "en",
+  "updatedAt": "2026-08-06T21:11:55.236Z",
+  "layers": {
+    "layer1_ui": "approved",
+    "layer2_tools": "approved",
+    "layer3_homepage": "approved",
+    "layer4_seo": "approved"
+  },
+  "pages": {}
+}

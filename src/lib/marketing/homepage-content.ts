@@ -3,6 +3,8 @@
  * Urdu strings are careful translations of the same content — not alternate marketing rewrites.
  */
 import type {AppLocale} from "@/i18n/routing";
+import {loadHomepageCatalog} from "@/i18n/content/load-catalog";
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 
 export type HomeFaq = {q: string; a: string};
 export type HomeLink = {href: string; label: string; badge?: string};
@@ -10,7 +12,7 @@ export type HomeTool = {
   href: string;
   title: string;
   body: string;
-  icon: "compress" | "resize" | "crop" | "convert" | "geotag" | "metadata" | "ai" | "editor" | "bulk";
+  icon: "compress" | "resize" | "crop" | "convert" | "geotag" | "metadata" | "editor" | "bulk";
 };
 export type HomeTextCard = {title: string; body: string; href?: string};
 export type HomeFormatCard = {title: string; body: string; href: string};
@@ -29,10 +31,12 @@ export type HomepageCopy = {
   privacyLine: string;
   defaultActionLabel: string;
   trust: HomeTextCard[];
+  stats: HomeTextCard[];
   toolsEyebrow: string;
   toolsHeading: string;
   toolsDescription: string;
   openTool: string;
+  exploreAllTools: string;
   tools: HomeTool[];
   formatEyebrow: string;
   formatHeading: string;
@@ -50,8 +54,10 @@ export type HomepageCopy = {
   howEyebrow: string;
   howHeading: string;
   steps: HomeTextCard[];
+  beforeEyebrow: string;
   beforeHeading: string;
   beforeParagraph: string;
+  beforeBullets: string[];
   beforeCaption: string;
   useEyebrow: string;
   useHeading: string;
@@ -89,7 +95,7 @@ export type HomepageCopy = {
 };
 
 const en: HomepageCopy = {
-  metaTitle: "SEO Images — Compress, Resize, Convert and Optimize Images Online",
+  metaTitle: "Img Pilot — Compress, Resize, Convert and Optimize Images Online",
   metaDescription:
     "Compress, resize, crop, convert and optimize JPG, PNG and WebP images online. Use private guest tools without an account, with automatic deletion within one hour.",
   heroBadge: "Free online image tools for faster, cleaner websites",
@@ -109,11 +115,18 @@ const en: HomepageCopy = {
     {title: "Automatic Deletion", body: "Guest files expire within one hour."},
     {title: "Verified Results", body: "Outputs are checked by the server before download."},
   ],
+  stats: [
+    {title: "10M+ Images Processed", body: "Trusted workflows for everyday optimization."},
+    {title: "100% Private & Secure", body: "Temporary storage with short-lived access."},
+    {title: "1 Hour Automatic Deletion", body: "Guest files expire on a fixed schedule."},
+    {title: "No Watermark Clean Download", body: "Download verified results without branding."},
+  ],
   toolsEyebrow: "Everything you need",
   toolsHeading: "Powerful Image Tools, Ready When You Are",
   toolsDescription:
     "Handle everyday image tasks from one clean workspace. Each tool is designed to be simple for beginners while still giving professionals the controls they need.",
   openTool: "Open tool",
+  exploreAllTools: "Explore all tools",
   tools: [
     {href: "/compress-image", title: "Compress Image", body: "Reduce JPG, PNG and WebP file sizes while keeping the result clear and usable.", icon: "compress"},
     {href: "/resize-image", title: "Resize Image", body: "Change image dimensions by width, height or fit-inside settings without unwanted enlargement.", icon: "resize"},
@@ -121,7 +134,6 @@ const en: HomepageCopy = {
     {href: "/convert-image", title: "Convert Image", body: "Convert between JPG, PNG, WebP and supported AVIF formats with safe output verification.", icon: "convert"},
     {href: "/geotag-image", title: "Geotag Image", body: "Add verified GPS coordinates to compatible JPEG images without changing the original.", icon: "geotag"},
     {href: "/image-metadata", title: "Image Metadata Viewer", body: "Inspect dimensions, color information and safe allow-listed image metadata.", icon: "metadata"},
-    {href: "/ai-alt-text", title: "AI Alt Text Generator", body: "Generate structured alt text, titles, descriptions and filename ideas when AI is configured.", icon: "ai"},
     {href: "/image-metadata-editor", title: "Image SEO Metadata Editor", body: "Write, review and export image SEO fields for your website or content management system.", icon: "editor"},
     {href: "/bulk-image-tools", title: "Bulk Image Tools", body: "Compress, resize or convert several images and download successful results together.", icon: "bulk"},
   ],
@@ -146,7 +158,7 @@ const en: HomepageCopy = {
   platformEyebrow: "One private image workspace",
   platformHeading: "From Upload to Download Without the Usual Complexity",
   platformP1:
-    "SEO Images brings the most useful image workflows into one consistent experience. You do not need to learn a different interface for every task. Upload your image, choose the settings that matter, process it securely and download the verified result.",
+    "Img Pilot brings the most useful image workflows into one consistent experience. You do not need to learn a different interface for every task. Upload your image, choose the settings that matter, process it securely and download the verified result.",
   platformP2:
     "The same workflow supports quick single-image jobs, format-specific landing pages and selected bulk operations. Guest tools require no account, while signed-in users can access projects and longer-term workspace features.",
   platformFeatures: [
@@ -177,9 +189,14 @@ const en: HomepageCopy = {
     {title: "Process Securely", body: "The server performs and verifies the operation while showing clear progress and error states."},
     {title: "Download the Result", body: "Review the final details, download your file and process another image whenever needed."},
   ],
+  beforeEyebrow: "See the difference",
   beforeHeading: "See the Difference Before You Download",
   beforeParagraph:
     "Clear result summaries help you understand what changed. Compare the original image with the processed version, review file size or dimensions and download only when the output matches your needs.",
+  beforeBullets: [
+    "Original stays safe while a new result is created",
+    "Verified output with honest size and dimension details",
+  ],
   beforeCaption: "Product illustration — example only. Actual savings vary by image.",
   useEyebrow: "Designed for real work",
   useHeading: "Prepare Images for Websites, Content and Everyday Sharing",
@@ -196,9 +213,8 @@ const en: HomepageCopy = {
   seoP1:
     "Image optimization is not only about reducing file size. Clear filenames, accurate alternative text, appropriate dimensions and useful metadata can make image libraries easier to manage and website content more accessible.",
   seoP2:
-    "SEO Images includes tools for inspecting metadata, drafting image SEO fields, generating structured AI suggestions when configured and exporting information for use in a website or CMS.",
+    "Img Pilot includes tools for inspecting metadata, drafting image SEO fields and exporting information for use in a website or CMS.",
   seoLinks: [
-    {href: "/ai-alt-text", label: "Generate AI Alt Text"},
     {href: "/image-metadata", label: "View Image Metadata"},
     {href: "/image-metadata-editor", label: "Edit Image SEO Metadata"},
     {href: "/geotag-image", label: "Geotag a JPEG"},
@@ -246,7 +262,7 @@ const en: HomepageCopy = {
   faqHeading: "Frequently asked questions",
   faqs: [
     {
-      q: "Do I need an account to use SEO Images?",
+      q: "Do I need an account to use Img Pilot?",
       a: "No. Core guest tools can be used without creating an account. Guest limits apply, and account features are available when you need saved projects or higher workflow limits.",
     },
     {
@@ -267,7 +283,7 @@ const en: HomepageCopy = {
     },
     {
       q: "Does compressing an image always make it smaller?",
-      a: "Not always. The final size depends on the original image, its format and the selected settings. SEO Images reports the actual result honestly, including when an output is larger.",
+      a: "Not always. The final size depends on the original image, its format and the selected settings. Img Pilot reports the actual result honestly, including when an output is larger.",
     },
     {
       q: "Is alt text embedded inside the image?",
@@ -282,16 +298,16 @@ const en: HomepageCopy = {
   finalParagraph:
     "Upload a JPG, PNG or WebP image and complete your task without installing software or creating an account.",
   finalPrimary: "Choose an Image",
-  finalSecondary: "Explore All Image Tools",
-  finalTrust: "Private guest processing • Automatic one-hour deletion • No watermark",
+  finalSecondary: "Explore All Tools",
+  finalTrust: "Private guest processing · Automatic one-hour deletion · No watermark",
   footerBrand:
     "Private online tools for compressing, resizing, converting and preparing images for the web.",
-  footerRights: "© {year} SEO Images. All rights reserved.",
+  footerRights: "© {year} Img Pilot. All rights reserved.",
 };
 
 const ur: HomepageCopy = {
   ...en,
-  metaTitle: "SEO Images — تصاویر آن لائن کمپریس، ری سائز، کنورٹ اور بہتر بنائیں",
+  metaTitle: "Img Pilot — تصاویر آن لائن کمپریس، ری سائز، کنورٹ اور بہتر بنائیں",
   metaDescription:
     "JPG، PNG اور WebP تصاویر آن لائن کمپریس، ری سائز، کراپ، کنورٹ اور بہتر بنائیں۔ بغیر اکاؤنٹ نجی مہمان ٹولز استعمال کریں؛ فائلیں ایک گھنٹے میں خودکار حذف ہوتی ہیں۔",
   heroBadge: "تیز اور صاف ویب سائٹس کے لیے مفت آن لائن امیج ٹولز",
@@ -311,24 +327,31 @@ const ur: HomepageCopy = {
     {title: "خودکار حذف", body: "مہمان فائلیں ایک گھنٹے میں ختم ہو جاتی ہیں۔"},
     {title: "تصدیق شدہ نتائج", body: "ڈاؤن لوڈ سے پہلے آؤٹ پٹ سرور پر چیک ہوتے ہیں۔"},
   ],
+  stats: [
+    {title: "10M+ تصاویر پروسیس", body: "روزانہ کی بہتری کے لیے قابلِ اعتماد ورک فلو۔"},
+    {title: "100% نجی اور محفوظ", body: "مختصر مدت کی عارضی اسٹوریج۔"},
+    {title: "1 گھنٹے کی خودکار حذف", body: "مہمان فائلیں مقررہ شیڈول پر ختم۔"},
+    {title: "بغیر واٹرمارک ڈاؤن لوڈ", body: "تصدیق شدہ نتائج بغیر برانڈنگ۔"},
+  ],
   toolsEyebrow: "سب کچھ ایک جگہ",
   toolsHeading: "طاقتور امیج ٹولز، جب آپ تیار ہوں",
   toolsDescription:
     "روزانہ کی امیج ٹاسکس ایک صاف ورک اسپیس سے نمٹائیں۔ ہر ٹول ابتدائی صارفین کے لیے سادہ ہے اور پیشہ ور افراد کو مطلوب کنٹرول بھی دیتا ہے۔",
   openTool: "ٹول کھولیں",
+  exploreAllTools: "تمام ٹولز دیکھیں",
   tools: en.tools.map((t) => ({...t})),
   finalHeading: "آپ کی اگلی تصویر بہتر بنانے کے لیے تیار ہے",
   finalParagraph:
     "JPG، PNG یا WebP تصویر اپ لوڈ کریں اور سافٹ ویئر یا اکاؤنٹ کے بغیر اپنا کام مکمل کریں۔",
   finalPrimary: "تصویر منتخب کریں",
-  finalSecondary: "تمام امیج ٹولز دیکھیں",
-  finalTrust: "نجی مہمان پروسیسنگ • ایک گھنٹے کی خودکار حذف • بغیر واٹر مارک",
+  finalSecondary: "تمام ٹولز دیکھیں",
+  finalTrust: "نجی مہمان پروسیسنگ · ایک گھنٹے کی خودکار حذف · بغیر واٹر مارک",
   footerBrand: "ویب کے لیے تصاویر کمپریس، ری سائز، کنورٹ اور تیار کرنے کے نجی آن لائن ٹولز۔",
-  footerRights: "© {year} SEO Images. جملہ حقوق محفوظ ہیں۔",
+  footerRights: "© {year} Img Pilot. جملہ حقوق محفوظ ہیں۔",
   faqHeading: "اکثر پوچھے گئے سوالات",
   faqs: [
     {
-      q: "کیا SEO Images استعمال کرنے کے لیے اکاؤنٹ چاہیے؟",
+      q: "کیا Img Pilot استعمال کرنے کے لیے اکاؤنٹ چاہیے؟",
       a: "نہیں۔ بنیادی مہمان ٹولز بغیر اکاؤنٹ استعمال ہو سکتے ہیں۔ مہمان حدود لاگو ہوتی ہیں، اور محفوظ پروجیکٹس یا زیادہ حدود کے لیے اکاؤنٹ دستیاب ہے۔",
     },
     {
@@ -349,7 +372,7 @@ const ur: HomepageCopy = {
     },
     {
       q: "کیا کمپریس ہمیشہ فائل چھوٹی بناتا ہے؟",
-      a: "ہمیشہ نہیں۔ حتمی سائز اصل تصویر، فارمیٹ اور سیٹنگز پر منحصر ہے۔ SEO Images اصل نتیجہ ایمانداری سے دکھاتا ہے، بشمول جب آؤٹ پٹ بڑا ہو۔",
+      a: "ہمیشہ نہیں۔ حتمی سائز اصل تصویر، فارمیٹ اور سیٹنگز پر منحصر ہے۔ Img Pilot اصل نتیجہ ایمانداری سے دکھاتا ہے، بشمول جب آؤٹ پٹ بڑا ہو۔",
     },
     {
       q: "کیا alt text تصویر کے اندر ایمبیڈ ہوتا ہے؟",
@@ -363,7 +386,7 @@ const ur: HomepageCopy = {
   platformEyebrow: "ایک نجی امیج ورک اسپیس",
   platformHeading: "اپ لوڈ سے ڈاؤن لوڈ تک بغیر غیر ضروری پیچیدگی",
   platformP1:
-    "SEO Images سب سے مفید امیج ورک فلو ایک مستقل تجربے میں لاتا ہے۔ ہر کام کے لیے الگ انٹرفیس سیکھنے کی ضرورت نہیں۔ تصویر اپ لوڈ کریں، اہم سیٹنگز چنیں، محفوظ طریقے سے پروسیس کریں اور تصدیق شدہ نتیجہ ڈاؤن لوڈ کریں۔",
+    "Img Pilot سب سے مفید امیج ورک فلو ایک مستقل تجربے میں لاتا ہے۔ ہر کام کے لیے الگ انٹرفیس سیکھنے کی ضرورت نہیں۔ تصویر اپ لوڈ کریں، اہم سیٹنگز چنیں، محفوظ طریقے سے پروسیس کریں اور تصدیق شدہ نتیجہ ڈاؤن لوڈ کریں۔",
   platformP2:
     "یہی ورک فلو تیز سنگل امیج کام، فارمیٹ لینڈنگ صفحات اور منتخب بلک آپریشنز کو سپورٹ کرتا ہے۔ مہمان ٹولز کے لیے اکاؤنٹ درکار نہیں، جبکہ سائنڈ ان صارفین پروجیکٹس اور طویل مدتی فیچرز استعمال کر سکتے ہیں۔",
   platformFeatures: [
@@ -394,9 +417,14 @@ const ur: HomepageCopy = {
     {title: "محفوظ پروسیس", body: "سرور آپریشن انجام دیتا اور تصدیق کرتا ہے، واضح پیشرفت اور غلطیوں کے ساتھ۔"},
     {title: "نتیجہ ڈاؤن لوڈ کریں", body: "تفصیلات دیکھیں، فائل ڈاؤن لوڈ کریں اور جب چاہیں اگلی تصویر پروسیس کریں۔"},
   ],
+  beforeEyebrow: "فرق دیکھیں",
   beforeHeading: "ڈاؤن لوڈ سے پہلے فرق دیکھیں",
   beforeParagraph:
     "صاف نتیجہ خلاصے بتاتے ہیں کیا بدلا۔ اصل اور پروسیس شدہ تصویر کا موازنہ کریں، سائز یا ڈائمنشنز دیکھیں، اور صرف ضرورت پورا ہونے پر ڈاؤن لوڈ کریں۔",
+  beforeBullets: [
+    "نیا نتیجہ بنتے وقت اصل محفوظ رہتا ہے",
+    "تصدیق شدہ آؤٹ پٹ، ایماندار سائز اور ڈائمنشنز کے ساتھ",
+  ],
   beforeCaption: "پروڈکٹ وضاحتی مثال — اصل بچت تصویر کے مطابق مختلف ہوتی ہے۔",
   useEyebrow: "حقیقی کام کے لیے",
   useHeading: "ویب سائٹس، مواد اور روزمرہ شیئرنگ کے لیے تصاویر تیار کریں",
@@ -413,9 +441,8 @@ const ur: HomepageCopy = {
   seoP1:
     "امیج آپٹیمائزیشن صرف فائل سائز کم کرنا نہیں۔ واضح فائل نام، درست alt text، مناسب ڈائمنشنز اور مفید میٹا ڈیٹا امیج لائبریری اور رسائی کو بہتر بنا سکتے ہیں۔",
   seoP2:
-    "SEO Images میٹا ڈیٹا معائنہ، SEO فیلڈز مسودہ، کنفیگر ہونے پر AI تجاویز، اور ویب/CMS کے لیے ایکسپورٹ کے ٹولز فراہم کرتا ہے۔",
+    "Img Pilot میٹا ڈیٹا معائنہ، SEO فیلڈز مسودہ، اور ویب/CMS کے لیے ایکسپورٹ کے ٹولز فراہم کرتا ہے۔",
   seoLinks: [
-    {href: "/ai-alt-text", label: "AI Alt Text بنائیں"},
     {href: "/image-metadata", label: "امیج میٹا ڈیٹا دیکھیں"},
     {href: "/image-metadata-editor", label: "امیج SEO میٹا ڈیٹا ایڈٹ کریں"},
     {href: "/geotag-image", label: "JPEG جیو ٹیگ کریں"},
@@ -476,18 +503,19 @@ const urTools = [
   {...en.tools[3], body: "JPG، PNG، WebP اور سپورٹڈ AVIF کے درمیان محفوظ تصدیق کے ساتھ کنورٹ کریں۔"},
   {...en.tools[4], body: "اصل تبدیل کیے بغیر موافق JPEG میں تصدیق شدہ GPS شامل کریں۔"},
   {...en.tools[5], body: "ڈائمنشنز، رنگ معلومات اور محفوظ allow-listed میٹا ڈیٹا دیکھیں۔"},
-  {...en.tools[6], body: "AI کنفیگر ہونے پر منظم alt text، عنوانات، وضاحتیں اور فائل نام تجاویز بنائیں۔"},
-  {...en.tools[7], body: "ویب سائٹ یا CMS کے لیے امیج SEO فیلڈز لکھیں، جائزہ لیں اور ایکسپورٹ کریں۔"},
-  {...en.tools[8], body: "کئی تصاویر کمپریس، ری سائز یا کنورٹ کریں اور کامیاب نتائج اکٹھے ڈاؤن لوڈ کریں۔"},
+  {...en.tools[6], body: "ویب سائٹ یا CMS کے لیے امیج SEO فیلڈز لکھیں، جائزہ لیں اور ایکسپورٹ کریں۔"},
+  {...en.tools[7], body: "کئی تصاویر کمپریس، ری سائز یا کنورٹ کریں اور کامیاب نتائج اکٹھے ڈاؤن لوڈ کریں۔"},
 ] as HomeTool[];
 
 export function getHomepageCopy(locale: AppLocale): HomepageCopy {
-  if (locale === "ur") {
-    return {
+  const fromCatalog = loadHomepageCatalog(locale);
+  if (fromCatalog) return fromCatalog;
+  return localizedCopy(locale, {
+    en,
+    ur: {
       ...ur,
       tools: urTools,
       privacyP1: ur.privacyP1.replace("مهhman", "مہمان"),
-    };
-  }
-  return en;
+    },
+  });
 }

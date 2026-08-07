@@ -1,8 +1,9 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
- * About SEO Images — premium company / EEAT page.
+ * About Img Pilot — premium company / EEAT page.
  * Honest product story only: no fake dates, team photos, or invented stats.
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type AboutFaq = {q: string; a: string};
 
@@ -78,15 +79,15 @@ export type AboutCopy = {
 };
 
 const en: AboutCopy = {
-  metaTitle: "About SEO Images",
+  metaTitle: "About Img Pilot",
   metaDescription:
-    "Learn more about SEO Images and our mission to make image optimization faster, easier and more accessible through modern browser-based tools.",
+    "Learn more about Img Pilot and our mission to make image optimization faster, easier and more accessible through modern browser-based tools.",
   breadcrumbCurrent: "About",
   hero: {
-    badge: "ABOUT SEO IMAGES",
+    badge: "ABOUT IMG PILOT",
     h1: "Making Image Optimization Simple for Everyone",
     paragraph:
-      "SEO Images helps businesses, marketers, designers, developers and everyday users optimize images directly from the browser. Our goal is to make image conversion, compression, resizing and optimization simple, secure and accessible without requiring complicated software.",
+      "Img Pilot helps businesses, marketers, designers, developers and everyday users optimize images directly from the browser. Our goal is to make image conversion, compression, resizing and optimization simple, secure and accessible without requiring complicated software.",
     exploreCta: "Explore Tools",
     contactCta: "Contact Us",
     heroImageAlt:
@@ -98,20 +99,20 @@ const en: AboutCopy = {
       "Image work should not require installing heavy desktop suites for every small change. Our mission is to make conversion, compression, resizing and cropping simple enough that a marketer can finish a campaign asset, a developer can prepare performant delivery formats and a designer can tighten composition — all in the browser.",
       "We focus on time. Uploading a file, choosing a clear control and downloading a result should take minutes, not a scavenger hunt through export menus. Faster image workflows mean landing pages ship sooner, catalogs stay consistent and creators spend energy on the message instead of the toolchain.",
       "Website performance sits at the center of that promise. Correct formats, honest dimensions and leaner files help pages feel quicker on real networks. When businesses publish clearer media, visitors notice. When developers standardize on modern containers, stacks stay easier to maintain.",
-      "SEO Images exists for that mix of creators, teams and builders who need dependable guest tools today and deeper project workflows when they are ready to sign in — without turning image optimization into a specialist chore.",
+      "Img Pilot exists for that mix of creators, teams and builders who need dependable guest tools today and deeper project workflows when they are ready to sign in — without turning image optimization into a specialist chore.",
     ],
   },
   story: {
     title: "Built Around Real Workflows",
     paragraphs: [
       "Traditional image software is powerful, but it is often slow for everyday web tasks. Opening a full editor to convert a PNG, compress a hero or crop a story frame breaks flow. Browser-based tools remove that friction: open a page, drop a file and keep working.",
-      "Modern delivery also changed what “good enough” means. JPG and PNG still matter, while WebP and other formats reshape how teams balance quality and weight. SEO Images grows a library around those practical jobs — convert, compress, resize, crop and bulk passes — so people can stay in one place instead of hopping between single-purpose utilities.",
+      "Modern delivery also changed what “good enough” means. JPG and PNG still matter, while WebP and other formats reshape how teams balance quality and weight. Img Pilot grows a library around those practical jobs — convert, compress, resize, crop and bulk passes — so people can stay in one place instead of hopping between single-purpose utilities.",
       "Privacy shapes the product as much as performance. Guest uploads are meant for temporary work: private storage, clear retention and no public gallery of other people’s files. That approach lets someone try a tool quickly without treating every upload like a permanent archive.",
       "As the library expands, the goal stays steady: honest controls that map to real engines, clear limits and pages that explain when to convert versus compress versus resize. We would rather under-claim than invent milestones. The product improves by covering real formats and workflows people already need, not by stacking empty badges.",
     ],
   },
   why: {
-    eyebrow: "WHY SEO IMAGES",
+    eyebrow: "WHY IMG PILOT",
     title: "Built for Browser-First Image Work",
     cards: [
       {
@@ -182,7 +183,7 @@ const en: AboutCopy = {
     eyebrow: "WHAT MAKES US DIFFERENT",
     title: "A Focused Image Optimization Platform",
     intro:
-      "SEO Images is not a generic file dump or a social gallery. It is a set of browser tools and account workflows built around publishing better images.",
+      "Img Pilot is not a generic file dump or a social gallery. It is a set of browser tools and account workflows built around publishing better images.",
     cards: [
       {
         title: "Tool clusters, not orphan pages",
@@ -236,7 +237,7 @@ const en: AboutCopy = {
   security: {
     title: "Privacy Comes First",
     paragraphs: [
-      "Browser-based image tools only earn trust when uploads are treated carefully. SEO Images is designed so quick optimization jobs do not become permanent copies of your files on a public shelf.",
+      "Browser-based image tools only earn trust when uploads are treated carefully. Img Pilot is designed so quick optimization jobs do not become permanent copies of your files on a public shelf.",
     ],
     points: [
       "Guest processing is temporary — retention is shown in the tool UI",
@@ -248,11 +249,11 @@ const en: AboutCopy = {
   faqHeading: "Frequently Asked Questions",
   faqs: [
     {
-      q: "What is SEO Images?",
-      a: "SEO Images is a browser-based platform for converting, compressing, resizing and cropping images for websites, marketing and everyday publishing.",
+      q: "What is Img Pilot?",
+      a: "Img Pilot is a browser-based platform for converting, compressing, resizing and cropping images for websites, marketing and everyday publishing.",
     },
     {
-      q: "Who is SEO Images for?",
+      q: "Who is Img Pilot for?",
       a: "Businesses, marketers, designers, developers and individuals who need dependable image tools without installing heavy desktop software for every task.",
     },
     {
@@ -268,12 +269,12 @@ const en: AboutCopy = {
       a: "Guest files use temporary private storage and are deleted according to the retention countdown shown in the tool. There is no public gallery of uploads.",
     },
     {
-      q: "Is SEO Images only a compress tool?",
+      q: "Is Img Pilot only a compress tool?",
       a: "No. The product includes convert, compress, resize and crop hubs, format-specific pages and bulk tools for multi-file jobs.",
     },
     {
-      q: "How is SEO Images different from desktop editors?",
-      a: "Desktop editors are excellent for deep creative work. SEO Images focuses on fast, browser-based optimization tasks people repeat while publishing to the web.",
+      q: "How is Img Pilot different from desktop editors?",
+      a: "Desktop editors are excellent for deep creative work. Img Pilot focuses on fast, browser-based optimization tasks people repeat while publishing to the web.",
     },
     {
       q: "How can I contact the team?",
@@ -289,15 +290,15 @@ const en: AboutCopy = {
 };
 
 const ur: AboutCopy = {
-  metaTitle: "SEO Images کے بارے میں",
+  metaTitle: "Img Pilot کے بارے میں",
   metaDescription:
-    "SEO Images کے بارے میں مزید جانیں اور ہماری اس مشن کو سمجھیں کہ جدید براؤزر پر مبنی ٹولز سے امیج آپٹیمائزیشن کو تیز، آسان اور زیادہ قابلِ رسائی بنایا جائے۔",
+    "Img Pilot کے بارے میں مزید جانیں اور ہماری اس مشن کو سمجھیں کہ جدید براؤزر پر مبنی ٹولز سے امیج آپٹیمائزیشن کو تیز، آسان اور زیادہ قابلِ رسائی بنایا جائے۔",
   breadcrumbCurrent: "تعارف",
   hero: {
-    badge: "ABOUT SEO IMAGES",
+    badge: "ABOUT IMG PILOT",
     h1: "امیج آپٹیمائزیشن سب کے لیے آسان بنانا",
     paragraph:
-      "SEO Images کاروباروں، مارکیٹرز، ڈیزائنرز، ڈیولپرز اور روزمرہ صارفین کو براؤزر سے ہی امیجز آپٹیمائز کرنے میں مدد دیتا ہے۔ ہمارا ہدف امیج کنورژن، کمپریشن، ری سائز اور آپٹیمائزیشن کو سادہ، محفوظ اور قابلِ رسائی بنانا ہے — بغیر پیچیدہ سافٹ ویئر کے۔",
+      "Img Pilot کاروباروں، مارکیٹرز، ڈیزائنرز، ڈیولپرز اور روزمرہ صارفین کو براؤزر سے ہی امیجز آپٹیمائز کرنے میں مدد دیتا ہے۔ ہمارا ہدف امیج کنورژن، کمپریشن، ری سائز اور آپٹیمائزیشن کو سادہ، محفوظ اور قابلِ رسائی بنانا ہے — بغیر پیچیدہ سافٹ ویئر کے۔",
     exploreCta: "ٹولز دیکھیں",
     contactCta: "رابطہ کریں",
     heroImageAlt:
@@ -309,20 +310,20 @@ const ur: AboutCopy = {
       "امیج کا کام ہر چھوٹی تبدیلی کے لیے بھاری ڈیسک ٹاپ سوئٹس انسٹال کرنے کا متقاضی نہیں ہونا چاہیے۔ ہمارا مشن کنورژن، کمپریشن، ری سائز اور کراپ کو اتنا سادہ بنانا ہے کہ مارکیٹر مہم کا اثاثہ مکمل کر سکے، ڈیولپر کارکردگی والے فارمیٹس تیار کر سکے اور ڈیزائنر کمپوزیشن سخت کر سکے — سب براؤزر میں۔",
       "ہم وقت پر توجہ دیتے ہیں۔ فائل اپلوڈ کرنا، واضح کنٹرول منتخب کرنا اور نتیجہ ڈاؤن لوڈ کرنا منٹوں کا کام ہونا چاہیے، ایکسپورٹ مینو کی تلاش نہیں۔ تیز امیج ورک فلو کا مطلب ہے لینڈنگ پیجز جلد شائع ہوں، کیٹلاگز مستقل رہیں اور تخلیق کار پیغام پر توانائی لگائیں نہ کہ ٹول چین پر۔",
       "ویب سائٹ کی کارکردگی اس وعدے کے مرکز میں ہے۔ درست فارمیٹس، ایماندار ابعاد اور ہلکی فائلیں حقیقی نیٹ ورکس پر صفحات کو تیز محسوس کراتی ہیں۔ جب کاروبار واضح میڈیا شائع کریں تو زائرین نوٹس کرتے ہیں۔ جب ڈیولپرز جدید کنٹینرز پر معیاری بنیں تو سٹیک برقرار رکھنا آسان رہتا ہے۔",
-      "SEO Images اس مرکب کے لیے موجود ہے — تخلیق کار، ٹیمیں اور بلڈرز جو آج قابلِ اعتماد گیسٹ ٹولز چاہتے ہیں اور جب سائن ان کے لیے تیار ہوں تو گہرے پروجیکٹ ورک فلو — بغیر امیج آپٹیمائزیشن کو ماہرین کا بوجھ بنائے۔",
+      "Img Pilot اس مرکب کے لیے موجود ہے — تخلیق کار، ٹیمیں اور بلڈرز جو آج قابلِ اعتماد گیسٹ ٹولز چاہتے ہیں اور جب سائن ان کے لیے تیار ہوں تو گہرے پروجیکٹ ورک فلو — بغیر امیج آپٹیمائزیشن کو ماہرین کا بوجھ بنائے۔",
     ],
   },
   story: {
     title: "حقیقی ورک فلو کے گرد بنایا گیا",
     paragraphs: [
       "روایتی امیج سافٹ ویئر طاقتور ہوتا ہے، مگر روزمرہ ویب کاموں کے لیے اکثر سست لگتا ہے۔ صرف PNG کنورٹ، ہیرو کمپریس یا اسٹوری کراپ کرنے کے لیے پورا ایڈیٹر کھولنا بہاؤ توڑ دیتا ہے۔ براؤزر پر مبنی ٹولز وہ رگڑ کم کرتے ہیں: صفحہ کھولیں، فائل ڈالیں اور کام جاری رکھیں۔",
-      "جدید ڈیلیوری نے یہ بھی بدلا کہ “کافی اچھا” کیا ہے۔ JPG اور PNG اب بھی اہم ہیں، جبکہ WebP اور دیگر فارمیٹس معیار اور وزن کا توازن بدل رہے ہیں۔ SEO Images ان عملی کاموں کے گرد لائبریری بڑھاتا ہے — کنورٹ، کمپریس، ری سائز، کراپ اور بلک پاسز — تاکہ لوگ الگ الگ یوٹیلیٹیز کے درمیان نہ بھٹکیں۔",
+      "جدید ڈیلیوری نے یہ بھی بدلا کہ “کافی اچھا” کیا ہے۔ JPG اور PNG اب بھی اہم ہیں، جبکہ WebP اور دیگر فارمیٹس معیار اور وزن کا توازن بدل رہے ہیں۔ Img Pilot ان عملی کاموں کے گرد لائبریری بڑھاتا ہے — کنورٹ، کمپریس، ری سائز، کراپ اور بلک پاسز — تاکہ لوگ الگ الگ یوٹیلیٹیز کے درمیان نہ بھٹکیں۔",
       "پرائیویسی مصنوعات کو کارکردگی جتنی ہی شکل دیتی ہے۔ گیسٹ اپلوڈز عارضی کام کے لیے ہیں: نجی اسٹوریج، واضح برقرار رکھنا اور دوسروں کی فائلوں کی عوامی گیلری نہیں۔ یہ نقطۂ نظر بغیر ہر اپلوڈ کو مستقل آرکائیو سمجھے ٹول آزمانے دیتا ہے۔",
       "جیسے لائبریری پھیلتی ہے، ہدف مستحکم رہتا ہے: ایماندار کنٹرولز جو حقیقی انجنز سے جڑیں، واضح حدود اور صفحات جو بتائیں کب کنورٹ، کمپریس یا ری سائز کریں۔ ہم خالی بیجز کے بجائے حقیقی فارمیٹس اور ورک فلو کو ترجیح دیتے ہیں — بغیر فرضی تاریخوں یا اعداد کے۔",
     ],
   },
   why: {
-    eyebrow: "SEO IMAGES کیوں",
+    eyebrow: "IMG PILOT کیوں",
     title: "براؤزر فرسٹ امیج کام کے لیے بنایا گیا",
     cards: [
       {
@@ -393,7 +394,7 @@ const ur: AboutCopy = {
     eyebrow: "ہمیں کیا الگ بناتا ہے",
     title: "مرکوز امیج آپٹیمائزیشن پلیٹ فارم",
     intro:
-      "SEO Images عمومی فائل ڈمپ یا سوشل گیلری نہیں۔ یہ براؤزر ٹولز اور اکاؤنٹ ورک فلو ہیں جو بہتر امیجز شائع کرنے کے گرد بنائے گئے ہیں۔",
+      "Img Pilot عمومی فائل ڈمپ یا سوشل گیلری نہیں۔ یہ براؤزر ٹولز اور اکاؤنٹ ورک فلو ہیں جو بہتر امیجز شائع کرنے کے گرد بنائے گئے ہیں۔",
     cards: [
       {
         title: "ٹول کلسٹرز، اکیلے صفحات نہیں",
@@ -446,7 +447,7 @@ const ur: AboutCopy = {
   security: {
     title: "پرائیویسی پہلے آتی ہے",
     paragraphs: [
-      "براؤزر پر مبنی امیج ٹولز صرف اس وقت اعتماد جیتتے ہیں جب اپلوڈز کا احتیاط سے خیال رکھا جائے۔ SEO Images اس طرح ڈیزائن ہے کہ فوری آپٹیمائزیشن کام آپ کی فائلوں کی عوامی شیلف پر مستقل کاپیاں نہ بن جائیں۔",
+      "براؤزر پر مبنی امیج ٹولز صرف اس وقت اعتماد جیتتے ہیں جب اپلوڈز کا احتیاط سے خیال رکھا جائے۔ Img Pilot اس طرح ڈیزائن ہے کہ فوری آپٹیمائزیشن کام آپ کی فائلوں کی عوامی شیلف پر مستقل کاپیاں نہ بن جائیں۔",
     ],
     points: [
       "گیسٹ پروسیسنگ عارضی ہے — برقرار رکھنا ٹول UI میں دکھایا جاتا ہے",
@@ -458,11 +459,11 @@ const ur: AboutCopy = {
   faqHeading: "عمومی سوالات",
   faqs: [
     {
-      q: "SEO Images کیا ہے؟",
-      a: "SEO Images ویب سائٹس، مارکیٹنگ اور روزمرہ اشاعت کے لیے امیجز کنورٹ، کمپریس، ری سائز اور کراپ کرنے کا براؤزر پر مبنی پلیٹ فارم ہے۔",
+      q: "Img Pilot کیا ہے؟",
+      a: "Img Pilot ویب سائٹس، مارکیٹنگ اور روزمرہ اشاعت کے لیے امیجز کنورٹ، کمپریس، ری سائز اور کراپ کرنے کا براؤزر پر مبنی پلیٹ فارم ہے۔",
     },
     {
-      q: "SEO Images کس کے لیے ہے؟",
+      q: "Img Pilot کس کے لیے ہے؟",
       a: "کاروبار، مارکیٹرز، ڈیزائنرز، ڈیولپرز اور افراد جو ہر کام کے لیے بھاری ڈیسک ٹاپ سافٹ ویئر انسٹال کیے بغیر قابلِ اعتماد امیج ٹولز چاہتے ہیں۔",
     },
     {
@@ -478,12 +479,12 @@ const ur: AboutCopy = {
       a: "گیسٹ فائلیں عارضی نجی اسٹوریج استعمال کرتی ہیں اور ٹول میں دکھائے گئے برقرار رکھنے کے کاؤنٹ ڈاؤن کے مطابق حذف ہوتی ہیں۔ اپلوڈز کی عوامی گیلری نہیں۔",
     },
     {
-      q: "کیا SEO Images صرف کمپریس ٹول ہے؟",
+      q: "کیا Img Pilot صرف کمپریس ٹول ہے؟",
       a: "نہیں۔ مصنوعات میں کنورٹ، کمپریس، ری سائز اور کراپ ہبز، فارمیٹ مخصوص صفحات اور کئی فائلوں کے لیے بلک ٹولز شامل ہیں۔",
     },
     {
-      q: "SEO Images ڈیسک ٹاپ ایڈیٹرز سے کیسے الگ ہے؟",
-      a: "ڈیسک ٹاپ ایڈیٹرز گہرے تخلیقی کام کے لیے بہترین ہیں۔ SEO Images ان تیز براؤزر پر مبنی آپٹیمائزیشن کاموں پر مرکوز ہے جو لوگ ویب پر شائع کرتے وقت دہراتے ہیں۔",
+      q: "Img Pilot ڈیسک ٹاپ ایڈیٹرز سے کیسے الگ ہے؟",
+      a: "ڈیسک ٹاپ ایڈیٹرز گہرے تخلیقی کام کے لیے بہترین ہیں۔ Img Pilot ان تیز براؤزر پر مبنی آپٹیمائزیشن کاموں پر مرکوز ہے جو لوگ ویب پر شائع کرتے وقت دہراتے ہیں۔",
     },
     {
       q: "ٹیم سے کیسے رابطہ کریں؟",
@@ -499,9 +500,9 @@ const ur: AboutCopy = {
 };
 
 export function getAboutCopy(locale: string): AboutCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isAboutLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

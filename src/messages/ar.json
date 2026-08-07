@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "قريبًا",
+    "openMenu": "فتح التنقل",
+    "closeMenu": "إغلاق التنقل",
+    "mainNavigation": "التنقل الرئيسي"
+  },
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "projects": "المشاريع",
+    "usage": "التحليلات",
+    "billing": "الفوترة",
+    "developer": "المطور",
+    "integrations": "عمليات التكامل",
+    "automation": "الأتمتة",
+    "settings": "إعدادات الحساب",
+    "organizations": "المؤسسات"
+  },
+  "language": {
+    "label": "لغة الواجهة",
+    "english": "إنجليزي",
+    "urdu": "الأردية",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "أدوات الصور",
+    "compress": "ضغط",
+    "resize": "تغيير الحجم",
+    "convert": "تحويل",
+    "seoTools": "أدوات SEO",
+    "bulkTools": "أدوات مجمّعة",
+    "openAppGrid": "فتح قائمة الأدوات",
+    "appGridTitle": "الأدوات والموارد",
+    "languageHint": "تفضيل اللغة",
+    "menu": "القائمة",
+    "close": "إغلاق",
+    "footerBlurb": "أدوات خاصة عبر الإنترنت لضغط الصور وتغيير حجمها وتحويلها وتجهيزها للويب.",
+    "popularFormats": "الصيغ الشائعة",
+    "company": "الشركة",
+    "resources": "الموارد",
+    "rights": "جميع الحقوق محفوظة."
+  },
+  "errors": {
+    "generic": "حدث خطأ ما."
+  }
+}

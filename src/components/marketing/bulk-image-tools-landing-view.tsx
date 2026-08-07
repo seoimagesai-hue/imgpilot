@@ -1,3 +1,4 @@
+import {isRtlLocale} from "@/i18n/routing";
 import Image from "next/image";
 import {Link} from "@/i18n/navigation";
 import {BulkToolWorkspace} from "@/components/guest/bulk-tool-workspace";
@@ -9,7 +10,7 @@ import {
 import {Breadcrumbs} from "@/components/marketing/landing-sections";
 import {JsonLd} from "@/components/marketing/json-ld";
 import {getBulkImageToolsCopy} from "@/lib/marketing/bulk-image-tools-landing-content";
-import {getPublicAppOrigin} from "@/server/marketing/seo";
+import {absoluteUrl, getPublicAppOrigin} from "@/server/marketing/seo";
 
 function Eyebrow({children}: {children: string}) {
   return (
@@ -122,8 +123,8 @@ export function BulkImageToolsLandingView({
   const copy = getBulkImageToolsCopy(locale);
   const origin = getPublicAppOrigin();
   const path = "/bulk-image-tools";
-  const pageUrl = `${origin}/${locale}${path}`;
-  const isRtl = locale === "ur";
+  const pageUrl = absoluteUrl(locale, path);
+  const isRtl = isRtlLocale(locale);
 
   const crumbs = [
     {href: "/", label: isRtl ? "ہوم" : "Home"},
@@ -151,7 +152,7 @@ export function BulkImageToolsLandingView({
         "@type": "ListItem",
         position: index + 1,
         name: crumb.name,
-        item: `${origin}/${locale}${crumb.path === "/" ? "" : crumb.path}`,
+        item: absoluteUrl(locale, crumb.path),
       })),
     },
     {
@@ -166,7 +167,7 @@ export function BulkImageToolsLandingView({
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "SEO Images",
+      name: "Img Pilot",
       url: origin,
     },
   ];

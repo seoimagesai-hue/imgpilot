@@ -97,7 +97,7 @@ export function CreateWebhookForm({workspaceType, workspaceId}: CreateWebhookFor
           required
           inputMode="url"
           disabled={pending}
-          placeholder="https://example.com/webhooks/seoimages"
+          placeholder="https://example.com/webhooks/img-pilot"
           className="w-full rounded-xl border border-[var(--border)] px-3 py-2.5"
         />
         <p className="mt-1 text-xs text-[var(--muted)]">{t("urlHint")}</p>

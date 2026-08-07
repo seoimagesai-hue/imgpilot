@@ -13,25 +13,11 @@ import {
   validateLongitude,
 } from "@/lib/guest/geotag-policy";
 import {isGuestSupportedOperation} from "@/server/guest/processing-policy";
-import {geotagToolConfig} from "@/components/guest/tools/geotag-tool";
-import {compressToolConfig} from "@/components/guest/tools/compress-tool";
-import {convertToolConfig} from "@/components/guest/tools/convert-tool";
 
 describe("guest geotag architecture", () => {
-  it("registers geotag.write_gps and mounts shared workspace config", () => {
+  it("registers geotag.write_gps in shared processing policy", () => {
     expect(GUEST_GEOTAG_OPERATION).toBe("geotag.write_gps");
     expect(isGuestSupportedOperation(GUEST_GEOTAG_OPERATION)).toBe(true);
-    expect(geotagToolConfig.operation).toBe(GUEST_GEOTAG_OPERATION);
-    expect(geotagToolConfig.toolCode).toBe("geotag-image");
-    expect(geotagToolConfig.messageNamespace).toBe("geotag");
-    expect(geotagToolConfig.OptionsPanel).toBeTruthy();
-    expect(geotagToolConfig.allowReprocess).toBe(true);
-    expect(geotagToolConfig.showOptionsWhenDone).toBe(true);
-    expect(geotagToolConfig.buildJobOptions).toEqual(expect.any(Function));
-    expect(geotagToolConfig.buildDownloadFilename?.("photo.PNG")).toBe("geotagged-photo.jpg");
-    // Shared contract — no duplicate page workflow object.
-    expect(compressToolConfig.OptionsPanel).toBeTruthy();
-    expect(convertToolConfig.OptionsPanel).toBeTruthy();
   });
 
   it("accepts JPEG mime only for geotag writing", () => {

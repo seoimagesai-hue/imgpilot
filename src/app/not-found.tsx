@@ -11,11 +11,11 @@ export default function RootNotFound() {
             The page you&apos;re looking for may have been moved, renamed or no longer exists.
           </p>
           <p style={{marginTop: 24}}>
-            <Link href="/en" style={{color: "#2563eb", fontWeight: 600}}>
+            <Link href="/" style={{color: "#2563eb", fontWeight: 600}}>
               Go Home
             </Link>
             {" · "}
-            <Link href="/en/search" style={{color: "#2563eb", fontWeight: 600}}>
+            <Link href="/search" style={{color: "#2563eb", fontWeight: 600}}>
               Explore Tools
             </Link>
           </p>

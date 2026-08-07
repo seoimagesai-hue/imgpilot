@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "yeniden boyutlandır",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Popüler platform boyutlarıyla tam görüntü boyutları",
+        "Bozulmayı önlemek için en boy oranı kilidi",
+        "Özel geçici misafir depolama alanı"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi JPG dosyaları kabul edilir?",
+          "a": "Bu sayfada JPG önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Yeniden Boyutlandırma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "yeniden boyutlandır-jpg",
+      "title": "Yeniden Boyutlandır JPG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Özel boyutları veya popüler ön ayarları seçerek JPG görsellerini çevrimiçi olarak yeniden boyutlandırın. Genişliği, yüksekliği ve kaliteyi ayarlayın, ardından yeniden boyutlandırılan JPG dosyanızı güvenli bir şekilde indirin.",
+      "h1": "JPG Görüntüleri Çevrimiçi Yeniden Boyutlandır",
+      "intro": "JPG görsellerini herhangi bir yazılım yüklemeden tam olarak ihtiyacınız olan boyutlara göre yeniden boyutlandırın. Bir fotoğraf yükleyin, bir ön ayar seçin veya özel bir genişlik ve yükseklik girin, ardından yeniden boyutlandırılan JPG dosyanızı saniyeler içinde indirin.",
+      "related": [
+        "sıkıştır-jpg",
+        "jpg-to-webp",
+        "kırpma-jpg",
+        "yeniden boyutlandır-png",
+        "png-to-jpg",
+        "toplu-görüntü-araçları"
+      ],
+      "howTo": [
+        "Bir JPG yükleyin",
+        "Yöntemi veya ön ayarı seçin",
+        "İşlem",
+        "Yeniden boyutlandırılan JPG dosyasını indirin"
+      ]
+    },
+    "resize-png": {
+      "operation": "yeniden boyutlandır",
+      "sourceFormat": "png",
+      "howTo": [
+        "Bir PNG yükleyin",
+        "Boyutları veya ön ayarı ayarlayın",
+        "İşlem",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi PNG dosyaları kabul edilir?",
+          "a": "Bu sayfada PNG önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Yeniden Boyutlandırma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "yeniden boyutlandır-png",
+      "title": "Yeniden Boyutlandır PNG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Şeffaflığı koruyarak PNG görsellerini çevrimiçi olarak yeniden boyutlandırın. Görüntü boyutlarını güvenli bir şekilde değiştirin ve yeniden boyutlandırılan PNG dosyanızı saniyeler içinde indirin.",
+      "h1": "PNG Görüntüleri Çevrimiçi Yeniden Boyutlandır",
+      "intro": "Logolar, kullanıcı arayüzü grafikleri, simgeler ve ekran görüntüleri için şeffaflığı kaybetmeden PNG görsellerini yeniden boyutlandırın.",
+      "related": [
+        "sıkıştır-png",
+        "png-to-jpg",
+        "png-to-webp",
+        "kırpma-png",
+        "yeniden boyutlandır-jpg",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Şeffaflığı koruyan PNG yeniden boyutlandırma",
+        "Logolar, simgeler ve faviconlar için tasarım hazır ayarları",
+        "Özel geçici misafir işleme"
+      ]
+    },
+    "resize-webp": {
+      "operation": "yeniden boyutlandır",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Bir WebP yükleyin",
+        "Boyut seçeneklerini seçin",
+        "İşlem",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi WebP dosyaları kabul edilir?",
+          "a": "Bu sayfada WebP önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Yeniden Boyutlandırma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "yeniden boyutlandır-webp",
+      "title": "Yeniden Boyutlandır WebP Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Duyarlı web siteleri, bloglar ve mobil cihazlar için WebP görsellerini çevrimiçi olarak yeniden boyutlandırın. Boyutları güvenli bir şekilde değiştirin ve yeniden boyutlandırılan WebP görsellerini anında indirin.",
+      "h1": "WebP Görüntüleri Çevrimiçi Yeniden Boyutlandır",
+      "intro": "WebP verimliliğini korurken, duyarlı düzenler, mobil cihazlar ve modern web siteleri için WebP görsellerini yeniden boyutlandırın.",
+      "related": [
+        "sıkıştır-webp",
+        "webp-to-jpg",
+        "webp-to-png",
+        "yeniden boyutlandır-jpg",
+        "yeniden boyutlandır-png",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Duyarlı WebP boyut kontrolü",
+        "Paylaşılan konuk ardışık düzeni yeniden boyutlandır",
+        "Otomatik temizleme özelliğine sahip özel geçici depolama"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "kompres",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Bir JPG yükleyin",
+        "Kaliteli bir ön ayar seçin",
+        "Kompres",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi JPG dosyaları kabul edilir?",
+          "a": "Bu sayfada JPG önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Sıkıştırma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "sıkıştır-jpg",
+      "title": "Sıkıştır JPG Görüntüleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "JPG görüntüleri çevrimiçi sıkıştırın ve ayarlanabilir kalite kontrolleriyle dosya boyutunu küçültün. Sonucu önizleyin ve daha küçük, optimize edilmiş bir JPG dosyasını güvenli bir şekilde indirin.",
+      "h1": "JPG Görüntüleri Çevrimiçi Sıkıştır",
+      "intro": "Karmaşık yazılım yüklemeden, JPG görüntülerin dosya boyutunu doğrudan tarayıcınızda azaltın.",
+      "related": [
+        "yeniden boyutlandır-jpg",
+        "jpg-to-webp",
+        "kırpma-jpg",
+        "jpg-to-png",
+        "webp-to-jpg",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Ayarlanabilir JPG kalite ön ayarları",
+        "Özel geçici misafir işleme",
+        "Orijinal görüntü değişmeden kalır"
+      ]
+    },
+    "compress-png": {
+      "operation": "kompres",
+      "sourceFormat": "png",
+      "howTo": [
+        "Bir PNG yükleyin",
+        "Kaliteyi seçin",
+        "Kompres",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi PNG dosyaları kabul edilir?",
+          "a": "Bu sayfada PNG önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Sıkıştırma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "sıkıştır-png",
+      "title": "Sıkıştır PNG Görüntüleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Şeffaflığı koruyarak PNG görsellerini çevrimiçi sıkıştırın. PNG dosya boyutunu güvenli bir şekilde azaltın ve optimize edilmiş bir görüntüyü saniyeler içinde indirin.",
+      "h1": "PNG Görüntüleri Çevrimiçi Sıkıştır",
+      "intro": "Şeffaflıktan veya görüntü netliğinden ödün vermeden PNG görüntü dosyası boyutunu azaltın.",
+      "related": [
+        "sıkıştır-jpg",
+        "yeniden boyutlandır-png",
+        "png-to-jpg",
+        "png-to-webp",
+        "kırpma-png",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Şeffaflığı koruyan PNG sıkıştırma",
+        "Logolar, kullanıcı arayüzü grafikleri ve ekran görüntüleri için tasarlandı",
+        "Özel geçici misafir işleme"
+      ]
+    },
+    "compress-webp": {
+      "operation": "kompres",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Bir WebP yükleyin",
+        "Kaliteyi seçin",
+        "Kompres",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi WebP dosyaları kabul edilir?",
+          "a": "Bu sayfada WebP önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Sıkıştırma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "sıkıştır-webp",
+      "title": "Sıkıştır WebP Görüntüleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Kaliteyi korurken dosya boyutunu küçültmek için WebP görsellerini çevrimiçi sıkıştırın. Güvenli tarayıcı tabanlı WebP optimizasyonuyla web sitesi hızını artırın.",
+      "h1": "WebP Görüntüleri Çevrimiçi Sıkıştır",
+      "intro": "Web siteleri, açılış sayfaları ve mobil uygulamalar için net görsel kaliteyi korurken, halihazırda dışa aktarılmış WebP dosya boyutunu azaltın.",
+      "related": [
+        "yeniden boyutlandır-webp",
+        "webp-to-jpg",
+        "webp-to-png",
+        "sıkıştır-jpg",
+        "sıkıştır-png",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Modern WebP dışa aktarımlarını daha da optimize edin",
+        "Paylaşılan konuk Sıkıştırma kalitesi ön ayarları",
+        "Otomatik temizleme özelliğine sahip özel geçici depolama"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "mahsul",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Hangi JPG dosyaları kabul edilir?",
+          "a": "Bu sayfada JPG önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Kırpma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "kırpma-jpg",
+      "title": "Kırp JPG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Hassas kırpma kontrollerini ve popüler en boy oranlarını kullanarak JPG görüntülerini çevrimiçi olarak kırpın. Kırpılmış görselinizi saniyeler içinde güvenli bir şekilde indirin.",
+      "h1": "JPG Görüntüleri Çevrimiçi Kırp",
+      "intro": "İstenmeyen alanları kaldırın, ortak en boy oranlarını kilitleyin ve orijinali değiştirmeden yeni bir JPG indirin.",
+      "related": [
+        "yeniden boyutlandır-jpg",
+        "sıkıştır-jpg",
+        "jpg-to-webp",
+        "yeniden boyutlandır-png",
+        "kırpma-png",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Hassas kırpma kolları",
+        "Popüler en boy oranları",
+        "Sosyal kullanıma hazır çerçeveleme",
+        "Özel geçici depolama",
+        "Orijinal görüntü güvende kalır"
+      ],
+      "howTo": [
+        "Bir JPG yükleyin",
+        "Kırpma alanını seçin",
+        "Kompozisyonu önizle",
+        "Kırpılmış JPG dosyasını indirin"
+      ]
+    },
+    "crop-png": {
+      "operation": "mahsul",
+      "sourceFormat": "png",
+      "howTo": [
+        "Bir PNG yükleyin",
+        "Kırpma bölgesini ayarlayın",
+        "İşlem",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi PNG dosyaları kabul edilir?",
+          "a": "Bu sayfada PNG önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Kırpma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "kırpma-png",
+      "title": "Kırp PNG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Şeffaf arka planları korurken PNG görsellerini çevrimiçi olarak kırpın. İstenmeyen alanları kaldırın ve hassas bir şekilde kırpılmış PNG dosyasını güvenli bir şekilde indirin.",
+      "h1": "PNG Görüntüleri Çevrimiçi Kırp",
+      "intro": "Alfayı olduğu gibi korurken şeffaf PNG logoları, simgeleri ve kullanıcı arayüzü grafiklerini kırpın.",
+      "related": [
+        "yeniden boyutlandır-png",
+        "sıkıştır-png",
+        "png-to-webp",
+        "png-to-jpg",
+        "kırpma-jpg",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Şeffaflığı koruyan PNG kırpma",
+        "Paylaşılan konuk Mahsul motoru ve oranları",
+        "Otomatik temizleme özelliğine sahip özel geçici depolama"
+      ]
+    },
+    "crop-webp": {
+      "operation": "mahsul",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Bir WebP yükleyin",
+        "Kırpma alanını seçin",
+        "İşlem",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Hangi WebP dosyaları kabul edilir?",
+          "a": "Bu sayfada WebP önceliklidir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Kırpma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "kırpma-webp",
+      "title": "Kırp WebP Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "description": "Hassas kırpma kontrollerini ve popüler en boy oranlarını kullanarak WebP görüntülerini çevrimiçi olarak kırpın. Web'e hazır görüntüler oluşturun ve bunları saniyeler içinde güvenli bir şekilde indirin.",
+      "h1": "WebP Görüntüleri Çevrimiçi Kırp",
+      "intro": "Web için optimize edilmiş formatı korurken duyarlı web siteleri, açılış sayfaları ve e-ticaret için modern WebP görsellerini kırpın.",
+      "related": [
+        "yeniden boyutlandır-webp",
+        "sıkıştır-webp",
+        "webp-to-jpg",
+        "webp-to-png",
+        "kırpma-jpg",
+        "kırpma-png"
+      ],
+      "benefits": [
+        "WebP-modern teslimat için ilk mahsul",
+        "Paylaşılan konuk Mahsul motoru ve dürüst oranlar",
+        "Otomatik temizleme özelliğine sahip özel geçici depolama"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "mahsul",
+      "howTo": [
+        "Bir resim yükle",
+        "Kare kırpmayı ayarlayın",
+        "İşlem",
+        "İndirmek"
+      ],
+      "faqs": [
+        {
+          "q": "Instagram için tam platform boyutlandırması dahil mi?",
+          "a": "Bu sayfada değil. Özel sosyal boyut sayfaları, tarihli ön ayarlar onaylanana kadar ertelenir."
+        },
+        {
+          "q": "Hangi resim dosyalarınız kabul ediliyor?",
+          "a": "Bu sayfa resminize öncelik verir. Diğer formatlar burada reddedilebilir; karma formatlar için genel Kırpma aracını kullanın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir araçları, ücretsiz günlük limitler dahilinde giriş yapmadan çalışır."
+        },
+        {
+          "q": "İşleme gizli mi?",
+          "a": "Yüklemeler özel depolama alanına gider ve geçici konuk dosyalarının süresi yaklaşık bir saat sonra dolar."
+        }
+      ],
+      "slug": "kırpma-resim-kare",
+      "cropAspect": "1:1",
+      "title": "Görüntüyü Kareye Kırp — Ücretsiz 1:1 Kırpma Aracı",
+      "description": "Paylaşılan kırpma motoruyla görüntüleri 1:1 en boy oranında kare olarak kırpın.",
+      "h1": "Bir resmi kareye kırpma",
+      "intro": "1:1 en boy kilidiyle başlar. Gerekirse editördeki oranı yine de değiştirebilirsiniz.",
+      "related": [
+        "kırpma-jpg",
+        "kırpma-png",
+        "resmi yeniden boyutlandır",
+        "sıkıştırılmış görüntü"
+      ],
+      "benefits": [
+        "Varsayılanlar 1:1'dir",
+        "JPEG, PNG ve WebP ile çalışır",
+        "Diğer misafir araçlarıyla aynı gizlilik modeli"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "jpg-to-png",
+      "title": "JPG - PNG Dönüştürücü — Ücretsiz Çevrimiçi",
+      "description": "JPG'ı PNG'ye dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "JPG'ı PNG'ye dönüştür",
+      "intro": "Paylaşılan Convert motorunu kullanarak JPG'dan PNG oluşturun.",
+      "related": [
+        "png-to-jpg",
+        "jpg-to-webp",
+        "sıkıştır-png",
+        "yeniden boyutlandır-png"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "JPEG'ı PNG'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "jpg-to-webp",
+      "title": "JPG'yi WebP'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "description": "JPG'yi WebP Çevrimiçi'ye dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "Çevrimiçi olarak JPG'yi WebP'ye dönüştürün",
+      "intro": "Tarayıcılar modern formatları desteklediğinde daha hızlı web siteleri, daha küçük dağıtım dosyaları ve daha güçlü Önemli Web Verileri için JPG fotoğraflarını WebP'ye dönüştürün.",
+      "related": [
+        "webp-to-jpg",
+        "sıkıştır-jpg",
+        "yeniden boyutlandır-jpg",
+        "kırpma-jpg",
+        "png-to-webp",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "JPEG'ı WEBP'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "jpg-to-avif",
+      "title": "JPG - AVIF Dönüştürücü — Ücretsiz Çevrimiçi",
+      "description": "JPG'yi AVIF'a dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "JPG'yi AVIF'a dönüştür",
+      "intro": "AVIF kodlama yalnızca bu sunucunun kodlayıcısı desteklediğinde sunulur. Aksi takdirde kontrol dürüstçe engellenmiş kalır.",
+      "related": [
+        "jpg-to-webp",
+        "png-to-avif",
+        "sıkıştır-jpg",
+        "görüntüyü dönüştür"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "JPEG'ı AVIF'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "png-to-jpg",
+      "title": "PNG'yi JPG'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "description": "PNG'yi JPG Çevrimiçi'ye dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "Çevrimiçi olarak PNG'yi JPG'ye dönüştürün",
+      "intro": "Alfaya artık ihtiyaç duyulmadığında şeffaf PNG'leri evrensel olarak uyumlu JPG dosyalarına düzleştirin.",
+      "related": [
+        "png-to-webp",
+        "yeniden boyutlandır-png",
+        "sıkıştır-png",
+        "jpg-to-webp",
+        "webp-to-jpg",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "PNG'yi JPEG'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "png-to-webp",
+      "title": "PNG'yi WebP'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "description": "PNG'yi WebP Çevrimiçi'ye dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "Çevrimiçi olarak PNG'yi WebP'ye dönüştürün",
+      "intro": "Şeffaflığı koruyarak PNG görüntülerini çevrimiçi WebP'ye dönüştürün. Güvenli tarayıcı tabanlı dönüştürmeyle daha hızlı web siteleri için daha küçük, web'e hazır görüntüler oluşturun.",
+      "related": [
+        "webp-to-png",
+        "png-to-jpg",
+        "sıkıştır-png",
+        "yeniden boyutlandır-png",
+        "jpg-to-webp",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "PNG'yi WEBP'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "png-to-avif",
+      "title": "PNG - AVIF Dönüştürücü — Ücretsiz Çevrimiçi",
+      "description": "PNG'yi AVIF'a dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "PNG'yi AVIF'a dönüştür",
+      "intro": "Bu dağıtımda kodlayıcı desteği mevcut olduğunda PNG'yi AVIF'ye dönüştürün.",
+      "related": [
+        "png-to-webp",
+        "jpg-to-avif",
+        "sıkıştır-png",
+        "görüntüyü dönüştür"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "PNG'yi AVIF'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "webp-to-jpg",
+      "title": "WebP'yi JPG'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "description": "WebP'yi JPG Çevrimiçi'ye dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "Çevrimiçi olarak WebP'yi JPG'ye dönüştürün",
+      "intro": "E-posta, belgeler, CMS yüklemeler ve daha eski yazılımlarla maksimum uyumluluk için WebP görüntülerini JPG'ye dönüştürün.",
+      "related": [
+        "jpg-to-webp",
+        "png-to-jpg",
+        "sıkıştır-jpg",
+        "yeniden boyutlandır-jpg",
+        "kırpma-jpg",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "WEBP'yi JPEG'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "webp-to-png",
+      "title": "WebP'yi PNG'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "description": "WebP'yi PNG Çevrimiçi'ye dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "Çevrimiçi olarak WebP'yi PNG'ye dönüştürün",
+      "intro": "Tasarım ve düzenleme iş akışları için şeffaflığı ve görüntü kalitesini korurken WebP görüntülerini çevrimiçi PNG'ye dönüştürün.",
+      "related": [
+        "png-to-webp",
+        "png-to-jpg",
+        "webp-to-jpg",
+        "yeniden boyutlandır-png",
+        "sıkıştır-png",
+        "toplu-görüntü-araçları"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "WEBP'ı PNG'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "dönüştürmek",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Kaynak görseli yükleyin",
+        "Hedef formatı onaylayın",
+        "Dönüştürmek",
+        "İndirmek"
+      ],
+      "slug": "webp-to-avif",
+      "title": "WebP - AVIF Dönüştürücü — Ücretsiz Çevrimiçi",
+      "description": "WebP'ı AVIF'ye dönüştürün. Bir saatlik geçici saklamayla özel konuk dönüşümü.",
+      "h1": "WebP'ı AVIF'ye dönüştür",
+      "intro": "WebP'ı AVIF'ye yalnızca AVIF kodlaması burada desteklendiğinde dönüştürün.",
+      "related": [
+        "webp-to-jpg",
+        "png-to-avif",
+        "sıkıştır-webp",
+        "görüntüyü dönüştür"
+      ],
+      "benefits": [
+        "Yalnızca desteklenen dönüştürme matrisini kullanır",
+        "Görüntüyü Dönüştür ile aynı misafir oturumu ve temizleme kuralları",
+        "Desteklenmeyen çift icat edilmedi"
+      ],
+      "faqs": [
+        {
+          "q": "WEBP'ı AVIF'e dönüştürmek orijinal dosyamı değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dönüştürülen dosya ne kadar süreyle saklanır?",
+          "a": "Konuk dosyaları, misafir oturumu başladıktan yaklaşık bir saat sonra silinir. İndirmeler geçerlilik süresini uzatmaz."
+        },
+        {
+          "q": "Birden fazla görüntüyü dönüştürebilir miyim?",
+          "a": "Misafir veya oturum açma toplu sınırları dahilindeki birden fazla dosya için Toplu Resim Araçlarını kullanın."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/sıkıştır-jpg",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Daha Küçük Boyut, Aynı Mükemmel Kalite",
+      "features": [
+        {
+          "title": "Akıllı Sıkıştırma",
+          "tone": "mavi",
+          "body": "JPG görüntüler için ayarlanmış akıllı sıkıştırma."
+        },
+        {
+          "title": "%80'e Kadar Daha Küçük",
+          "body": "Daha hızlı yükleme ve sayfa yükleme için dosya boyutunu önemli ölçüde azaltın.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "Web için mükemmel",
+          "body": "Web siteleri, bloglar ve ürün sayfaları için görselleri optimize edin.",
+          "tone": "mor"
+        },
+        {
+          "title": "Güvenebileceğiniz Kalite",
+          "body": "Kalitenin kontrolünüz altında kalması için indirmeden önce önizleyin.",
+          "tone": "turuncu"
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "kind": "mahremiyet",
+          "body": "Resimleriniz sıkıştırılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir."
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "JPG sıkıştırma nasıl çalışır?",
+          "a": "Araç, sonucu görsel olarak kullanılabilir tutarken dosya boyutunu küçülten ayarlarla JPG dosyanızı yeniden kodlar."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri JPG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Sıkıştırmak görüntü kalitesini düşürür mü?",
+          "a": "Daha güçlü ön ayarlar ince ayrıntıları yumuşatabilir. Görünümün en önemli olduğu durumlarda daha hafif bir ön ayar seçin ve her zaman önizleme yapın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir sıkıştırması oturum açmadan çalışır."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemeleri ve sonuçları bir saat içinde otomatik olarak silinir."
+        }
+      ],
+      "metaTitle": "Sıkıştır JPG Görüntüleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "JPG görüntülerini kalite kaybı olmadan çevrimiçi sıkıştırın. Özel konuk işlemeyle JPG dosya boyutunu azaltın.",
+      "breadcrumbCurrent": "JPG Çevrimiçi Sıkıştır",
+      "h1": "JPG Çevrimiçi Sıkıştır",
+      "subtitle": "Kaliteyi kaybetmeden JPG dosya boyutunu azaltın",
+      "paragraph": "JPG görüntüleri saniyeler içinde sıkıştırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: JPG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/compress-png": {
+      "path": "/sıkıştır-png",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Daha Küçük Boyut, Aynı Mükemmel Kalite",
+      "features": [
+        {
+          "title": "Akıllı Sıkıştırma",
+          "tone": "mavi",
+          "body": "PNG görüntüler için ayarlanmış akıllı sıkıştırma."
+        },
+        {
+          "title": "%80'e Kadar Daha Küçük",
+          "body": "Daha hızlı yükleme ve sayfa yükleme için dosya boyutunu önemli ölçüde azaltın.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "Web için mükemmel",
+          "body": "Web siteleri, bloglar ve ürün sayfaları için görselleri optimize edin.",
+          "tone": "mor"
+        },
+        {
+          "title": "Güvenebileceğiniz Kalite",
+          "body": "Kalitenin kontrolünüz altında kalması için indirmeden önce önizleyin.",
+          "tone": "turuncu"
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "kind": "mahremiyet",
+          "body": "Resimleriniz sıkıştırılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir."
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "PNG sıkıştırma nasıl çalışır?",
+          "a": "Araç, sonucu görsel olarak kullanılabilir tutarken dosya boyutunu küçülten ayarlarla PNG dosyanızı yeniden kodlar."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri PNG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Sıkıştırmak görüntü kalitesini düşürür mü?",
+          "a": "Daha güçlü ön ayarlar ince ayrıntıları yumuşatabilir. Görünümün en önemli olduğu durumlarda daha hafif bir ön ayar seçin ve her zaman önizleme yapın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir sıkıştırması oturum açmadan çalışır."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemeleri ve sonuçları bir saat içinde otomatik olarak silinir."
+        }
+      ],
+      "metaTitle": "Sıkıştır PNG Görüntüleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "PNG görüntülerini kalite kaybı olmadan çevrimiçi sıkıştırın. Özel konuk işlemeyle PNG dosya boyutunu azaltın.",
+      "breadcrumbCurrent": "PNG Çevrimiçi Sıkıştır",
+      "h1": "PNG Çevrimiçi Sıkıştır",
+      "subtitle": "Kaliteyi kaybetmeden PNG dosya boyutunu azaltın",
+      "paragraph": "PNG görüntüleri saniyeler içinde sıkıştırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: PNG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/compress-webp": {
+      "path": "/sıkıştır-webp",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Daha Küçük Boyut, Aynı Mükemmel Kalite",
+      "features": [
+        {
+          "title": "Akıllı Sıkıştırma",
+          "tone": "mavi",
+          "body": "WebP görüntüler için ayarlanmış akıllı sıkıştırma."
+        },
+        {
+          "title": "%80'e Kadar Daha Küçük",
+          "body": "Daha hızlı yükleme ve sayfa yükleme için dosya boyutunu önemli ölçüde azaltın.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "Web için mükemmel",
+          "body": "Web siteleri, bloglar ve ürün sayfaları için görselleri optimize edin.",
+          "tone": "mor"
+        },
+        {
+          "title": "Güvenebileceğiniz Kalite",
+          "body": "Kalitenin kontrolünüz altında kalması için indirmeden önce önizleyin.",
+          "tone": "turuncu"
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "kind": "mahremiyet",
+          "body": "Resimleriniz sıkıştırılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir."
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "WebP sıkıştırma nasıl çalışır?",
+          "a": "Araç, sonucu görsel olarak kullanılabilir tutarken dosya boyutunu küçülten ayarlarla WebP dosyanızı yeniden kodlar."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri WebP'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Sıkıştırmak görüntü kalitesini düşürür mü?",
+          "a": "Daha güçlü ön ayarlar ince ayrıntıları yumuşatabilir. Görünümün en önemli olduğu durumlarda daha hafif bir ön ayar seçin ve her zaman önizleme yapın."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir sıkıştırması oturum açmadan çalışır."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemeleri ve sonuçları bir saat içinde otomatik olarak silinir."
+        }
+      ],
+      "metaTitle": "Sıkıştır WebP Görüntüleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "WebP görüntülerini kalite kaybı olmadan çevrimiçi sıkıştırın. Özel konuk işlemeyle WebP dosya boyutunu azaltın.",
+      "breadcrumbCurrent": "WebP Çevrimiçi Sıkıştır",
+      "h1": "WebP Çevrimiçi Sıkıştır",
+      "subtitle": "Kaliteyi kaybetmeden WebP dosya boyutunu azaltın",
+      "paragraph": "WebP görüntüleri saniyeler içinde sıkıştırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/resize-jpg": {
+      "path": "/yeniden boyutlandır-jpg",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Hassas Kontrol, Temiz Sonuçlar",
+      "features": [
+        {
+          "title": "Tam Boyutlar",
+          "body": "Düzen gereksinimlerinize uygun genişlik ve yüksekliği girin.",
+          "tone": "mavi"
+        },
+        {
+          "title": "İçeri Sığdır",
+          "body": "En boy oranını koruyarak görüntüleri bir kutuya ölçeklendirin.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "İstenmeyen Lüks Yok",
+          "body": "Korkuluklar küçük kaynakların gerilmesini önlemeye yardımcı olur.",
+          "tone": "mor"
+        },
+        {
+          "title": "Web'e Hazır",
+          "tone": "turuncu",
+          "body": "Sayfalar ve ızgaralar için tutarlı JPG boyutları hazırlayın."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Yeniden boyutlandır"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz yeniden boyutlandırılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "En boy oranını koruyabilir miyim?",
+          "a": "Evet. Görüntülerin temiz bir şekilde ölçeklenmesi için içe sığdırılmış veya bağlantılı boyutları kullanın."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri JPG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Yeniden boyutlandırma resmimi büyütür mü?",
+          "a": "Varsayılan olarak iş akışları istenmeyen genişlemeleri önler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak yeniden boyutlandırın. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "Yeniden Boyutlandır JPG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "JPG görsellerini genişliğe, yüksekliğe veya içe sığdırmaya göre çevrimiçi olarak yeniden boyutlandırın. Hesap gerektirmeyen özel misafir aracı.",
+      "breadcrumbCurrent": "JPG Çevrimiçi Yeniden Boyutlandır",
+      "h1": "JPG Çevrimiçi Yeniden Boyutlandır",
+      "subtitle": "Web ve sosyal için JPG boyutlarını değiştirin",
+      "paragraph": "JPG görsellerini saniyeler içinde yeniden boyutlandırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: JPG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/resize-png": {
+      "path": "/yeniden boyutlandır-png",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Hassas Kontrol, Temiz Sonuçlar",
+      "features": [
+        {
+          "title": "Tam Boyutlar",
+          "body": "Düzen gereksinimlerinize uygun genişlik ve yüksekliği girin.",
+          "tone": "mavi"
+        },
+        {
+          "title": "İçeri Sığdır",
+          "body": "En boy oranını koruyarak görüntüleri bir kutuya ölçeklendirin.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "İstenmeyen Lüks Yok",
+          "body": "Korkuluklar küçük kaynakların gerilmesini önlemeye yardımcı olur.",
+          "tone": "mor"
+        },
+        {
+          "title": "Web'e Hazır",
+          "tone": "turuncu",
+          "body": "Sayfalar ve ızgaralar için tutarlı PNG boyutları hazırlayın."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Yeniden boyutlandır"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz yeniden boyutlandırılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "En boy oranını koruyabilir miyim?",
+          "a": "Evet. Görüntülerin temiz bir şekilde ölçeklenmesi için içe sığdırılmış veya bağlantılı boyutları kullanın."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri PNG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Yeniden boyutlandırma resmimi büyütür mü?",
+          "a": "Varsayılan olarak iş akışları istenmeyen genişlemeleri önler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak yeniden boyutlandırın. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "Yeniden Boyutlandır PNG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "PNG görsellerini genişliğe, yüksekliğe veya içe sığdırmaya göre çevrimiçi olarak yeniden boyutlandırın. Hesap gerektirmeyen özel misafir aracı.",
+      "breadcrumbCurrent": "PNG Çevrimiçi Yeniden Boyutlandır",
+      "h1": "PNG Çevrimiçi Yeniden Boyutlandır",
+      "subtitle": "Web ve sosyal için PNG boyutlarını değiştirin",
+      "paragraph": "PNG görsellerini saniyeler içinde yeniden boyutlandırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: PNG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/resize-webp": {
+      "path": "/yeniden boyutlandır-webp",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Hassas Kontrol, Temiz Sonuçlar",
+      "features": [
+        {
+          "title": "Tam Boyutlar",
+          "body": "Düzen gereksinimlerinize uygun genişlik ve yüksekliği girin.",
+          "tone": "mavi"
+        },
+        {
+          "title": "İçeri Sığdır",
+          "body": "En boy oranını koruyarak görüntüleri bir kutuya ölçeklendirin.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "İstenmeyen Lüks Yok",
+          "body": "Korkuluklar küçük kaynakların gerilmesini önlemeye yardımcı olur.",
+          "tone": "mor"
+        },
+        {
+          "title": "Web'e Hazır",
+          "tone": "turuncu",
+          "body": "Sayfalar ve ızgaralar için tutarlı WebP boyutları hazırlayın."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Yeniden boyutlandır"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz yeniden boyutlandırılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "En boy oranını koruyabilir miyim?",
+          "a": "Evet. Görüntülerin temiz bir şekilde ölçeklenmesi için içe sığdırılmış veya bağlantılı boyutları kullanın."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri WebP'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Yeniden boyutlandırma resmimi büyütür mü?",
+          "a": "Varsayılan olarak iş akışları istenmeyen genişlemeleri önler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak yeniden boyutlandırın. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "Yeniden Boyutlandır WebP Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "WebP görsellerini genişliğe, yüksekliğe veya içe sığdırmaya göre çevrimiçi olarak yeniden boyutlandırın. Hesap gerektirmeyen özel misafir aracı.",
+      "breadcrumbCurrent": "WebP Çevrimiçi Yeniden Boyutlandır",
+      "h1": "WebP Çevrimiçi Yeniden Boyutlandır",
+      "subtitle": "Web ve sosyal için WebP boyutlarını değiştirin",
+      "paragraph": "WebP görsellerini saniyeler içinde yeniden boyutlandırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Güvenle Kırpın",
+      "features": [
+        {
+          "title": "Ücretsiz Mahsul",
+          "body": "Görüntünün herhangi bir alanını seçin ve tam olarak o bölgeyi koruyun.",
+          "tone": "mavi"
+        },
+        {
+          "title": "Sabit Oranlar",
+          "body": "Tutarlı düzenler için ortak en boy oranlarını kullanın.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "Yönlendirme Güvenli",
+          "body": "Kırpma matematiği, yükleme sonrasında yönlendirilmiş boyutlara saygı gösterir.",
+          "tone": "mor"
+        },
+        {
+          "title": "Aynı Format Çıkışı",
+          "tone": "turuncu",
+          "body": "Kırpılmış bir JPG sonucunu indirin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Mahsul"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz kırpılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "Bir kareye kırpabilir miyim?",
+          "a": "Evet. 1:1 oranını seçin veya serbest bir kırpma çizin."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri JPG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Orijinalin üzerine mi yazıldı?",
+          "a": "Hayır. İşleme yeni bir kırpılmış sonuç oluşturur."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak kırpın. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/crop-jpg",
+      "metaTitle": "Kırp JPG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "Ücretsiz veya sabit oranlı kontrollerle JPG görsellerini çevrimiçi kırpın. Özel misafir işleme, hesap gerektirmez.",
+      "breadcrumbCurrent": "Kırpma JPG Çevrimiçi",
+      "h1": "Kırpma JPG Çevrimiçi",
+      "subtitle": "JPG'inizin yalnızca önemli olan kısmını saklayın",
+      "paragraph": "JPG görsellerini saniyeler içinde kırpın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: JPG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/crop-png": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Güvenle Kırpın",
+      "features": [
+        {
+          "title": "Ücretsiz Mahsul",
+          "body": "Görüntünün herhangi bir alanını seçin ve tam olarak o bölgeyi koruyun.",
+          "tone": "mavi"
+        },
+        {
+          "title": "Sabit Oranlar",
+          "body": "Tutarlı düzenler için ortak en boy oranlarını kullanın.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "Yönlendirme Güvenli",
+          "body": "Kırpma matematiği, yükleme sonrasında yönlendirilmiş boyutlara saygı gösterir.",
+          "tone": "mor"
+        },
+        {
+          "title": "Aynı Format Çıkışı",
+          "tone": "turuncu",
+          "body": "Kırpılmış bir PNG sonucunu indirin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Mahsul"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz kırpılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "Bir kareye kırpabilir miyim?",
+          "a": "Evet. 1:1 oranını seçin veya serbest bir kırpma çizin."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri PNG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Orijinalin üzerine mi yazıldı?",
+          "a": "Hayır. İşleme yeni bir kırpılmış sonuç oluşturur."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak kırpın. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/crop-png",
+      "metaTitle": "Kırp PNG Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "Ücretsiz veya sabit oranlı kontrollerle PNG görsellerini çevrimiçi kırpın. Özel misafir işleme, hesap gerektirmez.",
+      "breadcrumbCurrent": "Kırpma PNG Çevrimiçi",
+      "h1": "Kırpma PNG Çevrimiçi",
+      "subtitle": "PNG'inizin yalnızca önemli olan kısmını saklayın",
+      "paragraph": "PNG görsellerini saniyeler içinde kırpın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: PNG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/crop-webp": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Güvenle Kırpın",
+      "features": [
+        {
+          "title": "Ücretsiz Mahsul",
+          "body": "Görüntünün herhangi bir alanını seçin ve tam olarak o bölgeyi koruyun.",
+          "tone": "mavi"
+        },
+        {
+          "title": "Sabit Oranlar",
+          "body": "Tutarlı düzenler için ortak en boy oranlarını kullanın.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "Yönlendirme Güvenli",
+          "body": "Kırpma matematiği, yükleme sonrasında yönlendirilmiş boyutlara saygı gösterir.",
+          "tone": "mor"
+        },
+        {
+          "title": "Aynı Format Çıkışı",
+          "tone": "turuncu",
+          "body": "Kırpılmış bir WebP sonucunu indirin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Mahsul"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz kırpılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "Bir kareye kırpabilir miyim?",
+          "a": "Evet. 1:1 oranını seçin veya serbest bir kırpma çizin."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri WebP'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Orijinalin üzerine mi yazıldı?",
+          "a": "Hayır. İşleme yeni bir kırpılmış sonuç oluşturur."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak kırpın. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/crop-webp",
+      "metaTitle": "Kırp WebP Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "Ücretsiz veya sabit oranlı kontrollerle WebP görsellerini çevrimiçi kırpın. Özel misafir işleme, hesap gerektirmez.",
+      "breadcrumbCurrent": "Kırpma WebP Çevrimiçi",
+      "h1": "Kırpma WebP Çevrimiçi",
+      "subtitle": "WebP'inizin yalnızca önemli olan kısmını saklayın",
+      "paragraph": "WebP görsellerini saniyeler içinde kırpın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen format: WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-to-webp",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte WebP olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "JPG'yi WebP'a dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri JPG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Dönüşüm kayıpsız mı?",
+          "a": "Kaynak ve hedef formatlara bağlıdır. Kayıplı formatlar daha küçük boyutlar için kaliteyi düşürebilir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "JPG'yi WebP'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "Daha hızlı web siteleri için JPG görsellerini çevrimiçi WebP formatına dönüştürün. Doğrulanmış çıktılarla özel konuk dönüşümü.",
+      "breadcrumbCurrent": "JPG - WebP Dönüştürücü",
+      "h1": "Çevrimiçi olarak JPG'yi WebP'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan JPG'den WebP'ye geçiş yapın",
+      "paragraph": "JPG görsellerini saniyeler içinde WebP formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: JPG → WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-to-png",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte PNG olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "JPG'ı PNG'e dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri JPG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Dönüşüm kayıpsız mı?",
+          "a": "Kaynak ve hedef formatlara bağlıdır. Kayıplı formatlar daha küçük boyutlar için kaliteyi düşürebilir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "JPG'yi PNG'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "JPG görsellerini çevrimiçi olarak PNG formatına dönüştürün. Doğrulanmış çıktılarla özel konuk dönüşümü.",
+      "breadcrumbCurrent": "JPG - PNG Dönüştürücü",
+      "h1": "Çevrimiçi olarak JPG'yi PNG'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan JPG'dan PNG'ye geçiş yapın",
+      "paragraph": "JPG görsellerini saniyeler içinde PNG formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: JPG → PNG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-to-avif",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte AVIF olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "JPG'yi AVIF'a dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri JPG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "AVIF her zaman kullanılabilir mi?",
+          "a": "AVIF kodlama yalnızca sunucu kodlayıp sonucu doğrulayabildiğinde sunulur."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "JPG'yi AVIF'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "Kodlama mevcut olduğunda JPG görsellerini çevrimiçi olarak AVIF formatına dönüştürün. Özel misafir dönüşümü.",
+      "breadcrumbCurrent": "JPG - AVIF Dönüştürücü",
+      "h1": "Çevrimiçi olarak JPG'yi AVIF'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan JPG'den AVIF'ye geçiş yapın",
+      "paragraph": "JPG görsellerini saniyeler içinde AVIF formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: JPG → AVIF • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/png-to-jpg": {
+      "path": "/png-to-jpg",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte JPG olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "PNG'yi JPG'a dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri PNG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Dönüşüm kayıpsız mı?",
+          "a": "Kaynak ve hedef formatlara bağlıdır. Kayıplı formatlar daha küçük boyutlar için kaliteyi düşürebilir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "PNG'yi JPG'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "PNG görsellerini çevrimiçi olarak JPG formatına dönüştürün. Doğrulanmış çıktılarla özel konuk dönüşümü.",
+      "breadcrumbCurrent": "PNG - JPG Dönüştürücü",
+      "h1": "Çevrimiçi olarak PNG'yi JPG'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan PNG'den JPG'ye geçiş yapın",
+      "paragraph": "PNG görsellerini saniyeler içinde JPG formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: PNG → JPG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/png-to-webp": {
+      "path": "/png-to-webp",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte WebP olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "PNG'yi WebP'a dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri PNG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Dönüşüm kayıpsız mı?",
+          "a": "Kaynak ve hedef formatlara bağlıdır. Kayıplı formatlar daha küçük boyutlar için kaliteyi düşürebilir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "PNG'yi WebP'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "Daha küçük web dağıtımı için PNG görsellerini çevrimiçi olarak WebP formatına dönüştürün. Özel misafir dönüşümü.",
+      "breadcrumbCurrent": "PNG - WebP Dönüştürücü",
+      "h1": "Çevrimiçi olarak PNG'yi WebP'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan PNG'den WebP'ye geçiş yapın",
+      "paragraph": "PNG görsellerini saniyeler içinde WebP formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: PNG → WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte AVIF olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "PNG'yi AVIF'a dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri PNG'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "AVIF her zaman kullanılabilir mi?",
+          "a": "AVIF kodlama yalnızca sunucu kodlayıp sonucu doğrulayabildiğinde sunulur."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/png-to-avif",
+      "metaTitle": "PNG'yi AVIF'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "Kodlama mevcut olduğunda PNG görsellerini çevrimiçi olarak AVIF formatına dönüştürün. Özel misafir dönüşümü.",
+      "breadcrumbCurrent": "PNG - AVIF Dönüştürücü",
+      "h1": "Çevrimiçi olarak PNG'yi AVIF'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan PNG'den AVIF'ye geçiş yapın",
+      "paragraph": "PNG görsellerini saniyeler içinde AVIF formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: PNG → AVIF • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-to-jpg",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte JPG olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "WebP'ı JPG'e dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri WebP'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Dönüşüm kayıpsız mı?",
+          "a": "Kaynak ve hedef formatlara bağlıdır. Kayıplı formatlar daha küçük boyutlar için kaliteyi düşürebilir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "WebP'yi JPG'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "WebP görsellerini çevrimiçi olarak JPG formatına dönüştürün. Doğrulanmış çıktılarla özel konuk dönüşümü.",
+      "breadcrumbCurrent": "WebP - JPG Dönüştürücü",
+      "h1": "Çevrimiçi olarak WebP'yi JPG'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan WebP'dan JPG'ye geçiş yapın",
+      "paragraph": "WebP görsellerini saniyeler içinde JPG formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: WebP → JPG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/webp-to-png": {
+      "path": "/webp-to-png",
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte PNG olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "WebP'ı PNG'e dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri WebP'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Dönüşüm kayıpsız mı?",
+          "a": "Kaynak ve hedef formatlara bağlıdır. Kayıplı formatlar daha küçük boyutlar için kaliteyi düşürebilir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "metaTitle": "WebP'yi PNG'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "WebP görsellerini çevrimiçi olarak PNG formatına dönüştürün. Doğrulanmış çıktılarla özel konuk dönüşümü.",
+      "breadcrumbCurrent": "WebP - PNG Dönüştürücü",
+      "h1": "Çevrimiçi olarak WebP'yi PNG'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan WebP'dan PNG'ye geçiş yapın",
+      "paragraph": "WebP görsellerini saniyeler içinde PNG formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: WebP → PNG • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+      "features": [
+        {
+          "tone": "mavi",
+          "title": "Hedefi Temizle",
+          "body": "Çıktı, doğrulanmış sonuçlarla birlikte AVIF olarak kaydedilir."
+        },
+        {
+          "tone": "yeşil",
+          "title": "Hızlı Misafir Aracı",
+          "body": "Tek bir özel oturumda yükleyin, dönüştürün ve indirin."
+        },
+        {
+          "title": "Web Dostu",
+          "tone": "mor",
+          "body": "Sitenize veya iş akışınıza uygun formatı kullanın."
+        },
+        {
+          "title": "Dürüst Çıktı",
+          "tone": "turuncu",
+          "body": "İndirmeden önce ortaya çıkan türü ve boyutu öğrenin."
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Resminizi Yükleyin"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Sonucu Önizle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+          "kind": "mahremiyet"
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "WebP'ı AVIF'e dönüştürmek orijinalimi değiştirir mi?",
+          "a": "Hayır. Konuk işleme ayrı bir çıktı yazar. Yüklemeniz gizli kalır ve oturumla birlikte sona erer."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Misafir yüklemeleri WebP'ı 10 MB'a kadar destekler."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Hayır. Misafir olarak dönüştürün. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "AVIF her zaman kullanılabilir mi?",
+          "a": "AVIF kodlama yalnızca sunucu kodlayıp sonucu doğrulayabildiğinde sunulur."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/webp-to-avif",
+      "metaTitle": "WebP'yi AVIF'ye Çevrimiçi Ücretsiz Dönüştürün | Img Pilot",
+      "metaDescription": "Kodlama mevcut olduğunda WebP görüntülerini çevrimiçi olarak AVIF'ye dönüştürün. Özel misafir dönüşümü.",
+      "breadcrumbCurrent": "WebP - AVIF Dönüştürücü",
+      "h1": "Çevrimiçi olarak WebP'yi AVIF'ye dönüştürün",
+      "subtitle": "Masaüstü yazılımı olmadan WebP'dan AVIF'ye geçiş yapın",
+      "paragraph": "WebP görsellerini saniyeler içinde AVIF formatına dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+      "workspaceNote": "Desteklenen: WebP → AVIF • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Net Limitlerle Toplu İş Hızı",
+      "features": [
+        {
+          "title": "Paylaşılan Ayarlar",
+          "tone": "mavi",
+          "body": "Toplu iş genelinde bir sıkıştırma seçeneği uygulayın."
+        },
+        {
+          "title": "Dosya Başına Durum",
+          "body": "Hangi görsellerin başarılı olduğunu ve hangilerinin dikkat edilmesi gerektiğini görün.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "ZIP İndir",
+          "body": "Toplu iş hazır olduğunda başarılı çıktıları toplayın.",
+          "tone": "mor"
+        },
+        {
+          "title": "Misafir Şapkaları",
+          "body": "Toplu iş boyutu ve toplam bayt miktarı, ücretsiz konuk politikasına uygundur.",
+          "tone": "turuncu"
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Toplu Yükleme"
+        },
+        {
+          "title": "Kompres"
+        },
+        {
+          "title": "Dosyaları İşle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "kind": "mahremiyet",
+          "body": "Resimleriniz toplu sıkıştırma için özel olarak işlenir ve bir saat içinde otomatik olarak silinir."
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "Kaç dosya yükleyebilirim?",
+          "a": "Konuk toplu işleri, maksimum dosya sayısını ve toplam toplu iş boyutunu zorunlu kılar."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Her dosya, misafirin maksimum boyutunu takip eder ve grubun toplam bayt sınırı vardır."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Konuklar sınırlı toplu işleri çalıştırabilir. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Ya bir dosya başarısız olursa?",
+          "a": "Başarılı çıktılar indirilebilir olmaya devam eder; Başarısız öğeler bir hata durumu gösterir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/toplu sıkıştırma",
+      "metaTitle": "Toplu Görüntüleri Çevrimiçi Ücretsiz Sıkıştırın | Img Pilot",
+      "metaDescription": "Birden fazla görüntüyü çevrimiçi olarak sıkıştırın ve başarılı sonuçları birlikte indirin. Misafir toplu limitleri geçerlidir.",
+      "breadcrumbCurrent": "Toplu Sıkıştırılmış Görüntüler",
+      "h1": "Görüntüleri Çevrimiçi Toplu Sıkıştırın",
+      "subtitle": "Her adımı tekrarlamadan kısa bir partiyi sıkıştırın",
+      "paragraph": "Birden fazla JPG, PNG veya WebP dosyasını tek bir toplu işte sıkıştırın. Ücretsiz misafir limitleri geçerlidir.",
+      "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Konuk grup sınırları geçerlidir. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Net Limitlerle Toplu İş Hızı",
+      "features": [
+        {
+          "title": "Paylaşılan Ayarlar",
+          "tone": "mavi",
+          "body": "Topluluğa tek bir yeniden boyutlandırma seçeneği uygulayın."
+        },
+        {
+          "title": "Dosya Başına Durum",
+          "body": "Hangi görsellerin başarılı olduğunu ve hangilerinin dikkat edilmesi gerektiğini görün.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "ZIP İndir",
+          "body": "Toplu iş hazır olduğunda başarılı çıktıları toplayın.",
+          "tone": "mor"
+        },
+        {
+          "title": "Misafir Şapkaları",
+          "body": "Toplu iş boyutu ve toplam bayt miktarı, ücretsiz konuk politikasına uygundur.",
+          "tone": "turuncu"
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Toplu Yükleme"
+        },
+        {
+          "title": "Yeniden boyutlandır"
+        },
+        {
+          "title": "Dosyaları İşle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "kind": "mahremiyet",
+          "body": "Resimleriniz toplu yeniden boyutlandırma için özel olarak işlenir ve bir saat içinde otomatik olarak silinir."
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "Kaç dosya yükleyebilirim?",
+          "a": "Konuk toplu işleri, maksimum dosya sayısını ve toplam toplu iş boyutunu zorunlu kılar."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Her dosya, misafirin maksimum boyutunu takip eder ve grubun toplam bayt sınırı vardır."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Konuklar sınırlı toplu işleri çalıştırabilir. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Ya bir dosya başarısız olursa?",
+          "a": "Başarılı çıktılar indirilebilir olmaya devam eder; Başarısız öğeler bir hata durumu gösterir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/toplu-yeniden boyutlandırma",
+      "metaTitle": "Toplu Yeniden Boyutlandırma Resimleri Çevrimiçi Ücretsiz | Img Pilot",
+      "metaDescription": "Birden fazla görseli çevrimiçi olarak yeniden boyutlandırın ve başarılı sonuçları birlikte indirin. Misafir toplu limitleri geçerlidir.",
+      "breadcrumbCurrent": "Resimleri Toplu Yeniden Boyutlandırma",
+      "h1": "Görüntüleri Çevrimiçi Olarak Toplu Yeniden Boyutlandırma",
+      "subtitle": "Her adımı tekrarlamadan kısa bir partiyi yeniden boyutlandırın",
+      "paragraph": "Birden fazla JPG, PNG veya WebP dosyasını tek bir toplu işte yeniden boyutlandırın. Ücretsiz misafir limitleri geçerlidir.",
+      "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Konuk grup sınırları geçerlidir. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "Hesap gerekmez",
+        "Özel ve güvenli işleme",
+        "1 saat içinde otomatik silme"
+      ],
+      "featuresHeading": "Net Limitlerle Toplu İş Hızı",
+      "features": [
+        {
+          "title": "Paylaşılan Ayarlar",
+          "tone": "mavi",
+          "body": "Toplu iş genelinde bir dönüştürme seçeneği uygulayın."
+        },
+        {
+          "title": "Dosya Başına Durum",
+          "body": "Hangi görsellerin başarılı olduğunu ve hangilerinin dikkat edilmesi gerektiğini görün.",
+          "tone": "yeşil"
+        },
+        {
+          "title": "ZIP İndir",
+          "body": "Toplu iş hazır olduğunda başarılı çıktıları toplayın.",
+          "tone": "mor"
+        },
+        {
+          "title": "Misafir Şapkaları",
+          "body": "Toplu iş boyutu ve toplam bayt miktarı, ücretsiz konuk politikasına uygundur.",
+          "tone": "turuncu"
+        }
+      ],
+      "howHeading": "Nasıl Çalışır?",
+      "howSteps": [
+        {
+          "title": "Toplu Yükleme"
+        },
+        {
+          "title": "Dönüştürmek"
+        },
+        {
+          "title": "Dosyaları İşle"
+        },
+        {
+          "title": "İndirmek"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "Gizliliğiniz Önemlidir",
+          "kind": "mahremiyet",
+          "body": "Resimleriniz toplu dönüştürme için özel olarak işlenir ve bir saat içinde otomatik olarak silinir."
+        },
+        {
+          "title": "Hızlı ve Verimli",
+          "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+          "kind": "hız"
+        }
+      ],
+      "faqHeading": "Sıkça Sorulan Sorular",
+      "faqs": [
+        {
+          "q": "Kaç dosya yükleyebilirim?",
+          "a": "Konuk toplu işleri, maksimum dosya sayısını ve toplam toplu iş boyutunu zorunlu kılar."
+        },
+        {
+          "q": "Dosya boyutu sınırı var mı?",
+          "a": "Her dosya, misafirin maksimum boyutunu takip eder ve grubun toplam bayt sınırı vardır."
+        },
+        {
+          "q": "Bir hesaba ihtiyacım var mı?",
+          "a": "Konuklar sınırlı toplu işleri çalıştırabilir. Dosyaların süresi bir saat içinde dolar."
+        },
+        {
+          "q": "Ya bir dosya başarısız olursa?",
+          "a": "Başarılı çıktılar indirilebilir olmaya devam eder; Başarısız öğeler bir hata durumu gösterir."
+        },
+        {
+          "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+          "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+        }
+      ],
+      "path": "/toplu dönüştürme",
+      "metaTitle": "Toplu Görüntüleri Çevrimiçi Ücretsiz Dönüştürme | Img Pilot",
+      "metaDescription": "Birden fazla görüntüyü çevrimiçi olarak dönüştürün ve başarılı sonuçları birlikte indirin. Misafir toplu limitleri geçerlidir.",
+      "breadcrumbCurrent": "Görüntüleri Toplu Dönüştürme",
+      "h1": "Görüntüleri Çevrimiçi Olarak Toplu Dönüştürme",
+      "subtitle": "Her adımı tekrarlamadan kısa bir toplu işlemi dönüştürün",
+      "paragraph": "Birden fazla JPG, PNG veya WebP dosyasını tek bir toplu işte dönüştürün. Ücretsiz misafir limitleri geçerlidir.",
+      "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Konuk grup sınırları geçerlidir. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir."
+    }
+  }
+}

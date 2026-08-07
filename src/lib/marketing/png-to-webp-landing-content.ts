@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * PNG → WebP landing — preserve transparency + web performance
  * (distinct from PNG→JPG flatten and JPG→WebP photographic migration).
@@ -93,7 +94,7 @@ export type PngToWebpCopy = {
 };
 
 const en: PngToWebpCopy = {
-  metaTitle: "Convert PNG to WebP Online Free | SEO Images",
+  metaTitle: "Convert PNG to WebP Online Free | Img Pilot",
   metaDescription:
     "Convert PNG images to WebP online while preserving transparency. Create smaller web-ready images for faster websites with secure browser-based conversion.",
   h1: "Convert PNG to WebP Online",
@@ -325,7 +326,7 @@ const en: PngToWebpCopy = {
 };
 
 const ur: PngToWebpCopy = {
-  metaTitle: "آن لائن PNG کو WebP میں تبدیل کریں مفت | SEO Images",
+  metaTitle: "آن لائن PNG کو WebP میں تبدیل کریں مفت | Img Pilot",
   metaDescription:
     "شفافیت برقرار رکھتے ہوئے PNG تصاویر آن لائن WebP میں تبدیل کریں۔ تیز ویب سائٹس کے لیے چھوٹی ویب ریڈی امیجز، محفوظ براؤزر پر مبنی کنورژن۔",
   h1: "آن لائن PNG کو WebP میں تبدیل کریں",
@@ -552,7 +553,7 @@ const ur: PngToWebpCopy = {
 };
 
 export function getPngToWebpCopy(locale: string): PngToWebpCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function pngToWebpSeoCompat() {

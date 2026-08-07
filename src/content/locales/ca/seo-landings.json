@@ -1,0 +1,2657 @@
+{
+  "registry": {
+    "resize-jpg": {
+      "operation": "canviar la mida",
+      "sourceFormat": "jpeg",
+      "benefits": [
+        "Mides exactes de la imatge amb mides de plataforma populars",
+        "Bloqueig de la relació d'aspecte per evitar la distorsió",
+        "Emmagatzematge temporal privat de convidats"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers JPG s'accepten?",
+          "a": "Aquesta pàgina prioritza JPG. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica Canviar la mida per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "canviar la mida-jpg",
+      "title": "Canvia la mida JPG Imatges en línia gratuïtes | Img Pilot",
+      "description": "Canvieu la mida de les imatges JPG en línia escollint dimensions personalitzades o preajustos populars. Ajusteu l'amplada, l'alçada i la qualitat i, a continuació, descarregueu el vostre JPG redimensionat de manera segura.",
+      "h1": "Canvia la mida JPG Imatges en línia",
+      "intro": "Canvieu la mida de les imatges JPG a les dimensions exactes que necessiteu sense instal·lar cap programari. Pengeu una foto, trieu una configuració predeterminada o introduïu una amplada i una alçada personalitzades i, a continuació, baixeu el vostre JPG redimensionat en segons.",
+      "related": [
+        "comprimir-jpg",
+        "jpg-a-webp",
+        "retallar-jpg",
+        "canviar la mida-png",
+        "png-a-jpg",
+        "eines d'imatge massiva"
+      ],
+      "howTo": [
+        "Carregueu un JPG",
+        "Trieu un mètode o un valor predefinit",
+        "Procés",
+        "Baixeu el redimensionat JPG"
+      ]
+    },
+    "resize-png": {
+      "operation": "canviar la mida",
+      "sourceFormat": "png",
+      "howTo": [
+        "Carregueu un PNG",
+        "Establiu dimensions o preestablerts",
+        "Procés",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers PNG s'accepten?",
+          "a": "Aquesta pàgina prioritza PNG. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica Canviar la mida per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "canviar la mida-png",
+      "title": "Canvia la mida PNG Imatges en línia gratuïtes | Img Pilot",
+      "description": "Canvia la mida de les imatges PNG en línia tot preservant la transparència. Canvieu les dimensions de la imatge de manera segura i baixeu el vostre PNG redimensionat en segons.",
+      "h1": "Canvia la mida PNG Imatges en línia",
+      "intro": "Canvieu la mida de les imatges PNG sense perdre la transparència dels logotips, els gràfics de la interfície d'usuari, les icones i les captures de pantalla.",
+      "related": [
+        "comprimir-png",
+        "png-a-jpg",
+        "png-a-webp",
+        "retallar-png",
+        "canviar la mida-jpg",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Canvia la mida PNG per preservar la transparència",
+        "Disseny predefinits per a logotips, icones i favicons",
+        "Processament privat de convidats temporals"
+      ]
+    },
+    "resize-webp": {
+      "operation": "canviar la mida",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Carregueu un WebP",
+        "Trieu les opcions de mida",
+        "Procés",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers WebP s'accepten?",
+          "a": "Aquesta pàgina prioritza WebP. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica Canviar la mida per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "canviar la mida-webp",
+      "title": "Canvia la mida WebP Imatges en línia gratuïtes | Img Pilot",
+      "description": "Canvia la mida de les imatges WebP en línia per a llocs web responsius, blocs i dispositius mòbils. Canvieu les dimensions de manera segura i baixeu imatges WebP redimensionades a l'instant.",
+      "h1": "Canvia la mida WebP Imatges en línia",
+      "intro": "Canvieu la mida de les imatges WebP per a dissenys responsius, dispositius mòbils i llocs web moderns mantenint l'eficiència WebP.",
+      "related": [
+        "comprimir-webp",
+        "webp-a-jpg",
+        "webp-a-png",
+        "canviar la mida-jpg",
+        "canviar la mida-png",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Control de dimensió WebP sensible",
+        "Convidat compartit Canvia la mida del canal",
+        "Emmagatzematge temporal privat amb neteja automàtica"
+      ]
+    },
+    "compress-jpg": {
+      "operation": "comprimir",
+      "sourceFormat": "jpeg",
+      "howTo": [
+        "Carregueu un JPG",
+        "Trieu un valor predefinit de qualitat",
+        "Comprimir",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers JPG s'accepten?",
+          "a": "Aquesta pàgina prioritza JPG. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica Comprimir per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "comprimir-jpg",
+      "title": "Comprimeix JPG Imatges en línia gratuïtes | Img Pilot",
+      "description": "Comprimiu imatges JPG en línia i reduïu la mida del fitxer amb controls de qualitat ajustables. Previsualitza el resultat i descarrega un JPG optimitzat més petit de manera segura.",
+      "h1": "Comprimiu JPG imatges en línia",
+      "intro": "Reduïu la mida del fitxer de les imatges JPG directament al vostre navegador sense instal·lar programari complicat.",
+      "related": [
+        "canviar la mida-jpg",
+        "jpg-a-webp",
+        "retallar-jpg",
+        "jpg-a-png",
+        "webp-a-jpg",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Preajustos de qualitat JPG ajustables",
+        "Processament privat de convidats temporals",
+        "La imatge original es manté sense canvis"
+      ]
+    },
+    "compress-png": {
+      "operation": "comprimir",
+      "sourceFormat": "png",
+      "howTo": [
+        "Carregueu un PNG",
+        "Trieu qualitat",
+        "Comprimir",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers PNG s'accepten?",
+          "a": "Aquesta pàgina prioritza PNG. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica Comprimir per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "comprimir-png",
+      "title": "Comprimeix PNG Imatges en línia gratuïtes | Img Pilot",
+      "description": "Comprimiu imatges PNG en línia tot preservant la transparència. Reduïu la mida del fitxer PNG de manera segura i descarregueu una imatge optimitzada en segons.",
+      "h1": "Comprimiu PNG imatges en línia",
+      "intro": "Reduïu la mida del fitxer d'imatge PNG sense sacrificar la transparència o la claredat de la imatge.",
+      "related": [
+        "comprimir-jpg",
+        "canviar la mida-png",
+        "png-a-jpg",
+        "png-a-webp",
+        "retallar-png",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Compressió PNG que preserva la transparència",
+        "Creat per a logotips, gràfics d'interfície d'usuari i captures de pantalla",
+        "Processament privat de convidats temporals"
+      ]
+    },
+    "compress-webp": {
+      "operation": "comprimir",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Carregueu un WebP",
+        "Seleccioneu la qualitat",
+        "Comprimir",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers WebP s'accepten?",
+          "a": "Aquesta pàgina prioritza WebP. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica Comprimir per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "comprimir-webp",
+      "title": "Comprimeix WebP Imatges en línia gratuïtes | Img Pilot",
+      "description": "Comprimiu les imatges WebP en línia per reduir la mida del fitxer mantenint la qualitat. Milloreu la velocitat del lloc web amb l'optimització segura WebP basada en navegador.",
+      "h1": "Comprimiu WebP imatges en línia",
+      "intro": "Reduïu la mida dels fitxers WebP ja exportats mantenint una qualitat visual clara per a llocs web, pàgines de destinació i aplicacions mòbils.",
+      "related": [
+        "canviar la mida-webp",
+        "webp-a-jpg",
+        "webp-a-png",
+        "comprimir-jpg",
+        "comprimir-png",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Optimitzeu encara més les exportacions WebP modernes",
+        "Comprimir els valors predefinits de qualitat de convidat compartit",
+        "Emmagatzematge temporal privat amb neteja automàtica"
+      ]
+    },
+    "crop-jpg": {
+      "operation": "cultiu",
+      "sourceFormat": "jpeg",
+      "faqs": [
+        {
+          "q": "Quins fitxers JPG s'accepten?",
+          "a": "Aquesta pàgina prioritza JPG. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica de retall per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "retallar-jpg",
+      "title": "Retalla JPG imatges en línia gratuïtes | Img Pilot",
+      "description": "Retalla imatges JPG en línia amb controls de retall precisos i relacions d'aspecte populars. Baixeu la vostra imatge retallada de manera segura en segons.",
+      "h1": "Retalla les imatges JPG en línia",
+      "intro": "Elimineu les àrees no desitjades, bloquegeu les relacions d'aspecte habituals i descarregueu un nou JPG sense canviar l'original.",
+      "related": [
+        "canviar la mida-jpg",
+        "comprimir-jpg",
+        "jpg-a-webp",
+        "canviar la mida-png",
+        "retallar-png",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Mànecs de tall precisos",
+        "Relacions d'aspecte populars",
+        "Enquadrament social",
+        "Emmagatzematge temporal privat",
+        "La imatge original es manté segura"
+      ],
+      "howTo": [
+        "Carregueu un JPG",
+        "Seleccioneu l'àrea de retall",
+        "Vista prèvia de la composició",
+        "Descarrega el retallat JPG"
+      ]
+    },
+    "crop-png": {
+      "operation": "cultiu",
+      "sourceFormat": "png",
+      "howTo": [
+        "Carregueu un PNG",
+        "Estableix la regió de cultiu",
+        "Procés",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers PNG s'accepten?",
+          "a": "Aquesta pàgina prioritza PNG. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica de retall per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "retallar-png",
+      "title": "Retalla PNG imatges en línia gratuïtes | Img Pilot",
+      "description": "Retalla les imatges PNG en línia tot conservant els fons transparents. Elimineu les àrees no desitjades i descarregueu un PNG retallat amb precisió de manera segura.",
+      "h1": "Retalla les imatges PNG en línia",
+      "intro": "Retalla els logotips, les icones i els gràfics de la interfície d'usuari transparents PNG mantenint l'alfa intacte.",
+      "related": [
+        "canviar la mida-png",
+        "comprimir-png",
+        "png-a-webp",
+        "png-a-jpg",
+        "retallar-jpg",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Retall PNG que preserva la transparència",
+        "Motor de retall i ràtios de convidats compartits",
+        "Emmagatzematge temporal privat amb neteja automàtica"
+      ]
+    },
+    "crop-webp": {
+      "operation": "cultiu",
+      "sourceFormat": "webp",
+      "howTo": [
+        "Carregueu un WebP",
+        "Seleccioneu l'àrea de retall",
+        "Procés",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "Quins fitxers WebP s'accepten?",
+          "a": "Aquesta pàgina prioritza WebP. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica de retall per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "retallar-webp",
+      "title": "Retalla WebP imatges en línia gratuïtes | Img Pilot",
+      "description": "Retalla imatges WebP en línia amb controls de retall precisos i relacions d'aspecte populars. Creeu imatges preparades per a la web i descarregueu-les de manera segura en qüestió de segons.",
+      "h1": "Retalla les imatges WebP en línia",
+      "intro": "Retalla imatges WebP modernes per a llocs web responsius, pàgines de destinació i comerç electrònic mantenint un format optimitzat per a la web.",
+      "related": [
+        "canviar la mida-webp",
+        "comprimir-webp",
+        "webp-a-jpg",
+        "webp-a-png",
+        "retallar-jpg",
+        "retallar-png"
+      ],
+      "benefits": [
+        "WebP-primer cultiu per a un lliurament modern",
+        "Motor de retall de convidats compartit i proporcions honestes",
+        "Emmagatzematge temporal privat amb neteja automàtica"
+      ]
+    },
+    "crop-image-square": {
+      "operation": "cultiu",
+      "howTo": [
+        "Carregueu una imatge",
+        "Ajusteu el retall quadrat",
+        "Procés",
+        "Descarregar"
+      ],
+      "faqs": [
+        {
+          "q": "S'inclou la mida exacta de la plataforma per a Instagram?",
+          "a": "No en aquesta pàgina. Les pàgines de mida social dedicades es posposen fins que s'aprovin els valors predefinits amb data."
+        },
+        {
+          "q": "Quins fitxers d'imatge s'accepten?",
+          "a": "Aquesta pàgina prioritza la teva imatge. Es poden rebutjar altres formats aquí: utilitzeu l'eina genèrica de retall per a formats mixts."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Les eines de convidat funcionen sense iniciar sessió dins dels límits diaris gratuïts."
+        },
+        {
+          "q": "El processament és privat?",
+          "a": "Les càrregues passen a l'emmagatzematge privat i els fitxers de convidats temporals caduquen al cap d'aproximadament una hora."
+        }
+      ],
+      "slug": "retallar-imatge-quadrat",
+      "cropAspect": "1:1",
+      "title": "Retalla la imatge a un quadrat: eina gratuïta de retall 1:1",
+      "description": "Retalla les imatges a una proporció d'aspecte quadrada 1:1 amb el motor de retall compartit.",
+      "h1": "Retalla una imatge al quadrat",
+      "intro": "Comença amb un bloqueig d'aspecte 1:1. Encara podeu canviar la proporció a l'editor si cal.",
+      "related": [
+        "retallar-jpg",
+        "retallar-png",
+        "canviar la mida de la imatge",
+        "comprimir-imatge"
+      ],
+      "benefits": [
+        "El valor per defecte és 1:1",
+        "Funciona amb JPEG, PNG i WebP",
+        "El mateix model de privadesa que altres eines per a convidats"
+      ]
+    },
+    "jpg-to-png": {
+      "operation": "convertir",
+      "sourceFormat": "jpeg",
+      "targetFormat": "png",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "jpg-a-png",
+      "title": "Convertidor de JPG a PNG — En línia gratuït",
+      "description": "Converteix JPG en PNG. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix JPG a PNG",
+      "intro": "Creeu un PNG a partir d'un JPG mitjançant el motor de conversió compartit.",
+      "related": [
+        "png-a-jpg",
+        "jpg-a-webp",
+        "comprimir-png",
+        "canviar la mida-png"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir JPEG a PNG canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "jpg-to-webp": {
+      "operation": "convertir",
+      "sourceFormat": "jpeg",
+      "targetFormat": "webp",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "jpg-a-webp",
+      "title": "Converteix JPG a WebP en línia gratuït | Img Pilot",
+      "description": "Converteix JPG a WebP en línia. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix JPG a WebP en línia",
+      "intro": "Converteix fotos JPG a WebP per a llocs web més ràpids, fitxers de lliurament més petits i Core Web Vitals més forts quan els navegadors admeten formats moderns.",
+      "related": [
+        "webp-a-jpg",
+        "comprimir-jpg",
+        "canviar la mida-jpg",
+        "retallar-jpg",
+        "png-a-webp",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir JPEG a WEBP canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "jpg-to-avif": {
+      "operation": "convertir",
+      "sourceFormat": "jpeg",
+      "targetFormat": "avif",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "jpg-a-avif",
+      "title": "Convertidor de JPG a AVIF — En línia gratuït",
+      "description": "Converteix JPG en AVIF. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix JPG en AVIF",
+      "intro": "La codificació AVIF només s'ofereix quan el codificador d'aquest servidor la admet. En cas contrari, el control es manté bloquejat honestament.",
+      "related": [
+        "jpg-a-webp",
+        "png-a-avif",
+        "comprimir-jpg",
+        "convertir-imatge"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir JPEG a AVIF canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "png-to-jpg": {
+      "operation": "convertir",
+      "sourceFormat": "png",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "png-a-jpg",
+      "title": "Converteix PNG a JPG en línia gratuït | Img Pilot",
+      "description": "Converteix PNG a JPG en línia. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix PNG a JPG en línia",
+      "intro": "Aplaneu els PNG transparents en fitxers JPG universalment compatibles quan ja no es requereixi l'alfa.",
+      "related": [
+        "png-a-webp",
+        "canviar la mida-png",
+        "comprimir-png",
+        "jpg-a-webp",
+        "webp-a-jpg",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir PNG a JPEG canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "png-to-webp": {
+      "operation": "convertir",
+      "sourceFormat": "png",
+      "targetFormat": "webp",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "png-a-webp",
+      "title": "Converteix PNG a WebP en línia gratuït | Img Pilot",
+      "description": "Converteix PNG a WebP en línia. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix PNG a WebP en línia",
+      "intro": "Converteix imatges PNG a WebP en línia tot preservant la transparència. Creeu imatges més petites preparades per a la web per a llocs web més ràpids amb una conversió segura basada en navegador.",
+      "related": [
+        "webp-a-png",
+        "png-a-jpg",
+        "comprimir-png",
+        "canviar la mida-png",
+        "jpg-a-webp",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir PNG a WEBP canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "png-to-avif": {
+      "operation": "convertir",
+      "sourceFormat": "png",
+      "targetFormat": "avif",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "png-a-avif",
+      "title": "Convertidor de PNG a AVIF — En línia gratuït",
+      "description": "Converteix PNG en AVIF. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix PNG en AVIF",
+      "intro": "Convertiu PNG a AVIF quan hi hagi suport de codificador disponible en aquest desplegament.",
+      "related": [
+        "png-a-webp",
+        "jpg-a-avif",
+        "comprimir-png",
+        "convertir-imatge"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir PNG a AVIF canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "webp-to-jpg": {
+      "operation": "convertir",
+      "sourceFormat": "webp",
+      "targetFormat": "jpeg",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "webp-a-jpg",
+      "title": "Converteix WebP a JPG en línia gratuït | Img Pilot",
+      "description": "Converteix WebP a JPG en línia. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix WebP a JPG en línia",
+      "intro": "Converteix imatges WebP a JPG per a la màxima compatibilitat amb correu electrònic, documents, càrregues CMS i programari antic.",
+      "related": [
+        "jpg-a-webp",
+        "png-a-jpg",
+        "comprimir-jpg",
+        "canviar la mida-jpg",
+        "retallar-jpg",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir WEBP a JPEG canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "webp-to-png": {
+      "operation": "convertir",
+      "sourceFormat": "webp",
+      "targetFormat": "png",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "webp-a-png",
+      "title": "Converteix WebP a PNG en línia gratuït | Img Pilot",
+      "description": "Converteix WebP a PNG en línia. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix WebP a PNG en línia",
+      "intro": "Converteix imatges WebP a PNG en línia alhora que es preserva la transparència i la qualitat de la imatge per als fluxos de treball de disseny i edició.",
+      "related": [
+        "png-a-webp",
+        "png-a-jpg",
+        "webp-a-jpg",
+        "canviar la mida-png",
+        "comprimir-png",
+        "eines d'imatge massiva"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir WEBP a PNG canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    },
+    "webp-to-avif": {
+      "operation": "convertir",
+      "sourceFormat": "webp",
+      "targetFormat": "avif",
+      "howTo": [
+        "Carregueu la imatge d'origen",
+        "Confirmeu el format de destinació",
+        "Converteix",
+        "Descarregar"
+      ],
+      "slug": "webp-a-avif",
+      "title": "Convertidor de WebP a AVIF — En línia gratuït",
+      "description": "Converteix WebP en AVIF. Conversió de convidats privats amb retenció temporal d'una hora.",
+      "h1": "Converteix WebP a AVIF",
+      "intro": "Converteix WebP a AVIF només quan la codificació AVIF s'admet aquí.",
+      "related": [
+        "webp-a-jpg",
+        "png-a-avif",
+        "comprimir-webp",
+        "convertir-imatge"
+      ],
+      "benefits": [
+        "Només utilitza la matriu de conversió admesa",
+        "Les mateixes regles de sessió i neteja de convidats que Convert Image",
+        "No hi ha parells inventats sense suport"
+      ],
+      "faqs": [
+        {
+          "q": "Convertir WEBP a AVIF canvia el meu fitxer original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega continua sent privada i caduca amb la sessió."
+        },
+        {
+          "q": "Quant de temps s'emmagatzema el fitxer convertit?",
+          "a": "Els fitxers de convidat s'eliminen aproximadament una hora després que s'iniciï la sessió de convidat. Les descàrregues no prolonguen la caducitat."
+        },
+        {
+          "q": "Puc convertir diverses imatges?",
+          "a": "Utilitzeu les eines d'imatge massiva per a diversos fitxers dins dels límits de convidats o d'inici de sessió massiu."
+        }
+      ]
+    }
+  },
+  "shells": {
+    "/compress-jpg": {
+      "path": "/compress-jpg",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Talla més petita, mateixa gran qualitat",
+      "features": [
+        {
+          "title": "Compressió intel·ligent",
+          "tone": "blau",
+          "body": "Compressió intel·ligent ajustada per a imatges JPG."
+        },
+        {
+          "title": "Fins a un 80% més petit",
+          "body": "Redueix dràsticament la mida del fitxer per a càrregues i càrregues de pàgines més ràpides.",
+          "tone": "verd"
+        },
+        {
+          "title": "Perfecte per a la web",
+          "body": "Optimitzeu imatges per a llocs web, blocs i pàgines de productes.",
+          "tone": "morat"
+        },
+        {
+          "title": "Qualitat en la qual pots confiar",
+          "body": "Previsualitza abans de baixar perquè la qualitat estigui sota el teu control.",
+          "tone": "taronja"
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Comprimir"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "kind": "privadesa",
+          "body": "Les vostres imatges es processen de manera privada per a la compressió i s'eliminen automàticament en una hora."
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Com funciona la compressió JPG?",
+          "a": "L'eina torna a codificar el vostre JPG amb paràmetres que redueixen la mida del fitxer alhora que el resultat es pot utilitzar visualment."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats JPG fins a 10 MB."
+        },
+        {
+          "q": "La compressió reduirà la qualitat de la imatge?",
+          "a": "Els preajustos més forts poden suavitzar els detalls fins. Trieu un valor predefinit més lleuger quan l'aspecte més importa i previsualitzeu-lo sempre."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. La compressió de convidat funciona sense iniciar la sessió."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats s'eliminen automàticament en una hora."
+        }
+      ],
+      "metaTitle": "Comprimeix JPG Imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Comprimiu imatges JPG en línia sense perdre qualitat. Reduïu la mida del fitxer JPG amb el processament privat de convidats.",
+      "breadcrumbCurrent": "Comprimeix JPG en línia",
+      "h1": "Comprimeix JPG en línia",
+      "subtitle": "Redueix la mida del fitxer JPG sense perdre qualitat",
+      "paragraph": "Comprimiu imatges JPG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: JPG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/compress-png": {
+      "path": "/compress-png",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Talla més petita, mateixa gran qualitat",
+      "features": [
+        {
+          "title": "Compressió intel·ligent",
+          "tone": "blau",
+          "body": "Compressió intel·ligent ajustada per a imatges PNG."
+        },
+        {
+          "title": "Fins a un 80% més petit",
+          "body": "Redueix dràsticament la mida del fitxer per a càrregues i càrregues de pàgines més ràpides.",
+          "tone": "verd"
+        },
+        {
+          "title": "Perfecte per a la web",
+          "body": "Optimitzeu imatges per a llocs web, blocs i pàgines de productes.",
+          "tone": "morat"
+        },
+        {
+          "title": "Qualitat en la qual pots confiar",
+          "body": "Previsualitza abans de baixar perquè la qualitat estigui sota el teu control.",
+          "tone": "taronja"
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Comprimir"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "kind": "privadesa",
+          "body": "Les vostres imatges es processen de manera privada per a la compressió i s'eliminen automàticament en una hora."
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Com funciona la compressió PNG?",
+          "a": "L'eina torna a codificar el vostre PNG amb paràmetres que redueixen la mida del fitxer alhora que el resultat es pot utilitzar visualment."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats PNG fins a 10 MB."
+        },
+        {
+          "q": "La compressió reduirà la qualitat de la imatge?",
+          "a": "Els preajustos més forts poden suavitzar els detalls fins. Trieu un valor predefinit més lleuger quan l'aspecte més importa i previsualitzeu-lo sempre."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. La compressió de convidat funciona sense iniciar la sessió."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats s'eliminen automàticament en una hora."
+        }
+      ],
+      "metaTitle": "Comprimeix PNG Imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Comprimiu imatges PNG en línia sense perdre qualitat. Reduïu la mida del fitxer PNG amb el processament privat de convidats.",
+      "breadcrumbCurrent": "Comprimeix PNG en línia",
+      "h1": "Comprimeix PNG en línia",
+      "subtitle": "Redueix la mida del fitxer PNG sense perdre qualitat",
+      "paragraph": "Comprimiu imatges PNG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: PNG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/compress-webp": {
+      "path": "/compress-webp",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Talla més petita, mateixa gran qualitat",
+      "features": [
+        {
+          "title": "Compressió intel·ligent",
+          "tone": "blau",
+          "body": "Compressió intel·ligent ajustada per a imatges WebP."
+        },
+        {
+          "title": "Fins a un 80% més petit",
+          "body": "Redueix dràsticament la mida del fitxer per a càrregues i càrregues de pàgines més ràpides.",
+          "tone": "verd"
+        },
+        {
+          "title": "Perfecte per a la web",
+          "body": "Optimitzeu imatges per a llocs web, blocs i pàgines de productes.",
+          "tone": "morat"
+        },
+        {
+          "title": "Qualitat en la qual pots confiar",
+          "body": "Previsualitza abans de baixar perquè la qualitat estigui sota el teu control.",
+          "tone": "taronja"
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Comprimir"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "kind": "privadesa",
+          "body": "Les vostres imatges es processen de manera privada per a la compressió i s'eliminen automàticament en una hora."
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Com funciona la compressió WebP?",
+          "a": "L'eina torna a codificar el vostre WebP amb paràmetres que redueixen la mida del fitxer alhora que el resultat es pot utilitzar visualment."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats WebP fins a 10 MB."
+        },
+        {
+          "q": "La compressió reduirà la qualitat de la imatge?",
+          "a": "Els preajustos més forts poden suavitzar els detalls fins. Trieu un valor predefinit més lleuger quan l'aspecte més importa i previsualitzeu-lo sempre."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. La compressió de convidat funciona sense iniciar la sessió."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats s'eliminen automàticament en una hora."
+        }
+      ],
+      "metaTitle": "Comprimeix WebP Imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Comprimiu imatges WebP en línia sense perdre qualitat. Reduïu la mida del fitxer WebP amb el processament privat de convidats.",
+      "breadcrumbCurrent": "Comprimeix WebP en línia",
+      "h1": "Comprimeix WebP en línia",
+      "subtitle": "Redueix la mida del fitxer WebP sense perdre qualitat",
+      "paragraph": "Comprimiu imatges WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/resize-jpg": {
+      "path": "/redimensiona-jpg",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Control precís, resultats nets",
+      "features": [
+        {
+          "title": "Dimensions exactes",
+          "body": "Introduïu l'amplada i l'alçada que coincideixin amb les vostres necessitats de disseny.",
+          "tone": "blau"
+        },
+        {
+          "title": "Fit Dins",
+          "body": "Escala les imatges en un quadre mentre es conserva la relació d'aspecte.",
+          "tone": "verd"
+        },
+        {
+          "title": "Sense augment no desitjat",
+          "body": "Les baranes ajuden a evitar estirar fonts petites.",
+          "tone": "morat"
+        },
+        {
+          "title": "Web llest",
+          "tone": "taronja",
+          "body": "Prepareu mides JPG coherents per a pàgines i quadrícules."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Canvia la mida"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per canviar-les de mida i es suprimeixen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Puc mantenir la relació d'aspecte?",
+          "a": "Sí. Utilitzeu dimensions encaixades o enllaçades perquè les imatges s'escallin netament."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats JPG fins a 10 MB."
+        },
+        {
+          "q": "El canvi de mida augmentarà la meva imatge?",
+          "a": "Per defecte, els fluxos de treball eviten l'ampliació no desitjada."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Canvia la mida com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Canvia la mida JPG Imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Canvia la mida de les imatges JPG en línia per amplada, alçada o ajust interior. Eina de convidat privada sense necessitat de compte.",
+      "breadcrumbCurrent": "Canvia la mida JPG En línia",
+      "h1": "Canvia la mida JPG En línia",
+      "subtitle": "Canvieu les dimensions JPG per a la web i les xarxes socials",
+      "paragraph": "Canvia la mida de les imatges JPG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: JPG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/resize-png": {
+      "path": "/redimensiona-png",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Control precís, resultats nets",
+      "features": [
+        {
+          "title": "Dimensions exactes",
+          "body": "Introduïu l'amplada i l'alçada que coincideixin amb les vostres necessitats de disseny.",
+          "tone": "blau"
+        },
+        {
+          "title": "Fit Dins",
+          "body": "Escala les imatges en un quadre mentre es conserva la relació d'aspecte.",
+          "tone": "verd"
+        },
+        {
+          "title": "Sense augment no desitjat",
+          "body": "Les baranes ajuden a evitar estirar fonts petites.",
+          "tone": "morat"
+        },
+        {
+          "title": "Web llest",
+          "tone": "taronja",
+          "body": "Prepareu mides PNG coherents per a pàgines i quadrícules."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Canvia la mida"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per canviar-les de mida i es suprimeixen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Puc mantenir la relació d'aspecte?",
+          "a": "Sí. Utilitzeu dimensions encaixades o enllaçades perquè les imatges s'escallin netament."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats PNG fins a 10 MB."
+        },
+        {
+          "q": "El canvi de mida augmentarà la meva imatge?",
+          "a": "Per defecte, els fluxos de treball eviten l'ampliació no desitjada."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Canvia la mida com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Canvia la mida PNG Imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Canvia la mida de les imatges PNG en línia per amplada, alçada o ajust interior. Eina de convidat privada sense necessitat de compte.",
+      "breadcrumbCurrent": "Canvia la mida PNG En línia",
+      "h1": "Canvia la mida PNG En línia",
+      "subtitle": "Canvieu les dimensions PNG per a la web i les xarxes socials",
+      "paragraph": "Canvia la mida de les imatges PNG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: PNG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/resize-webp": {
+      "path": "/redimensiona-webp",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Control precís, resultats nets",
+      "features": [
+        {
+          "title": "Dimensions exactes",
+          "body": "Introduïu l'amplada i l'alçada que coincideixin amb les vostres necessitats de disseny.",
+          "tone": "blau"
+        },
+        {
+          "title": "Fit Dins",
+          "body": "Escala les imatges en un quadre mentre es conserva la relació d'aspecte.",
+          "tone": "verd"
+        },
+        {
+          "title": "Sense augment no desitjat",
+          "body": "Les baranes ajuden a evitar estirar fonts petites.",
+          "tone": "morat"
+        },
+        {
+          "title": "Web llest",
+          "tone": "taronja",
+          "body": "Prepareu mides WebP coherents per a pàgines i quadrícules."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Canvia la mida"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per canviar-les de mida i es suprimeixen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Puc mantenir la relació d'aspecte?",
+          "a": "Sí. Utilitzeu dimensions encaixades o enllaçades perquè les imatges s'escallin netament."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats WebP fins a 10 MB."
+        },
+        {
+          "q": "El canvi de mida augmentarà la meva imatge?",
+          "a": "Per defecte, els fluxos de treball eviten l'ampliació no desitjada."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Canvia la mida com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Canvia la mida WebP Imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Canvia la mida de les imatges WebP en línia per amplada, alçada o ajust interior. Eina de convidat privada sense necessitat de compte.",
+      "breadcrumbCurrent": "Canvia la mida WebP En línia",
+      "h1": "Canvia la mida WebP En línia",
+      "subtitle": "Canvieu les dimensions WebP per a la web i les xarxes socials",
+      "paragraph": "Canvia la mida de les imatges WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/crop-jpg": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Cultiva amb confiança",
+      "features": [
+        {
+          "title": "Cultiu gratuït",
+          "body": "Seleccioneu qualsevol àrea de la imatge i manteniu exactament aquesta regió.",
+          "tone": "blau"
+        },
+        {
+          "title": "Relacions fixes",
+          "body": "Utilitzeu relacions d'aspecte habituals per a dissenys coherents.",
+          "tone": "verd"
+        },
+        {
+          "title": "Orientació segura",
+          "body": "Les matemàtiques de retall respecten les dimensions orientades després de la càrrega.",
+          "tone": "morat"
+        },
+        {
+          "title": "Sortida del mateix format",
+          "tone": "taronja",
+          "body": "Baixeu un resultat retallat JPG."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Cultiu"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per retallar-les i es suprimeixen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Puc retallar fins a un quadrat?",
+          "a": "Sí. Trieu una proporció 1:1 o dibuixeu un tall lliure."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats JPG fins a 10 MB."
+        },
+        {
+          "q": "Es sobreescriu l'original?",
+          "a": "No. El processament crea un resultat retallat nou."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Retalla com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/crop-jpg",
+      "metaTitle": "Retalla JPG imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Retalla les imatges JPG en línia amb controls gratuïts o de proporció fixa. Processament de convidat privat, no cal cap compte.",
+      "breadcrumbCurrent": "Retalla JPG En línia",
+      "h1": "Retalla JPG En línia",
+      "subtitle": "Conserveu només la part del vostre JPG que importa",
+      "paragraph": "Retalla les imatges JPG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: JPG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/crop-png": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Cultiva amb confiança",
+      "features": [
+        {
+          "title": "Cultiu gratuït",
+          "body": "Seleccioneu qualsevol àrea de la imatge i manteniu exactament aquesta regió.",
+          "tone": "blau"
+        },
+        {
+          "title": "Relacions fixes",
+          "body": "Utilitzeu relacions d'aspecte habituals per a dissenys coherents.",
+          "tone": "verd"
+        },
+        {
+          "title": "Orientació segura",
+          "body": "Les matemàtiques de retall respecten les dimensions orientades després de la càrrega.",
+          "tone": "morat"
+        },
+        {
+          "title": "Sortida del mateix format",
+          "tone": "taronja",
+          "body": "Baixeu un resultat retallat PNG."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Cultiu"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per retallar-les i es suprimeixen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Puc retallar fins a un quadrat?",
+          "a": "Sí. Trieu una proporció 1:1 o dibuixeu un tall lliure."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats PNG fins a 10 MB."
+        },
+        {
+          "q": "Es sobreescriu l'original?",
+          "a": "No. El processament crea un resultat retallat nou."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Retalla com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/crop-png",
+      "metaTitle": "Retalla PNG imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Retalla les imatges PNG en línia amb controls gratuïts o de proporció fixa. Processament de convidat privat, no cal cap compte.",
+      "breadcrumbCurrent": "Retalla PNG En línia",
+      "h1": "Retalla PNG En línia",
+      "subtitle": "Conserveu només la part del vostre PNG que importa",
+      "paragraph": "Retalla les imatges PNG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: PNG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/crop-webp": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Cultiva amb confiança",
+      "features": [
+        {
+          "title": "Cultiu gratuït",
+          "body": "Seleccioneu qualsevol àrea de la imatge i manteniu exactament aquesta regió.",
+          "tone": "blau"
+        },
+        {
+          "title": "Relacions fixes",
+          "body": "Utilitzeu relacions d'aspecte habituals per a dissenys coherents.",
+          "tone": "verd"
+        },
+        {
+          "title": "Orientació segura",
+          "body": "Les matemàtiques de retall respecten les dimensions orientades després de la càrrega.",
+          "tone": "morat"
+        },
+        {
+          "title": "Sortida del mateix format",
+          "tone": "taronja",
+          "body": "Baixeu un resultat retallat WebP."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Cultiu"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per retallar-les i es suprimeixen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Puc retallar fins a un quadrat?",
+          "a": "Sí. Trieu una proporció 1:1 o dibuixeu un tall lliure."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats WebP fins a 10 MB."
+        },
+        {
+          "q": "Es sobreescriu l'original?",
+          "a": "No. El processament crea un resultat retallat nou."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Retalla com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/crop-webp",
+      "metaTitle": "Retalla WebP imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Retalla les imatges WebP en línia amb controls gratuïts o de proporció fixa. Processament de convidat privat, no cal cap compte.",
+      "breadcrumbCurrent": "Retalla WebP En línia",
+      "h1": "Retalla WebP En línia",
+      "subtitle": "Conserveu només la part del vostre WebP que importa",
+      "paragraph": "Retalla les imatges WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Format compatible: WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/jpg-to-webp": {
+      "path": "/jpg-a-webp",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a WebP amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir JPG a WebP canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats JPG fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "La conversió és sense pèrdues?",
+          "a": "Depèn dels formats d'origen i de destinació. Els formats amb pèrdua poden reduir la qualitat per a mida més petita."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Converteix JPG a WebP en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix imatges JPG a WebP en línia per a llocs web més ràpids. Conversió de convidats privats amb sortides verificades.",
+      "breadcrumbCurrent": "Convertidor de JPG a WebP",
+      "h1": "Converteix JPG a WebP en línia",
+      "subtitle": "Canvia de JPG a WebP sense programari d'escriptori",
+      "paragraph": "Converteix imatges JPG a WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: JPG → WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/jpg-to-png": {
+      "path": "/jpg-a-png",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a PNG amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir JPG a PNG canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats JPG fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "La conversió és sense pèrdues?",
+          "a": "Depèn dels formats d'origen i de destinació. Els formats amb pèrdua poden reduir la qualitat per a mida més petita."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Converteix JPG a PNG en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix imatges JPG a PNG en línia. Conversió de convidats privats amb sortides verificades.",
+      "breadcrumbCurrent": "Convertidor de JPG a PNG",
+      "h1": "Converteix JPG a PNG en línia",
+      "subtitle": "Canvia de JPG a PNG sense programari d'escriptori",
+      "paragraph": "Converteix imatges JPG a PNG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: JPG → PNG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/jpg-to-avif": {
+      "path": "/jpg-a-avif",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a AVIF amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir JPG a AVIF canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats JPG fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "AVIF sempre està disponible?",
+          "a": "La codificació AVIF només s'ofereix quan el servidor pot codificar i verificar el resultat."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Converteix JPG a AVIF en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix les imatges JPG a AVIF en línia quan la codificació estigui disponible. Conversió de convidats privats.",
+      "breadcrumbCurrent": "Convertidor de JPG a AVIF",
+      "h1": "Converteix JPG a AVIF en línia",
+      "subtitle": "Canvia de JPG a AVIF sense programari d'escriptori",
+      "paragraph": "Converteix imatges JPG a AVIF en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: JPG → AVIF • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/png-to-jpg": {
+      "path": "/png-a-jpg",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a JPG amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir PNG a JPG canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats PNG fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "La conversió és sense pèrdues?",
+          "a": "Depèn dels formats d'origen i de destinació. Els formats amb pèrdua poden reduir la qualitat per a mida més petita."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Converteix PNG a JPG en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix imatges PNG a JPG en línia. Conversió de convidats privats amb sortides verificades.",
+      "breadcrumbCurrent": "Convertidor de PNG a JPG",
+      "h1": "Converteix PNG a JPG en línia",
+      "subtitle": "Canvia de PNG a JPG sense programari d'escriptori",
+      "paragraph": "Converteix imatges PNG a JPG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: PNG → JPG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/png-to-webp": {
+      "path": "/png-a-webp",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a WebP amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir PNG a WebP canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats PNG fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "La conversió és sense pèrdues?",
+          "a": "Depèn dels formats d'origen i de destinació. Els formats amb pèrdua poden reduir la qualitat per a mida més petita."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Converteix PNG a WebP en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix imatges PNG a WebP en línia per a una distribució web més petita. Conversió de convidats privats.",
+      "breadcrumbCurrent": "Convertidor de PNG a WebP",
+      "h1": "Converteix PNG a WebP en línia",
+      "subtitle": "Canvia de PNG a WebP sense programari d'escriptori",
+      "paragraph": "Converteix imatges PNG a WebP en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: PNG → WebP • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/png-to-avif": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a AVIF amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir PNG a AVIF canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats PNG fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "AVIF sempre està disponible?",
+          "a": "La codificació AVIF només s'ofereix quan el servidor pot codificar i verificar el resultat."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/png-a-avif",
+      "metaTitle": "Converteix PNG a AVIF en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix les imatges PNG a AVIF en línia quan la codificació estigui disponible. Conversió de convidats privats.",
+      "breadcrumbCurrent": "Convertidor de PNG a AVIF",
+      "h1": "Converteix PNG a AVIF en línia",
+      "subtitle": "Canvia de PNG a AVIF sense programari d'escriptori",
+      "paragraph": "Converteix imatges PNG a AVIF en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: PNG → AVIF • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/webp-to-jpg": {
+      "path": "/webp-a-jpg",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a JPG amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir WebP a JPG canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats WebP fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "La conversió és sense pèrdues?",
+          "a": "Depèn dels formats d'origen i de destinació. Els formats amb pèrdua poden reduir la qualitat per a mida més petita."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Converteix WebP a JPG en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix imatges WebP a JPG en línia. Conversió de convidats privats amb sortides verificades.",
+      "breadcrumbCurrent": "Convertidor de WebP a JPG",
+      "h1": "Converteix WebP a JPG en línia",
+      "subtitle": "Canvia de WebP a JPG sense programari d'escriptori",
+      "paragraph": "Converteix imatges WebP a JPG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: WebP → JPG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/webp-to-png": {
+      "path": "/webp-a-png",
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a PNG amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir WebP a PNG canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats WebP fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "La conversió és sense pèrdues?",
+          "a": "Depèn dels formats d'origen i de destinació. Els formats amb pèrdua poden reduir la qualitat per a mida més petita."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "metaTitle": "Converteix WebP a PNG en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix imatges WebP a PNG en línia. Conversió de convidats privats amb sortides verificades.",
+      "breadcrumbCurrent": "Convertidor de WebP a PNG",
+      "h1": "Converteix WebP a PNG en línia",
+      "subtitle": "Canvia de WebP a PNG sense programari d'escriptori",
+      "paragraph": "Converteix imatges WebP a PNG en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: WebP → PNG • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/webp-to-avif": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Canvis de format senzills",
+      "features": [
+        {
+          "tone": "blau",
+          "title": "Esborra l'objectiu",
+          "body": "La sortida es desa com a AVIF amb resultats verificats."
+        },
+        {
+          "tone": "verd",
+          "title": "Eina de convidat ràpid",
+          "body": "Carregueu, convertiu i descarregueu en una sessió privada."
+        },
+        {
+          "title": "Web Friendly",
+          "tone": "morat",
+          "body": "Utilitzeu el format que s'adapti al vostre lloc o flux de treball."
+        },
+        {
+          "title": "Sortida honesta",
+          "tone": "taronja",
+          "body": "Conegui el tipus i la mida resultant abans de descarregar."
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carrega la teva imatge"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Previsualitza el resultat"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les i s'eliminen automàticament en una hora.",
+          "kind": "privadesa"
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Convertir WebP a AVIF canvia el meu original?",
+          "a": "No. El processament del convidat escriu una sortida independent. La càrrega es manté privada i caduca amb la sessió."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Admet càrregues de convidats WebP fins a 10 MB."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "No. Converteix-te com a convidat. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "AVIF sempre està disponible?",
+          "a": "La codificació AVIF només s'ofereix quan el servidor pot codificar i verificar el resultat."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/webp-a-avif",
+      "metaTitle": "Converteix WebP a AVIF en línia gratuït | Img Pilot",
+      "metaDescription": "Converteix les imatges WebP a AVIF en línia quan la codificació estigui disponible. Conversió de convidats privats.",
+      "breadcrumbCurrent": "Convertidor de WebP a AVIF",
+      "h1": "Converteix WebP a AVIF en línia",
+      "subtitle": "Canvia de WebP a AVIF sense programari d'escriptori",
+      "paragraph": "Converteix imatges WebP a AVIF en segons. Eina en línia gratuïta: no cal cap compte.",
+      "workspaceNote": "Admesos: WebP → AVIF • Mida màxima del fitxer: 10 MB. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/bulk-compress": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Velocitat del lot amb límits clars",
+      "features": [
+        {
+          "title": "Configuració compartida",
+          "tone": "blau",
+          "body": "Apliqueu una opció de compressió a tot el lot."
+        },
+        {
+          "title": "Estat per fitxer",
+          "body": "Vegeu quines imatges han tingut èxit i quines necessiten atenció.",
+          "tone": "verd"
+        },
+        {
+          "title": "ZIP Descarrega",
+          "body": "Recolliu sortides reeixides quan el lot estigui llest.",
+          "tone": "morat"
+        },
+        {
+          "title": "Gorres de convidat",
+          "body": "La mida del lot i els bytes totals segueixen la política de convidats gratuïts.",
+          "tone": "taronja"
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carregueu un lot"
+        },
+        {
+          "title": "Comprimir"
+        },
+        {
+          "title": "Fitxers de procés"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "kind": "privadesa",
+          "body": "Les vostres imatges es processen de manera privada per a la compressió massiva i es suprimeixen automàticament en una hora."
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Quants fitxers puc pujar?",
+          "a": "Les feines massives dels convidats imposen un nombre màxim de fitxers i una mida total del lot."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Cada fitxer segueix la mida màxima del convidat i el lot té un límit total de bytes."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "Els convidats poden executar treballs a granel limitats. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Què passa si falla un fitxer?",
+          "a": "Les sortides reeixides es poden descarregar; els elements fallits mostren un estat d'error."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/comprimir a granel",
+      "metaTitle": "Imatges de compressió a granel en línia gratuïtes | Img Pilot",
+      "metaDescription": "Comprimiu diverses imatges en línia i baixeu els resultats d'èxit junts. S'apliquen límits de massa de convidats.",
+      "breadcrumbCurrent": "Imatges de compressió a granel",
+      "h1": "Imatges de compressió massiva en línia",
+      "subtitle": "Comprimiu un lot curt sense repetir cada pas",
+      "paragraph": "Comprimiu diversos fitxers JPG, PNG o WebP en un sol lot. S'apliquen límits de convidats gratuïts.",
+      "workspaceNote": "Formats admesos: JPG, PNG, WebP • S'apliquen límits de lots de convidats. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/bulk-resize": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Velocitat del lot amb límits clars",
+      "features": [
+        {
+          "title": "Configuració compartida",
+          "tone": "blau",
+          "body": "Apliqueu una opció de canvi de mida a tot el lot."
+        },
+        {
+          "title": "Estat per fitxer",
+          "body": "Vegeu quines imatges han tingut èxit i quines necessiten atenció.",
+          "tone": "verd"
+        },
+        {
+          "title": "ZIP Descarrega",
+          "body": "Recolliu sortides reeixides quan el lot estigui llest.",
+          "tone": "morat"
+        },
+        {
+          "title": "Gorres de convidat",
+          "body": "La mida del lot i els bytes totals segueixen la política de convidats gratuïts.",
+          "tone": "taronja"
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carregueu un lot"
+        },
+        {
+          "title": "Canvia la mida"
+        },
+        {
+          "title": "Fitxers de procés"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "kind": "privadesa",
+          "body": "Les vostres imatges es processen de manera privada per canviar la mida massiva i es suprimeixen automàticament en una hora."
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Quants fitxers puc pujar?",
+          "a": "Les feines massives dels convidats imposen un nombre màxim de fitxers i una mida total del lot."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Cada fitxer segueix la mida màxima del convidat i el lot té un límit total de bytes."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "Els convidats poden executar treballs a granel limitats. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Què passa si falla un fitxer?",
+          "a": "Les sortides reeixides es poden descarregar; els elements fallits mostren un estat d'error."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/bulk-resize",
+      "metaTitle": "Redimensionar a granel d'imatges en línia gratuïtes | Img Pilot",
+      "metaDescription": "Canvieu la mida de diverses imatges en línia i baixeu els resultats amb èxit junts. S'apliquen límits de massa de convidats.",
+      "breadcrumbCurrent": "Canviar la mida de les imatges a granel",
+      "h1": "Canviar la mida de les imatges en línia",
+      "subtitle": "Canvia la mida d'un lot curt sense repetir cada pas",
+      "paragraph": "Canvia la mida de diversos fitxers JPG, PNG o WebP en un sol lot. S'apliquen límits de convidats gratuïts.",
+      "workspaceNote": "Formats admesos: JPG, PNG, WebP • S'apliquen límits de lots de convidats. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    },
+    "/bulk-convert": {
+      "trust": [
+        "No es requereix cap compte",
+        "Processament privat i segur",
+        "Supressió automàtica en 1 hora"
+      ],
+      "featuresHeading": "Velocitat del lot amb límits clars",
+      "features": [
+        {
+          "title": "Configuració compartida",
+          "tone": "blau",
+          "body": "Apliqueu una opció de conversió a tot el lot."
+        },
+        {
+          "title": "Estat per fitxer",
+          "body": "Vegeu quines imatges han tingut èxit i quines necessiten atenció.",
+          "tone": "verd"
+        },
+        {
+          "title": "ZIP Descarrega",
+          "body": "Recolliu sortides reeixides quan el lot estigui llest.",
+          "tone": "morat"
+        },
+        {
+          "title": "Gorres de convidat",
+          "body": "La mida del lot i els bytes totals segueixen la política de convidats gratuïts.",
+          "tone": "taronja"
+        }
+      ],
+      "howHeading": "Com funciona",
+      "howSteps": [
+        {
+          "title": "Carregueu un lot"
+        },
+        {
+          "title": "Converteix"
+        },
+        {
+          "title": "Fitxers de procés"
+        },
+        {
+          "title": "Descarregar"
+        }
+      ],
+      "benefitCards": [
+        {
+          "title": "La teva privadesa és important",
+          "kind": "privadesa",
+          "body": "Les vostres imatges es processen de manera privada per convertir-les en massa i s'eliminen automàticament en una hora."
+        },
+        {
+          "title": "Ràpid i eficient",
+          "body": "El processament de convidats amb suport al núvol ofereix resultats en segons sense instal·lar programari.",
+          "kind": "velocitat"
+        }
+      ],
+      "faqHeading": "Preguntes freqüents",
+      "faqs": [
+        {
+          "q": "Quants fitxers puc pujar?",
+          "a": "Les feines massives dels convidats imposen un nombre màxim de fitxers i una mida total del lot."
+        },
+        {
+          "q": "Hi ha un límit de mida del fitxer?",
+          "a": "Cada fitxer segueix la mida màxima del convidat i el lot té un límit total de bytes."
+        },
+        {
+          "q": "Necessito un compte?",
+          "a": "Els convidats poden executar treballs a granel limitats. Els fitxers caduquen en una hora."
+        },
+        {
+          "q": "Què passa si falla un fitxer?",
+          "a": "Les sortides reeixides es poden descarregar; els elements fallits mostren un estat d'error."
+        },
+        {
+          "q": "Les meves imatges s'emmagatzemen permanentment?",
+          "a": "No. Les càrregues de convidats i els resultats caduquen en una hora."
+        }
+      ],
+      "path": "/conversió a granel",
+      "metaTitle": "Converteix imatges en línia gratuïtament a granel | Img Pilot",
+      "metaDescription": "Converteix diverses imatges en línia i descarrega resultats reeixits junts. S'apliquen límits de massa de convidats.",
+      "breadcrumbCurrent": "Conversió massiva d'imatges",
+      "h1": "Converteix imatges a granel en línia",
+      "subtitle": "Converteix un lot curt sense repetir cada pas",
+      "paragraph": "Converteix diversos fitxers JPG, PNG o WebP en un sol lot. S'apliquen límits de convidats gratuïts.",
+      "workspaceNote": "Formats admesos: JPG, PNG, WebP • S'apliquen límits de lots de convidats. Els vostres fitxers són privats i s'eliminen automàticament en una hora."
+    }
+  }
+}

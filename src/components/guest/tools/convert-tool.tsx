@@ -1,7 +1,8 @@
 "use client";
 
 import {useEffect, useMemo} from "react";
-import {useLocale, useTranslations} from "next-intl";
+import {useTranslations} from "next-intl";
+import {Link} from "@/i18n/navigation";
 import {
   defaultGuestConvertOptions,
   listGuestConvertTargets,
@@ -34,7 +35,6 @@ function ConvertOptionsPanel({
   disabled?: boolean;
 }) {
   const t = useTranslations("guest.convert");
-  const locale = useLocale();
   const sourceFormat = sourceFormatFromMime(sourceMimeType);
   const targets = useMemo(
     () => (sourceFormat ? listGuestConvertTargets(sourceFormat, avifEncodeSupported) : []),
@@ -122,9 +122,9 @@ function ConvertOptionsPanel({
         )}
         <p className="text-xs text-[var(--muted-foreground)]">
           {t("sameFormatHint")}{" "}
-          <a href={`/${locale}/compress-image`} className="underline">
+          <Link href="/compress-image" className="underline">
             {t("openCompress")}
-          </a>
+          </Link>
         </p>
       </div>
 

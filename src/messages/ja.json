@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "近日公開",
+    "openMenu": "ナビゲーションを開く",
+    "closeMenu": "ナビゲーションを閉じる",
+    "mainNavigation": "メインナビゲーション"
+  },
+  "navigation": {
+    "dashboard": "ダッシュボード",
+    "projects": "プロジェクト",
+    "usage": "分析",
+    "billing": "請求",
+    "developer": "デベロッパー",
+    "integrations": "連携",
+    "automation": "自動化",
+    "settings": "アカウント設定",
+    "organizations": "組織"
+  },
+  "language": {
+    "label": "表示言語",
+    "english": "英語",
+    "urdu": "ウルドゥー語",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "画像ツール",
+    "compress": "圧縮",
+    "resize": "リサイズ",
+    "convert": "変換",
+    "seoTools": "SEOツール",
+    "bulkTools": "一括ツール",
+    "openAppGrid": "ツールメニューを開く",
+    "appGridTitle": "ツールとリソース",
+    "languageHint": "言語設定",
+    "menu": "メニュー",
+    "close": "閉じる",
+    "footerBlurb": "画像の圧縮・リサイズ・変換、およびWeb向け準備のためのプライベートなオンラインツール。",
+    "popularFormats": "人気の形式",
+    "company": "会社情報",
+    "resources": "リソース",
+    "rights": "無断転載を禁じます。"
+  },
+  "errors": {
+    "generic": "何か問題が発生しました。"
+  }
+}

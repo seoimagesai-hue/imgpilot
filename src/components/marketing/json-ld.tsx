@@ -1,4 +1,4 @@
-import {getPublicAppOrigin} from "@/server/marketing/seo";
+import {absoluteUrl} from "@/server/marketing/seo";
 
 export function JsonLd({data}: {data: Record<string, unknown> | Record<string, unknown>[]}) {
   return (
@@ -17,8 +17,7 @@ export function landingJsonLd(params: {
   breadcrumbs: {name: string; path: string}[];
   faqs: {q: string; a: string}[];
 }) {
-  const origin = getPublicAppOrigin();
-  const pageUrl = `${origin}/${params.locale}${params.path === "/" ? "" : params.path}`;
+  const pageUrl = absoluteUrl(params.locale, params.path);
 
   const breadcrumb = {
     "@context": "https://schema.org",
@@ -27,7 +26,7 @@ export function landingJsonLd(params: {
       "@type": "ListItem",
       position: index + 1,
       name: crumb.name,
-      item: `${origin}/${params.locale}${crumb.path === "/" ? "" : crumb.path}`,
+      item: absoluteUrl(params.locale, crumb.path),
     })),
   };
 

@@ -1,7 +1,8 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
- * Contact SEO Images — premium support page. Form submits via mailto (no new API).
+ * Contact Img Pilot — premium support page. Form submits via mailto (no new API).
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type ContactFaq = {q: string; a: string};
 
@@ -49,12 +50,12 @@ export type ContactCopy = {
 };
 
 const en: ContactCopy = {
-  metaTitle: "Contact SEO Images",
+  metaTitle: "Contact Img Pilot",
   metaDescription:
-    "Need help with SEO Images? Contact our support team for questions about image optimization, accounts and browser-based tools.",
+    "Need help with Img Pilot? Contact our support team for questions about image optimization, accounts and browser-based tools.",
   breadcrumbCurrent: "Contact",
   hero: {
-    badge: "CONTACT SEO IMAGES",
+    badge: "CONTACT IMG PILOT",
     h1: "We're Here to Help",
     paragraph:
       "Have a question about our image tools, your account or image processing? Get in touch and we'll help you as quickly as possible.",
@@ -78,7 +79,7 @@ const en: ContactCopy = {
     cards: [
       {
         title: "General Support",
-        body: "Questions about guest tools, limits, downloads or getting started on SEO Images.",
+        body: "Questions about guest tools, limits, downloads or getting started on Img Pilot.",
       },
       {
         title: "Technical Issues",
@@ -112,7 +113,7 @@ const en: ContactCopy = {
   faqHeading: "Frequently Asked Questions",
   faqs: [
     {
-      q: "How do I contact SEO Images support?",
+      q: "How do I contact Img Pilot support?",
       a: "Use the form on this page. When SUPPORT_EMAIL is configured, Submit opens your email client with the message ready to send.",
     },
     {
@@ -160,12 +161,12 @@ const en: ContactCopy = {
 };
 
 const ur: ContactCopy = {
-  metaTitle: "SEO Images سے رابطہ کریں",
+  metaTitle: "Img Pilot سے رابطہ کریں",
   metaDescription:
-    "SEO Images میں مدد درکار ہے؟ امیج آپٹیمائزیشن، اکاؤنٹس اور براؤزر ٹولز کے سوالات کے لیے ہماری سپورٹ ٹیم سے رابطہ کریں۔",
+    "Img Pilot میں مدد درکار ہے؟ امیج آپٹیمائزیشن، اکاؤنٹس اور براؤزر ٹولز کے سوالات کے لیے ہماری سپورٹ ٹیم سے رابطہ کریں۔",
   breadcrumbCurrent: "رابطہ",
   hero: {
-    badge: "CONTACT SEO IMAGES",
+    badge: "CONTACT IMG PILOT",
     h1: "ہم مدد کے لیے موجود ہیں",
     paragraph:
       "امیج ٹولز، اکاؤنٹ یا پروسیسنگ کے بارے میں سوال ہے؟ رابطہ کریں — ہم جلد سے جلد مدد کرنے کی کوشش کریں گے۔",
@@ -221,7 +222,7 @@ const ur: ContactCopy = {
   faqHeading: "عمومی سوالات",
   faqs: [
     {
-      q: "SEO Images سپورٹ سے کیسے رابطہ کریں؟",
+      q: "Img Pilot سپورٹ سے کیسے رابطہ کریں؟",
       a: "اس صفحے کا فارم استعمال کریں۔ جب SUPPORT_EMAIL ترتیب ہو، Submit آپ کے ای میل کلائنٹ میں پیغام تیار کر کے کھولتا ہے۔",
     },
     {
@@ -269,9 +270,9 @@ const ur: ContactCopy = {
 };
 
 export function getContactCopy(locale: string): ContactCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isContactLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

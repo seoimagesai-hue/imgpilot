@@ -1,5 +1,31 @@
 # Changelog
 
+## 2026-08-07 — Brand rename: Img Pilot
+
+- User-facing product name is now **Img Pilot** (was SEO Images).
+- New brand assets: `public/brand/img-pilot-icon.{svg,png}`, horizontal logos (light/dark SVG + PNG), app `icon.png` / `apple-icon.png`.
+- Header/footer BrandMark uses the horizontal Img Pilot lockup.
+- Metadata / Open Graph `siteName`, messages, marketing catalogs, docs, and copyright updated.
+- Kept package name, guest cookie (`seoimages_guest`), middleware headers, and other technical identifiers unchanged.
+
+## 2026-08-07 — Phase 3 Prompt 1: Professional translation pipeline (25 languages)
+
+- Content catalogs under `src/content/locales/{locale}/` (homepage, tools, seo-landings, layer1-ui) with per-locale `_status`.
+- CLI: `npm run i18n:extract|audit|translate|populate-curated`; provider interface (OpenAI / DeepL / Google Cloud / optional public GTX bootstrap).
+- Glossary + JSON translation memory; statuses `missing|machine_translated|reviewed|approved|stale`.
+- Indexability gate: sitemap/hreflang/robots exclude incomplete localized pages.
+- Locale formatters (`src/i18n/format.ts`) and RTL technical isolation helpers (`src/i18n/bidi.ts`).
+- Docs: `docs/phase-3-translation-*.md`. Machine-translated packs labelled until human review — not claimed professionally approved.
+
+## 2026-08-07 — Global multilingual architecture (25 languages)
+
+- English at unprefixed `/` (`localePrefix: "as-needed"`); 24 locales under `/{locale}/...`.
+- Permanent 301 `/en` and `/en/*` → unprefixed English; RTL for `ar` + `ur`.
+- Prefix-aware canonical / hreflang / sitemap / robots / JSON-LD; language switcher uses native names.
+- EN deep-merge fallback for messages; chrome/nav/guest chrome packs for all non-English locales.
+- Marketing body uses `localizedCopy` (locale pack or English); auth/checkout/not-found URL plumbing updated.
+- Docs: `docs/multilingual-prompt-inspection.md`, `docs/multilingual-prompt-completion.md`.
+
 ## 2026-08-04 — User account experience + separate admin panel
 
 - Auth callbacks: safe tool return; default homepage; already-authed login → `/account`.

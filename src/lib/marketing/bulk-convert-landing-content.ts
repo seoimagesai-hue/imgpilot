@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Bulk Convert landing — commercial batch format conversion for agencies, ecommerce, developers.
  * Distinct from single-image convert pair landings.
@@ -98,7 +99,7 @@ export type BulkConvertCopy = {
 };
 
 const en: BulkConvertCopy = {
-  metaTitle: "Bulk Convert Images Online Free | SEO Images",
+  metaTitle: "Bulk Convert Images Online Free | Img Pilot",
   metaDescription:
     "Convert multiple JPG, PNG and WebP images online. Batch convert image formats and download all converted files together in one ZIP archive.",
   h1: "Bulk Convert Images Online",
@@ -398,7 +399,7 @@ const en: BulkConvertCopy = {
 };
 
 const ur: BulkConvertCopy = {
-  metaTitle: "آن لائن بلک کنورٹ امیجز مفت | SEO Images",
+  metaTitle: "آن لائن بلک کنورٹ امیجز مفت | Img Pilot",
   metaDescription:
     "آن لائن متعدد JPG، PNG اور WebP امیجز کنورٹ کریں۔ بیچ میں فارمیٹس تبدیل کریں اور تمام کنورٹ شدہ فائلیں ایک ZIP میں ڈاؤن لوڈ کریں۔",
   h1: "آن لائن بلک کنورٹ امیجز",
@@ -704,7 +705,7 @@ const ur: BulkConvertCopy = {
 };
 
 export function getBulkConvertCopy(locale: string): BulkConvertCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export type BulkConvertLocale = AppLocale;

@@ -1,0 +1,1058 @@
+{
+  "/compress-image": {
+    "path": "/görüntü sıkıştır",
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Kompres"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Görüntü sıkıştırma nasıl çalışır?",
+        "a": "Araç, sonucu görsel olarak kullanılabilir tutarken dosya boyutunu küçülten ayarlarla görüntünüzü yeniden kodlar. İşlemeden önce daha hafif veya daha güçlü bir ön ayar seçin."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler. Daha büyük iş akışları bir hesap gerektirebilir."
+      },
+      {
+        "q": "Sıkıştırmak görüntü kalitesini düşürür mü?",
+        "a": "Daha güçlü ön ayarlar ince ayrıntıları yumuşatabilir. Görünümün en önemli olduğu durumlarda Maksimum Kalite veya Dengeli seçeneğini kullanın ve indirmeden önce daima ön izleme yapın."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Konuk sıkıştırması oturum açmadan çalışır. Dosyalar gizli kalır ve bir saat içinde geçerliliği sona erer."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemeleri ve sonuçları geçicidir ve bir saat içinde otomatik olarak silinir."
+      }
+    ],
+    "metaTitle": "Görüntüleri Çevrimiçi Sıkıştırın — JPG, PNG ve WebP Boyutunu Küçültün",
+    "metaDescription": "Kaliteyi kaybetmeden görüntüleri çevrimiçi olarak sıkıştırın. Özel konuk işleme ve bir saat içinde otomatik silme ile JPG, PNG ve WebP dosya boyutunu azaltın.",
+    "breadcrumbCurrent": "Görüntüleri Çevrimiçi Sıkıştırın",
+    "h1": "Görüntüleri Çevrimiçi Sıkıştırın",
+    "subtitle": "Kaliteyi kaybetmeden görüntü dosyası boyutunu azaltın",
+    "paragraph": "JPG, PNG ve WebP görsellerini saniyeler içinde sıkıştırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Daha Küçük Boyut, Aynı Mükemmel Kalite",
+    "features": [
+      {
+        "title": "Akıllı Sıkıştırma",
+        "body": "Görüntülerinizin keskin görünmesini sağlayan akıllı sıkıştırma.",
+        "tone": "mavi"
+      },
+      {
+        "title": "%80'e Kadar Daha Küçük",
+        "body": "Daha hızlı yükleme ve sayfa yükleme için dosya boyutunu önemli ölçüde azaltın.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Web için mükemmel",
+        "body": "Web siteleri, bloglar ve ürün sayfaları için görselleri optimize edin.",
+        "tone": "mor"
+      },
+      {
+        "title": "Güvenebileceğiniz Kalite",
+        "body": "Kalitenin kontrolünüz altında kalması için indirmeden önce önizleyin.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz özel olarak işlenir ve bir saat içerisinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli sıkıştırma, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/resize-image": {
+    "path": "/resmi yeniden boyutlandır",
+    "features": [
+      {
+        "title": "Tam Boyutlar",
+        "body": "Düzen gereksinimlerinize uygun genişlik ve yüksekliği girin.",
+        "tone": "mavi"
+      },
+      {
+        "title": "İçeri Sığdır",
+        "body": "En boy oranını koruyarak görüntüleri bir kutuya ölçeklendirin.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "İstenmeyen Lüks Yok",
+        "body": "Korkuluklar küçük kaynakların gerilmesini önlemeye yardımcı olur.",
+        "tone": "mor"
+      },
+      {
+        "title": "Web'e Hazır",
+        "body": "Sayfalar ve ürün ızgaraları için tutarlı boyutlar hazırlayın.",
+        "tone": "turuncu"
+      }
+    ],
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Yeniden boyutlandır"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "En boy oranını koruyabilir miyim?",
+        "a": "Evet. Görüntülerin bozulma olmadan temiz bir şekilde ölçeklenmesi için içe sığdırılmış veya bağlantılı boyutları kullanın."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Yeniden boyutlandırma resmimi büyütür mü?",
+        "a": "Varsayılan olarak iş akışları istenmeyen genişlemeleri önler. Kaynağınıza uygun boyutları seçin."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Misafir olarak yeniden boyutlandırmaya başlayın. Geçici dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemeleri ve sonuçları bir saat içinde otomatik olarak silinir."
+      }
+    ],
+    "metaTitle": "Görüntüleri Çevrimiçi Olarak Yeniden Boyutlandırın — Web ve Sosyal Medya için Boyutları Değiştirin",
+    "metaDescription": "JPG, PNG ve WebP görsellerini genişliğe, yüksekliğe veya içe sığdırmaya göre çevrimiçi olarak yeniden boyutlandırın. Hesap gerektirmeyen özel misafir aracı.",
+    "breadcrumbCurrent": "Görüntüleri Çevrimiçi Yeniden Boyutlandır",
+    "h1": "Görüntüleri Çevrimiçi Yeniden Boyutlandır",
+    "subtitle": "Web, sosyal ve düzen boyutlarını değiştirme",
+    "paragraph": "JPG, PNG ve WebP görsellerini saniyeler içinde yeniden boyutlandırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Hassas Kontrol, Temiz Sonuçlar",
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz yeniden boyutlandırılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/crop-image": {
+    "path": "/kırpılmış resim",
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Mahsul"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bir kareye kırpabilir miyim?",
+        "a": "Evet. 1:1 oranını seçin veya ihtiyaçlarınıza uygun ücretsiz bir ürün çizin."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Orijinalin üzerine mi yazıldı?",
+        "a": "Hayır. İşleme yeni bir kırpılmış sonuç oluşturur."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Misafir olarak kırpın. Dosyalar bir saat içinde otomatik olarak silinir."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "metaTitle": "Görüntüleri Çevrimiçi Kırpın - Ücretsiz ve Sabit Oranlı Kırpma",
+    "metaDescription": "Ücretsiz veya sabit oranlı kontrollerle JPG, PNG ve WebP görsellerini çevrimiçi kırpın. Özel misafir işleme, hesap gerektirmez.",
+    "breadcrumbCurrent": "Resimleri Çevrimiçi Kırpın",
+    "h1": "Resimleri Çevrimiçi Kırpın",
+    "subtitle": "Resmin yalnızca önemli olan kısmını saklayın",
+    "paragraph": "JPG, PNG ve WebP görsellerini saniyeler içinde kırpın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Güvenle Kırpın",
+    "features": [
+      {
+        "title": "Ücretsiz Mahsul",
+        "body": "Görüntünün herhangi bir alanını seçin ve tam olarak o bölgeyi koruyun.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Sabit Oranlar",
+        "body": "Tutarlı düzenler için ortak en boy oranlarını kullanın.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Yönlendirme Güvenli",
+        "body": "Kırpma matematiği, yükleme sonrasında yönlendirilmiş boyutlara saygı gösterir.",
+        "tone": "mor"
+      },
+      {
+        "title": "Aynı Format Çıkışı",
+        "body": "Desteklendiğinde kırpılmış sonucu kaynak formatınızda indirin.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz kırpılmak üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/convert-image": {
+    "path": "/resmi dönüştür",
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Dönüştürmek"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hangi dönüşümler destekleniyor?",
+        "a": "Temel konuk dönüşümü JPG, PNG ve WebP'yi kapsar. AVIF çalışma zamanı bunu kodlayıp doğrulayabildiğinde sunulur."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Şeffaflık korunacak mı?",
+        "a": "Alfayı destekleyen formatlara dönüştürürken araç seçeneklerine göre şeffaflık korunabilir."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Misafir olarak dönüştürün. Geçici dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemeleri ve sonuçları bir saat içinde otomatik olarak silinir."
+      }
+    ],
+    "metaTitle": "Görüntüleri Çevrimiçi Dönüştürme — JPG, PNG, WebP & AVIF",
+    "metaDescription": "JPG, PNG, WebP ve desteklenen AVIF formatları arasında çevrimiçi dönüştürme yapın. Doğrulanmış çıktılarla özel konuk dönüşümü.",
+    "breadcrumbCurrent": "Görüntüleri Çevrimiçi Dönüştür",
+    "h1": "Görüntüleri Çevrimiçi Dönüştür",
+    "subtitle": "Web için formatları masaüstü yazılımı olmadan değiştirin",
+    "paragraph": "JPG, PNG ve WebP görsellerini saniyeler içinde dönüştürün. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Biçim Değişiklikleri Basitleştirildi",
+    "features": [
+      {
+        "title": "Popüler Formatlar",
+        "body": "Net seçeneklerle JPG, PNG ve WebP arasında geçiş yapın.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Şeffaflık Farkındalığı",
+        "body": "PNG ve WebP alfa, politika tarafından dikkatle ele alınır.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "AVIF Hazır Olduğunda",
+        "body": "Yalnızca sunucu bunu doğrulayabildiğinde AVIF olarak kodlayın.",
+        "tone": "mor"
+      },
+      {
+        "title": "Dürüst Çıktı",
+        "body": "İndirmeden önce ortaya çıkan MIME türünü ve boyutunu öğrenin.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz dönüştürülmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/rotate-image": {
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Döndür"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hangi açılar destekleniyor?",
+        "a": "Misafir döndürme, 90°, 180° ve 270° artı isteğe bağlı çevirmeleri destekler."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Konuk olarak dönüşümlü çalışın. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "EXIF yönlendirmesi uygulandı mı?",
+        "a": "Kaynaklar, dönüşümden önce yönelim açısından normalleştirilir, böylece sonuçlar beklediğinizle eşleşir."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "path": "/görüntüyü döndür",
+    "metaTitle": "Görüntüyü Çevrimiçi Döndürün — JPG, PNG ve WebP'yi çevirin",
+    "metaDescription": "Görüntüleri 90°, 180° veya 270° döndürün ve yatay veya dikey olarak çevirin. Özel geçici depolama alanına sahip ücretsiz misafir aracı.",
+    "breadcrumbCurrent": "Görüntüleri Çevrimiçi Döndürün",
+    "h1": "Görüntüleri Çevrimiçi Döndürün",
+    "subtitle": "Düzen ve tasarım için görüntüleri çevirin veya çevirin",
+    "paragraph": "JPG, PNG ve WebP görüntülerini saniyeler içinde döndürün veya çevirin. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Hızlı Yönlendirme Düzeltmeleri",
+    "features": [
+      {
+        "title": "90° Adımlar",
+        "body": "Tek geçişte 90°, 180° veya 270° döndürün.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Çevirme Kontrolleri",
+        "body": "Gerektiğinde yatay veya dikey olarak yansıtın.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Aynı Format",
+        "body": "Çıktı, yüklediğiniz formatta kalır.",
+        "tone": "mor"
+      },
+      {
+        "title": "Özel Misafir İşleri",
+        "body": "Otomatik temizlemeyle kısa ömürlü işleme.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz rotasyon için özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/watermark-image": {
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Filigran"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Logo filigranı yükleyebilir miyim?",
+        "a": "Bu konuk aracı metni damgalar. Şimdilik kısa marka metni kullanın."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Konuk olarak filigran. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Filigran konumu kapsayacak mı?",
+        "a": "Nesneleri görünür tutmak için köşe konumlarını seçin ve opaklığı azaltın."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "path": "/filigran-resim",
+    "metaTitle": "Çevrimiçi Filigran Görüntüleri — Metin Filigranı Ekleme",
+    "metaDescription": "Konum ve opaklık kontrolleriyle JPG, PNG ve WebP üzerine kısa metin filigranları damgalayın. Özel misafir aracı.",
+    "breadcrumbCurrent": "Filigran Görüntüleri Çevrimiçi",
+    "h1": "Filigran Görüntüleri Çevrimiçi",
+    "subtitle": "Resmin tamamını kaplamadan kısa metni damgalayın",
+    "paragraph": "JPG, PNG veya WebP görsellerine saniyeler içinde metin filigranı ekleyin. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Hafif Markalamayla Görselleri Koruyun",
+    "features": [
+      {
+        "title": "Kısa Metin Damgaları",
+        "body": "Okunabilir durumda kalan kısa bir filigran ekleyin.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Pozisyon Kontrolü",
+        "body": "Filigranları köşelere veya ortaya yerleştirin.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Opaklık Kaydırıcısı",
+        "body": "Görünürlüğü resim içeriğine göre dengeleyin.",
+        "tone": "mor"
+      },
+      {
+        "title": "Aynı Format Çıkışı",
+        "body": "Kaynak formatınızda filigranlı bir dosya indirin.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz filigranlama için özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/blur-region": {
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Bulanıklık"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bu, yüzleri otomatik olarak algılıyor mu?",
+        "a": "Hayır. Bölgeyi görüntünün yüzdeleri olarak manuel olarak seçersiniz."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Konuk olarak bulanıklaştırın. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Birden fazla bölgeyi bulanıklaştırabilir miyim?",
+        "a": "Bu konuk aracı, çalıştırma başına bir bölgeyi uygular. Başka bir alanı bulanıklaştırmak için yeniden çalıştırın."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "path": "/bulanık bölge",
+    "metaTitle": "Görüntü Bölgesini Çevrimiçi Bulanıklaştır — Yüzleri ve Ayrıntıları Gizle",
+    "metaDescription": "Yüzleri, plakaları veya diğer ayrıntıları gizlemek için JPG, PNG veya WebP görüntülerin bir bölgesini manuel olarak bulanıklaştırın. Özel misafir aracı.",
+    "breadcrumbCurrent": "Bölgeyi Çevrimiçi Bulanıklaştır",
+    "h1": "Bölgeyi Çevrimiçi Bulanıklaştır",
+    "subtitle": "Manuel bulanıklaştırma kutusuyla hassas ayrıntıları gizleyin",
+    "paragraph": "JPG, PNG veya WebP görüntülerde seçilen bir bölgeyi saniyeler içinde bulanıklaştırın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Gizlilik Gerektirenleri Bulanıklaştırın",
+    "features": [
+      {
+        "title": "Manuel Bölge",
+        "body": "Bulanıklaştırmanın tam olarak nereye uygulanacağını siz seçersiniz.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Güç Seviyeleri",
+        "body": "Farklı ihtiyaçlar için hafif, orta veya güçlü bulanıklık.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Gizlilik Dostu",
+        "body": "Varlıkları göndermeden veya göndermeden önce ayrıntıları gizleyin.",
+        "tone": "mor"
+      },
+      {
+        "title": "Misafir Kasası",
+        "body": "Otomatik silme ile özel geçici işleme.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz bölge bulanıklığı için özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/meme-generator": {
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Altyazı"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hem üst hem de alt metne ihtiyacım var mı?",
+        "a": "Hayır. En az bir altyazı satırı sağlayın."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Konuk olarak oluşturun. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Yazı tipini değiştirebilir miyim?",
+        "a": "Konuk memler okunabilirlik için klasik Etki tarzı yığın kullanır."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "path": "/meme oluşturucu",
+    "metaTitle": "Meme Generator Online — Üst ve Alt Başlıkları Ekle",
+    "metaDescription": "JPG, PNG veya WebP görsellerine klasik üst ve alt meme yazıları ekleyin. Ücretsiz misafir meme oluşturucu.",
+    "breadcrumbCurrent": "Meme Oluşturucu Çevrimiçi",
+    "h1": "Meme Oluşturucu Çevrimiçi",
+    "subtitle": "Saniyeler içinde klasik altyazı ekleyin",
+    "paragraph": "JPG, PNG veya WebP görsellerine saniyeler içinde üst ve alt başlıklar ekleyin. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Klasik Memler Gibi Okunan Altyazılar",
+    "features": [
+      {
+        "title": "Üst ve Alt Metin",
+        "body": "Klasik düzenler için çizgilerden birini veya her ikisini de kullanın.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Otomatik Sarma",
+        "body": "Uzun başlıklar kısa, okunabilir satırlara sarılır.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Yüksek Kontrastlı Tip",
+        "body": "Netlik için koyu vuruşlu beyaz dolgu.",
+        "tone": "mor"
+      },
+      {
+        "title": "Anında Misafir Aracı",
+        "body": "Oturum açmadan oluşturun ve indirin.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz meme altyazıları için özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/geotag-image": {
+    "path": "/coğrafi etiket resmi",
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Coğrafi etiket"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Hangi formatlar coğrafi etiketlemeyi destekler?",
+        "a": "Konuk coğrafi etiketi uyumlu JPEG resimlere odaklanır."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri, 10 MB sınırı dahilinde uyumlu JPEG'ı destekler."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Konuk olarak coğrafi etiket ekleyin. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Koordinatlar doğrulandı mı?",
+        "a": "Yazma işlemleri doğrulama kurallarına uyar, böylece değerler yerleştirmeden önce iyi biçimlendirilmiş olur."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "metaTitle": "Görüntülere Çevrimiçi Coğrafi Etiket Ekle — JPEG'a GPS ekleyin",
+    "metaDescription": "Uyumlu JPEG görüntülerdeki doğrulanmış GPS koordinatlarını okuyun veya yazın. Özel konuk coğrafi etiket aracı.",
+    "breadcrumbCurrent": "Görüntülere Çevrimiçi Coğrafi Etiket Etiketleme",
+    "h1": "Görüntülere Çevrimiçi Coğrafi Etiket Etiketleme",
+    "subtitle": "JPEG GPS konum verilerini ekleyin veya inceleyin",
+    "paragraph": "Uyumlu JPEG görüntülere GPS koordinatlarını ekleyin veya inceleyin. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Doğrulayabileceğiniz Konum Verileri",
+    "features": [
+      {
+        "title": "JPEG Odaklanmış",
+        "body": "Coğrafi etiket iş akışları uyumlu JPEG kaynakları hedefler.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Önce İnceleyin",
+        "body": "Okunabilir GPS'nin zaten mevcut olup olmadığına bakın.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Koordinatları Yaz",
+        "body": "Değiştirirken enlem ve boylamın eklenmesine izin verilir.",
+        "tone": "mor"
+      },
+      {
+        "title": "Misafir Gizliliği",
+        "body": "Otomatik temizlemeyle geçici işleme.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz coğrafi etiketleme için özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/image-metadata": {
+    "path": "/resim-meta verisi",
+    "breadcrumbCurrent": "Resim Meta Veri Görüntüleyicisi",
+    "h1": "Resim Meta Veri Görüntüleyicisi",
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "İncelemek"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Tüm EXIF etiketlerini gösteriyor musunuz?",
+        "a": "Hayır. Görüntüleyici, güvenlik ve netlik açısından izin verilenler listesindeki alanları gösterir."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Hayır. Misafir olarak inceleyin. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Meta verileri burada düzenleyebilir miyim?",
+        "a": "SEO alanlarının taslağını çıkarmak ve dışa aktarmak için Görüntü SEO Meta Veri Düzenleyicisini kullanın."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "metaTitle": "Çevrimiçi Görüntü Meta Veri Görüntüleyicisi — EXIF'ı Güvenle İnceleyin",
+    "metaDescription": "JPG, PNG ve WebP için boyutları, renk bilgilerini ve izin verilenler listesindeki güvenli meta verileri inceleyin. Özel konuk görüntüleyici.",
+    "subtitle": "Yayınlamadan önce güvenli görsel özelliklerini inceleyin",
+    "paragraph": "JPG, PNG ve WebP özelliklerini saniyeler içinde inceleyin. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Önemli Olanı Güvenle Görün",
+    "features": [
+      {
+        "title": "Temel Özellikler",
+        "body": "Boyutlar, tip ve pratik dosya detayları.",
+        "tone": "mavi"
+      },
+      {
+        "title": "İzin Verilenler Listesindeki Alanlar",
+        "body": "Yalnızca güvenli, seçilmiş meta veri yüzeyleri gösterilir.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "Web Dostu",
+        "body": "CMS yüklemeden veya SEO incelemeden önce faydalı kontroller.",
+        "tone": "mor"
+      },
+      {
+        "title": "Misafir Gizliliği",
+        "body": "Otomatik silme özelliğiyle işleri geçici olarak inceleyin.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz meta veri incelemesi için özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/image-metadata-editor": {
+    "path": "/resim-metaveri-düzenleyicisi",
+    "breadcrumbCurrent": "Resim SEO Meta Veri Düzenleyici",
+    "h1": "Resim SEO Meta Veri Düzenleyici",
+    "howSteps": [
+      {
+        "title": "Resminizi Yükleyin"
+      },
+      {
+        "title": "Düzenlemek"
+      },
+      {
+        "title": "Sonucu Önizle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bu, her formatta EXIF'ı yeniden yazıyor mu?",
+        "a": "Editör SEO alanlarının hazırlanmasına ve dışa aktarımlara odaklanır."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Misafir yüklemeleri 10 MB'a kadar JPG, PNG ve WebP'ı destekler."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Konuk düzenleme sınırlı olarak yapılabilir. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Neyi ihraç edebilirim?",
+        "a": "CMS ve içerik iş akışları için sepet dostu dışa aktarmaları kullanın."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "metaTitle": "Resim SEO Çevrimiçi Meta Veri Düzenleyici",
+    "metaDescription": "Web siteleri ve CMS iş akışları için resim SEO alanlarını yazın, inceleyin ve dışa aktarın. Özel konuk meta veri düzenleyicisi.",
+    "subtitle": "Yayınlamadan önce resim SEO alanlarını hazırlayın",
+    "paragraph": "Taslak resim SEO alanları ve sepetleri saniyeler içinde dışa aktarın. Ücretsiz çevrimiçi araç; hesap gerektirmez.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Görüntü için Editoryal Denetim SEO",
+    "features": [
+      {
+        "title": "Düzenlenebilir Alanlar",
+        "body": "Gerçekte gönderdiğiniz SEO metnini güncelleyin.",
+        "tone": "mavi"
+      },
+      {
+        "title": "İhracat Dostu",
+        "body": "CMS ve içerik iş akışları için sepetleri indirin.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "CMS Hazır",
+        "body": "Yayınlamadan önce başlıkları, açıklamaları ve anahtar kelimeleri hazırlayın.",
+        "tone": "mor"
+      },
+      {
+        "title": "Misafir Oturumları",
+        "body": "Otomatik temizlemeli geçici taslaklar.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz meta veri düzenlemesi için özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  },
+  "/bulk-image-tools": {
+    "path": "/toplu-görüntü-araçları",
+    "breadcrumbCurrent": "Toplu Resim Araçları",
+    "h1": "Toplu Resim Araçları",
+    "howSteps": [
+      {
+        "title": "Toplu Yükleme"
+      },
+      {
+        "title": "Operasyonu Seçin"
+      },
+      {
+        "title": "Dosyaları İşle"
+      },
+      {
+        "title": "İndirmek"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Kaç dosya yükleyebilirim?",
+        "a": "Konuk toplu işleri, maksimum dosya sayısını ve toplam toplu iş boyutunu zorunlu kılar."
+      },
+      {
+        "q": "Dosya boyutu sınırı var mı?",
+        "a": "Her dosya, misafirin maksimum boyutunu takip eder ve grubun toplam bayt sınırı vardır."
+      },
+      {
+        "q": "Bir hesaba ihtiyacım var mı?",
+        "a": "Konuklar sınırlı toplu işleri çalıştırabilir. Dosyaların süresi bir saat içinde dolar."
+      },
+      {
+        "q": "Ya bir dosya başarısız olursa?",
+        "a": "Başarılı çıktılar indirilebilir olmaya devam eder; Başarısız öğeler bir hata durumu gösterir."
+      },
+      {
+        "q": "Resimlerim kalıcı olarak saklanıyor mu?",
+        "a": "Hayır. Misafir yüklemelerinin ve sonuçların geçerliliği bir saat içinde sona erer."
+      }
+    ],
+    "metaTitle": "Çevrimiçi Toplu Resim Araçları — Sıkıştırın, Yeniden Boyutlandırın, Dönüştürün",
+    "metaDescription": "Birkaç görüntüyü sıkıştırın, yeniden boyutlandırın veya dönüştürün ve başarılı sonuçları birlikte indirin. Misafir toplu limitleri geçerlidir.",
+    "subtitle": "Her adımı tekrarlamadan kısa bir partiyi işleyin",
+    "paragraph": "Birden fazla JPG, PNG veya WebP dosyasını tek bir toplu işte sıkıştırın, yeniden boyutlandırın veya dönüştürün. Ücretsiz misafir limitleri geçerlidir.",
+    "trust": [
+      "Hesap gerekmez",
+      "Özel ve güvenli işleme",
+      "1 saat içinde otomatik silme"
+    ],
+    "workspaceNote": "Desteklenen formatlar: JPG, PNG, WebP • Maksimum dosya boyutu: 10 MB. Dosyalarınız özeldir ve bir saat içinde otomatik olarak silinir.",
+    "featuresHeading": "Net Limitlerle Toplu İş Hızı",
+    "features": [
+      {
+        "title": "Paylaşılan Ayarlar",
+        "body": "Toplu iş genelinde tek bir sıkıştırma, yeniden boyutlandırma veya dönüştürme seçeneğini uygulayın.",
+        "tone": "mavi"
+      },
+      {
+        "title": "Dosya Başına Durum",
+        "body": "Hangi görsellerin başarılı olduğunu ve hangilerinin dikkat edilmesi gerektiğini görün.",
+        "tone": "yeşil"
+      },
+      {
+        "title": "ZIP İndir",
+        "body": "Toplu iş hazır olduğunda başarılı çıktıları toplayın.",
+        "tone": "mor"
+      },
+      {
+        "title": "Misafir Şapkaları",
+        "body": "Toplu iş boyutu ve toplam bayt miktarı, ücretsiz konuk politikasına uygundur.",
+        "tone": "turuncu"
+      }
+    ],
+    "howHeading": "Nasıl Çalışır?",
+    "benefitCards": [
+      {
+        "title": "Gizliliğiniz Önemlidir",
+        "body": "Resimleriniz toplu işlenmek üzere özel olarak işlenir ve bir saat içinde otomatik olarak silinir.",
+        "kind": "mahremiyet"
+      },
+      {
+        "title": "Hızlı ve Verimli",
+        "body": "Bulut destekli konuk işleme, yazılım yüklemeye gerek kalmadan saniyeler içinde sonuç verir.",
+        "kind": "hız"
+      }
+    ],
+    "faqHeading": "Sıkça Sorulan Sorular"
+  }
+}

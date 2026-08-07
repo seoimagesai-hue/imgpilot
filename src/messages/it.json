@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Prossimamente",
+    "openMenu": "Apri navigazione",
+    "closeMenu": "Chiudi navigazione",
+    "mainNavigation": "Navigazione principale"
+  },
+  "navigation": {
+    "dashboard": "Pannello di controllo",
+    "projects": "Progetti",
+    "usage": "Analisi",
+    "billing": "Fatturazione",
+    "developer": "Sviluppatore",
+    "integrations": "Integrazioni",
+    "automation": "Automazione",
+    "settings": "Impostazioni account",
+    "organizations": "Organizzazioni"
+  },
+  "language": {
+    "label": "Lingua dell’interfaccia",
+    "english": "Inglese",
+    "urdu": "Urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Strumenti immagine",
+    "compress": "Comprimi",
+    "resize": "Ridimensiona",
+    "convert": "Converti",
+    "seoTools": "Strumenti SEO",
+    "bulkTools": "Strumenti in blocco",
+    "openAppGrid": "Apri menu strumenti",
+    "appGridTitle": "Strumenti e risorse",
+    "languageHint": "Preferenza lingua",
+    "menu": "Menu",
+    "close": "Chiudi",
+    "footerBlurb": "Strumenti online privati per comprimere, ridimensionare, convertire e preparare immagini per il web.",
+    "popularFormats": "Formati popolari",
+    "company": "Azienda",
+    "resources": "Risorse",
+    "rights": "Tutti i diritti riservati."
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto."
+  }
+}

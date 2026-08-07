@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Akan datang",
+    "openMenu": "Buka navigasi",
+    "closeMenu": "Tutup navigasi",
+    "mainNavigation": "Navigasi utama"
+  },
+  "navigation": {
+    "dashboard": "Papan pemuka",
+    "projects": "Projek",
+    "usage": "Analitik",
+    "billing": "Pengebilan",
+    "developer": "Pembangun",
+    "integrations": "Integrasi",
+    "automation": "Automasi",
+    "settings": "Tetapan akaun",
+    "organizations": "Organisasi"
+  },
+  "language": {
+    "label": "Bahasa antara muka",
+    "english": "Inggeris",
+    "urdu": "bahasa Urdu",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Alat imej",
+    "compress": "Mampat",
+    "resize": "Ubah saiz",
+    "convert": "Tukar",
+    "seoTools": "Alat SEO",
+    "bulkTools": "Alat pukal",
+    "openAppGrid": "Buka menu alat",
+    "appGridTitle": "Alat dan sumber",
+    "languageHint": "Keutamaan bahasa",
+    "menu": "Menu",
+    "close": "Tutup",
+    "footerBlurb": "Alat dalam talian peribadi untuk memampatkan, mengubah saiz, menukar dan menyediakan imej untuk web.",
+    "popularFormats": "Format popular",
+    "company": "Syarikat",
+    "resources": "Sumber",
+    "rights": "Hak cipta terpelihara."
+  },
+  "errors": {
+    "generic": "Sesuatu telah berlaku."
+  }
+}

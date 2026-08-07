@@ -1,0 +1,73 @@
+{
+  "common": {
+    "brand": "Img Pilot",
+    "comingSoon": "Скоро",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "mainNavigation": "Основная навигация"
+  },
+  "navigation": {
+    "dashboard": "Панель",
+    "projects": "Проекты",
+    "usage": "Аналитика",
+    "billing": "Оплата",
+    "developer": "Разработчик",
+    "integrations": "Интеграции",
+    "automation": "Автоматизация",
+    "settings": "Настройки аккаунта",
+    "organizations": "Организации"
+  },
+  "language": {
+    "label": "Язык интерфейса",
+    "english": "Английский",
+    "urdu": "Урду",
+    "nativeNames": {
+      "es": "Español",
+      "fr": "Français",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "sv": "Svenska",
+      "tr": "Türkçe",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ja": "日本語",
+      "ko": "한국어",
+      "th": "ไทย",
+      "id": "Bahasa Indonesia",
+      "ms": "Bahasa Melayu",
+      "vi": "Tiếng Việt",
+      "hi": "हिन्दी",
+      "ar": "العربية",
+      "el": "Ελληνικά",
+      "bg": "Български",
+      "sw": "Kiswahili",
+      "ca": "Català",
+      "ur": "اردو",
+      "en": "English"
+    }
+  },
+  "chrome": {
+    "imageTools": "Инструменты для изображений",
+    "compress": "Сжать",
+    "resize": "Изменить размер",
+    "convert": "Конвертировать",
+    "seoTools": "SEO-инструменты",
+    "bulkTools": "Пакетные инструменты",
+    "openAppGrid": "Открыть меню инструментов",
+    "appGridTitle": "Инструменты и ресурсы",
+    "languageHint": "Языковые настройки",
+    "menu": "Меню",
+    "close": "Закрыть",
+    "footerBlurb": "Приватные онлайн-инструменты для сжатия, изменения размера, конвертации и подготовки изображений для веба.",
+    "popularFormats": "Популярные форматы",
+    "company": "Компания",
+    "resources": "Ресурсы",
+    "rights": "Все права защищены."
+  },
+  "errors": {
+    "generic": "Что-то пошло не так."
+  }
+}

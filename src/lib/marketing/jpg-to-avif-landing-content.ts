@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * JPG → AVIF landing — next-gen compression / honest encode gates
  * (distinct from jpg-to-webp and resize & compress landings).
@@ -93,7 +94,7 @@ export type JpgToAvifCopy = {
 };
 
 const en: JpgToAvifCopy = {
-  metaTitle: "Convert JPG to AVIF Online Free | SEO Images",
+  metaTitle: "Convert JPG to AVIF Online Free | Img Pilot",
   metaDescription:
     "Convert JPG images to AVIF when this server supports AVIF encoding. Honest fail-closed conversion, private guest storage and WebP fallback guidance.",
   h1: "Convert JPG to AVIF Online",
@@ -344,7 +345,7 @@ const en: JpgToAvifCopy = {
 };
 
 const ur: JpgToAvifCopy = {
-  metaTitle: "آن لائن JPG کو AVIF میں تبدیل کریں مفت | SEO Images",
+  metaTitle: "آن لائن JPG کو AVIF میں تبدیل کریں مفت | Img Pilot",
   metaDescription:
     "جب یہ سرور AVIF انکوڈنگ سپورٹ کرے تو JPG کو AVIF میں تبدیل کریں۔ ایماندار fail-closed کنورژن، نجی مہمان اسٹوریج اور WebP فال بیک رہنمائی۔",
   h1: "آن لائن JPG کو AVIF میں تبدیل کریں",
@@ -595,7 +596,7 @@ const ur: JpgToAvifCopy = {
 };
 
 export function getJpgToAvifCopy(locale: string): JpgToAvifCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function jpgToAvifSeoCompat() {

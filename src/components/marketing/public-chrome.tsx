@@ -1,12 +1,36 @@
 "use client";
 
-import {useEffect, useId, useRef, useState} from "react";
+import {
+  useEffect,
+  useId,
+  useLayoutEffect,
+  useRef,
+  useState,
+  useTransition,
+  type CSSProperties,
+} from "react";
 import {useLocale, useTranslations} from "next-intl";
+import {ChevronDown, LayoutGrid} from "lucide-react";
 import {Link} from "@/i18n/navigation";
+import {isRtlLocale} from "@/i18n/routing";
 import {LanguageSwitcher} from "@/components/dashboard/language-switcher";
-import {AccountHeaderControls} from "@/components/account/account-header-controls";
-import {listIndexableToolLandings} from "@/lib/marketing/tool-landing-registry";
+import {logoutAction} from "@/server/auth/actions";
 import type {UserAccessContext} from "@/server/account/access-context";
+import {
+  DesktopMegaMenu,
+  MEGA_MAX_WIDTH_PX,
+  type DesktopMegaId,
+} from "@/components/marketing/desktop-mega-menu";
+import {
+  APP_GRID_SECTIONS,
+  BULK_TOOLS_ITEMS,
+  COMPRESS_COLUMNS,
+  CONVERT_COLUMNS,
+  IMAGE_TOOLS_COLUMNS,
+  RESIZE_COLUMNS,
+  SEO_TOOLS_ITEMS,
+  type NavLinkItem,
+} from "@/lib/marketing/public-nav-catalog";
 
 const FALLBACK_GUEST_ACCESS: UserAccessContext = {
   state: "guest",
@@ -40,111 +64,440 @@ const FALLBACK_GUEST_ACCESS: UserAccessContext = {
   },
 };
 
-type MenuId = "image" | "resize" | "compress" | "convert" | "seo" | "bulk" | null;
+type MenuId = "image" | "compress" | "resize" | "convert" | "seo" | "bulk" | null;
+type PanelId = "none" | MenuId | "account" | "apps";
 
-const IMAGE_TOOLS = [
-  {href: "/resize-image", label: "Resize Image"},
-  {href: "/compress-image", label: "Compress Image"},
-  {href: "/crop-image", label: "Crop Image"},
-  {href: "/convert-image", label: "Convert Image"},
-  {href: "/geotag-image", label: "Geotag Image"},
-  {href: "/image-metadata", label: "Metadata Viewer"},
-] as const;
-
-const SEO_TOOLS = [
-  {href: "/ai-alt-text", label: "AI Alt Text Generator"},
-  {href: "/image-metadata", label: "Image Metadata Viewer"},
-  {href: "/image-metadata-editor", label: "Image SEO Metadata Editor"},
-  {href: "/geotag-image", label: "Geotag Image"},
-] as const;
-
-function landingLinks(prefix: string) {
-  return listIndexableToolLandings()
-    .filter((d) => d.slug.startsWith(prefix))
-    .map((d) => ({href: `/${d.slug}`, label: d.h1}));
-}
-
-function convertColumns() {
-  const all = listIndexableToolLandings().filter((d) => d.operation === "convert");
-  return {
-    jpg: all.filter((d) => d.targetFormat === "jpeg"),
-    png: all.filter((d) => d.targetFormat === "png"),
-    webp: all.filter((d) => d.targetFormat === "webp"),
-    avif: all.filter((d) => d.targetFormat === "avif"),
-  };
-}
-
-function BrandMark() {
+function BrandMark({tone = "default"}: {tone?: "default" | "onDark"} = {}) {
+  const logoSrc =
+    tone === "onDark"
+      ? "/brand/img-pilot-logo-horizontal-on-dark.svg"
+      : "/brand/img-pilot-logo-horizontal.svg";
   return (
-    <span className="inline-flex items-center gap-2">
-      <span
-        className="inline-flex h-9 w-9 items-center justify-center rounded-xl text-sm font-bold text-white"
-        style={{backgroundImage: "var(--gradient-brand)"}}
-        aria-hidden
-      >
-        SI
-      </span>
-      <span className="text-lg font-semibold tracking-tight">SEO Images</span>
+    <span className="inline-flex items-center">
+      {/* eslint-disable-next-line @next/next/no-img-element -- brand SVG lockup */}
+      <img
+        src={logoSrc}
+        alt="Img Pilot"
+        width={160}
+        height={40}
+        className="h-9 w-auto max-w-[10.5rem]"
+        decoding="async"
+      />
     </span>
+  );
+}
+
+function MegaLink({item, onNavigate}: {item: NavLinkItem; onNavigate: () => void}) {
+  const Icon = item.icon;
+  return (
+    <Link
+      href={item.href}
+      onClick={onNavigate}
+      className="group flex gap-3 rounded-xl px-2.5 py-2.5 transition hover:bg-[var(--accent-soft)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+    >
+      <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-[var(--border)] bg-white text-[var(--accent)] shadow-sm group-hover:border-[var(--accent)]/30">
+        <Icon className="h-4 w-4" aria-hidden />
+      </span>
+      <span className="min-w-0">
+        <span className="block text-sm font-semibold text-[var(--foreground)]">{item.title}</span>
+        <span className="mt-0.5 block text-xs leading-snug text-[var(--muted-foreground)]">
+          {item.description}
+        </span>
+      </span>
+    </Link>
+  );
+}
+
+function initials(access: UserAccessContext): string {
+  const seed = (access.displayName || access.email || "?").trim();
+  const parts = seed.split(/\s+/).filter(Boolean);
+  if (parts.length >= 2) {
+    return `${parts[0]![0] ?? ""}${parts[1]![0] ?? ""}`.toUpperCase();
+  }
+  return seed.slice(0, 2).toUpperCase();
+}
+
+function UsageBar({label, used, limit}: {label: string; used: number; limit: number}) {
+  const pct = limit > 0 ? Math.min(100, Math.round((used / limit) * 100)) : 0;
+  return (
+    <div className="space-y-1">
+      <div className="flex justify-between text-xs text-[var(--muted-foreground)]">
+        <span>{label}</span>
+        <span>
+          {used} / {limit > 0 ? limit : "—"}
+        </span>
+      </div>
+      <div className="h-1.5 overflow-hidden rounded-full bg-slate-100">
+        <div className="h-full rounded-full bg-[var(--accent)]" style={{width: `${pct}%`}} aria-hidden />
+      </div>
+    </div>
+  );
+}
+
+type ChromeProps = {
+  access: UserAccessContext;
+  panel: PanelId;
+  setPanel: (panel: PanelId) => void;
+  menuBaseId: string;
+};
+
+function AppGridButton({
+  open,
+  controlsId,
+  onToggle,
+}: {
+  open: boolean;
+  controlsId: string;
+  onToggle: () => void;
+}) {
+  const t = useTranslations("chrome");
+  return (
+    <button
+      type="button"
+      className={`inline-flex h-10 w-10 items-center justify-center rounded-[12px] border transition duration-150 motion-reduce:transition-none ${
+        open
+          ? "border-[color-mix(in_srgb,var(--accent)_35%,white)] bg-[var(--accent-soft)] text-[var(--accent)]"
+          : "border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-50 hover:text-slate-900"
+      }`}
+      aria-expanded={open}
+      aria-haspopup="dialog"
+      aria-controls={controlsId}
+      aria-label={t("openAppGrid")}
+      onClick={onToggle}
+    >
+      <LayoutGrid className="h-4 w-4" aria-hidden />
+    </button>
+  );
+}
+
+function AppGridPanel({
+  id,
+  onNavigate,
+}: {
+  id: string;
+  onNavigate: () => void;
+}) {
+  const t = useTranslations("chrome");
+  return (
+    <div
+      id={id}
+      role="dialog"
+      aria-label={t("appGridTitle")}
+      className="absolute end-0 top-[calc(100%+0.55rem)] z-50 w-[min(100vw-1.5rem,640px)] rounded-2xl border border-[var(--border)] bg-white p-4 shadow-[0_18px_50px_-28px_rgba(15,23,42,0.45)]"
+    >
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {APP_GRID_SECTIONS.map((section) => (
+          <div key={section.title} className="space-y-1.5">
+            <p className="px-2 text-[11px] font-semibold uppercase tracking-[0.08em] text-[var(--muted-foreground)]">
+              {section.title}
+            </p>
+            {section.items.map((item) => (
+                <MegaLink
+                  key={`${section.title}-${item.title}`}
+                  item={item}
+                  onNavigate={onNavigate}
+                />
+              ))}
+          </div>
+        ))}
+      </div>
+      <div className="mt-4 flex items-center justify-between gap-3 border-t border-[var(--border)] pt-3">
+        <p className="text-xs text-[var(--muted-foreground)]">{t("languageHint")}</p>
+        <LanguageSwitcher />
+      </div>
+    </div>
+  );
+}
+
+function AccountMenuPanel({
+  access,
+  id,
+  onNavigate,
+}: {
+  access: UserAccessContext;
+  id: string;
+  onNavigate: () => void;
+}) {
+  const t = useTranslations("account.header");
+  const locale = useLocale();
+  const [pending, startTransition] = useTransition();
+
+  return (
+    <div
+      id={id}
+      role="dialog"
+      aria-label={t("menuTitle")}
+      className="absolute end-0 top-[calc(100%+0.55rem)] z-50 w-[min(100vw-1.5rem,400px)] rounded-2xl border border-[var(--border)] bg-white p-4 shadow-[0_18px_50px_-28px_rgba(15,23,42,0.45)]"
+    >
+      <div className="space-y-1 border-b border-[var(--border)] pb-3">
+        <p className="truncate font-semibold">{access.displayName || t("account")}</p>
+        <p className="truncate text-sm text-[var(--muted-foreground)]">{access.email}</p>
+        <p className="text-xs text-[var(--muted-foreground)]">
+          {access.planName}
+          {access.entitlementState ? ` · ${access.entitlementState}` : ""}
+        </p>
+        <Link
+          href="/account/billing"
+          className="mt-2 inline-block text-sm font-medium text-[var(--accent)]"
+          onClick={onNavigate}
+        >
+          {t("managePlan")}
+        </Link>
+      </div>
+
+      <div className="space-y-3 border-b border-[var(--border)] py-3">
+        <UsageBar
+          label={t("ops")}
+          used={access.limits.standardOperationsUsed}
+          limit={access.limits.standardOperationsLimit}
+        />
+        <UsageBar
+          label={t("ai")}
+          used={access.limits.aiOperationsUsed}
+          limit={access.limits.aiOperationsLimit}
+        />
+        <Link
+          href="/account/usage"
+          className="text-sm font-medium text-[var(--accent)]"
+          onClick={onNavigate}
+        >
+          {t("viewUsage")}
+        </Link>
+      </div>
+
+      <nav className="flex flex-col gap-0.5 pt-2 text-sm">
+        {(
+          [
+            ["/account/settings", t("settings")],
+            ["/account/usage", t("usageLimits")],
+            ["/account/billing", t("billing")],
+            ["/account/history", t("history")],
+            ["/docs", t("help")],
+          ] as const
+        ).map(([href, label]) => (
+          <Link
+            key={href}
+            href={href}
+            className="rounded-lg px-2 py-2 hover:bg-[var(--accent-soft)]"
+            onClick={onNavigate}
+          >
+            {label}
+          </Link>
+        ))}
+        <button
+          type="button"
+          disabled={pending}
+          className="rounded-lg px-2 py-2 text-start hover:bg-[var(--accent-soft)] disabled:opacity-60"
+          onClick={() => {
+            startTransition(async () => {
+              await logoutAction(locale);
+            });
+          }}
+        >
+          {t("signOut")}
+        </button>
+      </nav>
+    </div>
+  );
+}
+
+function HeaderRight({access, panel, setPanel, menuBaseId}: ChromeProps) {
+  const t = useTranslations("account.header");
+  const appsId = `${menuBaseId}-apps`;
+  const accountId = `${menuBaseId}-account`;
+  const opsLeft = Math.max(
+    0,
+    access.limits.standardOperationsLimit - access.limits.standardOperationsUsed,
+  );
+
+  if (!access.signedIn) {
+    return (
+      <div className="relative flex items-center gap-1.5">
+        <Link
+          href="/login"
+          className="inline-flex h-10 items-center rounded-[12px] px-3.5 text-sm font-semibold text-slate-700 transition duration-150 hover:bg-slate-50 hover:text-slate-900 motion-reduce:transition-none"
+        >
+          {t("signIn")}
+        </Link>
+        <Link
+          href="/register"
+          className="inline-flex h-10 items-center rounded-[12px] px-4 text-sm font-semibold text-white shadow-[0_8px_18px_-8px_rgba(37,99,235,0.65)] transition duration-150 hover:brightness-105 motion-reduce:transition-none"
+          style={{backgroundImage: "var(--gradient-brand)"}}
+        >
+          {t("createAccount")}
+        </Link>
+        <AppGridButton
+          open={panel === "apps"}
+          controlsId={appsId}
+          onToggle={() => setPanel(panel === "apps" ? "none" : "apps")}
+        />
+        {panel === "apps" ? (
+          <AppGridPanel id={appsId} onNavigate={() => setPanel("none")} />
+        ) : null}
+      </div>
+    );
+  }
+
+  return (
+    <div className="relative flex items-center gap-1.5">
+      <p
+        className="hidden h-10 items-center rounded-full border border-slate-200 bg-slate-50 px-3 text-xs font-medium text-slate-600 xl:inline-flex"
+        aria-live="polite"
+      >
+        {t("usageLeft", {left: opsLeft})}
+      </p>
+      <button
+        type="button"
+        className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[var(--accent)] text-xs font-semibold text-[var(--accent-foreground)] shadow-[0_8px_18px_-8px_rgba(37,99,235,0.55)]"
+        aria-expanded={panel === "account"}
+        aria-controls={accountId}
+        aria-haspopup="dialog"
+        aria-label={t("openMenu")}
+        onClick={() => setPanel(panel === "account" ? "none" : "account")}
+      >
+        {initials(access)}
+      </button>
+      <AppGridButton
+        open={panel === "apps"}
+        controlsId={appsId}
+        onToggle={() => setPanel(panel === "apps" ? "none" : "apps")}
+      />
+      {panel === "account" ? (
+        <AccountMenuPanel
+          access={access}
+          id={accountId}
+          onNavigate={() => setPanel("none")}
+        />
+      ) : null}
+      {panel === "apps" ? (
+        <AppGridPanel id={appsId} onNavigate={() => setPanel("none")} />
+      ) : null}
+    </div>
   );
 }
 
 export function PublicHeader({access}: {access?: UserAccessContext} = {}) {
   const resolvedAccess = access ?? FALLBACK_GUEST_ACCESS;
-  const t = useTranslations("guest.nav");
+  const tNav = useTranslations("guest.nav");
+  const tChrome = useTranslations("chrome");
+  const tAccount = useTranslations("account.header");
   const locale = useLocale();
-  const [open, setOpen] = useState<MenuId>(null);
+  const [panel, setPanel] = useState<PanelId>("none");
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [megaAlign, setMegaAlign] = useState<CSSProperties | undefined>(undefined);
   const rootRef = useRef<HTMLElement>(null);
+  const navRef = useRef<HTMLElement>(null);
+  const triggerRefs = useRef<Partial<Record<DesktopMegaId, HTMLButtonElement | null>>>({});
+  const lastMegaTrigger = useRef<DesktopMegaId | null>(null);
   const menuBaseId = useId();
+  const openMenu: MenuId =
+    panel === "image" ||
+    panel === "compress" ||
+    panel === "resize" ||
+    panel === "convert" ||
+    panel === "seo" ||
+    panel === "bulk"
+      ? panel
+      : null;
+  const opsLeft = Math.max(
+    0,
+    resolvedAccess.limits.standardOperationsLimit - resolvedAccess.limits.standardOperationsUsed,
+  );
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") {
-        setOpen(null);
-        setMobileOpen(false);
+      if (e.key !== "Escape") return;
+      const prior = lastMegaTrigger.current;
+      const shouldRestore = Boolean(openMenu && prior);
+      setPanel("none");
+      setMobileOpen(false);
+      if (shouldRestore && prior) {
+        queueMicrotask(() => triggerRefs.current[prior]?.focus());
       }
     }
     function onClick(e: MouseEvent) {
-      if (!rootRef.current?.contains(e.target as Node)) setOpen(null);
+      if (!rootRef.current?.contains(e.target as Node)) {
+        setPanel("none");
+      }
+    }
+    const wide = window.matchMedia("(min-width: 1536px)");
+    function onViewport() {
+      if (wide.matches) setMobileOpen(false);
     }
     document.addEventListener("keydown", onKey);
     document.addEventListener("mousedown", onClick);
+    wide.addEventListener("change", onViewport);
     return () => {
       document.removeEventListener("keydown", onKey);
       document.removeEventListener("mousedown", onClick);
+      wide.removeEventListener("change", onViewport);
     };
-  }, []);
+  }, [openMenu]);
 
-  const resizeLinks = [
-    ...landingLinks("resize-").filter((l) => !l.href.includes("to-")),
-    {href: "/resize-image", label: "Resize Image (all formats)"},
-  ];
-  const compressLinks = [
-    ...landingLinks("compress-"),
-    {href: "/compress-image", label: "Compress Image (all formats)"},
-  ];
-  const convert = convertColumns();
+  useLayoutEffect(() => {
+    if (!openMenu || !navRef.current) {
+      setMegaAlign(undefined);
+      return;
+    }
+    const trigger = triggerRefs.current[openMenu];
+    if (!trigger) {
+      setMegaAlign(undefined);
+      return;
+    }
 
-  function MenuButton({id, label}: {id: Exclude<MenuId, null>; label: string}) {
-    const expanded = open === id;
+    function place() {
+      const navEl = navRef.current;
+      const btn = triggerRefs.current[openMenu!];
+      if (!navEl || !btn) return;
+      const navRect = navEl.getBoundingClientRect();
+      const btnRect = btn.getBoundingClientRect();
+      const panelW = Math.min(window.innerWidth - 32, MEGA_MAX_WIDTH_PX[openMenu!]);
+      let left = btnRect.left - navRect.left + btnRect.width / 2 - panelW / 2;
+      const minLeft = 16 - navRect.left;
+      const maxLeft = window.innerWidth - 16 - panelW - navRect.left;
+      left = Math.min(Math.max(left, minLeft), maxLeft);
+      setMegaAlign({left, width: panelW});
+    }
+
+    place();
+    window.addEventListener("resize", place);
+    return () => window.removeEventListener("resize", place);
+  }, [openMenu, locale]);
+
+  function MenuButton({id, label}: {id: DesktopMegaId; label: string}) {
+    const expanded = openMenu === id;
     return (
       <button
+        ref={(el) => {
+          triggerRefs.current[id] = el;
+        }}
         type="button"
-        className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-2 text-sm font-medium transition ${
+        className={`group inline-flex h-10 shrink-0 items-center gap-1 whitespace-nowrap rounded-[10px] px-2.5 text-[13px] font-semibold tracking-[-0.01em] transition-colors duration-150 motion-reduce:transition-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] ${
           expanded
             ? "bg-[var(--accent-soft)] text-[var(--accent)]"
-            : "text-[var(--body)] hover:bg-[var(--accent-soft)] hover:text-[var(--foreground)]"
+            : "text-slate-600 hover:bg-slate-100/80 hover:text-slate-900"
         }`}
         aria-expanded={expanded}
         aria-haspopup="true"
         aria-controls={`${menuBaseId}-${id}`}
-        onClick={() => setOpen(expanded ? null : id)}
+        onClick={() => {
+          if (expanded) {
+            setPanel("none");
+            return;
+          }
+          lastMegaTrigger.current = id;
+          setPanel(id);
+        }}
       >
-        {label}
-        <span aria-hidden className={`text-[10px] transition ${expanded ? "rotate-180" : ""}`}>
-          ▾
-        </span>
+        <span>{label}</span>
+        <ChevronDown
+          aria-hidden
+          className={`h-3.5 w-3.5 shrink-0 transition-transform duration-150 motion-reduce:transition-none ${
+            expanded
+              ? "rotate-180 text-[var(--accent)]"
+              : "text-slate-400 group-hover:text-slate-500"
+          }`}
+        />
       </button>
     );
   }
@@ -152,7 +505,7 @@ export function PublicHeader({access}: {access?: UserAccessContext} = {}) {
   return (
     <header
       ref={rootRef}
-      className="sticky top-0 z-40 border-b border-[var(--border)] bg-white/85 backdrop-blur-md"
+      className="sticky top-0 z-40 overflow-visible border-b border-slate-200/70 bg-white/95 shadow-[0_8px_24px_-20px_rgba(15,23,42,0.35)] backdrop-blur-md"
     >
       <a
         href="#main-content"
@@ -160,188 +513,164 @@ export function PublicHeader({access}: {access?: UserAccessContext} = {}) {
       >
         Skip to content
       </a>
-      <div className="marketing-container flex min-h-[74px] items-center justify-between gap-3">
-        <Link href="/" className="shrink-0">
+      <div className="marketing-container relative flex h-[72px] items-center gap-2 sm:gap-3">
+        {/*
+          Keep logo + auth as true shrink-0 islands. Long locale labels make the
+          center mega-nav wider than lg/xl; collapse until 2xl so it never
+          paints under the brand or Sign in controls.
+        */}
+        <Link
+          href="/"
+          className="relative z-20 shrink-0 bg-white/95 pe-1 backdrop-blur-sm"
+          onClick={() => setPanel("none")}
+        >
           <BrandMark />
-          <span className="sr-only">{t("brand")}</span>
+          <span className="sr-only">{tNav("brand")}</span>
         </Link>
 
-        <nav className="hidden items-center gap-0.5 lg:flex" aria-label={t("tools")}>
-          <MenuButton id="image" label="Image Tools" />
-          <MenuButton id="resize" label="Resize" />
-          <MenuButton id="compress" label="Compress" />
-          <MenuButton id="convert" label="Convert" />
-          <MenuButton id="seo" label="SEO Tools" />
-          <MenuButton id="bulk" label="Bulk Tools" />
+        <nav
+          ref={navRef}
+          className="relative z-10 hidden min-w-0 flex-1 items-center justify-center gap-0.5 overflow-hidden px-1 2xl:flex"
+          aria-label={tNav("tools")}
+        >
+          <MenuButton id="image" label={tChrome("imageTools")} />
+          <MenuButton id="compress" label={tChrome("compress")} />
+          <MenuButton id="resize" label={tChrome("resize")} />
+          <MenuButton id="convert" label={tChrome("convert")} />
+          <MenuButton id="seo" label={tChrome("seoTools")} />
+          <MenuButton id="bulk" label={tChrome("bulkTools")} />
+          <span className="mx-1 h-4 w-px shrink-0 bg-slate-200" aria-hidden />
           <Link
             href="/pricing"
-            className="rounded-lg px-2.5 py-2 text-sm font-medium text-[var(--body)] hover:text-[var(--foreground)]"
+            className="inline-flex h-10 shrink-0 items-center whitespace-nowrap rounded-[10px] px-2.5 text-[13px] font-semibold tracking-[-0.01em] text-slate-600 transition-colors duration-150 hover:bg-slate-100/80 hover:text-slate-900 motion-reduce:transition-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+            onClick={() => setPanel("none")}
           >
-            {t("pricing")}
+            {tNav("pricing")}
           </Link>
+
+          {openMenu ? (
+            <DesktopMegaMenu
+              menu={openMenu}
+              panelId={`${menuBaseId}-${openMenu}`}
+              onNavigate={() => setPanel("none")}
+              alignStyle={megaAlign}
+            />
+          ) : null}
         </nav>
 
-        <div className="hidden items-center gap-2 lg:flex">
-          <AccountHeaderControls access={resolvedAccess} />
+        <div className="relative z-20 ms-auto flex shrink-0 items-center justify-end gap-1.5 bg-white/95 ps-1 backdrop-blur-sm">
+          {/* Auth/app controls stay visible mid-width; mega-nav collapses until 2xl. */}
+          <div className="hidden md:block">
+            <HeaderRight
+              access={resolvedAccess}
+              panel={panel}
+              setPanel={setPanel}
+              menuBaseId={menuBaseId}
+            />
+          </div>
+          <button
+            type="button"
+            className="inline-flex h-10 items-center rounded-[12px] border border-slate-200 px-3 text-sm font-semibold text-slate-700 2xl:hidden"
+            aria-expanded={mobileOpen}
+            aria-controls={`${menuBaseId}-mobile`}
+            onClick={() => {
+              setMobileOpen((v) => !v);
+              setPanel("none");
+            }}
+          >
+            {mobileOpen ? tChrome("close") : tChrome("menu")}
+          </button>
         </div>
-
-        <button
-          type="button"
-          className="rounded-lg border border-[var(--border)] px-3 py-2 text-sm lg:hidden"
-          aria-expanded={mobileOpen}
-          aria-controls={`${menuBaseId}-mobile`}
-          onClick={() => setMobileOpen((v) => !v)}
-        >
-          {mobileOpen ? "Close" : "Menu"}
-        </button>
       </div>
 
-      {open ? (
-        <div id={`${menuBaseId}-${open}`} className="hidden border-t border-[var(--border)] bg-white lg:block">
-          <div className="marketing-container grid gap-4 py-5 md:grid-cols-2 lg:grid-cols-4">
-            {open === "image"
-              ? IMAGE_TOOLS.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="rounded-xl border border-[var(--border)] px-3 py-3 hover:border-[var(--accent)] hover:bg-[var(--accent-soft)]"
-                    onClick={() => setOpen(null)}
-                  >
-                    {item.label}
-                  </Link>
-                ))
-              : null}
-            {open === "resize"
-              ? resizeLinks.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="rounded-xl border border-[var(--border)] px-3 py-3 hover:bg-[var(--accent-soft)]"
-                    onClick={() => setOpen(null)}
-                  >
-                    {item.label}
-                  </Link>
-                ))
-              : null}
-            {open === "compress"
-              ? compressLinks.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="rounded-xl border border-[var(--border)] px-3 py-3 hover:bg-[var(--accent-soft)]"
-                    onClick={() => setOpen(null)}
-                  >
-                    {item.label}
-                  </Link>
-                ))
-              : null}
-            {open === "convert"
-              ? (["jpg", "png", "webp", "avif"] as const).map((col) => (
-                  <div key={col} className="space-y-2">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-[var(--muted-foreground)]">
-                      To {col.toUpperCase()}
-                    </p>
-                    {convert[col].map((d) => (
-                      <Link
-                        key={d.slug}
-                        href={`/${d.slug}`}
-                        className="block rounded-lg px-2 py-1.5 text-sm hover:bg-[var(--accent-soft)]"
-                        onClick={() => setOpen(null)}
-                      >
-                        {d.h1}
-                      </Link>
-                    ))}
-                  </div>
-                ))
-              : null}
-            {open === "seo"
-              ? SEO_TOOLS.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="rounded-xl border border-[var(--border)] px-3 py-3 hover:bg-[var(--accent-soft)]"
-                    onClick={() => setOpen(null)}
-                  >
-                    {item.label}
-                  </Link>
-                ))
-              : null}
-            {open === "bulk" ? (
-              <Link
-                href="/bulk-image-tools"
-                className="rounded-xl border border-[var(--border)] px-3 py-3 hover:bg-[var(--accent-soft)]"
-                onClick={() => setOpen(null)}
-              >
-                Bulk Compress, Resize & Convert
-              </Link>
-            ) : null}
-          </div>
-        </div>
-      ) : null}
-
       {mobileOpen ? (
-        <div id={`${menuBaseId}-mobile`} className="border-t border-[var(--border)] bg-white lg:hidden">
-          <div className="marketing-container space-y-3 py-4" dir={locale === "ur" ? "rtl" : "ltr"}>
-            <details>
-              <summary className="cursor-pointer py-2 font-medium">Image Tools</summary>
-              <div className="flex flex-col gap-1 pb-2 ps-3">
-                {IMAGE_TOOLS.map((item) => (
-                  <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}>
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            </details>
-            <details>
-              <summary className="cursor-pointer py-2 font-medium">Resize</summary>
-              <div className="flex flex-col gap-1 pb-2 ps-3">
-                {resizeLinks.map((item) => (
-                  <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}>
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            </details>
-            <details>
-              <summary className="cursor-pointer py-2 font-medium">Compress</summary>
-              <div className="flex flex-col gap-1 pb-2 ps-3">
-                {compressLinks.map((item) => (
-                  <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}>
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            </details>
-            <details>
-              <summary className="cursor-pointer py-2 font-medium">Convert</summary>
-              <div className="flex flex-col gap-1 pb-2 ps-3">
-                {listIndexableToolLandings()
-                  .filter((d) => d.operation === "convert")
-                  .map((d) => (
-                    <Link key={d.slug} href={`/${d.slug}`} onClick={() => setMobileOpen(false)}>
-                      {d.h1}
+        <div
+          id={`${menuBaseId}-mobile`}
+          className="max-h-[min(80vh,720px)] overflow-y-auto border-t border-[var(--border)] bg-white 2xl:hidden"
+        >
+          <div className="marketing-container space-y-2 py-4" dir={isRtlLocale(locale) ? "rtl" : "ltr"}>
+            {(
+              [
+                ["Image Tools", IMAGE_TOOLS_COLUMNS.filter((c) => c.title === "Optimize" || c.title === "Edit & create").flatMap((c) => c.items)],
+                ["Compress", COMPRESS_COLUMNS.flatMap((c) => c.items)],
+                ["Resize", RESIZE_COLUMNS.flatMap((c) => c.items)],
+                ["Convert", CONVERT_COLUMNS.flatMap((c) => c.items)],
+                ["SEO Tools", SEO_TOOLS_ITEMS],
+                ["Bulk Tools", BULK_TOOLS_ITEMS],
+              ] as const
+            ).map(([label, items]) => (
+              <details key={label} className="rounded-xl border border-[var(--border)] px-3">
+                <summary className="cursor-pointer py-3 font-medium">{label}</summary>
+                <div className="flex flex-col gap-1 pb-3 ps-1">
+                  {items.map((item) => (
+                    <Link
+                      key={`${label}-${item.title}`}
+                      href={item.href}
+                      className="rounded-lg px-2 py-2 text-sm hover:bg-[var(--accent-soft)]"
+                      onClick={() => setMobileOpen(false)}
+                    >
+                      {item.title}
                     </Link>
                   ))}
-              </div>
-            </details>
-            <details>
-              <summary className="cursor-pointer py-2 font-medium">SEO Tools</summary>
-              <div className="flex flex-col gap-1 pb-2 ps-3">
-                {SEO_TOOLS.map((item) => (
-                  <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)}>
-                    {item.label}
+                </div>
+              </details>
+            ))}
+            <Link
+              href="/pricing"
+              className="block rounded-xl border border-[var(--border)] px-3 py-3 font-medium"
+              onClick={() => setMobileOpen(false)}
+            >
+              {tNav("pricing")}
+            </Link>
+            <div className="space-y-2 border-t border-[var(--border)] pt-3">
+              {resolvedAccess.signedIn ? (
+                <>
+                  <p className="text-xs text-[var(--muted-foreground)]">
+                    {tAccount("usageLeft", {left: opsLeft})}
+                  </p>
+                  <Link
+                    href="/account"
+                    className="block rounded-lg border border-[var(--border)] px-3 py-2 text-sm"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {tAccount("account")}
                   </Link>
-                ))}
+                  <Link
+                    href="/account/billing"
+                    className="block rounded-lg px-3 py-2 text-sm"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {tAccount("billing")}
+                  </Link>
+                  <Link
+                    href="/account/settings"
+                    className="block rounded-lg px-3 py-2 text-sm"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {tAccount("settings")}
+                  </Link>
+                </>
+              ) : (
+                <div className="flex flex-wrap gap-2">
+                  <Link
+                    href="/login"
+                    className="rounded-lg border border-[var(--border)] px-3 py-2 text-sm"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {tAccount("signIn")}
+                  </Link>
+                  <Link
+                    href="/register"
+                    className="btn-primary text-sm"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {tAccount("createAccount")}
+                  </Link>
+                </div>
+              )}
+              <div className="pt-1">
+                <LanguageSwitcher />
               </div>
-            </details>
-            <Link href="/bulk-image-tools" className="block py-2 font-medium" onClick={() => setMobileOpen(false)}>
-              Bulk Tools
-            </Link>
-            <Link href="/pricing" className="block py-2" onClick={() => setMobileOpen(false)}>
-              {t("pricing")}
-            </Link>
-            <div className="pt-2" onClick={() => setMobileOpen(false)}>
-              <AccountHeaderControls access={resolvedAccess} />
             </div>
           </div>
         </div>
@@ -369,27 +698,30 @@ function FooterCol({title, links}: {title: string; links: {href: string; label: 
 
 export function PublicFooter({signedIn = false}: {signedIn?: boolean} = {}) {
   const year = new Date().getFullYear();
+  const tChrome = useTranslations("chrome");
   return (
     <footer className="mt-auto bg-[var(--footer)] text-slate-300">
       <div className="marketing-container grid gap-10 py-14 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
-        <div className="space-y-3 xl:col-span-1 sm:col-span-2 lg:col-span-3 xl:col-span-1">
-          <BrandMark />
-          <p className="text-sm leading-relaxed text-slate-400">
-            Private online tools for compressing, resizing, converting and preparing images for the web.
-          </p>
+        <div className="space-y-3 sm:col-span-2 lg:col-span-3 xl:col-span-1">
+          <BrandMark tone="onDark" />
+          <p className="text-sm leading-relaxed text-slate-400">{tChrome("footerBlurb")}</p>
         </div>
         <FooterCol
-          title="Image Tools"
+          title={tChrome("imageTools")}
           links={[
             {href: "/compress-image", label: "Compress Image"},
             {href: "/resize-image", label: "Resize Image"},
             {href: "/crop-image", label: "Crop Image"},
             {href: "/convert-image", label: "Convert Image"},
+            {href: "/rotate-image", label: "Rotate Image"},
+            {href: "/watermark-image", label: "Watermark Image"},
+            {href: "/blur-region", label: "Blur Region"},
+            {href: "/meme-generator", label: "Meme Generator"},
             {href: "/bulk-image-tools", label: "Bulk Image Tools"},
           ]}
         />
         <FooterCol
-          title="Popular Formats"
+          title={tChrome("popularFormats")}
           links={[
             {href: "/compress-jpg", label: "Compress JPG"},
             {href: "/compress-png", label: "Compress PNG"},
@@ -401,16 +733,15 @@ export function PublicFooter({signedIn = false}: {signedIn?: boolean} = {}) {
           ]}
         />
         <FooterCol
-          title="SEO Tools"
+          title={tChrome("seoTools")}
           links={[
-            {href: "/ai-alt-text", label: "AI Alt Text Generator"},
             {href: "/image-metadata", label: "Image Metadata Viewer"},
             {href: "/image-metadata-editor", label: "Image SEO Metadata Editor"},
             {href: "/geotag-image", label: "Geotag Image"},
           ]}
         />
         <FooterCol
-          title="Company"
+          title={tChrome("company")}
           links={[
             {href: "/pricing", label: "Pricing"},
             {href: "/about", label: "About"},
@@ -421,9 +752,8 @@ export function PublicFooter({signedIn = false}: {signedIn?: boolean} = {}) {
           ]}
         />
         <FooterCol
-          title="Resources"
+          title={tChrome("resources")}
           links={[
-            {href: "/docs", label: "Documentation"},
             {href: "/search", label: "Search Tools"},
             {href: "/#supported-formats", label: "Supported Formats"},
             {href: "/#faq", label: "Frequently Asked Questions"},
@@ -436,7 +766,9 @@ export function PublicFooter({signedIn = false}: {signedIn?: boolean} = {}) {
       </div>
       <div className="border-t border-white/10">
         <div className="marketing-container flex flex-col gap-4 py-5 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-sm text-slate-400">© {year} SEO Images. All rights reserved.</p>
+          <p className="text-sm text-slate-400">
+            © {year} Img Pilot. {tChrome("rights")}
+          </p>
           <div className="[&_label]:text-slate-300 [&_select]:border-white/20 [&_select]:bg-[#111827] [&_select]:text-white">
             <LanguageSwitcher />
           </div>

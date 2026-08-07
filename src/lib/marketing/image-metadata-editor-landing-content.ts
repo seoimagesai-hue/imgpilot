@@ -1,7 +1,8 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Image Metadata Editor hub — draft, validate and export sidecars; no embedded EXIF write.
  */
-import type {AppLocale} from "@/i18n/routing";
+import {isAppLocale, type AppLocale} from "@/i18n/routing";
 
 export type ImageMetadataEditorFaq = {q: string; a: string};
 
@@ -76,7 +77,7 @@ export type ImageMetadataEditorCopy = {
 };
 
 const en: ImageMetadataEditorCopy = {
-  metaTitle: "Image Metadata Editor Online Free | SEO Images",
+  metaTitle: "Image Metadata Editor Online Free | Img Pilot",
   metaDescription:
     "Draft alt text, titles and SEO metadata for JPG, PNG and WebP images. Validate field lengths and export TXT, JSON, CSV or HTML snippets — no embedded EXIF write in guest mode.",
   h1: "Image Metadata Editor Online",
@@ -196,7 +197,7 @@ const en: ImageMetadataEditorCopy = {
 };
 
 const ur: ImageMetadataEditorCopy = {
-  metaTitle: "آن لائن Image Metadata Editor مفت | SEO Images",
+  metaTitle: "آن لائن Image Metadata Editor مفت | Img Pilot",
   metaDescription:
     "JPG, PNG اور WebP کے لیے alt text، titles اور SEO metadata draft کریں۔ TXT, JSON, CSV یا HTML export — guest mode میں embedded EXIF write نہیں۔",
   h1: "آن لائن Image Metadata Editor",
@@ -315,9 +316,9 @@ const ur: ImageMetadataEditorCopy = {
 };
 
 export function getImageMetadataEditorCopy(locale: string): ImageMetadataEditorCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function isImageMetadataEditorLocale(locale: string): locale is AppLocale {
-  return locale === "en" || locale === "ur";
+  return isAppLocale(locale);
 }

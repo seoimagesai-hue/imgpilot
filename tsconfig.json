@@ -41,6 +41,9 @@
     ".next-crop-image-verify/types/**/*.ts",
     ".next-crop-png-verify/types/**/*.ts",
     ".next-crop-webp-verify/types/**/*.ts",
+    ".next-eeat-verify/types/**/*.ts",
+    ".next-i18n-verify/types/**/*.ts",
+    ".next-p3-verify/types/**/*.ts",
     ".next-phase1-verify/types/**/*.ts",
     ".next-png-to-webp-verify/types/**/*.ts",
     ".next-resize-image-verify/types/**/*.ts",
@@ -48,7 +51,7 @@
     ".next-webp-to-png-verify/types/**/*.ts",
     ".next/types/**/*.ts",
     "next-env.d.ts",
-    ".next-eeat-verify/types/**/*.ts"
+    ".next-img-pilot/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

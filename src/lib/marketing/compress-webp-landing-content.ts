@@ -1,3 +1,4 @@
+import {localizedCopy} from "@/lib/marketing/localized-copy";
 /**
  * Compress WebP landing — further optimize already-modern WebP for web performance
  * (distinct from Compress JPG photos and Compress PNG transparency/logos).
@@ -93,7 +94,7 @@ export type CompressWebpCopy = {
 };
 
 const en: CompressWebpCopy = {
-  metaTitle: "Compress WebP Images Online Free | SEO Images",
+  metaTitle: "Compress WebP Images Online Free | Img Pilot",
   metaDescription:
     "Compress WebP images online to reduce file size while maintaining quality. Improve website speed with secure browser-based WebP optimization.",
   h1: "Compress WebP Images Online",
@@ -344,7 +345,7 @@ const en: CompressWebpCopy = {
 };
 
 const ur: CompressWebpCopy = {
-  metaTitle: "آن لائن WebP امیجز کمپریس کریں مفت | SEO Images",
+  metaTitle: "آن لائن WebP امیجز کمپریس کریں مفت | Img Pilot",
   metaDescription:
     "کوالٹی برقرار رکھتے ہوئے WebP تصاویر آن لائن کمپریس کریں۔ محفوظ براؤزر پر مبنی WebP آپٹیمائزیشن سے ویب سائٹ کی رفتار بہتر بنائیں۔",
   h1: "آن لائن WebP امیجز کمپریس کریں",
@@ -588,7 +589,7 @@ const ur: CompressWebpCopy = {
 };
 
 export function getCompressWebpCopy(locale: string): CompressWebpCopy {
-  return locale === "ur" ? ur : en;
+  return localizedCopy(locale, {en, ur});
 }
 
 export function compressWebpSeoCompat() {

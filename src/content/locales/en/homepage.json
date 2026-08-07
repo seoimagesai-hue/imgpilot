@@ -1,0 +1,378 @@
+{
+  "metaTitle": "Img Pilot — Compress, Resize, Convert and Optimize Images Online",
+  "metaDescription": "Compress, resize, crop, convert and optimize JPG, PNG and WebP images online. Use private guest tools without an account, with automatic deletion within one hour.",
+  "heroBadge": "Free online image tools for faster, cleaner websites",
+  "h1": "Optimize Every Image in One Simple Workspace",
+  "heroParagraph": "Compress, resize, crop, convert and optimize your images without installing software. Start free without an account, keep full control of your files, and download clean, verified results in just a few clicks.",
+  "uploadHeading": "Drop an image here to get started",
+  "uploadSupport": "Upload a JPG, PNG or WebP image, or paste one directly from your clipboard.",
+  "chooseImage": "Choose an Image",
+  "pasteHint": "You can also paste an image with Ctrl + V or ⌘ + V",
+  "formatLimitLine": "JPG, PNG and WebP • Up to {maxFileSize} • No account required",
+  "privacyLine": "Your guest files stay private and are automatically deleted within one hour.",
+  "defaultActionLabel": "Start with Image Compression",
+  "trust": [
+    {
+      "title": "No Account Required",
+      "body": "Use essential image tools instantly as a guest."
+    },
+    {
+      "title": "Private Processing",
+      "body": "Files remain in protected temporary storage."
+    },
+    {
+      "title": "Automatic Deletion",
+      "body": "Guest files expire within one hour."
+    },
+    {
+      "title": "Verified Results",
+      "body": "Outputs are checked by the server before download."
+    }
+  ],
+  "stats": [
+    {
+      "title": "10M+ Images Processed",
+      "body": "Trusted workflows for everyday optimization."
+    },
+    {
+      "title": "100% Private & Secure",
+      "body": "Temporary storage with short-lived access."
+    },
+    {
+      "title": "1 Hour Automatic Deletion",
+      "body": "Guest files expire on a fixed schedule."
+    },
+    {
+      "title": "No Watermark Clean Download",
+      "body": "Download verified results without branding."
+    }
+  ],
+  "toolsEyebrow": "Everything you need",
+  "toolsHeading": "Powerful Image Tools, Ready When You Are",
+  "toolsDescription": "Handle everyday image tasks from one clean workspace. Each tool is designed to be simple for beginners while still giving professionals the controls they need.",
+  "openTool": "Open tool",
+  "exploreAllTools": "Explore all tools",
+  "tools": [
+    {
+      "href": "/compress-image",
+      "title": "Compress Image",
+      "body": "Reduce JPG, PNG and WebP file sizes while keeping the result clear and usable.",
+      "icon": "compress"
+    },
+    {
+      "href": "/resize-image",
+      "title": "Resize Image",
+      "body": "Change image dimensions by width, height or fit-inside settings without unwanted enlargement.",
+      "icon": "resize"
+    },
+    {
+      "href": "/crop-image",
+      "title": "Crop Image",
+      "body": "Select the exact area you want to keep with free and fixed-ratio crop controls.",
+      "icon": "crop"
+    },
+    {
+      "href": "/convert-image",
+      "title": "Convert Image",
+      "body": "Convert between JPG, PNG, WebP and supported AVIF formats with safe output verification.",
+      "icon": "convert"
+    },
+    {
+      "href": "/geotag-image",
+      "title": "Geotag Image",
+      "body": "Add verified GPS coordinates to compatible JPEG images without changing the original.",
+      "icon": "geotag"
+    },
+    {
+      "href": "/image-metadata",
+      "title": "Image Metadata Viewer",
+      "body": "Inspect dimensions, color information and safe allow-listed image metadata.",
+      "icon": "metadata"
+    },
+    {
+      "href": "/image-metadata-editor",
+      "title": "Image SEO Metadata Editor",
+      "body": "Write, review and export image SEO fields for your website or content management system.",
+      "icon": "editor"
+    },
+    {
+      "href": "/bulk-image-tools",
+      "title": "Bulk Image Tools",
+      "body": "Compress, resize or convert several images and download successful results together.",
+      "icon": "bulk"
+    }
+  ],
+  "formatEyebrow": "Popular image tasks",
+  "formatHeading": "Go Straight to the Format You Need",
+  "formatDescription": "Choose a dedicated tool for your image format or conversion. Your preferred source and output settings will already be selected.",
+  "formats": [
+    {
+      "href": "/compress-jpg",
+      "label": "Compress JPG",
+      "badge": "JPG"
+    },
+    {
+      "href": "/compress-png",
+      "label": "Compress PNG",
+      "badge": "PNG"
+    },
+    {
+      "href": "/compress-webp",
+      "label": "Compress WebP",
+      "badge": "WebP"
+    },
+    {
+      "href": "/resize-jpg",
+      "label": "Resize JPG",
+      "badge": "JPG"
+    },
+    {
+      "href": "/resize-png",
+      "label": "Resize PNG",
+      "badge": "PNG"
+    },
+    {
+      "href": "/resize-webp",
+      "label": "Resize WebP",
+      "badge": "WebP"
+    },
+    {
+      "href": "/jpg-to-png",
+      "label": "JPG to PNG",
+      "badge": "JPG→PNG"
+    },
+    {
+      "href": "/jpg-to-webp",
+      "label": "JPG to WebP",
+      "badge": "JPG→WebP"
+    },
+    {
+      "href": "/png-to-jpg",
+      "label": "PNG to JPG",
+      "badge": "PNG→JPG"
+    },
+    {
+      "href": "/png-to-webp",
+      "label": "PNG to WebP",
+      "badge": "PNG→WebP"
+    },
+    {
+      "href": "/webp-to-jpg",
+      "label": "WebP to JPG",
+      "badge": "WebP→JPG"
+    },
+    {
+      "href": "/webp-to-png",
+      "label": "WebP to PNG",
+      "badge": "WebP→PNG"
+    }
+  ],
+  "platformEyebrow": "One private image workspace",
+  "platformHeading": "From Upload to Download Without the Usual Complexity",
+  "platformP1": "Img Pilot brings the most useful image workflows into one consistent experience. You do not need to learn a different interface for every task. Upload your image, choose the settings that matter, process it securely and download the verified result.",
+  "platformP2": "The same workflow supports quick single-image jobs, format-specific landing pages and selected bulk operations. Guest tools require no account, while signed-in users can access projects and longer-term workspace features.",
+  "platformFeatures": [
+    "One consistent tool workspace",
+    "Clear before-and-after information",
+    "Private temporary guest storage",
+    "Individual and selected bulk workflows",
+    "English and Urdu interfaces",
+    "Server-verified outputs"
+  ],
+  "whyEyebrow": "Built around clarity and control",
+  "whyHeading": "Image Tools That Respect Your Time and Your Files",
+  "whyIntro": "Every workflow is designed to remove unnecessary steps while keeping the important controls visible. You always know what will happen to your image, what the result contains and when temporary files will be removed.",
+  "benefits": [
+    {
+      "title": "Start Immediately",
+      "body": "Use core guest tools without registration, software installation or a project setup process."
+    },
+    {
+      "title": "Keep the Original Safe",
+      "body": "Processing creates a new result while the uploaded original remains unchanged."
+    },
+    {
+      "title": "Know What Changed",
+      "body": "Compare dimensions, formats and file sizes before downloading the final result."
+    },
+    {
+      "title": "Work Across Formats",
+      "body": "Use dedicated workflows for JPG, PNG and WebP with honest format-specific handling."
+    },
+    {
+      "title": "Protect Temporary Files",
+      "body": "Guest images and generated results are removed automatically within the retention window."
+    },
+    {
+      "title": "Prepare Images for Search",
+      "body": "Review metadata, improve filenames and organize alt text for website and CMS use."
+    }
+  ],
+  "howEyebrow": "Simple from start to finish",
+  "howHeading": "Finish Your Image Task in Four Clear Steps",
+  "steps": [
+    {
+      "title": "Upload Your Image",
+      "body": "Choose a supported image, drag it into the workspace or paste it from your clipboard."
+    },
+    {
+      "title": "Select Your Settings",
+      "body": "Choose the format, dimensions, quality, crop area or metadata options required for your task."
+    },
+    {
+      "title": "Process Securely",
+      "body": "The server performs and verifies the operation while showing clear progress and error states."
+    },
+    {
+      "title": "Download the Result",
+      "body": "Review the final details, download your file and process another image whenever needed."
+    }
+  ],
+  "beforeEyebrow": "See the difference",
+  "beforeHeading": "See the Difference Before You Download",
+  "beforeParagraph": "Clear result summaries help you understand what changed. Compare the original image with the processed version, review file size or dimensions and download only when the output matches your needs.",
+  "beforeBullets": [
+    "Original stays safe while a new result is created",
+    "Verified output with honest size and dimension details"
+  ],
+  "beforeCaption": "Product illustration — example only. Actual savings vary by image.",
+  "useEyebrow": "Designed for real work",
+  "useHeading": "Prepare Images for Websites, Content and Everyday Sharing",
+  "useCases": [
+    {
+      "title": "Websites",
+      "body": "Reduce unnecessary image weight and prepare consistent dimensions for faster, cleaner pages."
+    },
+    {
+      "title": "Online stores",
+      "body": "Organize product image formats, filenames, dimensions and metadata before publishing."
+    },
+    {
+      "title": "Social content",
+      "body": "Resize and crop images into practical aspect ratios for posts, thumbnails and campaigns."
+    },
+    {
+      "title": "Blogs and publishers",
+      "body": "Create lighter article images and prepare accessible, descriptive image text."
+    },
+    {
+      "title": "Email and documents",
+      "body": "Reduce large files so images are easier to attach, share and include in presentations."
+    },
+    {
+      "title": "Local SEO",
+      "body": "Inspect metadata, add verified JPEG coordinates and organize image SEO information for local content workflows."
+    }
+  ],
+  "seoEyebrow": "More than basic editing",
+  "seoHeading": "Turn Ordinary Images Into Better Website Assets",
+  "seoP1": "Image optimization is not only about reducing file size. Clear filenames, accurate alternative text, appropriate dimensions and useful metadata can make image libraries easier to manage and website content more accessible.",
+  "seoP2": "Img Pilot includes tools for inspecting metadata, drafting image SEO fields and exporting information for use in a website or CMS.",
+  "seoLinks": [
+    {
+      "href": "/image-metadata",
+      "label": "View Image Metadata"
+    },
+    {
+      "href": "/image-metadata-editor",
+      "label": "Edit Image SEO Metadata"
+    },
+    {
+      "href": "/geotag-image",
+      "label": "Geotag a JPEG"
+    }
+  ],
+  "seoDisclaimer": "SEO and accessibility tools provide assistance and recommendations. They do not guarantee search rankings or automatic compliance.",
+  "bulkEyebrow": "Working with more than one image?",
+  "bulkHeading": "Process a Small Batch Without Repeating Every Step",
+  "bulkParagraph": "Use Bulk Image Tools to compress, resize or convert several supported images with one shared set of options. Review each file separately, download individual results or collect successful outputs in a ZIP archive.",
+  "bulkBullets": [
+    "Bulk Compress",
+    "Bulk Resize",
+    "Bulk Convert",
+    "Per-file processing status",
+    "Individual downloads",
+    "ZIP archive for successful results"
+  ],
+  "bulkCta": "Open Bulk Image Tools",
+  "bulkNotice": "Guest bulk limits apply. Larger workflows may require an account.",
+  "privacyEyebrow": "Privacy by design",
+  "privacyHeading": "Temporary Files Should Stay Temporary",
+  "privacyP1": "Guest uploads are stored privately while your selected tool is working. Your image, generated outputs and temporary result data expire within one hour. Downloading, refreshing or reprocessing does not extend that deadline.",
+  "privacyP2": "Guest sessions do not create a permanent image library. Sign in only when you need projects or longer-term account features.",
+  "privacyFacts": [
+    "Private temporary object storage",
+    "Short-lived previews and downloads",
+    "No public guest image URL",
+    "Automatic cleanup",
+    "No permanent guest history",
+    "Original files remain unchanged during processing"
+  ],
+  "privacyCta": "Read Our Privacy Policy",
+  "formatsHeading": "Work With the Image Formats You Use Most",
+  "formatsParagraph": "Core guest tools support JPG, PNG and WebP images. Available output formats and metadata features depend on the selected operation and the capabilities of each image format.",
+  "formatCards": [
+    {
+      "title": "JPG",
+      "body": "A practical format for photographs, web content and smaller lossy image files.",
+      "href": "/compress-jpg"
+    },
+    {
+      "title": "PNG",
+      "body": "A lossless format commonly used for graphics and images that require transparency.",
+      "href": "/compress-png"
+    },
+    {
+      "title": "WebP",
+      "body": "A modern web format that can provide efficient compression with optional transparency.",
+      "href": "/compress-webp"
+    },
+    {
+      "title": "AVIF",
+      "body": "Available for supported conversion workflows when the server runtime can encode and verify it.",
+      "href": "/jpg-to-avif"
+    }
+  ],
+  "faqHeading": "Frequently asked questions",
+  "faqs": [
+    {
+      "q": "Do I need an account to use Img Pilot?",
+      "a": "No. Core guest tools can be used without creating an account. Guest limits apply, and account features are available when you need saved projects or higher workflow limits."
+    },
+    {
+      "q": "How long are guest images stored?",
+      "a": "Guest images and temporary results expire within one hour. Downloading, refreshing or reprocessing does not extend that deadline."
+    },
+    {
+      "q": "Will processing overwrite my original image?",
+      "a": "No. Processing creates a separate result. The uploaded original remains unchanged during the active guest session."
+    },
+    {
+      "q": "Which image formats are supported?",
+      "a": "Core tools support JPG, PNG and WebP. Some conversion workflows may also support AVIF when the server can encode and verify the result."
+    },
+    {
+      "q": "Can I process several images together?",
+      "a": "Yes. Bulk Image Tools support selected compress, resize and convert workflows. Guest batch limits apply."
+    },
+    {
+      "q": "Does compressing an image always make it smaller?",
+      "a": "Not always. The final size depends on the original image, its format and the selected settings. Img Pilot reports the actual result honestly, including when an output is larger."
+    },
+    {
+      "q": "Is alt text embedded inside the image?",
+      "a": "Alt text is normally added to a website or CMS record rather than universally embedded in the image file. The Metadata Editor helps you prepare and export it for use on your website."
+    },
+    {
+      "q": "Does image optimization guarantee better search rankings?",
+      "a": "No. Image optimization can support performance, organization and accessibility, but no individual image tool can guarantee search rankings."
+    }
+  ],
+  "finalHeading": "Your Next Image Is Ready to Be Optimized",
+  "finalParagraph": "Upload a JPG, PNG or WebP image and complete your task without installing software or creating an account.",
+  "finalPrimary": "Choose an Image",
+  "finalSecondary": "Explore All Tools",
+  "finalTrust": "Private guest processing · Automatic one-hour deletion · No watermark",
+  "footerBrand": "Private online tools for compressing, resizing, converting and preparing images for the web.",
+  "footerRights": "© {year} Img Pilot. All rights reserved."
+}

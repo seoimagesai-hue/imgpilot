@@ -41,7 +41,7 @@ async function main() {
     const passwordHash = await hashPassword(password);
     await db.insert(users).values({
       id,
-      name: "SEO Images Admin",
+      name: "Img Pilot Admin",
       email: emailRaw,
       passwordHash,
       role: "user",
