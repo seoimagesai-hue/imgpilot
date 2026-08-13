@@ -383,18 +383,13 @@ export function GuestToolWorkspace<TOptions>({config}: {config: GuestToolConfig<
 
   async function handleDownload() {
     if (!jobId) return;
-    const dl = await createGuestDownload(jobId);
-    if (!dl.ok) {
-      setErrorCode(dl.error);
-      trackGuestEvent({name: "guest_tool_download", toolCode: config.toolCode, ok: false});
-      return;
-    }
     const prefix = config.downloadFilenamePrefix ?? "processed";
     const suggested =
       config.buildDownloadFilename?.(fileName) ??
       (fileName ? `${prefix}-${fileName}` : `${prefix}-image`);
+    const params = new URLSearchParams({jobId, filename: suggested});
     const a = document.createElement("a");
-    a.href = dl.url;
+    a.href = `/api/guest/download/file?${params.toString()}`;
     a.download = suggested;
     a.rel = "noopener";
     document.body.appendChild(a);

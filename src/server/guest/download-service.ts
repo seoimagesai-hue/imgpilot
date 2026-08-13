@@ -8,15 +8,11 @@ import {clampGuestDownloadTtl} from "@/server/guest/download-policy";
 import {assertGuestStorageKeyOwned} from "@/server/storage/keys";
 import {getObjectStorageProvider} from "@/server/storage/provider";
 
-/**
- * Issue a short-lived signed download. Never extends expiresAt.
- */
-export async function createGuestSignedDownload(params: {
+async function resolveGuestDownloadStorageKey(params: {
   session: GuestSession;
   jobId?: string;
   uploadId?: string;
-  downloadFilename?: string;
-}): Promise<{url: string; expiresAt: string; storageKey: string}> {
+}): Promise<string> {
   if (!isR2Configured()) throw new GuestDomainError("STORAGE_NOT_CONFIGURED");
   if (isGuestExpired(params.session.expiresAt)) {
     throw new GuestDomainError("GUEST_SESSION_EXPIRED");
@@ -66,6 +62,19 @@ export async function createGuestSignedDownload(params: {
     throw new GuestDomainError("OBJECT_NOT_FOUND");
   }
 
+  return storageKey;
+}
+
+/**
+ * Issue a short-lived signed download. Never extends expiresAt.
+ */
+export async function createGuestSignedDownload(params: {
+  session: GuestSession;
+  jobId?: string;
+  uploadId?: string;
+  downloadFilename?: string;
+}): Promise<{url: string; expiresAt: string; storageKey: string}> {
+  const storageKey = await resolveGuestDownloadStorageKey(params);
   const ttl = clampGuestDownloadTtl(getR2SignedUrlTtlSeconds());
   const provider = await getObjectStorageProvider();
   const signed = await provider.createSignedReadUrl(storageKey, ttl, {
@@ -75,5 +84,21 @@ export async function createGuestSignedDownload(params: {
     url: signed.url,
     expiresAt: signed.expiresAt.toISOString(),
     storageKey,
+  };
+}
+
+/** Same-origin file bytes for browser download (avoids cross-origin R2 `<a download>`). */
+export async function loadGuestDownloadBytes(params: {
+  session: GuestSession;
+  jobId?: string;
+  uploadId?: string;
+}): Promise<{body: Buffer; contentType: string}> {
+  const storageKey = await resolveGuestDownloadStorageKey(params);
+  const {MAX_OUTPUT_BYTES} = await import("@/server/images/processing-policy");
+  const provider = await getObjectStorageProvider();
+  const object = await provider.getObjectBuffer(storageKey, MAX_OUTPUT_BYTES);
+  return {
+    body: object.body,
+    contentType: object.contentType || "application/octet-stream",
   };
 }
