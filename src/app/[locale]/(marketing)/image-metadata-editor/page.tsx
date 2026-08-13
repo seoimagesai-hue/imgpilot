@@ -1,6 +1,5 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {metadataEditorToolConfig} from "@/components/guest/tools/metadata-editor-tool";
 import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
 import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
@@ -28,7 +27,7 @@ export default async function ImageMetadataEditorPage({params}: PageProps) {
     <ToolLandingShell
       locale={locale}
       copy={getToolLandingCopyForLocale(PATH, locale)}
-      toolConfig={metadataEditorToolConfig}
+      toolId="metadataEditor"
     />
   );
 }

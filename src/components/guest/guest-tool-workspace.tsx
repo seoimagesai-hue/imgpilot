@@ -51,7 +51,9 @@ function isNearLimit(used: number, limit: number): boolean {
 
 export function GuestToolWorkspace<TOptions>({config}: {config: GuestToolConfig<TOptions>}) {
   const t = useTranslations("guest");
-  const tTool = useTranslations(`guest.${config.messageNamespace}`);
+  /** Prefer messageNamespace; fall back to titleKey if a bad RSC serialize dropped it. */
+  const toolMessageNamespace = config.messageNamespace ?? config.titleKey;
+  const tTool = useTranslations(`guest.${toolMessageNamespace}`);
   const locale = useLocale();
   const [, startTransition] = useTransition();
   const mainRef = useRef<HTMLDivElement>(null);

@@ -1,6 +1,5 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {watermarkToolConfig} from "@/components/guest/tools/watermark-tool";
 import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
 import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
@@ -24,5 +23,11 @@ export async function generateMetadata({params}: PageProps): Promise<Metadata> {
 export default async function WatermarkImagePage({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  return <ToolLandingShell locale={locale} copy={getToolLandingCopyForLocale(PATH, locale)} toolConfig={watermarkToolConfig} />;
+  return (
+    <ToolLandingShell
+      locale={locale}
+      copy={getToolLandingCopyForLocale(PATH, locale)}
+      toolId="watermark"
+    />
+  );
 }

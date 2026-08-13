@@ -1,6 +1,5 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {rotateToolConfig} from "@/components/guest/tools/rotate-tool";
 import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
 import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
@@ -24,5 +23,11 @@ export async function generateMetadata({params}: PageProps): Promise<Metadata> {
 export default async function RotateImagePage({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  return <ToolLandingShell locale={locale} copy={getToolLandingCopyForLocale(PATH, locale)} toolConfig={rotateToolConfig} />;
+  return (
+    <ToolLandingShell
+      locale={locale}
+      copy={getToolLandingCopyForLocale(PATH, locale)}
+      toolId="rotate"
+    />
+  );
 }

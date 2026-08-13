@@ -1,8 +1,10 @@
 import Image from "next/image";
 import type {ReactNode} from "react";
-import {GuestToolWorkspace} from "@/components/guest/guest-tool-workspace";
-import type {GuestToolConfig} from "@/components/guest/tool-config";
 import {JsonLd} from "@/components/marketing/json-ld";
+import {
+  ToolLandingWorkspace,
+  type LandingToolId,
+} from "@/components/marketing/tool-landing-workspace";
 import {Link} from "@/i18n/navigation";
 import type {ToolLandingCopy} from "@/lib/marketing/tool-landing-copy";
 import {absoluteUrl} from "@/server/marketing/seo";
@@ -139,13 +141,13 @@ function StepArrow() {
 export function ToolLandingShell({
   locale,
   copy,
-  toolConfig,
+  toolId,
   workspace,
 }: {
   locale: string;
   copy: ToolLandingCopy;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  toolConfig?: GuestToolConfig<any>;
+  /** Client-resolved tool id — do not pass full configs across the RSC boundary. */
+  toolId?: LandingToolId;
   /** Optional custom workspace (bulk / special pages). Defaults to GuestToolWorkspace. */
   workspace?: ReactNode;
 }) {
@@ -170,13 +172,11 @@ export function ToolLandingShell({
   ];
 
   const marketingPresentation = {
-    ...toolConfig?.presentation,
     landingChrome: "marketing" as const,
-    dropLabel: toolConfig?.presentation?.dropLabel ?? "Drop an image here or click to upload",
-    supportLabel: toolConfig?.presentation?.supportLabel ?? "",
-    browseLabel: toolConfig?.presentation?.browseLabel ?? "Choose an Image",
-    formatsHint:
-      toolConfig?.presentation?.formatsHint ?? "You can also paste an image with Ctrl + V",
+    dropLabel: "Drop an image here or click to upload",
+    supportLabel: "",
+    browseLabel: "Choose an Image",
+    formatsHint: "You can also paste an image with Ctrl + V",
     ...(copy.path === "/compress-image" ? {marketingCompressPresets: true} : null),
   };
 
@@ -233,14 +233,8 @@ export function ToolLandingShell({
                 className="relative rounded-[28px] border border-slate-200 bg-white p-2 shadow-[0_28px_70px_-40px_rgba(37,99,235,0.55)] sm:p-3"
               >
                 {workspace ??
-                  (toolConfig ? (
-                    <GuestToolWorkspace
-                      config={{
-                        ...toolConfig,
-                        hideToolHeader: true,
-                        presentation: marketingPresentation,
-                      }}
-                    />
+                  (toolId ? (
+                    <ToolLandingWorkspace toolId={toolId} presentation={marketingPresentation} />
                   ) : null)}
               </div>
               {copy.workspaceNote ? (

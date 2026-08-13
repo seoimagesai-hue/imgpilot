@@ -1,6 +1,5 @@
 import {setRequestLocale} from "next-intl/server";
 import type {Metadata} from "next";
-import {geotagToolConfig} from "@/components/guest/tools/geotag-tool";
 import {ToolLandingShell} from "@/components/marketing/tool-landing-shell";
 import type {AppLocale} from "@/i18n/routing";
 import {getToolLandingCopyForLocale} from "@/lib/marketing/tool-landing-copy";
@@ -24,5 +23,11 @@ export async function generateMetadata({params}: PageProps): Promise<Metadata> {
 export default async function GeotagImagePage({params}: PageProps) {
   const {locale} = await params;
   setRequestLocale(locale);
-  return <ToolLandingShell locale={locale} copy={getToolLandingCopyForLocale(PATH, locale)} toolConfig={geotagToolConfig} />;
+  return (
+    <ToolLandingShell
+      locale={locale}
+      copy={getToolLandingCopyForLocale(PATH, locale)}
+      toolId="geotag"
+    />
+  );
 }
