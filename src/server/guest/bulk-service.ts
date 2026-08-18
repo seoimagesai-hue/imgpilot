@@ -3,7 +3,7 @@
  * Bounded synchronous child jobs (sequential) using existing createGuestJob engines.
  */
 
-import {and, desc, eq, inArray, sql, asc} from "drizzle-orm";
+import {and, desc, eq, inArray, sql, asc, lt, or} from "drizzle-orm";
 import {getDb} from "@/db";
 import {
   guestBulkJobItems,
@@ -35,7 +35,8 @@ import {enqueueGuestCleanup} from "@/server/guest/cleanup-service";
 import {clampGuestDownloadTtl} from "@/server/guest/download-policy";
 import {GuestDomainError} from "@/server/guest/errors";
 import {GUEST_ASSET_TTL_MS, isGuestExpired} from "@/server/guest/guest-policy";
-import {createGuestJob, toGuestJobPublic} from "@/server/guest/processing-service";
+import {createGuestJob, failActiveGuestJobs, toGuestJobPublic} from "@/server/guest/processing-service";
+import {incrementGuestOperations} from "@/server/guest/session-service";
 import {assertGuestStorageKeyOwned, buildGuestBulkArchiveStorageKey} from "@/server/storage/keys";
 import {getObjectStorageProvider} from "@/server/storage/provider";
 
@@ -110,6 +111,33 @@ export function toPublicBulkJob(job: GuestBulkJob, items: GuestBulkJobItem[]) {
   };
 }
 
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/** Drop abandoned picker batches so a new compress click is not blocked with 429. */
+async function releaseStaleGuestBulkJobs(sessionId: string): Promise<void> {
+  const db = getDb();
+  const now = new Date();
+  const staleBefore = new Date(now.getTime() - 15 * 60 * 1000);
+  await db
+    .update(guestBulkJobs)
+    .set({
+      status: "failed",
+      errorCode: "GUEST_BULK_ACTIVE_EXISTS",
+      completedAt: now,
+    })
+    .where(
+      and(
+        eq(guestBulkJobs.sessionId, sessionId),
+        or(
+          inArray(guestBulkJobs.status, ["draft", "uploading", "ready"]),
+          and(eq(guestBulkJobs.status, "processing"), lt(guestBulkJobs.createdAt, staleBefore)),
+        ),
+      ),
+    );
+}
+
 async function assertNoActiveBulk(sessionId: string): Promise<void> {
   const db = getDb();
   const [row] = await db
@@ -162,10 +190,12 @@ export async function createGuestBulkJob(params: {
 
   const opsLimit = getGuestMaxOpsPerDay();
   const remaining = Math.max(0, opsLimit - params.session.operationsUsed);
-  if (files.length > remaining) {
+  if (remaining < 1) {
     throw new GuestDomainError("GUEST_LIMIT_REACHED");
   }
 
+  await releaseStaleGuestBulkJobs(params.session.id);
+  await failActiveGuestJobs(params.session.id);
   await assertNoActiveBulk(params.session.id);
 
   const tool = params.toolCode as GuestBulkToolCode;
@@ -310,9 +340,7 @@ export async function processGuestBulkJob(params: {
   }
   const db = getDb();
   const {job, items} = await getGuestBulkJob(params);
-  const toProcess = items.filter(
-    (i) => i.status === "validated" || (i.status === "failed" && Boolean(i.uploadId)),
-  );
+  const toProcess = items.filter((i) => Boolean(i.uploadId));
   if (!toProcess.length) throw new GuestDomainError("GUEST_BULK_NOT_READY");
 
   await db
@@ -320,7 +348,8 @@ export async function processGuestBulkJob(params: {
     .set({status: "processing", startedAt: job.startedAt ?? new Date(), errorCode: null})
     .where(eq(guestBulkJobs.id, job.id));
 
-  let skipped = 0;
+  await failActiveGuestJobs(params.session.id);
+  await incrementGuestOperations(params.session.id);
 
   for (const item of toProcess) {
     if (!item.uploadId) {
@@ -328,7 +357,6 @@ export async function processGuestBulkJob(params: {
         .update(guestBulkJobItems)
         .set({status: "skipped", errorCode: "OBJECT_NOT_FOUND", updatedAt: new Date()})
         .where(eq(guestBulkJobItems.id, item.id));
-      skipped += 1;
       continue;
     }
     await db
@@ -342,12 +370,38 @@ export async function processGuestBulkJob(params: {
         .from(guestSessions)
         .where(eq(guestSessions.id, params.session.id))
         .limit(1);
-      const child = await createGuestJob({
-        session: freshSession ?? params.session,
-        uploadId: item.uploadId,
-        operation: job.operation,
-        options: job.options ?? undefined,
-      });
+      let child: Awaited<ReturnType<typeof createGuestJob>> | null = null;
+      let lastError: unknown = null;
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          child = await createGuestJob({
+            session: freshSession ?? params.session,
+            uploadId: item.uploadId,
+            operation: job.operation,
+            options: job.options ?? undefined,
+            bulkChild: true,
+          });
+          lastError = null;
+          break;
+        } catch (error) {
+          lastError = error;
+          const code = error instanceof GuestDomainError ? error.code : "";
+          if (
+            code === "GUEST_ACTIVE_JOB_EXISTS" ||
+            code === "GUEST_LIMIT_REACHED" ||
+            code === "INTERNAL_ERROR"
+          ) {
+            await sleep(250 * (attempt + 1));
+            continue;
+          }
+          throw error;
+        }
+      }
+      if (!child) {
+        throw lastError instanceof GuestDomainError
+          ? lastError
+          : new GuestDomainError("INTERNAL_ERROR");
+      }
       const publicChild = toGuestJobPublic(child);
       if (child.status === "completed") {
         await db
@@ -381,13 +435,21 @@ export async function processGuestBulkJob(params: {
           updatedAt: new Date(),
         })
         .where(eq(guestBulkJobItems.id, item.id));
-      if (code === "GUEST_LIMIT_REACHED" || code === "GUEST_SESSION_EXPIRED") {
+      if (code === "GUEST_SESSION_EXPIRED") {
         break;
       }
     }
   }
 
-  void skipped;
+  await db
+    .update(guestBulkJobItems)
+    .set({status: "skipped", errorCode: "OBJECT_NOT_FOUND", updatedAt: new Date()})
+    .where(
+      and(
+        eq(guestBulkJobItems.bulkJobId, job.id),
+        inArray(guestBulkJobItems.status, ["pending", "validated", "processing"]),
+      ),
+    );
 
   const finalItems = await db
     .select()

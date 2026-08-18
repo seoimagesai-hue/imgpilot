@@ -14,6 +14,7 @@ import {
 } from "@/server/guest/compress-policy";
 import {enqueueGuestCleanup} from "@/server/guest/cleanup-service";
 import {GuestDomainError} from "@/server/guest/errors";
+import {getGuestSourceObject} from "@/server/guest/source-cache";
 import {buildGuestOutputStorageKey} from "@/server/storage/keys";
 import {getObjectStorageProvider} from "@/server/storage/provider";
 import {
@@ -52,11 +53,16 @@ function encodeWithQuality(
 ): Sharp {
   switch (format) {
     case "jpeg":
-      return pipeline.jpeg({quality, mozjpeg: true});
+      return pipeline.jpeg({
+        quality,
+        mozjpeg: true,
+        optimiseScans: false,
+        optimizeScans: false,
+      });
     case "png":
-      return pipeline.png({compressionLevel: pngLevelFromGuestQuality(quality), effort: 7});
+      return pipeline.png({compressionLevel: pngLevelFromGuestQuality(quality), effort: 3});
     case "webp":
-      return pipeline.webp({quality});
+      return pipeline.webp({quality, effort: 3});
     case "avif":
       throw new GuestDomainError("UNSUPPORTED_MEDIA_TYPE");
   }
@@ -154,7 +160,7 @@ export async function executeGuestCompressJob(params: {
 
   const maxBytes = getGuestMaxFileBytes();
   const storage = await getObjectStorageProvider();
-  const source = await storage.getObjectBuffer(params.upload.storageKey, maxBytes);
+  const source = await getGuestSourceObject(params.upload.storageKey, maxBytes);
 
   const compressed = await compressBuffer({
     body: source.body,

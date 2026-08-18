@@ -151,6 +151,14 @@ export async function assertGuestCanStartOperation(session: GuestSession): Promi
   }
 }
 
+/** Uploads may proceed while a previous job is finishing — only the daily ops cap applies. */
+export async function assertGuestCanAuthorizeUpload(session: GuestSession): Promise<void> {
+  const limit = getGuestMaxOpsPerDay();
+  if (session.operationsUsed >= limit) {
+    throw new GuestDomainError("GUEST_LIMIT_REACHED");
+  }
+}
+
 export async function incrementGuestOperations(sessionId: string): Promise<void> {
   const db = getDb();
   await db

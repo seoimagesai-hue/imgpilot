@@ -530,7 +530,7 @@ export function PublicHeader({access}: {access?: UserAccessContext} = {}) {
 
         <nav
           ref={navRef}
-          className="relative z-10 hidden min-w-0 flex-1 items-center justify-center gap-0.5 overflow-hidden px-1 2xl:flex"
+          className="relative z-10 hidden min-w-0 flex-1 items-center justify-center gap-0.5 overflow-visible px-1 2xl:flex"
           aria-label={tNav("tools")}
         >
           <MenuButton id="image" label={tChrome("imageTools")} />

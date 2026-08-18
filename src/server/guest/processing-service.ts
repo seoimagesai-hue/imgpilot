@@ -195,6 +195,18 @@ async function enqueuePreviousOutputs(params: {
   }
 }
 
+export async function failActiveGuestJobs(sessionId: string): Promise<void> {
+  const db = getDb();
+  await db
+    .update(guestJobs)
+    .set({
+      status: "failed",
+      completedAt: new Date(),
+      errorCode: "GUEST_ACTIVE_JOB_EXISTS",
+    })
+    .where(and(eq(guestJobs.sessionId, sessionId), inArray(guestJobs.status, ["queued", "running"])));
+}
+
 /**
  * Create and execute a guest processing job (noop, compress, resize, crop, convert).
  */
@@ -203,6 +215,8 @@ export async function createGuestJob(params: {
   uploadId: string;
   operation?: string;
   options?: unknown;
+  /** Sequential bulk children already reserved a slot — do not block the rest of the batch. */
+  bulkChild?: boolean;
 }): Promise<GuestJob> {
   if (isGuestExpired(params.session.expiresAt)) {
     throw new GuestDomainError("GUEST_SESSION_EXPIRED");
@@ -236,7 +250,11 @@ export async function createGuestJob(params: {
     });
   }
 
-  await assertGuestCanStartOperation(params.session);
+  if (params.bulkChild) {
+    await failActiveGuestJobs(params.session.id);
+  } else {
+    await assertGuestCanStartOperation(params.session);
+  }
 
   let jobOptions: ParsedJobOptions = null;
   if (operation === GUEST_COMPRESS_OPERATION) {
@@ -428,7 +446,9 @@ export async function createGuestJob(params: {
     .returning();
   if (!job) throw new GuestDomainError("INTERNAL_ERROR");
 
-  await incrementGuestOperations(params.session.id);
+  if (!params.bulkChild) {
+    await incrementGuestOperations(params.session.id);
+  }
 
   const running = await transitionGuestJob(job.id, params.session.id, "running");
 

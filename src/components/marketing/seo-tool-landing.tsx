@@ -7,9 +7,9 @@ import {getToolLanding} from "@/lib/marketing/tool-landing-registry";
 
 const MARKETING_UPLOAD = {
   landingChrome: "marketing" as const,
-  dropLabel: "Drop an image here or click to upload",
+  dropLabel: "Drop Your Files Here",
   supportLabel: "",
-  browseLabel: "Choose an Image",
+  browseLabel: "Select Files",
   formatsHint: "You can also paste an image with Ctrl + V",
 };
 

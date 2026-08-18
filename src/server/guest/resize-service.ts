@@ -13,6 +13,7 @@ import {
 } from "@/server/guest/resize-policy";
 import {enqueueGuestCleanup} from "@/server/guest/cleanup-service";
 import {GuestDomainError} from "@/server/guest/errors";
+import {getGuestSourceObject} from "@/server/guest/source-cache";
 import {buildGuestOutputStorageKey} from "@/server/storage/keys";
 import {getObjectStorageProvider} from "@/server/storage/provider";
 import {
@@ -46,11 +47,16 @@ export type GuestResizeResultSummary = {
 function encodeSameFormat(pipeline: Sharp, format: ProcessingSourceFormat): Sharp {
   switch (format) {
     case "jpeg":
-      return pipeline.jpeg({quality: 82, mozjpeg: true});
+      return pipeline.jpeg({
+        quality: 82,
+        mozjpeg: true,
+        optimiseScans: false,
+        optimizeScans: false,
+      });
     case "png":
-      return pipeline.png({compressionLevel: 8, effort: 7});
+      return pipeline.png({compressionLevel: 8, effort: 3});
     case "webp":
-      return pipeline.webp({quality: 82});
+      return pipeline.webp({quality: 82, effort: 3});
     case "avif":
       throw new GuestDomainError("UNSUPPORTED_MEDIA_TYPE");
   }
@@ -105,7 +111,7 @@ export async function executeGuestResizeJob(params: {
 
   const maxBytes = getGuestMaxFileBytes();
   const storage = await getObjectStorageProvider();
-  const source = await storage.getObjectBuffer(params.upload.storageKey, maxBytes);
+  const source = await getGuestSourceObject(params.upload.storageKey, maxBytes);
 
   let pipeline = sharp(source.body, {
     failOn: "error",

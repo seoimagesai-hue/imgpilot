@@ -6,7 +6,7 @@ import {getGuestMaxFileBytes, isR2Configured} from "@/lib/env";
 import {GuestDomainError} from "@/server/guest/errors";
 import {isGuestExpired} from "@/server/guest/guest-policy";
 import {
-  assertGuestCanStartOperation,
+  assertGuestCanAuthorizeUpload,
 } from "@/server/guest/session-service";
 import {
   validateGuestImageBuffer,
@@ -22,6 +22,7 @@ import {
   buildGuestOriginalStorageKey,
 } from "@/server/storage/keys";
 import {enqueueGuestCleanup} from "@/server/guest/cleanup-service";
+import {rememberGuestSourceObject} from "@/server/guest/source-cache";
 
 export async function authorizeGuestUpload(params: {
   session: GuestSession;
@@ -39,7 +40,7 @@ export async function authorizeGuestUpload(params: {
   if (isGuestExpired(params.session.expiresAt)) {
     throw new GuestDomainError("GUEST_SESSION_EXPIRED");
   }
-  await assertGuestCanStartOperation(params.session);
+  await assertGuestCanAuthorizeUpload(params.session);
   validateGuestUploadDeclaration({
     originalFilename: params.originalFilename,
     mimeType: params.mimeType,
@@ -171,6 +172,8 @@ export async function confirmGuestUpload(params: {
       ? error
       : new GuestDomainError("VALIDATION_FAILED");
   }
+
+  rememberGuestSourceObject(buffer);
 
   const [updated] = await db
     .update(guestUploads)

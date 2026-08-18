@@ -1,20 +1,32 @@
 "use client";
 
-import {BulkToolWorkspace} from "@/components/guest/bulk-tool-workspace";
+import {HomeStyleToolEntry} from "@/components/guest/home-style-tool-entry";
+import {
+  actionLabelForTool,
+  bulkOptionsForTool,
+} from "@/components/guest/landing-home-style-workspace";
+import type {LandingToolId} from "@/components/marketing/tool-landing-workspace";
+import {isGuestBulkToolCode, type GuestBulkToolCode} from "@/lib/guest/bulk-policy";
 
 export function BulkToolLandingWorkspace({initialTool}: {initialTool?: string}) {
+  const tool: GuestBulkToolCode = isGuestBulkToolCode(initialTool || "")
+    ? (initialTool as GuestBulkToolCode)
+    : "compress";
+  const toolId = tool as LandingToolId;
+
   return (
-    <BulkToolWorkspace
-      initialTool={initialTool}
-      presentation={{
-        hideToolHeader: true,
-        hideSingleOnlyNote: true,
-        embedded: true,
-        dropTitle: "Drop images here or click to upload",
-        dropHint: "Upload JPG, PNG or WebP images for bulk processing.",
-        browseLabel: "Choose Images",
-        formatsHint: "Supported: JPG, PNG, WebP · Auto-delete after guest session",
-      }}
+    <HomeStyleToolEntry
+      heading="Drop Your Files Here"
+      support=""
+      chooseLabel="Select Files"
+      pasteHint="You can also paste an image with Ctrl + V"
+      maxMb={10}
+      showFormatTabs={false}
+      toolId={toolId}
+      actionLabel={actionLabelForTool(toolId)}
+      bulkTool={tool}
+      bulkOptions={bulkOptionsForTool(toolId)}
+      showFooter={false}
     />
   );
 }

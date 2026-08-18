@@ -84,6 +84,10 @@ async function parseJson<T>(res: Response): Promise<{ok: true} & T | {ok: false;
   return data;
 }
 
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 export function BulkToolWorkspace({
   initialTool,
   presentation,
@@ -245,6 +249,7 @@ export function BulkToolWorkspace({
 
   async function processBatch() {
     if (!policy) return;
+    if (stage === "busy") return;
     const ready = files.filter((f) => f.status === "selected" || f.status === "validated");
     if (!ready.length) return;
 
@@ -260,21 +265,33 @@ export function BulkToolWorkspace({
     }
     setExpiresAt(session.expiresAt);
 
-    const createRes = await fetch("/api/guest/bulk", {
-      method: "POST",
-      credentials: "include",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({
-        toolCode: tool,
-        options: buildOptions(),
-        files: ready.map((f) => ({
-          originalFilename: f.file.name,
-          mimeType: f.file.type || "application/octet-stream",
-          sizeBytes: f.file.size,
-        })),
-      }),
-    });
-    const created = await parseJson<PublicBulkJob>(createRes);
+    let created: ({ok: true} & PublicBulkJob) | {ok: false; error: SafeGuestErrorCode} = {
+      ok: false,
+      error: "INTERNAL_ERROR",
+    };
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const createRes = await fetch("/api/guest/bulk", {
+        method: "POST",
+        credentials: "include",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          toolCode: tool,
+          options: buildOptions(),
+          files: ready.map((f) => ({
+            originalFilename: f.file.name,
+            mimeType: f.file.type || "application/octet-stream",
+            sizeBytes: f.file.size,
+          })),
+        }),
+      });
+      created = await parseJson<PublicBulkJob>(createRes);
+      if (created.ok) break;
+      if (created.error === "GUEST_BULK_ACTIVE_EXISTS" || created.error === "GUEST_ACTIVE_JOB_EXISTS") {
+        await delay(400 * (attempt + 1));
+        continue;
+      }
+      break;
+    }
     if (!created.ok) {
       setErrorCode(created.error);
       setStage(created.error === "GUEST_LIMIT_REACHED" ? "gated" : "error");
@@ -283,10 +300,10 @@ export function BulkToolWorkspace({
     }
 
     setBulkJob(created);
+    const bulkJobId = created.bulkJobId;
     const itemByIndex = created.items;
 
-    // Upload with concurrency 3
-    const queue = ready.map((f, i) => ({file: f, item: itemByIndex[i]!}));
+    const queue = ready.map((f, i) => ({file: f, item: itemByIndex[i]!})).filter((entry) => entry.item);
     let cursor = 0;
     const workers = Array.from({length: Math.min(policy.uploadConcurrency, queue.length)}, async () => {
       while (cursor < queue.length) {
@@ -295,66 +312,89 @@ export function BulkToolWorkspace({
         setFiles((prev) =>
           prev.map((p) => (p.key === entry.file.key ? {...p, status: "uploading", itemId: entry.item.itemId} : p)),
         );
-        const authz = await authorizeGuestUpload({
-          originalFilename: entry.file.file.name,
-          mimeType: entry.file.file.type || "image/jpeg",
-          sizeBytes: entry.file.file.size,
-        });
-        if (!authz.ok) {
-          setFiles((prev) =>
-            prev.map((p) =>
-              p.key === entry.file.key ? {...p, status: "failed", error: authz.error} : p,
-            ),
-          );
-          continue;
-        }
-        try {
-          await putToPresignedUrl(authz.uploadUrl, entry.file.file, authz.headers);
-          const confirmed = await confirmGuestUpload(authz.uploadId);
-          if (!confirmed.ok) {
-            setFiles((prev) =>
-              prev.map((p) =>
-                p.key === entry.file.key ? {...p, status: "failed", error: confirmed.error} : p,
-              ),
-            );
-            continue;
-          }
-          const attachRes = await fetch(`/api/guest/bulk/${created.bulkJobId}/attach`, {
-            method: "POST",
-            credentials: "include",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify({itemId: entry.item.itemId, uploadId: authz.uploadId}),
+        let uploaded = false;
+        for (let attempt = 0; attempt < 3 && !uploaded; attempt++) {
+          const authz = await authorizeGuestUpload({
+            originalFilename: entry.file.file.name,
+            mimeType: entry.file.file.type || "image/jpeg",
+            sizeBytes: entry.file.file.size,
           });
-          const attached = await parseJson<PublicBulkJob>(attachRes);
-          if (!attached.ok) {
+          if (!authz.ok) {
+            if (
+              (authz.error === "GUEST_ACTIVE_JOB_EXISTS" || authz.error === "STORAGE_UNAVAILABLE") &&
+              attempt < 2
+            ) {
+              await delay(300 * (attempt + 1));
+              continue;
+            }
             setFiles((prev) =>
               prev.map((p) =>
-                p.key === entry.file.key ? {...p, status: "failed", error: attached.error} : p,
+                p.key === entry.file.key ? {...p, status: "failed", error: authz.error} : p,
               ),
             );
-            continue;
+            break;
           }
-          setFiles((prev) =>
-            prev.map((p) =>
-              p.key === entry.file.key
-                ? {...p, status: "validated", uploadId: authz.uploadId, itemId: entry.item.itemId}
-                : p,
-            ),
-          );
-          setBulkJob(attached);
-        } catch {
-          setFiles((prev) =>
-            prev.map((p) =>
-              p.key === entry.file.key ? {...p, status: "failed", error: "STORAGE_UNAVAILABLE"} : p,
-            ),
-          );
+          try {
+            await putToPresignedUrl(authz.uploadUrl, entry.file.file, authz.headers);
+            const confirmed = await confirmGuestUpload(authz.uploadId);
+            if (!confirmed.ok) {
+              if (attempt < 2) {
+                await delay(300 * (attempt + 1));
+                continue;
+              }
+              setFiles((prev) =>
+                prev.map((p) =>
+                  p.key === entry.file.key ? {...p, status: "failed", error: confirmed.error} : p,
+                ),
+              );
+              break;
+            }
+            const attachRes = await fetch(`/api/guest/bulk/${bulkJobId}/attach`, {
+              method: "POST",
+              credentials: "include",
+              headers: {"Content-Type": "application/json"},
+              body: JSON.stringify({itemId: entry.item.itemId, uploadId: authz.uploadId}),
+            });
+            const attached = await parseJson<PublicBulkJob>(attachRes);
+            if (!attached.ok) {
+              if (attempt < 2) {
+                await delay(300 * (attempt + 1));
+                continue;
+              }
+              setFiles((prev) =>
+                prev.map((p) =>
+                  p.key === entry.file.key ? {...p, status: "failed", error: attached.error} : p,
+                ),
+              );
+              break;
+            }
+            uploaded = true;
+            setFiles((prev) =>
+              prev.map((p) =>
+                p.key === entry.file.key
+                  ? {...p, status: "validated", uploadId: authz.uploadId, itemId: entry.item.itemId}
+                  : p,
+              ),
+            );
+            setBulkJob(attached);
+          } catch {
+            if (attempt < 2) {
+              await delay(300 * (attempt + 1));
+              continue;
+            }
+            setFiles((prev) =>
+              prev.map((p) =>
+                p.key === entry.file.key ? {...p, status: "failed", error: "STORAGE_UNAVAILABLE"} : p,
+              ),
+            );
+          }
         }
       }
     });
     await Promise.all(workers);
 
     setStatus(t("processing"));
-    const processRes = await fetch(`/api/guest/bulk/${created.bulkJobId}/process`, {
+    const processRes = await fetch(`/api/guest/bulk/${bulkJobId}/process`, {
       method: "POST",
       credentials: "include",
     });

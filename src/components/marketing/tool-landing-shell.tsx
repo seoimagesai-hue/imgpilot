@@ -1,10 +1,8 @@
 import Image from "next/image";
 import type {ReactNode} from "react";
+import {LandingHomeStyleWorkspace} from "@/components/guest/landing-home-style-workspace";
 import {JsonLd} from "@/components/marketing/json-ld";
-import {
-  ToolLandingWorkspace,
-  type LandingToolId,
-} from "@/components/marketing/tool-landing-workspace";
+import type {LandingToolId} from "@/components/marketing/tool-landing-workspace";
 import {Link} from "@/i18n/navigation";
 import type {ToolLandingCopy} from "@/lib/marketing/tool-landing-copy";
 import {absoluteUrl} from "@/server/marketing/seo";
@@ -27,12 +25,6 @@ const HOW_STEP_IMAGES = [
     src: "/illustrations/how-it-works-download.png",
     alt: "Download the finished file",
   },
-] as const;
-
-const FLOAT_BADGES = [
-  {label: "JPG", className: "bg-rose-500", pos: "-left-1 -top-3 sm:-left-3 sm:-top-4"},
-  {label: "PNG", className: "bg-emerald-500", pos: "left-1/2 -top-4 -translate-x-1/2 sm:-top-5"},
-  {label: "WEBP", className: "bg-violet-500", pos: "-right-1 -top-3 sm:-right-3 sm:-top-4"},
 ] as const;
 
 const FEATURE_ICON_WRAP: Record<ToolLandingCopy["features"][number]["tone"], string> = {
@@ -171,20 +163,11 @@ export function ToolLandingShell({
     },
   ];
 
-  const marketingPresentation = {
-    landingChrome: "marketing" as const,
-    dropLabel: "Drop an image here or click to upload",
-    supportLabel: "",
-    browseLabel: "Choose an Image",
-    formatsHint: "You can also paste an image with Ctrl + V",
-    ...(copy.path === "/compress-image" ? {marketingCompressPresets: true} : null),
-  };
-
   return (
     <main id="main-content" className="bg-white pb-0">
       <JsonLd data={jsonLd} />
 
-      {/* 1. Hero — copy left, upload right */}
+      {/* 1. Hero — copy above, upload centered */}
       <section className="border-b border-slate-200/70 bg-gradient-to-b from-[#f5f9ff] via-white to-white">
         <div className="marketing-container space-y-8 py-8 sm:py-12 lg:py-14">
           <nav aria-label="Breadcrumb" className="text-sm text-slate-500">
@@ -201,48 +184,29 @@ export function ToolLandingShell({
             </ol>
           </nav>
 
-          <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] xl:gap-14">
-            <div className="space-y-5">
-              <h1 className="text-balance text-[clamp(2rem,3.8vw,3.25rem)] font-bold tracking-tight text-slate-900">
-                {copy.h1}
-              </h1>
-              <p className="text-lg font-semibold text-[var(--accent)] sm:text-xl">{copy.subtitle}</p>
-              <p className="max-w-xl text-base leading-relaxed text-slate-600">{copy.paragraph}</p>
-              <ul className="flex flex-wrap gap-x-5 gap-y-3 pt-1">
-                {copy.trust.map((label, index) => (
-                  <li key={label} className="inline-flex items-center gap-2.5 text-sm font-medium text-slate-700">
-                    <TrustIcon index={index} />
-                    <span>{label}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="relative mx-auto w-full max-w-[540px] pt-4 lg:mx-0 lg:max-w-none">
-              {FLOAT_BADGES.map((badge) => (
-                <span
-                  key={badge.label}
-                  className={`home-float absolute z-[2] inline-flex rounded-lg px-2.5 py-1 text-[10px] font-bold tracking-wide text-white shadow-md ${badge.className} ${badge.pos}`}
-                  dir="ltr"
-                >
-                  {badge.label}
-                </span>
+          <div className="mx-auto max-w-3xl space-y-5 text-center">
+            <h1 className="text-balance text-[clamp(2rem,3.8vw,3.25rem)] font-bold tracking-tight text-slate-900">
+              {copy.h1}
+            </h1>
+            <p className="text-lg font-semibold text-[var(--accent)] sm:text-xl">{copy.subtitle}</p>
+            <p className="mx-auto max-w-xl text-base leading-relaxed text-slate-600">{copy.paragraph}</p>
+            <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 pt-1">
+              {copy.trust.map((label, index) => (
+                <li key={label} className="inline-flex items-center gap-2.5 text-sm font-medium text-slate-700">
+                  <TrustIcon index={index} />
+                  <span>{label}</span>
+                </li>
               ))}
-              <div
-                id="tool-workspace"
-                className="relative rounded-[28px] border border-slate-200 bg-white p-2 shadow-[0_28px_70px_-40px_rgba(37,99,235,0.55)] sm:p-3"
-              >
-                {workspace ??
-                  (toolId ? (
-                    <ToolLandingWorkspace toolId={toolId} presentation={marketingPresentation} />
-                  ) : null)}
-              </div>
-              {copy.workspaceNote ? (
-                <p className="mt-4 text-center text-xs leading-relaxed text-slate-500 sm:text-[13px]">
-                  {copy.workspaceNote}
-                </p>
-              ) : null}
-            </div>
+            </ul>
+          </div>
+
+          <div id="tool-workspace" className="relative mx-auto w-full max-w-[920px] pt-2">
+            {workspace ?? (toolId ? <LandingHomeStyleWorkspace toolId={toolId} /> : null)}
+            {copy.workspaceNote ? (
+              <p className="mt-4 text-center text-xs leading-relaxed text-slate-500 sm:text-[13px]">
+                {copy.workspaceNote}
+              </p>
+            ) : null}
           </div>
         </div>
       </section>
