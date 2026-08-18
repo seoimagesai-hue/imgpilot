@@ -29,12 +29,6 @@ const HOW_STEP_IMAGES = [
   },
 ] as const;
 
-const FLOAT_BADGES = [
-  {label: "JPG", className: "-left-3 top-6 sm:-left-5 sm:top-8"},
-  {label: "PNG", className: "-right-2 top-14 sm:-right-4 sm:top-16"},
-  {label: "WEBP", className: "bottom-20 -left-2 sm:bottom-24 sm:-left-5"},
-] as const;
-
 export function HomepageView({
   copy,
   locale,
@@ -76,75 +70,45 @@ export function HomepageView({
     <main id="main-content" className="pb-0">
       <JsonLd data={jsonLd} />
 
-      {/* Hero — split: copy left, upload right */}
+      {/* Hero — title + upload tool centered, matching compress-style workspace */}
       <section className="home-hero-bg">
-        <div className="marketing-container relative z-[1] section-space">
-          <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] xl:gap-14">
-            <div className="space-y-5 text-center lg:text-start">
-              <p className="inline-flex rounded-full border border-blue-100 bg-white/90 px-3.5 py-1 text-sm font-semibold text-[var(--accent)] shadow-sm">
-                {copy.heroBadge}
-              </p>
-              <h1 className="text-[clamp(2.25rem,4.2vw,3.6rem)] font-bold tracking-tight text-slate-900">
-                {copy.h1}
-              </h1>
-              <p className="mx-auto max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg lg:mx-0">
-                {copy.heroParagraph}
-              </p>
-              <ul className="mx-auto grid max-w-lg gap-3 sm:grid-cols-2 lg:mx-0 lg:max-w-none">
-                {copy.trust.map((item, index) => (
-                  <li
-                    key={item.title}
-                    className="inline-flex items-center justify-center gap-2 text-sm font-medium text-slate-700 lg:justify-start"
-                  >
-                    <HomeIcon name={TRUST_ICONS[index]!} className="!h-9 !w-9 !rounded-xl" />
-                    <span>{item.title}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="relative mx-auto w-full max-w-[520px] lg:mx-0 lg:max-w-none">
-              {FLOAT_BADGES.map((badge, i) => (
-                <span
-                  key={badge.label}
-                  className={`home-float absolute z-[2] rounded-xl border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-bold tracking-wide text-slate-700 shadow-[0_10px_30px_-18px_rgba(15,23,42,0.45)] ${badge.className}`}
-                  style={{animationDelay: `${i * 0.35}s`}}
-                  dir="ltr"
-                >
-                  {badge.label}
-                </span>
-              ))}
-              <div className="pointer-events-none absolute -bottom-3 right-3 z-[2] w-[136px] overflow-hidden rounded-2xl border border-slate-200 bg-white p-2 shadow-[0_18px_40px_-24px_rgba(15,23,42,0.5)] sm:right-4">
-                <Image
-                  src="/illustrations/compress-image-hero.webp"
-                  alt=""
-                  width={280}
-                  height={180}
-                  className="h-auto w-full rounded-lg object-cover"
-                  aria-hidden
-                />
-                <div className="mt-2 space-y-0.5 px-0.5 text-[10px] leading-tight" dir="ltr">
-                  <p className="font-semibold text-slate-500 line-through">2.8 MB Original</p>
-                  <p className="font-bold text-emerald-600">740 KB · 74% smaller</p>
-                </div>
-              </div>
-              <div
-                id="hero-upload"
-                className="relative gradient-border-card px-4 py-5 shadow-[0_24px_60px_-36px_rgba(37,99,235,0.45)] sm:px-7 sm:py-8"
-              >
-                <HomeCompressEntry
-                  heading={copy.uploadHeading}
-                  support={copy.uploadSupport}
-                  chooseLabel={copy.chooseImage}
-                  pasteHint={copy.pasteHint}
-                  formatLimitLine={copy.formatLimitLine.replace("{maxFileSize}", maxFileSizeLabel)}
-                  privacyLine={copy.privacyLine}
-                  defaultActionLabel=""
-                  maxMb={maxMb}
-                />
-              </div>
-            </div>
+        <div className="marketing-container relative z-[1] py-10 sm:py-12 lg:py-16">
+          <div className="mx-auto max-w-3xl space-y-4 text-center">
+            <p className="inline-flex rounded-full border border-blue-100 bg-white/90 px-3.5 py-1 text-sm font-semibold text-[var(--accent)] shadow-sm">
+              {copy.heroBadge}
+            </p>
+            <h1 className="text-[clamp(2.1rem,4vw,3.25rem)] font-bold tracking-tight text-slate-900">
+              {copy.h1}
+            </h1>
+            <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
+              {copy.heroParagraph}
+            </p>
           </div>
+
+          <div id="hero-upload" className="mx-auto mt-8 w-full max-w-[920px] sm:mt-10">
+            <HomeCompressEntry
+              heading={copy.uploadHeading}
+              support={copy.uploadSupport}
+              chooseLabel={copy.chooseImage}
+              pasteHint={copy.pasteHint}
+              formatLimitLine={copy.formatLimitLine.replace("{maxFileSize}", maxFileSizeLabel)}
+              privacyLine={copy.privacyLine}
+              defaultActionLabel=""
+              maxMb={maxMb}
+            />
+          </div>
+
+          <ul className="mx-auto mt-8 flex max-w-3xl flex-wrap items-center justify-center gap-x-6 gap-y-3">
+            {copy.trust.map((item, index) => (
+              <li
+                key={item.title}
+                className="inline-flex items-center gap-2 text-sm font-medium text-slate-700"
+              >
+                <HomeIcon name={TRUST_ICONS[index]!} className="!h-9 !w-9 !rounded-xl" />
+                <span>{item.title}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 

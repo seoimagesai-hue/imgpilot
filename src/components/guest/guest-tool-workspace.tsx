@@ -572,7 +572,13 @@ export function GuestToolWorkspace<TOptions>({config}: {config: GuestToolConfig<
                 hideDownload={config.hideImageDownload}
                 onProcess={() => void handleProcess()}
                 onDownload={() => void handleDownload()}
-                onProcessAnother={resetWorkspace}
+                onProcessAnother={() => {
+                  if (presentation?.onIdleReset) {
+                    presentation.onIdleReset();
+                    return;
+                  }
+                  resetWorkspace();
+                }}
                 processLabel={tTool("actions.process")}
                 processingLabel={tTool("actions.processing")}
                 downloadLabel={tTool("actions.download")}

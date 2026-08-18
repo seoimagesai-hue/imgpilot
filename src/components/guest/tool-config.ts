@@ -38,6 +38,8 @@ export type GuestToolPresentation = {
   emitResultEvents?: boolean;
   resultEventTool?: string;
   guestDeletionTitle?: string;
+  /** Homepage hero only — return to the picker chrome instead of the default dropzone. */
+  onIdleReset?: () => void;
 };
 
 export type GuestToolOptionsPanelProps<TOptions> = {
