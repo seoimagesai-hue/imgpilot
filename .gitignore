@@ -14,3 +14,7 @@ build-p*.txt
 
 tsconfig.tsbuildinfo
 
+# Generated at build time (prebuild) with production NEXT_PUBLIC_APP_URL on Vercel.
+public/sitemap.xml
+public/sitemap/
+

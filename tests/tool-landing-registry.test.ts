@@ -37,6 +37,7 @@ describe("tool landing registry", () => {
     expect(paths).toContain("/privacy");
     expect(paths).toContain("/about");
     expect(paths).toContain("/contact");
+    expect(paths).toContain("/docs/api");
     expect(paths).not.toContain("/resize-jpeg");
   });
 

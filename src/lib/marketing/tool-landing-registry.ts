@@ -3,6 +3,7 @@
  * Unique long-form body copy lives in tool-landing-content.ts — do not keyword-swap FAQ/intro templates here.
  * Pages reuse GuestToolWorkspace engines — no duplicate processors.
  */
+import {listPublishedDocs} from "@/server/marketing/docs-data";
 export type LandingOperation = "compress" | "resize" | "crop" | "convert";
 
 export type ImageFormat = "jpeg" | "png" | "webp" | "avif";
@@ -559,5 +560,6 @@ export const GENERIC_PUBLIC_TOOL_PATHS = [
 
 export function listSitemapPaths(): string[] {
   const landingPaths = listIndexableToolLandings().map((d) => `/${d.slug}`);
-  return [...GENERIC_PUBLIC_TOOL_PATHS, ...landingPaths];
+  const docPaths = listPublishedDocs().map((doc) => doc.path);
+  return [...GENERIC_PUBLIC_TOOL_PATHS, ...landingPaths, ...docPaths];
 }

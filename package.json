@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "prebuild": "npm run llms:generate",
+    "prebuild": "npm run llms:generate && npm run sitemap:generate",
     "build": "next build",
     "llms:generate": "tsx scripts/generate-llms-txt.ts",
+    "sitemap:generate": "tsx scripts/generate-sitemaps.ts",
     "start": "next start",
     "worker:processing": "tsx scripts/processing-worker.ts",
     "worker:guest-cleanup": "tsx scripts/guest-cleanup-worker.ts",
