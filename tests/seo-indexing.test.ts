@@ -28,4 +28,13 @@ describe("sitemap index", () => {
     expect(paths.length).toBeGreaterThan(20);
     expect(paths).toContain("/compress-image");
   });
+
+  it("lists every locale child in the sitemap index xml", async () => {
+    const {buildSitemapIndexXml} = await import("@/lib/marketing/sitemap-index");
+    const xml = buildSitemapIndexXml("https://imgpilot.net");
+    expect(xml).toContain("<sitemapindex");
+    expect(xml).toContain("https://imgpilot.net/sitemap/en.xml");
+    expect(xml).toContain("https://imgpilot.net/sitemap/es.xml");
+    expect(xml).toContain("https://imgpilot.net/sitemap/ur.xml");
+  });
 });

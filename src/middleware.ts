@@ -34,6 +34,12 @@ export default function middleware(request: NextRequest) {
   if (wwwRedirect) return wwwRedirect;
 
   const {pathname} = request.nextUrl;
+
+  // Metadata sitemap routes must bypass locale rewrites (see matcher below).
+  if (pathname === "/sitemap.xml" || pathname.startsWith("/sitemap/")) {
+    return NextResponse.next();
+  }
+
   const isInternalEnRewrite = request.headers.get(EN_REWRITE_HEADER) === "1";
 
   if (!isInternalEnRewrite && (pathname === "/en" || pathname.startsWith("/en/"))) {
@@ -66,5 +72,9 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
+  matcher: [
+    "/sitemap.xml",
+    "/sitemap/:path*",
+    "/((?!api|_next|_vercel|.*\\..*).*)",
+  ],
 };
