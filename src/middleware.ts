@@ -1,6 +1,7 @@
 import createMiddleware from "next-intl/middleware";
 import {NextRequest, NextResponse} from "next/server";
 import {locales, routing} from "./i18n/routing";
+import {wwwToApexHostname} from "./lib/host-redirect";
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -18,7 +19,20 @@ const EN_REWRITE_HEADER = "x-seoimages-en-rewrite";
  * pass on the rewritten path does not 301-loop).
  * Other locales → next-intl middleware.
  */
+function redirectWwwToApex(request: NextRequest): NextResponse | null {
+  const host = request.headers.get("host") ?? request.nextUrl.hostname;
+  const apexHost = wwwToApexHostname(host);
+  if (!apexHost) return null;
+
+  const url = request.nextUrl.clone();
+  url.hostname = apexHost;
+  return NextResponse.redirect(url, 301);
+}
+
 export default function middleware(request: NextRequest) {
+  const wwwRedirect = redirectWwwToApex(request);
+  if (wwwRedirect) return wwwRedirect;
+
   const {pathname} = request.nextUrl;
   const isInternalEnRewrite = request.headers.get(EN_REWRITE_HEADER) === "1";
 
